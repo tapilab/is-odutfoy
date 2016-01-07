@@ -1,5 +1,5 @@
-Here are three (fictitional!) project ideas:
+Here are three project ideas:
 
-1. **Lotto Predictor**: I will design an algorithm to predict the winning lotto numbers based on the most popular numbers on Twitter. To do so, I will use the Twitter Streaming API to collect a sample of messages for each week, then count the frequency of each number. I will then guess the week's winning lotto numbers by combining the most popular numbers. I will evaluate over 10 weeks and report accuracy and total earnings.
-2. ...
-3. ...
+1. **Fantasy Sports Predictor**: The idea would be to scan twitter (and possibly other websites such as sports or video games forums) and try to predict which players or teams are the most valuable to have in a fantasy team on a given week. My first thought was for the league of legends (a video game) championship series because i'm already familiar with the fantasy game. However the dates may be in conflict with my projects. This can however be done with basically any sports. If everything goes well, the program could be enhanced using stats from previous weeks and machine learning algorithm for better predictions.
+2. **Sarcasm detection** to improve sentiment analysis (especially when handling negation).
+3. **Efficient Context Classifier** for sentiment analysis. As we have seen, the sentiment of a word depends on it's context. To do proper sentiment analysis one must therefore be able to provide the context and sentiment of each components in given contexts.
