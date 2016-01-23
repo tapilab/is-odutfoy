@@ -1,0 +1,18 @@
+Papers and articles :
+
+  Aggregating experts opinions :
+    (Not free??) copula-models-aggregating-expert-opinions : http://connection.ebscohost.com/c/articles/9701282342/copula-models-aggregating-expert-opinions
+    (Not free) Delphi iterative methods. Cannot be applied in our case but first step might be useful : http://link.springer.com/chapter/10.1007/978-0-306-47630-3_7
+    (Not free ??) Combining Probability Distributions from Dependent Information Sources : http://pubsonline.informs.org/doi/abs/10.1287/mnsc.27.4.479
+    Combining Overlapping Information : https://faculty.fuqua.duke.edu/~clemen/bio/Published%20Papers/08.OverlappingInfo-Clemen-MS-87.pdf
+
+  Not directly related :
+    Types of fantasy sports players : http://onlinelibrary.wiley.com/doi/10.1111/j.1083-6101.2007.00370.x/full
+    Article of pro fantasy players : http://espn.go.com/chalk/story/_/id/12380815/the-skills-required-succeed-daily-fantasy-sports-espn-chalk
+  
+Fantasy Football data :
+  Week by week stats 2014 and 2015 : 
+    http://fftoday.com/stats/playerstats.php?Season=2015&GameWeek=1&PosID=10&LeagueID=1 
+    http://games.espn.go.com/ffl/leaders?&scoringPeriodId=1&seasonId=2015
+  Week by week stats from 2010 to 2015 (and excel version of 2008-2010) most complete : http://www.thehuddle.com/fantasy_football_statistics.php
+  Lots of data (1000 API calls for free) : http://fantasydata.com/products/real-time-sports-data-api.aspx
