@@ -1,0 +1,14 @@
+https://faculty.fuqua.duke.edu/~clemen/bio/Published%20Papers/26.Copula%20Models-Jouini&Clemen-OR-96.pdf
+
+This paper is an extent to COI1987 in some ways.
+
+It solves the same problem using a third (and much more complicated method)
+There are more mathematic theorem's and proof as well as additionnal notions such as concordance (whethers opinions tend to move in the same direction)
+
+The paper relies on the use of multivariate copulas (which is basically an n-dimentionnal CDF).
+
+The data used in the paper are just example fully detailed inside.
+
+The main issue remains the same with the amount of preprocessing the data would have to go through.
+
+As in COI1987, to use this method would require a clever way to go from raw text to IDD RV
