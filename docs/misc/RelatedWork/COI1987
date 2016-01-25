@@ -1,0 +1,16 @@
+https://faculty.fuqua.duke.edu/~clemen/bio/Published%20Papers/08.OverlappingInfo-Clemen-MS-87.pdf
+
+This paper solves how to aggreate information from different sources.
+The idea is how a decision maker (DM) can decide what to do when faced with different (and most likely dependent) expert's opinion.
+The paper is however simplified since the "experts" are assumed to observe IID random variables. 
+They have access to info unavailable to the DM who himself has knowledge about the experts.
+
+The main idea is to find overlapping opinions using Bayes' rule.
+The first method uses a normal distribution.
+Then a Bernouilli Model is used.
+
+
+The data used are made from examples made by the auhor of the paper, each of them showing an interesting property of the model.
+Using it on real data requires a considering amount of preprocessing.
+
+While interesting, it will actually be quite tricky to use.
