@@ -19,3 +19,18 @@ Fantasy Football data :
     http://games.espn.go.com/ffl/leaders?&scoringPeriodId=1&seasonId=2015 (front page has lots of experts predictions blogs/links and such. also incudes list of news for some players)
   Week by week stats from 2010 to 2015 (and excel version of 2008-2010) most complete : http://www.thehuddle.com/fantasy_football_statistics.php
   Lots of data (1000 API calls for free) : http://fantasydata.com/products/real-time-sports-data-api.aspx
+
+Fantasy NBA data :
+
+Stats game by game for every player : http://stats.nba.com/player/#!/202710/gamelogs/
+Same as above, 1000 free API calls : http://fantasydata.com/pricing/nba-data-api.aspx
+Averaged stats (not game by game) :
+  http://espn.go.com/nba/statistics/player/_/stat/scoring-per-game
+  http://www.hoopsstats.com/basketball/fantasy/nba/playerstats/16/1/eff/7-1
+  
+Fantasy NBA tools (potential ideas to be extracted?) :
+  https://www.spreadsheet-sports.com/
+  http://www.fantasylabs.com/nba/player-ratings/bargain/
+  
+Interesting NBA predictions :
+  http://projects.fivethirtyeight.com/2016-nba-picks/
