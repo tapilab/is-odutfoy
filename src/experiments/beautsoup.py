@@ -7,6 +7,6 @@ soup = BeautifulSoup(page, "html5lib")
 #for link in soup.find_all('a'):
 #    print(link.get('href'))
 
-#print soup.prettify()
+print soup.prettify()
 
-print soup.find_all('a')
+#print soup.find_all('a')
