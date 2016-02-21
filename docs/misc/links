@@ -40,3 +40,7 @@ Tool to turn webpage into API :
   
 Web scripter library : 
   beautiful soup
+  Scrapy
+  
+cURL to Python requests :
+  http://curl.trillworks.com/
