@@ -52,4 +52,14 @@ def get_names(season):
         f.close()
 
 #get_player_list('2013-14')
-get_names('2013-14')
+#get_names('2013-14')
+
+#get stats from all matches of a given player in a season (parameters must be strings)
+#player_list must exist for given season
+def get_stats(season, playerID):
+    req = requests.request('GET', 'http://stats.nba.com/stats/playergamelog?LeagueID=00&PlayerID=201985&Season=2013-14&SeasonType=Regular+Season', headers=headers, cookies=cookies)
+
+    pickle.dump(json.loads(req.content)['resultSets'][0]['rowSet'], open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'wb'))
+
+get_stats('2013-14', '22013')
+
