@@ -1,0 +1,39 @@
+(dp0
+S'stats'
+p1
+(lp2
+(lp3
+V0021201228
+p4
+aVAPR 17, 2013
+p5
+aVLAL vs. HOU
+p6
+aVW
+p7
+aI6
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-12
+aI1
+aasS'name'
+p8
+VAndrew Goudelock
+p9
+s.

@@ -37,29 +37,32 @@ def get_player_list(season):
 
     pickle.dump(player_list, open('data' + os.sep + season + os.sep + 'player_list.pkl', 'wb'))
 
-#creates a file having ID of a player as a name and containing only the name of the player
-#player_list file mus exist for the given season
-def get_names(season):
+
+#gets the data of all players for one season in a structured dict (player list of season must exist)
+#season directory must exist and contain a player_stats directory
+def get_data(season):
+    player_info = dict()
+
     player_list = pickle.load(open('data' + os.sep + season + os.sep + 'player_list.pkl', 'rb'))
 
     for i, player in enumerate(player_list['resultSets'][0]['rowSet']):
 
-        req = requests.request('GET', 'http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=' + str(player[0]) + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
+        print "fetching stats of player %d" % (i + 1)
 
-        print "fetching name of player %d" % (i + 1)
-        f = open('data' + os.sep + season + os.sep + 'player_names' + os.sep + str(player[0]) + '.txt', 'w')
-        f.write(json.loads(req.content)['resultSets'][0]['rowSet'][0][3])
-        f.close()
+        name_req = requests.request('GET', 'http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=' + str(player[0]) + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
 
-#get_player_list('2013-14')
-#get_names('2013-14')
+        player_info['name'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][3]
 
-#get stats from all matches of a given player in a season (parameters must be strings)
-#player_list must exist for given season
-def get_stats(season, playerID):
-    req = requests.request('GET', 'http://stats.nba.com/stats/playergamelog?LeagueID=00&PlayerID=201985&Season=2013-14&SeasonType=Regular+Season', headers=headers, cookies=cookies)
+        stats_req = requests.request('GET', 'http://stats.nba.com/stats/playergamelog?LeagueID=00&PlayerID=' + str(player[0]) + '&Season=' + season + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
 
-    pickle.dump(json.loads(req.content)['resultSets'][0]['rowSet'], open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'wb'))
+        player_info['stats'] = []
 
-get_stats('2013-14', '22013')
+        #removing useless data
+        for match in json.loads(stats_req.content)['resultSets'][0]['rowSet']:
+            player_info['stats'].append(match[2:])
 
+        pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
+
+
+get_player_list('2012-13')
+get_data('2012-13')

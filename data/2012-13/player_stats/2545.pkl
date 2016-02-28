@@ -1,0 +1,39 @@
+(dp0
+S'stats'
+p1
+(lp2
+(lp3
+V0021200017
+p4
+aVNOV 02, 2012
+p5
+aVBOS vs. MIL
+p6
+aVL
+p7
+aI5
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI2
+aI1
+aI0
+aI-3
+aI1
+aasS'name'
+p8
+VDarko Milicic
+p9
+s.

@@ -1,0 +1,39 @@
+(dp0
+S'stats'
+p1
+(lp2
+(lp3
+V0021200034
+p4
+aVNOV 03, 2012
+p5
+aVCHA @ DAL
+p6
+aVL
+p7
+aI6
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
+aI1
+aI0
+aI-2
+aI1
+aasS'name'
+p8
+VMatt Carroll
+p9
+s.
