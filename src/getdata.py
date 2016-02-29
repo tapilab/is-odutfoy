@@ -64,5 +64,5 @@ def get_data(season):
         pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
 
-get_player_list('2012-13')
-get_data('2012-13')
+get_player_list('2011-12')
+get_data('2011-12')
