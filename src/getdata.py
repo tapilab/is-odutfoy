@@ -97,6 +97,6 @@ if len(sys.argv) < 2:
     print "Please input season you wish to retrieve data from as first argument"
     print "Season must be of following format xxxx-yy i.e : 2013-14"
 
-else :
+else:
     get_player_list(sys.argv[1])
     get_data(sys.argv[1])
