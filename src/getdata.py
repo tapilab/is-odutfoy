@@ -40,7 +40,6 @@ def get_player_list(season):
         shutil.rmtree('data' + os.sep + season)
 
     os.makedirs('data' + os.sep + season)
-    os.makedirs('data' + os.sep + season + os.sep + 'player_stats')
 
     req = requests.request('GET', 'http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=' + season + '&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=', headers=headers, cookies=cookies)
 
@@ -50,8 +49,14 @@ def get_player_list(season):
 
 
 #gets the data of all players for one season in a structured dict (player list of season must exist)
-#season directory must exist and contain a player_stats directory
+#season directory must exist
 def get_data(season):
+    if os.path.exists('data' + os.sep + season + os.sep + 'player_stats'):
+        shutil.rmtree('data' + os.sep + season + os.sep + 'player_stats')
+
+    os.makedirs('data' + os.sep + season + os.sep + 'player_stats')
+
+
     player_info = dict()
 
     player_list = pickle.load(open('data' + os.sep + season + os.sep + 'player_list.pkl', 'rb'))
@@ -64,8 +69,12 @@ def get_data(season):
         sleep(1)
 
         player_info['name'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][3]
-        player_info['birthdate'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][6]
-        player_info['start_year'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][22]
+
+        birthdate = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][6]
+        start_year = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][22]
+
+        player_info['experience'] = int(season.split('-')[0]) - start_year
+        player_info['age'] = int(season.split('-')[0]) - int(birthdate.split('-')[0]) #approximation
 
         #may be interesting but incomplete for previous seasons
         # player_info['height'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][10]
@@ -82,12 +91,7 @@ def get_data(season):
         for match in json.loads(stats_req.content)['resultSets'][0]['rowSet']:
             player_info['stats'].append(match[2:])
 
-        #adding additionnal data (age and experience)
-        experience = int(season.split('-')[0]) - player_info['start_year']
-        age = int(season.split('-')[0]) - int(player_info['birthdate'].split('-')[0]) #approximation
-
-        player_info['stats'].append(age)
-        player_info['stats'].append(experience)
+        print player_info
 
         pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
