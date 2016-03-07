@@ -20,7 +20,7 @@ def average(season, playerID, number_games = -1):
         average(season, playerID, games_num)
 
     else:
-        averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:-1] for match in player['stats'][:number_games]])]
+        averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
         averaged.append(winrate)
@@ -33,13 +33,13 @@ def average(season, playerID, number_games = -1):
         away_avg = []
 
         if len(home) != 0:
-            home_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:-1] for match in home])]
+            home_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in home])]
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
             home_avg.append(home_winrate)
 
         if len(away) != 0:
-            away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:-1] for match in away])]
+            away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in away])]
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
             away_avg.append(away_winrate)
