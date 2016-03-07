@@ -89,7 +89,7 @@ def get_data(season):
 
         #removing useless data
         for match in json.loads(stats_req.content)['resultSets'][0]['rowSet']:
-            player_info['stats'].append(match[2:])
+            player_info['stats'].append(match[2:-1])
 
         pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
