@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I39
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201220
-p4
-aVAPR 17, 2013
 p5
-aVMIA vs. ORL
+aVAPR 17, 2013
 p6
-aVW
+aVMIA vs. ORL
 p7
+aVW
+p8
 aI17
 aI6
 aI9
@@ -31,16 +34,15 @@ aI1
 aI4
 aI12
 aI3
-aI1
-aa(lp8
+aa(lp9
 V0021201204
-p9
-aVAPR 15, 2013
 p10
-aVMIA @ CLE
+aVAPR 15, 2013
 p11
-aVW
+aVMIA @ CLE
 p12
+aVW
+p13
 aI19
 aI3
 aI7
@@ -61,16 +63,15 @@ aI1
 aI3
 aI7
 aI-2
-aI1
-aa(lp13
+aa(lp14
 V0021201180
-p14
-aVAPR 12, 2013
 p15
-aVMIA vs. BOS
+aVAPR 12, 2013
 p16
-aVW
+aVMIA vs. BOS
 p17
+aVW
+p18
 aI2
 aI0
 aI1
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI-6
-aI1
-aa(lp18
+aa(lp19
 V0021201157
-p19
-aVAPR 09, 2013
 p20
-aVMIA vs. MIL
+aVAPR 09, 2013
 p21
-aVW
+aVMIA vs. MIL
 p22
+aVW
+p23
 aI2
 aI0
 aI0
@@ -121,16 +121,15 @@ aI1
 aI0
 aI0
 aI-4
-aI1
-aa(lp23
+aa(lp24
 V0021201080
-p24
-aVMAR 29, 2013
 p25
-aVMIA @ NOH
+aVMAR 29, 2013
 p26
-aVW
+aVMIA @ NOH
 p27
+aVW
+p28
 aI3
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI1
 aI0
 aI-3
-aI1
-aa(lp28
+aa(lp29
 V0021201049
-p29
-aVMAR 25, 2013
 p30
-aVMIA @ ORL
+aVMAR 25, 2013
 p31
-aVW
+aVMIA @ ORL
 p32
+aVW
+p33
 aI3
 aI0
 aI1
@@ -181,16 +179,15 @@ aI1
 aI1
 aI0
 aI-6
-aI1
-aa(lp33
+aa(lp34
 V0021201041
-p34
-aVMAR 24, 2013
 p35
-aVMIA vs. CHA
+aVMAR 24, 2013
 p36
-aVW
+aVMIA vs. CHA
 p37
+aVW
+p38
 aI3
 aI1
 aI1
@@ -211,9 +208,11 @@ aI0
 aI0
 aI2
 aI5
-aI1
 aasS'name'
-p38
-VJuwan Howard
 p39
+VJuwan Howard
+p40
+sS'experience'
+p41
+I18
 s.

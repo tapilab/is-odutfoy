@@ -1,46 +1,48 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I27
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201110
-p4
-aVAPR 02, 2013
 p5
-aVDAL @ LAL
+aVAPR 02, 2013
 p6
-aVL
+aVDAL @ LAL
 p7
-aI1
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aa(lp8
-V0021201072
-p9
-aVMAR 28, 2013
-p10
-aVDAL vs. IND
-p11
 aVL
+p8
+aI1
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp9
+V0021201072
+p10
+aVMAR 28, 2013
+p11
+aVDAL vs. IND
 p12
+aVL
+p13
 aI3
 aI0
 aI1
@@ -61,9 +63,11 @@ aI0
 aI0
 aI0
 aI-2
-aI1
 aasS'name'
-p13
-VJustin Dentmon
 p14
+VJustin Dentmon
+p15
+sS'experience'
+p16
+I1
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I25
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201224
-p4
-aVAPR 17, 2013
 p5
-aVNOH @ DAL
+aVAPR 17, 2013
 p6
-aVL
+aVNOH @ DAL
 p7
+aVL
+p8
 aI2
 aI0
 aI0
@@ -31,46 +34,44 @@ aI2
 aI1
 aI0
 aI-6
-aI0
-aa(lp8
+aa(lp9
 V0021201183
-p9
-aVAPR 12, 2013
 p10
-aVNOH vs. LAC
+aVAPR 12, 2013
 p11
-aVL
+aVNOH vs. LAC
 p12
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aa(lp13
-V0021201170
-p14
-aVAPR 10, 2013
-p15
-aVNOH @ SAC
-p16
 aVL
+p13
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp14
+V0021201170
+p15
+aVAPR 10, 2013
+p16
+aVNOH @ SAC
 p17
+aVL
+p18
 aI4
 aI0
 aI1
@@ -91,16 +92,15 @@ aI1
 aI0
 aI0
 aI-4
-aI1
-aa(lp18
+aa(lp19
 V0021201122
-p19
-aVAPR 03, 2013
 p20
-aVNOH @ GSW
+aVAPR 03, 2013
 p21
-aVL
+aVNOH @ GSW
 p22
+aVL
+p23
 aI7
 aI0
 aI1
@@ -121,16 +121,15 @@ aI2
 aI2
 aI0
 aI-4
-aI1
-aa(lp23
+aa(lp24
 V0021201096
-p24
-aVMAR 31, 2013
 p25
-aVNOH vs. CLE
+aVMAR 31, 2013
 p26
-aVW
+aVNOH vs. CLE
 p27
+aVW
+p28
 aI13
 aI0
 aI2
@@ -151,16 +150,15 @@ aI1
 aI2
 aI1
 aI8
-aI1
-aa(lp28
+aa(lp29
 V0021201080
-p29
-aVMAR 29, 2013
 p30
-aVNOH vs. MIA
+aVMAR 29, 2013
 p31
-aVL
+aVNOH vs. MIA
 p32
+aVL
+p33
 aI2
 aI0
 aI1
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp33
+aa(lp34
 V0021201063
-p34
-aVMAR 27, 2013
 p35
-aVNOH vs. LAC
+aVMAR 27, 2013
 p36
-aVL
+aVNOH vs. LAC
 p37
+aVL
+p38
 aI0
 aI0
 aI0
@@ -211,16 +208,15 @@ aI1
 aI0
 aI0
 aI-6
-aI1
-aa(lp38
+aa(lp39
 V0021201051
-p39
-aVMAR 25, 2013
 p40
-aVNOH vs. DEN
+aVMAR 25, 2013
 p41
-aVW
+aVNOH vs. DEN
 p42
+aVW
+p43
 aI5
 aI0
 aI0
@@ -241,16 +237,15 @@ aI2
 aI0
 aI0
 aI2
-aI1
-aa(lp43
+aa(lp44
 V0021201027
-p44
-aVMAR 22, 2013
 p45
-aVNOH vs. MEM
+aVMAR 22, 2013
 p46
-aVW
+aVNOH vs. MEM
 p47
+aVW
+p48
 aI16
 aI0
 aI4
@@ -271,16 +266,15 @@ aI2
 aI4
 aI0
 aI7
-aI1
-aa(lp48
+aa(lp49
 V0021201013
-p49
-aVMAR 20, 2013
 p50
-aVNOH vs. BOS
+aVMAR 20, 2013
 p51
-aVW
+aVNOH vs. BOS
 p52
+aVW
+p53
 aI17
 aI0
 aI3
@@ -301,16 +295,15 @@ aI0
 aI3
 aI0
 aI2
-aI1
-aa(lp53
+aa(lp54
 V0021201001
-p54
-aVMAR 18, 2013
 p55
-aVNOH vs. GSW
+aVMAR 18, 2013
 p56
-aVL
+aVNOH vs. GSW
 p57
+aVL
+p58
 aI28
 aI2
 aI7
@@ -331,16 +324,15 @@ aI1
 aI1
 aI4
 aI-9
-aI1
-aa(lp58
+aa(lp59
 V0021200989
-p59
-aVMAR 17, 2013
 p60
-aVNOH @ MIN
+aVMAR 17, 2013
 p61
-aVL
+aVNOH @ MIN
 p62
+aVL
+p63
 aI7
 aI0
 aI0
@@ -361,16 +353,15 @@ aI0
 aI1
 aI0
 aI-3
-aI1
-aa(lp63
+aa(lp64
 V0021200930
-p64
-aVMAR 09, 2013
 p65
-aVNOH @ MEM
+aVMAR 09, 2013
 p66
-aVL
+aVNOH @ MEM
 p67
+aVL
+p68
 aI6
 aI0
 aI0
@@ -391,16 +382,15 @@ aI1
 aI0
 aI0
 aI10
-aI1
-aa(lp68
+aa(lp69
 V0021200445
-p69
-aVDEC 29, 2012
 p70
-aVMIA @ MIL
+aVDEC 29, 2012
 p71
-aVL
+aVMIA @ MIL
 p72
+aVL
+p73
 aI3
 aI0
 aI0
@@ -421,16 +411,15 @@ aI1
 aI0
 aI3
 aI2
-aI1
-aa(lp73
+aa(lp74
 V0021200392
-p74
-aVDEC 22, 2012
 p75
-aVMIA vs. UTA
+aVDEC 22, 2012
 p76
-aVW
+aVMIA vs. UTA
 p77
+aVW
+p78
 aI2
 aI0
 aI1
@@ -451,46 +440,44 @@ aI0
 aI1
 aI0
 aI-4
-aI1
-aa(lp78
+aa(lp79
 V0021200268
-p79
-aVDEC 06, 2012
 p80
-aVMIA vs. NYK
+aVDEC 06, 2012
 p81
-aVL
+aVMIA vs. NYK
 p82
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI2
-aI1
-aa(lp83
-V0021200252
-p84
-aVDEC 04, 2012
-p85
-aVMIA @ WAS
-p86
 aVL
+p83
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI2
+aa(lp84
+V0021200252
+p85
+aVDEC 04, 2012
+p86
+aVMIA @ WAS
 p87
+aVL
+p88
 aI12
 aI1
 aI4
@@ -511,16 +498,15 @@ aI0
 aI1
 aI3
 aI-1
-aI1
-aa(lp88
+aa(lp89
 V0021200233
-p89
-aVDEC 01, 2012
 p90
-aVMIA vs. BKN
+aVDEC 01, 2012
 p91
-aVW
+aVMIA vs. BKN
 p92
+aVW
+p93
 aI1
 aI0
 aI0
@@ -541,16 +527,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp93
+aa(lp94
 V0021200117
-p94
-aVNOV 14, 2012
 p95
-aVMIA @ LAC
+aVNOV 14, 2012
 p96
-aVL
+aVMIA @ LAC
 p97
+aVL
+p98
 aI2
 aI0
 aI1
@@ -571,16 +556,15 @@ aI0
 aI0
 aI2
 aI7
-aI1
-aa(lp98
+aa(lp99
 V0021200044
-p99
-aVNOV 05, 2012
 p100
-aVMIA vs. PHX
+aVNOV 05, 2012
 p101
-aVW
+aVMIA vs. PHX
 p102
+aVW
+p103
 aI6
 aI1
 aI2
@@ -601,9 +585,11 @@ aI2
 aI1
 aI2
 aI-4
-aI1
 aasS'name'
-p103
-VTerrel Harris
 p104
+VTerrel Harris
+p105
+sS'experience'
+p106
+I1
 s.

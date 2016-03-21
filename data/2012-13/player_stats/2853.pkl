@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I31
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201218
-p4
-aVAPR 17, 2013
 p5
-aVNYK vs. ATL
+aVAPR 17, 2013
 p6
-aVW
+aVNYK vs. ATL
 p7
+aVW
+p8
 aI37
 aI5
 aI14
@@ -31,16 +34,15 @@ aI1
 aI1
 aI11
 aI2
-aI1
-aa(lp8
+aa(lp9
 V0021200384
-p9
-aVDEC 21, 2012
 p10
-aVWAS @ DET
+aVDEC 21, 2012
 p11
-aVL
+aVWAS @ DET
 p12
+aVL
+p13
 aI10
 aI0
 aI2
@@ -61,16 +63,15 @@ aI1
 aI1
 aI0
 aI-17
-aI1
-aa(lp13
+aa(lp14
 V0021200368
-p14
-aVDEC 19, 2012
 p15
-aVWAS @ ORL
+aVDEC 19, 2012
 p16
-aVL
+aVWAS @ ORL
 p17
+aVL
+p18
 aI20
 aI1
 aI6
@@ -91,16 +92,15 @@ aI2
 aI5
 aI2
 aI-7
-aI1
-aa(lp18
+aa(lp19
 V0021200356
-p19
-aVDEC 18, 2012
 p20
-aVWAS vs. ATL
+aVDEC 18, 2012
 p21
-aVL
+aVWAS vs. ATL
 p22
+aVL
+p23
 aI26
 aI2
 aI10
@@ -121,16 +121,15 @@ aI4
 aI5
 aI4
 aI0
-aI1
-aa(lp23
+aa(lp24
 V0021200339
-p24
-aVDEC 15, 2012
 p25
-aVWAS @ MIA
+aVDEC 15, 2012
 p26
-aVL
+aVWAS @ MIA
 p27
+aVL
+p28
 aI6
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI1
 aI1
 aI1
-aI1
-aa(lp28
+aa(lp29
 V0021200273
-p29
-aVDEC 07, 2012
 p30
-aVWAS @ ATL
+aVDEC 07, 2012
 p31
-aVL
+aVWAS @ ATL
 p32
+aVL
+p33
 aI1
 aI0
 aI0
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI2
-aI1
-aa(lp33
+aa(lp34
 V0021200226
-p34
-aVNOV 30, 2012
 p35
-aVWAS @ NYK
+aVNOV 30, 2012
 p36
-aVL
+aVWAS @ NYK
 p37
+aVL
+p38
 aI5
 aI1
 aI2
@@ -211,16 +208,15 @@ aI1
 aI1
 aI2
 aI0
-aI1
-aa(lp38
+aa(lp39
 V0021200197
-p39
-aVNOV 26, 2012
 p40
-aVWAS vs. SAS
+aVNOV 26, 2012
 p41
-aVL
+aVWAS vs. SAS
 p42
+aVL
+p43
 aI16
 aI0
 aI3
@@ -241,16 +237,15 @@ aI0
 aI1
 aI0
 aI-12
-aI1
-aa(lp43
+aa(lp44
 V0021200147
-p44
-aVNOV 19, 2012
 p45
-aVWAS vs. IND
+aVNOV 19, 2012
 p46
-aVL
+aVWAS vs. IND
 p47
+aVL
+p48
 aI15
 aI2
 aI4
@@ -271,16 +266,15 @@ aI0
 aI5
 aI4
 aI11
-aI0
-aa(lp48
+aa(lp49
 V0021200115
-p49
-aVNOV 14, 2012
 p50
-aVWAS @ DAL
+aVNOV 14, 2012
 p51
-aVL
+aVWAS @ DAL
 p52
+aVL
+p53
 aI3
 aI1
 aI1
@@ -301,16 +295,15 @@ aI0
 aI0
 aI2
 aI0
-aI1
-aa(lp53
+aa(lp54
 V0021200103
-p54
-aVNOV 13, 2012
 p55
-aVWAS @ CHA
+aVNOV 13, 2012
 p56
-aVL
+aVWAS @ CHA
 p57
+aVL
+p58
 aI4
 aI2
 aI3
@@ -331,16 +324,15 @@ aI2
 aI2
 aI5
 aI1
-aI1
-aa(lp58
+aa(lp59
 V0021200001
-p59
-aVOCT 30, 2012
 p60
-aVWAS @ CLE
+aVOCT 30, 2012
 p61
-aVL
+aVWAS @ CLE
 p62
+aVL
+p63
 aI16
 aI4
 aI6
@@ -361,9 +353,11 @@ aI0
 aI2
 aI8
 aI1
-aI1
 aasS'name'
-p63
-VEarl Barron
 p64
+VEarl Barron
+p65
+sS'experience'
+p66
+I7
 s.

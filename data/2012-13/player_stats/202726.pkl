@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201228
-p4
-aVAPR 17, 2013
 p5
-aVLAL vs. HOU
+aVAPR 17, 2013
 p6
-aVW
+aVLAL vs. HOU
 p7
+aVW
+p8
 aI6
 aI0
 aI2
@@ -31,9 +34,11 @@ aI0
 aI0
 aI0
 aI-12
-aI1
 aasS'name'
-p8
-VAndrew Goudelock
 p9
+VAndrew Goudelock
+p10
+sS'experience'
+p11
+I1
 s.

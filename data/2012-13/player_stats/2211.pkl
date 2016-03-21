@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I32
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200214
-p4
-aVNOV 28, 2012
 p5
-aVDAL @ CHI
+aVNOV 28, 2012
 p6
-aVL
+aVDAL @ CHI
 p7
+aVL
+p8
 aI18
 aI2
 aI3
@@ -31,16 +34,15 @@ aI0
 aI4
 aI7
 aI-9
-aI1
-aa(lp8
+aa(lp9
 V0021200204
-p9
-aVNOV 27, 2012
 p10
-aVDAL @ PHI
+aVNOV 27, 2012
 p11
-aVL
+aVDAL @ PHI
 p12
+aVL
+p13
 aI11
 aI0
 aI2
@@ -61,16 +63,15 @@ aI0
 aI2
 aI0
 aI5
-aI1
-aa(lp13
+aa(lp14
 V0021200187
-p14
-aVNOV 24, 2012
 p15
-aVDAL vs. LAL
+aVNOV 24, 2012
 p16
-aVL
+aVDAL vs. LAL
 p17
+aVL
+p18
 aI14
 aI0
 aI2
@@ -91,16 +92,15 @@ aI1
 aI1
 aI0
 aI-18
-aI1
-aa(lp18
+aa(lp19
 V0021200167
-p19
-aVNOV 21, 2012
 p20
-aVDAL vs. NYK
+aVNOV 21, 2012
 p21
-aVW
+aVDAL vs. NYK
 p22
+aVW
+p23
 aI18
 aI0
 aI3
@@ -121,16 +121,15 @@ aI0
 aI0
 aI2
 aI-10
-aI1
-aa(lp23
+aa(lp24
 V0021200151
-p24
-aVNOV 19, 2012
 p25
-aVDAL vs. GSW
+aVNOV 19, 2012
 p26
-aVL
+aVDAL vs. GSW
 p27
+aVL
+p28
 aI24
 aI4
 aI7
@@ -151,16 +150,15 @@ aI1
 aI3
 aI12
 aI0
-aI1
-aa(lp28
+aa(lp29
 V0021200135
-p29
-aVNOV 17, 2012
 p30
-aVDAL @ CLE
+aVNOV 17, 2012
 p31
-aVW
+aVDAL @ CLE
 p32
+aVW
+p33
 aI19
 aI3
 aI6
@@ -181,16 +179,15 @@ aI0
 aI2
 aI9
 aI8
-aI1
-aa(lp33
+aa(lp34
 V0021200124
-p34
-aVNOV 16, 2012
 p35
-aVDAL @ IND
+aVNOV 16, 2012
 p36
-aVL
+aVDAL @ IND
 p37
+aVL
+p38
 aI20
 aI2
 aI5
@@ -211,16 +208,15 @@ aI0
 aI4
 aI4
 aI-12
-aI1
-aa(lp38
+aa(lp39
 V0021200115
-p39
-aVNOV 14, 2012
 p40
-aVDAL vs. WAS
+aVNOV 14, 2012
 p41
-aVW
+aVDAL vs. WAS
 p42
+aVW
+p43
 aI18
 aI3
 aI5
@@ -241,16 +237,15 @@ aI0
 aI2
 aI10
 aI-2
-aI1
-aa(lp43
+aa(lp44
 V0021200100
-p44
-aVNOV 12, 2012
 p45
-aVDAL vs. MIN
+aVNOV 12, 2012
 p46
-aVL
+aVDAL vs. MIN
 p47
+aVL
+p48
 aI25
 aI2
 aI6
@@ -271,16 +266,15 @@ aI0
 aI1
 aI5
 aI3
-aI1
-aa(lp48
+aa(lp49
 V0021200083
-p49
-aVNOV 10, 2012
 p50
-aVDAL @ CHA
+aVNOV 10, 2012
 p51
-aVL
+aVDAL @ CHA
 p52
+aVL
+p53
 aI30
 aI3
 aI9
@@ -301,16 +295,15 @@ aI3
 aI2
 aI8
 aI4
-aI1
-aa(lp53
+aa(lp54
 V0021200071
-p54
-aVNOV 09, 2012
 p55
-aVDAL @ NYK
+aVNOV 09, 2012
 p56
-aVL
+aVDAL @ NYK
 p57
+aVL
+p58
 aI19
 aI0
 aI3
@@ -331,16 +324,15 @@ aI0
 aI2
 aI0
 aI-3
-aI1
-aa(lp58
+aa(lp59
 V0021200061
-p59
-aVNOV 07, 2012
 p60
-aVDAL vs. TOR
+aVNOV 07, 2012
 p61
-aVW
+aVDAL vs. TOR
 p62
+aVW
+p63
 aI15
 aI2
 aI6
@@ -361,16 +353,15 @@ aI1
 aI2
 aI5
 aI-2
-aI1
-aa(lp63
+aa(lp64
 V0021200046
-p64
-aVNOV 05, 2012
 p65
-aVDAL vs. POR
+aVNOV 05, 2012
 p66
-aVW
+aVDAL vs. POR
 p67
+aVW
+p68
 aI16
 aI1
 aI4
@@ -391,16 +382,15 @@ aI0
 aI1
 aI3
 aI-4
-aI1
-aa(lp68
+aa(lp69
 V0021200034
-p69
-aVNOV 03, 2012
 p70
-aVDAL vs. CHA
+aVNOV 03, 2012
 p71
-aVW
+aVDAL vs. CHA
 p72
+aVW
+p73
 aI9
 aI0
 aI0
@@ -421,9 +411,11 @@ aI1
 aI3
 aI0
 aI20
-aI1
 aasS'name'
-p73
-VTroy Murphy
 p74
+VTroy Murphy
+p75
+sS'experience'
+p76
+I11
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I32
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200974
-p4
-aVMAR 15, 2013
 p5
-aVORL @ OKC
+aVMAR 15, 2013
 p6
-aVL
+aVORL @ OKC
 p7
+aVL
+p8
 aI6
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI2
 aI0
 aI-18
-aI1
-aa(lp8
+aa(lp9
 V0021200949
-p9
-aVMAR 12, 2013
 p10
-aVORL vs. LAL
+aVMAR 12, 2013
 p11
-aVL
+aVORL vs. LAL
 p12
+aVL
+p13
 aI10
 aI1
 aI6
@@ -61,16 +63,15 @@ aI1
 aI2
 aI5
 aI-4
-aI1
-aa(lp13
+aa(lp14
 V0021200937
-p14
-aVMAR 10, 2013
 p15
-aVORL vs. PHI
+aVMAR 10, 2013
 p16
-aVW
+aVORL vs. PHI
 p17
+aVW
+p18
 aI17
 aI3
 aI9
@@ -91,16 +92,15 @@ aI0
 aI2
 aI8
 aI6
-aI0
-aa(lp18
+aa(lp19
 V0021200916
-p19
-aVMAR 08, 2013
 p20
-aVORL vs. IND
+aVMAR 08, 2013
 p21
-aVL
+aVORL vs. IND
 p22
+aVL
+p23
 aI7
 aI1
 aI3
@@ -121,16 +121,15 @@ aI2
 aI1
 aI2
 aI-3
-aI1
-aa(lp23
+aa(lp24
 V0021200903
-p24
-aVMAR 06, 2013
 p25
-aVORL @ MIA
+aVMAR 06, 2013
 p26
-aVL
+aVORL @ MIA
 p27
+aVL
+p28
 aI6
 aI2
 aI5
@@ -151,16 +150,15 @@ aI1
 aI2
 aI4
 aI-12
-aI0
-aa(lp28
+aa(lp29
 V0021200891
-p29
-aVMAR 04, 2013
 p30
-aVORL @ NOH
+aVMAR 04, 2013
 p31
-aVW
+aVORL @ NOH
 p32
+aVW
+p33
 aI18
 aI4
 aI7
@@ -181,16 +179,15 @@ aI1
 aI1
 aI10
 aI11
-aI1
-aa(lp33
+aa(lp34
 V0021200883
-p34
-aVMAR 03, 2013
 p35
-aVORL vs. MEM
+aVMAR 03, 2013
 p36
-aVL
+aVORL vs. MEM
 p37
+aVL
+p38
 aI18
 aI3
 aI9
@@ -211,16 +208,15 @@ aI2
 aI2
 aI7
 aI-7
-aI0
-aa(lp38
+aa(lp39
 V0021200866
-p39
-aVMAR 01, 2013
 p40
-aVORL vs. HOU
+aVMAR 01, 2013
 p41
-aVL
+aVORL vs. HOU
 p42
+aVL
+p43
 aI12
 aI1
 aI4
@@ -241,16 +237,15 @@ aI0
 aI2
 aI3
 aI0
-aI0
-aa(lp43
+aa(lp44
 V0021200851
-p44
-aVFEB 27, 2013
 p45
-aVORL vs. SAC
+aVFEB 27, 2013
 p46
-aVL
+aVORL vs. SAC
 p47
+aVL
+p48
 aI12
 aI1
 aI7
@@ -271,16 +266,15 @@ aI0
 aI3
 aI3
 aI-12
-aI1
-aa(lp48
+aa(lp49
 V0021200843
-p49
-aVFEB 26, 2013
 p50
-aVORL @ PHI
+aVFEB 26, 2013
 p51
-aVW
+aVORL @ PHI
 p52
+aVW
+p53
 aI12
 aI4
 aI7
@@ -301,9 +295,11 @@ aI0
 aI1
 aI9
 aI4
-aI1
 aasS'name'
-p53
-VAl Harrington
 p54
+VAl Harrington
+p55
+sS'experience'
+p56
+I14
 s.

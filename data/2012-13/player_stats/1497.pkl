@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I36
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201229
-p4
-aVAPR 17, 2013
 p5
-aVLAC @ SAC
+aVAPR 17, 2013
 p6
-aVW
+aVLAC @ SAC
 p7
+aVW
+p8
 aI19
 aI5
 aI8
@@ -31,16 +34,15 @@ aI3
 aI3
 aI17
 aI-8
-aI1
-aa(lp8
+aa(lp9
 V0021201215
-p9
-aVAPR 16, 2013
 p10
-aVLAC vs. POR
+aVAPR 16, 2013
 p11
-aVW
+aVLAC vs. POR
 p12
+aVW
+p13
 aI18
 aI0
 aI5
@@ -61,16 +63,15 @@ aI1
 aI0
 aI4
 aI9
-aI1
-aa(lp13
+aa(lp14
 V0021201063
-p14
-aVMAR 27, 2013
 p15
-aVLAC @ NOH
+aVMAR 27, 2013
 p16
-aVW
+aVLAC @ NOH
 p17
+aVW
+p18
 aI13
 aI4
 aI6
@@ -91,16 +92,15 @@ aI0
 aI0
 aI11
 aI15
-aI1
-aa(lp18
+aa(lp19
 V0021201007
-p19
-aVMAR 19, 2013
 p20
-aVLAC @ SAC
+aVMAR 19, 2013
 p21
-aVL
+aVLAC @ SAC
 p22
+aVL
+p23
 aI7
 aI1
 aI2
@@ -121,16 +121,15 @@ aI2
 aI0
 aI2
 aI-5
-aI1
-aa(lp23
+aa(lp24
 V0021200987
-p24
-aVMAR 17, 2013
 p25
-aVLAC vs. NYK
+aVMAR 17, 2013
 p26
-aVW
+aVLAC vs. NYK
 p27
+aVW
+p28
 aI25
 aI2
 aI9
@@ -151,16 +150,15 @@ aI1
 aI3
 aI12
 aI-1
-aI1
-aa(lp28
+aa(lp29
 V0021200965
-p29
-aVMAR 13, 2013
 p30
-aVLAC vs. MEM
+aVMAR 13, 2013
 p31
-aVL
+aVLAC vs. MEM
 p32
+aVL
+p33
 aI27
 aI4
 aI8
@@ -181,16 +179,15 @@ aI1
 aI0
 aI10
 aI-10
-aI1
-aa(lp33
+aa(lp34
 V0021200942
-p34
-aVMAR 10, 2013
 p35
-aVLAC vs. DET
+aVMAR 10, 2013
 p36
-aVW
+aVLAC vs. DET
 p37
+aVW
+p38
 aI23
 aI3
 aI9
@@ -211,16 +208,15 @@ aI1
 aI1
 aI10
 aI17
-aI1
-aa(lp38
+aa(lp39
 V0021200914
-p39
-aVMAR 07, 2013
 p40
-aVLAC @ DEN
+aVMAR 07, 2013
 p41
-aVL
+aVLAC @ DEN
 p42
+aVL
+p43
 aI20
 aI2
 aI6
@@ -241,16 +237,15 @@ aI1
 aI3
 aI8
 aI-19
-aI0
-aa(lp43
+aa(lp44
 V0021200911
-p44
-aVMAR 06, 2013
 p45
-aVLAC vs. MIL
+aVMAR 06, 2013
 p46
-aVW
+aVLAC vs. MIL
 p47
+aVW
+p48
 aI18
 aI2
 aI5
@@ -271,16 +266,15 @@ aI0
 aI0
 aI7
 aI-2
-aI1
-aa(lp48
+aa(lp49
 V0021200881
-p49
-aVMAR 03, 2013
 p50
-aVLAC vs. OKC
+aVMAR 03, 2013
 p51
-aVL
+aVLAC vs. OKC
 p52
+aVL
+p53
 aI18
 aI0
 aI3
@@ -301,16 +295,15 @@ aI3
 aI2
 aI1
 aI-14
-aI1
-aa(lp53
+aa(lp54
 V0021200869
-p54
-aVMAR 01, 2013
 p55
-aVLAC @ CLE
+aVMAR 01, 2013
 p56
-aVW
+aVLAC @ CLE
 p57
+aVW
+p58
 aI17
 aI2
 aI5
@@ -331,16 +324,15 @@ aI1
 aI0
 aI5
 aI-5
-aI1
-aa(lp58
+aa(lp59
 V0021200861
-p59
-aVFEB 28, 2013
 p60
-aVLAC @ IND
+aVFEB 28, 2013
 p61
-aVW
+aVLAC @ IND
 p62
+aVW
+p63
 aI21
 aI1
 aI6
@@ -361,16 +353,15 @@ aI1
 aI3
 aI3
 aI2
-aI1
-aa(lp63
+aa(lp64
 V0021200850
-p64
-aVFEB 26, 2013
 p65
-aVLAC vs. CHA
+aVFEB 26, 2013
 p66
-aVW
+aVLAC vs. CHA
 p67
+aVW
+p68
 aI25
 aI1
 aI6
@@ -391,16 +382,15 @@ aI1
 aI1
 aI3
 aI14
-aI1
-aa(lp68
+aa(lp69
 V0021200829
-p69
-aVFEB 23, 2013
 p70
-aVLAC vs. UTA
+aVFEB 23, 2013
 p71
-aVW
+aVLAC vs. UTA
 p72
+aVW
+p73
 aI17
 aI3
 aI5
@@ -421,16 +411,15 @@ aI3
 aI1
 aI8
 aI26
-aI1
-aa(lp73
+aa(lp74
 V0021200810
-p74
-aVFEB 21, 2013
 p75
-aVLAC vs. SAS
+aVFEB 21, 2013
 p76
-aVL
+aVLAC vs. SAS
 p77
+aVL
+p78
 aI17
 aI0
 aI2
@@ -451,16 +440,15 @@ aI0
 aI1
 aI6
 aI-14
-aI1
-aa(lp78
+aa(lp79
 V0021200788
-p79
-aVFEB 14, 2013
 p80
-aVLAC @ LAL
+aVFEB 14, 2013
 p81
-aVW
+aVLAC @ LAL
 p82
+aVW
+p83
 aI16
 aI7
 aI10
@@ -481,16 +469,15 @@ aI2
 aI2
 aI21
 aI31
-aI0
-aa(lp83
+aa(lp84
 V0021200786
-p84
-aVFEB 13, 2013
 p85
-aVLAC vs. HOU
+aVFEB 13, 2013
 p86
-aVW
+aVLAC vs. HOU
 p87
+aVW
+p88
 aI20
 aI6
 aI9
@@ -511,16 +498,15 @@ aI0
 aI2
 aI19
 aI8
-aI1
-aa(lp88
+aa(lp89
 V0021200752
-p89
-aVFEB 10, 2013
 p90
-aVLAC @ NYK
+aVFEB 10, 2013
 p91
-aVW
+aVLAC @ NYK
 p92
+aVW
+p93
 aI22
 aI3
 aI8
@@ -541,16 +527,15 @@ aI1
 aI0
 aI8
 aI0
-aI1
-aa(lp93
+aa(lp94
 V0021200741
-p94
-aVFEB 08, 2013
 p95
-aVLAC @ MIA
+aVFEB 08, 2013
 p96
-aVL
+aVLAC @ MIA
 p97
+aVL
+p98
 aI16
 aI2
 aI5
@@ -571,16 +556,15 @@ aI0
 aI1
 aI7
 aI-15
-aI1
-aa(lp98
+aa(lp99
 V0021200249
-p99
-aVDEC 03, 2012
 p100
-aVLAC @ UTA
+aVDEC 03, 2012
 p101
-aVW
+aVLAC @ UTA
 p102
+aVW
+p103
 aI22
 aI2
 aI5
@@ -601,16 +585,15 @@ aI2
 aI1
 aI9
 aI-5
-aI1
-aa(lp103
+aa(lp104
 V0021200241
-p104
-aVDEC 01, 2012
 p105
-aVLAC vs. SAC
+aVDEC 01, 2012
 p106
-aVW
+aVLAC vs. SAC
 p107
+aVW
+p108
 aI18
 aI2
 aI5
@@ -631,16 +614,15 @@ aI0
 aI1
 aI6
 aI18
-aI1
-aa(lp108
+aa(lp109
 V0021200219
-p109
-aVNOV 28, 2012
 p110
-aVLAC vs. MIN
+aVNOV 28, 2012
 p111
-aVW
+aVLAC vs. MIN
 p112
+aVW
+p113
 aI19
 aI1
 aI5
@@ -661,9 +643,11 @@ aI2
 aI0
 aI7
 aI4
-aI1
 aasS'name'
-p113
-VChauncey Billups
 p114
+VChauncey Billups
+p115
+sS'experience'
+p116
+I15
 s.

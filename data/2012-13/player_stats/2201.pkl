@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I30
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200009
-p4
-aVOCT 31, 2012
 p5
-aVDAL @ UTA
+aVOCT 31, 2012
 p6
-aVL
+aVDAL @ UTA
 p7
+aVL
+p8
 aI8
 aI1
 aI1
@@ -31,16 +34,15 @@ aI2
 aI3
 aI2
 aI0
-aI1
-aa(lp8
+aa(lp9
 V0021200003
-p9
-aVOCT 30, 2012
 p10
-aVDAL @ LAL
+aVOCT 30, 2012
 p11
-aVW
+aVDAL @ LAL
 p12
+aVW
+p13
 aI17
 aI3
 aI7
@@ -61,9 +63,11 @@ aI1
 aI4
 aI7
 aI6
-aI1
 aasS'name'
-p13
-VEddy Curry
 p14
+VEddy Curry
+p15
+sS'experience'
+p16
+I11
 s.

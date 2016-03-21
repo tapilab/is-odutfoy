@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I26
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201216
-p4
-aVAPR 17, 2013
 p5
-aVBOS @ TOR
+aVAPR 17, 2013
 p6
-aVL
+aVBOS @ TOR
 p7
+aVL
+p8
 aI28
 aI2
 aI7
@@ -31,16 +34,15 @@ aI0
 aI2
 aI8
 aI-11
-aI1
-aa(lp8
+aa(lp9
 V0021201191
-p9
-aVAPR 13, 2013
 p10
-aVBOS @ ORL
+aVAPR 13, 2013
 p11
-aVW
+aVBOS @ ORL
 p12
+aVW
+p13
 aI5
 aI1
 aI2
@@ -61,16 +63,15 @@ aI1
 aI1
 aI2
 aI2
-aI1
-aa(lp13
+aa(lp14
 V0021201180
-p14
-aVAPR 12, 2013
 p15
-aVBOS @ MIA
+aVAPR 12, 2013
 p16
-aVL
+aVBOS @ MIA
 p17
+aVL
+p18
 aI1
 aI0
 aI0
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI4
-aI1
-aa(lp18
+aa(lp19
 V0021201168
-p19
-aVAPR 10, 2013
 p20
-aVBOS vs. BKN
+aVAPR 10, 2013
 p21
-aVL
+aVBOS vs. BKN
 p22
+aVL
+p23
 aI3
 aI1
 aI1
@@ -121,16 +121,15 @@ aI0
 aI0
 aI2
 aI11
-aI1
-aa(lp23
+aa(lp24
 V0021201105
-p24
-aVAPR 01, 2013
 p25
-aVBOS @ MIN
+aVAPR 01, 2013
 p26
-aVL
+aVBOS @ MIN
 p27
+aVL
+p28
 aI4
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI0
 aI0
 aI3
-aI0
-aa(lp28
+aa(lp29
 V0021201099
-p29
-aVMAR 31, 2013
 p30
-aVBOS @ NYK
+aVMAR 31, 2013
 p31
-aVL
+aVBOS @ NYK
 p32
+aVL
+p33
 aI7
 aI1
 aI1
@@ -181,16 +179,15 @@ aI0
 aI0
 aI2
 aI3
-aI1
-aa(lp33
+aa(lp34
 V0021201054
-p34
-aVMAR 26, 2013
 p35
-aVBOS vs. NYK
+aVMAR 26, 2013
 p36
-aVL
+aVBOS vs. NYK
 p37
+aVL
+p38
 aI3
 aI0
 aI0
@@ -211,16 +208,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp38
+aa(lp39
 V0021201036
-p39
-aVMAR 23, 2013
 p40
-aVBOS @ MEM
+aVMAR 23, 2013
 p41
-aVL
+aVBOS @ MEM
 p42
+aVL
+p43
 aI7
 aI2
 aI2
@@ -241,16 +237,15 @@ aI0
 aI0
 aI4
 aI14
-aI1
-aa(lp43
+aa(lp44
 V0021200980
-p44
-aVMAR 16, 2013
 p45
-aVBOS vs. CHA
+aVMAR 16, 2013
 p46
-aVW
+aVBOS vs. CHA
 p47
+aVW
+p48
 aI5
 aI3
 aI4
@@ -271,16 +266,15 @@ aI0
 aI2
 aI6
 aI5
-aI1
-aa(lp48
+aa(lp49
 V0021200959
-p49
-aVMAR 13, 2013
 p50
-aVBOS vs. TOR
+aVMAR 13, 2013
 p51
-aVW
+aVBOS vs. TOR
 p52
+aVW
+p53
 aI3
 aI1
 aI1
@@ -301,16 +295,15 @@ aI0
 aI0
 aI2
 aI2
-aI1
-aa(lp53
+aa(lp54
 V0021200948
-p54
-aVMAR 12, 2013
 p55
-aVBOS @ CHA
+aVMAR 12, 2013
 p56
-aVL
+aVBOS @ CHA
 p57
+aVL
+p58
 aI16
 aI1
 aI4
@@ -331,16 +324,15 @@ aI1
 aI0
 aI3
 aI-8
-aI1
-aa(lp58
+aa(lp59
 V0021200901
-p59
-aVMAR 06, 2013
 p60
-aVBOS @ IND
+aVMAR 06, 2013
 p61
-aVW
+aVBOS @ IND
 p62
+aVW
+p63
 aI4
 aI0
 aI1
@@ -361,9 +353,11 @@ aI0
 aI0
 aI0
 aI2
-aI1
 aasS'name'
-p63
-VDJ White
 p64
+VDJ White
+p65
+sS'experience'
+p66
+I4
 s.

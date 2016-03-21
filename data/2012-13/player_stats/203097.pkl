@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201216
-p4
-aVAPR 17, 2013
 p5
-aVBOS @ TOR
+aVAPR 17, 2013
 p6
-aVL
+aVBOS @ TOR
 p7
+aVL
+p8
 aI17
 aI1
 aI2
@@ -31,16 +34,15 @@ aI1
 aI4
 aI2
 aI-5
-aI1
-aa(lp8
+aa(lp9
 V0021200820
-p9
-aVFEB 22, 2013
 p10
-aVBOS @ PHX
+aVFEB 22, 2013
 p11
-aVW
+aVBOS @ PHX
 p12
+aVW
+p13
 aI4
 aI0
 aI1
@@ -61,16 +63,15 @@ aI0
 aI0
 aI1
 aI-1
-aI1
-aa(lp13
+aa(lp14
 V0021200807
-p14
-aVFEB 20, 2013
 p15
-aVBOS @ LAL
+aVFEB 20, 2013
 p16
-aVL
+aVBOS @ LAL
 p17
+aVL
+p18
 aI7
 aI1
 aI1
@@ -91,16 +92,15 @@ aI0
 aI1
 aI2
 aI6
-aI1
-aa(lp18
+aa(lp19
 V0021200794
-p19
-aVFEB 19, 2013
 p20
-aVBOS @ DEN
+aVFEB 19, 2013
 p21
-aVL
+aVBOS @ DEN
 p22
+aVL
+p23
 aI0
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp23
+aa(lp24
 V0021200733
-p24
-aVFEB 07, 2013
 p25
-aVBOS vs. LAL
+aVFEB 07, 2013
 p26
-aVW
+aVBOS vs. LAL
 p27
+aVW
+p28
 aI5
 aI1
 aI2
@@ -151,16 +150,15 @@ aI0
 aI2
 aI2
 aI-6
-aI1
-aa(lp28
+aa(lp29
 V0021200686
-p29
-aVFEB 01, 2013
 p30
-aVBOS vs. ORL
+aVFEB 01, 2013
 p31
-aVW
+aVBOS vs. ORL
 p32
+aVW
+p33
 aI3
 aI0
 aI0
@@ -181,9 +179,11 @@ aI0
 aI0
 aI0
 aI-1
-aI1
 aasS'name'
-p33
-VFab Melo
 p34
+VFab Melo
+p35
+sS'experience'
+p36
+I0
 s.

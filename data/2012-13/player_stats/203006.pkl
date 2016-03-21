@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I26
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201224
-p4
-aVAPR 17, 2013
 p5
-aVDAL vs. NOH
+aVAPR 17, 2013
 p6
-aVW
+aVDAL vs. NOH
 p7
+aVW
+p8
 aI2
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI-4
-aI0
-aa(lp8
+aa(lp9
 V0021201199
-p9
-aVAPR 14, 2013
 p10
-aVDAL @ NOH
+aVAPR 14, 2013
 p11
-aVW
+aVDAL @ NOH
 p12
+aVW
+p13
 aI3
 aI1
 aI3
@@ -61,16 +63,15 @@ aI0
 aI1
 aI3
 aI-4
-aI0
-aa(lp13
+aa(lp14
 V0021201169
-p14
-aVAPR 10, 2013
 p15
-aVDAL vs. PHX
+aVAPR 10, 2013
 p16
-aVL
+aVDAL vs. PHX
 p17
+aVL
+p18
 aI4
 aI1
 aI1
@@ -91,9 +92,11 @@ aI0
 aI2
 aI2
 aI3
-aI1
 aasS'name'
-p18
-VJosh Akognon
 p19
+VJosh Akognon
+p20
+sS'experience'
+p21
+I0
 s.

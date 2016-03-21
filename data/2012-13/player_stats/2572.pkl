@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I32
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200331
-p4
-aVDEC 14, 2012
 p5
-aVMIN @ NOH
+aVDEC 14, 2012
 p6
-aVW
+aVMIN @ NOH
 p7
+aVW
+p8
 aI7
 aI1
 aI2
@@ -31,16 +34,15 @@ aI0
 aI1
 aI3
 aI4
-aI1
-aa(lp8
+aa(lp9
 V0021200276
-p9
-aVDEC 07, 2012
 p10
-aVMIN vs. CLE
+aVDEC 07, 2012
 p11
-aVW
+aVMIN vs. CLE
 p12
+aVW
+p13
 aI19
 aI1
 aI4
@@ -61,16 +63,15 @@ aI1
 aI1
 aI2
 aI-2
-aI1
-aa(lp13
+aa(lp14
 V0021200259
-p14
-aVDEC 05, 2012
 p15
-aVMIN @ BOS
+aVDEC 05, 2012
 p16
-aVL
+aVMIN @ BOS
 p17
+aVL
+p18
 aI33
 aI5
 aI14
@@ -91,16 +92,15 @@ aI0
 aI1
 aI12
 aI-5
-aI1
-aa(lp18
+aa(lp19
 V0021200251
-p19
-aVDEC 04, 2012
 p20
-aVMIN @ PHI
+aVDEC 04, 2012
 p21
-aVW
+aVMIN @ PHI
 p22
+aVW
+p23
 aI29
 aI7
 aI12
@@ -121,16 +121,15 @@ aI4
 aI2
 aI16
 aI10
-aI1
-aa(lp23
+aa(lp24
 V0021200230
-p24
-aVNOV 30, 2012
 p25
-aVMIN vs. MIL
+aVNOV 30, 2012
 p26
-aVW
+aVMIN vs. MIL
 p27
+aVW
+p28
 aI24
 aI3
 aI8
@@ -151,16 +150,15 @@ aI1
 aI5
 aI8
 aI2
-aI1
-aa(lp28
+aa(lp29
 V0021200219
-p29
-aVNOV 28, 2012
 p30
-aVMIN @ LAC
+aVNOV 28, 2012
 p31
-aVL
+aVMIN @ LAC
 p32
+aVL
+p33
 aI26
 aI3
 aI9
@@ -181,16 +179,15 @@ aI1
 aI1
 aI7
 aI-2
-aI1
-aa(lp33
+aa(lp34
 V0021200207
-p34
-aVNOV 27, 2012
 p35
-aVMIN @ SAC
+aVNOV 27, 2012
 p36
-aVW
+aVMIN @ SAC
 p37
+aVW
+p38
 aI7
 aI0
 aI2
@@ -211,16 +208,15 @@ aI1
 aI0
 aI0
 aI0
-aI1
-aa(lp38
+aa(lp39
 V0021200190
-p39
-aVNOV 24, 2012
 p40
-aVMIN @ GSW
+aVNOV 24, 2012
 p41
-aVL
+aVMIN @ GSW
 p42
+aVL
+p43
 aI13
 aI1
 aI2
@@ -241,16 +237,15 @@ aI1
 aI2
 aI3
 aI-4
-aI1
-aa(lp43
+aa(lp44
 V0021200182
-p44
-aVNOV 23, 2012
 p45
-aVMIN @ POR
+aVNOV 23, 2012
 p46
-aVL
+aVMIN @ POR
 p47
+aVL
+p48
 aI22
 aI5
 aI8
@@ -271,16 +266,15 @@ aI1
 aI2
 aI10
 aI-15
-aI1
-aa(lp48
+aa(lp49
 V0021200166
-p49
-aVNOV 21, 2012
 p50
-aVMIN vs. DEN
+aVNOV 21, 2012
 p51
-aVL
+aVMIN vs. DEN
 p52
+aVL
+p53
 aI13
 aI2
 aI6
@@ -301,16 +295,15 @@ aI0
 aI2
 aI7
 aI-6
-aI1
-aa(lp53
+aa(lp54
 V0021200126
-p54
-aVNOV 16, 2012
 p55
-aVMIN vs. GSW
+aVNOV 16, 2012
 p56
-aVL
+aVMIN vs. GSW
 p57
+aVL
+p58
 aI14
 aI3
 aI10
@@ -331,9 +324,11 @@ aI0
 aI1
 aI6
 aI1
-aI1
 aasS'name'
-p58
-VJosh Howard
 p59
+VJosh Howard
+p60
+sS'experience'
+p61
+I9
 s.

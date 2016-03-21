@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200785
-p4
-aVFEB 13, 2013
 p5
-aVSAC @ DAL
+aVFEB 13, 2013
 p6
-aVL
+aVSAC @ DAL
 p7
+aVL
+p8
 aI5
 aI0
 aI3
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp8
+aa(lp9
 V0021200672
-p9
-aVJAN 30, 2013
 p10
-aVSAC @ BOS
+aVJAN 30, 2013
 p11
-aVL
+aVSAC @ BOS
 p12
+aVL
+p13
 aI1
 aI0
 aI0
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI3
-aI1
-aa(lp13
+aa(lp14
 V0021200548
-p14
-aVJAN 12, 2013
 p15
-aVSAC vs. MIA
+aVJAN 12, 2013
 p16
-aVL
+aVSAC vs. MIA
 p17
+aVL
+p18
 aI4
 aI2
 aI3
@@ -91,16 +92,15 @@ aI0
 aI0
 aI4
 aI3
-aI1
-aa(lp18
+aa(lp19
 V0021200509
-p19
-aVJAN 07, 2013
 p20
-aVSAC vs. MEM
+aVJAN 07, 2013
 p21
-aVL
+aVSAC vs. MEM
 p22
+aVL
+p23
 aI7
 aI0
 aI1
@@ -121,16 +121,15 @@ aI2
 aI0
 aI2
 aI-6
-aI1
-aa(lp23
+aa(lp24
 V0021200492
-p24
-aVJAN 05, 2013
 p25
-aVSAC @ BKN
+aVJAN 05, 2013
 p26
-aVL
+aVSAC @ BKN
 p27
+aVL
+p28
 aI5
 aI0
 aI2
@@ -151,16 +150,15 @@ aI0
 aI1
 aI0
 aI2
-aI1
-aa(lp28
+aa(lp29
 V0021200478
-p29
-aVJAN 04, 2013
 p30
-aVSAC @ TOR
+aVJAN 04, 2013
 p31
-aVW
+aVSAC @ TOR
 p32
+aVW
+p33
 aI2
 aI0
 aI1
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI-7
-aI1
-aa(lp33
+aa(lp34
 V0021200450
-p34
-aVDEC 30, 2012
 p35
-aVSAC vs. BOS
+aVDEC 30, 2012
 p36
-aVW
+aVSAC vs. BOS
 p37
+aVW
+p38
 aI3
 aI1
 aI1
@@ -211,16 +208,15 @@ aI1
 aI0
 aI2
 aI1
-aI1
-aa(lp38
+aa(lp39
 V0021200422
-p39
-aVDEC 26, 2012
 p40
-aVSAC @ POR
+aVDEC 26, 2012
 p41
-aVL
+aVSAC @ POR
 p42
+aVL
+p43
 aI2
 aI0
 aI0
@@ -241,16 +237,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp43
+aa(lp44
 V0021200404
-p44
-aVDEC 23, 2012
 p45
-aVSAC vs. POR
+aVDEC 23, 2012
 p46
-aVW
+aVSAC vs. POR
 p47
+aVW
+p48
 aI3
 aI0
 aI0
@@ -271,9 +266,11 @@ aI2
 aI1
 aI0
 aI-6
-aI1
 aasS'name'
-p48
-VTyler Honeycutt
 p49
+VTyler Honeycutt
+p50
+sS'experience'
+p51
+I1
 s.

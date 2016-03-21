@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I25
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200469
-p4
-aVJAN 02, 2013
 p5
-aVDAL @ MIA
+aVJAN 02, 2013
 p6
-aVL
+aVDAL @ MIA
 p7
+aVL
+p8
 aI1
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp8
+aa(lp9
 V0021200458
-p9
-aVJAN 01, 2013
 p10
-aVDAL @ WAS
+aVJAN 01, 2013
 p11
-aVW
+aVDAL @ WAS
 p12
+aVW
+p13
 aI7
 aI0
 aI1
@@ -61,16 +63,15 @@ aI0
 aI0
 aI2
 aI-7
-aI1
-aa(lp13
+aa(lp14
 V0021200449
-p14
-aVDEC 30, 2012
 p15
-aVDAL vs. SAS
+aVDEC 30, 2012
 p16
-aVL
+aVDAL vs. SAS
 p17
+aVL
+p18
 aI16
 aI1
 aI4
@@ -91,16 +92,15 @@ aI0
 aI3
 aI2
 aI-3
-aI1
-aa(lp18
+aa(lp19
 V0021200431
-p19
-aVDEC 28, 2012
 p20
-aVDAL vs. DEN
+aVDEC 28, 2012
 p21
-aVL
+aVDAL vs. DEN
 p22
+aVL
+p23
 aI14
 aI2
 aI4
@@ -121,16 +121,15 @@ aI0
 aI0
 aI6
 aI-8
-aI1
-aa(lp23
+aa(lp24
 V0021200423
-p24
-aVDEC 27, 2012
 p25
-aVDAL @ OKC
+aVDEC 27, 2012
 p26
-aVL
+aVDAL @ OKC
 p27
+aVL
+p28
 aI15
 aI2
 aI5
@@ -151,16 +150,15 @@ aI0
 aI1
 aI4
 aI4
-aI1
-aa(lp28
+aa(lp29
 V0021200402
-p29
-aVDEC 23, 2012
 p30
-aVDAL @ SAS
+aVDEC 23, 2012
 p31
-aVL
+aVDAL @ SAS
 p32
+aVL
+p33
 aI10
 aI0
 aI0
@@ -181,9 +179,11 @@ aI1
 aI0
 aI3
 aI1
-aI1
 aasS'name'
-p33
-VChris Douglas-Roberts
 p34
+VChris Douglas-Roberts
+p35
+sS'experience'
+p36
+I4
 s.

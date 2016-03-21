@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I33
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200767
-p4
-aVFEB 11, 2013
 p5
-aVMIL vs. WAS
+aVFEB 11, 2013
 p6
-aVL
+aVMIL vs. WAS
 p7
+aVL
+p8
 aI5
 aI0
 aI1
@@ -31,16 +34,15 @@ aI1
 aI1
 aI0
 aI-8
-aI0
-aa(lp8
+aa(lp9
 V0021200732
-p9
-aVFEB 06, 2013
 p10
-aVMIL @ UTA
+aVFEB 06, 2013
 p11
-aVL
+aVMIL @ UTA
 p12
+aVL
+p13
 aI3
 aI0
 aI0
@@ -61,16 +63,15 @@ aI1
 aI3
 aI0
 aI-4
-aI0
-aa(lp13
+aa(lp14
 V0021200374
-p14
-aVDEC 19, 2012
 p15
-aVMIL @ MEM
+aVDEC 19, 2012
 p16
-aVL
+aVMIL @ MEM
 p17
+aVL
+p18
 aI3
 aI0
 aI0
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI1
-aI1
-aa(lp18
+aa(lp19
 V0021200343
-p19
-aVDEC 15, 2012
 p20
-aVMIL vs. LAC
+aVDEC 15, 2012
 p21
-aVL
+aVMIL vs. LAC
 p22
+aVL
+p23
 aI7
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI-5
-aI1
-aa(lp23
+aa(lp24
 V0021200293
-p24
-aVDEC 09, 2012
 p25
-aVMIL @ BKN
+aVDEC 09, 2012
 p26
-aVW
+aVMIL @ BKN
 p27
+aVW
+p28
 aI6
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI1
 aI0
 aI-5
-aI1
-aa(lp28
+aa(lp29
 V0021200277
-p29
-aVDEC 07, 2012
 p30
-aVMIL vs. CHA
+aVDEC 07, 2012
 p31
-aVW
+aVMIL vs. CHA
 p32
+aVW
+p33
 aI6
 aI0
 aI0
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI-6
-aI1
-aa(lp33
+aa(lp34
 V0021200247
-p34
-aVDEC 03, 2012
 p35
-aVMIL @ NOH
+aVDEC 03, 2012
 p36
-aVL
+aVMIL @ NOH
 p37
+aVL
+p38
 aI3
 aI0
 aI0
@@ -211,16 +208,15 @@ aI1
 aI0
 aI0
 aI-4
-aI1
-aa(lp38
+aa(lp39
 V0021200230
-p39
-aVNOV 30, 2012
 p40
-aVMIL @ MIN
+aVNOV 30, 2012
 p41
-aVL
+aVMIL @ MIN
 p42
+aVL
+p43
 aI0
 aI0
 aI0
@@ -241,16 +237,15 @@ aI0
 aI1
 aI0
 aI0
-aI1
-aa(lp43
+aa(lp44
 V0021200188
-p44
-aVNOV 24, 2012
 p45
-aVMIL vs. CHI
+aVNOV 24, 2012
 p46
-aVL
+aVMIL vs. CHI
 p47
+aVL
+p48
 aI17
 aI0
 aI1
@@ -271,16 +266,15 @@ aI1
 aI3
 aI0
 aI-4
-aI1
-aa(lp48
+aa(lp49
 V0021200111
-p49
-aVNOV 14, 2012
 p50
-aVMIL vs. IND
+aVNOV 14, 2012
 p51
-aVW
+aVMIL vs. IND
 p52
+aVW
+p53
 aI7
 aI0
 aI0
@@ -301,16 +295,15 @@ aI0
 aI0
 aI0
 aI-9
-aI1
-aa(lp53
+aa(lp54
 V0021200057
-p54
-aVNOV 07, 2012
 p55
-aVMIL vs. MEM
+aVNOV 07, 2012
 p56
-aVL
+aVMIL vs. MEM
 p57
+aVL
+p58
 aI6
 aI1
 aI2
@@ -331,16 +324,15 @@ aI0
 aI0
 aI2
 aI2
-aI1
-aa(lp58
+aa(lp59
 V0021200033
-p59
-aVNOV 03, 2012
 p60
-aVMIL vs. CLE
+aVNOV 03, 2012
 p61
-aVW
+aVMIL vs. CLE
 p62
+aVW
+p63
 aI6
 aI0
 aI0
@@ -361,9 +353,11 @@ aI0
 aI1
 aI0
 aI-4
-aI1
 aasS'name'
-p63
-VJoel Przybilla
 p64
+VJoel Przybilla
+p65
+sS'experience'
+p66
+I12
 s.

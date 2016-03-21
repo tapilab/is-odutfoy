@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I38
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201202
-p4
-aVAPR 15, 2013
 p5
-aVNYK @ CHA
+aVAPR 15, 2013
 p6
-aVL
+aVNYK @ CHA
 p7
+aVL
+p8
 aI4
 aI1
 aI3
@@ -31,16 +34,15 @@ aI0
 aI0
 aI2
 aI-4
-aI1
-aa(lp8
+aa(lp9
 V0021200323
-p9
-aVDEC 13, 2012
 p10
-aVNYK vs. LAL
+aVDEC 13, 2012
 p11
-aVW
+aVNYK vs. LAL
 p12
+aVW
+p13
 aI12
 aI3
 aI5
@@ -61,16 +63,15 @@ aI0
 aI4
 aI8
 aI-2
-aI1
-aa(lp13
+aa(lp14
 V0021200304
-p14
-aVDEC 11, 2012
 p15
-aVNYK @ BKN
+aVDEC 11, 2012
 p16
-aVW
+aVNYK @ BKN
 p17
+aVW
+p18
 aI14
 aI3
 aI7
@@ -91,16 +92,15 @@ aI0
 aI3
 aI8
 aI7
-aI1
-aa(lp18
+aa(lp19
 V0021200288
-p19
-aVDEC 08, 2012
 p20
-aVNYK @ CHI
+aVDEC 08, 2012
 p21
-aVL
+aVNYK @ CHI
 p22
+aVL
+p23
 aI16
 aI2
 aI6
@@ -121,16 +121,15 @@ aI2
 aI0
 aI6
 aI-5
-aI1
-aa(lp23
+aa(lp24
 V0021200268
-p24
-aVDEC 06, 2012
 p25
-aVNYK @ MIA
+aVDEC 06, 2012
 p26
-aVW
+aVNYK @ MIA
 p27
+aVW
+p28
 aI14
 aI4
 aI13
@@ -151,16 +150,15 @@ aI0
 aI1
 aI12
 aI-1
-aI1
-aa(lp28
+aa(lp29
 V0021200257
-p29
-aVDEC 05, 2012
 p30
-aVNYK @ CHA
+aVDEC 05, 2012
 p31
-aVW
+aVNYK @ CHA
 p32
+aVW
+p33
 aI13
 aI1
 aI5
@@ -181,46 +179,44 @@ aI1
 aI1
 aI2
 aI-8
-aI1
-aa(lp33
+aa(lp34
 V0021200243
-p34
-aVDEC 02, 2012
 p35
-aVNYK vs. PHX
+aVDEC 02, 2012
 p36
-aVW
+aVNYK vs. PHX
 p37
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI1
-aa(lp38
-V0021200226
-p39
-aVNOV 30, 2012
-p40
-aVNYK vs. WAS
-p41
 aVW
+p38
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aa(lp39
+V0021200226
+p40
+aVNOV 30, 2012
+p41
+aVNYK vs. WAS
 p42
+aVW
+p43
 aI17
 aI3
 aI5
@@ -241,16 +237,15 @@ aI1
 aI3
 aI7
 aI8
-aI1
-aa(lp43
+aa(lp44
 V0021200215
-p44
-aVNOV 28, 2012
 p45
-aVNYK @ MIL
+aVNOV 28, 2012
 p46
-aVW
+aVNYK @ MIL
 p47
+aVW
+p48
 aI15
 aI2
 aI10
@@ -271,16 +266,15 @@ aI1
 aI2
 aI5
 aI0
-aI1
-aa(lp48
+aa(lp49
 V0021200013
-p49
-aVNOV 26, 2012
 p50
-aVNYK @ BKN
+aVNOV 26, 2012
 p51
-aVL
+aVNYK @ BKN
 p52
+aVL
+p53
 aI23
 aI2
 aI11
@@ -301,16 +295,15 @@ aI0
 aI0
 aI6
 aI-8
-aI1
-aa(lp53
+aa(lp54
 V0021200192
-p54
-aVNOV 25, 2012
 p55
-aVNYK vs. DET
+aVNOV 25, 2012
 p56
-aVW
+aVNYK vs. DET
 p57
+aVW
+p58
 aI22
 aI5
 aI10
@@ -331,16 +324,15 @@ aI0
 aI6
 aI15
 aI16
-aI1
-aa(lp58
+aa(lp59
 V0021200167
-p59
-aVNOV 21, 2012
 p60
-aVNYK @ DAL
+aVNOV 21, 2012
 p61
-aVL
+aVNYK @ DAL
 p62
+aVL
+p63
 aI18
 aI4
 aI9
@@ -361,16 +353,15 @@ aI0
 aI0
 aI11
 aI-2
-aI1
-aa(lp63
+aa(lp64
 V0021200155
-p64
-aVNOV 20, 2012
 p65
-aVNYK @ NOH
+aVNOV 20, 2012
 p66
-aVW
+aVNYK @ NOH
 p67
+aVW
+p68
 aI18
 aI2
 aI8
@@ -391,16 +382,15 @@ aI1
 aI5
 aI6
 aI13
-aI1
-aa(lp68
+aa(lp69
 V0021200139
-p69
-aVNOV 18, 2012
 p70
-aVNYK vs. IND
+aVNOV 18, 2012
 p71
-aVW
+aVNYK vs. IND
 p72
+aVW
+p73
 aI17
 aI3
 aI7
@@ -421,16 +411,15 @@ aI1
 aI1
 aI9
 aI7
-aI1
-aa(lp73
+aa(lp74
 V0021200127
-p74
-aVNOV 16, 2012
 p75
-aVNYK @ MEM
+aVNOV 16, 2012
 p76
-aVL
+aVNYK @ MEM
 p77
+aVL
+p78
 aI24
 aI6
 aI10
@@ -451,16 +440,15 @@ aI1
 aI5
 aI13
 aI-15
-aI1
-aa(lp78
+aa(lp79
 V0021200120
-p79
-aVNOV 15, 2012
 p80
-aVNYK @ SAS
+aVNOV 15, 2012
 p81
-aVW
+aVNYK @ SAS
 p82
+aVW
+p83
 aI15
 aI4
 aI8
@@ -481,16 +469,15 @@ aI0
 aI2
 aI10
 aI-4
-aI1
-aa(lp83
+aa(lp84
 V0021200104
-p84
-aVNOV 13, 2012
 p85
-aVNYK @ ORL
+aVNOV 13, 2012
 p86
-aVW
+aVNYK @ ORL
 p87
+aVW
+p88
 aI14
 aI2
 aI7
@@ -511,16 +498,15 @@ aI0
 aI1
 aI4
 aI0
-aI1
-aa(lp88
+aa(lp89
 V0021200071
-p89
-aVNOV 09, 2012
 p90
-aVNYK vs. DAL
+aVNOV 09, 2012
 p91
-aVW
+aVNYK vs. DAL
 p92
+aVW
+p93
 aI18
 aI2
 aI6
@@ -541,16 +527,15 @@ aI1
 aI2
 aI6
 aI-4
-aI1
-aa(lp93
+aa(lp94
 V0021200042
-p94
-aVNOV 05, 2012
 p95
-aVNYK @ PHI
+aVNOV 05, 2012
 p96
-aVW
+aVNYK @ PHI
 p97
+aVW
+p98
 aI14
 aI4
 aI9
@@ -571,16 +556,15 @@ aI1
 aI3
 aI10
 aI3
-aI1
-aa(lp98
+aa(lp99
 V0021200037
-p99
-aVNOV 04, 2012
 p100
-aVNYK vs. PHI
+aVNOV 04, 2012
 p101
-aVW
+aVNYK vs. PHI
 p102
+aVW
+p103
 aI4
 aI1
 aI1
@@ -601,16 +585,15 @@ aI0
 aI0
 aI3
 aI5
-aI1
-aa(lp103
+aa(lp104
 V0021200020
-p104
-aVNOV 02, 2012
 p105
-aVNYK vs. MIA
+aVNOV 02, 2012
 p106
-aVW
+aVNYK vs. MIA
 p107
+aVW
+p108
 aI3
 aI1
 aI2
@@ -631,9 +614,11 @@ aI0
 aI0
 aI3
 aI1
-aI1
 aasS'name'
-p108
-VRasheed Wallace
 p109
+VRasheed Wallace
+p110
+sS'experience'
+p111
+I17
 s.

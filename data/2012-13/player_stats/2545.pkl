@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I27
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200017
-p4
-aVNOV 02, 2012
 p5
-aVBOS vs. MIL
+aVNOV 02, 2012
 p6
-aVL
+aVBOS vs. MIL
 p7
+aVL
+p8
 aI5
 aI0
 aI1
@@ -31,9 +34,11 @@ aI2
 aI1
 aI0
 aI-3
-aI1
 aasS'name'
-p8
-VDarko Milicic
 p9
+VDarko Milicic
+p10
+sS'experience'
+p11
+I9
 s.

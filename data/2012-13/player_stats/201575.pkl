@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I27
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200026
-p4
-aVNOV 02, 2012
 p5
-aVGSW vs. MEM
+aVNOV 02, 2012
 p6
-aVL
+aVGSW vs. MEM
 p7
+aVL
+p8
 aI2
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI3
-aI1
-aa(lp8
+aa(lp9
 V0021200010
-p9
-aVOCT 31, 2012
 p10
-aVGSW @ PHX
+aVOCT 31, 2012
 p11
-aVW
+aVGSW @ PHX
 p12
+aVW
+p13
 aI23
 aI6
 aI9
@@ -61,9 +63,11 @@ aI3
 aI5
 aI14
 aI3
-aI1
 aasS'name'
-p13
-VBrandon Rush
 p14
+VBrandon Rush
+p15
+sS'experience'
+p16
+I4
 s.

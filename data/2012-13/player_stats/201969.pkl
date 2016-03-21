@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201018
-p4
-aVMAR 20, 2013
 p5
-aVLAC vs. PHI
+aVMAR 20, 2013
 p6
-aVW
+aVLAC vs. PHI
 p7
+aVW
+p8
 aI6
 aI1
 aI4
@@ -31,16 +34,15 @@ aI0
 aI0
 aI2
 aI2
-aI1
-aa(lp8
+aa(lp9
 V0021201007
-p9
-aVMAR 19, 2013
 p10
-aVLAC @ SAC
+aVMAR 19, 2013
 p11
-aVL
+aVLAC @ SAC
 p12
+aVL
+p13
 aI1
 aI0
 aI0
@@ -61,9 +63,11 @@ aI0
 aI0
 aI0
 aI-2
-aI1
 aasS'name'
-p13
-VDaJuan Summers
 p14
+VDaJuan Summers
+p15
+sS'experience'
+p16
+I3
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I23
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200548
-p4
-aVJAN 12, 2013
 p5
-aVMIA @ SAC
+aVJAN 12, 2013
 p6
-aVW
+aVMIA @ SAC
 p7
+aVW
+p8
 aI3
 aI0
 aI1
@@ -31,16 +34,15 @@ aI1
 aI0
 aI0
 aI-4
-aI1
-aa(lp8
+aa(lp9
 V0021200469
-p9
-aVJAN 02, 2013
 p10
-aVMIA vs. DAL
+aVJAN 02, 2013
 p11
-aVW
+aVMIA vs. DAL
 p12
+aVW
+p13
 aI1
 aI0
 aI0
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp13
+aa(lp14
 V0021200445
-p14
-aVDEC 29, 2012
 p15
-aVMIA @ MIL
+aVDEC 29, 2012
 p16
-aVL
+aVMIA @ MIL
 p17
+aVL
+p18
 aI18
 aI2
 aI5
@@ -91,16 +92,15 @@ aI1
 aI3
 aI5
 aI-12
-aI1
-aa(lp18
+aa(lp19
 V0021200092
-p19
-aVNOV 11, 2012
 p20
-aVMIA @ MEM
+aVNOV 11, 2012
 p21
-aVL
+aVMIA @ MEM
 p22
+aVL
+p23
 aI4
 aI2
 aI2
@@ -121,16 +121,15 @@ aI0
 aI0
 aI5
 aI9
-aI1
-aa(lp23
+aa(lp24
 V0021200056
-p24
-aVNOV 07, 2012
 p25
-aVMIA vs. BKN
+aVNOV 07, 2012
 p26
-aVW
+aVMIA vs. BKN
 p27
+aVW
+p28
 aI4
 aI0
 aI1
@@ -151,39 +150,40 @@ aI1
 aI1
 aI0
 aI4
-aI0
-aa(lp28
+aa(lp29
 V0021200020
-p29
-aVNOV 02, 2012
 p30
-aVMIA @ NYK
+aVNOV 02, 2012
 p31
-aVL
+aVMIA @ NYK
 p32
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI2
-aI1
-aasS'name'
+aVL
 p33
-VJosh Harrellson
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI2
+aasS'name'
 p34
+VJosh Harrellson
+p35
+sS'experience'
+p36
+I1
 s.

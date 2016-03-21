@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201205
-p4
-aVAPR 15, 2013
 p5
-aVBKN vs. WAS
+aVAPR 15, 2013
 p6
-aVW
+aVBKN vs. WAS
 p7
+aVW
+p8
 aI20
 aI0
 aI1
@@ -31,16 +34,15 @@ aI0
 aI1
 aI2
 aI12
-aI1
-aa(lp8
+aa(lp9
 V0021201168
-p9
-aVAPR 10, 2013
 p10
-aVBKN @ BOS
+aVAPR 10, 2013
 p11
-aVW
+aVBKN @ BOS
 p12
+aVW
+p13
 aI3
 aI0
 aI1
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI-9
-aI1
-aa(lp13
+aa(lp14
 V0021201155
-p14
-aVAPR 09, 2013
 p15
-aVBKN vs. PHI
+aVAPR 09, 2013
 p16
-aVW
+aVBKN vs. PHI
 p17
+aVW
+p18
 aI5
 aI0
 aI1
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI-5
-aI1
-aa(lp18
+aa(lp19
 V0021201114
-p19
-aVAPR 03, 2013
 p20
-aVBKN @ CLE
+aVAPR 03, 2013
 p21
-aVW
+aVBKN @ CLE
 p22
+aVW
+p23
 aI3
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI-2
-aI1
-aa(lp23
+aa(lp24
 V0021200447
-p24
-aVDEC 29, 2012
 p25
-aVBOS @ GSW
+aVDEC 29, 2012
 p26
-aVL
+aVBOS @ GSW
 p27
+aVL
+p28
 aI5
 aI1
 aI3
@@ -151,16 +150,15 @@ aI0
 aI0
 aI2
 aI0
-aI1
-aa(lp28
+aa(lp29
 V0021200424
-p29
-aVDEC 27, 2012
 p30
-aVBOS @ LAC
+aVDEC 27, 2012
 p31
-aVL
+aVBOS @ LAC
 p32
+aVL
+p33
 aI8
 aI0
 aI2
@@ -181,16 +179,15 @@ aI1
 aI0
 aI1
 aI-6
-aI0
-aa(lp33
+aa(lp34
 V0021200405
-p34
-aVDEC 25, 2012
 p35
-aVBOS @ BKN
+aVDEC 25, 2012
 p36
-aVW
+aVBOS @ BKN
 p37
+aVW
+p38
 aI1
 aI1
 aI2
@@ -211,16 +208,15 @@ aI0
 aI0
 aI2
 aI2
-aI1
-aa(lp38
+aa(lp39
 V0021200259
-p39
-aVDEC 05, 2012
 p40
-aVBOS vs. MIN
+aVDEC 05, 2012
 p41
-aVW
+aVBOS vs. MIN
 p42
+aVW
+p43
 aI1
 aI0
 aI1
@@ -241,16 +237,15 @@ aI0
 aI0
 aI0
 aI-4
-aI1
-aa(lp43
+aa(lp44
 V0021200225
-p44
-aVNOV 30, 2012
 p45
-aVBOS vs. POR
+aVNOV 30, 2012
 p46
-aVW
+aVBOS vs. POR
 p47
+aVW
+p48
 aI5
 aI0
 aI3
@@ -271,16 +266,15 @@ aI0
 aI2
 aI2
 aI-3
-aI1
-aa(lp48
+aa(lp49
 V0021200017
-p49
-aVNOV 02, 2012
 p50
-aVBOS vs. MIL
+aVNOV 02, 2012
 p51
-aVL
+aVBOS vs. MIL
 p52
+aVL
+p53
 aI3
 aI0
 aI0
@@ -301,9 +295,11 @@ aI1
 aI0
 aI0
 aI9
-aI1
 aasS'name'
-p53
-VKris Joseph
 p54
+VKris Joseph
+p55
+sS'experience'
+p56
+I0
 s.

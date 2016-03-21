@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I28
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200076
-p4
-aVNOV 09, 2012
 p5
-aVMIN vs. IND
+aVNOV 09, 2012
 p6
-aVW
+aVMIN vs. IND
 p7
+aVW
+p8
 aI15
 aI3
 aI5
@@ -31,16 +34,15 @@ aI0
 aI0
 aI6
 aI-3
-aI0
-aa(lp8
+aa(lp9
 V0021200060
-p9
-aVNOV 07, 2012
 p10
-aVMIN vs. ORL
+aVNOV 07, 2012
 p11
-aVW
+aVMIN vs. ORL
 p12
+aVW
+p13
 aI26
 aI1
 aI6
@@ -61,16 +63,15 @@ aI1
 aI2
 aI3
 aI19
-aI1
-aa(lp13
+aa(lp14
 V0021200043
-p14
-aVNOV 05, 2012
 p15
-aVMIN @ BKN
+aVNOV 05, 2012
 p16
-aVW
+aVMIN @ BKN
 p17
+aVW
+p18
 aI29
 aI3
 aI7
@@ -91,16 +92,15 @@ aI0
 aI1
 aI6
 aI-2
-aI1
-aa(lp18
+aa(lp19
 V0021200038
-p19
-aVNOV 04, 2012
 p20
-aVMIN @ TOR
+aVNOV 04, 2012
 p21
-aVL
+aVMIN @ TOR
 p22
+aVL
+p23
 aI22
 aI0
 aI3
@@ -121,16 +121,15 @@ aI5
 aI2
 aI4
 aI-4
-aI1
-aa(lp23
+aa(lp24
 V0021200023
-p24
-aVNOV 02, 2012
 p25
-aVMIN vs. SAC
+aVNOV 02, 2012
 p26
-aVW
+aVMIN vs. SAC
 p27
+aVW
+p28
 aI30
 aI4
 aI14
@@ -151,9 +150,11 @@ aI1
 aI0
 aI10
 aI-4
-aI1
 aasS'name'
-p28
-VBrandon Roy
 p29
+VBrandon Roy
+p30
+sS'experience'
+p31
+I6
 s.

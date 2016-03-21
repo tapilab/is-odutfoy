@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200486
-p4
-aVJAN 04, 2013
 p5
-aVHOU @ MIL
+aVJAN 04, 2013
 p6
-aVW
+aVHOU @ MIL
 p7
+aVW
+p8
 aI3
 aI1
 aI1
@@ -31,16 +34,15 @@ aI2
 aI0
 aI2
 aI-4
-aI1
-aa(lp8
+aa(lp9
 V0021200455
-p9
-aVDEC 31, 2012
 p10
-aVHOU vs. ATL
+aVDEC 31, 2012
 p11
-aVW
+aVHOU vs. ATL
 p12
+aVW
+p13
 aI2
 aI0
 aI0
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI1
-aI1
-aa(lp13
+aa(lp14
 V0021200443
-p14
-aVDEC 29, 2012
 p15
-aVHOU vs. OKC
+aVDEC 29, 2012
 p16
-aVL
+aVHOU vs. OKC
 p17
+aVL
+p18
 aI7
 aI1
 aI2
@@ -91,16 +92,15 @@ aI2
 aI0
 aI2
 aI-5
-aI1
-aa(lp18
+aa(lp19
 V0021200408
-p19
-aVDEC 25, 2012
 p20
-aVHOU @ CHI
+aVDEC 25, 2012
 p21
-aVW
+aVHOU @ CHI
 p22
+aVW
+p23
 aI3
 aI0
 aI2
@@ -121,16 +121,15 @@ aI2
 aI0
 aI0
 aI1
-aI1
-aa(lp23
+aa(lp24
 V0021200394
-p24
-aVDEC 22, 2012
 p25
-aVHOU vs. MEM
+aVDEC 22, 2012
 p26
-aVW
+aVHOU vs. MEM
 p27
+aVW
+p28
 aI4
 aI1
 aI1
@@ -151,16 +150,15 @@ aI2
 aI0
 aI2
 aI1
-aI1
-aa(lp28
+aa(lp29
 V0021200218
-p29
-aVNOV 28, 2012
 p30
-aVHOU @ OKC
+aVNOV 28, 2012
 p31
-aVL
+aVHOU @ OKC
 p32
+aVL
+p33
 aI3
 aI0
 aI0
@@ -181,9 +179,11 @@ aI0
 aI0
 aI2
 aI-3
-aI1
 aasS'name'
-p33
-VScott Machado
 p34
+VScott Machado
+p35
+sS'experience'
+p36
+I0
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200319
-p4
-aVDEC 12, 2012
 p5
-aVMIN vs. DEN
+aVDEC 12, 2012
 p6
-aVW
+aVMIN vs. DEN
 p7
+aVW
+p8
 aI10
 aI0
 aI2
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI1
-aI1
-aa(lp8
+aa(lp9
 V0021200276
-p9
-aVDEC 07, 2012
 p10
-aVMIN vs. CLE
+aVDEC 07, 2012
 p11
-aVW
+aVMIN vs. CLE
 p12
+aVW
+p13
 aI20
 aI1
 aI5
@@ -61,16 +63,15 @@ aI2
 aI2
 aI6
 aI5
-aI1
-aa(lp13
+aa(lp14
 V0021200259
-p14
-aVDEC 05, 2012
 p15
-aVMIN @ BOS
+aVDEC 05, 2012
 p16
-aVL
+aVMIN @ BOS
 p17
+aVL
+p18
 aI24
 aI2
 aI5
@@ -91,16 +92,15 @@ aI0
 aI1
 aI6
 aI-1
-aI1
-aa(lp18
+aa(lp19
 V0021200251
-p19
-aVDEC 04, 2012
 p20
-aVMIN @ PHI
+aVDEC 04, 2012
 p21
-aVW
+aVMIN @ PHI
 p22
+aVW
+p23
 aI19
 aI4
 aI4
@@ -121,16 +121,15 @@ aI0
 aI1
 aI10
 aI8
-aI1
-aa(lp23
+aa(lp24
 V0021200219
-p24
-aVNOV 28, 2012
 p25
-aVMIN @ LAC
+aVNOV 28, 2012
 p26
-aVL
+aVMIN @ LAC
 p27
+aVL
+p28
 aI25
 aI4
 aI7
@@ -151,16 +150,15 @@ aI1
 aI6
 aI10
 aI4
-aI1
-aa(lp28
+aa(lp29
 V0021200207
-p29
-aVNOV 27, 2012
 p30
-aVMIN @ SAC
+aVNOV 27, 2012
 p31
-aVW
+aVMIN @ SAC
 p32
+aVW
+p33
 aI21
 aI4
 aI6
@@ -181,16 +179,15 @@ aI2
 aI1
 aI10
 aI2
-aI1
-aa(lp33
+aa(lp34
 V0021200190
-p34
-aVNOV 24, 2012
 p35
-aVMIN @ GSW
+aVNOV 24, 2012
 p36
-aVL
+aVMIN @ GSW
 p37
+aVL
+p38
 aI15
 aI0
 aI3
@@ -211,16 +208,15 @@ aI1
 aI2
 aI0
 aI-1
-aI1
-aa(lp38
+aa(lp39
 V0021200182
-p39
-aVNOV 23, 2012
 p40
-aVMIN @ POR
+aVNOV 23, 2012
 p41
-aVL
+aVMIN @ POR
 p42
+aVL
+p43
 aI19
 aI3
 aI4
@@ -241,16 +237,15 @@ aI2
 aI3
 aI7
 aI3
-aI1
-aa(lp43
+aa(lp44
 V0021200166
-p44
-aVNOV 21, 2012
 p45
-aVMIN vs. DEN
+aVNOV 21, 2012
 p46
-aVL
+aVMIN vs. DEN
 p47
+aVL
+p48
 aI25
 aI1
 aI8
@@ -271,16 +266,15 @@ aI0
 aI1
 aI2
 aI1
-aI1
-aa(lp48
+aa(lp49
 V0021200126
-p49
-aVNOV 16, 2012
 p50
-aVMIN vs. GSW
+aVNOV 16, 2012
 p51
-aVL
+aVMIN vs. GSW
 p52
+aVL
+p53
 aI19
 aI0
 aI2
@@ -301,16 +295,15 @@ aI1
 aI3
 aI0
 aI12
-aI1
-aa(lp53
+aa(lp54
 V0021200114
-p54
-aVNOV 14, 2012
 p55
-aVMIN vs. CHA
+aVNOV 14, 2012
 p56
-aVL
+aVMIN vs. CHA
 p57
+aVL
+p58
 aI35
 aI3
 aI12
@@ -331,16 +324,15 @@ aI0
 aI2
 aI10
 aI-2
-aI1
-aa(lp58
+aa(lp59
 V0021200100
-p59
-aVNOV 12, 2012
 p60
-aVMIN @ DAL
+aVNOV 12, 2012
 p61
-aVW
+aVMIN @ DAL
 p62
+aVW
+p63
 aI23
 aI2
 aI6
@@ -361,16 +353,15 @@ aI1
 aI2
 aI4
 aI5
-aI1
-aa(lp63
+aa(lp64
 V0021200084
-p64
-aVNOV 10, 2012
 p65
-aVMIN @ CHI
+aVNOV 10, 2012
 p66
-aVL
+aVMIN @ CHI
 p67
+aVL
+p68
 aI12
 aI4
 aI6
@@ -391,16 +382,15 @@ aI0
 aI2
 aI9
 aI-7
-aI1
-aa(lp68
+aa(lp69
 V0021200076
-p69
-aVNOV 09, 2012
 p70
-aVMIN vs. IND
+aVNOV 09, 2012
 p71
-aVW
+aVMIN vs. IND
 p72
+aVW
+p73
 aI13
 aI1
 aI3
@@ -421,16 +411,15 @@ aI0
 aI2
 aI2
 aI0
-aI0
-aa(lp73
+aa(lp74
 V0021200060
-p74
-aVNOV 07, 2012
 p75
-aVMIN vs. ORL
+aVNOV 07, 2012
 p76
-aVW
+aVMIN vs. ORL
 p77
+aVW
+p78
 aI5
 aI0
 aI3
@@ -451,16 +440,15 @@ aI0
 aI0
 aI2
 aI-12
-aI1
-aa(lp78
+aa(lp79
 V0021200038
-p79
-aVNOV 04, 2012
 p80
-aVMIN @ TOR
+aVNOV 04, 2012
 p81
-aVL
+aVMIN @ TOR
 p82
+aVL
+p83
 aI4
 aI0
 aI0
@@ -481,9 +469,11 @@ aI0
 aI2
 aI0
 aI-6
-aI1
 aasS'name'
-p83
-VMalcolm Lee
 p84
+VMalcolm Lee
+p85
+sS'experience'
+p86
+I1
 s.

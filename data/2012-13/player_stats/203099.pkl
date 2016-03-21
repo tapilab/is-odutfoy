@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I21
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200508
-p4
-aVJAN 07, 2013
 p5
-aVDAL @ UTA
+aVJAN 07, 2013
 p6
-aVL
+aVDAL @ UTA
 p7
+aVL
+p8
 aI2
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI1
 aI0
 aI-6
-aI1
-aa(lp8
+aa(lp9
 V0021200302
-p9
-aVDEC 10, 2012
 p10
-aVDAL vs. SAC
+aVDEC 10, 2012
 p11
-aVW
+aVDAL vs. SAC
 p12
+aVW
+p13
 aI4
 aI2
 aI3
@@ -61,16 +63,15 @@ aI1
 aI0
 aI6
 aI2
-aI1
-aa(lp13
+aa(lp14
 V0021200214
-p14
-aVNOV 28, 2012
 p15
-aVDAL @ CHI
+aVNOV 28, 2012
 p16
-aVL
+aVDAL @ CHI
 p17
+aVL
+p18
 aI4
 aI2
 aI6
@@ -91,16 +92,15 @@ aI0
 aI0
 aI4
 aI1
-aI1
-aa(lp18
+aa(lp19
 V0021200115
-p19
-aVNOV 14, 2012
 p20
-aVDAL vs. WAS
+aVNOV 14, 2012
 p21
-aVW
+aVDAL vs. WAS
 p22
+aVW
+p23
 aI0
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp23
+aa(lp24
 V0021200071
-p24
-aVNOV 09, 2012
 p25
-aVDAL @ NYK
+aVNOV 09, 2012
 p26
-aVL
+aVDAL @ NYK
 p27
+aVL
+p28
 aI1
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp28
+aa(lp29
 V0021200046
-p29
-aVNOV 05, 2012
 p30
-aVDAL vs. POR
+aVNOV 05, 2012
 p31
-aVW
+aVDAL vs. POR
 p32
+aVW
+p33
 aI1
 aI0
 aI0
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI3
-aI1
-aa(lp33
+aa(lp34
 V0021200034
-p34
-aVNOV 03, 2012
 p35
-aVDAL vs. CHA
+aVNOV 03, 2012
 p36
-aVW
+aVDAL vs. CHA
 p37
+aVW
+p38
 aI8
 aI2
 aI2
@@ -211,16 +208,15 @@ aI0
 aI1
 aI6
 aI-4
-aI1
-aa(lp38
+aa(lp39
 V0021200009
-p39
-aVOCT 31, 2012
 p40
-aVDAL @ UTA
+aVOCT 31, 2012
 p41
-aVL
+aVDAL @ UTA
 p42
+aVL
+p43
 aI6
 aI0
 aI3
@@ -241,9 +237,11 @@ aI1
 aI1
 aI0
 aI-4
-aI1
 aasS'name'
-p43
-VJared Cunningham
 p44
+VJared Cunningham
+p45
+sS'experience'
+p46
+I0
 s.

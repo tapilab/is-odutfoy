@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I25
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200609
-p4
-aVJAN 21, 2013
 p5
-aVBKN @ NYK
+aVJAN 21, 2013
 p6
-aVW
+aVBKN @ NYK
 p7
+aVW
+p8
 aI0
 aI0
 aI0
@@ -31,39 +34,40 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp8
+aa(lp9
 V0021200566
-p9
-aVJAN 15, 2013
 p10
-aVBKN vs. TOR
+aVJAN 15, 2013
 p11
-aVW
+aVBKN vs. TOR
 p12
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aasS'name'
+aVW
 p13
-VDamion James
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aasS'name'
 p14
+VDamion James
+p15
+sS'experience'
+p16
+I2
 s.

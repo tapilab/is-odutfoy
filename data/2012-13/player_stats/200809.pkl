@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I29
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201197
-p4
-aVAPR 14, 2013
 p5
-aVCLE @ PHI
+aVAPR 14, 2013
 p6
-aVL
+aVCLE @ PHI
 p7
+aVL
+p8
 aI12
 aI1
 aI3
@@ -31,16 +34,15 @@ aI0
 aI1
 aI2
 aI9
-aI1
-aa(lp8
+aa(lp9
 V0021201182
-p9
-aVAPR 12, 2013
 p10
-aVCLE vs. NYK
+aVAPR 12, 2013
 p11
-aVL
+aVCLE vs. NYK
 p12
+aVL
+p13
 aI3
 aI0
 aI1
@@ -61,16 +63,15 @@ aI0
 aI1
 aI0
 aI11
-aI1
-aa(lp13
+aa(lp14
 V0021201114
-p14
-aVAPR 03, 2013
 p15
-aVCLE vs. BKN
+aVAPR 03, 2013
 p16
-aVL
+aVCLE vs. BKN
 p17
+aVL
+p18
 aI7
 aI0
 aI2
@@ -91,16 +92,15 @@ aI0
 aI0
 aI2
 aI4
-aI1
-aa(lp18
+aa(lp19
 V0021201101
-p19
-aVAPR 01, 2013
 p20
-aVCLE @ ATL
+aVAPR 01, 2013
 p21
-aVL
+aVCLE @ ATL
 p22
+aVL
+p23
 aI14
 aI0
 aI1
@@ -121,16 +121,15 @@ aI1
 aI0
 aI0
 aI1
-aI1
-aa(lp23
+aa(lp24
 V0021201078
-p24
-aVMAR 29, 2013
 p25
-aVCLE vs. PHI
+aVMAR 29, 2013
 p26
-aVL
+aVCLE vs. PHI
 p27
+aVL
+p28
 aI12
 aI1
 aI3
@@ -151,16 +150,15 @@ aI1
 aI1
 aI2
 aI5
-aI1
-aa(lp28
+aa(lp29
 V0021201060
-p29
-aVMAR 27, 2013
 p30
-aVCLE vs. BOS
+aVMAR 27, 2013
 p31
-aVL
+aVCLE vs. BOS
 p32
+aVL
+p33
 aI13
 aI0
 aI1
@@ -181,16 +179,15 @@ aI1
 aI0
 aI0
 aI1
-aI1
-aa(lp33
+aa(lp34
 V0021201028
-p34
-aVMAR 22, 2013
 p35
-aVCLE @ HOU
+aVMAR 22, 2013
 p36
-aVL
+aVCLE @ HOU
 p37
+aVL
+p38
 aI18
 aI2
 aI5
@@ -211,9 +208,11 @@ aI3
 aI1
 aI4
 aI-20
-aI1
 aasS'name'
-p38
-VChris Quinn
 p39
+VChris Quinn
+p40
+sS'experience'
+p41
+I6
 s.

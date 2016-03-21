@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201159
-p4
-aVAPR 09, 2013
 p5
-aVMEM vs. CHA
+aVAPR 09, 2013
 p6
-aVW
+aVMEM vs. CHA
 p7
+aVW
+p8
 aI2
 aI0
 aI1
@@ -31,16 +34,15 @@ aI1
 aI1
 aI0
 aI-6
-aI0
-aa(lp8
+aa(lp9
 V0021201120
-p9
-aVAPR 03, 2013
 p10
-aVMEM @ POR
+aVAPR 03, 2013
 p11
-aVW
+aVMEM @ POR
 p12
+aVW
+p13
 aI2
 aI0
 aI1
@@ -61,16 +63,15 @@ aI0
 aI2
 aI0
 aI-1
-aI1
-aa(lp13
+aa(lp14
 V0021201048
-p14
-aVMAR 25, 2013
 p15
-aVMEM @ WAS
+aVMAR 25, 2013
 p16
-aVL
+aVMEM @ WAS
 p17
+aVL
+p18
 aI1
 aI0
 aI0
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI-2
-aI1
-aa(lp18
+aa(lp19
 V0021201027
-p19
-aVMAR 22, 2013
 p20
-aVMEM @ NOH
+aVMAR 22, 2013
 p21
-aVL
+aVMEM @ NOH
 p22
+aVL
+p23
 aI0
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp23
+aa(lp24
 V0021200930
-p24
-aVMAR 09, 2013
 p25
-aVMEM vs. NOH
+aVMAR 09, 2013
 p26
-aVW
+aVMEM vs. NOH
 p27
+aVW
+p28
 aI1
 aI0
 aI0
@@ -151,16 +150,15 @@ aI0
 aI0
 aI0
 aI-4
-aI1
-aa(lp28
+aa(lp29
 V0021200905
-p29
-aVMAR 06, 2013
 p30
-aVMEM vs. POR
+aVMAR 06, 2013
 p31
-aVW
+aVMEM vs. POR
 p32
+aVW
+p33
 aI3
 aI0
 aI0
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp33
+aa(lp34
 V0021200883
-p34
-aVMAR 03, 2013
 p35
-aVMEM @ ORL
+aVMAR 03, 2013
 p36
-aVW
+aVMEM @ ORL
 p37
+aVW
+p38
 aI10
 aI1
 aI4
@@ -211,16 +208,15 @@ aI0
 aI1
 aI2
 aI-5
-aI0
-aa(lp38
+aa(lp39
 V0021200392
-p39
-aVDEC 22, 2012
 p40
-aVMIA vs. UTA
+aVDEC 22, 2012
 p41
-aVW
+aVMIA vs. UTA
 p42
+aVW
+p43
 aI2
 aI0
 aI0
@@ -241,16 +237,15 @@ aI2
 aI2
 aI0
 aI-4
-aI1
-aa(lp43
+aa(lp44
 V0021200378
-p44
-aVDEC 20, 2012
 p45
-aVMIA @ DAL
+aVDEC 20, 2012
 p46
-aVW
+aVMIA @ DAL
 p47
+aVW
+p48
 aI3
 aI1
 aI2
@@ -271,16 +266,15 @@ aI0
 aI1
 aI2
 aI-9
-aI1
-aa(lp48
+aa(lp49
 V0021200339
-p49
-aVDEC 15, 2012
 p50
-aVMIA vs. WAS
+aVDEC 15, 2012
 p51
-aVW
+aVMIA vs. WAS
 p52
+aVW
+p53
 aI6
 aI2
 aI3
@@ -301,39 +295,40 @@ aI0
 aI1
 aI4
 aI2
-aI1
-aa(lp53
+aa(lp54
 V0021200233
-p54
-aVDEC 01, 2012
 p55
-aVMIA vs. BKN
+aVDEC 01, 2012
 p56
-aVW
+aVMIA vs. BKN
 p57
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aasS'name'
+aVW
 p58
-VDexter Pittman
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aasS'name'
 p59
+VDexter Pittman
+p60
+sS'experience'
+p61
+I2
 s.

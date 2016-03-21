@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200757
-p4
-aVFEB 10, 2013
 p5
-aVMEM vs. MIN
+aVFEB 10, 2013
 p6
-aVW
+aVMEM vs. MIN
 p7
+aVW
+p8
 aI1
 aI0
 aI0
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI-1
-aI0
-aa(lp8
+aa(lp9
 V0021200725
-p9
-aVFEB 06, 2013
 p10
-aVMEM @ ATL
+aVFEB 06, 2013
 p11
-aVL
+aVMEM @ ATL
 p12
+aVL
+p13
 aI5
 aI0
 aI0
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp13
+aa(lp14
 V0021200717
-p14
-aVFEB 05, 2013
 p15
-aVMEM vs. PHX
+aVFEB 05, 2013
 p16
-aVL
+aVMEM vs. PHX
 p17
+aVL
+p18
 aI3
 aI0
 aI0
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp18
+aa(lp19
 V0021200682
-p19
-aVJAN 31, 2013
 p20
-aVMEM @ OKC
+aVJAN 31, 2013
 p21
-aVL
+aVMEM @ OKC
 p22
+aVL
+p23
 aI21
 aI0
 aI6
@@ -121,16 +121,15 @@ aI1
 aI3
 aI1
 aI-16
-aI1
-aa(lp23
+aa(lp24
 V0021200660
-p24
-aVJAN 28, 2013
 p25
-aVMEM @ PHI
+aVJAN 28, 2013
 p26
-aVW
+aVMEM @ PHI
 p27
+aVW
+p28
 aI26
 aI3
 aI4
@@ -151,16 +150,15 @@ aI0
 aI1
 aI8
 aI19
-aI1
-aa(lp28
+aa(lp29
 V0021200655
-p29
-aVJAN 27, 2013
 p30
-aVMEM vs. NOH
+aVJAN 27, 2013
 p31
-aVL
+aVMEM vs. NOH
 p32
+aVL
+p33
 aI16
 aI2
 aI5
@@ -181,16 +179,15 @@ aI1
 aI0
 aI6
 aI8
-aI1
-aa(lp33
+aa(lp34
 V0021200637
-p34
-aVJAN 25, 2013
 p35
-aVMEM vs. BKN
+aVJAN 25, 2013
 p36
-aVW
+aVMEM vs. BKN
 p37
+aVW
+p38
 aI22
 aI4
 aI6
@@ -211,16 +208,15 @@ aI1
 aI1
 aI10
 aI21
-aI1
-aa(lp38
+aa(lp39
 V0021200621
-p39
-aVJAN 23, 2013
 p40
-aVMEM vs. LAL
+aVJAN 23, 2013
 p41
-aVW
+aVMEM vs. LAL
 p42
+aVW
+p43
 aI7
 aI2
 aI4
@@ -241,9 +237,11 @@ aI0
 aI0
 aI4
 aI7
-aI1
 aasS'name'
-p43
-VChris Johnson
 p44
+VChris Johnson
+p45
+sS'experience'
+p46
+I0
 s.

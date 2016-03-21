@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I33
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200708
-p4
-aVFEB 04, 2013
 p5
-aVORL @ PHI
+aVFEB 04, 2013
 p6
-aVL
+aVORL @ PHI
 p7
+aVL
+p8
 aI18
 aI0
 aI3
@@ -31,16 +34,15 @@ aI1
 aI0
 aI0
 aI5
-aI0
-aa(lp8
+aa(lp9
 V0021200701
-p9
-aVFEB 02, 2013
 p10
-aVORL @ MIL
+aVFEB 02, 2013
 p11
-aVL
+aVORL @ MIL
 p12
+aVL
+p13
 aI5
 aI1
 aI2
@@ -61,16 +63,15 @@ aI0
 aI0
 aI2
 aI-6
-aI1
-aa(lp13
+aa(lp14
 V0021200686
-p14
-aVFEB 01, 2013
 p15
-aVORL @ BOS
+aVFEB 01, 2013
 p16
-aVL
+aVORL @ BOS
 p17
+aVL
+p18
 aI18
 aI0
 aI6
@@ -91,16 +92,15 @@ aI0
 aI1
 aI0
 aI-19
-aI1
-aa(lp18
+aa(lp19
 V0021200673
-p19
-aVJAN 30, 2013
 p20
-aVORL @ NYK
+aVJAN 30, 2013
 p21
-aVL
+aVORL @ NYK
 p22
+aVL
+p23
 aI16
 aI1
 aI5
@@ -121,16 +121,15 @@ aI1
 aI0
 aI2
 aI-9
-aI1
-aa(lp23
+aa(lp24
 V0021200662
-p24
-aVJAN 28, 2013
 p25
-aVORL @ BKN
+aVJAN 28, 2013
 p26
-aVL
+aVORL @ BKN
 p27
+aVL
+p28
 aI12
 aI2
 aI5
@@ -151,16 +150,15 @@ aI1
 aI1
 aI4
 aI-13
-aI1
-aa(lp28
+aa(lp29
 V0021200510
-p29
-aVJAN 07, 2013
 p30
-aVORL @ POR
+aVJAN 07, 2013
 p31
-aVL
+aVORL @ POR
 p32
+aVL
+p33
 aI5
 aI0
 aI1
@@ -181,16 +179,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp33
+aa(lp34
 V0021200490
-p34
-aVJAN 05, 2013
 p35
-aVORL vs. NYK
+aVJAN 05, 2013
 p36
-aVL
+aVORL vs. NYK
 p37
+aVL
+p38
 aI18
 aI0
 aI5
@@ -211,16 +208,15 @@ aI2
 aI0
 aI1
 aI-13
-aI1
-aa(lp38
+aa(lp39
 V0021200465
-p39
-aVJAN 02, 2013
 p40
-aVORL vs. CHI
+aVJAN 02, 2013
 p41
-aVL
+aVORL vs. CHI
 p42
+aVL
+p43
 aI18
 aI0
 aI3
@@ -241,16 +237,15 @@ aI0
 aI3
 aI0
 aI4
-aI1
-aa(lp43
+aa(lp44
 V0021200454
-p44
-aVDEC 31, 2012
 p45
-aVORL vs. MIA
+aVDEC 31, 2012
 p46
-aVL
+aVORL vs. MIA
 p47
+aVL
+p48
 aI39
 aI4
 aI11
@@ -271,16 +266,15 @@ aI5
 aI3
 aI9
 aI9
-aI1
-aa(lp48
+aa(lp49
 V0021200439
-p49
-aVDEC 29, 2012
 p50
-aVORL vs. TOR
+aVDEC 29, 2012
 p51
-aVL
+aVORL vs. TOR
 p52
+aVL
+p53
 aI23
 aI3
 aI8
@@ -301,16 +295,15 @@ aI2
 aI0
 aI8
 aI-37
-aI1
-aa(lp53
+aa(lp54
 V0021200016
-p54
-aVNOV 02, 2012
 p55
-aVORL vs. DEN
+aVNOV 02, 2012
 p56
-aVW
+aVORL vs. DEN
 p57
+aVW
+p58
 aI17
 aI3
 aI4
@@ -331,9 +324,11 @@ aI0
 aI3
 aI6
 aI-2
-aI1
 aasS'name'
-p58
-VHedo Turkoglu
 p59
+VHedo Turkoglu
+p60
+sS'experience'
+p61
+I12
 s.

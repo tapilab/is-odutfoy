@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I30
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200114
-p4
-aVNOV 14, 2012
 p5
-aVMIN vs. CHA
+aVNOV 14, 2012
 p6
-aVL
+aVMIN vs. CHA
 p7
+aVL
+p8
 aI4
 aI0
 aI2
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI-10
-aI1
-aa(lp8
+aa(lp9
 V0021200100
-p9
-aVNOV 12, 2012
 p10
-aVMIN @ DAL
+aVNOV 12, 2012
 p11
-aVW
+aVMIN @ DAL
 p12
+aVW
+p13
 aI4
 aI0
 aI0
@@ -61,16 +63,15 @@ aI0
 aI0
 aI1
 aI-4
-aI1
-aa(lp13
+aa(lp14
 V0021200060
-p14
-aVNOV 07, 2012
 p15
-aVMIN vs. ORL
+aVNOV 07, 2012
 p16
-aVW
+aVMIN vs. ORL
 p17
+aVW
+p18
 aI5
 aI0
 aI3
@@ -91,16 +92,15 @@ aI0
 aI1
 aI0
 aI-12
-aI1
-aa(lp18
+aa(lp19
 V0021200038
-p19
-aVNOV 04, 2012
 p20
-aVMIN @ TOR
+aVNOV 04, 2012
 p21
-aVL
+aVMIN @ TOR
 p22
+aVL
+p23
 aI8
 aI0
 aI4
@@ -121,9 +121,11 @@ aI0
 aI0
 aI0
 aI-14
-aI1
 aasS'name'
-p23
-VWill Conroy
 p24
+VWill Conroy
+p25
+sS'experience'
+p26
+I6
 s.

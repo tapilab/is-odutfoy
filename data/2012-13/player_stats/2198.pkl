@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I30
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200805
-p4
-aVFEB 20, 2013
 p5
-aVPHI @ MIN
+aVFEB 20, 2013
 p6
-aVL
+aVPHI @ MIN
 p7
+aVL
+p8
 aI6
 aI0
 aI1
@@ -31,16 +34,15 @@ aI0
 aI1
 aI0
 aI3
-aI1
-aa(lp8
+aa(lp9
 V0021200721
-p9
-aVFEB 06, 2013
 p10
-aVPHI vs. IND
+aVFEB 06, 2013
 p11
-aVL
+aVPHI vs. IND
 p12
+aVL
+p13
 aI6
 aI0
 aI1
@@ -61,16 +63,15 @@ aI1
 aI0
 aI0
 aI-6
-aI1
-aa(lp13
+aa(lp14
 V0021200660
-p14
-aVJAN 28, 2013
 p15
-aVPHI vs. MEM
+aVJAN 28, 2013
 p16
-aVL
+aVPHI vs. MEM
 p17
+aVL
+p18
 aI11
 aI1
 aI1
@@ -91,16 +92,15 @@ aI0
 aI0
 aI3
 aI1
-aI1
-aa(lp18
+aa(lp19
 V0021200564
-p19
-aVJAN 15, 2013
 p20
-aVPHI vs. NOH
+aVJAN 15, 2013
 p21
-aVL
+aVPHI vs. NOH
 p22
+aVL
+p23
 aI7
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI1
 aI0
 aI9
-aI1
-aa(lp23
+aa(lp24
 V0021200496
-p24
-aVJAN 05, 2013
 p25
-aVPHI @ SAS
+aVJAN 05, 2013
 p26
-aVL
+aVPHI @ SAS
 p27
+aVL
+p28
 aI8
 aI0
 aI0
@@ -151,16 +150,15 @@ aI1
 aI2
 aI0
 aI-1
-aI1
-aa(lp28
+aa(lp29
 V0021200463
-p29
-aVJAN 01, 2013
 p30
-aVPHI @ LAL
+aVJAN 01, 2013
 p31
-aVW
+aVPHI @ LAL
 p32
+aVW
+p33
 aI15
 aI0
 aI1
@@ -181,16 +179,15 @@ aI2
 aI3
 aI0
 aI-4
-aI1
-aa(lp33
+aa(lp34
 V0021200436
-p34
-aVDEC 28, 2012
 p35
-aVPHI @ GSW
+aVDEC 28, 2012
 p36
-aVL
+aVPHI @ GSW
 p37
+aVL
+p38
 aI16
 aI0
 aI1
@@ -211,16 +208,15 @@ aI0
 aI2
 aI0
 aI4
-aI1
-aa(lp38
+aa(lp39
 V0021200372
-p39
-aVDEC 19, 2012
 p40
-aVPHI @ HOU
+aVDEC 19, 2012
 p41
-aVL
+aVPHI @ HOU
 p42
+aVL
+p43
 aI4
 aI1
 aI1
@@ -241,16 +237,15 @@ aI0
 aI1
 aI2
 aI-7
-aI1
-aa(lp43
+aa(lp44
 V0021200362
-p44
-aVDEC 18, 2012
 p45
-aVPHI @ DAL
+aVDEC 18, 2012
 p46
-aVL
+aVPHI @ DAL
 p47
+aVL
+p48
 aI19
 aI2
 aI3
@@ -271,16 +266,15 @@ aI1
 aI3
 aI4
 aI-9
-aI0
-aa(lp48
+aa(lp49
 V0021200347
-p49
-aVDEC 16, 2012
 p50
-aVPHI vs. LAL
+aVDEC 16, 2012
 p51
-aVL
+aVPHI vs. LAL
 p52
+aVL
+p53
 aI22
 aI1
 aI2
@@ -301,16 +295,15 @@ aI1
 aI4
 aI2
 aI-2
-aI1
-aa(lp53
+aa(lp54
 V0021200327
-p54
-aVDEC 14, 2012
 p55
-aVPHI @ IND
+aVDEC 14, 2012
 p56
-aVL
+aVPHI @ IND
 p57
+aVL
+p58
 aI21
 aI2
 aI2
@@ -331,16 +324,15 @@ aI0
 aI0
 aI5
 aI-11
-aI1
-aa(lp58
+aa(lp59
 V0021200251
-p59
-aVDEC 04, 2012
 p60
-aVPHI vs. MIN
+aVDEC 04, 2012
 p61
-aVL
+aVPHI vs. MIN
 p62
+aVL
+p63
 aI12
 aI0
 aI0
@@ -361,16 +353,15 @@ aI0
 aI0
 aI1
 aI-13
-aI1
-aa(lp63
+aa(lp64
 V0021200223
-p64
-aVNOV 30, 2012
 p65
-aVPHI @ CHA
+aVNOV 30, 2012
 p66
-aVW
+aVPHI @ CHA
 p67
+aVW
+p68
 aI9
 aI0
 aI2
@@ -391,16 +382,15 @@ aI0
 aI1
 aI0
 aI3
-aI1
-aa(lp68
+aa(lp69
 V0021200204
-p69
-aVNOV 27, 2012
 p70
-aVPHI vs. DAL
+aVNOV 27, 2012
 p71
-aVW
+aVPHI vs. DAL
 p72
+aVW
+p73
 aI16
 aI2
 aI3
@@ -421,16 +411,15 @@ aI0
 aI3
 aI6
 aI6
-aI1
-aa(lp73
+aa(lp74
 V0021200194
-p74
-aVNOV 25, 2012
 p75
-aVPHI vs. PHX
+aVNOV 25, 2012
 p76
-aVW
+aVPHI vs. PHX
 p77
+aVW
+p78
 aI6
 aI1
 aI2
@@ -451,16 +440,15 @@ aI1
 aI2
 aI2
 aI2
-aI1
-aa(lp78
+aa(lp79
 V0021200183
-p79
-aVNOV 24, 2012
 p80
-aVPHI vs. OKC
+aVNOV 24, 2012
 p81
-aVL
+aVPHI vs. OKC
 p82
+aVL
+p83
 aI8
 aI1
 aI4
@@ -481,16 +469,15 @@ aI1
 aI2
 aI2
 aI-9
-aI1
-aa(lp83
+aa(lp84
 V0021200159
-p84
-aVNOV 21, 2012
 p85
-aVPHI @ CLE
+aVNOV 21, 2012
 p86
-aVL
+aVPHI @ CLE
 p87
+aVL
+p88
 aI21
 aI2
 aI3
@@ -511,16 +498,15 @@ aI0
 aI2
 aI5
 aI-1
-aI1
-aa(lp88
+aa(lp89
 V0021200154
-p89
-aVNOV 20, 2012
 p90
-aVPHI vs. TOR
+aVNOV 20, 2012
 p91
-aVW
+aVPHI vs. TOR
 p92
+aVW
+p93
 aI6
 aI0
 aI0
@@ -541,16 +527,15 @@ aI0
 aI1
 aI0
 aI-10
-aI1
-aa(lp93
+aa(lp94
 V0021200141
-p94
-aVNOV 18, 2012
 p95
-aVPHI vs. CLE
+aVNOV 18, 2012
 p96
-aVW
+aVPHI vs. CLE
 p97
+aVW
+p98
 aI9
 aI0
 aI0
@@ -571,16 +556,15 @@ aI0
 aI3
 aI0
 aI-8
-aI1
-aa(lp98
+aa(lp99
 V0021200122
-p99
-aVNOV 16, 2012
 p100
-aVPHI vs. UTA
+aVNOV 16, 2012
 p101
-aVW
+aVPHI vs. UTA
 p102
+aVW
+p103
 aI24
 aI1
 aI5
@@ -601,16 +585,15 @@ aI0
 aI3
 aI2
 aI12
-aI1
-aa(lp103
+aa(lp104
 V0021200109
-p104
-aVNOV 14, 2012
 p105
-aVPHI vs. DET
+aVNOV 14, 2012
 p106
-aVL
+aVPHI vs. DET
 p107
+aVL
+p108
 aI12
 aI1
 aI2
@@ -631,16 +614,15 @@ aI0
 aI2
 aI3
 aI-1
-aI1
-aa(lp108
+aa(lp109
 V0021200042
-p109
-aVNOV 05, 2012
 p110
-aVPHI vs. NYK
+aVNOV 05, 2012
 p111
-aVL
+aVPHI vs. NYK
 p112
+aVL
+p113
 aI11
 aI2
 aI3
@@ -661,9 +643,11 @@ aI0
 aI1
 aI4
 aI2
-aI1
 aasS'name'
-p113
-VKwame Brown
 p114
+VKwame Brown
+p115
+sS'experience'
+p116
+I11
 s.

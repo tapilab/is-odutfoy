@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I22
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200930
-p4
-aVMAR 09, 2013
 p5
-aVNOH @ MEM
+aVMAR 09, 2013
 p6
-aVL
+aVNOH @ MEM
 p7
+aVL
+p8
 aI4
 aI2
 aI3
@@ -31,16 +34,15 @@ aI1
 aI1
 aI4
 aI-2
-aI1
-aa(lp8
+aa(lp9
 V0021200891
-p9
-aVMAR 04, 2013
 p10
-aVNOH vs. ORL
+aVMAR 04, 2013
 p11
-aVL
+aVNOH vs. ORL
 p12
+aVL
+p13
 aI1
 aI0
 aI0
@@ -61,9 +63,11 @@ aI0
 aI0
 aI0
 aI3
-aI1
 aasS'name'
-p13
-VHenry Sims
 p14
+VHenry Sims
+p15
+sS'experience'
+p16
+I0
 s.

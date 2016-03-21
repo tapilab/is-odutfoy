@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I32
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200034
-p4
-aVNOV 03, 2012
 p5
-aVCHA @ DAL
+aVNOV 03, 2012
 p6
-aVL
+aVCHA @ DAL
 p7
+aVL
+p8
 aI6
 aI0
 aI0
@@ -31,9 +34,11 @@ aI0
 aI1
 aI0
 aI-2
-aI1
 aasS'name'
-p8
-VMatt Carroll
 p9
+VMatt Carroll
+p10
+sS'experience'
+p11
+I9
 s.

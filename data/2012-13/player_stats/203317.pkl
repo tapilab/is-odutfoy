@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201136
-p4
-aVAPR 05, 2013
 p5
-aVHOU @ POR
+aVAPR 05, 2013
 p6
-aVW
+aVHOU @ POR
 p7
+aVW
+p8
 aI3
 aI0
 aI1
@@ -31,16 +34,15 @@ aI1
 aI0
 aI0
 aI-2
-aI1
-aa(lp8
+aa(lp9
 V0021201088
-p9
-aVMAR 30, 2013
 p10
-aVHOU vs. LAC
+aVMAR 30, 2013
 p11
-aVW
+aVHOU vs. LAC
 p12
+aVW
+p13
 aI3
 aI0
 aI0
@@ -61,16 +63,15 @@ aI2
 aI0
 aI0
 aI-1
-aI1
-aa(lp13
+aa(lp14
 V0021200885
-p14
-aVMAR 03, 2013
 p15
-aVHOU vs. DAL
+aVMAR 03, 2013
 p16
-aVW
+aVHOU vs. DAL
 p17
+aVW
+p18
 aI6
 aI1
 aI2
@@ -91,9 +92,11 @@ aI1
 aI1
 aI3
 aI-4
-aI1
 aasS'name'
-p18
-VTim Ohlbrecht
 p19
+VTim Ohlbrecht
+p20
+sS'experience'
+p21
+I0
 s.

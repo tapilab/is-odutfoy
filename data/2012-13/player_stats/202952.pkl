@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I24
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201203
-p4
-aVAPR 15, 2013
 p5
-aVCHI @ ORL
+aVAPR 15, 2013
 p6
-aVW
+aVCHI @ ORL
 p7
+aVW
+p8
 aI2
 aI1
 aI1
@@ -31,16 +34,15 @@ aI0
 aI0
 aI2
 aI-3
-aI1
-aa(lp8
+aa(lp9
 V0021201194
-p9
-aVAPR 14, 2013
 p10
-aVCHI @ MIA
+aVAPR 14, 2013
 p11
-aVL
+aVCHI @ MIA
 p12
+aVL
+p13
 aI3
 aI0
 aI0
@@ -61,16 +63,15 @@ aI1
 aI2
 aI0
 aI-3
-aI1
-aa(lp13
+aa(lp14
 V0021201176
-p14
-aVAPR 12, 2013
 p15
-aVCHI @ TOR
+aVAPR 12, 2013
 p16
-aVL
+aVCHI @ TOR
 p17
+aVL
+p18
 aI3
 aI0
 aI1
@@ -91,16 +92,15 @@ aI1
 aI1
 aI0
 aI-2
-aI1
-aa(lp18
+aa(lp19
 V0021201174
-p19
-aVAPR 11, 2013
 p20
-aVCHI vs. NYK
+aVAPR 11, 2013
 p21
-aVW
+aVCHI vs. NYK
 p22
+aVW
+p23
 aI0
 aI0
 aI0
@@ -121,16 +121,15 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aa(lp23
+aa(lp24
 V0021201158
-p24
-aVAPR 09, 2013
 p25
-aVCHI vs. TOR
+aVAPR 09, 2013
 p26
-aVL
+aVCHI vs. TOR
 p27
+aVL
+p28
 aI26
 aI3
 aI6
@@ -151,16 +150,15 @@ aI0
 aI4
 aI6
 aI9
-aI1
-aa(lp28
+aa(lp29
 V0021201150
-p29
-aVAPR 07, 2013
 p30
-aVCHI @ DET
+aVAPR 07, 2013
 p31
-aVL
+aVCHI @ DET
 p32
+aVL
+p33
 aI1
 aI1
 aI1
@@ -181,46 +179,44 @@ aI0
 aI0
 aI4
 aI1
-aI1
-aa(lp33
+aa(lp34
 V0021201062
-p34
-aVMAR 27, 2013
 p35
-aVCHI vs. MIA
+aVMAR 27, 2013
 p36
-aVW
+aVCHI vs. MIA
 p37
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aa(lp38
-V0021200988
-p39
-aVMAR 17, 2013
-p40
-aVGSW @ HOU
-p41
 aVW
+p38
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp39
+V0021200988
+p40
+aVMAR 17, 2013
+p41
+aVGSW @ HOU
 p42
+aVW
+p43
 aI2
 aI0
 aI0
@@ -241,16 +237,15 @@ aI0
 aI0
 aI0
 aI8
-aI1
-aa(lp43
+aa(lp44
 V0021200978
-p44
-aVMAR 15, 2013
 p45
-aVGSW vs. CHI
+aVMAR 15, 2013
 p46
-aVL
+aVGSW vs. CHI
 p47
+aVL
+p48
 aI10
 aI0
 aI0
@@ -271,16 +266,15 @@ aI1
 aI0
 aI2
 aI15
-aI1
-aa(lp48
+aa(lp49
 V0021200966
-p49
-aVMAR 13, 2013
 p50
-aVGSW vs. DET
+aVMAR 13, 2013
 p51
-aVW
+aVGSW vs. DET
 p52
+aVW
+p53
 aI1
 aI0
 aI0
@@ -301,16 +295,15 @@ aI0
 aI0
 aI0
 aI0
-aI0
-aa(lp53
+aa(lp54
 V0021200947
-p54
-aVMAR 11, 2013
 p55
-aVGSW vs. NYK
+aVMAR 11, 2013
 p56
-aVW
+aVGSW vs. NYK
 p57
+aVW
+p58
 aI5
 aI0
 aI1
@@ -331,16 +324,15 @@ aI0
 aI1
 aI1
 aI5
-aI1
-aa(lp58
+aa(lp59
 V0021200933
-p59
-aVMAR 09, 2013
 p60
-aVGSW vs. MIL
+aVMAR 09, 2013
 p61
-aVL
+aVGSW vs. MIL
 p62
+aVL
+p63
 aI3
 aI0
 aI0
@@ -361,9 +353,11 @@ aI0
 aI0
 aI0
 aI7
-aI1
 aasS'name'
-p63
-VMalcolm Thomas
 p64
+VMalcolm Thomas
+p65
+sS'experience'
+p66
+I1
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I23
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200187
-p4
-aVNOV 24, 2012
 p5
-aVLAL @ DAL
+aVNOV 24, 2012
 p6
-aVW
+aVLAL @ DAL
 p7
+aVW
+p8
 aI3
 aI0
 aI1
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI-3
-aI1
-aa(lp8
+aa(lp9
 V0021200130
-p9
-aVNOV 16, 2012
 p10
-aVLAL vs. PHX
+aVNOV 16, 2012
 p11
-aVW
+aVLAL vs. PHX
 p12
+aVW
+p13
 aI1
 aI0
 aI2
@@ -61,16 +63,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp13
+aa(lp14
 V0021200094
-p14
-aVNOV 11, 2012
 p15
-aVLAL vs. SAC
+aVNOV 11, 2012
 p16
-aVW
+aVLAL vs. SAC
 p17
+aVW
+p18
 aI1
 aI0
 aI1
@@ -91,39 +92,40 @@ aI0
 aI0
 aI0
 aI-4
-aI1
-aa(lp18
+aa(lp19
 V0021200080
-p19
-aVNOV 09, 2012
 p20
-aVLAL vs. GSW
+aVNOV 09, 2012
 p21
-aVW
+aVLAL vs. GSW
 p22
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aasS'name'
+aVW
 p23
-VDarius Johnson-Odom
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aasS'name'
 p24
+VDarius Johnson-Odom
+p25
+sS'experience'
+p26
+I0
 s.

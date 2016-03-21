@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I32
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201218
-p4
-aVAPR 17, 2013
 p5
-aVNYK vs. ATL
+aVAPR 17, 2013
 p6
-aVW
+aVNYK vs. ATL
 p7
+aVW
+p8
 aI29
 aI1
 aI11
@@ -31,9 +34,11 @@ aI2
 aI1
 aI5
 aI-9
-aI1
 aasS'name'
-p8
-VQuentin Richardson
 p9
+VQuentin Richardson
+p10
+sS'experience'
+p11
+I12
 s.

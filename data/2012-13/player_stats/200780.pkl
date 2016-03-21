@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I28
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201196
-p4
-aVAPR 14, 2013
 p5
-aVNYK vs. IND
+aVAPR 14, 2013
 p6
-aVW
+aVNYK vs. IND
 p7
+aVW
+p8
 aI14
 aI0
 aI1
@@ -31,16 +34,15 @@ aI1
 aI2
 aI0
 aI2
-aI1
-aa(lp8
+aa(lp9
 V0021201182
-p9
-aVAPR 12, 2013
 p10
-aVNYK @ CLE
+aVAPR 12, 2013
 p11
-aVW
+aVNYK @ CLE
 p12
+aVW
+p13
 aI12
 aI0
 aI0
@@ -61,9 +63,11 @@ aI2
 aI1
 aI0
 aI-1
-aI1
 aasS'name'
-p13
-VSolomon Jones
 p14
+VSolomon Jones
+p15
+sS'experience'
+p16
+I6
 s.

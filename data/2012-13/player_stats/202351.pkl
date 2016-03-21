@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I26
+sS'stats'
+p2
 (lp3
+(lp4
 V0021200552
-p4
-aVJAN 13, 2013
 p5
-aVMIN @ SAS
+aVJAN 13, 2013
 p6
-aVL
+aVMIN @ SAS
 p7
+aVL
+p8
 aI9
 aI0
 aI4
@@ -31,16 +34,15 @@ aI0
 aI0
 aI0
 aI-2
-aI1
-aa(lp8
+aa(lp9
 V0021200523
-p9
-aVJAN 09, 2013
 p10
-aVMIN @ OKC
+aVJAN 09, 2013
 p11
-aVL
+aVMIN @ OKC
 p12
+aVL
+p13
 aI10
 aI2
 aI4
@@ -61,16 +63,15 @@ aI0
 aI2
 aI8
 aI-14
-aI1
-aa(lp13
+aa(lp14
 V0021200494
-p14
-aVJAN 05, 2013
 p15
-aVMIN vs. POR
+aVJAN 05, 2013
 p16
-aVL
+aVMIN vs. POR
 p17
+aVL
+p18
 aI6
 aI0
 aI1
@@ -91,16 +92,15 @@ aI0
 aI0
 aI0
 aI-7
-aI1
-aa(lp18
+aa(lp19
 V0021200473
-p19
-aVJAN 02, 2013
 p20
-aVMIN @ UTA
+aVJAN 02, 2013
 p21
-aVL
+aVMIN @ UTA
 p22
+aVL
+p23
 aI6
 aI0
 aI1
@@ -121,9 +121,11 @@ aI0
 aI1
 aI2
 aI-3
-aI1
 aasS'name'
-p23
-VLazar Hayward
 p24
+VLazar Hayward
+p25
+sS'experience'
+p26
+I2
 s.

@@ -1,16 +1,19 @@
 (dp0
-S'stats'
+S'age'
 p1
-(lp2
+I23
+sS'stats'
+p2
 (lp3
+(lp4
 V0021201221
-p4
-aVAPR 17, 2013
 p5
-aVPHI @ IND
+aVAPR 17, 2013
 p6
-aVW
+aVPHI @ IND
 p7
+aVW
+p8
 aI27
 aI3
 aI8
@@ -31,16 +34,15 @@ aI3
 aI2
 aI8
 aI-1
-aI1
-aa(lp8
+aa(lp9
 V0021201206
-p9
-aVAPR 15, 2013
 p10
-aVPHI @ DET
+aVAPR 15, 2013
 p11
-aVL
+aVPHI @ DET
 p12
+aVL
+p13
 aI28
 aI3
 aI9
@@ -61,16 +63,15 @@ aI1
 aI0
 aI11
 aI-2
-aI1
-aa(lp13
+aa(lp14
 V0021201197
-p14
-aVAPR 14, 2013
 p15
-aVPHI vs. CLE
+aVAPR 14, 2013
 p16
-aVW
+aVPHI vs. CLE
 p17
+aVW
+p18
 aI26
 aI2
 aI7
@@ -91,16 +92,15 @@ aI1
 aI1
 aI6
 aI-3
-aI1
-aa(lp18
+aa(lp19
 V0021201177
-p19
-aVAPR 12, 2013
 p20
-aVPHI @ WAS
+aVAPR 12, 2013
 p21
-aVW
+aVPHI @ WAS
 p22
+aVW
+p23
 aI20
 aI3
 aI5
@@ -121,16 +121,15 @@ aI1
 aI0
 aI7
 aI13
-aI1
-aa(lp23
+aa(lp24
 V0021201164
-p24
-aVAPR 10, 2013
 p25
-aVPHI vs. ATL
+aVAPR 10, 2013
 p26
-aVL
+aVPHI vs. ATL
 p27
+aVL
+p28
 aI5
 aI0
 aI2
@@ -151,16 +150,15 @@ aI0
 aI0
 aI0
 aI2
-aI1
-aa(lp28
+aa(lp29
 V0021201155
-p29
-aVAPR 09, 2013
 p30
-aVPHI @ BKN
+aVAPR 09, 2013
 p31
-aVL
+aVPHI @ BKN
 p32
+aVL
+p33
 aI16
 aI2
 aI5
@@ -181,16 +179,15 @@ aI1
 aI0
 aI4
 aI3
-aI1
-aa(lp33
+aa(lp34
 V0021201140
-p34
-aVAPR 06, 2013
 p35
-aVPHI @ MIA
+aVAPR 06, 2013
 p36
-aVL
+aVPHI @ MIA
 p37
+aVL
+p38
 aI7
 aI0
 aI1
@@ -211,16 +208,15 @@ aI0
 aI0
 aI0
 aI-1
-aI1
-aa(lp38
+aa(lp39
 V0021201129
-p39
-aVAPR 05, 2013
 p40
-aVPHI @ ATL
+aVAPR 05, 2013
 p41
-aVW
+aVPHI @ ATL
 p42
+aVW
+p43
 aI7
 aI2
 aI6
@@ -241,16 +237,15 @@ aI0
 aI3
 aI4
 aI2
-aI1
-aa(lp43
+aa(lp44
 V0021201112
-p44
-aVAPR 03, 2013
 p45
-aVPHI @ CHA
+aVAPR 03, 2013
 p46
-aVL
+aVPHI @ CHA
 p47
+aVL
+p48
 aI7
 aI1
 aI5
@@ -271,9 +266,11 @@ aI2
 aI1
 aI2
 aI-1
-aI1
 aasS'name'
-p48
-VJustin Holiday
 p49
+VJustin Holiday
+p50
+sS'experience'
+p51
+I0
 s.
