@@ -1,0 +1,5 @@
+With raw average :
+    Raw training on 2011-12 :
+        Raw training error : 3.93 avg, 18.62 max or 3.92 avg, 18.60 max when normalized.
+        Raw testing on 2012-13 : 3.85 avg, 17.06 max or 3.86 avg, 17.08 max when normalized
+        Raw testing on 2013-14 : 3.97 avg, 20.69 max or 3.97 avg, 20.70 max when normalized
