@@ -73,4 +73,4 @@ def compute_fantasy(season, playerID, game_number = -1,
 
         return score
 
-#print compute_fantasy('2011-12', '977')
+#compute_fantasy('2011-12', '977', 0)
