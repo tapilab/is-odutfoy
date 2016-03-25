@@ -1,0 +1,44 @@
+(dp0
+S'age'
+p1
+I23
+sS'stats'
+p2
+(lp3
+(lp4
+V0020800113
+p5
+aVNOV 12, 2008
+p6
+aVOKC vs. ORL
+p7
+aVL
+p8
+aI2
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI2
+aI1
+aI3
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aI5
+aasS'name'
+p9
+VSteven Hill
+p10
+sS'experience'
+p11
+I0
+s.

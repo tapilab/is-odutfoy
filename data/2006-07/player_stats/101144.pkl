@@ -1,0 +1,44 @@
+(dp0
+S'age'
+p1
+I21
+sS'stats'
+p2
+(lp3
+(lp4
+V0020600849
+p5
+aVFEB 26, 2007
+p6
+aVLAC vs. CHA
+p7
+aVW
+p8
+aI1
+aI0
+aI1
+aF0.0
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-1
+aasS'name'
+p9
+VVon Wafer
+p10
+sS'experience'
+p11
+I1
+s.

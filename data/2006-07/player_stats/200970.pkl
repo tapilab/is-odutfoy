@@ -1,0 +1,44 @@
+(dp0
+S'age'
+p1
+I24
+sS'stats'
+p2
+(lp3
+(lp4
+V0020600578
+p5
+aVJAN 17, 2007
+p6
+aVGSW @ LAC
+p7
+aVL
+p8
+aI27
+aI2
+aI10
+aF0.2
+aI0
+aI0
+aF0.0
+aI1
+aI2
+aF0.5
+aI0
+aI2
+aI2
+aI0
+aI2
+aI0
+aI1
+aI4
+aI5
+aI15
+aasS'name'
+p9
+VRenaldo Major
+p10
+sS'experience'
+p11
+I0
+s.
