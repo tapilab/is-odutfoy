@@ -34,25 +34,41 @@ def sliding_raw_average(season, playerID):
 
     return X, y
 
+#sliding averages for all players in one season
+def sliding_raw_averages(season):
+    Xs = []
+    ys = []
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+    for file in players:
+        playerID = file[26:-4]
+        print playerID
+        X, y = sliding_raw_average(season, playerID)
+        Xs.append(X)
+        ys.append(y)
+
+    return np.concatenate(Xs), np.concatenate(ys)
+
+#sliding_raw_averages('2006-07')
+
 #sliding averages for all players in all seasons
-def sliding_raw_averages(seasons):
-    averages = []
-    next_match_points = []
-    for season in seasons:
-        players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
-        for file in players:
-            playerID = file[26:-4]
-            player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-            games_num = len(player['stats'])
-
-            for i in range(1, games_num - 1):
-                averages.append(average(season, playerID, i)[0])
-                next_match_points.append(compute_fantasy(season, playerID, i + 1))
-
-    X = np.array(averages)
-    y = np.array(next_match_points)
-
-    return X, y
+# def sliding_raw_averages(seasons):
+#     averages = []
+#     next_match_points = []
+#     for season in seasons:
+#         players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+#         for file in players:
+#             playerID = file[26:-4]
+#             player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+#             games_num = len(player['stats'])
+#
+#             for i in range(1, games_num - 1):
+#                 averages.append(average(season, playerID, i)[0])
+#                 next_match_points.append(compute_fantasy(season, playerID, i + 1))
+#
+#     X = np.array(averages)
+#     y = np.array(next_match_points)
+#
+#     return X, y
 
 
 def train_linear(X, y, normalize = False):
@@ -87,16 +103,17 @@ def error(model, X, y):
 
 #all but one fold error over seasons using sliding raw averages
 def ABOF_error(seasons):
+    data = map(sliding_raw_averages, seasons)
     errors = []
     avg_error = 0.
 
-    for season in seasons:
+    for i, season in enumerate(seasons):
         print "Testing on season %s (Training on the rest)" % season
-        tmp = list(seasons)
-        tmp.remove(season)
-        trainX, trainy = sliding_raw_averages(tmp)
+        Xs = [dat[0] for dat in data]
+        ys = [dat[1] for dat in data]
+        testX, testy = Xs.pop(i), ys.pop(i)
+        trainX, trainy = np.concatenate(Xs), np.concatenate(ys)
         model = train_linear(trainX, trainy)
-        testX, testy = sliding_raw_averages([season])
         error = error(model, testX, testy)[0]
         errors.append(error)
         avg_error += error
