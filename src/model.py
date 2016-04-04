@@ -41,14 +41,13 @@ def sliding_raw_averages(season):
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     for file in players:
         playerID = file[26:-4]
-        print playerID
         X, y = sliding_raw_average(season, playerID)
-        Xs.append(X)
-        ys.append(y)
+
+        if X.shape != (0,):
+            Xs.append(X)
+            ys.append(y)
 
     return np.concatenate(Xs), np.concatenate(ys)
-
-#sliding_raw_averages('2006-07')
 
 #sliding averages for all players in all seasons
 # def sliding_raw_averages(seasons):
@@ -77,11 +76,12 @@ def train_linear(X, y, normalize = False):
 
     return lr
 
-#X, y = raw_averages('2011-12')
+#X, y = sliding_raw_averages('2011-12')
+#X, y = raw_averages('2006-07')
 # X, y = sliding_raw_average('2011-12', '101107')
 # print X.shape, y.shape
-# model = train_linear(X, y)
-# modeln = train_linear(X, y, True)
+#model = train_linear(X, y)
+#modeln = train_linear(X, y, True)
 
 
 #computed error given model as input
@@ -101,11 +101,15 @@ def error(model, X, y):
 
     return avg_error/predictions.shape[0], max_error
 
+#print error(model, X, y)
+#print error(modeln, X, y)
+
 #all but one fold error over seasons using sliding raw averages
 def ABOF_error(seasons):
     data = map(sliding_raw_averages, seasons)
     errors = []
     avg_error = 0.
+    avg_max = 0.
 
     for i, season in enumerate(seasons):
         print "Testing on season %s (Training on the rest)" % season
@@ -114,21 +118,22 @@ def ABOF_error(seasons):
         testX, testy = Xs.pop(i), ys.pop(i)
         trainX, trainy = np.concatenate(Xs), np.concatenate(ys)
         model = train_linear(trainX, trainy)
-        error = error(model, testX, testy)[0]
-        errors.append(error)
-        avg_error += error
+        err = error(model, testX, testy)
+        errors.append(err[0])
+        avg_error += err[0]
+        avg_max += err[1]
 
-        print "average error is %f" % error
+        print "error for this season is %s" % (err,)
 
-    result = avg_error/len(season)
-    print "Average error over all seasons is %f" % result
+    result = avg_error/len(season), avg_max/len(season)
+    print "Average error and Averaged max error over all seasons is %s" % (result,)
 
     return result
 
-# print error(model, X, y)
-# print error(modeln, X, y)
+#seasons = ['2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
+seasons = ['2006-07', '2007-08']
 
-seasons = ['2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
+
 
 ABOF_error(seasons)
 
