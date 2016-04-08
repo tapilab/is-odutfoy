@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020601224
+V0020601208
 p5
-aVAPR 18, 2007
+aVAPR 16, 2007
 p6
-aVDEN @ SAS
+aVDEN vs. MIN
 p7
 aVW
 p8
-aI27
-aI3
-aI7
-aF0.429
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aI2
-aI9
-aI0
-aI0
-aI2
-aI3
-aI6
-aI17
-aa(lp9
-V0020601208
-p10
-aVAPR 16, 2007
-p11
-aVDEN vs. MIN
-p12
-aVW
-p13
 aI10
 aI0
 aI1
@@ -63,6 +34,35 @@ aI4
 aI1
 aI0
 aI-11
+aa(lp9
+V0020601224
+p10
+aVAPR 18, 2007
+p11
+aVDEN @ SAS
+p12
+aVW
+p13
+aI27
+aI3
+aI7
+aF0.429
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aI2
+aI9
+aI0
+aI0
+aI2
+aI3
+aI6
+aI17
 aasS'name'
 p14
 VAnthony Carter

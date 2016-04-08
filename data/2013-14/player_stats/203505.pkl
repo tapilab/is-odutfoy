@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300670
+V0021300625
 p5
-aVJAN 28, 2014
+aVJAN 22, 2014
 p6
-aVBOS @ NYK
+aVBOS @ WAS
 p7
-aVL
+aVW
 p8
-aI3
+aI4
 aI1
 aI2
 aF0.5
 aI0
-aI1
+aI0
 aF0.0
 aI0
-aI1
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI1
 aI2
-aI-2
+aF0.0
+aI0
+aI2
+aI2
+aI1
+aI0
+aI0
+aI2
+aI0
+aI2
+aI6
 aa(lp9
 V0021300636
 p10
@@ -64,34 +64,34 @@ aI0
 aI1
 aI2
 aa(lp14
-V0021300625
+V0021300670
 p15
-aVJAN 22, 2014
+aVJAN 28, 2014
 p16
-aVBOS @ WAS
+aVBOS @ NYK
 p17
-aVW
+aVL
 p18
-aI4
+aI3
 aI1
 aI2
 aF0.5
 aI0
-aI0
+aI1
 aF0.0
 aI0
-aI2
+aI1
 aF0.0
 aI0
-aI2
-aI2
+aI1
 aI1
 aI0
 aI0
-aI2
 aI0
+aI0
+aI1
 aI2
-aI6
+aI-2
 aasS'name'
 p19
 VVander Blue

@@ -6,63 +6,63 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100549
+V0021100465
 p5
-aVMAR 04, 2012
+aVFEB 19, 2012
 p6
-aVNJN @ CHA
+aVNJN vs. MIL
 p7
-aVW
+aVL
 p8
-aI15
+aI22
 aI2
-aI5
-aF0.4
+aI7
+aF0.286
 aI0
 aI0
 aF0.0
+aI5
+aI11
+aF0.455
+aI1
+aI1
 aI2
-aI4
-aF0.5
+aI2
 aI0
-aI3
-aI3
 aI1
 aI0
-aI0
-aI3
 aI2
-aI6
-aI-11
+aI9
+aI-4
 aa(lp9
-V0021100529
+V0021100491
 p10
-aVMAR 02, 2012
+aVFEB 22, 2012
 p11
-aVNJN @ BOS
+aVNJN vs. ORL
 p12
 aVL
 p13
-aI35
-aI10
-aI21
-aF0.476
+aI28
+aI7
+aI16
+aF0.438
 aI0
 aI0
 aF0.0
-aI8
-aI10
-aF0.8
+aI1
+aI2
+aF0.5
+aI2
+aI2
+aI4
+aI0
+aI0
 aI2
 aI1
 aI3
-aI2
-aI1
-aI1
-aI0
-aI0
-aI28
-aI-8
+aI15
+aI-9
 aa(lp14
 V0021100509
 p15
@@ -93,63 +93,63 @@ aI1
 aI38
 aI5
 aa(lp19
-V0021100491
+V0021100529
 p20
-aVFEB 22, 2012
+aVMAR 02, 2012
 p21
-aVNJN vs. ORL
+aVNJN @ BOS
 p22
 aVL
 p23
-aI28
-aI7
-aI16
-aF0.438
+aI35
+aI10
+aI21
+aF0.476
 aI0
 aI0
 aF0.0
-aI1
-aI2
-aF0.5
-aI2
-aI2
-aI4
-aI0
-aI0
+aI8
+aI10
+aF0.8
 aI2
 aI1
 aI3
-aI15
-aI-9
-aa(lp24
-V0021100465
-p25
-aVFEB 19, 2012
-p26
-aVNJN vs. MIL
-p27
-aVL
-p28
-aI22
 aI2
-aI7
-aF0.286
+aI1
+aI1
+aI0
+aI0
+aI28
+aI-8
+aa(lp24
+V0021100549
+p25
+aVMAR 04, 2012
+p26
+aVNJN @ CHA
+p27
+aVW
+p28
+aI15
+aI2
+aI5
+aF0.4
 aI0
 aI0
 aF0.0
-aI5
-aI11
-aF0.455
-aI1
-aI1
 aI2
-aI2
+aI4
+aF0.5
 aI0
+aI3
+aI3
 aI1
 aI0
+aI0
+aI3
 aI2
-aI9
-aI-4
+aI6
+aI-11
 aasS'name'
 p29
 VBrook Lopez

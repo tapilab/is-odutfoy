@@ -6,73 +6,73 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020900547
+V0020900022
 p5
-aVJAN 11, 2010
+aVOCT 30, 2009
 p6
-aVCHI vs. DET
+aVCHI @ BOS
 p7
-aVW
+aVL
 p8
 aI7
-aI1
-aI4
-aF0.25
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
 aI0
 aI2
-aI-2
+aF0.0
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI1
+aI2
+aI0
+aI-8
 aa(lp9
-V0020900333
+V0020900172
 p10
-aVDEC 12, 2009
+aVNOV 19, 2009
 p11
-aVCHI vs. BOS
+aVCHI @ LAL
 p12
 aVL
 p13
+aI5
+aI0
+aI1
+aF0.0
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
 aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
+aI2
 aI1
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI-2
+aI5
 aa(lp14
-V0020900308
+V0020900189
 p15
-aVDEC 09, 2009
+aVNOV 21, 2009
 p16
-aVCHI @ ATL
+aVCHI @ DEN
 p17
 aVL
 p18
-aI8
+aI3
 aI0
 aI0
 aF0.0
@@ -85,100 +85,100 @@ aF0.0
 aI0
 aI0
 aI0
-aI2
 aI0
 aI0
 aI0
-aI1
 aI0
-aI-3
+aI0
+aI0
+aI4
 aa(lp19
-V0020900303
+V0020900200
 p20
-aVDEC 08, 2009
+aVNOV 23, 2009
 p21
-aVCHI vs. NJN
+aVCHI @ POR
 p22
 aVL
 p23
+aI3
+aI0
+aI1
+aF0.0
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
 aI1
 aI0
 aI0
-aF0.0
 aI0
+aI1
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-2
+aI-1
 aa(lp24
-V0020900283
+V0020900221
 p25
-aVDEC 05, 2009
+aVNOV 26, 2009
 p26
-aVCHI vs. TOR
+aVCHI @ UTA
 p27
 aVL
 p28
-aI27
-aI1
-aI6
-aF0.167
+aI8
 aI0
-aI3
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI3
-aI3
+aI0
+aF0.0
+aI0
 aI1
 aI1
 aI0
-aI1
-aI2
-aI2
-aI-2
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aa(lp29
-V0020900274
+V0020900249
 p30
-aVDEC 04, 2009
+aVNOV 30, 2009
 p31
-aVCHI @ CLE
+aVCHI @ MIL
 p32
 aVL
 p33
-aI19
-aI1
-aI5
-aF0.2
-aI0
+aI22
 aI2
+aI9
+aF0.222
+aI1
+aI3
+aF0.333
+aI0
+aI0
 aF0.0
-aI2
-aI2
-aF1.0
-aI0
-aI1
-aI1
-aI1
-aI0
-aI0
-aI2
 aI1
 aI4
+aI5
+aI2
+aI0
+aI0
+aI0
 aI1
+aI5
+aI6
 aa(lp34
 V0020900264
 p35
@@ -209,102 +209,102 @@ aI4
 aI0
 aI-8
 aa(lp39
-V0020900249
+V0020900274
 p40
-aVNOV 30, 2009
+aVDEC 04, 2009
 p41
-aVCHI @ MIL
+aVCHI @ CLE
 p42
 aVL
 p43
-aI22
-aI2
-aI9
-aF0.222
+aI19
 aI1
-aI3
-aF0.333
+aI5
+aF0.2
 aI0
-aI0
+aI2
 aF0.0
+aI2
+aI2
+aF1.0
+aI0
+aI1
+aI1
+aI1
+aI0
+aI0
+aI2
 aI1
 aI4
-aI5
-aI2
-aI0
-aI0
-aI0
 aI1
-aI5
-aI6
 aa(lp44
-V0020900221
+V0020900283
 p45
-aVNOV 26, 2009
+aVDEC 05, 2009
 p46
-aVCHI @ UTA
+aVCHI vs. TOR
 p47
 aVL
 p48
-aI8
-aI0
+aI27
 aI1
+aI6
+aF0.167
+aI0
+aI3
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
+aI3
+aI3
 aI1
 aI1
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
+aI2
+aI2
+aI-2
 aa(lp49
-V0020900200
+V0020900303
 p50
-aVNOV 23, 2009
+aVDEC 08, 2009
 p51
-aVCHI @ POR
+aVCHI vs. NJN
 p52
 aVL
 p53
-aI3
-aI0
 aI1
-aF0.0
 aI0
-aI1
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aI0
-aI1
-aI0
+aF0.0
 aI0
 aI0
-aI1
 aI0
-aI-1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-2
 aa(lp54
-V0020900189
+V0020900308
 p55
-aVNOV 21, 2009
+aVDEC 09, 2009
 p56
-aVCHI @ DEN
+aVCHI @ ATL
 p57
 aVL
 p58
-aI3
+aI8
 aI0
 aI0
 aF0.0
@@ -317,71 +317,71 @@ aF0.0
 aI0
 aI0
 aI0
+aI2
 aI0
 aI0
 aI0
+aI1
 aI0
-aI0
-aI0
-aI4
+aI-3
 aa(lp59
-V0020900172
+V0020900333
 p60
-aVNOV 19, 2009
+aVDEC 12, 2009
 p61
-aVCHI @ LAL
+aVCHI vs. BOS
 p62
 aVL
 p63
-aI5
-aI0
-aI1
-aF0.0
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
 aI2
-aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
 aI1
 aI0
 aI0
 aI0
 aI0
 aI0
-aI5
+aI0
+aI-2
 aa(lp64
-V0020900022
+V0020900547
 p65
-aVOCT 30, 2009
+aVJAN 11, 2010
 p66
-aVCHI @ BOS
+aVCHI vs. DET
 p67
-aVL
+aVW
 p68
 aI7
+aI1
+aI4
+aF0.25
 aI0
-aI2
-aF0.0
-aI0
-aI2
-aF0.0
-aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
+aI1
 aI1
 aI0
 aI0
-aI1
-aI2
 aI0
-aI-8
+aI0
+aI0
+aI2
+aI-2
 aasS'name'
 p69
 VLindsey Hunter

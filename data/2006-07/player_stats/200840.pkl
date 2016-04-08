@@ -6,15 +6,15 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020600433
+V0020600111
 p5
-aVDEC 29, 2006
+aVNOV 15, 2006
 p6
-aVMIL @ CLE
+aVMIL @ NJN
 p7
 aVL
 p8
-aI1
+aI0
 aI0
 aI0
 aF0.0
@@ -33,36 +33,36 @@ aI0
 aI0
 aI0
 aI0
-aI2
+aI0
 aa(lp9
-V0020600421
+V0020600192
 p10
-aVDEC 27, 2006
+aVNOV 25, 2006
 p11
-aVMIL @ MEM
+aVMIL vs. BOS
 p12
-aVW
+aVL
 p13
-aI6
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
 aI1
 aI0
-aI-7
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aa(lp14
 V0020600252
 p15
@@ -93,14 +93,43 @@ aI0
 aI0
 aI3
 aa(lp19
-V0020600192
+V0020600421
 p20
-aVNOV 25, 2006
+aVDEC 27, 2006
 p21
-aVMIL vs. BOS
+aVMIL @ MEM
 p22
-aVL
+aVW
 p23
+aI6
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aI1
+aI0
+aI-7
+aa(lp24
+V0020600433
+p25
+aVDEC 29, 2006
+p26
+aVMIL @ CLE
+p27
+aVL
+p28
 aI1
 aI0
 aI0
@@ -120,36 +149,7 @@ aI0
 aI0
 aI0
 aI0
-aI0
-aa(lp24
-V0020600111
-p25
-aVNOV 15, 2006
-p26
-aVMIL @ NJN
-p27
-aVL
-p28
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
 aasS'name'
 p29
 VChris McCray

@@ -6,15 +6,15 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020600703
+V0020600465
 p5
-aVFEB 03, 2007
+aVJAN 02, 2007
 p6
-aVMIL vs. MIA
+aVDEN vs. PHI
 p7
 aVL
 p8
-aI3
+aI1
 aI0
 aI0
 aF0.0
@@ -35,46 +35,75 @@ aI0
 aI0
 aI0
 aa(lp9
-V0020600620
+V0020600489
 p10
-aVJAN 23, 2007
+aVJAN 05, 2007
 p11
-aVMIL @ LAC
+aVDEN @ LAL
 p12
 aVL
 p13
-aI5
+aI20
 aI1
-aI1
-aF1.0
+aI3
+aF0.333
 aI0
 aI0
 aF0.0
-aI1
 aI2
-aF0.5
-aI0
-aI1
-aI1
-aI1
+aI2
+aF1.0
 aI1
 aI0
 aI1
+aI6
 aI2
-aI3
-aI5
+aI0
+aI0
+aI2
+aI4
+aI-19
 aa(lp14
-V0020600591
+V0020600495
 p15
-aVJAN 19, 2007
+aVJAN 06, 2007
 p16
-aVMIL @ SEA
+aVDEN vs. UTA
 p17
 aVL
 p18
-aI10
+aI5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI3
+aI0
+aI0
+aI1
+aI1
+aI0
+aI1
+aa(lp19
+V0020600507
+p20
+aVJAN 08, 2007
+p21
+aVDEN vs. MIL
+p22
+aVW
+p23
+aI12
+aI1
 aI2
-aI4
 aF0.5
 aI0
 aI0
@@ -85,42 +114,13 @@ aF0.0
 aI0
 aI2
 aI2
-aI0
-aI0
-aI0
 aI1
 aI1
-aI4
-aI-2
-aa(lp19
-V0020600556
-p20
-aVJAN 15, 2007
-p21
-aVMIL @ CHA
-p22
-aVW
-p23
+aI0
+aI0
+aI0
+aI2
 aI8
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-1
 aa(lp24
 V0020600530
 p25
@@ -151,17 +151,46 @@ aI0
 aI2
 aI3
 aa(lp29
-V0020600507
+V0020600556
 p30
-aVJAN 08, 2007
+aVJAN 15, 2007
 p31
-aVDEN vs. MIL
+aVMIL @ CHA
 p32
 aVW
 p33
-aI12
+aI8
+aI0
 aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-1
+aa(lp34
+V0020600591
+p35
+aVJAN 19, 2007
+p36
+aVMIL @ SEA
+p37
+aVL
+p38
+aI10
 aI2
+aI4
 aF0.5
 aI0
 aI0
@@ -172,81 +201,52 @@ aF0.0
 aI0
 aI2
 aI2
-aI1
-aI1
 aI0
-aI0
-aI0
-aI2
-aI8
-aa(lp34
-V0020600495
-p35
-aVJAN 06, 2007
-p36
-aVDEN vs. UTA
-p37
-aVL
-p38
-aI5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI3
 aI0
 aI0
 aI1
 aI1
-aI0
-aI1
+aI4
+aI-2
 aa(lp39
-V0020600489
+V0020600620
 p40
-aVJAN 05, 2007
+aVJAN 23, 2007
 p41
-aVDEN @ LAL
+aVMIL @ LAC
 p42
 aVL
 p43
-aI20
+aI5
 aI1
-aI3
-aF0.333
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
+aI1
 aI2
-aI2
-aF1.0
+aF0.5
+aI0
+aI1
+aI1
+aI1
 aI1
 aI0
 aI1
-aI6
 aI2
-aI0
-aI0
-aI2
-aI4
-aI-19
+aI3
+aI5
 aa(lp44
-V0020600465
+V0020600703
 p45
-aVJAN 02, 2007
+aVFEB 03, 2007
 p46
-aVDEN vs. PHI
+aVMIL vs. MIA
 p47
 aVL
 p48
-aI1
+aI3
 aI0
 aI0
 aF0.0

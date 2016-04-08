@@ -6,18 +6,15 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020800404
+V0020800092
 p5
-aVDEC 22, 2008
+aVNOV 09, 2008
 p6
-aVHOU @ NJN
+aVHOU @ LAL
 p7
-aVW
+aVL
 p8
 aI2
-aI1
-aI2
-aF0.5
 aI0
 aI0
 aF0.0
@@ -26,13 +23,16 @@ aI0
 aF0.0
 aI0
 aI0
-aI0
-aI1
-aI0
+aF0.0
 aI0
 aI0
 aI0
-aI2
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI-2
 aa(lp9
 V0020800242
@@ -64,15 +64,18 @@ aI0
 aI0
 aI2
 aa(lp14
-V0020800092
+V0020800404
 p15
-aVNOV 09, 2008
+aVDEC 22, 2008
 p16
-aVHOU @ LAL
+aVHOU @ NJN
 p17
-aVL
+aVW
 p18
 aI2
+aI1
+aI2
+aF0.5
 aI0
 aI0
 aF0.0
@@ -81,16 +84,13 @@ aI0
 aF0.0
 aI0
 aI0
-aF0.0
+aI0
+aI1
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
 aI-2
 aasS'name'
 p19

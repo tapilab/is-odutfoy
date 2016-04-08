@@ -6,44 +6,44 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100989
+V0021100076
 p5
-aVAPR 26, 2012
+aVJAN 03, 2012
 p6
-aVLAL @ SAC
+aVCLE vs. CHA
 p7
-aVL
+aVW
 p8
-aI19
-aI3
-aI6
-aF0.5
-aI0
 aI1
+aI0
+aI0
 aF0.0
-aI2
-aI2
-aF1.0
-aI1
-aI1
-aI2
-aI1
 aI0
-aI1
-aI1
 aI0
-aI8
-aI3
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI4
 aa(lp9
-V0021100449
+V0021100369
 p10
-aVFEB 17, 2012
+aVFEB 07, 2012
 p11
-aVCLE vs. MIA
+aVCLE @ MIA
 p12
 aVL
 p13
-aI13
+aI21
 aI0
 aI4
 aF0.0
@@ -53,45 +53,45 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI3
-aI3
+aI2
+aI2
+aI4
 aI1
 aI1
+aI1
 aI0
+aI3
 aI0
-aI0
-aI0
-aI0
+aI-19
 aa(lp14
-V0021100402
+V0021100377
 p15
-aVFEB 11, 2012
+aVFEB 08, 2012
 p16
-aVCLE vs. PHI
+aVCLE vs. LAC
 p17
-aVL
+aVW
 p18
-aI18
-aI0
+aI16
+aI2
 aI3
-aF0.0
-aI0
-aI0
-aF0.0
+aF0.667
+aI1
+aI1
+aF1.0
 aI1
 aI2
 aF0.5
+aI1
+aI1
+aI2
+aI0
 aI0
 aI2
+aI1
 aI2
-aI1
+aI6
 aI0
-aI1
-aI0
-aI1
-aI1
-aI-10
 aa(lp19
 V0021100394
 p20
@@ -122,44 +122,44 @@ aI1
 aI2
 aI-15
 aa(lp24
-V0021100377
+V0021100402
 p25
-aVFEB 08, 2012
+aVFEB 11, 2012
 p26
-aVCLE vs. LAC
+aVCLE vs. PHI
 p27
-aVW
+aVL
 p28
-aI16
-aI2
+aI18
+aI0
 aI3
-aF0.667
-aI1
-aI1
-aF1.0
+aF0.0
+aI0
+aI0
+aF0.0
 aI1
 aI2
 aF0.5
-aI1
-aI1
-aI2
-aI0
 aI0
 aI2
-aI1
 aI2
-aI6
+aI1
 aI0
+aI1
+aI0
+aI1
+aI1
+aI-10
 aa(lp29
-V0021100369
+V0021100449
 p30
-aVFEB 07, 2012
+aVFEB 17, 2012
 p31
-aVCLE @ MIA
+aVCLE vs. MIA
 p32
 aVL
 p33
-aI21
+aI13
 aI0
 aI4
 aF0.0
@@ -169,45 +169,45 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aI4
-aI1
-aI1
-aI1
 aI0
 aI3
-aI0
-aI-19
-aa(lp34
-V0021100076
-p35
-aVJAN 03, 2012
-p36
-aVCLE vs. CHA
-p37
-aVW
-p38
+aI3
+aI1
 aI1
 aI0
 aI0
+aI0
+aI0
+aI0
+aa(lp34
+V0021100989
+p35
+aVAPR 26, 2012
+p36
+aVLAL @ SAC
+p37
+aVL
+p38
+aI19
+aI3
+aI6
+aF0.5
+aI0
+aI1
 aF0.0
+aI2
+aI2
+aF1.0
+aI1
+aI1
+aI2
+aI1
 aI0
+aI1
+aI1
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI4
+aI8
+aI3
 aasS'name'
 p39
 VChristian Eyenga

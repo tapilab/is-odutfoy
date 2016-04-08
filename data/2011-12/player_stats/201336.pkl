@@ -6,21 +6,50 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100988
+V0021100889
 p5
-aVAPR 26, 2012
+aVAPR 14, 2012
 p6
-aVUTA vs. POR
+aVUTA @ MEM
 p7
-aVW
+aVL
 p8
-aI15
-aI3
-aI8
-aF0.375
+aI5
+aI0
 aI1
-aI4
-aF0.25
+aF0.0
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aI2
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp9
+V0021100909
+p10
+aVAPR 16, 2012
+p11
+aVUTA vs. DAL
+p12
+aVW
+p13
+aI5
+aI1
+aI2
+aF0.5
+aI1
+aI2
+aF0.5
 aI0
 aI0
 aF0.0
@@ -30,19 +59,19 @@ aI0
 aI0
 aI0
 aI0
+aI1
+aI1
 aI3
-aI2
-aI7
-aI-11
-aa(lp9
+aI3
+aa(lp14
 V0021100930
-p10
+p15
 aVAPR 18, 2012
-p11
+p16
 aVUTA @ POR
-p12
+p17
 aVW
-p13
+p18
 aI5
 aI0
 aI3
@@ -63,64 +92,35 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp14
-V0021100909
-p15
-aVAPR 16, 2012
-p16
-aVUTA vs. DAL
-p17
-aVW
-p18
-aI5
-aI1
-aI2
-aF0.5
-aI1
-aI2
-aF0.5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI1
-aI3
-aI3
 aa(lp19
-V0021100889
+V0021100988
 p20
-aVAPR 14, 2012
+aVAPR 26, 2012
 p21
-aVUTA @ MEM
+aVUTA vs. POR
 p22
-aVL
+aVW
 p23
-aI5
-aI0
+aI15
+aI3
+aI8
+aF0.375
 aI1
-aF0.0
-aI0
-aI1
-aF0.0
+aI4
+aF0.25
 aI0
 aI0
 aF0.0
 aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI3
 aI2
-aI2
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI7
+aI-11
 aasS'name'
 p24
 VBlake Ahearn

@@ -6,98 +6,98 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020601224
+V0020600162
 p5
-aVAPR 18, 2007
+aVNOV 22, 2006
 p6
-aVSAS vs. DEN
+aVSAS vs. MIA
 p7
-aVL
+aVW
 p8
-aI28
-aI4
-aI7
-aF0.571
+aI13
 aI0
-aI0
+aI3
 aF0.0
-aI2
-aI3
-aF0.667
-aI2
-aI7
-aI9
-aI1
-aI0
-aI0
-aI2
-aI3
-aI10
-aI-19
-aa(lp9
-V0020601206
-p10
-aVAPR 16, 2007
-p11
-aVSAS @ MEM
-p12
-aVL
-p13
-aI28
-aI5
-aI11
-aF0.455
 aI0
 aI0
 aF0.0
 aI2
 aI2
 aF1.0
-aI4
-aI6
-aI10
-aI2
+aI0
+aI1
 aI1
 aI0
+aI1
+aI0
+aI1
 aI3
-aI5
-aI12
-aI-11
+aI2
+aI-3
+aa(lp9
+V0020600308
+p10
+aVDEC 11, 2006
+p11
+aVSAS @ LAC
+p12
+aVW
+p13
+aI4
+aI1
+aI3
+aF0.333
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI2
+aI-1
 aa(lp14
-V0020601151
+V0020600327
 p15
-aVAPR 09, 2007
+aVDEC 14, 2006
 p16
-aVSAS vs. POR
+aVSAS @ NOK
 p17
 aVW
 p18
+aI7
+aI2
 aI3
-aI2
-aI2
-aF1.0
+aF0.667
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aF0.0
+aI0
 aI2
 aI2
-aF1.0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI6
-aI-2
+aI3
+aI2
+aI4
+aI5
 aa(lp19
-V0020601137
+V0020600500
 p20
-aVAPR 07, 2007
+aVJAN 07, 2007
 p21
-aVSAS vs. GSW
+aVSAS @ MEM
 p22
 aVW
 p23
@@ -120,26 +120,26 @@ aI0
 aI0
 aI0
 aI0
-aI3
+aI-4
 aa(lp24
-V0020601104
+V0020600559
 p25
-aVAPR 03, 2007
+aVJAN 15, 2007
 p26
-aVSAS vs. SEA
+aVSAS @ CHI
 p27
-aVW
+aVL
 p28
-aI6
-aI2
-aI4
-aF0.5
+aI1
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
@@ -147,9 +147,9 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aI5
-aI-4
+aI0
+aI0
+aI-2
 aa(lp29
 V0020600768
 p30
@@ -180,24 +180,24 @@ aI2
 aI0
 aI0
 aa(lp34
-V0020600559
+V0020601104
 p35
-aVJAN 15, 2007
+aVAPR 03, 2007
 p36
-aVSAS @ CHI
+aVSAS vs. SEA
 p37
-aVL
+aVW
 p38
+aI6
+aI2
+aI4
+aF0.5
+aI0
+aI0
+aF0.0
 aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
+aI1
+aF1.0
 aI0
 aI0
 aI0
@@ -205,15 +205,15 @@ aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI-2
+aI1
+aI5
+aI-4
 aa(lp39
-V0020600500
+V0020601137
 p40
-aVJAN 07, 2007
+aVAPR 07, 2007
 p41
-aVSAS @ MEM
+aVSAS vs. GSW
 p42
 aVW
 p43
@@ -236,78 +236,20 @@ aI0
 aI0
 aI0
 aI0
-aI-4
+aI3
 aa(lp44
-V0020600327
+V0020601151
 p45
-aVDEC 14, 2006
+aVAPR 09, 2007
 p46
-aVSAS @ NOK
+aVSAS vs. POR
 p47
 aVW
 p48
-aI7
-aI2
-aI3
-aF0.667
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aI2
-aI0
-aI0
-aI0
 aI3
 aI2
-aI4
-aI5
-aa(lp49
-V0020600308
-p50
-aVDEC 11, 2006
-p51
-aVSAS @ LAC
-p52
-aVW
-p53
-aI4
-aI1
-aI3
-aF0.333
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
 aI2
-aI-1
-aa(lp54
-V0020600162
-p55
-aVNOV 22, 2006
-p56
-aVSAS vs. MIA
-p57
-aVW
-p58
-aI13
-aI0
-aI3
-aF0.0
+aF1.0
 aI0
 aI0
 aF0.0
@@ -315,15 +257,73 @@ aI2
 aI2
 aF1.0
 aI0
-aI1
-aI1
 aI0
-aI1
 aI0
-aI1
-aI3
+aI0
+aI0
+aI0
+aI0
+aI0
+aI6
+aI-2
+aa(lp49
+V0020601206
+p50
+aVAPR 16, 2007
+p51
+aVSAS @ MEM
+p52
+aVL
+p53
+aI28
+aI5
+aI11
+aF0.455
+aI0
+aI0
+aF0.0
 aI2
-aI-3
+aI2
+aF1.0
+aI4
+aI6
+aI10
+aI2
+aI1
+aI0
+aI3
+aI5
+aI12
+aI-11
+aa(lp54
+V0020601224
+p55
+aVAPR 18, 2007
+p56
+aVSAS vs. DEN
+p57
+aVL
+p58
+aI28
+aI4
+aI7
+aF0.571
+aI0
+aI0
+aF0.0
+aI2
+aI3
+aF0.667
+aI2
+aI7
+aI9
+aI1
+aI0
+aI0
+aI2
+aI3
+aI10
+aI-19
 aasS'name'
 p59
 VJackie Butler

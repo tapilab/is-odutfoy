@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301053
+V0021300992
 p5
-aVMAR 24, 2014
+aVMAR 16, 2014
 p6
-aVOKC vs. DEN
+aVOKC vs. DAL
 p7
-aVW
+aVL
 p8
-aI3
+aI6
+aI0
+aI2
+aF0.0
 aI0
 aI1
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
+aI1
+aI2
+aF0.5
 aI0
 aI0
 aI0
 aI2
 aI0
 aI0
-aI0
-aI0
-aI0
 aI1
+aI2
+aI1
+aI0
 aa(lp9
 V0021301018
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI-9
 aa(lp14
-V0021300992
+V0021301053
 p15
-aVMAR 16, 2014
+aVMAR 24, 2014
 p16
-aVOKC vs. DAL
+aVOKC vs. DEN
 p17
-aVL
+aVW
 p18
-aI6
-aI0
-aI2
-aF0.0
+aI3
 aI0
 aI1
 aF0.0
-aI1
-aI2
-aF0.5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI2
 aI0
 aI0
-aI1
-aI2
-aI1
 aI0
+aI0
+aI0
+aI1
 aasS'name'
 p19
 VMustafa Shakur

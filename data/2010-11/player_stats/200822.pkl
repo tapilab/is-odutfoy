@@ -6,73 +6,73 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000202
+V0021000010
 p5
-aVNOV 22, 2010
+aVOCT 27, 2010
 p6
-aVNOH @ LAC
+aVNOH vs. MIL
 p7
-aVL
+aVW
 p8
+aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
 aI1
 aI0
 aI0
-aF0.0
 aI0
+aI1
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI3
-aI0
-aI-5
+aI-8
 aa(lp9
-V0021000163
+V0021000027
 p10
-aVNOV 17, 2010
+aVOCT 29, 2010
 p11
-aVNOH vs. DAL
+aVNOH vs. DEN
 p12
 aVW
 p13
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
+aI6
+aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aI0
-aI0
-aI0
+aF0.0
+aI1
+aI1
+aI2
+aI1
 aI0
 aI0
 aI1
-aI0
-aI-2
+aI1
+aI2
+aI4
 aa(lp14
-V0021000105
+V0021000039
 p15
-aVNOV 09, 2010
+aVOCT 30, 2010
 p16
-aVNOH vs. LAC
+aVNOH @ SAS
 p17
 aVW
 p18
-aI4
+aI10
 aI0
 aI0
 aF0.0
@@ -82,16 +82,16 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
 aI1
-aI1
-aI0
-aI0
-aI0
-aI1
-aI1
-aI0
+aI2
 aI3
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI5
 aa(lp19
 V0021000083
 p20
@@ -122,15 +122,15 @@ aI3
 aI0
 aI-13
 aa(lp24
-V0021000039
+V0021000105
 p25
-aVOCT 30, 2010
+aVNOV 09, 2010
 p26
-aVNOH @ SAS
+aVNOH vs. LAC
 p27
 aVW
 p28
-aI10
+aI4
 aI0
 aI0
 aF0.0
@@ -140,74 +140,74 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
 aI1
-aI2
+aI1
+aI0
+aI0
+aI0
+aI1
+aI1
+aI0
 aI3
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI5
 aa(lp29
-V0021000027
+V0021000163
 p30
-aVOCT 29, 2010
+aVNOV 17, 2010
 p31
-aVNOH vs. DEN
+aVNOH vs. DAL
 p32
 aVW
 p33
-aI6
-aI1
-aI1
-aF1.0
+aI0
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aI2
-aI1
 aI0
 aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
-aI1
-aI2
-aI4
+aI0
+aI-2
 aa(lp34
-V0021000010
+V0021000202
 p35
-aVOCT 27, 2010
+aVNOV 22, 2010
 p36
-aVNOH vs. MIL
+aVNOH @ LAC
 p37
-aVW
+aVL
 p38
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI3
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI1
-aI0
-aI0
-aI0
-aI1
-aI0
-aI-8
+aI-5
 aasS'name'
 p39
 VPops Mensah-Bonsu

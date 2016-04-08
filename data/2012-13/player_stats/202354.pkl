@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201159
+V0021200233
 p5
-aVAPR 09, 2013
+aVDEC 01, 2012
 p6
-aVMEM vs. CHA
+aVMIA vs. BKN
 p7
 aVW
 p8
-aI2
-aI0
 aI1
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -30,81 +30,78 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
-aI-6
+aI0
+aI0
+aI0
 aa(lp9
-V0021201120
+V0021200339
 p10
-aVAPR 03, 2013
+aVDEC 15, 2012
 p11
-aVMEM @ POR
+aVMIA vs. WAS
 p12
 aVW
 p13
+aI6
 aI2
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
+aI3
+aF0.667
 aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
 aI0
-aI0
-aI0
-aI0
+aF0.0
 aI2
+aI1
+aI3
 aI0
-aI-1
+aI0
+aI0
+aI0
+aI1
+aI4
+aI2
 aa(lp14
-V0021201048
+V0021200378
 p15
-aVMAR 25, 2013
+aVDEC 20, 2012
 p16
-aVMEM @ WAS
+aVMIA @ DAL
 p17
-aVL
+aVW
 p18
+aI3
 aI1
+aI2
+aF0.5
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
+aI1
+aI1
+aI2
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI-2
+aI1
+aI2
+aI-9
 aa(lp19
-V0021201027
+V0021200392
 p20
-aVMAR 22, 2013
+aVDEC 22, 2012
 p21
-aVMEM @ NOH
+aVMIA vs. UTA
 p22
-aVL
+aVW
 p23
-aI0
-aI0
-aI0
-aF0.0
+aI2
 aI0
 aI0
 aF0.0
@@ -113,43 +110,46 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI1
+aI1
+aI2
 aI0
 aI0
 aI0
+aI2
+aI2
 aI0
-aI0
-aI0
-aI0
-aI0
+aI-4
 aa(lp24
-V0021200930
+V0021200883
 p25
-aVMAR 09, 2013
+aVMAR 03, 2013
 p26
-aVMEM vs. NOH
+aVMEM @ ORL
 p27
 aVW
 p28
+aI10
 aI1
+aI4
+aF0.25
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
 aI1
+aF0.0
+aI2
+aI1
+aI3
+aI0
+aI0
+aI0
 aI0
 aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-4
+aI2
+aI-5
 aa(lp29
 V0021200905
 p30
@@ -180,44 +180,15 @@ aI0
 aI0
 aI0
 aa(lp34
-V0021200883
+V0021200930
 p35
-aVMAR 03, 2013
+aVMAR 09, 2013
 p36
-aVMEM @ ORL
+aVMEM vs. NOH
 p37
 aVW
 p38
-aI10
 aI1
-aI4
-aF0.25
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aF0.0
-aI2
-aI1
-aI3
-aI0
-aI0
-aI0
-aI0
-aI1
-aI2
-aI-5
-aa(lp39
-V0021200392
-p40
-aVDEC 22, 2012
-p41
-aVMIA vs. UTA
-p42
-aVW
-p43
-aI2
 aI0
 aI0
 aF0.0
@@ -228,102 +199,131 @@ aI0
 aI0
 aF0.0
 aI1
+aI0
 aI1
-aI2
 aI0
 aI0
 aI0
-aI2
-aI2
+aI0
+aI0
 aI0
 aI-4
+aa(lp39
+V0021201027
+p40
+aVMAR 22, 2013
+p41
+aVMEM @ NOH
+p42
+aVL
+p43
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aa(lp44
-V0021200378
+V0021201048
 p45
-aVDEC 20, 2012
+aVMAR 25, 2013
 p46
-aVMIA @ DAL
+aVMEM @ WAS
 p47
-aVW
+aVL
 p48
-aI3
 aI1
-aI2
-aF0.5
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aI2
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
-aI1
-aI2
-aI-9
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-2
 aa(lp49
-V0021200339
+V0021201120
 p50
-aVDEC 15, 2012
+aVAPR 03, 2013
 p51
-aVMIA vs. WAS
+aVMEM @ POR
 p52
 aVW
 p53
-aI6
 aI2
-aI3
-aF0.667
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI1
-aI3
 aI0
 aI0
-aI0
+aF0.0
 aI0
 aI1
-aI4
+aI1
+aI0
+aI0
+aI0
+aI0
 aI2
+aI0
+aI-1
 aa(lp54
-V0021200233
+V0021201159
 p55
-aVDEC 01, 2012
+aVAPR 09, 2013
 p56
-aVMIA vs. BKN
+aVMEM vs. CHA
 p57
 aVW
 p58
+aI2
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
 aI1
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI-6
 aasS'name'
 p59
 VDexter Pittman

@@ -6,19 +6,16 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100342
+V0021100316
 p5
-aVFEB 04, 2012
+aVFEB 01, 2012
 p6
-aVWAS vs. LAC
+aVWAS @ ORL
 p7
 aVL
 p8
 aI1
 aI0
-aI1
-aF0.0
-aI0
 aI0
 aF0.0
 aI0
@@ -26,6 +23,7 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
@@ -33,7 +31,9 @@ aI0
 aI0
 aI0
 aI0
-aI4
+aI0
+aI0
+aI0
 aa(lp9
 V0021100332
 p10
@@ -64,17 +64,17 @@ aI0
 aI0
 aI4
 aa(lp14
-V0021100316
+V0021100342
 p15
-aVFEB 01, 2012
+aVFEB 04, 2012
 p16
-aVWAS @ ORL
+aVWAS vs. LAC
 p17
 aVL
 p18
 aI1
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -91,7 +91,7 @@ aI0
 aI0
 aI0
 aI0
-aI0
+aI4
 aasS'name'
 p19
 VHamady Ndiaye

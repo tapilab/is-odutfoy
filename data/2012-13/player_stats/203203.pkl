@@ -6,15 +6,18 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201015
+V0021200976
 p5
-aVMAR 20, 2013
+aVMAR 15, 2013
 p6
-aVDAL vs. BKN
+aVDAL vs. CLE
 p7
-aVL
+aVW
 p8
 aI1
+aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
@@ -23,17 +26,14 @@ aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI-1
+aI2
+aI-2
 aa(lp9
 V0021200996
 p10
@@ -64,18 +64,15 @@ aI0
 aI0
 aI-5
 aa(lp14
-V0021200976
+V0021201015
 p15
-aVMAR 15, 2013
+aVMAR 20, 2013
 p16
-aVDAL vs. CLE
+aVDAL vs. BKN
 p17
-aVW
+aVL
 p18
 aI1
-aI1
-aI1
-aF1.0
 aI0
 aI0
 aF0.0
@@ -84,14 +81,17 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI2
-aI-2
+aI0
+aI0
+aI0
+aI-1
 aasS'name'
 p19
 VChris Wright

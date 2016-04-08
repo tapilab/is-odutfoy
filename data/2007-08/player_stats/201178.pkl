@@ -6,54 +6,56 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020701102
+V0020700231
 p5
-aVMAR 31, 2008
+aVNOV 30, 2007
 p6
-aVUTA vs. WAS
+aVUTA vs. LAL
 p7
 aVW
 p8
-aI6
-aI1
-aI2
-aF0.5
+aI17
+aI3
+aI5
+aF0.6
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aF1.0
-aI2
-aI0
-aI2
 aI0
 aI0
-aI0
-aI0
-aI1
+aF0.0
 aI4
-aI-1
+aI3
+aI7
+aI1
+aI0
+aI0
+aI2
+aI4
+aI6
+aI10
 aa(lp9
-V0020701091
+V0020700337
 p10
-aVMAR 30, 2008
+aVDEC 14, 2007
 p11
-aVUTA @ MIN
+aVUTA @ POR
 p12
 aVL
 p13
+aI4
+aI0
 aI1
-aI0
-aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
+aI0
+aF0.0
 aI2
-aF0.0
-aI0
+aI1
+aI3
 aI0
 aI0
 aI0
@@ -61,18 +63,16 @@ aI0
 aI0
 aI0
 aI1
-aI0
-aI-4
 aa(lp14
-V0020700393
+V0020700349
 p15
-aVDEC 22, 2007
+aVDEC 15, 2007
 p16
-aVUTA @ MIA
+aVUTA vs. SEA
 p17
-aVL
+aVW
 p18
-aI5
+aI11
 aI1
 aI1
 aF1.0
@@ -82,26 +82,26 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI2
+aI2
+aI1
+aI0
+aI0
 aI1
 aI2
-aI3
-aI0
-aI0
-aI0
-aI1
-aI1
 aI2
-aI-7
+aI10
 aa(lp19
-V0020700385
+V0020700354
 p20
-aVDEC 21, 2007
+aVDEC 17, 2007
 p21
-aVUTA @ ORL
+aVUTA @ ATL
 p22
-aVW
+aVL
 p23
-aI14
+aI8
 aI0
 aI3
 aF0.0
@@ -111,16 +111,16 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI3
+aI0
+aI3
+aI0
+aI0
+aI1
 aI2
 aI3
-aI5
 aI0
-aI0
-aI2
-aI2
-aI5
-aI0
-aI-4
+aI-6
 aa(lp24
 V0020700366
 p25
@@ -151,15 +151,15 @@ aI2
 aI0
 aI0
 aa(lp29
-V0020700354
+V0020700385
 p30
-aVDEC 17, 2007
+aVDEC 21, 2007
 p31
-aVUTA @ ATL
+aVUTA @ ORL
 p32
-aVL
+aVW
 p33
-aI8
+aI14
 aI0
 aI3
 aF0.0
@@ -169,26 +169,26 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI3
-aI0
-aI3
-aI0
-aI0
-aI1
 aI2
 aI3
+aI5
 aI0
-aI-6
+aI0
+aI2
+aI2
+aI5
+aI0
+aI-4
 aa(lp34
-V0020700349
+V0020700393
 p35
-aVDEC 15, 2007
+aVDEC 22, 2007
 p36
-aVUTA vs. SEA
+aVUTA @ MIA
 p37
-aVW
+aVL
 p38
-aI11
+aI5
 aI1
 aI1
 aF1.0
@@ -198,74 +198,74 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI2
-aI2
-aI1
-aI0
-aI0
 aI1
 aI2
+aI3
+aI0
+aI0
+aI0
+aI1
+aI1
 aI2
-aI10
+aI-7
 aa(lp39
-V0020700337
+V0020701091
 p40
-aVDEC 14, 2007
+aVMAR 30, 2008
 p41
-aVUTA @ POR
+aVUTA @ MIN
 p42
 aVL
 p43
-aI4
-aI0
 aI1
-aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
+aI0
 aI2
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
-aI3
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
+aI-4
 aa(lp44
-V0020700231
+V0020701102
 p45
-aVNOV 30, 2007
+aVMAR 31, 2008
 p46
-aVUTA vs. LAL
+aVUTA vs. WAS
 p47
 aVW
 p48
-aI17
-aI3
-aI5
-aF0.6
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI4
-aI3
-aI7
+aI6
 aI1
+aI2
+aF0.5
 aI0
+aI0
+aF0.0
+aI2
+aI2
+aF1.0
+aI2
 aI0
 aI2
+aI0
+aI0
+aI0
+aI0
+aI1
 aI4
-aI6
-aI10
+aI-1
 aasS'name'
 p49
 VKyrylo Fesenko

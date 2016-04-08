@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300664
+V0021300061
 p5
-aVJAN 27, 2014
+aVNOV 06, 2013
 p6
-aVCHI vs. MIN
+aVCHI @ IND
 p7
 aVL
 p8
-aI9
+aI1
 aI0
-aI3
+aI0
 aF0.0
 aI0
 aI0
@@ -27,26 +27,23 @@ aF0.0
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
-aI1
-aI1
 aI0
-aI-5
+aI0
+aI0
+aI0
+aI0
+aI2
 aa(lp9
-V0021300646
+V0021300079
 p10
-aVJAN 25, 2014
+aVNOV 08, 2013
 p11
-aVCHI @ CHA
+aVCHI vs. UTA
 p12
 aVW
 p13
-aI4
 aI1
-aI1
-aF1.0
 aI0
 aI0
 aF0.0
@@ -54,54 +51,57 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
-aI2
+aI0
+aF0.0
 aI0
 aI0
-aI1
 aI0
-aI2
-aI8
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-1
 aa(lp14
-V0021300641
+V0021300198
 p15
-aVJAN 24, 2014
+aVNOV 24, 2013
 p16
-aVCHI vs. LAC
+aVCHI @ LAC
 p17
 aVL
 p18
-aI18
-aI2
-aI5
-aF0.4
-aI1
-aI3
-aF0.333
+aI6
 aI0
-aI2
+aI3
 aF0.0
 aI0
-aI2
-aI2
-aI5
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
 aI0
 aI0
 aI1
 aI0
-aI5
-aI-4
+aI0
+aI0
+aI1
+aI0
+aI-10
 aa(lp19
-V0021300622
+V0021300209
 p20
-aVJAN 22, 2014
+aVNOV 25, 2013
 p21
-aVCHI @ CLE
+aVCHI @ UTA
 p22
-aVW
+aVL
 p23
-aI9
+aI3
 aI1
 aI2
 aF0.5
@@ -112,25 +112,28 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
-aI3
 aI0
 aI0
 aI1
+aI0
+aI0
+aI1
+aI1
 aI2
-aI2
-aI-3
+aI-1
 aa(lp24
-V0021300346
+V0021300242
 p25
-aVDEC 14, 2013
+aVNOV 30, 2013
 p26
-aVCHI vs. TOR
+aVCHI @ CLE
 p27
 aVL
 p28
-aI3
+aI13
+aI0
+aI1
+aF0.0
 aI0
 aI1
 aF0.0
@@ -138,18 +141,15 @@ aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
+aI2
+aI2
+aI2
+aI1
 aI0
 aI0
+aI4
 aI0
-aI0
-aI0
-aI-3
+aI5
 aa(lp29
 V0021300257
 p30
@@ -180,44 +180,44 @@ aI2
 aI0
 aI4
 aa(lp34
-V0021300242
+V0021300346
 p35
-aVNOV 30, 2013
+aVDEC 14, 2013
 p36
-aVCHI @ CLE
+aVCHI vs. TOR
 p37
 aVL
 p38
-aI13
-aI0
-aI1
-aF0.0
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aI2
-aI2
-aI1
-aI0
-aI0
-aI4
-aI0
-aI5
-aa(lp39
-V0021300209
-p40
-aVNOV 25, 2013
-p41
-aVCHI @ UTA
-p42
-aVL
-p43
 aI3
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-3
+aa(lp39
+V0021300622
+p40
+aVJAN 22, 2014
+p41
+aVCHI @ CLE
+p42
+aVW
+p43
+aI9
 aI1
 aI2
 aF0.5
@@ -228,102 +228,102 @@ aI0
 aI0
 aF0.0
 aI0
+aI1
+aI1
+aI3
+aI0
+aI0
+aI1
+aI2
+aI2
+aI-3
+aa(lp44
+V0021300641
+p45
+aVJAN 24, 2014
+p46
+aVCHI vs. LAC
+p47
+aVL
+p48
+aI18
+aI2
+aI5
+aF0.4
+aI1
+aI3
+aF0.333
+aI0
+aI2
+aF0.0
+aI0
+aI2
+aI2
+aI5
 aI0
 aI0
 aI1
 aI0
+aI5
+aI-4
+aa(lp49
+V0021300646
+p50
+aVJAN 25, 2014
+p51
+aVCHI @ CHA
+p52
+aVW
+p53
+aI4
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI1
 aI1
 aI2
-aI-1
-aa(lp44
-V0021300198
-p45
-aVNOV 24, 2013
-p46
-aVCHI @ LAC
-p47
+aI0
+aI0
+aI1
+aI0
+aI2
+aI8
+aa(lp54
+V0021300664
+p55
+aVJAN 27, 2014
+p56
+aVCHI vs. MIN
+p57
 aVL
-p48
-aI6
+p58
+aI9
 aI0
 aI3
 aF0.0
 aI0
-aI1
-aF0.0
-aI0
 aI0
 aF0.0
 aI0
 aI0
-aI0
-aI1
+aF0.0
 aI0
 aI0
 aI0
 aI1
-aI0
-aI-10
-aa(lp49
-V0021300079
-p50
-aVNOV 08, 2013
-p51
-aVCHI vs. UTA
-p52
-aVW
-p53
 aI1
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-1
-aa(lp54
-V0021300061
-p55
-aVNOV 06, 2013
-p56
-aVCHI @ IND
-p57
-aVL
-p58
+aI1
 aI1
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
+aI-5
 aasS'name'
 p59
 VMike James

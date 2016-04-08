@@ -6,86 +6,86 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100985
+V0021100008
 p5
-aVAPR 26, 2012
+aVDEC 26, 2011
 p6
-aVORL @ MEM
+aVORL vs. HOU
 p7
-aVL
+aVW
 p8
-aI32
-aI7
-aI18
-aF0.389
-aI2
-aI8
-aF0.25
+aI1
 aI0
-aI1
+aI0
 aF0.0
-aI3
-aI4
-aI7
-aI1
-aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI2
-aI1
-aI2
-aI16
-aI-5
 aa(lp9
-V0021100971
+V0021100033
 p10
-aVAPR 25, 2012
+aVDEC 29, 2011
 p11
-aVORL vs. CHA
+aVORL vs. NJN
 p12
 aVW
 p13
-aI5
+aI2
 aI0
-aI1
-aF0.0
 aI0
-aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
-aI-1
+aI0
+aI0
+aI0
+aI0
+aI-2
 aa(lp14
-V0021100958
+V0021100083
 p15
-aVAPR 22, 2012
+aVJAN 04, 2012
 p16
-aVORL @ DEN
+aVORL vs. WAS
 p17
-aVL
+aVW
 p18
 aI3
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
+aI2
 aF0.0
 aI0
 aI1
-aI1
+aF0.0
 aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
 aI0
 aI0
 aI1
@@ -93,49 +93,49 @@ aI0
 aI0
 aI-7
 aa(lp19
-V0021100950
+V0021100243
 p20
-aVAPR 21, 2012
+aVJAN 23, 2012
 p21
-aVORL @ UTA
+aVORL @ BOS
 p22
 aVL
 p23
-aI7
+aI4
 aI0
-aI3
-aF0.0
 aI0
-aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
+aI0
+aF0.0
+aI0
 aI1
 aI1
 aI0
-aI1
 aI0
 aI1
+aI1
 aI0
 aI0
-aI-11
+aI-5
 aa(lp24
-V0021100876
+V0021100278
 p25
-aVAPR 13, 2012
+aVJAN 27, 2012
 p26
-aVORL vs. ATL
+aVORL @ NOH
 p27
 aVL
 p28
-aI10
-aI0
 aI3
+aI0
+aI1
 aF0.0
 aI0
-aI2
+aI0
 aF0.0
 aI0
 aI0
@@ -149,20 +149,17 @@ aI0
 aI0
 aI0
 aI0
-aI0
+aI-2
 aa(lp29
-V0021100843
+V0021100461
 p30
-aVAPR 09, 2012
+aVFEB 19, 2012
 p31
-aVORL vs. DET
+aVORL @ MIA
 p32
-aVW
+aVL
 p33
-aI6
-aI2
-aI2
-aF1.0
+aI3
 aI0
 aI0
 aF0.0
@@ -171,23 +168,55 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI1
-aI4
-aI-1
+aI0
+aI0
+aI0
+aI0
+aI7
 aa(lp34
-V0021100685
+V0021100618
 p35
-aVMAR 21, 2012
+aVMAR 13, 2012
 p36
-aVORL vs. PHX
+aVORL vs. MIA
 p37
 aVW
 p38
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp39
+V0021100685
+p40
+aVMAR 21, 2012
+p41
+aVORL vs. PHX
+p42
+aVW
+p43
 aI2
 aI0
 aI1
@@ -208,45 +237,19 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp39
-V0021100618
-p40
-aVMAR 13, 2012
-p41
-aVORL vs. MIA
-p42
-aVW
-p43
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aa(lp44
-V0021100461
+V0021100843
 p45
-aVFEB 19, 2012
+aVAPR 09, 2012
 p46
-aVORL @ MIA
+aVORL vs. DET
 p47
-aVL
+aVW
 p48
-aI3
+aI6
+aI2
+aI2
+aF1.0
 aI0
 aI0
 aF0.0
@@ -255,98 +258,95 @@ aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI7
+aI1
+aI4
+aI-1
 aa(lp49
-V0021100278
+V0021100876
 p50
-aVJAN 27, 2012
+aVAPR 13, 2012
 p51
-aVORL @ NOH
+aVORL vs. ATL
 p52
 aVL
 p53
+aI10
+aI0
 aI3
-aI0
-aI1
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-2
-aa(lp54
-V0021100243
-p55
-aVJAN 23, 2012
-p56
-aVORL @ BOS
-p57
-aVL
-p58
-aI4
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI-5
-aa(lp59
-V0021100083
-p60
-aVJAN 04, 2012
-p61
-aVORL vs. WAS
-p62
-aVW
-p63
-aI3
 aI0
 aI2
 aF0.0
 aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp54
+V0021100950
+p55
+aVAPR 21, 2012
+p56
+aVORL @ UTA
+p57
+aVL
+p58
+aI7
+aI0
+aI3
+aF0.0
+aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
+aI1
+aI1
 aI0
 aI1
+aI0
+aI1
+aI0
+aI0
+aI-11
+aa(lp59
+V0021100958
+p60
+aVAPR 22, 2012
+p61
+aVORL @ DEN
+p62
+aVL
+p63
+aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
 aI0
 aI0
 aI1
@@ -354,63 +354,63 @@ aI0
 aI0
 aI-7
 aa(lp64
-V0021100033
+V0021100971
 p65
-aVDEC 29, 2011
+aVAPR 25, 2012
 p66
-aVORL vs. NJN
+aVORL vs. CHA
 p67
 aVW
 p68
-aI2
+aI5
 aI0
+aI1
+aF0.0
 aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-2
-aa(lp69
-V0021100008
-p70
-aVDEC 26, 2011
-p71
-aVORL vs. HOU
-p72
-aVW
-p73
+aI1
 aI1
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI-1
+aa(lp69
+V0021100985
+p70
+aVAPR 26, 2012
+p71
+aVORL @ MEM
+p72
+aVL
+p73
+aI32
+aI7
+aI18
+aF0.389
 aI2
+aI8
+aF0.25
+aI0
+aI1
+aF0.0
+aI3
+aI4
+aI7
+aI1
+aI1
+aI2
+aI1
+aI2
+aI16
+aI-5
 aasS'name'
 p74
 VJustin Harper

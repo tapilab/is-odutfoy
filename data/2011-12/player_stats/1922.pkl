@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100505
+V0021100272
 p5
-aVFEB 28, 2012
+aVJAN 27, 2012
 p6
-aVPHI @ DET
+aVPHI vs. CHA
 p7
 aVW
 p8
-aI3
+aI4
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -25,25 +25,28 @@ aI0
 aI0
 aF0.0
 aI0
-aI0
-aI0
 aI1
 aI1
 aI0
+aI0
 aI1
+aI0
 aI0
 aI0
 aI-3
 aa(lp9
-V0021100430
+V0021100285
 p10
-aVFEB 15, 2012
+aVJAN 28, 2012
 p11
-aVPHI @ ORL
+aVPHI vs. DET
 p12
-aVL
+aVW
 p13
+aI4
 aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
@@ -52,17 +55,14 @@ aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
+aI2
+aI-7
 aa(lp14
 V0021100333
 p15
@@ -93,18 +93,15 @@ aI0
 aI0
 aI-1
 aa(lp19
-V0021100285
+V0021100430
 p20
-aVJAN 28, 2012
+aVFEB 15, 2012
 p21
-aVPHI vs. DET
+aVPHI @ ORL
 p22
-aVW
+aVL
 p23
-aI4
 aI1
-aI1
-aF1.0
 aI0
 aI0
 aF0.0
@@ -113,27 +110,27 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI2
-aI-7
+aI0
+aI0
+aI0
+aI0
 aa(lp24
-V0021100272
+V0021100505
 p25
-aVJAN 27, 2012
+aVFEB 28, 2012
 p26
-aVPHI vs. CHA
+aVPHI @ DET
 p27
 aVW
 p28
-aI4
-aI0
-aI1
-aF0.0
+aI3
 aI0
 aI0
 aF0.0
@@ -141,12 +138,15 @@ aI0
 aI0
 aF0.0
 aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
 aI1
 aI1
 aI0
-aI0
 aI1
-aI0
 aI0
 aI0
 aI-3

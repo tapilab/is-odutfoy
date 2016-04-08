@@ -6,44 +6,47 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300450
+V0021300027
 p5
-aVDEC 29, 2013
+aVNOV 01, 2013
 p6
-aVOKC vs. HOU
+aVOKC @ MIN
 p7
-aVW
+aVL
 p8
 aI6
+aI0
 aI1
-aI2
-aF0.5
-aI0
-aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
+aI0
+aF0.0
+aI0
 aI1
 aI1
+aI1
 aI0
 aI0
 aI0
 aI0
 aI0
-aI2
-aI6
+aI12
 aa(lp9
-V0021300286
+V0021300122
 p10
-aVDEC 06, 2013
+aVNOV 13, 2013
 p11
-aVOKC @ NOP
+aVOKC @ LAC
 p12
-aVW
+aVL
 p13
-aI5
+aI6
+aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
@@ -52,17 +55,14 @@ aI0
 aF0.0
 aI0
 aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
 aI0
 aI0
 aI0
 aI0
 aI1
+aI4
+aI2
+aI-5
 aa(lp14
 V0021300200
 p15
@@ -93,18 +93,15 @@ aI1
 aI2
 aI-7
 aa(lp19
-V0021300122
+V0021300286
 p20
-aVNOV 13, 2013
+aVDEC 06, 2013
 p21
-aVOKC @ LAC
+aVOKC @ NOP
 p22
-aVL
+aVW
 p23
-aI6
-aI1
-aI1
-aF1.0
+aI5
 aI0
 aI0
 aF0.0
@@ -113,35 +110,37 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
 aI0
 aI0
 aI0
 aI0
 aI1
-aI4
-aI2
-aI-5
 aa(lp24
-V0021300027
+V0021300450
 p25
-aVNOV 01, 2013
+aVDEC 29, 2013
 p26
-aVOKC @ MIN
+aVOKC vs. HOU
 p27
-aVL
+aVW
 p28
 aI6
-aI0
 aI1
+aI2
+aF0.5
+aI0
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI1
 aI1
 aI1
 aI0
@@ -149,7 +148,8 @@ aI0
 aI0
 aI0
 aI0
-aI12
+aI2
+aI6
 aasS'name'
 p29
 VRyan Gomes

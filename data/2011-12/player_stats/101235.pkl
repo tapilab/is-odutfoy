@@ -6,21 +6,21 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100983
+V0021100940
 p5
-aVAPR 26, 2012
+aVAPR 20, 2012
 p6
-aVDAL @ ATL
+aVDAL vs. GSW
 p7
-aVL
+aVW
 p8
-aI8
-aI3
-aI5
-aF0.6
-aI1
-aI1
-aF1.0
+aI6
+aI0
+aI2
+aF0.0
+aI0
+aI2
+aF0.0
 aI0
 aI0
 aF0.0
@@ -28,12 +28,12 @@ aI0
 aI0
 aI0
 aI0
-aI1
+aI0
 aI0
 aI2
-aI1
-aI7
 aI0
+aI0
+aI-6
 aa(lp9
 V0021100946
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI-5
 aa(lp14
-V0021100940
+V0021100983
 p15
-aVAPR 20, 2012
+aVAPR 26, 2012
 p16
-aVDAL vs. GSW
+aVDAL @ ATL
 p17
-aVW
+aVL
 p18
-aI6
+aI8
+aI3
+aI5
+aF0.6
+aI1
+aI1
+aF1.0
 aI0
-aI2
+aI0
 aF0.0
 aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
 aI0
 aI0
 aI0
-aI0
-aI0
+aI1
 aI0
 aI2
+aI1
+aI7
 aI0
-aI0
-aI-6
 aasS'name'
 p19
 VKelenna Azubuike

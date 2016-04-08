@@ -6,69 +6,69 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020701219
+V0020700412
 p5
-aVAPR 16, 2008
+aVDEC 26, 2007
 p6
-aVCLE vs. DET
+aVNJN vs. DET
 p7
 aVL
 p8
-aI7
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-3
+aa(lp9
+V0020700423
+p10
+aVDEC 28, 2007
+p11
+aVNJN vs. WAS
+p12
+aVW
+p13
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI2
-aF0.0
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI-13
-aa(lp9
-V0020700909
-p10
-aVMAR 06, 2008
-p11
-aVCLE @ CHI
-p12
-aVL
-p13
-aI4
-aI1
-aI1
-aF1.0
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI3
-aI11
 aa(lp14
-V0020700900
+V0020700439
 p15
-aVMAR 05, 2008
+aVDEC 29, 2007
 p16
-aVCLE @ NYK
+aVNJN @ MIL
 p17
 aVW
 p18
@@ -79,11 +79,9 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
+aI2
+aI2
+aF1.0
 aI0
 aI0
 aI0
@@ -92,64 +90,66 @@ aI0
 aI0
 aI0
 aI0
+aI2
+aI2
 aa(lp19
-V0020700861
+V0020700484
 p20
-aVFEB 29, 2008
+aVJAN 05, 2008
 p21
-aVCLE vs. MIN
+aVNJN @ ATL
 p22
 aVW
 p23
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI-7
-aa(lp24
-V0020700849
-p25
-aVFEB 27, 2008
-p26
-aVCLE @ BOS
-p27
-aVL
-p28
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI5
+aI0
+aI3
+aF0.0
+aI0
+aI3
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI2
+aa(lp24
+V0020700807
+p25
+aVFEB 22, 2008
+p26
+aVCLE vs. WAS
+p27
+aVW
+p28
+aI19
+aI3
+aI11
+aF0.273
+aI3
+aI11
+aF0.273
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aI2
+aI0
+aI0
+aI0
+aI3
+aI2
+aI9
+aI-3
 aa(lp29
 V0020700826
 p30
@@ -180,53 +180,54 @@ aI0
 aI0
 aI1
 aa(lp34
-V0020700807
+V0020700849
 p35
-aVFEB 22, 2008
+aVFEB 27, 2008
 p36
-aVCLE vs. WAS
+aVCLE @ BOS
 p37
-aVW
+aVL
 p38
-aI19
-aI3
-aI11
-aF0.273
-aI3
-aI11
-aF0.273
+aI0
 aI0
 aI0
 aF0.0
 aI0
-aI2
-aI2
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
-aI3
-aI2
-aI9
-aI-3
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI5
 aa(lp39
-V0020700484
+V0020700861
 p40
-aVJAN 05, 2008
+aVFEB 29, 2008
 p41
-aVNJN @ ATL
+aVCLE vs. MIN
 p42
 aVW
 p43
-aI5
+aI1
 aI0
-aI3
-aF0.0
 aI0
-aI3
 aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aF0.0
+aI0
 aI0
 aI0
 aI0
@@ -235,14 +236,13 @@ aI0
 aI0
 aI1
 aI0
-aI0
-aI2
+aI-7
 aa(lp44
-V0020700439
+V0020700900
 p45
-aVDEC 29, 2007
+aVMAR 05, 2008
 p46
-aVNJN @ MIL
+aVCLE @ NYK
 p47
 aVW
 p48
@@ -253,77 +253,77 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp49
+V0020700909
+p50
+aVMAR 06, 2008
+p51
+aVCLE @ CHI
+p52
+aVL
+p53
+aI4
+aI1
+aI1
+aF1.0
+aI1
+aI1
 aF1.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI2
-aI2
-aa(lp49
-V0020700423
-p50
-aVDEC 28, 2007
-p51
-aVNJN vs. WAS
-p52
-aVW
-p53
+aI0
 aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
+aI3
+aI11
 aa(lp54
-V0020700412
+V0020701219
 p55
-aVDEC 26, 2007
+aVAPR 16, 2008
 p56
-aVNJN vs. DET
+aVCLE vs. DET
 p57
 aVL
 p58
+aI7
+aI0
 aI2
+aF0.0
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
+aI0
+aI0
+aI1
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-3
+aI-13
 aasS'name'
 p59
 VBilly Thomas

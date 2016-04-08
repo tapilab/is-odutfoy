@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100990
+V0021100977
 p5
-aVAPR 26, 2012
+aVAPR 25, 2012
 p6
-aVSAS @ GSW
+aVSAS @ PHX
 p7
 aVW
 p8
-aI33
-aI2
-aI9
-aF0.222
-aI0
-aI6
-aF0.0
-aI4
-aI4
-aF1.0
-aI4
-aI4
-aI8
-aI1
-aI2
-aI0
-aI0
-aI2
-aI8
-aI-5
-aa(lp9
-V0021100977
-p10
-aVAPR 25, 2012
-p11
-aVSAS @ PHX
-p12
-aVW
-p13
 aI4
 aI1
 aI2
@@ -63,6 +34,35 @@ aI0
 aI0
 aI2
 aI-3
+aa(lp9
+V0021100990
+p10
+aVAPR 26, 2012
+p11
+aVSAS @ GSW
+p12
+aVW
+p13
+aI33
+aI2
+aI9
+aF0.222
+aI0
+aI6
+aF0.0
+aI4
+aI4
+aF1.0
+aI4
+aI4
+aI8
+aI1
+aI2
+aI0
+aI0
+aI2
+aI8
+aI-5
 aasS'name'
 p14
 VDerrick Byars

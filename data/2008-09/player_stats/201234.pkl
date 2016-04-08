@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020800873
+V0020800714
 p5
-aVFEB 27, 2009
+aVFEB 03, 2009
 p6
-aVCLE @ SAS
+aVCLE vs. TOR
 p7
 aVW
 p8
+aI2
+aI0
 aI1
-aI0
-aI0
 aF0.0
 aI0
 aI0
@@ -24,6 +24,8 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
 aI0
 aI0
 aI0
@@ -32,46 +34,15 @@ aI0
 aI0
 aI0
 aI2
-aI0
-aI-9
 aa(lp9
-V0020800842
+V0020800774
 p10
-aVFEB 24, 2009
+aVFEB 11, 2009
 p11
-aVCLE vs. MEM
+aVCLE vs. PHX
 p12
 aVW
 p13
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI-3
-aa(lp14
-V0020800774
-p15
-aVFEB 11, 2009
-p16
-aVCLE vs. PHX
-p17
-aVW
-p18
 aI9
 aI0
 aI4
@@ -92,19 +63,45 @@ aI1
 aI1
 aI4
 aI-2
+aa(lp14
+V0020800842
+p15
+aVFEB 24, 2009
+p16
+aVCLE vs. MEM
+p17
+aVW
+p18
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI-3
 aa(lp19
-V0020800714
+V0020800873
 p20
-aVFEB 03, 2009
+aVFEB 27, 2009
 p21
-aVCLE vs. TOR
+aVCLE @ SAS
 p22
 aVW
 p23
-aI2
-aI0
 aI1
-aF0.0
 aI0
 aI0
 aF0.0
@@ -113,6 +110,7 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
@@ -121,6 +119,8 @@ aI0
 aI0
 aI0
 aI2
+aI0
+aI-9
 aasS'name'
 p24
 VTrey Johnson

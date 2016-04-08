@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301093
+V0021300970
 p5
-aVMAR 30, 2014
+aVMAR 13, 2014
 p6
-aVOKC vs. UTA
+aVOKC vs. LAL
 p7
 aVW
 p8
-aI6
-aI1
+aI5
 aI2
+aI4
 aF0.5
-aI0
 aI1
+aI1
+aF1.0
+aI0
+aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
 aI1
 aI0
-aI1
-aI0
-aI2
-aI-2
+aI5
+aI4
 aa(lp9
 V0021301083
 p10
@@ -64,21 +64,21 @@ aI1
 aI4
 aI-7
 aa(lp14
-V0021300970
+V0021301093
 p15
-aVMAR 13, 2014
+aVMAR 30, 2014
 p16
-aVOKC vs. LAL
+aVOKC vs. UTA
 p17
 aVW
 p18
-aI5
+aI6
+aI1
 aI2
-aI4
 aF0.5
+aI0
 aI1
-aI1
-aF1.0
+aF0.0
 aI0
 aI0
 aF0.0
@@ -86,12 +86,12 @@ aI0
 aI0
 aI0
 aI0
-aI0
+aI1
 aI0
 aI1
 aI0
-aI5
-aI4
+aI2
+aI-2
 aasS'name'
 p19
 VReggie Williams

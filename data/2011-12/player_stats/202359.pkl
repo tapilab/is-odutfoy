@@ -6,11 +6,11 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100186
+V0021100118
 p5
-aVJAN 16, 2012
+aVJAN 07, 2012
 p6
-aVMIL @ PHI
+aVMIL @ LAC
 p7
 aVL
 p8
@@ -25,30 +25,30 @@ aI0
 aI0
 aF0.0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI1
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-1
 aa(lp9
-V0021100165
+V0021100123
 p10
-aVJAN 13, 2012
+aVJAN 08, 2012
 p11
-aVMIL @ DAL
+aVMIL @ PHX
 p12
 aVL
 p13
-aI18
+aI17
+aI2
+aI5
+aF0.4
 aI0
-aI8
-aF0.0
-aI0
-aI4
+aI2
 aF0.0
 aI0
 aI0
@@ -59,10 +59,10 @@ aI1
 aI3
 aI0
 aI0
-aI2
 aI0
-aI0
-aI-3
+aI1
+aI4
+aI8
 aa(lp14
 V0021100155
 p15
@@ -93,20 +93,20 @@ aI0
 aI0
 aI0
 aa(lp19
-V0021100123
+V0021100165
 p20
-aVJAN 08, 2012
+aVJAN 13, 2012
 p21
-aVMIL @ PHX
+aVMIL @ DAL
 p22
 aVL
 p23
-aI17
-aI2
-aI5
-aF0.4
+aI18
 aI0
-aI2
+aI8
+aF0.0
+aI0
+aI4
 aF0.0
 aI0
 aI0
@@ -117,16 +117,16 @@ aI1
 aI3
 aI0
 aI0
+aI2
 aI0
-aI1
-aI4
-aI8
+aI0
+aI-3
 aa(lp24
-V0021100118
+V0021100186
 p25
-aVJAN 07, 2012
+aVJAN 16, 2012
 p26
-aVMIL @ LAC
+aVMIL @ PHI
 p27
 aVL
 p28
@@ -141,15 +141,15 @@ aI0
 aI0
 aF0.0
 aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-1
 aasS'name'
 p29
 VDarington Hobson

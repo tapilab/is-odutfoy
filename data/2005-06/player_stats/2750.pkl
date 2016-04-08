@@ -1,0 +1,44 @@
+(dp0
+S'age'
+p1
+I20
+sS'stats'
+p2
+(lp3
+(lp4
+V0020501226
+p5
+aVAPR 19, 2006
+p6
+aVDAL vs. LAC
+p7
+aVL
+p8
+aI18
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI3
+aI6
+aF0.5
+aI0
+aI7
+aI7
+aI0
+aI0
+aI1
+aI2
+aI0
+aI3
+aI2
+aasS'name'
+p9
+VPavel Podkolzin
+p10
+sS'experience'
+p11
+I1
+s.

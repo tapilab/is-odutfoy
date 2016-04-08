@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020800382
-p5
-aVDEC 19, 2008
-p6
-aVNYK vs. MIL
-p7
-aVL
-p8
-aI6
-aI2
-aI5
-aF0.4
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI1
-aI1
-aI1
-aI4
-aI-1
-aa(lp9
 V0020800345
-p10
+p5
 aVDEC 13, 2008
-p11
+p6
 aVNYK @ SAC
-p12
+p7
 aVW
-p13
+p8
 aI4
 aI1
 aI3
@@ -63,6 +34,35 @@ aI0
 aI1
 aI2
 aI1
+aa(lp9
+V0020800382
+p10
+aVDEC 19, 2008
+p11
+aVNYK vs. MIL
+p12
+aVL
+p13
+aI6
+aI2
+aI5
+aF0.4
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI1
+aI1
+aI1
+aI4
+aI-1
 aasS'name'
 p14
 VJerome James

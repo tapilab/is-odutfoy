@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021200026
-p5
-aVNOV 02, 2012
-p6
-aVGSW vs. MEM
-p7
-aVL
-p8
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI3
-aa(lp9
 V0021200010
-p10
+p5
 aVOCT 31, 2012
-p11
+p6
 aVGSW @ PHX
-p12
+p7
 aVW
-p13
+p8
 aI23
 aI6
 aI9
@@ -62,6 +33,35 @@ aI0
 aI3
 aI5
 aI14
+aI3
+aa(lp9
+V0021200026
+p10
+aVNOV 02, 2012
+p11
+aVGSW vs. MEM
+p12
+aVL
+p13
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI3
 aasS'name'
 p14

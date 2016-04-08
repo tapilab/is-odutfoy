@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100331
-p5
-aVFEB 02, 2012
-p6
-aVGSW vs. UTA
-p7
-aVW
-p8
-aI3
-aI1
-aI2
-aF0.5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
-aI2
-aI0
-aa(lp9
 V0021100171
-p10
+p5
 aVJAN 14, 2012
-p11
+p6
 aVGSW @ CHA
-p12
+p7
 aVL
-p13
+p8
 aI6
 aI1
 aI2
@@ -63,6 +34,35 @@ aI0
 aI3
 aI2
 aI-2
+aa(lp9
+V0021100331
+p10
+aVFEB 02, 2012
+p11
+aVGSW vs. UTA
+p12
+aVW
+p13
+aI3
+aI1
+aI2
+aF0.5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aI2
+aI0
 aasS'name'
 p14
 VEarl Barron

@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000489
+V0021000319
 p5
-aVJAN 01, 2011
+aVDEC 08, 2010
 p6
-aVMIL vs. DAL
+aVMIL vs. IND
 p7
 aVW
 p8
-aI4
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-9
-aa(lp9
-V0021000319
-p10
-aVDEC 08, 2010
-p11
-aVMIL vs. IND
-p12
-aVW
-p13
 aI1
 aI0
 aI0
@@ -63,6 +34,35 @@ aI0
 aI0
 aI0
 aI-2
+aa(lp9
+V0021000489
+p10
+aVJAN 01, 2011
+p11
+aVMIL vs. DAL
+p12
+aVW
+p13
+aI4
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-9
 aasS'name'
 p14
 VBrian Skinner

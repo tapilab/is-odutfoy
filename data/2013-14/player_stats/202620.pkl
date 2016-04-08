@@ -6,63 +6,63 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300898
+V0021300011
 p5
-aVMAR 04, 2014
+aVOCT 30, 2013
 p6
-aVCLE vs. SAS
+aVNOP vs. IND
 p7
 aVL
 p8
+aI15
+aI1
+aI3
+aF0.333
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
 aI4
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
+aI5
+aI3
 aI0
 aI0
 aI1
+aI3
+aI2
+aI0
 aa(lp9
-V0021300867
+V0021300021
 p10
-aVFEB 28, 2014
+aVNOV 01, 2013
 p11
-aVCLE vs. UTA
+aVNOP @ ORL
 p12
-aVW
+aVL
 p13
-aI1
+aI10
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
+aI2
+aF0.5
+aI1
+aI1
+aI2
 aI0
 aI0
 aI0
-aI-1
+aI0
+aI0
+aI1
+aI-6
 aa(lp14
 V0021300081
 p15
@@ -93,63 +93,63 @@ aI0
 aI0
 aI0
 aa(lp19
-V0021300021
+V0021300867
 p20
-aVNOV 01, 2013
+aVFEB 28, 2014
 p21
-aVNOP @ ORL
+aVCLE vs. UTA
 p22
-aVL
+aVW
 p23
-aI10
+aI1
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI2
-aF0.5
-aI1
-aI1
-aI2
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI1
-aI-6
+aI0
+aI0
+aI0
+aI0
+aI-1
 aa(lp24
-V0021300011
+V0021300898
 p25
-aVOCT 30, 2013
+aVMAR 04, 2014
 p26
-aVNOP vs. IND
+aVCLE vs. SAS
 p27
 aVL
 p28
-aI15
-aI1
-aI3
-aF0.333
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
 aI4
-aI5
-aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
 aI0
 aI0
 aI1
-aI3
-aI2
-aI0
 aasS'name'
 p29
 VArinze Onuaku

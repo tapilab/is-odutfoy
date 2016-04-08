@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300854
+V0021300849
 p5
-aVFEB 26, 2014
+aVFEB 25, 2014
 p6
-aVATL @ BOS
+aVATL vs. CHI
 p7
 aVL
 p8
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aa(lp9
-V0021300849
-p10
-aVFEB 25, 2014
-p11
-aVATL vs. CHI
-p12
-aVL
-p13
 aI2
 aI0
 aI1
@@ -63,6 +34,35 @@ aI0
 aI0
 aI0
 aI-2
+aa(lp9
+V0021300854
+p10
+aVFEB 26, 2014
+p11
+aVATL @ BOS
+p12
+aVL
+p13
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aasS'name'
 p14
 VDexter Pittman

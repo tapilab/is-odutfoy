@@ -1,0 +1,44 @@
+(dp0
+S'age'
+p1
+I31
+sS'stats'
+p2
+(lp3
+(lp4
+V0020500034
+p5
+aVNOV 05, 2005
+p6
+aVTOR @ DET
+p7
+aVL
+p8
+aI10
+aI0
+aI3
+aF0.0
+aI0
+aI2
+aF0.0
+aI1
+aI2
+aF0.5
+aI0
+aI3
+aI3
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI-5
+aasS'name'
+p9
+VAlvin Williams
+p10
+sS'experience'
+p11
+I8
+s.

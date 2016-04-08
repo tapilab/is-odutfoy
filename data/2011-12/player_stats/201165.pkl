@@ -6,72 +6,43 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100981
+V0021100918
 p5
-aVAPR 26, 2012
+aVAPR 18, 2012
 p6
-aVWAS vs. MIA
+aVWAS vs. MIL
 p7
 aVW
 p8
-aI26
-aI2
 aI6
-aF0.333
+aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
-aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI2
-aF0.5
-aI0
-aI4
-aI4
-aI1
-aI5
-aI0
-aI1
-aI4
-aI5
-aI24
+aI6
 aa(lp9
-V0021100972
+V0021100960
 p10
-aVAPR 25, 2012
+aVAPR 23, 2012
 p11
-aVWAS @ CLE
+aVWAS vs. CHA
 p12
 aVW
 p13
-aI26
-aI2
-aI9
-aF0.222
-aI1
-aI3
-aF0.333
-aI0
-aI1
-aF0.0
-aI1
-aI2
-aI3
-aI1
-aI1
-aI0
-aI0
-aI2
-aI5
-aI0
-aa(lp14
-V0021100960
-p15
-aVAPR 23, 2012
-p16
-aVWAS vs. CHA
-p17
-aVW
-p18
 aI8
 aI1
 aI1
@@ -92,35 +63,64 @@ aI0
 aI0
 aI2
 aI4
-aa(lp19
-V0021100918
-p20
-aVAPR 18, 2012
-p21
-aVWAS vs. MIL
-p22
+aa(lp14
+V0021100972
+p15
+aVAPR 25, 2012
+p16
+aVWAS @ CLE
+p17
 aVW
-p23
-aI6
+p18
+aI26
+aI2
+aI9
+aF0.222
+aI1
+aI3
+aF0.333
+aI0
+aI1
+aF0.0
+aI1
+aI2
+aI3
 aI1
 aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI0
 aI0
 aI2
+aI5
+aI0
+aa(lp19
+V0021100981
+p20
+aVAPR 26, 2012
+p21
+aVWAS vs. MIA
+p22
+aVW
+p23
+aI26
+aI2
 aI6
+aF0.333
+aI0
+aI0
+aF0.0
+aI1
+aI2
+aF0.5
+aI0
+aI4
+aI4
+aI1
+aI5
+aI0
+aI1
+aI4
+aI5
+aI24
 aasS'name'
 p24
 VMorris Almond

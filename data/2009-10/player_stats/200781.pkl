@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020900073
-p5
-aVNOV 06, 2009
-p6
-aVWAS @ IND
-p7
-aVL
-p8
-aI5
-aI2
-aI3
-aF0.667
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI2
-aI0
-aI1
-aI0
-aI0
-aI4
-aI6
-aa(lp9
 V0020900032
-p10
+p5
 aVOCT 31, 2009
-p11
+p6
 aVWAS vs. NJN
-p12
+p7
 aVW
-p13
+p8
 aI3
 aI0
 aI1
@@ -63,6 +34,35 @@ aI0
 aI0
 aI1
 aI-5
+aa(lp9
+V0020900073
+p10
+aVNOV 06, 2009
+p11
+aVWAS @ IND
+p12
+aVL
+p13
+aI5
+aI2
+aI3
+aF0.667
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI2
+aI0
+aI1
+aI0
+aI0
+aI4
+aI6
 aasS'name'
 p14
 VPaul Davis

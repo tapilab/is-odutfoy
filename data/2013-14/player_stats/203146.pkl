@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300542
+V0021300528
 p5
-aVJAN 10, 2014
+aVJAN 08, 2014
 p6
-aVLAC vs. LAL
+aVLAC vs. BOS
 p7
 aVW
 p8
-aI6
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aI2
-aI1
-aI2
-aI0
-aI0
-aI3
-aI2
-aI-6
-aa(lp9
-V0021300528
-p10
-aVJAN 08, 2014
-p11
-aVLAC vs. BOS
-p12
-aVW
-p13
 aI3
 aI0
 aI1
@@ -63,6 +34,35 @@ aI0
 aI1
 aI0
 aI-4
+aa(lp9
+V0021300542
+p10
+aVJAN 10, 2014
+p11
+aVLAC vs. LAL
+p12
+aVW
+p13
+aI6
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aI2
+aI1
+aI2
+aI0
+aI0
+aI3
+aI2
+aI-6
 aasS'name'
 p14
 VMaalik Wayns

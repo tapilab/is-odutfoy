@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301034
+V0021300985
 p5
-aVMAR 22, 2014
+aVMAR 15, 2014
 p6
-aVPHI @ CHI
+aVPHI vs. MEM
 p7
 aVL
 p8
+aI10
+aI0
 aI5
+aF0.0
 aI0
 aI2
 aF0.0
 aI0
-aI1
+aI2
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
+aI2
 aI1
 aI1
 aI0
+aI1
+aI2
 aI0
+aI-3
 aa(lp9
 V0021301023
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI0
 aa(lp14
-V0021300985
+V0021301034
 p15
-aVMAR 15, 2014
+aVMAR 22, 2014
 p16
-aVPHI vs. MEM
+aVPHI @ CHI
 p17
 aVL
 p18
-aI10
-aI0
 aI5
-aF0.0
 aI0
 aI2
 aF0.0
 aI0
-aI2
+aI1
 aF0.0
 aI0
-aI2
-aI2
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
 aI1
 aI0
-aI1
-aI2
 aI0
-aI-3
 aasS'name'
 p19
 VDarius Johnson-Odom

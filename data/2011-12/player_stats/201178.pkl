@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100961
+V0021100877
 p5
-aVAPR 23, 2012
+aVAPR 13, 2012
 p6
-aVIND vs. DET
+aVIND vs. CLE
 p7
 aVW
 p8
-aI6
+aI7
+aI0
 aI1
-aI2
-aF0.5
+aF0.0
 aI0
 aI0
 aF0.0
 aI2
-aI2
-aF1.0
-aI1
-aI1
-aI2
-aI1
-aI2
-aI0
-aI0
-aI1
 aI4
+aF0.5
 aI0
+aI3
+aI3
+aI0
+aI0
+aI0
+aI0
+aI1
+aI2
+aI2
 aa(lp9
 V0021100905
 p10
@@ -64,34 +64,34 @@ aI0
 aI2
 aI5
 aa(lp14
-V0021100877
+V0021100961
 p15
-aVAPR 13, 2012
+aVAPR 23, 2012
 p16
-aVIND vs. CLE
+aVIND vs. DET
 p17
 aVW
 p18
-aI7
-aI0
+aI6
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
 aI2
-aI4
 aF0.5
 aI0
-aI3
-aI3
 aI0
-aI0
+aF0.0
+aI2
+aI2
+aF1.0
+aI1
+aI1
+aI2
+aI1
+aI2
 aI0
 aI0
 aI1
-aI2
-aI2
+aI4
+aI0
 aasS'name'
 p19
 VKyrylo Fesenko

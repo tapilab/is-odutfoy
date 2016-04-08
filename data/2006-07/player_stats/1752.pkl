@@ -6,24 +6,24 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020600785
+V0020600412
 p5
-aVFEB 14, 2007
+aVDEC 26, 2006
 p6
-aVPHX @ SEA
+aVPHX vs. POR
 p7
-aVL
+aVW
 p8
-aI5
+aI7
+aI1
+aI3
+aF0.333
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aF1.0
 aI0
 aI1
 aI1
@@ -31,9 +31,9 @@ aI0
 aI0
 aI0
 aI0
-aI0
 aI2
-aI-5
+aI2
+aI-3
 aa(lp9
 V0020600604
 p10
@@ -64,24 +64,24 @@ aI2
 aI2
 aI-4
 aa(lp14
-V0020600412
+V0020600785
 p15
-aVDEC 26, 2006
+aVFEB 14, 2007
 p16
-aVPHX vs. POR
+aVPHX @ SEA
 p17
-aVW
+aVL
 p18
-aI7
-aI1
-aI3
-aF0.333
+aI5
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
+aI2
+aI2
+aF1.0
 aI0
 aI1
 aI1
@@ -89,9 +89,9 @@ aI0
 aI0
 aI0
 aI0
+aI0
 aI2
-aI2
-aI-3
+aI-5
 aasS'name'
 p19
 VSean Marks

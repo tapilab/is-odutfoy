@@ -6,14 +6,43 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020700446
+V0020700428
 p5
-aVDEC 30, 2007
+aVDEC 28, 2007
 p6
-aVSAS vs. MEM
+aVSAS vs. TOR
 p7
-aVW
+aVL
 p8
+aI4
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI3
+aa(lp9
+V0020700446
+p10
+aVDEC 30, 2007
+p11
+aVSAS vs. MEM
+p12
+aVW
+p13
 aI6
 aI1
 aI3
@@ -34,35 +63,6 @@ aI0
 aI0
 aI2
 aI4
-aa(lp9
-V0020700428
-p10
-aVDEC 28, 2007
-p11
-aVSAS vs. TOR
-p12
-aVL
-p13
-aI4
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI3
 aasS'name'
 p14
 VKeith Langford

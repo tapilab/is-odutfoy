@@ -6,101 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020700389
+V0020700222
 p5
-aVDEC 21, 2007
+aVNOV 29, 2007
 p6
-aVDEN @ POR
+aVDEN @ LAL
 p7
 aVL
 p8
-aI18
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI3
-aI4
-aI0
-aI0
-aI1
-aI2
-aI3
-aI2
-aI-1
-aa(lp9
-V0020700352
-p10
-aVDEC 16, 2007
-p11
-aVDEN vs. POR
-p12
-aVL
-p13
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI3
-aa(lp14
-V0020700348
-p15
-aVDEC 15, 2007
-p16
-aVDEN @ SAS
-p17
-aVL
-p18
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI-4
-aa(lp19
-V0020700247
-p20
-aVDEC 02, 2007
-p21
-aVDEN vs. MIA
-p22
-aVW
-p23
 aI5
 aI0
 aI0
@@ -112,24 +25,24 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
+aI2
+aI2
 aI0
 aI0
+aI2
+aI0
 aI1
-aI1
-aI3
 aI0
 aI-5
-aa(lp24
+aa(lp9
 V0020700233
-p25
+p10
 aVNOV 30, 2007
-p26
+p11
 aVDEN vs. LAC
-p27
+p12
 aVW
-p28
+p13
 aI1
 aI0
 aI0
@@ -150,15 +63,15 @@ aI1
 aI0
 aI1
 aI-2
-aa(lp29
-V0020700222
-p30
-aVNOV 29, 2007
-p31
-aVDEN @ LAL
-p32
-aVL
-p33
+aa(lp14
+V0020700247
+p15
+aVDEC 02, 2007
+p16
+aVDEN vs. MIA
+p17
+aVW
+p18
 aI5
 aI0
 aI0
@@ -170,15 +83,102 @@ aI0
 aI0
 aF0.0
 aI0
-aI2
+aI1
+aI1
+aI0
+aI0
+aI1
+aI1
+aI3
+aI0
+aI-5
+aa(lp19
+V0020700348
+p20
+aVDEC 15, 2007
+p21
+aVDEN @ SAS
+p22
+aVL
+p23
 aI2
 aI0
 aI0
-aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI1
 aI0
-aI-5
+aI0
+aI0
+aI-4
+aa(lp24
+V0020700352
+p25
+aVDEC 16, 2007
+p26
+aVDEN vs. POR
+p27
+aVL
+p28
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI3
+aa(lp29
+V0020700389
+p30
+aVDEC 21, 2007
+p31
+aVDEN @ POR
+p32
+aVL
+p33
+aI18
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI3
+aI4
+aI0
+aI0
+aI1
+aI2
+aI3
+aI2
+aI-1
 aasS'name'
 p34
 VJelani McCoy

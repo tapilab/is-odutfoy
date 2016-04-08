@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201224
+V0021201169
 p5
-aVAPR 17, 2013
+aVAPR 10, 2013
 p6
-aVDAL vs. NOH
+aVDAL vs. PHX
 p7
-aVW
+aVL
 p8
+aI4
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
 aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-4
+aI2
+aI3
 aa(lp9
 V0021201199
 p10
@@ -64,18 +64,15 @@ aI1
 aI3
 aI-4
 aa(lp14
-V0021201169
+V0021201224
 p15
-aVAPR 10, 2013
+aVAPR 17, 2013
 p16
-aVDAL vs. PHX
+aVDAL vs. NOH
 p17
-aVL
+aVW
 p18
-aI4
-aI1
-aI1
-aF1.0
+aI2
 aI0
 aI0
 aF0.0
@@ -84,14 +81,17 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
+aI1
 aI1
 aI0
 aI0
 aI0
-aI2
-aI2
-aI3
+aI0
+aI0
+aI0
+aI-4
 aasS'name'
 p19
 VJosh Akognon

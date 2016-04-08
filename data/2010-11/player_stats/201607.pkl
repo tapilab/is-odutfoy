@@ -6,92 +6,92 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021001223
+V0021001114
 p5
-aVAPR 13, 2011
+aVMAR 30, 2011
 p6
-aVNOH @ DAL
+aVNOH vs. POR
 p7
-aVL
+aVW
 p8
-aI6
-aI0
 aI2
-aF0.0
-aI0
-aI1
-aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aI0
-aI1
-aI0
-aI0
-aI1
+aF0.0
 aI0
 aI0
-aI-11
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-1
 aa(lp9
-V0021001208
+V0021001127
 p10
-aVAPR 11, 2011
+aVAPR 01, 2011
 p11
-aVNOH vs. UTA
+aVNOH vs. MEM
 p12
 aVL
 p13
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI5
-aa(lp14
-V0021001197
-p15
-aVAPR 10, 2011
-p16
-aVNOH @ MEM
-p17
-aVL
-p18
-aI6
-aI0
-aI3
-aF0.0
-aI0
-aI1
-aF0.0
-aI3
-aI4
-aF0.75
-aI1
-aI0
-aI1
-aI1
-aI0
-aI1
-aI0
-aI1
-aI3
 aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI4
+aa(lp14
+V0021001147
+p15
+aVAPR 03, 2011
+p16
+aVNOH vs. IND
+p17
+aVW
+p18
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-5
 aa(lp19
 V0021001184
 p20
@@ -122,14 +122,43 @@ aI0
 aI0
 aI2
 aa(lp24
-V0021001147
+V0021001197
 p25
-aVAPR 03, 2011
+aVAPR 10, 2011
 p26
-aVNOH vs. IND
+aVNOH @ MEM
 p27
-aVW
+aVL
 p28
+aI6
+aI0
+aI3
+aF0.0
+aI0
+aI1
+aF0.0
+aI3
+aI4
+aF0.75
+aI1
+aI0
+aI1
+aI1
+aI0
+aI1
+aI0
+aI1
+aI3
+aI2
+aa(lp29
+V0021001208
+p30
+aVAPR 11, 2011
+p31
+aVNOH vs. UTA
+p32
+aVL
+p33
 aI1
 aI0
 aI0
@@ -149,65 +178,36 @@ aI0
 aI0
 aI0
 aI0
-aI-5
-aa(lp29
-V0021001127
-p30
-aVAPR 01, 2011
-p31
-aVNOH vs. MEM
-p32
-aVL
-p33
-aI2
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI4
+aI5
 aa(lp34
-V0021001114
+V0021001223
 p35
-aVMAR 30, 2011
+aVAPR 13, 2011
 p36
-aVNOH vs. POR
+aVNOH @ DAL
 p37
-aVW
+aVL
 p38
+aI6
+aI0
 aI2
+aF0.0
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
+aI0
+aI1
 aI0
 aI0
+aI1
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-1
+aI-11
 aasS'name'
 p39
 VPatrick Ewing Jr.

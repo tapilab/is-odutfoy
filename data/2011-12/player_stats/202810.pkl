@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100984
+V0021100972
 p5
-aVAPR 26, 2012
+aVAPR 25, 2012
 p6
-aVCLE @ CHI
+aVCLE vs. WAS
 p7
 aVL
 p8
-aI28
-aI0
-aI6
-aF0.0
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI2
-aI0
-aI-30
-aa(lp9
-V0021100972
-p10
-aVAPR 25, 2012
-p11
-aVCLE vs. WAS
-p12
-aVL
-p13
 aI31
 aI5
 aI6
@@ -63,6 +34,35 @@ aI3
 aI5
 aI12
 aI-2
+aa(lp9
+V0021100984
+p10
+aVAPR 26, 2012
+p11
+aVCLE @ CHI
+p12
+aVL
+p13
+aI28
+aI0
+aI6
+aF0.0
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI2
+aI0
+aI-30
 aasS'name'
 p14
 VD.J. Kennedy

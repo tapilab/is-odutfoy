@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301220
+V0021300007
 p5
-aVAPR 16, 2014
+aVOCT 30, 2013
 p6
-aVDET @ OKC
+aVDET vs. WAS
 p7
-aVL
+aVW
 p8
-aI6
 aI0
-aI1
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -28,80 +28,109 @@ aI0
 aI1
 aI1
 aI0
-aI1
 aI0
 aI0
 aI0
 aI0
-aI4
+aI0
+aI0
 aa(lp9
-V0021301198
+V0021300109
 p10
-aVAPR 13, 2014
+aVNOV 12, 2013
 p11
-aVDET vs. TOR
+aVDET @ GSW
 p12
 aVL
 p13
-aI7
+aI13
 aI1
 aI2
 aF0.5
 aI0
 aI0
 aF0.0
-aI0
 aI1
-aF0.0
+aI2
+aF0.5
+aI2
+aI1
 aI3
+aI1
 aI0
-aI3
+aI0
 aI0
 aI2
-aI0
-aI1
-aI4
-aI2
-aI-3
+aI3
+aI-4
 aa(lp14
-V0021301162
+V0021300149
 p15
-aVAPR 09, 2014
+aVNOV 17, 2013
 p16
-aVDET @ CLE
+aVDET @ LAL
 p17
 aVL
 p18
-aI8
+aI1
 aI0
-aI2
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI2
-aF0.5
-aI2
-aI4
-aI6
-aI0
-aI1
-aI1
 aI0
 aI0
-aI1
-aI7
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-2
 aa(lp19
-V0021301087
+V0021300197
 p20
-aVMAR 29, 2014
+aVNOV 24, 2013
 p21
-aVDET @ PHI
+aVDET @ BKN
 p22
-aVL
+aVW
 p23
-aI6
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp24
+V0021300204
+p25
+aVNOV 25, 2013
+p26
+aVDET vs. MIL
+p27
+aVW
+p28
+aI2
 aI1
 aI1
 aF1.0
@@ -111,53 +140,24 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI2
-aI1
-aI0
-aI0
-aI1
-aI2
-aI2
-aI3
-aa(lp24
-V0021301079
-p25
-aVMAR 28, 2014
-p26
-aVDET vs. MIA
-p27
-aVL
-p28
-aI5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI1
-aI0
 aI0
 aa(lp29
-V0021301055
+V0021300220
 p30
-aVMAR 24, 2014
+aVNOV 27, 2013
 p31
-aVDET @ UTA
+aVDET vs. CHI
 p32
-aVW
+aVL
 p33
 aI2
 aI0
@@ -166,32 +166,29 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aF1.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI0
 aI2
-aI4
+aF0.0
+aI2
+aI0
+aI2
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
 aa(lp34
-V0021300960
+V0021300250
 p35
-aVMAR 12, 2014
+aVDEC 01, 2013
 p36
-aVDET @ TOR
+aVDET vs. PHI
 p37
-aVL
+aVW
 p38
-aI0
-aI0
-aI0
-aF0.0
+aI3
 aI0
 aI0
 aF0.0
@@ -200,26 +197,29 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
-aa(lp39
-V0021300859
-p40
-aVFEB 26, 2014
-p41
-aVDET @ SAS
-p42
-aVL
-p43
+aI1
 aI1
 aI0
 aI0
+aI1
+aI0
+aI0
+aI0
+aI-2
+aa(lp39
+V0021300300
+p40
+aVDEC 08, 2013
+p41
+aVDET vs. MIA
+p42
+aVL
+p43
+aI4
+aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -238,63 +238,63 @@ aI0
 aI0
 aI3
 aa(lp44
-V0021300801
+V0021300315
 p45
-aVFEB 19, 2014
+aVDEC 10, 2013
 p46
-aVDET @ CHA
+aVDET vs. MIN
 p47
 aVL
 p48
+aI10
 aI1
-aI0
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
-aa(lp49
-V0021300669
-p50
-aVJAN 28, 2014
-p51
-aVDET vs. ORL
-p52
-aVW
-p53
-aI6
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI4
-aI4
 aF1.0
 aI1
 aI1
+aF1.0
+aI1
+aI2
+aF0.5
+aI3
+aI1
+aI4
+aI0
+aI1
+aI1
 aI2
 aI0
-aI0
-aI0
-aI0
-aI0
 aI4
-aI-9
+aI-4
+aa(lp49
+V0021300396
+p50
+aVDEC 21, 2013
+p51
+aVDET vs. HOU
+p52
+aVL
+p53
+aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI2
+aI4
+aF0.5
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aI2
 aa(lp54
 V0021300659
 p55
@@ -325,75 +325,75 @@ aI0
 aI0
 aI2
 aa(lp59
-V0021300396
+V0021300669
 p60
-aVDEC 21, 2013
+aVJAN 28, 2014
 p61
-aVDET vs. HOU
+aVDET vs. ORL
 p62
-aVL
+aVW
 p63
-aI3
+aI6
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI2
 aI4
-aF0.5
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI4
+aF1.0
+aI1
+aI1
 aI2
-aI2
+aI0
+aI0
+aI0
+aI0
+aI0
+aI4
+aI-9
 aa(lp64
-V0021300315
+V0021300801
 p65
-aVDEC 10, 2013
+aVFEB 19, 2014
 p66
-aVDET vs. MIN
+aVDET @ CHA
 p67
 aVL
 p68
-aI10
 aI1
-aI1
-aF1.0
-aI1
-aI1
-aF1.0
-aI1
-aI2
-aF0.5
-aI3
-aI1
-aI4
 aI0
 aI1
-aI1
-aI2
+aF0.0
 aI0
-aI4
-aI-4
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
 aa(lp69
-V0021300300
+V0021300859
 p70
-aVDEC 08, 2013
+aVFEB 26, 2014
 p71
-aVDET vs. MIA
+aVDET @ SAS
 p72
 aVL
 p73
-aI4
-aI0
 aI1
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -412,42 +412,42 @@ aI0
 aI0
 aI3
 aa(lp74
-V0021300250
+V0021300960
 p75
-aVDEC 01, 2013
+aVMAR 12, 2014
 p76
-aVDET vs. PHI
+aVDET @ TOR
 p77
-aVW
-p78
-aI3
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI-2
-aa(lp79
-V0021300220
-p80
-aVNOV 27, 2013
-p81
-aVDET vs. CHI
-p82
 aVL
+p78
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aa(lp79
+V0021301055
+p80
+aVMAR 24, 2014
+p81
+aVDET @ UTA
+p82
+aVW
 p83
 aI2
 aI0
@@ -456,29 +456,58 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI2
+aI2
+aF1.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI2
-aF0.0
-aI2
-aI0
-aI2
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
+aI4
 aa(lp84
-V0021300204
+V0021301079
 p85
-aVNOV 25, 2013
+aVMAR 28, 2014
 p86
-aVDET vs. MIL
+aVDET vs. MIA
 p87
-aVW
+aVL
 p88
-aI2
+aI5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI1
+aI0
+aI0
+aa(lp89
+V0021301087
+p90
+aVMAR 29, 2014
+p91
+aVDET @ PHI
+p92
+aVL
+p93
+aI6
 aI1
 aI1
 aF1.0
@@ -488,115 +517,86 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
+aI1
 aI2
-aI0
-aa(lp89
-V0021300197
-p90
-aVNOV 24, 2013
-p91
-aVDET @ BKN
-p92
-aVW
-p93
+aI1
 aI0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
+aI2
+aI2
+aI3
 aa(lp94
-V0021300149
+V0021301162
 p95
-aVNOV 17, 2013
+aVAPR 09, 2014
 p96
-aVDET @ LAL
+aVDET @ CLE
 p97
 aVL
 p98
+aI8
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI2
+aF0.5
+aI2
+aI4
+aI6
+aI0
+aI1
 aI1
 aI0
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-2
+aI1
+aI7
 aa(lp99
-V0021300109
+V0021301198
 p100
-aVNOV 12, 2013
+aVAPR 13, 2014
 p101
-aVDET @ GSW
+aVDET vs. TOR
 p102
 aVL
 p103
-aI13
+aI7
 aI1
 aI2
 aF0.5
 aI0
 aI0
 aF0.0
+aI0
 aI1
-aI2
-aF0.5
-aI2
-aI1
+aF0.0
 aI3
-aI1
 aI0
-aI0
+aI3
 aI0
 aI2
-aI3
-aI-4
+aI0
+aI1
+aI4
+aI2
+aI-3
 aa(lp104
-V0021300007
+V0021301220
 p105
-aVOCT 30, 2013
+aVAPR 16, 2014
 p106
-aVDET vs. WAS
+aVDET @ OKC
 p107
-aVW
+aVL
 p108
+aI6
 aI0
-aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -608,12 +608,12 @@ aI0
 aI1
 aI1
 aI0
+aI1
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
+aI4
 aasS'name'
 p109
 VTony Mitchell

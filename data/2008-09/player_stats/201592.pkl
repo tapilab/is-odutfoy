@@ -6,15 +6,15 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020801003
+V0020800829
 p5
-aVMAR 17, 2009
+aVFEB 22, 2009
 p6
-aVBOS @ CHI
+aVBOS @ PHX
 p7
-aVL
+aVW
 p8
-aI0
+aI1
 aI0
 aI0
 aF0.0
@@ -35,101 +35,14 @@ aI0
 aI0
 aI0
 aa(lp9
-V0020800988
-p10
-aVMAR 15, 2009
-p11
-aVBOS @ MIL
-p12
-aVL
-p13
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aa(lp14
-V0020800920
-p15
-aVMAR 06, 2009
-p16
-aVBOS vs. CLE
-p17
-aVW
-p18
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aa(lp19
-V0020800883
-p20
-aVMAR 01, 2009
-p21
-aVBOS vs. DET
-p22
-aVL
-p23
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aa(lp24
 V0020800838
-p25
+p10
 aVFEB 23, 2009
-p26
+p11
 aVBOS @ DEN
-p27
+p12
 aVW
-p28
+p13
 aI5
 aI2
 aI3
@@ -150,16 +63,103 @@ aI1
 aI1
 aI4
 aI1
-aa(lp29
-V0020800829
-p30
-aVFEB 22, 2009
-p31
-aVBOS @ PHX
-p32
+aa(lp14
+V0020800883
+p15
+aVMAR 01, 2009
+p16
+aVBOS vs. DET
+p17
+aVL
+p18
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp19
+V0020800920
+p20
+aVMAR 06, 2009
+p21
+aVBOS vs. CLE
+p22
 aVW
-p33
+p23
 aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp24
+V0020800988
+p25
+aVMAR 15, 2009
+p26
+aVBOS @ MIL
+p27
+aVL
+p28
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp29
+V0020801003
+p30
+aVMAR 17, 2009
+p31
+aVBOS @ CHI
+p32
+aVL
+p33
+aI0
 aI0
 aI0
 aF0.0

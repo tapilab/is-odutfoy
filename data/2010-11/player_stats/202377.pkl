@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021001217
+V0021001176
 p5
-aVAPR 13, 2011
+aVAPR 08, 2011
 p6
-aVATL @ CHA
+aVATL @ IND
 p7
 aVL
 p8
-aI9
-aI0
-aI1
-aF0.0
+aI3
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aI2
-aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
 aI0
 aI0
 aI1
 aI0
 aI0
-aI-1
+aI1
+aI0
+aI4
 aa(lp9
 V0021001188
 p10
@@ -64,34 +64,34 @@ aI0
 aI7
 aI-10
 aa(lp14
-V0021001176
+V0021001217
 p15
-aVAPR 08, 2011
+aVAPR 13, 2011
 p16
-aVATL @ IND
+aVATL @ CHA
 p17
 aVL
 p18
-aI3
+aI9
+aI0
+aI1
+aF0.0
 aI0
 aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
+aI1
+aI1
+aI2
+aI2
 aI0
 aI0
 aI1
 aI0
 aI0
-aI1
-aI0
-aI4
+aI-1
 aasS'name'
 p19
 VPape Sy

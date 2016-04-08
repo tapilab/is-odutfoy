@@ -6,26 +6,24 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021200548
+V0021200020
 p5
-aVJAN 12, 2013
+aVNOV 02, 2012
 p6
-aVMIA @ SAC
+aVMIA @ NYK
 p7
-aVW
+aVL
 p8
-aI3
+aI2
 aI0
-aI1
-aF0.0
 aI0
-aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
@@ -33,74 +31,47 @@ aI0
 aI1
 aI0
 aI0
-aI-4
+aI0
+aI0
+aI2
 aa(lp9
-V0021200469
+V0021200056
 p10
-aVJAN 02, 2013
+aVNOV 07, 2012
 p11
-aVMIA vs. DAL
+aVMIA vs. BKN
 p12
 aVW
 p13
+aI4
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
 aI1
 aI0
 aI0
-aF0.0
 aI0
+aI1
+aI1
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI4
 aa(lp14
-V0021200445
+V0021200092
 p15
-aVDEC 29, 2012
+aVNOV 11, 2012
 p16
-aVMIA @ MIL
+aVMIA @ MEM
 p17
 aVL
 p18
-aI18
-aI2
-aI5
-aF0.4
-aI0
-aI3
-aF0.0
-aI1
-aI2
-aF0.5
-aI1
-aI1
-aI2
-aI0
-aI0
-aI1
-aI1
-aI3
-aI5
-aI-12
-aa(lp19
-V0021200092
-p20
-aVNOV 11, 2012
-p21
-aVMIA @ MEM
-p22
-aVL
-p23
 aI4
 aI2
 aI2
@@ -121,18 +92,47 @@ aI0
 aI0
 aI5
 aI9
+aa(lp19
+V0021200445
+p20
+aVDEC 29, 2012
+p21
+aVMIA @ MIL
+p22
+aVL
+p23
+aI18
+aI2
+aI5
+aF0.4
+aI0
+aI3
+aF0.0
+aI1
+aI2
+aF0.5
+aI1
+aI1
+aI2
+aI0
+aI0
+aI1
+aI1
+aI3
+aI5
+aI-12
 aa(lp24
-V0021200056
+V0021200469
 p25
-aVNOV 07, 2012
+aVJAN 02, 2013
 p26
-aVMIA vs. BKN
+aVMIA vs. DAL
 p27
 aVW
 p28
-aI4
-aI0
 aI1
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -141,34 +141,36 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
-aI4
+aI0
+aI0
+aI0
+aI0
+aI0
 aa(lp29
-V0021200020
+V0021200548
 p30
-aVNOV 02, 2012
+aVJAN 12, 2013
 p31
-aVMIA @ NYK
+aVMIA @ SAC
 p32
-aVL
+aVW
 p33
-aI2
+aI3
 aI0
+aI1
+aF0.0
 aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
@@ -176,9 +178,7 @@ aI0
 aI1
 aI0
 aI0
-aI0
-aI0
-aI2
+aI-4
 aasS'name'
 p34
 VJosh Harrellson

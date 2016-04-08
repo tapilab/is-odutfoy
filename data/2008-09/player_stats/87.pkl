@@ -6,47 +6,18 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020801187
+V0020800562
 p5
-aVAPR 10, 2009
+aVJAN 13, 2009
 p6
-aVHOU @ GSW
+aVHOU vs. LAL
 p7
-aVW
+aVL
 p8
-aI35
-aI3
-aI7
-aF0.429
-aI0
-aI0
-aF0.0
-aI4
-aI5
-aF0.8
-aI5
-aI10
-aI15
-aI0
-aI0
 aI4
 aI2
-aI4
-aI10
-aI5
-aa(lp9
-V0020801159
-p10
-aVAPR 07, 2009
-p11
-aVHOU vs. ORL
-p12
-aVW
-p13
-aI7
-aI0
-aI0
-aF0.0
+aI2
+aF1.0
 aI0
 aI0
 aF0.0
@@ -54,23 +25,52 @@ aI0
 aI0
 aF0.0
 aI1
-aI2
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI4
+aI-4
+aa(lp9
+V0020800725
+p10
+aVFEB 04, 2009
+p11
+aVHOU @ MEM
+p12
+aVL
+p13
+aI6
+aI0
+aI3
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI3
+aI0
 aI3
 aI0
 aI0
+aI1
+aI0
+aI1
 aI0
 aI0
-aI2
-aI0
-aI-6
 aa(lp14
-V0020801119
+V0020800748
 p15
-aVAPR 01, 2009
+aVFEB 07, 2009
 p16
-aVHOU @ PHX
+aVHOU vs. MIN
 p17
-aVL
+aVW
 p18
 aI5
 aI0
@@ -79,25 +79,25 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI1
+aI0
+aI0
+aF0.0
+aI0
 aI2
-aF0.5
-aI0
-aI1
-aI1
+aI2
 aI0
 aI0
-aI1
 aI0
-aI1
-aI1
 aI0
+aI0
+aI0
+aI-3
 aa(lp19
-V0020801017
+V0020800830
 p20
-aVMAR 18, 2009
+aVFEB 22, 2009
 p21
-aVHOU vs. DET
+aVHOU vs. CHA
 p22
 aVW
 p23
@@ -117,10 +117,10 @@ aI1
 aI0
 aI0
 aI1
-aI0
+aI2
 aI1
 aI0
-aI-3
+aI3
 aa(lp24
 V0020800998
 p25
@@ -151,11 +151,11 @@ aI1
 aI1
 aI8
 aa(lp29
-V0020800830
+V0020801017
 p30
-aVFEB 22, 2009
+aVMAR 18, 2009
 p31
-aVHOU vs. CHA
+aVHOU vs. DET
 p32
 aVW
 p33
@@ -175,18 +175,18 @@ aI1
 aI0
 aI0
 aI1
-aI2
+aI0
 aI1
 aI0
-aI3
+aI-3
 aa(lp34
-V0020800748
+V0020801119
 p35
-aVFEB 07, 2009
+aVAPR 01, 2009
 p36
-aVHOU vs. MIN
+aVHOU @ PHX
 p37
-aVW
+aVL
 p38
 aI5
 aI0
@@ -195,77 +195,77 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
+aI1
 aI2
-aI2
+aF0.5
+aI0
+aI1
+aI1
 aI0
 aI0
+aI1
 aI0
+aI1
+aI1
 aI0
-aI0
-aI0
-aI-3
 aa(lp39
-V0020800725
+V0020801159
 p40
-aVFEB 04, 2009
+aVAPR 07, 2009
 p41
-aVHOU @ MEM
+aVHOU vs. ORL
 p42
-aVL
+aVW
 p43
-aI6
-aI0
-aI3
-aF0.0
+aI7
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI3
-aI0
-aI3
 aI0
 aI0
+aF0.0
 aI1
+aI2
+aI3
 aI0
-aI1
 aI0
 aI0
+aI0
+aI2
+aI0
+aI-6
 aa(lp44
-V0020800562
+V0020801187
 p45
-aVJAN 13, 2009
+aVAPR 10, 2009
 p46
-aVHOU vs. LAL
+aVHOU @ GSW
 p47
-aVL
+aVW
 p48
-aI4
-aI2
-aI2
-aF1.0
+aI35
+aI3
+aI7
+aF0.429
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
+aI4
+aI5
+aF0.8
+aI5
+aI10
+aI15
 aI0
 aI0
 aI4
-aI-4
+aI2
+aI4
+aI10
+aI5
 aasS'name'
 p49
 VDikembe Mutombo

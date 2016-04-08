@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020801230
+V0020800820
 p5
-aVAPR 15, 2009
+aVFEB 20, 2009
 p6
-aVPOR vs. DEN
+aVPOR vs. ATL
 p7
 aVW
 p8
-aI5
 aI0
-aI1
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -24,51 +24,51 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI0
-aI1
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI-1
+aI0
+aI0
+aI0
+aI-2
 aa(lp9
-V0020801212
+V0020800833
 p10
-aVAPR 13, 2009
+aVFEB 22, 2009
 p11
-aVPOR vs. OKC
+aVPOR vs. LAC
 p12
 aVW
 p13
-aI6
-aI2
-aI2
-aF1.0
+aI3
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
+aI0
+aI0
+aF0.0
 aI1
 aI2
+aI3
+aI0
 aI0
 aI0
 aI1
 aI0
+aI0
 aI2
-aI4
-aI-5
 aa(lp14
-V0020801129
+V0020800869
 p15
-aVAPR 03, 2009
+aVFEB 27, 2009
 p16
-aVPOR @ OKC
+aVPOR @ MIN
 p17
 aVW
 p18
@@ -82,28 +82,28 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
-aI1
-aI2
 aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI6
+aI-1
 aa(lp19
-V0020801111
+V0020800916
 p20
-aVMAR 31, 2009
+aVMAR 05, 2009
 p21
-aVPOR vs. UTA
+aVPOR @ DEN
 p22
-aVW
+aVL
 p23
 aI3
 aI0
-aI0
+aI2
 aF0.0
 aI0
 aI0
@@ -111,24 +111,24 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI1
 aI1
 aI0
+aI1
+aI0
+aI0
 aI0
 aI0
 aI1
-aI1
 aI0
-aI-4
+aI-1
 aa(lp24
-V0020801090
+V0020800985
 p25
-aVMAR 28, 2009
+aVMAR 15, 2009
 p26
-aVPOR vs. MEM
+aVPOR @ ATL
 p27
-aVW
+aVL
 p28
 aI3
 aI0
@@ -137,18 +137,18 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI2
+aI2
+aF1.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
 aI0
-aI1
 aI0
 aI0
-aI1
-aI0
+aI2
 aI0
 aa(lp29
 V0020801072
@@ -180,13 +180,13 @@ aI1
 aI0
 aI-4
 aa(lp34
-V0020800985
+V0020801090
 p35
-aVMAR 15, 2009
+aVMAR 28, 2009
 p36
-aVPOR @ ATL
+aVPOR vs. MEM
 p37
-aVL
+aVW
 p38
 aI3
 aI0
@@ -195,54 +195,54 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aF1.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
+aI1
 aI0
 aI0
+aI1
 aI0
-aI0
-aI2
 aI0
 aa(lp39
-V0020800916
+V0020801111
 p40
-aVMAR 05, 2009
+aVMAR 31, 2009
 p41
-aVPOR @ DEN
+aVPOR vs. UTA
 p42
-aVL
+aVW
 p43
 aI3
 aI0
-aI2
-aF0.0
-aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
+aI0
+aI0
+aF0.0
 aI0
 aI1
-aI0
+aI1
 aI0
 aI0
 aI0
 aI1
+aI1
 aI0
-aI-1
+aI-4
 aa(lp44
-V0020800869
+V0020801129
 p45
-aVFEB 27, 2009
+aVAPR 03, 2009
 p46
-aVPOR @ MIN
+aVPOR @ OKC
 p47
 aVW
 p48
@@ -256,57 +256,57 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
+aI1
+aI2
 aI0
 aI1
 aI0
-aI-1
+aI0
+aI0
+aI0
+aI6
 aa(lp49
-V0020800833
+V0020801212
 p50
-aVFEB 22, 2009
+aVAPR 13, 2009
 p51
-aVPOR vs. LAC
+aVPOR vs. OKC
 p52
 aVW
 p53
-aI3
+aI6
+aI2
+aI2
+aF1.0
 aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
 aI1
 aI2
-aI3
-aI0
 aI0
 aI0
 aI1
 aI0
-aI0
 aI2
+aI4
+aI-5
 aa(lp54
-V0020800820
+V0020801230
 p55
-aVFEB 20, 2009
+aVAPR 15, 2009
 p56
-aVPOR vs. ATL
+aVPOR vs. DEN
 p57
 aVW
 p58
+aI5
 aI0
-aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -314,16 +314,16 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI1
+aI0
+aI1
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI-2
+aI-1
 aasS'name'
 p59
 VMichael Ruffin

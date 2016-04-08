@@ -9,6 +9,7 @@ import os
 from time import sleep
 import sys
 import shutil
+import glob
 
 #player_list = curl('http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2013-14&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.85 Chrome/45.0.2454.85 Safari/537.36' -H 'Accept: application/json, text/plain, */*' -H 'Referer: http://stats.nba.com/league/player/' -H 'Cookie: ug=564bc5cb06dd690a3c852e7da205ef8b; ugs=1; _gat=1; _ga=GA1.2.1028222052.1454632808; crtg_trnr=; s_cc=true; s_vi=[CS]v1|2B1C901605010772-40000146E0028408[CE]; s_sq=nbag-n-league%3D%2526pid%253Dstats.nba.com%25253A%25252Fplayer%25252F%2526pidt%253D1%2526oid%253Dhttp%25253A%25252F%25252Fstats.nba.com%25252Fplayer%25252F%2526ot%253DA; s_fid=611F6CAB17F03E6A-0F7BD99682C4658E' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' --compressed)
 
@@ -88,15 +89,19 @@ def get_data(season):
         player_info['stats'] = []
 
         #removing useless data
-        for match in json.loads(stats_req.content)['resultSets'][0]['rowSet']:
+        for match in json.loads(stats_req.content)['resultSets'][0]['rowSet'][::-1]:
             player_info['stats'].append(match[2:-1])
 
         pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
-if len(sys.argv) < 2:
-    print "Please input season you wish to retrieve data from as first argument"
-    print "Season must be of following format xxxx-yy i.e : 2013-14"
+# if len(sys.argv) < 2:
+#     print "Please input season you wish to retrieve data from as first argument"
+#     print "Season must be of following format xxxx-yy i.e : 2013-14"
+#
+# else:
+#     get_player_list(sys.argv[1])
+#     get_data(sys.argv[1])
 
-else:
-    get_player_list(sys.argv[1])
-    get_data(sys.argv[1])
+
+player = pickle.load(open('data' + os.sep + '2005-06' + os.sep + 'player_stats' + os.sep + '15' + '.pkl', 'rb'))
+print player['stats']

@@ -6,47 +6,44 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301230
+V0021300017
 p5
-aVAPR 16, 2014
+aVOCT 30, 2013
 p6
-aVGSW @ DEN
+aVGSW vs. LAL
 p7
 aVW
 p8
-aI31
+aI10
+aI1
 aI2
-aI2
-aF1.0
-aI0
-aI0
-aF0.0
-aI2
-aI4
 aF0.5
+aI0
+aI0
+aF0.0
+aI1
 aI2
-aI5
-aI7
+aF0.5
 aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI3
 aI2
-aI0
-aI0
-aI5
-aI6
-aI-9
+aI3
+aI-3
 aa(lp9
-V0021301213
+V0021300019
 p10
-aVAPR 14, 2014
+aVOCT 31, 2013
 p11
-aVGSW vs. MIN
+aVGSW @ LAC
 p12
-aVW
+aVL
 p13
-aI0
-aI0
-aI0
-aF0.0
+aI1
 aI0
 aI0
 aF0.0
@@ -55,27 +52,27 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI0
+aI1
+aI1
 aI0
-aI-2
+aI0
 aa(lp14
-V0021301021
+V0021300040
 p15
-aVMAR 20, 2014
+aVNOV 02, 2013
 p16
-aVGSW vs. MIL
+aVGSW vs. SAC
 p17
 aVW
 p18
-aI0
-aI0
-aI0
-aF0.0
+aI3
 aI0
 aI0
 aF0.0
@@ -84,26 +81,29 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
+aI1
 aI0
 aI0
 aI0
+aI-8
 aa(lp19
-V0021301007
+V0021300048
 p20
-aVMAR 18, 2014
+aVNOV 04, 2013
 p21
-aVGSW vs. ORL
+aVGSW @ PHI
 p22
 aVW
 p23
-aI3
+aI9
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -111,171 +111,171 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI1
+aI1
 aI2
 aI0
+aI0
+aI0
 aI2
+aI2
+aI0
+aI-11
+aa(lp24
+V0021300067
+p25
+aVNOV 06, 2013
+p26
+aVGSW @ MIN
+p27
+aVW
+p28
 aI1
 aI0
 aI0
+aF0.0
 aI0
 aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
 aI0
 aI-3
-aa(lp24
-V0021300788
-p25
-aVFEB 12, 2014
-p26
-aVGSW vs. MIA
-p27
-aVL
-p28
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aa(lp29
-V0021300769
+V0021300091
 p30
-aVFEB 10, 2014
+aVNOV 09, 2013
 p31
-aVGSW vs. PHI
+aVGSW @ MEM
 p32
-aVW
+aVL
 p33
-aI6
+aI5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI1
 aF0.0
 aI0
 aI0
-aF0.0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI2
+aI0
+aI4
+aa(lp34
+V0021300109
+p35
+aVNOV 12, 2013
+p36
+aVGSW vs. DET
+p37
+aVW
+p38
+aI5
 aI1
 aI2
 aF0.5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
 aI1
+aI1
+aI0
+aI0
+aI1
+aI0
 aI1
 aI2
-aI0
-aI1
-aI0
-aI1
-aI1
-aI1
-aI-2
-aa(lp34
-V0021300754
-p35
-aVFEB 08, 2014
-p36
-aVGSW @ PHX
-p37
-aVL
-p38
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
 aa(lp39
-V0021300738
+V0021300145
 p40
-aVFEB 06, 2014
+aVNOV 16, 2013
 p41
-aVGSW vs. CHI
+aVGSW vs. UTA
 p42
 aVW
 p43
+aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
 aI1
 aI0
 aI0
-aF0.0
+aI1
+aI1
+aI2
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI3
+aI-4
 aa(lp44
-V0021300515
+V0021300154
 p45
-aVJAN 07, 2014
+aVNOV 18, 2013
 p46
-aVGSW @ MIL
+aVGSW @ UTA
 p47
 aVW
 p48
+aI3
+aI0
 aI2
-aI0
-aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI2
-aF0.5
-aI3
 aI0
-aI3
+aI0
+aF0.0
 aI1
 aI0
-aI0
-aI0
-aI0
 aI1
-aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-12
 aa(lp49
-V0021300501
+V0021300173
 p50
-aVJAN 05, 2014
+aVNOV 20, 2013
 p51
-aVGSW @ WAS
+aVGSW vs. MEM
 p52
-aVW
+aVL
 p53
-aI3
+aI1
 aI0
 aI0
 aF0.0
@@ -286,15 +286,15 @@ aI0
 aI0
 aF0.0
 aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI1
-aI1
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI-5
 aa(lp54
 V0021300462
 p55
@@ -325,160 +325,160 @@ aI0
 aI2
 aI-9
 aa(lp59
-V0021300173
+V0021300501
 p60
-aVNOV 20, 2013
+aVJAN 05, 2014
 p61
-aVGSW vs. MEM
+aVGSW @ WAS
 p62
-aVL
+aVW
 p63
+aI3
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
 aI1
 aI0
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI0
 aI1
+aI0
+aI0
+aI-5
 aa(lp64
-V0021300154
+V0021300515
 p65
-aVNOV 18, 2013
+aVJAN 07, 2014
 p66
-aVGSW @ UTA
+aVGSW @ MIL
 p67
 aVW
 p68
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI2
+aF0.5
 aI3
 aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
+aI3
 aI1
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI-12
+aI1
+aI1
 aa(lp69
-V0021300145
+V0021300738
 p70
-aVNOV 16, 2013
+aVFEB 06, 2014
 p71
-aVGSW vs. UTA
+aVGSW vs. CHI
 p72
 aVW
 p73
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI3
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI1
-aI1
-aI2
-aI0
-aI-4
 aa(lp74
-V0021300109
+V0021300754
 p75
-aVNOV 12, 2013
+aVFEB 08, 2014
 p76
-aVGSW vs. DET
+aVGSW @ PHX
 p77
-aVW
+aVL
 p78
-aI5
+aI0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp79
+V0021300769
+p80
+aVFEB 10, 2014
+p81
+aVGSW vs. PHI
+p82
+aVW
+p83
+aI6
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
 aI1
 aI2
 aF0.5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
 aI1
-aI1
-aI0
-aI0
-aI1
-aI0
-aI1
-aI2
-aI2
-aa(lp79
-V0021300091
-p80
-aVNOV 09, 2013
-p81
-aVGSW @ MEM
-p82
-aVL
-p83
-aI5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI1
 aI2
 aI0
-aI4
+aI1
+aI0
+aI1
+aI1
+aI1
+aI-2
 aa(lp84
-V0021300067
+V0021300788
 p85
-aVNOV 06, 2013
+aVFEB 12, 2014
 p86
-aVGSW @ MIN
+aVGSW vs. MIA
 p87
-aVW
+aVL
 p88
-aI1
+aI0
 aI0
 aI0
 aF0.0
@@ -495,48 +495,48 @@ aI0
 aI0
 aI0
 aI0
-aI1
 aI0
-aI-3
+aI0
+aI0
 aa(lp89
-V0021300048
+V0021301007
 p90
-aVNOV 04, 2013
+aVMAR 18, 2014
 p91
-aVGSW @ PHI
+aVGSW vs. ORL
 p92
 aVW
 p93
-aI9
-aI0
-aI1
-aF0.0
+aI3
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aF0.0
+aI2
+aI0
+aI2
 aI1
-aI1
-aI2
 aI0
 aI0
 aI0
-aI2
-aI2
 aI0
-aI-11
+aI0
+aI-3
 aa(lp94
-V0021300040
+V0021301021
 p95
-aVNOV 02, 2013
+aVMAR 20, 2014
 p96
-aVGSW vs. SAC
+aVGSW vs. MIL
 p97
 aVW
 p98
-aI3
+aI0
 aI0
 aI0
 aF0.0
@@ -551,21 +551,21 @@ aI0
 aI0
 aI0
 aI0
-aI1
 aI0
 aI0
 aI0
-aI-8
+aI0
+aI0
 aa(lp99
-V0021300019
+V0021301213
 p100
-aVOCT 31, 2013
+aVAPR 14, 2014
 p101
-aVGSW @ LAC
+aVGSW vs. MIN
 p102
-aVL
+aVW
 p103
-aI1
+aI0
 aI0
 aI0
 aF0.0
@@ -581,39 +581,39 @@ aI0
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
 aI0
+aI0
+aI-2
 aa(lp104
-V0021300017
+V0021301230
 p105
-aVOCT 30, 2013
+aVAPR 16, 2014
 p106
-aVGSW vs. LAL
+aVGSW @ DEN
 p107
 aVW
 p108
-aI10
-aI1
+aI31
 aI2
-aF0.5
+aI2
+aF1.0
 aI0
 aI0
 aF0.0
-aI1
 aI2
+aI4
 aF0.5
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI3
 aI2
-aI3
-aI-3
+aI5
+aI7
+aI0
+aI2
+aI0
+aI0
+aI5
+aI6
+aI-9
 aasS'name'
 p109
 VOgnjen Kuzmic

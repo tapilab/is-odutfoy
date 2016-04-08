@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020801225
-p5
-aVAPR 15, 2009
-p6
-aVNYK vs. NJN
-p7
-aVW
-p8
-aI12
-aI2
-aI6
-aF0.333
-aI1
-aI2
-aF0.5
-aI0
-aI0
-aF0.0
-aI1
-aI2
-aI3
-aI0
-aI1
-aI0
-aI0
-aI1
-aI5
-aI6
-aa(lp9
 V0020801166
-p10
+p5
 aVAPR 08, 2009
-p11
+p6
 aVNYK vs. DET
-p12
+p7
 aVL
-p13
+p8
 aI11
 aI1
 aI4
@@ -63,6 +34,35 @@ aI0
 aI1
 aI4
 aI1
+aa(lp9
+V0020801225
+p10
+aVAPR 15, 2009
+p11
+aVNYK vs. NJN
+p12
+aVW
+p13
+aI12
+aI2
+aI6
+aF0.333
+aI1
+aI2
+aF0.5
+aI0
+aI0
+aF0.0
+aI1
+aI2
+aI3
+aI0
+aI1
+aI0
+aI0
+aI1
+aI5
+aI6
 aasS'name'
 p14
 VJoe Crawford

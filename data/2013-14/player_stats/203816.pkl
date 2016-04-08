@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301162
+V0021301116
 p5
-aVAPR 09, 2014
+aVAPR 02, 2014
 p6
-aVCLE vs. DET
+aVCLE @ ORL
 p7
 aVW
 p8
-aI5
-aI0
-aI4
-aF0.0
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-8
-aa(lp9
-V0021301116
-p10
-aVAPR 02, 2014
-p11
-aVCLE @ ORL
-p12
-aVW
-p13
 aI2
 aI0
 aI0
@@ -63,6 +34,35 @@ aI0
 aI0
 aI1
 aI2
+aa(lp9
+V0021301162
+p10
+aVAPR 09, 2014
+p11
+aVCLE vs. DET
+p12
+aVW
+p13
+aI5
+aI0
+aI4
+aF0.0
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-8
 aasS'name'
 p14
 VScotty Hopson

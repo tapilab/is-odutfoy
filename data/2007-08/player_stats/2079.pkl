@@ -6,47 +6,44 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020700909
+V0020700807
 p5
-aVMAR 06, 2008
+aVFEB 22, 2008
 p6
-aVCLE @ CHI
+aVCLE vs. WAS
 p7
-aVL
+aVW
 p8
-aI2
+aI7
+aI0
 aI1
-aI2
-aF0.5
-aI0
-aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI0
+aI1
+aI1
 aI0
 aI0
+aI1
 aI0
+aI1
 aI0
-aI0
-aI0
-aI2
-aI6
+aI-2
 aa(lp9
-V0020700900
+V0020700826
 p10
-aVMAR 05, 2008
+aVFEB 24, 2008
 p11
-aVCLE @ NYK
+aVCLE vs. MEM
 p12
 aVW
 p13
-aI0
-aI0
-aI0
-aF0.0
+aI1
 aI0
 aI0
 aF0.0
@@ -55,14 +52,17 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
+aI1
 aa(lp14
 V0020700861
 p15
@@ -93,15 +93,15 @@ aI0
 aI0
 aI-6
 aa(lp19
-V0020700826
+V0020700900
 p20
-aVFEB 24, 2008
+aVMAR 05, 2008
 p21
-aVCLE vs. MEM
+aVCLE @ NYK
 p22
 aVW
 p23
-aI1
+aI0
 aI0
 aI0
 aF0.0
@@ -114,42 +114,42 @@ aF0.0
 aI0
 aI0
 aI0
-aI1
 aI0
 aI0
 aI0
 aI0
 aI0
-aI1
+aI0
+aI0
 aa(lp24
-V0020700807
+V0020700909
 p25
-aVFEB 22, 2008
+aVMAR 06, 2008
 p26
-aVCLE vs. WAS
+aVCLE @ CHI
 p27
-aVW
+aVL
 p28
-aI7
-aI0
+aI2
 aI1
+aI2
+aF0.5
+aI0
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
-aI0
-aI1
-aI1
 aI0
 aI0
-aI1
 aI0
-aI1
 aI0
-aI-2
+aI0
+aI0
+aI2
+aI6
 aasS'name'
 p29
 VKaniel Dickens

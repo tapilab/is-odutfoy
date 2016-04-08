@@ -6,24 +6,27 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300494
+V0021300319
 p5
-aVJAN 04, 2014
+aVDEC 11, 2013
 p6
-aVLAC @ SAS
+aVLAC @ BOS
 p7
-aVL
+aVW
 p8
-aI5
+aI12
 aI0
+aI3
+aF0.0
 aI0
+aI3
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
+aI0
 aI0
 aI0
 aI0
@@ -31,96 +34,93 @@ aI0
 aI0
 aI0
 aI1
-aI1
-aI0
-aI-15
 aa(lp9
-V0021300459
+V0021300327
 p10
-aVDEC 30, 2013
+aVDEC 12, 2013
 p11
-aVLAC vs. PHX
+aVLAC @ BKN
 p12
 aVL
 p13
-aI14
-aI2
-aI8
-aF0.25
+aI23
 aI1
-aI4
-aF0.25
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aI2
-aI1
-aI1
-aI0
-aI1
-aI2
 aI5
-aI9
+aF0.2
+aI0
+aI3
+aF0.0
+aI1
+aI2
+aF0.5
+aI1
+aI2
+aI3
+aI1
+aI2
+aI0
+aI0
+aI2
+aI3
+aI-3
 aa(lp14
-V0021300447
+V0021300343
 p15
-aVDEC 28, 2013
+aVDEC 14, 2013
 p16
-aVLAC vs. UTA
+aVLAC @ WAS
 p17
 aVW
 p18
-aI14
+aI8
 aI0
-aI1
-aF0.0
 aI0
-aI1
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
 aI1
 aI2
+aF0.5
+aI0
+aI3
+aI3
+aI1
 aI1
 aI0
-aI0
-aI0
+aI2
 aI1
-aI0
-aI5
+aI1
+aI1
 aa(lp19
-V0021300403
+V0021300363
 p20
-aVDEC 21, 2013
+aVDEC 16, 2013
 p21
-aVLAC vs. DEN
+aVLAC vs. SAS
 p22
 aVW
 p23
+aI17
 aI3
+aI5
+aF0.6
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
 aI0
 aI0
 aI0
-aI1
-aI1
 aI0
 aI1
-aI1
-aI0
-aI0
+aI2
+aI6
+aI21
 aa(lp24
 V0021300380
 p25
@@ -151,20 +151,20 @@ aI1
 aI0
 aI6
 aa(lp29
-V0021300363
+V0021300403
 p30
-aVDEC 16, 2013
+aVDEC 21, 2013
 p31
-aVLAC vs. SAS
+aVLAC vs. DEN
 p32
 aVW
 p33
-aI17
 aI3
-aI5
-aF0.6
 aI0
-aI1
+aI0
+aF0.0
+aI0
+aI0
 aF0.0
 aI0
 aI0
@@ -172,93 +172,90 @@ aF0.0
 aI0
 aI0
 aI0
-aI0
-aI0
+aI1
+aI1
 aI0
 aI1
-aI2
-aI6
-aI21
+aI1
+aI0
+aI0
 aa(lp34
-V0021300343
+V0021300447
 p35
-aVDEC 14, 2013
+aVDEC 28, 2013
 p36
-aVLAC @ WAS
+aVLAC vs. UTA
 p37
 aVW
 p38
-aI8
+aI14
 aI0
+aI1
+aF0.0
 aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI1
-aI2
-aF0.5
-aI0
-aI3
-aI3
 aI1
-aI1
-aI0
 aI2
 aI1
+aI0
+aI0
+aI0
 aI1
-aI1
+aI0
+aI5
 aa(lp39
-V0021300327
+V0021300459
 p40
-aVDEC 12, 2013
+aVDEC 30, 2013
 p41
-aVLAC @ BKN
+aVLAC vs. PHX
 p42
 aVL
 p43
-aI23
+aI14
+aI2
+aI8
+aF0.25
 aI1
+aI4
+aF0.25
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aI2
+aI1
+aI1
+aI0
+aI1
+aI2
 aI5
-aF0.2
-aI0
-aI3
-aF0.0
-aI1
-aI2
-aF0.5
-aI1
-aI2
-aI3
-aI1
-aI2
-aI0
-aI0
-aI2
-aI3
-aI-3
+aI9
 aa(lp44
-V0021300319
+V0021300494
 p45
-aVDEC 11, 2013
+aVJAN 04, 2014
 p46
-aVLAC @ BOS
+aVLAC @ SAS
 p47
-aVW
+aVL
 p48
-aI12
+aI5
 aI0
-aI3
-aF0.0
 aI0
-aI3
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aI0
+aF0.0
 aI0
 aI0
 aI0
@@ -266,6 +263,9 @@ aI0
 aI0
 aI0
 aI1
+aI1
+aI0
+aI-15
 aasS'name'
 p49
 VStephen Jackson

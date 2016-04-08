@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000153
+V0021000022
 p5
-aVNOV 16, 2010
+aVOCT 29, 2010
 p6
-aVTOR @ WAS
+aVTOR vs. CLE
 p7
-aVL
+aVW
 p8
-aI16
+aI3
 aI0
-aI2
+aI0
+aF0.0
+aI0
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI4
-aF0.5
+aI0
+aI1
+aI1
+aI1
+aI1
 aI0
 aI0
 aI0
-aI2
 aI0
 aI0
-aI2
-aI2
-aI2
-aI-1
 aa(lp9
 V0021000087
 p10
@@ -64,34 +64,34 @@ aI2
 aI4
 aI10
 aa(lp14
-V0021000022
+V0021000153
 p15
-aVOCT 29, 2010
+aVNOV 16, 2010
 p16
-aVTOR vs. CLE
+aVTOR @ WAS
 p17
-aVW
+aVL
 p18
-aI3
+aI16
 aI0
-aI0
+aI2
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI1
-aI1
+aI2
+aI4
+aF0.5
 aI0
 aI0
 aI0
+aI2
 aI0
 aI0
+aI2
+aI2
+aI2
+aI-1
 aasS'name'
 p19
 VMarcus Banks

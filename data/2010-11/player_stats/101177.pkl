@@ -6,17 +6,17 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000052
+V0021000002
 p5
-aVNOV 02, 2010
+aVOCT 26, 2010
 p6
-aVPOR @ MIL
+aVPOR vs. PHX
 p7
 aVW
 p8
-aI4
+aI3
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -30,39 +30,39 @@ aI1
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
+aI1
 aI2
+aI0
+aI0
 aa(lp9
-V0021000044
+V0021000016
 p10
-aVNOV 01, 2010
+aVOCT 27, 2010
 p11
-aVPOR @ CHI
+aVPOR @ LAC
 p12
-aVL
+aVW
 p13
-aI10
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
+aI11
+aI1
+aI1
+aF1.0
 aI0
 aI0
 aF0.0
 aI1
-aI0
+aI2
+aF0.5
 aI1
+aI2
+aI3
 aI0
 aI0
 aI0
 aI1
 aI3
-aI0
-aI-5
+aI3
+aI-10
 aa(lp14
 V0021000033
 p15
@@ -93,47 +93,44 @@ aI2
 aI4
 aI-7
 aa(lp19
-V0021000016
+V0021000044
 p20
-aVOCT 27, 2010
+aVNOV 01, 2010
 p21
-aVPOR @ LAC
+aVPOR @ CHI
 p22
-aVW
+aVL
 p23
-aI11
-aI1
-aI1
-aF1.0
+aI10
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aF0.0
 aI1
-aI2
-aF0.5
+aI0
 aI1
-aI2
-aI3
 aI0
 aI0
 aI0
 aI1
 aI3
-aI3
-aI-10
+aI0
+aI-5
 aa(lp24
-V0021000002
+V0021000052
 p25
-aVOCT 26, 2010
+aVNOV 02, 2010
 p26
-aVPOR vs. PHX
+aVPOR @ MIL
 p27
 aVW
 p28
-aI3
-aI0
-aI1
-aF0.0
+aI4
 aI0
 aI0
 aF0.0
@@ -141,15 +138,18 @@ aI0
 aI0
 aF0.0
 aI0
+aI0
+aF0.0
+aI0
 aI1
 aI1
 aI0
 aI0
 aI0
-aI1
+aI0
+aI0
+aI0
 aI2
-aI0
-aI0
 aasS'name'
 p29
 VFabricio Oberto

@@ -6,63 +6,63 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021200887
+V0021200827
 p5
-aVMAR 03, 2013
+aVFEB 23, 2013
 p6
-aVIND vs. CHI
+aVIND @ DET
 p7
 aVW
 p8
-aI8
+aI19
+aI1
+aI10
+aF0.1
 aI0
-aI3
+aI4
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
+aI2
 aI1
 aI0
-aI-1
+aI1
+aI1
+aI2
+aI2
+aI0
 aa(lp9
-V0021200864
+V0021200844
 p10
-aVMAR 01, 2013
+aVFEB 26, 2013
 p11
-aVIND @ TOR
+aVIND vs. GSW
 p12
 aVW
 p13
-aI10
+aI19
+aI1
+aI7
+aF0.143
+aI0
+aI1
+aF0.0
 aI3
+aI4
+aF0.75
+aI0
+aI2
+aI2
+aI1
+aI1
+aI0
+aI0
+aI0
 aI5
-aF0.6
-aI1
-aI3
-aF0.333
-aI1
-aI2
-aF0.5
-aI2
-aI1
-aI3
 aI0
-aI1
-aI0
-aI1
-aI2
-aI8
-aI10
 aa(lp14
 V0021200861
 p15
@@ -93,63 +93,63 @@ aI1
 aI12
 aI-25
 aa(lp19
-V0021200844
+V0021200864
 p20
-aVFEB 26, 2013
+aVMAR 01, 2013
 p21
-aVIND vs. GSW
+aVIND @ TOR
 p22
 aVW
 p23
-aI19
-aI1
-aI7
-aF0.143
-aI0
-aI1
-aF0.0
+aI10
 aI3
-aI4
-aF0.75
-aI0
-aI2
-aI2
-aI1
-aI1
-aI0
-aI0
-aI0
 aI5
+aF0.6
+aI1
+aI3
+aF0.333
+aI1
+aI2
+aF0.5
+aI2
+aI1
+aI3
 aI0
+aI1
+aI0
+aI1
+aI2
+aI8
+aI10
 aa(lp24
-V0021200827
+V0021200887
 p25
-aVFEB 23, 2013
+aVMAR 03, 2013
 p26
-aVIND @ DET
+aVIND vs. CHI
 p27
 aVW
 p28
-aI19
-aI1
-aI10
-aF0.1
+aI8
 aI0
-aI4
+aI3
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI2
-aI2
-aI1
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI1
-aI1
-aI2
-aI2
 aI0
+aI-1
 aasS'name'
 p29
 VDanny Granger

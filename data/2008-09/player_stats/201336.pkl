@@ -6,18 +6,18 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020800179
+V0020800148
 p5
-aVNOV 21, 2008
+aVNOV 17, 2008
 p6
-aVSAS vs. UTA
+aVSAS @ LAC
 p7
 aVW
 p8
-aI8
+aI4
 aI1
-aI3
-aF0.333
+aI2
+aF0.5
 aI1
 aI2
 aF0.5
@@ -30,10 +30,10 @@ aI0
 aI0
 aI0
 aI0
-aI0
-aI2
-aI3
 aI1
+aI0
+aI3
+aI-2
 aa(lp9
 V0020800166
 p10
@@ -64,18 +64,18 @@ aI1
 aI2
 aI9
 aa(lp14
-V0020800148
+V0020800179
 p15
-aVNOV 17, 2008
+aVNOV 21, 2008
 p16
-aVSAS @ LAC
+aVSAS vs. UTA
 p17
 aVW
 p18
-aI4
+aI8
 aI1
-aI2
-aF0.5
+aI3
+aF0.333
 aI1
 aI2
 aF0.5
@@ -88,10 +88,10 @@ aI0
 aI0
 aI0
 aI0
-aI1
 aI0
+aI2
 aI3
-aI-2
+aI1
 aasS'name'
 p19
 VBlake Ahearn

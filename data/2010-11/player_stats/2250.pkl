@@ -6,14 +6,43 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000046
+V0021000013
 p5
-aVNOV 01, 2010
+aVOCT 27, 2010
 p6
-aVSAS @ LAC
+aVSAS vs. IND
 p7
 aVW
 p8
+aI6
+aI0
+aI2
+aF0.0
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
+aI1
+aI0
+aI6
+aa(lp9
+V0021000046
+p10
+aVNOV 01, 2010
+p11
+aVSAS @ LAC
+p12
+aVW
+p13
 aI9
 aI0
 aI1
@@ -34,35 +63,6 @@ aI0
 aI1
 aI0
 aI0
-aa(lp9
-V0021000013
-p10
-aVOCT 27, 2010
-p11
-aVSAS vs. IND
-p12
-aVW
-p13
-aI6
-aI0
-aI2
-aF0.0
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI0
-aI1
-aI0
-aI6
 aasS'name'
 p14
 VBobby Simmons

@@ -6,92 +6,92 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020700119
+V0020700004
 p5
-aVNOV 16, 2007
+aVOCT 31, 2007
 p6
-aVTOR vs. IND
+aVTOR vs. PHI
 p7
 aVW
 p8
-aI24
-aI3
 aI7
-aF0.429
+aI0
 aI2
-aI5
-aF0.4
+aF0.0
+aI0
+aI1
+aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI6
-aI6
-aI2
+aI0
+aI0
 aI1
 aI0
 aI0
+aI1
 aI0
-aI8
-aI10
+aI0
+aI-4
 aa(lp9
-V0020700082
+V0020700018
 p10
-aVNOV 10, 2007
+aVNOV 02, 2007
 p11
-aVTOR @ CHI
+aVTOR @ NJN
 p12
 aVW
 p13
-aI10
-aI2
-aI4
-aF0.5
+aI7
 aI1
-aI3
-aF0.333
+aI4
+aF0.25
+aI1
+aI2
+aF0.5
 aI0
 aI0
 aF0.0
-aI0
 aI1
-aI1
-aI0
-aI1
+aI2
+aI3
 aI0
 aI0
-aI1
-aI5
-aI-3
+aI0
+aI0
+aI0
+aI3
+aI-2
 aa(lp14
-V0020700054
+V0020700035
 p15
-aVNOV 07, 2007
+aVNOV 04, 2007
 p16
-aVTOR vs. ORL
+aVTOR vs. BOS
 p17
 aVL
 p18
-aI5
-aI0
+aI9
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
+aI3
+aF0.333
 aI1
 aI2
+aF0.5
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
-aI1
 aI0
-aI-6
+aI0
+aI0
+aI0
+aI3
+aI4
 aa(lp19
 V0020700047
 p20
@@ -122,92 +122,92 @@ aI0
 aI3
 aI-10
 aa(lp24
-V0020700035
+V0020700054
 p25
-aVNOV 04, 2007
+aVNOV 07, 2007
 p26
-aVTOR vs. BOS
+aVTOR vs. ORL
 p27
 aVL
 p28
-aI9
+aI5
+aI0
 aI1
-aI3
-aF0.333
-aI1
-aI2
-aF0.5
+aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI1
+aI1
+aI2
 aI0
 aI0
 aI0
 aI0
+aI1
 aI0
-aI0
-aI3
-aI4
+aI-6
 aa(lp29
-V0020700018
+V0020700082
 p30
-aVNOV 02, 2007
+aVNOV 10, 2007
 p31
-aVTOR @ NJN
+aVTOR @ CHI
 p32
 aVW
 p33
-aI7
-aI1
-aI4
-aF0.25
-aI1
+aI10
 aI2
+aI4
 aF0.5
+aI1
+aI3
+aF0.333
 aI0
 aI0
 aF0.0
+aI0
 aI1
-aI2
-aI3
+aI1
+aI0
+aI1
 aI0
 aI0
-aI0
-aI0
-aI0
-aI3
-aI-2
+aI1
+aI5
+aI-3
 aa(lp34
-V0020700004
+V0020700119
 p35
-aVOCT 31, 2007
+aVNOV 16, 2007
 p36
-aVTOR vs. PHI
+aVTOR vs. IND
 p37
 aVW
 p38
+aI24
+aI3
 aI7
-aI0
+aF0.429
 aI2
-aF0.0
-aI0
-aI1
-aF0.0
+aI5
+aF0.4
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aI0
+aI6
+aI6
+aI2
 aI1
 aI0
 aI0
-aI1
 aI0
-aI0
-aI-4
+aI8
+aI10
 aasS'name'
 p39
 VJorge Garbajosa

@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021001221
+V0021001126
 p5
-aVAPR 13, 2011
+aVAPR 01, 2011
 p6
-aVMIA @ TOR
+aVMIA @ MIN
 p7
 aVW
 p8
-aI9
-aI1
-aI2
-aF0.5
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI1
-aI2
-aI9
-aa(lp9
-V0021001126
-p10
-aVAPR 01, 2011
-p11
-aVMIA @ MIN
-p12
-aVW
-p13
 aI2
 aI0
 aI1
@@ -63,6 +34,35 @@ aI2
 aI1
 aI0
 aI-1
+aa(lp9
+V0021001221
+p10
+aVAPR 13, 2011
+p11
+aVMIA @ TOR
+p12
+aVW
+p13
+aI9
+aI1
+aI2
+aF0.5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI1
+aI2
+aI9
 aasS'name'
 p14
 VDexter Pittman

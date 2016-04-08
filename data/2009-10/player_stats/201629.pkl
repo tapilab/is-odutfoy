@@ -6,92 +6,92 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020900430
+V0020900322
 p5
-aVDEC 26, 2009
+aVDEC 11, 2009
 p6
-aVATL @ IND
+aVATL @ TOR
 p7
 aVW
 p8
-aI3
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI2
 aI0
 aI1
+aF0.0
 aI0
-aI-3
-aa(lp9
-V0020900421
-p10
-aVDEC 23, 2009
-p11
-aVATL @ DEN
-p12
-aVL
-p13
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI2
 aI2
 aI0
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
 aI0
 aI0
 aI0
 aI0
 aI1
+aa(lp9
+V0020900340
+p10
+aVDEC 13, 2009
+p11
+aVATL vs. NJN
+p12
+aVW
+p13
+aI9
 aI1
+aI5
+aF0.2
 aI0
 aI0
-aI-2
+aF0.0
+aI0
+aI0
+aF0.0
+aI2
+aI2
+aI4
+aI0
+aI0
+aI0
+aI0
+aI1
+aI2
+aI0
 aa(lp14
-V0020900410
+V0020900358
 p15
-aVDEC 22, 2009
+aVDEC 16, 2009
 p16
-aVATL @ MIN
+aVATL vs. MEM
 p17
 aVW
 p18
-aI3
+aI8
+aI2
+aI4
+aF0.5
 aI0
 aI0
 aF0.0
+aI2
+aI2
+aF1.0
+aI4
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
+aI4
 aI0
 aI0
 aI0
 aI1
-aI0
-aI0
-aI7
+aI1
+aI6
+aI-8
 aa(lp19
 V0020900374
 p20
@@ -122,76 +122,73 @@ aI2
 aI3
 aI-10
 aa(lp24
-V0020900358
+V0020900410
 p25
-aVDEC 16, 2009
+aVDEC 22, 2009
 p26
-aVATL vs. MEM
+aVATL @ MIN
 p27
 aVW
 p28
-aI8
-aI2
-aI4
-aF0.5
+aI3
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aF1.0
-aI4
 aI0
-aI4
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
 aI0
 aI0
 aI0
 aI1
-aI1
-aI6
-aI-8
+aI0
+aI0
+aI7
 aa(lp29
-V0020900340
+V0020900421
 p30
-aVDEC 13, 2009
+aVDEC 23, 2009
 p31
-aVATL vs. NJN
+aVATL @ DEN
 p32
-aVW
+aVL
 p33
-aI9
-aI1
-aI5
-aF0.2
+aI2
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI2
-aI4
+aI0
+aI0
+aF0.0
+aI0
 aI0
 aI0
 aI0
 aI0
 aI1
-aI2
+aI1
 aI0
+aI0
+aI-2
 aa(lp34
-V0020900322
+V0020900430
 p35
-aVDEC 11, 2009
+aVDEC 26, 2009
 p36
-aVATL @ TOR
+aVATL @ IND
 p37
 aVW
 p38
-aI2
-aI0
-aI1
-aF0.0
+aI3
 aI0
 aI0
 aF0.0
@@ -199,8 +196,9 @@ aI0
 aI0
 aF0.0
 aI0
-aI2
-aI2
+aI0
+aF0.0
+aI0
 aI0
 aI0
 aI0
@@ -208,6 +206,8 @@ aI0
 aI0
 aI0
 aI1
+aI0
+aI-3
 aasS'name'
 p39
 VOthello Hunter

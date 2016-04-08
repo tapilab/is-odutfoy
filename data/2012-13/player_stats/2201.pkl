@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021200009
-p5
-aVOCT 31, 2012
-p6
-aVDAL @ UTA
-p7
-aVL
-p8
-aI8
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI2
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI2
-aI3
-aI2
-aI0
-aa(lp9
 V0021200003
-p10
+p5
 aVOCT 30, 2012
-p11
+p6
 aVDAL @ LAL
-p12
+p7
 aVW
-p13
+p8
 aI17
 aI3
 aI7
@@ -63,6 +34,35 @@ aI1
 aI4
 aI7
 aI6
+aa(lp9
+V0021200009
+p10
+aVOCT 31, 2012
+p11
+aVDAL @ UTA
+p12
+aVL
+p13
+aI8
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI2
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI2
+aI3
+aI2
+aI0
 aasS'name'
 p14
 VEddy Curry

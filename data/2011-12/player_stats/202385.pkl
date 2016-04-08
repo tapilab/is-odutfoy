@@ -6,55 +6,53 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100599
+V0021100425
 p5
-aVMAR 10, 2012
+aVFEB 14, 2012
 p6
-aVOKC vs. CHA
+aVOKC vs. UTA
 p7
 aVW
 p8
-aI5
+aI4
+aI2
+aI2
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
 aI0
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI1
 aI0
 aI4
+aI3
 aa(lp9
-V0021100502
+V0021100453
 p10
-aVFEB 23, 2012
+aVFEB 17, 2012
 p11
-aVOKC vs. LAL
+aVOKC vs. GSW
 p12
 aVW
 p13
-aI1
+aI7
+aI2
+aI2
+aF1.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
 aI0
 aI0
 aI0
@@ -63,6 +61,8 @@ aI0
 aI0
 aI0
 aI1
+aI4
+aI-5
 aa(lp14
 V0021100490
 p15
@@ -93,24 +93,26 @@ aI0
 aI0
 aI0
 aa(lp19
-V0021100453
+V0021100502
 p20
-aVFEB 17, 2012
+aVFEB 23, 2012
 p21
-aVOKC vs. GSW
+aVOKC vs. LAL
 p22
 aVW
 p23
-aI7
-aI2
-aI2
-aF1.0
+aI1
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
 aI0
 aI0
 aI0
@@ -119,37 +121,35 @@ aI0
 aI0
 aI0
 aI1
-aI4
-aI-5
 aa(lp24
-V0021100425
+V0021100599
 p25
-aVFEB 14, 2012
+aVMAR 10, 2012
 p26
-aVOKC vs. UTA
+aVOKC vs. CHA
 p27
 aVW
 p28
-aI4
-aI2
-aI2
-aF1.0
+aI5
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aF0.0
 aI0
 aI0
-aF0.0
-aI1
-aI0
-aI1
 aI0
 aI0
 aI0
-aI1
+aI0
+aI0
+aI0
 aI0
 aI4
-aI3
 aasS'name'
 p29
 VRyan Reid

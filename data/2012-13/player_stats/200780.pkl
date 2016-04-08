@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201196
+V0021201182
 p5
-aVAPR 14, 2013
+aVAPR 12, 2013
 p6
-aVNYK vs. IND
+aVNYK @ CLE
 p7
 aVW
 p8
-aI14
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI1
-aI2
-aI0
-aI0
-aI1
-aI1
-aI2
-aI0
-aI2
-aa(lp9
-V0021201182
-p10
-aVAPR 12, 2013
-p11
-aVNYK @ CLE
-p12
-aVW
-p13
 aI12
 aI0
 aI0
@@ -63,6 +34,35 @@ aI2
 aI1
 aI0
 aI-1
+aa(lp9
+V0021201196
+p10
+aVAPR 14, 2013
+p11
+aVNYK vs. IND
+p12
+aVW
+p13
+aI14
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI1
+aI2
+aI0
+aI0
+aI1
+aI1
+aI2
+aI0
+aI2
 aasS'name'
 p14
 VSolomon Jones

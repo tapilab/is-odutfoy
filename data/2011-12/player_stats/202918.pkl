@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021100978
-p5
-aVAPR 26, 2012
-p6
-aVPHI @ DET
-p7
-aVL
-p8
-aI20
-aI2
-aI10
-aF0.2
-aI0
-aI4
-aF0.0
-aI2
-aI2
-aF1.0
-aI2
-aI1
-aI3
-aI2
-aI0
-aI0
-aI1
-aI3
-aI6
-aI-4
-aa(lp9
 V0021100975
-p10
+p5
 aVAPR 25, 2012
-p11
+p6
 aVPHI @ MIL
-p12
+p7
 aVW
-p13
+p8
 aI19
 aI2
 aI5
@@ -63,6 +34,35 @@ aI2
 aI2
 aI5
 aI-10
+aa(lp9
+V0021100978
+p10
+aVAPR 26, 2012
+p11
+aVPHI @ DET
+p12
+aVL
+p13
+aI20
+aI2
+aI10
+aF0.2
+aI0
+aI4
+aF0.0
+aI2
+aI2
+aF1.0
+aI2
+aI1
+aI3
+aI2
+aI0
+aI0
+aI1
+aI3
+aI6
+aI-4
 aasS'name'
 p14
 VXavier Silas

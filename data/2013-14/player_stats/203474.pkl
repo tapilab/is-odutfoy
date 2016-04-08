@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301137
+V0021301091
 p5
-aVAPR 04, 2014
+aVMAR 29, 2014
 p6
-aVMIL @ CHI
+aVMIL vs. MIA
 p7
 aVL
 p8
-aI0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
+aI12
+aI2
+aI5
+aF0.4
 aI0
 aI0
 aF0.0
+aI1
+aI1
+aF1.0
+aI1
+aI3
+aI4
 aI0
 aI0
 aI0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI5
+aI-3
 aa(lp9
 V0021301121
 p10
@@ -64,34 +64,34 @@ aI0
 aI2
 aI4
 aa(lp14
-V0021301091
+V0021301137
 p15
-aVMAR 29, 2014
+aVAPR 04, 2014
 p16
-aVMIL vs. MIA
+aVMIL @ CHI
 p17
 aVL
 p18
-aI12
-aI2
-aI5
-aF0.4
+aI0
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aF1.0
-aI1
-aI3
-aI4
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI5
-aI-3
+aI0
+aI0
+aI0
+aI0
+aI0
 aasS'name'
 p19
 VDJ Stephens

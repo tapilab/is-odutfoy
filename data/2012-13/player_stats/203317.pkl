@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201136
+V0021200885
 p5
-aVAPR 05, 2013
+aVMAR 03, 2013
 p6
-aVHOU @ POR
+aVHOU vs. DAL
 p7
 aVW
 p8
+aI6
+aI1
+aI2
+aF0.5
+aI0
+aI0
+aF0.0
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aI0
+aI1
+aI1
+aI0
+aI1
+aI1
 aI3
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI0
-aI-2
+aI-4
 aa(lp9
 V0021201088
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI-1
 aa(lp14
-V0021200885
+V0021201136
 p15
-aVMAR 03, 2013
+aVAPR 05, 2013
 p16
-aVHOU vs. DAL
+aVHOU @ POR
 p17
 aVW
 p18
-aI6
+aI3
+aI0
 aI1
-aI2
-aF0.5
+aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
-aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
 aI0
 aI0
 aI0
 aI1
-aI1
 aI0
-aI1
-aI1
-aI3
-aI-4
+aI0
+aI-2
 aasS'name'
 p19
 VTim Ohlbrecht

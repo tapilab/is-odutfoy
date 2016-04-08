@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301033
-p5
-aVMAR 22, 2014
-p6
-aVCLE vs. HOU
-p7
-aVL
-p8
-aI9
-aI1
-aI3
-aF0.333
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI2
-aI0
-aI0
-aI0
-aI3
-aI-5
-aa(lp9
 V0021300498
-p10
+p5
 aVJAN 05, 2014
-p11
+p6
 aVMEM @ DET
-p12
+p7
 aVW
-p13
+p8
 aI4
 aI0
 aI0
@@ -63,6 +34,35 @@ aI0
 aI0
 aI0
 aI6
+aa(lp9
+V0021301033
+p10
+aVMAR 22, 2014
+p11
+aVCLE vs. HOU
+p12
+aVL
+p13
+aI9
+aI1
+aI3
+aF0.333
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI2
+aI0
+aI0
+aI0
+aI3
+aI-5
 aasS'name'
 p14
 VSeth Curry

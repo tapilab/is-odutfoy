@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020901230
+V0020901216
 p5
-aVAPR 14, 2010
+aVAPR 13, 2010
 p6
-aVPHX @ UTA
+aVPHX vs. DEN
 p7
 aVW
 p8
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI-1
-aa(lp9
-V0020901216
-p10
-aVAPR 13, 2010
-p11
-aVPHX vs. DEN
-p12
-aVW
-p13
 aI6
 aI0
 aI0
@@ -63,6 +34,35 @@ aI0
 aI0
 aI0
 aI-2
+aa(lp9
+V0020901230
+p10
+aVAPR 14, 2010
+p11
+aVPHX @ UTA
+p12
+aVW
+p13
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI-1
 aasS'name'
 p14
 VDwayne Jones

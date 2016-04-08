@@ -6,14 +6,43 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021200930
+V0021200891
 p5
-aVMAR 09, 2013
+aVMAR 04, 2013
 p6
-aVNOH @ MEM
+aVNOH vs. ORL
 p7
 aVL
 p8
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI3
+aa(lp9
+V0021200930
+p10
+aVMAR 09, 2013
+p11
+aVNOH @ MEM
+p12
+aVL
+p13
 aI4
 aI2
 aI3
@@ -34,35 +63,6 @@ aI1
 aI1
 aI4
 aI-2
-aa(lp9
-V0021200891
-p10
-aVMAR 04, 2013
-p11
-aVNOH vs. ORL
-p12
-aVL
-p13
-aI1
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI3
 aasS'name'
 p14
 VHenry Sims

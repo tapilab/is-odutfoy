@@ -6,46 +6,46 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020701209
+V0020700589
 p5
-aVAPR 14, 2008
+aVJAN 19, 2008
 p6
-aVGSW @ PHX
+aVGSW @ MIL
 p7
-aVL
+aVW
 p8
-aI13
-aI1
-aI5
-aF0.2
+aI7
+aI2
+aI2
+aF1.0
+aI0
+aI0
+aF0.0
 aI0
 aI0
 aF0.0
 aI2
-aI4
-aF0.5
-aI3
 aI2
-aI5
+aI4
 aI0
 aI0
 aI1
 aI0
+aI0
 aI4
-aI4
-aI10
+aI2
 aa(lp9
-V0020701130
+V0020701015
 p10
-aVAPR 04, 2008
+aVMAR 19, 2008
 p11
-aVGSW @ MEM
+aVGSW @ LAC
 p12
 aVW
 p13
 aI3
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
@@ -54,37 +54,37 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
-aI1
+aI0
+aI0
+aI0
+aI0
 aI0
 aI0
 aI1
 aI0
-aI0
-aI2
+aI-7
 aa(lp14
-V0020701120
+V0020701072
 p15
-aVAPR 02, 2008
+aVMAR 27, 2008
 p16
-aVGSW @ DAL
+aVGSW vs. POR
 p17
-aVL
+aVW
 p18
-aI4
+aI1
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
 aI0
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
+aI1
 aI0
 aI0
 aI0
@@ -122,17 +122,17 @@ aI1
 aI2
 aI1
 aa(lp24
-V0020701072
+V0020701120
 p25
-aVMAR 27, 2008
+aVAPR 02, 2008
 p26
-aVGSW vs. POR
+aVGSW @ DAL
 p27
-aVW
+aVL
 p28
+aI4
+aI0
 aI1
-aI0
-aI0
 aF0.0
 aI0
 aI0
@@ -141,8 +141,8 @@ aI0
 aI0
 aF0.0
 aI0
-aI1
-aI1
+aI0
+aI0
 aI0
 aI0
 aI0
@@ -151,19 +151,16 @@ aI0
 aI0
 aI-2
 aa(lp29
-V0020701015
+V0020701130
 p30
-aVMAR 19, 2008
+aVAPR 04, 2008
 p31
-aVGSW @ LAC
+aVGSW @ MEM
 p32
 aVW
 p33
 aI3
 aI0
-aI1
-aF0.0
-aI0
 aI0
 aF0.0
 aI0
@@ -171,43 +168,46 @@ aI0
 aF0.0
 aI0
 aI0
-aI0
-aI0
-aI0
-aI0
+aF0.0
 aI0
 aI1
+aI1
+aI1
 aI0
-aI-7
+aI0
+aI1
+aI0
+aI0
+aI2
 aa(lp34
-V0020700589
+V0020701209
 p35
-aVJAN 19, 2008
+aVAPR 14, 2008
 p36
-aVGSW @ MIL
+aVGSW @ PHX
 p37
-aVW
+aVL
 p38
-aI7
-aI2
-aI2
-aF1.0
+aI13
+aI1
+aI5
+aF0.2
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI2
 aI2
 aI4
+aF0.5
+aI3
+aI2
+aI5
 aI0
 aI0
 aI1
 aI0
-aI0
 aI4
-aI2
+aI4
+aI10
 aasS'name'
 p39
 VKosta Perovic

@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0020700317
+V0020700006
 p5
-aVDEC 12, 2007
+aVOCT 31, 2007
 p6
-aVIND vs. CHI
+aVIND vs. WAS
 p7
 aVW
 p8
+aI8
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
 aI2
 aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
-aI1
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-4
+aI5
 aa(lp9
 V0020700152
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI-2
 aa(lp14
-V0020700006
+V0020700317
 p15
-aVOCT 31, 2007
+aVDEC 12, 2007
 p16
-aVIND vs. WAS
+aVIND vs. CHI
 p17
 aVW
 p18
-aI8
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI1
-aI1
-aI0
-aI0
-aI0
-aI0
 aI2
 aI0
-aI5
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-4
 aasS'name'
 p19
 VCourtney Sims

@@ -6,49 +6,49 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021201227
+V0021200348
 p5
-aVAPR 17, 2013
+aVDEC 16, 2012
 p6
-aVDEN vs. PHX
+aVDEN @ SAC
 p7
 aVW
 p8
-aI4
+aI5
+aI0
+aI1
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
 aI2
-aI3
-aF0.667
+aF0.5
 aI0
 aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
 aI0
 aI1
 aI0
 aI0
 aI0
 aI0
-aI0
-aI4
+aI1
 aI-1
 aa(lp9
-V0021201144
+V0021200396
 p10
-aVAPR 06, 2013
+aVDEC 22, 2012
 p11
-aVDEN vs. HOU
+aVDEN vs. CHA
 p12
 aVW
 p13
+aI6
+aI0
 aI3
+aF0.0
+aI0
 aI1
-aI3
-aF0.333
-aI0
-aI0
 aF0.0
 aI0
 aI0
@@ -60,19 +60,19 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI0
-aI2
-aI-7
+aI-1
 aa(lp14
-V0021201118
+V0021200409
 p15
-aVAPR 03, 2013
+aVDEC 25, 2012
 p16
-aVDEN @ UTA
+aVDEN @ LAC
 p17
-aVW
+aVL
 p18
-aI1
+aI4
 aI0
 aI0
 aF0.0
@@ -82,16 +82,16 @@ aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
 aI0
 aI1
+aI1
+aI2
 aI0
 aI0
-aI-4
+aI0
+aI0
+aI0
+aI6
 aa(lp19
 V0021201083
 p20
@@ -122,15 +122,15 @@ aI2
 aI2
 aI3
 aa(lp24
-V0021200409
+V0021201118
 p25
-aVDEC 25, 2012
+aVAPR 03, 2013
 p26
-aVDEN @ LAC
+aVDEN @ UTA
 p27
-aVL
+aVW
 p28
-aI4
+aI1
 aI0
 aI0
 aF0.0
@@ -140,73 +140,73 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI1
-aI1
-aI2
 aI0
 aI0
-aI0
-aI0
-aI0
-aI6
+aI-4
 aa(lp29
-V0021200396
+V0021201144
 p30
-aVDEC 22, 2012
+aVAPR 06, 2013
 p31
-aVDEN vs. CHA
+aVDEN vs. HOU
 p32
 aVW
 p33
-aI6
-aI0
 aI3
-aF0.0
-aI0
 aI1
-aF0.0
+aI3
+aF0.333
 aI0
 aI0
 aF0.0
 aI0
 aI0
+aF0.0
 aI0
 aI0
 aI0
 aI0
 aI0
-aI1
 aI0
-aI-1
+aI0
+aI0
+aI2
+aI-7
 aa(lp34
-V0021200348
+V0021201227
 p35
-aVDEC 16, 2012
+aVAPR 17, 2013
 p36
-aVDEN @ SAC
+aVDEN vs. PHX
 p37
 aVW
 p38
-aI5
-aI0
-aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
+aI4
 aI2
-aF0.5
+aI3
+aF0.667
 aI0
 aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
 aI0
 aI1
 aI0
 aI0
 aI0
 aI0
-aI1
+aI0
+aI4
 aI-1
 aasS'name'
 p39

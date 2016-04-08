@@ -6,43 +6,14 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021301219
+V0021301210
 p5
-aVAPR 16, 2014
+aVAPR 14, 2014
 p6
-aVNOP vs. HOU
+aVNOP vs. OKC
 p7
 aVW
 p8
-aI17
-aI2
-aI3
-aF0.667
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI4
-aI4
-aI-11
-aa(lp9
-V0021301210
-p10
-aVAPR 14, 2014
-p11
-aVNOP vs. OKC
-p12
-aVW
-p13
 aI10
 aI1
 aI3
@@ -63,6 +34,35 @@ aI0
 aI1
 aI2
 aI-4
+aa(lp9
+V0021301219
+p10
+aVAPR 16, 2014
+p11
+aVNOP vs. HOU
+p12
+aVW
+p13
+aI17
+aI2
+aI3
+aF0.667
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI4
+aI4
+aI-11
 aasS'name'
 p14
 VMelvin Ely

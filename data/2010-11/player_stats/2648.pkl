@@ -6,34 +6,34 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021000507
+V0021000447
 p5
-aVJAN 04, 2011
+aVDEC 27, 2010
 p6
-aVTOR @ CHI
+aVTOR @ MEM
 p7
 aVL
 p8
-aI11
 aI1
-aI4
-aF0.25
 aI0
-aI1
+aI0
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI3
-aI3
-aI1
+aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI0
 aI0
 aI2
-aI2
-aI-7
 aa(lp9
 V0021000494
 p10
@@ -64,34 +64,34 @@ aI0
 aI0
 aI0
 aa(lp14
-V0021000447
+V0021000507
 p15
-aVDEC 27, 2010
+aVJAN 04, 2011
 p16
-aVTOR @ MEM
+aVTOR @ CHI
 p17
 aVL
 p18
+aI11
 aI1
+aI4
+aF0.25
 aI0
-aI0
+aI1
 aF0.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI0
+aI3
+aI3
+aI1
 aI0
 aI0
 aI0
 aI2
+aI2
+aI-7
 aasS'name'
 p19
 VRonald Dupree

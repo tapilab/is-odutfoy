@@ -6,73 +6,73 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300544
+V0021300025
 p5
-aVJAN 11, 2014
+aVNOV 01, 2013
 p6
-aVHOU @ WAS
+aVHOU vs. DAL
 p7
 aVW
 p8
-aI13
+aI4
+aI0
 aI1
-aI2
-aF0.5
+aF0.0
 aI0
 aI0
 aF0.0
-aI2
-aI4
-aF0.5
-aI0
-aI1
-aI1
 aI0
 aI0
+aF0.0
 aI1
+aI0
 aI1
-aI3
-aI4
-aI-6
+aI0
+aI0
+aI0
+aI1
+aI0
+aI0
+aI-9
 aa(lp9
-V0021300533
+V0021300050
 p10
-aVJAN 10, 2014
+aVNOV 04, 2013
 p11
-aVHOU @ ATL
+aVHOU @ LAC
 p12
 aVL
 p13
-aI10
-aI2
-aI2
+aI11
+aI6
+aI6
 aF1.0
 aI0
 aI0
 aF0.0
 aI0
-aI0
-aF0.0
 aI1
+aF0.0
+aI5
 aI2
-aI3
+aI7
 aI0
 aI0
 aI0
-aI0
-aI0
-aI4
-aI-10
+aI1
+aI1
+aI12
+aI6
 aa(lp14
-V0021300485
+V0021300058
 p15
-aVJAN 03, 2014
+aVNOV 05, 2013
 p16
-aVHOU vs. NYK
+aVHOU @ POR
 p17
 aVW
 p18
-aI10
+aI1
 aI0
 aI0
 aF0.0
@@ -91,20 +91,17 @@ aI0
 aI0
 aI0
 aI0
-aI10
+aI1
 aa(lp19
-V0021300396
+V0021300123
 p20
-aVDEC 21, 2013
+aVNOV 14, 2013
 p21
-aVHOU @ DET
+aVHOU @ NYK
 p22
 aVW
 p23
-aI4
 aI1
-aI3
-aF0.333
 aI0
 aI0
 aF0.0
@@ -113,41 +110,44 @@ aI0
 aF0.0
 aI0
 aI0
+aF0.0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI0
 aI0
 aI0
 aI0
 aI1
-aI2
-aI9
 aa(lp24
-V0021300388
+V0021300350
 p25
-aVDEC 20, 2013
+aVDEC 15, 2013
 p26
-aVHOU @ IND
+aVHOU @ SAC
 p27
 aVL
 p28
-aI12
+aI20
 aI3
-aI6
-aF0.5
+aI5
+aF0.6
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI1
-aI1
 aI2
+aI7
+aI9
+aI0
 aI0
 aI1
-aI0
-aI0
-aI3
+aI1
+aI6
 aI6
 aI-7
 aa(lp29
@@ -180,55 +180,53 @@ aI3
 aI4
 aI-4
 aa(lp34
-V0021300350
+V0021300388
 p35
-aVDEC 15, 2013
+aVDEC 20, 2013
 p36
-aVHOU @ SAC
+aVHOU @ IND
 p37
 aVL
 p38
-aI20
+aI12
 aI3
-aI5
-aF0.6
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI2
-aI7
-aI9
-aI0
-aI0
-aI1
-aI1
 aI6
+aF0.5
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI1
+aI2
+aI0
+aI1
+aI0
+aI0
+aI3
 aI6
 aI-7
 aa(lp39
-V0021300123
+V0021300396
 p40
-aVNOV 14, 2013
+aVDEC 21, 2013
 p41
-aVHOU @ NYK
+aVHOU @ DET
 p42
 aVW
 p43
+aI4
 aI1
+aI3
+aF0.333
 aI0
 aI0
 aF0.0
 aI0
 aI0
 aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
 aI0
 aI0
 aI0
@@ -237,16 +235,18 @@ aI0
 aI0
 aI0
 aI1
+aI2
+aI9
 aa(lp44
-V0021300058
+V0021300485
 p45
-aVNOV 05, 2013
+aVJAN 03, 2014
 p46
-aVHOU @ POR
+aVHOU vs. NYK
 p47
 aVW
 p48
-aI1
+aI10
 aI0
 aI0
 aF0.0
@@ -265,65 +265,65 @@ aI0
 aI0
 aI0
 aI0
-aI1
+aI10
 aa(lp49
-V0021300050
+V0021300533
 p50
-aVNOV 04, 2013
+aVJAN 10, 2014
 p51
-aVHOU @ LAC
+aVHOU @ ATL
 p52
 aVL
 p53
-aI11
-aI6
-aI6
+aI10
+aI2
+aI2
 aF1.0
 aI0
 aI0
 aF0.0
 aI0
-aI1
+aI0
 aF0.0
-aI5
+aI1
 aI2
-aI7
+aI3
 aI0
 aI0
 aI0
-aI1
-aI1
-aI12
-aI6
+aI0
+aI0
+aI4
+aI-10
 aa(lp54
-V0021300025
+V0021300544
 p55
-aVNOV 01, 2013
+aVJAN 11, 2014
 p56
-aVHOU vs. DAL
+aVHOU @ WAS
 p57
 aVW
 p58
+aI13
+aI1
+aI2
+aF0.5
+aI0
+aI0
+aF0.0
+aI2
 aI4
+aF0.5
 aI0
 aI1
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI0
 aI1
 aI0
 aI0
-aI0
 aI1
-aI0
-aI0
-aI-9
+aI1
+aI3
+aI4
+aI-6
 aasS'name'
 p59
 VGreg Smith

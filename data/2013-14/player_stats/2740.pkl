@@ -6,15 +6,15 @@ sS'stats'
 p2
 (lp3
 (lp4
-V0021300360
+V0021300239
 p5
-aVDEC 16, 2013
+aVNOV 29, 2013
 p6
-aVUTA @ MIA
+aVUTA vs. PHX
 p7
 aVL
 p8
-aI2
+aI4
 aI0
 aI0
 aF0.0
@@ -24,112 +24,25 @@ aF0.0
 aI0
 aI0
 aF0.0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
 aI0
 aI1
-aI1
 aI0
-aI0
-aI0
-aI0
-aI0
-aI0
-aI-4
+aI6
 aa(lp9
-V0021300308
+V0021300274
 p10
-aVDEC 09, 2013
+aVDEC 04, 2013
 p11
-aVUTA vs. POR
+aVUTA vs. IND
 p12
 aVL
 p13
-aI13
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI6
-aI7
-aI0
-aI0
-aI0
-aI0
-aI1
-aI0
-aI4
-aa(lp14
-V0021300297
-p15
-aVDEC 07, 2013
-p16
-aVUTA vs. SAC
-p17
-aVL
-p18
-aI14
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI6
-aF0.167
-aI0
-aI4
-aI4
-aI0
-aI0
-aI0
-aI1
-aI1
-aI1
-aI9
-aa(lp19
-V0021300288
-p20
-aVDEC 06, 2013
-p21
-aVUTA @ POR
-p22
-aVL
-p23
-aI7
-aI1
-aI1
-aF1.0
-aI0
-aI0
-aF0.0
-aI0
-aI0
-aF0.0
-aI1
-aI1
-aI2
-aI0
-aI0
-aI0
-aI0
-aI2
-aI2
-aI-10
-aa(lp24
-V0021300274
-p25
-aVDEC 04, 2013
-p26
-aVUTA vs. IND
-p27
-aVL
-p28
 aI4
 aI0
 aI0
@@ -150,19 +63,74 @@ aI1
 aI1
 aI0
 aI-3
-aa(lp29
-V0021300239
-p30
-aVNOV 29, 2013
-p31
-aVUTA vs. PHX
-p32
+aa(lp14
+V0021300288
+p15
+aVDEC 06, 2013
+p16
+aVUTA @ POR
+p17
 aVL
-p33
+p18
+aI7
+aI1
+aI1
+aF1.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI1
+aI2
+aI0
+aI0
+aI0
+aI0
+aI2
+aI2
+aI-10
+aa(lp19
+V0021300297
+p20
+aVDEC 07, 2013
+p21
+aVUTA vs. SAC
+p22
+aVL
+p23
+aI14
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI1
+aI6
+aF0.167
+aI0
+aI4
 aI4
 aI0
 aI0
-aF0.0
+aI0
+aI1
+aI1
+aI1
+aI9
+aa(lp24
+V0021300308
+p25
+aVDEC 09, 2013
+p26
+aVUTA vs. POR
+p27
+aVL
+p28
+aI13
 aI0
 aI0
 aF0.0
@@ -171,14 +139,46 @@ aI0
 aF0.0
 aI0
 aI0
-aI0
+aF0.0
+aI1
+aI6
+aI7
 aI0
 aI0
 aI0
 aI0
 aI1
 aI0
-aI6
+aI4
+aa(lp29
+V0021300360
+p30
+aVDEC 16, 2013
+p31
+aVUTA @ MIA
+p32
+aVL
+p33
+aI2
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI0
+aF0.0
+aI0
+aI1
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI-4
 aasS'name'
 p34
 VAndris Biedrins
