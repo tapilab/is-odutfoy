@@ -3,6 +3,7 @@ import glob
 import numpy as np
 from sklearn import linear_model
 import matplotlib.pyplot as plt
+import shutil
 
 #prepares data to be fit using only raw averages of all games (but the last) of each players
 def raw_averages(season):
@@ -16,10 +17,17 @@ def raw_averages(season):
     X = np.array(averages)
     y = np.array(next_match_points)
 
+    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl'):
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl')
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl')
+
+    pickle.dump(X, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'wb'))
+    pickle.dump(y, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'wb'))
+
     return X, y
 
 #sliding average using raw averages for one player
-def sliding_raw_average(season, playerID):
+def sliding_average(season, playerID):
     averages = []
     next_match_points = []
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
@@ -35,22 +43,32 @@ def sliding_raw_average(season, playerID):
     return X, y
 
 #sliding averages for all players in one season
-def sliding_raw_averages(season):
+def sliding_averages(season):
     Xs = []
     ys = []
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     for file in players:
         playerID = file[26:-4]
-        X, y = sliding_raw_average(season, playerID)
+        X, y = sliding_average(season, playerID)
 
         if X.shape != (0,):
             Xs.append(X)
             ys.append(y)
 
-    return np.concatenate(Xs), np.concatenate(ys)
+    Xf = np.concatenate(Xs)
+    yf = np.concatenate(ys)
+
+    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl'):
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl')
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl')
+
+    pickle.dump(Xf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl', 'wb'))
+    pickle.dump(yf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'wb'))
+
+    return Xf, yf
 
 #sliding averages for all players in all seasons
-# def sliding_raw_averages(seasons):
+# def sliding_averages(seasons):
 #     averages = []
 #     next_match_points = []
 #     for season in seasons:
@@ -72,17 +90,16 @@ def sliding_raw_averages(season):
 
 def train_linear(X, y, normalize = False):
     lr = linear_model.LinearRegression(normalize=normalize)
-    lr.fit(X,y)
+    lr.fit(X, y)
 
     return lr
 
-#X, y = sliding_raw_averages('2011-12')
+#X, y = sliding_averages('2011-12')
 #X, y = raw_averages('2006-07')
-# X, y = sliding_raw_average('2011-12', '101107')
+# X, y = sliding_average('2011-12', '101107')
 # print X.shape, y.shape
 #model = train_linear(X, y)
 #modeln = train_linear(X, y, True)
-
 
 #computed error given model as input
 def error(model, X, y):
@@ -106,7 +123,7 @@ def error(model, X, y):
 
 #all but one fold error over seasons using sliding raw averages
 def ABOF_error(seasons):
-    data = map(sliding_raw_averages, seasons)
+    data = map(sliding_averages, seasons)
     errors = []
     avg_error = 0.
     avg_max = 0.
@@ -125,19 +142,14 @@ def ABOF_error(seasons):
 
         print "error for this season is %s" % (err,)
 
-    result = avg_error/len(season), avg_max/len(season)
+    result = avg_error/len(seasons), avg_max/len(seasons)
     print "Average error and Averaged max error over all seasons is %s" % (result,)
 
     return result
 
-#seasons = ['2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-seasons = ['2006-07', '2007-08']
-
-
-
-ABOF_error(seasons)
-
-
+seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
+#seasons = ['2006-07', '2007-08']
+#ABOF_error(seasons)
 
 
 
