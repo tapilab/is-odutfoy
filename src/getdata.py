@@ -94,14 +94,10 @@ def get_data(season):
 
         pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
-# if len(sys.argv) < 2:
-#     print "Please input season you wish to retrieve data from as first argument"
-#     print "Season must be of following format xxxx-yy i.e : 2013-14"
-#
-# else:
-#     get_player_list(sys.argv[1])
-#     get_data(sys.argv[1])
+if len(sys.argv) < 2:
+    print "Please input season you wish to retrieve data from as first argument"
+    print "Season must be of following format xxxx-yy i.e : 2013-14"
 
-
-player = pickle.load(open('data' + os.sep + '2005-06' + os.sep + 'player_stats' + os.sep + '15' + '.pkl', 'rb'))
-print player['stats']
+else:
+    get_player_list(sys.argv[1])
+    get_data(sys.argv[1])
