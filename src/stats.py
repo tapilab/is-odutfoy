@@ -26,6 +26,8 @@ def average(season, playerID, number_games = -1):
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
         averaged.append(winrate)
+        averaged.append(player['experience'])
+        averaged.append(player['age'])
 
         home = [match for match in player['stats'][:number_games] if match[2][4] == '@']
         away = [match for match in player['stats'][:number_games] if match[2][4] != '@']
@@ -39,12 +41,16 @@ def average(season, playerID, number_games = -1):
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
             home_avg.append(home_winrate)
+            home_avg.append(player['experience'])
+            home_avg.append(player['age'])
 
         if len(away) != 0:
             away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in away])]
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
             away_avg.append(away_winrate)
+            away_avg.append(player['experience'])
+            away_avg.append(player['age'])
 
         return averaged, home_avg, away_avg
 
@@ -74,3 +80,5 @@ def compute_fantasy(season, playerID, game_number = -1,
         return score
 
 #compute_fantasy('2011-12', '977', 0)
+#player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '15' + '.pkl', 'rb'))
+#print player['stats']
