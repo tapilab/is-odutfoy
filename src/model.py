@@ -111,15 +111,17 @@ def error(model, X, y):
 
     return avg_error/predictions.shape[0], max_error
 
+X = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl', 'rb'))
+y = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'rb'))
 
-# X = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'rb'))
-# y = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'rb'))
-#
-# model = train_linear(X, y)
-# modeln = train_linear(X, y, True)
-#
-# print error(model, X, y)
-# print error(modeln, X, y)
+model = train_linear(X, y)
+modeln = train_linear(X, y, True)
+
+#testX = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'rb'))
+#testy = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'rb'))
+
+print error(model, X, y)
+print error(modeln, X, y)
 
 #all but one fold error over seasons using sliding raw averages
 def ABOF_error(seasons):
@@ -150,9 +152,6 @@ def ABOF_error(seasons):
 #seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
 #seasons = ['2006-07', '2007-08']
 #ABOF_error(seasons)
-
-
-
 
 
 
