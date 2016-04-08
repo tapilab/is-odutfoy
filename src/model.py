@@ -17,14 +17,15 @@ def raw_averages(season):
     X = np.array(averages)
     y = np.array(next_match_points)
 
-    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl'):
-        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl')
-        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl')
-
-    pickle.dump(X, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'wb'))
-    pickle.dump(y, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'wb'))
+    # if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl'):
+    #     os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl')
+    #     os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl')
+    #
+    # pickle.dump(X, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'wb'))
+    # pickle.dump(y, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'wb'))
 
     return X, y
+
 
 #sliding average using raw averages for one player
 def sliding_average(season, playerID):
@@ -94,13 +95,6 @@ def train_linear(X, y, normalize = False):
 
     return lr
 
-#X, y = sliding_averages('2011-12')
-#X, y = raw_averages('2006-07')
-# X, y = sliding_average('2011-12', '101107')
-# print X.shape, y.shape
-#model = train_linear(X, y)
-#modeln = train_linear(X, y, True)
-
 #computed error given model as input
 def error(model, X, y):
     predictions = model.predict(X)
@@ -118,8 +112,15 @@ def error(model, X, y):
 
     return avg_error/predictions.shape[0], max_error
 
-#print error(model, X, y)
-#print error(modeln, X, y)
+
+# X = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'rb'))
+# y = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'rb'))
+#
+# model = train_linear(X, y)
+# modeln = train_linear(X, y, True)
+#
+# print error(model, X, y)
+# print error(modeln, X, y)
 
 #all but one fold error over seasons using sliding raw averages
 def ABOF_error(seasons):
@@ -150,7 +151,6 @@ def ABOF_error(seasons):
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
 #seasons = ['2006-07', '2007-08']
 #ABOF_error(seasons)
-
 
 
 

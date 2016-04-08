@@ -10,7 +10,10 @@ def average(season, playerID, number_games = -1):
     games_num = len(player['stats'])
 
     if number_games == 0:
-        return [0.]*21, [0.]*21, [0.]*21
+        tmp = [0.]*23
+        tmp[21] = player['experience']
+        tmp[22] = player['age']
+        return tmp, tmp, tmp
         # print "Please choose a strictly positive number of games"
         # exit()
 
@@ -80,5 +83,6 @@ def compute_fantasy(season, playerID, game_number = -1,
         return score
 
 #compute_fantasy('2011-12', '977', 0)
-#player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '15' + '.pkl', 'rb'))
-#print player['stats']
+# player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
+# print player['age']
+# print player['experience']
