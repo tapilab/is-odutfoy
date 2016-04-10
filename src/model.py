@@ -111,31 +111,38 @@ def error(model, X, y):
 
     return avg_error/predictions.shape[0], max_error
 
-X = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl', 'rb'))
-y = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'rb'))
-
-model = train_linear(X, y)
-modeln = train_linear(X, y, True)
-
-#testX = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'rb'))
-#testy = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'rb'))
-
-print error(model, X, y)
-print error(modeln, X, y)
+# X = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl', 'rb'))
+# y = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'rb'))
+#
+# model = train_linear(X, y)
+# modeln = train_linear(X, y, True)
+#
+# #testX = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_X' + '.pkl', 'rb'))
+# #testy = pickle.load(open('data' + os.sep + '2013-14' + os.sep + 'averages' + os.sep + 'raw_y' + '.pkl', 'rb'))
+#
+# print error(model, X, y)
+# print error(modeln, X, y)
 
 #all but one fold error over seasons using sliding raw averages
-def ABOF_error(seasons):
-    data = map(sliding_averages, seasons)
+def ABOF_error(seasons, average_type = "sliding"):
+    Xs = []
+    ys = []
+    for season in seasons:
+        X = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_X' + '.pkl', 'rb'))
+        y = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_y' + '.pkl', 'rb'))
+        Xs.append(X)
+        ys.append(y)
+
     errors = []
     avg_error = 0.
     avg_max = 0.
 
     for i, season in enumerate(seasons):
         print "Testing on season %s (Training on the rest)" % season
-        Xs = [dat[0] for dat in data]
-        ys = [dat[1] for dat in data]
-        testX, testy = Xs.pop(i), ys.pop(i)
-        trainX, trainy = np.concatenate(Xs), np.concatenate(ys)
+        tmp_X = list(Xs)
+        tmp_y = list(ys)
+        testX, testy = tmp_X.pop(i), tmp_y.pop(i)
+        trainX, trainy = np.concatenate(tmp_X), np.concatenate(tmp_y)
         model = train_linear(trainX, trainy)
         err = error(model, testX, testy)
         errors.append(err[0])
@@ -149,9 +156,9 @@ def ABOF_error(seasons):
 
     return result
 
-#seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
+seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
 #seasons = ['2006-07', '2007-08']
-#ABOF_error(seasons)
+ABOF_error(seasons, "raw")
 
 
 
