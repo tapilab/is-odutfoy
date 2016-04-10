@@ -82,7 +82,16 @@ def compute_fantasy(season, playerID, game_number = -1,
 
         return score
 
+#returns weighted average with avg1 more important than avg by factor of weight
+def weighted_average(avg1, avg2, weight):
+    avg = []
+    for a, b, in zip(avg1, avg2):
+        tmp = (a + weight*b)/(weight + 1)
+        avg.append(tmp)
+
+    return avg
+
 #compute_fantasy('2011-12', '977', 0)
-# player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
-# print player['age']
+#player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
+#print player['stats'][0][2][4]
 # print player['experience']
