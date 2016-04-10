@@ -42,7 +42,31 @@ def sliding_average(season, playerID):
 
     return X, y
 
-#sliding averages for all players in one season
+#sliding average using weight depending on whether next game is home or away
+def sliding_loc_weight_average(season, playerID, weight = 2):
+    averages = []
+    next_match_points = []
+    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+    games_num = len(player['stats'])
+
+    for i in range(1, games_num - 1):
+        home = average(season, playerID, i)[1]
+        away = average(season, playerID, i)[2]
+        next_match_points.append(compute_fantasy(season, playerID, i + 1))
+        #test if next game is home or away
+        if player['stats'][i + 1][2][4] == '@':
+            avg = weighted_average(home, away, weight)
+            averages.append(avg)
+
+        else :
+            avg = weighted_average(away, home, weight)
+
+    X = np.array(averages)
+    y = np.array(next_match_points)
+
+    return X, y
+
+#sliding averages for all players in one season using averaging func
 def sliding_averages(season):
     Xs = []
     ys = []
@@ -66,27 +90,6 @@ def sliding_averages(season):
     pickle.dump(yf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'wb'))
 
     return Xf, yf
-
-#sliding averages for all players in all seasons
-# def sliding_averages(seasons):
-#     averages = []
-#     next_match_points = []
-#     for season in seasons:
-#         players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
-#         for file in players:
-#             playerID = file[26:-4]
-#             player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-#             games_num = len(player['stats'])
-#
-#             for i in range(1, games_num - 1):
-#                 averages.append(average(season, playerID, i)[0])
-#                 next_match_points.append(compute_fantasy(season, playerID, i + 1))
-#
-#     X = np.array(averages)
-#     y = np.array(next_match_points)
-#
-#     return X, y
-
 
 def train_linear(X, y, normalize = False):
     lr = linear_model.LinearRegression(normalize=normalize)
@@ -123,7 +126,7 @@ def error(model, X, y):
 # print error(model, X, y)
 # print error(modeln, X, y)
 
-#all but one fold error over seasons using sliding raw averages
+#all but one fold error over seasons using inputed average type (raw, sliding, ...)
 def ABOF_error(seasons, average_type = "sliding"):
     Xs = []
     ys = []
