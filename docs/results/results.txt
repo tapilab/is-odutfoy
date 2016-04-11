@@ -21,6 +21,9 @@ With sliding average:
     "k-folding on 9 seasons" :
         4.27 avg, 30.70 max avg
 
+With weighted sliding_average:
+    "k-folding on 9 seasons" :
+        4.29 avg, 30.85 max avg
 
 ############################################################################################
 #Those results were observed with data in anti chronological order...
