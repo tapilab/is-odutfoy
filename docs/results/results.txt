@@ -6,7 +6,7 @@ With raw average :
     Raw training on 2011-12 :
         Raw training error : 5.06 avg, 23.05 max or 5.06 avg, 23.30 max when normalized
         Raw testing on 2012-13 : 5.58 avg, 25.81 max or 5.53 avg, 26.04 max when normalized
-        Raw testing on 2013-14 : 5.37 avg, 23.05 max or 536 avg, 23.29 max when normalized
+        Raw testing on 2013-14 : 5.37 avg, 23.05 max or 5.36 avg, 23.29 max when normalized
 
     "k-folding on 9 seasons" :
         5.14 avg, 25.00 max avg
@@ -19,11 +19,11 @@ With sliding average:
         Sliding training error : 4.21 avg, 27.63 max or 4.21 avg, 27.64 max when normalized
 
     "k-folding on 9 seasons" :
-        4.27 avg, 30.70 max avg
+        4.27 avg, 30.70 max avg (same when normalized)
 
-With weighted sliding_average:
+With weighted sliding_average (weight = 2):
     "k-folding on 9 seasons" :
-        4.29 avg, 30.85 max avg
+        4.29 avg, 30.85 max avg (same when normalized)
 
 ############################################################################################
 #Those results were observed with data in anti chronological order...

@@ -140,6 +140,10 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
     avg_error = 0.
     avg_max = 0.
 
+    errorsn = []
+    avg_errorn = 0.
+    avg_maxn = 0.
+
     for i, season in enumerate(seasons):
         print "Testing on season %s (Training on the rest)" % season
         tmp_X = list(Xs)
@@ -147,20 +151,31 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
         testX, testy = tmp_X.pop(i), tmp_y.pop(i)
         trainX, trainy = np.concatenate(tmp_X), np.concatenate(tmp_y)
         model = train_linear(trainX, trainy)
+        modeln = train_linear(trainX, trainy, True)
         err = error(model, testX, testy)
+        errn = error(modeln, testX, testy)
         errors.append(err[0])
+        errorsn.append(errn[0])
         avg_error += err[0]
+        avg_errorn += errn[0]
         avg_max += err[1]
+        avg_maxn += errn[1]
 
         print "error for this season is %s" % (err,)
+        print "error for this season with normalized features is %s" % (errn,)
+
+
 
     result = avg_error/len(seasons), avg_max/len(seasons)
+    resultn = avg_errorn/len(seasons), avg_maxn/len(seasons)
     print "Average error and Averaged max error over all seasons is %s" % (result,)
+    print "Average error and Averaged max error over all seasons with normalized features is %s" % (resultn,)
 
-    return result
+
+    return result, resultn
 
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-#ABOF_error(seasons, "sliding", "2")
+ABOF_error(seasons, "sliding", "")
 
 # for season in seasons:
 #     print season
