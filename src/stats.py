@@ -84,6 +84,12 @@ def compute_fantasy(season, playerID, game_number = -1,
 
 #returns weighted average with avg1 more important than avg by factor of weight
 def weighted_average(avg1, avg2, weight = 2):
+    if len(avg1) == 0:
+        return avg2
+
+    elif len(avg2) == 0:
+        return avg1
+
     avg = []
     for a, b, in zip(avg1, avg2):
         tmp = (a*weight + b)/(weight + 1)
