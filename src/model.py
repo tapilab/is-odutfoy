@@ -27,20 +27,20 @@ def raw_averages(season):
     return X, y
 
 #sliding average using raw averages for one player
-def sliding_average(season, playerID):
-    averages = []
-    next_match_points = []
-    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-    games_num = len(player['stats'])
-
-    for i in range(1, games_num - 1):
-        averages.append(average(season, playerID, i)[0])
-        next_match_points.append(compute_fantasy(season, playerID, i + 1))
-
-    X = np.array(averages)
-    y = np.array(next_match_points)
-
-    return X, y
+# def sliding_average(season, playerID):
+#     averages = []
+#     next_match_points = []
+#     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+#     games_num = len(player['stats'])
+#
+#     for i in range(1, games_num - 1):
+#         averages.append(average(season, playerID, i)[0])
+#         next_match_points.append(compute_fantasy(season, playerID, i + 1))
+#
+#     X = np.array(averages)
+#     y = np.array(next_match_points)
+#
+#     return X, y
 
 #sliding average using weight depending on whether next game is home or away
 def sliding_loc_weight_average(season, playerID, weight = 2):
@@ -50,30 +50,30 @@ def sliding_loc_weight_average(season, playerID, weight = 2):
     games_num = len(player['stats'])
 
     for i in range(1, games_num - 1):
-        home = average(season, playerID, i)[1]
-        away = average(season, playerID, i)[2]
+        all, home, away = average(season, playerID, i)
         next_match_points.append(compute_fantasy(season, playerID, i + 1))
         #test if next game is home or away
         if player['stats'][i + 1][2][4] == '@':
             avg = weighted_average(home, away, weight)
             averages.append(avg)
 
-        else :
+        else:
             avg = weighted_average(away, home, weight)
+            averages.append(avg)
 
     X = np.array(averages)
     y = np.array(next_match_points)
 
     return X, y
 
-#sliding averages for all players in one season using averaging func
-def sliding_averages(season):
+#sliding averages for all players in one season using location weighted average
+def sliding_averages(season, weight = 2):
     Xs = []
     ys = []
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     for file in players:
         playerID = file[26:-4]
-        X, y = sliding_average(season, playerID)
+        X, y = sliding_loc_weight_average(season, playerID, weight)
 
         if X.shape != (0,):
             Xs.append(X)
@@ -82,12 +82,12 @@ def sliding_averages(season):
     Xf = np.concatenate(Xs)
     yf = np.concatenate(ys)
 
-    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl'):
-        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl')
-        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl')
+    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + str(weight) + '.pkl'):
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + str(weight) + '.pkl')
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + str(weight) + '.pkl')
 
-    pickle.dump(Xf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + '.pkl', 'wb'))
-    pickle.dump(yf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + '.pkl', 'wb'))
+    pickle.dump(Xf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_X' + str(weight) + '.pkl', 'wb'))
+    pickle.dump(yf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_y' + str(weight) + '.pkl', 'wb'))
 
     return Xf, yf
 
@@ -127,12 +127,12 @@ def error(model, X, y):
 # print error(modeln, X, y)
 
 #all but one fold error over seasons using inputed average type (raw, sliding, ...)
-def ABOF_error(seasons, average_type = "sliding"):
+def ABOF_error(seasons, average_type = "raw", weight = ""):
     Xs = []
     ys = []
     for season in seasons:
-        X = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_X' + '.pkl', 'rb'))
-        y = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_y' + '.pkl', 'rb'))
+        X = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_X' + weight + '.pkl', 'rb'))
+        y = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_y' + weight + '.pkl', 'rb'))
         Xs.append(X)
         ys.append(y)
 
@@ -160,8 +160,10 @@ def ABOF_error(seasons, average_type = "sliding"):
     return result
 
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-#seasons = ['2006-07', '2007-08']
-ABOF_error(seasons, "raw")
+#ABOF_error(seasons, "sliding", "2")
 
+# for season in seasons:
+#     print season
+#     sliding_averages(season)
 
 
