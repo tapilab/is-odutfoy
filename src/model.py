@@ -174,11 +174,13 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
 
     return result, resultn
 
+
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-ABOF_error(seasons, "sliding", "")
+
+#ABOF_error(seasons, "sliding", "")
 
 # for season in seasons:
 #     print season
 #     sliding_averages(season)
 
-
+#baselines(seasons)

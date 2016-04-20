@@ -1,5 +1,7 @@
 import pickle
 import os
+import glob
+import numpy as np
 
 #This file takes "raw" data as input and computes additionnal stats such as averaged stats, winrate, fatansy points etc.
 
@@ -97,7 +99,47 @@ def weighted_average(avg1, avg2, weight = 2):
 
     return avg
 
-#compute_fantasy('2011-12', '977', 0)
+def baseline(season):
+    errors = []
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    for file in players:
+        playerID = file[26:-4]
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        games_num = len(player['stats'])
+
+        for i in range(1, games_num - 1):
+            next_points = compute_fantasy(season, playerID, i + 1)
+            curr_points = compute_fantasy(season, playerID, i)
+            errors.append(abs(next_points - curr_points))
+
+    error = np.mean(errors), np.max(errors)
+
+    file = open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'baseline.txt', "w")
+    file.write("{}".format(error))
+    file.close()
+
+    print "Average error and max error for season {} is {}".format(season, error)
+
+    return error
+
+def baselines(seasons):
+    avg_error = 0.
+    avg_max = 0.
+
+    for season in seasons:
+        print "computing for season {}".format(season)
+        error = baseline(season)
+        avg_error += error[0]
+        avg_max += error[1]
+
+    result = avg_error/len(seasons), avg_max/len(seasons)
+
+    print "Average error and Averaged max error over all seasons is %s" % (result,)
+
+    return result
+
+#print compute_fantasy('2011-12', '977', 0)
 #player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
 #print player['stats'][0][2][4]
 # print player['experience']
