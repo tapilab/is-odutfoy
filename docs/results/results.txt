@@ -25,6 +25,10 @@ With weighted sliding_average (weight = 2):
     "k-folding on 9 seasons" :
         4.29 avg, 30.85 max avg (same when normalized)
 
+With 2 averages (all + H/A) and training + testing in similar way:
+    "k-folding on 9 seasons" :
+        4.32 avg, 31.26 max (same when normalized)
+
 Baseline
     Avg over 9 seasons: (see seasons directory for avg on each season)
         5.23 avg, 36.22 max avg

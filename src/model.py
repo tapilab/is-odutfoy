@@ -91,6 +91,58 @@ def sliding_averages(season, weight = 2):
 
     return Xf, yf
 
+#sliding average with twice as many features (one general and one H/A)
+def sliding_loc_average(season, playerID):
+    averages = []
+    next_match_points = []
+    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+    games_num = len(player['stats'])
+
+    for i in range(1, games_num - 1):
+        all, home, away = average(season, playerID, i)
+        points = compute_fantasy(season, playerID, i + 1)
+        next_match_points.append(points)
+        averages.append(all)
+
+        #test if next game is home or away
+        if player['stats'][i + 1][2][4] == '@' and home != []:
+            next_match_points.append(points)
+            averages.append(home)
+
+
+        elif away != []:
+            next_match_points.append(points)
+            averages.append(away)
+
+    X = np.array(averages)
+    y = np.array(next_match_points)
+
+    return X, y
+
+def sliding_loc_averages(season):
+    Xs = []
+    ys = []
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+    for file in players:
+        playerID = file[26:-4]
+        X, y = sliding_loc_average(season, playerID)
+
+        if X.shape != (0,):
+            Xs.append(X)
+            ys.append(y)
+
+    Xf = np.concatenate(Xs)
+    yf = np.concatenate(ys)
+
+    if os.path.exists('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_loc_X' + '.pkl'):
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_loc_X' + '.pkl')
+        os.remove('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_loc_yc' + '.pkl')
+
+    pickle.dump(Xf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_loc_X' + '.pkl', 'wb'))
+    pickle.dump(yf, open('data' + os.sep + season + os.sep + 'averages' + os.sep + 'sliding_loc_y' + '.pkl', 'wb'))
+
+    return Xf, yf
+
 def train_linear(X, y, normalize = False):
     lr = linear_model.LinearRegression(normalize=normalize)
     lr.fit(X, y)
@@ -176,11 +228,10 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
 
 
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-
-#ABOF_error(seasons, "sliding", "")
+ABOF_error(seasons, "sliding_loc", "")
 
 # for season in seasons:
-#     print season
-#     sliding_averages(season)
+#      print season
+#      sliding_loc_averages(season)
 
 #baselines(seasons)
