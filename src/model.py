@@ -4,6 +4,7 @@ import numpy as np
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 import shutil
+from plot import *
 
 #prepares data to be fit using only raw averages of all games (but the last) of each players
 def raw_averages(season):
@@ -212,6 +213,8 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
         avg_errorn += errn[0]
         avg_max += err[1]
         avg_maxn += errn[1]
+
+        plot(trainX, trainy)
 
         print "error for this season is %s" % (err,)
         print "error for this season with normalized features is %s" % (errn,)

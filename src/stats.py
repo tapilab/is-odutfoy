@@ -141,5 +141,6 @@ def baselines(seasons):
 
 #print compute_fantasy('2011-12', '977', 0)
 #player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
-#print player['stats'][0][2][4]
+#print player['stats'][0]
+#print average('2005-06', '15')[0]
 # print player['experience']
