@@ -1,0 +1,45 @@
+triple using average on last games!
+
+look at model, see which features are important :
+Some seem much much more important than others, some redundance, exactly same coeffs for some features.
+To investigate.
+
+get rid of some players?
+
+Mistake when average goals %.
+
+Include position and get rid of players without?
+restart from scratch.
+
+binary feature for position
+create new features per position
+Ridge regression
+
+Features :
+0 : MIN : (minutes played)
+1 : FGM (field goals made)
+2 : FGA (field goals attempted)
+3 : FG_PCT (field goals %)
+4 : FG3M (3 pointers made)
+5 : FG3A (3 pointers attempted)
+6 : FG3_PCT (3 pointers %)
+7 : FTM (free throws made)
+8 : FTA (free throws attempted)
+9 : FT_PCT (free throws percentage)
+10 : OREB (offensive rebound)
+11 : DREB (defensive rebound)
+12 : REB (rebounds)
+13 : AST (assists)
+14 : STL (Steals)
+15 : BLK (blocks)
+16 : TOV (turnovers)
+17 : PF (personal fouls)
+18 : PTS (points)
+19 : +/- (score diff while on the field)
+20 : winrate
+21 : experience
+22 : age
+
+
+4=7=-18 (sometimes sign inversed)
+10=11=-12
