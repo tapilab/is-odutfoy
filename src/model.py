@@ -214,6 +214,8 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
         avg_max += err[1]
         avg_maxn += errn[1]
 
+        print model.coef_
+
         plot(trainX, trainy)
 
         print "error for this season is %s" % (err,)
