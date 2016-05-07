@@ -41,6 +41,8 @@ def get_player_list(season):
         shutil.rmtree('data' + os.sep + season)
 
     os.makedirs('data' + os.sep + season)
+    os.makedirs('data' + os.sep + season + os.sep + 'averages')
+
 
     req = requests.request('GET', 'http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=' + season + '&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=', headers=headers, cookies=cookies)
 

@@ -120,6 +120,7 @@ def sliding_loc_average(season, playerID):
 
     return X, y
 
+#sliding average with twice as many features (one general and one H/A) for the whole season
 def sliding_loc_averages(season):
     Xs = []
     ys = []
@@ -214,9 +215,9 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
         avg_max += err[1]
         avg_maxn += errn[1]
 
-        print model.coef_
+        #print model.coef_
 
-        plot(trainX, trainy)
+        #plot(trainX, trainy)
 
         print "error for this season is %s" % (err,)
         print "error for this season with normalized features is %s" % (errn,)
