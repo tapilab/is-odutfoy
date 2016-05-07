@@ -1,4 +1,4 @@
-This is a very brief outline of the Project. For more information please refer to report/Mid_Report.pdf.
+This is a very brief outline of the Project. For more information please refer to docs/report/Mid_Report.pdf.
 Replicate.ipynb contains the code use to obtain the results below (except for the baseline).
 Collect.ipynb cotains the code used to fetch and process the data.
 
