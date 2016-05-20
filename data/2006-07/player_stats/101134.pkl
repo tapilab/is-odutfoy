@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600001
-p5
+p4
 aVOCT 31, 2006
-p6
+p5
 aVMIA vs. CHI
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI1
@@ -34,15 +31,15 @@ aI1
 aI1
 aI2
 aI-12
-aa(lp9
+aa(lp8
 V0020600054
-p10
+p9
 aVNOV 07, 2006
-p11
+p10
 aVMIA vs. SEA
-p12
+p11
 aVW
-p13
+p12
 aI10
 aI0
 aI2
@@ -63,15 +60,15 @@ aI1
 aI1
 aI0
 aI-8
-aa(lp14
+aa(lp13
 V0020600121
-p15
+p14
 aVNOV 17, 2006
-p16
+p15
 aVMIA vs. NYK
-p17
+p16
 aVL
-p18
+p17
 aI13
 aI2
 aI3
@@ -92,15 +89,15 @@ aI0
 aI4
 aI4
 aI-3
-aa(lp19
+aa(lp18
 V0020600154
-p20
+p19
 aVNOV 21, 2006
-p21
+p20
 aVMIA @ NOK
-p22
+p21
 aVL
-p23
+p22
 aI12
 aI0
 aI4
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp24
+aa(lp23
 V0020600162
-p25
+p24
 aVNOV 22, 2006
-p26
+p25
 aVMIA @ SAS
-p27
+p26
 aVL
-p28
+p27
 aI12
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI2
 aI5
 aI3
-aa(lp29
+aa(lp28
 V0020601023
-p30
+p29
 aVMAR 23, 2007
-p31
+p30
 aVMIA @ IND
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI5
-aa(lp34
+aa(lp33
 V0020601159
-p35
+p34
 aVAPR 10, 2007
-p36
+p35
 aVMIA @ CHA
-p37
+p36
 aVL
-p38
+p37
 aI6
 aI1
 aI1
@@ -208,15 +205,15 @@ aI0
 aI1
 aI2
 aI6
-aa(lp39
+aa(lp38
 V0020601219
-p40
+p39
 aVAPR 18, 2007
-p41
+p40
 aVMIA @ ORL
-p42
+p41
 aVL
-p43
+p42
 aI26
 aI4
 aI7
@@ -238,10 +235,25 @@ aI2
 aI10
 aI-10
 aasS'name'
-p44
+p43
 VWayne Simien
+p44
+sS'weight'
 p45
-sS'experience'
+V250
 p46
+sS'age'
+p47
+I23
+sS'experience'
+p48
 I1
+sS'height'
+p49
+V6-9
+p50
+sS'position'
+p51
+VForward
+p52
 s.

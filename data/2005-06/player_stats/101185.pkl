@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500136
-p5
+p4
 aVNOV 19, 2005
-p6
+p5
 aVDAL vs. DET
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI1
 aI1
@@ -34,15 +31,15 @@ aI1
 aI0
 aI3
 aI4
-aa(lp9
+aa(lp8
 V0020500187
-p10
+p9
 aVNOV 26, 2005
-p11
+p10
 aVDAL vs. MEM
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp14
+aa(lp13
 V0020500235
-p15
+p14
 aVDEC 03, 2005
-p16
+p15
 aVDAL vs. NOK
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp19
+aa(lp18
 V0020500288
-p20
+p19
 aVDEC 10, 2005
-p21
+p20
 aVDAL vs. BOS
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp24
+aa(lp23
 V0020500877
-p25
+p24
 aVMAR 05, 2006
-p26
+p25
 aVDAL vs. PHX
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp29
+aa(lp28
 V0020500908
-p30
+p29
 aVMAR 09, 2006
-p31
+p30
 aVDAL @ POR
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp34
+aa(lp33
 V0020500946
-p35
+p34
 aVMAR 14, 2006
-p36
+p35
 aVDAL vs. CLE
-p37
+p36
 aVW
-p38
+p37
 aI14
 aI2
 aI3
@@ -208,15 +205,15 @@ aI2
 aI1
 aI4
 aI-8
-aa(lp39
+aa(lp38
 V0020500957
-p40
+p39
 aVMAR 15, 2006
-p41
+p40
 aVDAL @ HOU
-p42
+p41
 aVW
-p43
+p42
 aI26
 aI4
 aI7
@@ -237,15 +234,15 @@ aI1
 aI1
 aI12
 aI15
-aa(lp44
+aa(lp43
 V0020500964
-p45
+p44
 aVMAR 17, 2006
-p46
+p45
 aVDAL @ WAS
-p47
+p46
 aVW
-p48
+p47
 aI15
 aI2
 aI6
@@ -266,15 +263,15 @@ aI2
 aI0
 aI5
 aI6
-aa(lp49
+aa(lp48
 V0020500979
-p50
+p49
 aVMAR 19, 2006
-p51
+p50
 aVDAL @ NJN
-p52
+p51
 aVL
-p53
+p52
 aI13
 aI3
 aI4
@@ -295,15 +292,15 @@ aI1
 aI1
 aI10
 aI3
-aa(lp54
+aa(lp53
 V0020500997
-p55
+p54
 aVMAR 21, 2006
-p56
+p55
 aVDAL vs. HOU
-p57
+p56
 aVW
-p58
+p57
 aI18
 aI1
 aI4
@@ -324,15 +321,15 @@ aI0
 aI2
 aI4
 aI-5
-aa(lp59
+aa(lp58
 V0020501014
-p60
+p59
 aVMAR 23, 2006
-p61
+p60
 aVDAL vs. GSW
-p62
+p61
 aVL
-p63
+p62
 aI26
 aI2
 aI4
@@ -353,15 +350,15 @@ aI1
 aI1
 aI8
 aI4
-aa(lp64
+aa(lp63
 V0020501028
-p65
+p64
 aVMAR 25, 2006
-p66
+p65
 aVDAL @ ATL
-p67
+p66
 aVW
-p68
+p67
 aI18
 aI0
 aI3
@@ -382,15 +379,15 @@ aI1
 aI4
 aI3
 aI9
-aa(lp69
+aa(lp68
 V0020501048
-p70
+p69
 aVMAR 28, 2006
-p71
+p70
 aVDAL @ DET
-p72
+p71
 aVL
-p73
+p72
 aI11
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp74
+aa(lp73
 V0020501057
-p75
+p74
 aVMAR 29, 2006
-p76
+p75
 aVDAL @ CLE
-p77
+p76
 aVL
-p78
+p77
 aI19
 aI2
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI4
 aI3
-aa(lp79
+aa(lp78
 V0020501069
-p80
+p79
 aVMAR 31, 2006
-p81
+p80
 aVDAL @ ORL
-p82
+p81
 aVL
-p83
+p82
 aI5
 aI0
 aI2
@@ -469,15 +466,15 @@ aI0
 aI2
 aI0
 aI-5
-aa(lp84
+aa(lp83
 V0020501087
-p85
+p84
 aVAPR 02, 2006
-p86
+p85
 aVDAL vs. DEN
-p87
+p86
 aVW
-p88
+p87
 aI10
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp89
+aa(lp88
 V0020501104
-p90
+p89
 aVAPR 04, 2006
-p91
+p90
 aVDAL vs. SAC
-p92
+p91
 aVW
-p93
+p92
 aI9
 aI1
 aI1
@@ -527,15 +524,15 @@ aI2
 aI0
 aI2
 aI-2
-aa(lp94
+aa(lp93
 V0020501136
-p95
+p94
 aVAPR 08, 2006
-p96
+p95
 aVDAL vs. NOK
-p97
+p96
 aVW
-p98
+p97
 aI6
 aI0
 aI2
@@ -556,15 +553,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp99
+aa(lp98
 V0020501173
-p100
+p99
 aVAPR 12, 2006
-p101
+p100
 aVDAL @ GSW
-p102
+p101
 aVL
-p103
+p102
 aI3
 aI0
 aI1
@@ -585,15 +582,15 @@ aI0
 aI0
 aI1
 aI5
-aa(lp104
+aa(lp103
 V0020501176
-p105
+p104
 aVAPR 13, 2006
-p106
+p105
 aVDAL @ PHX
-p107
+p106
 aVL
-p108
+p107
 aI2
 aI0
 aI1
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp109
+aa(lp108
 V0020501200
-p110
+p109
 aVAPR 16, 2006
-p111
+p110
 aVDAL vs. UTA
-p112
+p111
 aVW
-p113
+p112
 aI1
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp114
+aa(lp113
 V0020501226
-p115
+p114
 aVAPR 19, 2006
-p116
+p115
 aVDAL vs. LAC
-p117
+p116
 aVL
-p118
+p117
 aI37
 aI5
 aI17
@@ -673,10 +670,25 @@ aI3
 aI13
 aI-15
 aasS'name'
-p119
+p118
 VRawle Marshall
+p119
+sS'weight'
 p120
-sS'experience'
+V190
 p121
+sS'age'
+p122
+I23
+sS'experience'
+p123
 I0
+sS'height'
+p124
+V6-7
+p125
+sS'position'
+p126
+VGuard-Forward
+p127
 s.

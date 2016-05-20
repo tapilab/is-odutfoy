@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200843
-p5
+p4
 aVFEB 26, 2013
-p6
+p5
 aVORL @ PHI
-p7
+p6
 aVW
-p8
+p7
 aI12
 aI4
 aI7
@@ -34,15 +31,15 @@ aI0
 aI1
 aI9
 aI4
-aa(lp9
+aa(lp8
 V0021200851
-p10
+p9
 aVFEB 27, 2013
-p11
+p10
 aVORL vs. SAC
-p12
+p11
 aVL
-p13
+p12
 aI12
 aI1
 aI7
@@ -63,15 +60,15 @@ aI0
 aI3
 aI3
 aI-12
-aa(lp14
+aa(lp13
 V0021200866
-p15
+p14
 aVMAR 01, 2013
-p16
+p15
 aVORL vs. HOU
-p17
+p16
 aVL
-p18
+p17
 aI12
 aI1
 aI4
@@ -92,15 +89,15 @@ aI0
 aI2
 aI3
 aI0
-aa(lp19
+aa(lp18
 V0021200883
-p20
+p19
 aVMAR 03, 2013
-p21
+p20
 aVORL vs. MEM
-p22
+p21
 aVL
-p23
+p22
 aI18
 aI3
 aI9
@@ -121,15 +118,15 @@ aI2
 aI2
 aI7
 aI-7
-aa(lp24
+aa(lp23
 V0021200891
-p25
+p24
 aVMAR 04, 2013
-p26
+p25
 aVORL @ NOH
-p27
+p26
 aVW
-p28
+p27
 aI18
 aI4
 aI7
@@ -150,15 +147,15 @@ aI1
 aI1
 aI10
 aI11
-aa(lp29
+aa(lp28
 V0021200903
-p30
+p29
 aVMAR 06, 2013
-p31
+p30
 aVORL @ MIA
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI2
 aI5
@@ -179,15 +176,15 @@ aI1
 aI2
 aI4
 aI-12
-aa(lp34
+aa(lp33
 V0021200916
-p35
+p34
 aVMAR 08, 2013
-p36
+p35
 aVORL vs. IND
-p37
+p36
 aVL
-p38
+p37
 aI7
 aI1
 aI3
@@ -208,15 +205,15 @@ aI2
 aI1
 aI2
 aI-3
-aa(lp39
+aa(lp38
 V0021200937
-p40
+p39
 aVMAR 10, 2013
-p41
+p40
 aVORL vs. PHI
-p42
+p41
 aVW
-p43
+p42
 aI17
 aI3
 aI9
@@ -237,15 +234,15 @@ aI0
 aI2
 aI8
 aI6
-aa(lp44
+aa(lp43
 V0021200949
-p45
+p44
 aVMAR 12, 2013
-p46
+p45
 aVORL vs. LAL
-p47
+p46
 aVL
-p48
+p47
 aI10
 aI1
 aI6
@@ -266,15 +263,15 @@ aI1
 aI2
 aI5
 aI-4
-aa(lp49
+aa(lp48
 V0021200974
-p50
+p49
 aVMAR 15, 2013
-p51
+p50
 aVORL @ OKC
-p52
+p51
 aVL
-p53
+p52
 aI6
 aI0
 aI0
@@ -296,10 +293,25 @@ aI2
 aI0
 aI-18
 aasS'name'
-p54
+p53
 VAl Harrington
+p54
+sS'weight'
 p55
-sS'experience'
+V245
 p56
+sS'age'
+p57
+I32
+sS'experience'
+p58
 I14
+sS'height'
+p59
+V6-9
+p60
+sS'position'
+p61
+VForward
+p62
 s.

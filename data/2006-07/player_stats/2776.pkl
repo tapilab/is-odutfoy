@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600606
-p5
+p4
 aVJAN 22, 2007
-p6
+p5
 aVTOR vs. CHA
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI3
 aI-4
-aa(lp9
+aa(lp8
 V0020600634
-p10
+p9
 aVJAN 26, 2007
-p11
+p10
 aVTOR vs. BOS
-p12
+p11
 aVW
-p13
+p12
 aI0
 aI0
 aI1
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI-9
-aa(lp14
+aa(lp13
 V0020600647
-p15
+p14
 aVJAN 27, 2007
-p16
+p15
 aVTOR @ IND
-p17
+p16
 aVL
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp19
+aa(lp18
 V0020600970
-p20
+p19
 aVMAR 16, 2007
-p21
+p20
 aVTOR vs. HOU
-p22
+p21
 aVL
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp24
+aa(lp23
 V0020601007
-p25
+p24
 aVMAR 21, 2007
-p26
+p25
 aVTOR vs. ORL
+p26
+aVW
 p27
-aVW
-p28
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020601020
-p30
+p29
 aVMAR 23, 2007
-p31
+p30
 aVTOR vs. DEN
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI2
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp34
+aa(lp33
 V0020601214
-p35
+p34
 aVAPR 17, 2007
-p36
+p35
 aVTOR @ DET
-p37
+p36
 aVL
-p38
+p37
 aI25
 aI1
 aI4
@@ -209,10 +206,25 @@ aI2
 aI5
 aI-15
 aasS'name'
-p39
+p38
 VPape Sow
+p39
+sS'weight'
 p40
-sS'experience'
+V250
 p41
+sS'age'
+p42
+I25
+sS'experience'
+p43
 I2
+sS'height'
+p44
+V6-10
+p45
+sS'position'
+p46
+VForward
+p47
 s.

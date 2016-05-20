@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900168
-p5
+p4
 aVNOV 18, 2009
-p6
+p5
 aVDAL vs. SAS
-p7
+p6
 aVW
-p8
+p7
 aI13
 aI1
 aI4
@@ -34,15 +31,15 @@ aI0
 aI2
 aI2
 aI2
-aa(lp9
+aa(lp8
 V0020900179
-p10
+p9
 aVNOV 20, 2009
-p11
+p10
 aVDAL vs. SAC
-p12
+p11
 aVW
-p13
+p12
 aI24
 aI5
 aI10
@@ -63,15 +60,15 @@ aI0
 aI2
 aI11
 aI-2
-aa(lp14
+aa(lp13
 V0020900204
-p15
+p14
 aVNOV 24, 2009
-p16
+p15
 aVDAL vs. GSW
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI3
 aI3
@@ -92,15 +89,15 @@ aI2
 aI2
 aI9
 aI-3
-aa(lp19
+aa(lp18
 V0020900215
-p20
+p19
 aVNOV 25, 2009
-p21
+p20
 aVDAL @ HOU
-p22
+p21
 aVW
-p23
+p22
 aI25
 aI9
 aI13
@@ -121,15 +118,15 @@ aI3
 aI6
 aI23
 aI33
-aa(lp24
+aa(lp23
 V0020900227
-p25
+p24
 aVNOV 27, 2009
-p26
+p25
 aVDAL @ IND
-p27
+p26
 aVW
-p28
+p27
 aI11
 aI2
 aI4
@@ -150,15 +147,15 @@ aI0
 aI1
 aI5
 aI19
-aa(lp29
+aa(lp28
 V0020900235
-p30
+p29
 aVNOV 28, 2009
-p31
+p30
 aVDAL @ CLE
-p32
+p31
 aVL
-p33
+p32
 aI10
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp34
+aa(lp33
 V0020900263
-p35
+p34
 aVDEC 02, 2009
-p36
+p35
 aVDAL @ NJN
-p37
+p36
 aVW
-p38
+p37
 aI23
 aI4
 aI7
@@ -208,15 +205,15 @@ aI0
 aI5
 aI10
 aI-1
-aa(lp39
+aa(lp38
 V0020900276
-p40
+p39
 aVDEC 04, 2009
-p41
+p40
 aVDAL @ MEM
-p42
+p41
 aVL
-p43
+p42
 aI16
 aI2
 aI5
@@ -237,15 +234,15 @@ aI0
 aI3
 aI6
 aI-8
-aa(lp44
+aa(lp43
 V0020900286
-p45
+p44
 aVDEC 05, 2009
-p46
+p45
 aVDAL vs. ATL
-p47
+p46
 aVL
-p48
+p47
 aI22
 aI2
 aI7
@@ -266,15 +263,15 @@ aI4
 aI1
 aI5
 aI-16
-aa(lp49
+aa(lp48
 V0020900334
-p50
+p49
 aVDEC 12, 2009
-p51
+p50
 aVDAL vs. CHA
-p52
+p51
 aVW
-p53
+p52
 aI7
 aI0
 aI2
@@ -295,15 +292,15 @@ aI1
 aI1
 aI3
 aI-1
-aa(lp54
+aa(lp53
 V0020900382
-p55
+p54
 aVDEC 18, 2009
-p56
+p55
 aVDAL vs. HOU
-p57
+p56
 aVL
-p58
+p57
 aI12
 aI3
 aI8
@@ -324,15 +321,15 @@ aI1
 aI3
 aI10
 aI-8
-aa(lp59
+aa(lp58
 V0020900398
-p60
+p59
 aVDEC 20, 2009
-p61
+p60
 aVDAL vs. CLE
-p62
+p61
 aVW
-p63
+p62
 aI36
 aI7
 aI14
@@ -353,15 +350,15 @@ aI1
 aI2
 aI22
 aI3
-aa(lp64
+aa(lp63
 V0020900411
-p65
+p64
 aVDEC 22, 2009
-p66
+p65
 aVDAL vs. POR
-p67
+p66
 aVL
-p68
+p67
 aI6
 aI0
 aI3
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp69
+aa(lp68
 V0020900429
-p70
+p69
 aVDEC 26, 2009
-p71
+p70
 aVDAL vs. MEM
-p72
+p71
 aVW
-p73
+p72
 aI11
 aI2
 aI4
@@ -411,15 +408,15 @@ aI1
 aI2
 aI5
 aI-8
-aa(lp74
+aa(lp73
 V0020900493
-p75
+p74
 aVJAN 03, 2010
-p76
+p75
 aVDAL @ LAL
-p77
+p76
 aVL
-p78
+p77
 aI20
 aI3
 aI6
@@ -440,15 +437,15 @@ aI0
 aI0
 aI12
 aI-2
-aa(lp79
+aa(lp78
 V0020900525
-p80
+p79
 aVJAN 08, 2010
-p81
+p80
 aVDAL @ SAS
-p82
+p81
 aVW
-p83
+p82
 aI9
 aI2
 aI4
@@ -469,15 +466,15 @@ aI0
 aI0
 aI4
 aI-5
-aa(lp84
+aa(lp83
 V0020900535
-p85
+p84
 aVJAN 09, 2010
-p86
+p85
 aVDAL vs. UTA
-p87
+p86
 aVL
-p88
+p87
 aI17
 aI1
 aI5
@@ -498,15 +495,15 @@ aI1
 aI0
 aI2
 aI-18
-aa(lp89
+aa(lp88
 V0020900646
-p90
+p89
 aVJAN 24, 2010
-p91
+p90
 aVDAL @ NYK
-p92
+p91
 aVW
-p93
+p92
 aI9
 aI3
 aI4
@@ -528,10 +525,25 @@ aI0
 aI6
 aI5
 aasS'name'
-p94
+p93
 VTim Thomas
+p94
+sS'weight'
 p95
-sS'experience'
+V240
 p96
+sS'age'
+p97
+I32
+sS'experience'
+p98
 I12
+sS'height'
+p99
+V6-10
+p100
+sS'position'
+p101
+VForward
+p102
 s.

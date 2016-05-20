@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800001
-p5
+p4
 aVOCT 28, 2008
-p6
+p5
 aVCLE @ BOS
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI4
 aI2
 aI0
-aa(lp9
+aa(lp8
 V0020800016
-p10
+p9
 aVOCT 30, 2008
-p11
+p10
 aVCLE vs. CHA
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI-4
-aa(lp14
+aa(lp13
 V0020800046
-p15
+p14
 aVNOV 03, 2008
-p16
+p15
 aVCLE @ DAL
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI0
 aI1
@@ -92,15 +89,15 @@ aI1
 aI1
 aI0
 aI-3
-aa(lp19
+aa(lp18
 V0020800055
-p20
+p19
 aVNOV 05, 2008
-p21
+p20
 aVCLE vs. CHI
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0020800154
-p25
+p24
 aVNOV 18, 2008
-p26
+p25
 aVCLE @ NJN
-p27
+p26
 aVW
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp29
+aa(lp28
 V0020800186
-p30
+p29
 aVNOV 22, 2008
-p31
+p30
 aVCLE vs. ATL
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp34
+aa(lp33
 V0020800372
-p35
+p34
 aVDEC 17, 2008
-p36
+p35
 aVCLE @ MIN
-p37
+p36
 aVW
-p38
+p37
 aI2
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp39
+aa(lp38
 V0020800411
-p40
+p39
 aVDEC 23, 2008
-p41
+p40
 aVCLE vs. HOU
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp44
+aa(lp43
 V0020800476
-p45
+p44
 aVJAN 02, 2009
-p46
+p45
 aVCLE vs. CHI
-p47
+p46
 aVW
-p48
+p47
 aI6
 aI2
 aI2
@@ -266,15 +263,15 @@ aI1
 aI1
 aI4
 aI1
-aa(lp49
+aa(lp48
 V0020800515
-p50
+p49
 aVJAN 07, 2009
-p51
+p50
 aVCLE vs. CHA
+p51
+aVW
 p52
-aVW
-p53
 aI4
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp54
+aa(lp53
 V0020800560
-p55
+p54
 aVJAN 13, 2009
-p56
+p55
 aVCLE @ MEM
-p57
+p56
 aVW
-p58
+p57
 aI15
 aI1
 aI5
@@ -324,15 +321,15 @@ aI2
 aI3
 aI2
 aI3
-aa(lp59
+aa(lp58
 V0020800578
-p60
+p59
 aVJAN 15, 2009
-p61
+p60
 aVCLE @ CHI
-p62
+p61
 aVL
-p63
+p62
 aI22
 aI2
 aI3
@@ -353,15 +350,15 @@ aI1
 aI3
 aI7
 aI14
-aa(lp64
+aa(lp63
 V0020800583
-p65
+p64
 aVJAN 16, 2009
-p66
+p65
 aVCLE vs. NOH
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI7
-aa(lp69
+aa(lp68
 V0020800612
-p70
+p69
 aVJAN 19, 2009
-p71
+p70
 aVCLE @ LAL
-p72
+p71
 aVL
-p73
+p72
 aI8
 aI0
 aI2
@@ -411,15 +408,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp74
+aa(lp73
 V0020800799
-p75
+p74
 aVFEB 18, 2009
-p76
+p75
 aVCLE @ TOR
+p76
+aVW
 p77
-aVW
-p78
 aI2
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp79
+aa(lp78
 V0020800835
-p80
+p79
 aVFEB 22, 2009
-p81
+p80
 aVCLE vs. DET
-p82
+p81
 aVW
-p83
+p82
 aI2
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp84
+aa(lp83
 V0020801219
-p85
+p84
 aVAPR 15, 2009
-p86
+p85
 aVCLE vs. PHI
-p87
+p86
 aVL
-p88
+p87
 aI35
 aI2
 aI6
@@ -499,10 +496,25 @@ aI4
 aI4
 aI-13
 aasS'name'
-p89
+p88
 VLorenzen Wright
+p89
+sS'weight'
 p90
-sS'experience'
+V255
 p91
+sS'age'
+p92
+I33
+sS'experience'
+p93
 I12
+sS'height'
+p94
+V6-11
+p95
+sS'position'
+p96
+VForward-Center
+p97
 s.

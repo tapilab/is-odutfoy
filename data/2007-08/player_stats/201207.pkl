@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700002
-p5
+p4
 aVOCT 30, 2007
-p6
+p5
 aVLAL vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp9
+aa(lp8
 V0020700152
-p10
+p9
 aVNOV 20, 2007
-p11
+p10
 aVLAL @ IND
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp14
+aa(lp13
 V0020700482
-p15
+p14
 aVJAN 04, 2008
-p16
+p15
 aVLAL vs. PHI
-p17
+p16
 aVW
-p18
+p17
 aI12
 aI1
 aI3
@@ -92,15 +89,15 @@ aI2
 aI0
 aI4
 aI3
-aa(lp19
+aa(lp18
 V0020700497
-p20
+p19
 aVJAN 06, 2008
-p21
+p20
 aVLAL vs. IND
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp24
+aa(lp23
 V0020700515
-p25
+p24
 aVJAN 09, 2008
-p26
+p25
 aVLAL @ NOH
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI2
 aI3
@@ -150,15 +147,15 @@ aI0
 aI0
 aI5
 aI3
-aa(lp29
+aa(lp28
 V0020700531
-p30
+p29
 aVJAN 11, 2008
-p31
+p30
 aVLAL vs. MIL
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp34
+aa(lp33
 V0020700546
-p35
+p34
 aVJAN 13, 2008
-p36
+p35
 aVLAL vs. MEM
-p37
+p36
 aVW
-p38
+p37
 aI5
 aI0
 aI1
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI1
-aa(lp39
+aa(lp38
 V0020700607
-p40
+p39
 aVJAN 21, 2008
-p41
+p40
 aVLAL vs. DEN
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI0
 aI1
@@ -237,15 +234,15 @@ aI1
 aI0
 aI1
 aI-1
-aa(lp44
+aa(lp43
 V0020700679
-p45
+p44
 aVFEB 01, 2008
-p46
+p45
 aVLAL @ TOR
-p47
+p46
 aVW
-p48
+p47
 aI1
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp49
+aa(lp48
 V0020700696
-p50
+p49
 aVFEB 03, 2008
-p51
+p50
 aVLAL @ WAS
-p52
+p51
 aVW
-p53
+p52
 aI1
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI2
 aI0
 aI-1
-aa(lp54
+aa(lp53
 V0020700772
-p55
+p54
 aVFEB 13, 2008
-p56
+p55
 aVLAL @ MIN
-p57
+p56
 aVW
-p58
+p57
 aI7
 aI1
 aI5
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp59
+aa(lp58
 V0020700789
-p60
+p59
 aVFEB 19, 2008
-p61
+p60
 aVLAL vs. ATL
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI2
 aI4
@@ -353,15 +350,15 @@ aI0
 aI0
 aI5
 aI-3
-aa(lp64
+aa(lp63
 V0020700822
-p65
+p64
 aVFEB 23, 2008
-p66
+p65
 aVLAL @ LAC
-p67
+p66
 aVW
-p68
+p67
 aI1
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp69
+aa(lp68
 V0020700830
-p70
+p69
 aVFEB 24, 2008
-p71
+p70
 aVLAL @ SEA
-p72
+p71
 aVW
-p73
+p72
 aI3
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp74
+aa(lp73
 V0020700923
-p75
+p74
 aVMAR 07, 2008
-p76
+p75
 aVLAL vs. LAC
-p77
+p76
 aVW
-p78
+p77
 aI6
 aI2
 aI4
@@ -440,15 +437,15 @@ aI0
 aI0
 aI6
 aI3
-aa(lp79
+aa(lp78
 V0020700951
-p80
+p79
 aVMAR 11, 2008
-p81
+p80
 aVLAL vs. TOR
-p82
+p81
 aVW
-p83
+p82
 aI7
 aI1
 aI1
@@ -469,15 +466,15 @@ aI0
 aI0
 aI3
 aI7
-aa(lp84
+aa(lp83
 V0020701027
-p85
+p84
 aVMAR 21, 2008
-p86
+p85
 aVLAL vs. SEA
-p87
+p86
 aVW
-p88
+p87
 aI5
 aI0
 aI0
@@ -499,10 +496,25 @@ aI0
 aI2
 aI1
 aasS'name'
-p89
+p88
 VCoby Karl
+p89
+sS'weight'
 p90
-sS'experience'
+V215
 p91
+sS'age'
+p92
+I24
+sS'experience'
+p93
 I0
+sS'height'
+p94
+V6-5
+p95
+sS'position'
+p96
+VGuard
+p97
 s.

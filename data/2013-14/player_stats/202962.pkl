@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300025
-p5
+p4
 aVNOV 01, 2013
-p6
+p5
 aVHOU vs. DAL
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI0
 aI1
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI-9
-aa(lp9
+aa(lp8
 V0021300050
-p10
+p9
 aVNOV 04, 2013
-p11
+p10
 aVHOU @ LAC
-p12
+p11
 aVL
-p13
+p12
 aI11
 aI6
 aI6
@@ -63,15 +60,15 @@ aI1
 aI1
 aI12
 aI6
-aa(lp14
+aa(lp13
 V0021300058
-p15
+p14
 aVNOV 05, 2013
-p16
+p15
 aVHOU @ POR
+p16
+aVW
 p17
-aVW
-p18
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp19
+aa(lp18
 V0021300123
-p20
+p19
 aVNOV 14, 2013
-p21
+p20
 aVHOU @ NYK
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0021300350
-p25
+p24
 aVDEC 15, 2013
-p26
+p25
 aVHOU @ SAC
-p27
+p26
 aVL
-p28
+p27
 aI20
 aI3
 aI5
@@ -150,15 +147,15 @@ aI1
 aI6
 aI6
 aI-7
-aa(lp29
+aa(lp28
 V0021300379
-p30
+p29
 aVDEC 18, 2013
-p31
+p30
 aVHOU vs. CHI
-p32
+p31
 aVW
-p33
+p32
 aI14
 aI2
 aI3
@@ -179,15 +176,15 @@ aI1
 aI3
 aI4
 aI-4
-aa(lp34
+aa(lp33
 V0021300388
-p35
+p34
 aVDEC 20, 2013
-p36
+p35
 aVHOU @ IND
-p37
+p36
 aVL
-p38
+p37
 aI12
 aI3
 aI6
@@ -208,15 +205,15 @@ aI0
 aI3
 aI6
 aI-7
-aa(lp39
+aa(lp38
 V0021300396
-p40
+p39
 aVDEC 21, 2013
-p41
+p40
 aVHOU @ DET
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI1
 aI3
@@ -237,15 +234,15 @@ aI0
 aI1
 aI2
 aI9
-aa(lp44
+aa(lp43
 V0021300485
-p45
+p44
 aVJAN 03, 2014
-p46
+p45
 aVHOU vs. NYK
-p47
+p46
 aVW
-p48
+p47
 aI10
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI10
-aa(lp49
+aa(lp48
 V0021300533
-p50
+p49
 aVJAN 10, 2014
-p51
+p50
 aVHOU @ ATL
-p52
+p51
 aVL
-p53
+p52
 aI10
 aI2
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI4
 aI-10
-aa(lp54
+aa(lp53
 V0021300544
-p55
+p54
 aVJAN 11, 2014
-p56
+p55
 aVHOU @ WAS
-p57
+p56
 aVW
-p58
+p57
 aI13
 aI1
 aI2
@@ -325,10 +322,25 @@ aI3
 aI4
 aI-6
 aasS'name'
-p59
+p58
 VGreg Smith
+p59
+sS'weight'
 p60
-sS'experience'
+V250
 p61
+sS'age'
+p62
+I22
+sS'experience'
+p63
 I2
+sS'height'
+p64
+V6-10
+p65
+sS'position'
+p66
+VCenter
+p67
 s.

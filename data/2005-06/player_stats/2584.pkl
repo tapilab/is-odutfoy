@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020501097
-p5
+p4
 aVAPR 04, 2006
-p6
+p5
 aVPHI @ CLE
-p7
+p6
 aVL
-p8
+p7
 aI11
 aI4
 aI6
@@ -34,15 +31,15 @@ aI1
 aI1
 aI9
 aI-11
-aa(lp9
+aa(lp8
 V0020501109
-p10
+p9
 aVAPR 05, 2006
-p11
+p10
 aVPHI vs. CHI
-p12
+p11
 aVL
-p13
+p12
 aI14
 aI3
 aI9
@@ -63,15 +60,15 @@ aI1
 aI4
 aI7
 aI-14
-aa(lp14
+aa(lp13
 V0020501121
-p15
+p14
 aVAPR 07, 2006
-p16
+p15
 aVPHI vs. BOS
-p17
+p16
 aVL
-p18
+p17
 aI7
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp19
+aa(lp18
 V0020501135
-p20
+p19
 aVAPR 08, 2006
-p21
+p20
 aVPHI @ CHI
-p22
+p21
 aVW
-p23
+p22
 aI14
 aI2
 aI6
@@ -121,15 +118,15 @@ aI1
 aI1
 aI7
 aI-11
-aa(lp24
+aa(lp23
 V0020501149
-p25
+p24
 aVAPR 10, 2006
-p26
+p25
 aVPHI vs. WAS
-p27
+p26
 aVW
-p28
+p27
 aI13
 aI2
 aI3
@@ -150,15 +147,15 @@ aI0
 aI3
 aI6
 aI3
-aa(lp29
+aa(lp28
 V0020501165
-p30
+p29
 aVAPR 12, 2006
-p31
+p30
 aVPHI @ NJN
-p32
+p31
 aVW
-p33
+p32
 aI22
 aI4
 aI10
@@ -179,15 +176,15 @@ aI1
 aI1
 aI8
 aI3
-aa(lp34
+aa(lp33
 V0020501181
-p35
+p34
 aVAPR 14, 2006
-p36
+p35
 aVPHI @ MIA
-p37
+p36
 aVL
-p38
+p37
 aI8
 aI1
 aI6
@@ -208,15 +205,15 @@ aI0
 aI0
 aI3
 aI1
-aa(lp39
+aa(lp38
 V0020501188
-p40
+p39
 aVAPR 15, 2006
-p41
+p40
 aVPHI @ ORL
-p42
+p41
 aVL
-p43
+p42
 aI7
 aI2
 aI2
@@ -237,15 +234,15 @@ aI0
 aI0
 aI5
 aI9
-aa(lp44
+aa(lp43
 V0020501212
-p45
+p44
 aVAPR 18, 2006
-p46
+p45
 aVPHI vs. NJN
-p47
+p46
 aVW
-p48
+p47
 aI29
 aI5
 aI11
@@ -266,15 +263,15 @@ aI5
 aI0
 aI14
 aI5
-aa(lp49
+aa(lp48
 V0020501221
-p50
+p49
 aVAPR 19, 2006
-p51
+p50
 aVPHI @ CHA
-p52
+p51
 aVL
-p53
+p52
 aI29
 aI5
 aI11
@@ -296,10 +293,25 @@ aI2
 aI11
 aI-7
 aasS'name'
-p54
+p53
 VWillie Green
+p54
+sS'weight'
 p55
-sS'experience'
+V205
 p56
+sS'age'
+p57
+I24
+sS'experience'
+p58
 I2
+sS'height'
+p59
+V6-3
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

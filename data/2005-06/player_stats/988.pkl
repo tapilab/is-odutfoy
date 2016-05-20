@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020501005
-p5
+p4
 aVMAR 22, 2006
-p6
+p5
 aVCHI @ IND
-p7
+p6
 aVL
-p8
+p7
 aI9
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI4
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0020501080
-p10
+p9
 aVAPR 01, 2006
-p11
+p10
 aVCHI vs. BOS
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI1
 aI1
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0020501135
-p15
+p14
 aVAPR 08, 2006
-p16
+p15
 aVCHI vs. PHI
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp19
+aa(lp18
 V0020501158
-p20
+p19
 aVAPR 11, 2006
-p21
+p20
 aVCHI vs. NJN
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0020501162
-p25
+p24
 aVAPR 12, 2006
-p26
+p25
 aVCHI @ ATL
-p27
+p26
 aVW
-p28
+p27
 aI6
 aI0
 aI1
@@ -151,10 +148,25 @@ aI1
 aI0
 aI0
 aasS'name'
-p29
+p28
 VRandy Livingston
+p29
+sS'weight'
 p30
-sS'experience'
+V209
 p31
+sS'age'
+p32
+I30
+sS'experience'
+p33
 I9
+sS'height'
+p34
+V6-4
+p35
+sS'position'
+p36
+VGuard
+p37
 s.

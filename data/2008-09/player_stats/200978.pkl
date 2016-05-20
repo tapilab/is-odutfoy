@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800223
-p5
+p4
 aVNOV 27, 2008
-p6
+p5
 aVORL @ WAS
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp9
+aa(lp8
 V0020800528
-p10
+p9
 aVJAN 09, 2009
-p11
+p10
 aVORL vs. ATL
-p12
+p11
 aVW
-p13
+p12
 aI15
 aI2
 aI8
@@ -63,15 +60,15 @@ aI1
 aI0
 aI7
 aI-16
-aa(lp14
+aa(lp13
 V0020800565
-p15
+p14
 aVJAN 13, 2009
-p16
+p15
 aVORL @ SAC
-p17
+p16
 aVW
-p18
+p17
 aI7
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI2
 aI3
 aI5
-aa(lp19
+aa(lp18
 V0020800720
-p20
+p19
 aVFEB 04, 2009
-p21
+p20
 aVORL vs. LAC
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI1
 aI3
@@ -121,15 +118,15 @@ aI1
 aI1
 aI2
 aI-5
-aa(lp24
+aa(lp23
 V0020800802
-p25
+p24
 aVFEB 18, 2009
-p26
+p25
 aVORL @ NOH
-p27
+p26
 aVL
-p28
+p27
 aI9
 aI2
 aI4
@@ -150,15 +147,15 @@ aI0
 aI0
 aI6
 aI-5
-aa(lp29
+aa(lp28
 V0020800832
-p30
+p29
 aVFEB 22, 2009
-p31
+p30
 aVORL vs. MIA
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp34
+aa(lp33
 V0020800845
-p35
+p34
 aVFEB 24, 2009
-p36
+p35
 aVORL @ CHI
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI2
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0020800956
-p40
+p39
 aVMAR 11, 2009
-p41
+p40
 aVORL vs. CHI
-p42
+p41
 aVW
-p43
+p42
 aI9
 aI2
 aI6
@@ -237,15 +234,15 @@ aI0
 aI0
 aI6
 aI-5
-aa(lp44
+aa(lp43
 V0020801014
-p45
+p44
 aVMAR 18, 2009
-p46
+p45
 aVORL @ MIL
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0020801073
-p50
+p49
 aVMAR 27, 2009
-p51
+p50
 aVORL vs. MIL
-p52
+p51
 aVW
-p53
+p52
 aI3
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI0
 aI2
 aI-5
-aa(lp54
+aa(lp53
 V0020801206
-p55
+p54
 aVAPR 13, 2009
-p56
+p55
 aVORL @ MIL
-p57
+p56
 aVL
-p58
+p57
 aI25
 aI2
 aI14
@@ -324,15 +321,15 @@ aI0
 aI2
 aI4
 aI-7
-aa(lp59
+aa(lp58
 V0020801226
-p60
+p59
 aVAPR 15, 2009
-p61
+p60
 aVORL vs. CHA
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI3
 aI5
@@ -354,10 +351,25 @@ aI0
 aI7
 aI3
 aasS'name'
-p64
+p63
 VJeremy Richardson
+p64
+sS'weight'
 p65
-sS'experience'
+V195
 p66
+sS'age'
+p67
+I24
+sS'experience'
+p68
 I2
+sS'height'
+p69
+V6-7
+p70
+sS'position'
+p71
+VGuard-Forward
+p72
 s.

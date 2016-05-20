@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100034
-p5
+p4
 aVDEC 29, 2011
-p6
+p5
 aVHOU vs. SAS
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI3
 aI3
@@ -34,15 +31,15 @@ aI0
 aI0
 aI6
 aI-3
-aa(lp9
+aa(lp8
 V0021100093
-p10
+p9
 aVJAN 04, 2012
-p11
+p10
 aVHOU @ LAC
-p12
+p11
 aVL
-p13
+p12
 aI7
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI2
 aI0
 aI-4
-aa(lp14
+aa(lp13
 V0021100279
-p15
+p14
 aVJAN 27, 2012
-p16
+p15
 aVHOU vs. WAS
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0021100287
-p20
+p19
 aVJAN 28, 2012
-p21
+p20
 aVHOU vs. NYK
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp24
+aa(lp23
 V0021100632
-p25
+p24
 aVMAR 14, 2012
-p26
+p25
 aVHOU vs. CHA
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI2
 aI0
 aI-5
-aa(lp29
+aa(lp28
 V0021100682
-p30
+p29
 aVMAR 20, 2012
-p31
+p30
 aVPOR vs. MIL
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI0
 aI2
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI-6
-aa(lp34
+aa(lp33
 V0021100741
-p35
+p34
 aVMAR 27, 2012
-p36
+p35
 aVPOR vs. OKC
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI2
 aI5
-aa(lp39
+aa(lp38
 V0021100767
-p40
+p39
 aVMAR 30, 2012
-p41
+p40
 aVPOR @ LAC
-p42
+p41
 aVL
-p43
+p42
 aI8
 aI1
 aI1
@@ -237,15 +234,15 @@ aI0
 aI4
 aI2
 aI1
-aa(lp44
+aa(lp43
 V0021100790
-p45
+p44
 aVAPR 02, 2012
-p46
+p45
 aVPOR vs. UTA
-p47
+p46
 aVL
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp49
+aa(lp48
 V0021100809
-p50
+p49
 aVAPR 04, 2012
-p51
+p50
 aVPOR vs. NJN
-p52
+p51
 aVW
-p53
+p52
 aI2
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI0
 aI0
 aI-4
-aa(lp54
+aa(lp53
 V0021100821
-p55
+p54
 aVAPR 06, 2012
-p56
+p55
 aVPOR @ DAL
-p57
+p56
 aVW
-p58
+p57
 aI9
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI0
 aI0
 aI-1
-aa(lp59
+aa(lp58
 V0021100831
-p60
+p59
 aVAPR 07, 2012
-p61
+p60
 aVPOR @ MIL
-p62
+p61
 aVL
-p63
+p62
 aI2
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp64
+aa(lp63
 V0021100851
-p65
+p64
 aVAPR 09, 2012
-p66
+p65
 aVPOR vs. HOU
-p67
+p66
 aVL
-p68
+p67
 aI3
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp69
+aa(lp68
 V0021100868
-p70
+p69
 aVAPR 11, 2012
-p71
+p70
 aVPOR vs. GSW
-p72
+p71
 aVW
-p73
+p72
 aI3
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI1
 aI-3
-aa(lp74
+aa(lp73
 V0021100885
-p75
+p74
 aVAPR 13, 2012
-p76
+p75
 aVPOR vs. DAL
-p77
+p76
 aVL
-p78
+p77
 aI8
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI4
 aI-10
-aa(lp79
+aa(lp78
 V0021100899
-p80
+p79
 aVAPR 15, 2012
-p81
+p80
 aVPOR @ SAC
-p82
+p81
 aVL
-p83
+p82
 aI13
 aI1
 aI2
@@ -469,15 +466,15 @@ aI0
 aI2
 aI2
 aI-12
-aa(lp84
+aa(lp83
 V0021100910
-p85
+p84
 aVAPR 16, 2012
-p86
+p85
 aVPOR @ PHX
-p87
+p86
 aVL
-p88
+p87
 aI13
 aI1
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI5
 aI0
-aa(lp89
+aa(lp88
 V0021100930
-p90
+p89
 aVAPR 18, 2012
-p91
+p90
 aVPOR vs. UTA
-p92
+p91
 aVL
-p93
+p92
 aI17
 aI1
 aI2
@@ -527,15 +524,15 @@ aI3
 aI2
 aI4
 aI-17
-aa(lp94
+aa(lp93
 V0021100947
-p95
+p94
 aVAPR 21, 2012
-p96
+p95
 aVPOR @ MEM
-p97
+p96
 aVL
-p98
+p97
 aI20
 aI1
 aI5
@@ -556,15 +553,15 @@ aI1
 aI2
 aI3
 aI-7
-aa(lp99
+aa(lp98
 V0021100965
-p100
+p99
 aVAPR 23, 2012
-p101
+p100
 aVPOR @ SAS
-p102
+p101
 aVL
-p103
+p102
 aI10
 aI2
 aI2
@@ -586,10 +583,25 @@ aI3
 aI4
 aI-8
 aasS'name'
-p104
+p103
 VHasheem Thabeet
+p104
+sS'weight'
 p105
-sS'experience'
+V263
 p106
+sS'age'
+p107
+I24
+sS'experience'
+p108
 I2
+sS'height'
+p109
+V7-3
+p110
+sS'position'
+p111
+VCenter
+p112
 s.

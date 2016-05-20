@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700068
-p5
+p4
 aVNOV 09, 2007
-p6
+p5
 aVBOS vs. ATL
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI2
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI4
 aI2
-aa(lp9
+aa(lp8
 V0020700108
-p10
+p9
 aVNOV 14, 2007
-p11
+p10
 aVBOS vs. NJN
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp14
+aa(lp13
 V0020700221
-p15
+p14
 aVNOV 29, 2007
-p16
+p15
 aVBOS vs. NYK
-p17
+p16
 aVW
-p18
+p17
 aI13
 aI1
 aI6
@@ -92,15 +89,15 @@ aI0
 aI1
 aI2
 aI4
-aa(lp19
+aa(lp18
 V0020700330
-p20
+p19
 aVDEC 14, 2007
-p21
+p20
 aVBOS vs. MIL
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI3
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI7
 aI1
-aa(lp24
+aa(lp23
 V0020700351
-p25
+p24
 aVDEC 16, 2007
-p26
+p25
 aVBOS @ TOR
-p27
+p26
 aVW
-p28
+p27
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp29
+aa(lp28
 V0020700448
-p30
+p29
 aVDEC 30, 2007
-p31
+p30
 aVBOS @ LAL
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0020700511
-p35
+p34
 aVJAN 09, 2008
-p36
+p35
 aVBOS vs. CHA
-p37
+p36
 aVL
-p38
+p37
 aI1
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020700566
-p40
+p39
 aVJAN 16, 2008
-p41
+p40
 aVBOS vs. POR
-p42
+p41
 aVW
-p43
+p42
 aI12
 aI1
 aI6
@@ -237,15 +234,15 @@ aI0
 aI2
 aI2
 aI-3
-aa(lp44
+aa(lp43
 V0020700576
-p45
+p44
 aVJAN 18, 2008
-p46
+p45
 aVBOS vs. PHI
-p47
+p46
 aVW
-p48
+p47
 aI9
 aI1
 aI3
@@ -266,15 +263,15 @@ aI2
 aI0
 aI3
 aI1
-aa(lp49
+aa(lp48
 V0020700644
-p50
+p49
 aVJAN 27, 2008
-p51
+p50
 aVBOS @ ORL
-p52
+p51
 aVL
-p53
+p52
 aI0
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp54
+aa(lp53
 V0020700659
-p55
+p54
 aVJAN 29, 2008
-p56
+p55
 aVBOS @ MIA
-p57
+p56
 aVW
-p58
+p57
 aI10
 aI0
 aI2
@@ -324,15 +321,15 @@ aI1
 aI0
 aI0
 aI-9
-aa(lp59
+aa(lp58
 V0020700836
-p60
+p59
 aVFEB 25, 2008
-p61
+p60
 aVBOS @ LAC
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI3
 aI4
@@ -353,15 +350,15 @@ aI1
 aI1
 aI6
 aI4
-aa(lp64
+aa(lp63
 V0020701180
-p65
+p64
 aVAPR 11, 2008
-p66
+p65
 aVBOS vs. MIL
-p67
+p66
 aVW
-p68
+p67
 aI8
 aI1
 aI2
@@ -382,15 +379,15 @@ aI1
 aI1
 aI2
 aI-2
-aa(lp69
+aa(lp68
 V0020701206
-p70
+p69
 aVAPR 14, 2008
-p71
+p70
 aVBOS @ NYK
-p72
+p71
 aVW
-p73
+p72
 aI7
 aI0
 aI2
@@ -411,15 +408,15 @@ aI0
 aI2
 aI1
 aI-3
-aa(lp74
+aa(lp73
 V0020701221
-p75
+p74
 aVAPR 16, 2008
-p76
+p75
 aVBOS vs. NJN
-p77
+p76
 aVW
-p78
+p77
 aI13
 aI2
 aI6
@@ -441,10 +438,25 @@ aI2
 aI5
 aI-1
 aasS'name'
-p79
+p78
 VGabe Pruitt
+p79
+sS'weight'
 p80
-sS'experience'
+V170
 p81
+sS'age'
+p82
+I21
+sS'experience'
+p83
 I0
+sS'height'
+p84
+V6-4
+p85
+sS'position'
+p86
+VGuard
+p87
 s.

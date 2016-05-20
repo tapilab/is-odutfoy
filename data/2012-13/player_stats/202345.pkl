@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200566
-p5
+p4
 aVJAN 15, 2013
-p6
+p5
 aVBKN vs. TOR
+p6
+aVW
 p7
-aVW
-p8
 aI0
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0021200609
-p10
+p9
 aVJAN 21, 2013
-p11
+p10
 aVBKN @ NYK
-p12
+p11
 aVW
-p13
+p12
 aI0
 aI0
 aI0
@@ -64,10 +61,25 @@ aI0
 aI0
 aI-1
 aasS'name'
-p14
+p13
 VDamion James
+p14
+sS'weight'
 p15
-sS'experience'
+V225
 p16
+sS'age'
+p17
+I25
+sS'experience'
+p18
 I2
+sS'height'
+p19
+V6-7
+p20
+sS'position'
+p21
+VForward
+p22
 s.

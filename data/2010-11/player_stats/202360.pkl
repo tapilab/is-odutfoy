@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000104
-p5
+p4
 aVNOV 09, 2010
-p6
+p5
 aVNYK @ MIL
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI3
@@ -34,15 +31,15 @@ aI3
 aI0
 aI3
 aI-5
-aa(lp9
+aa(lp8
 V0021000234
-p10
+p9
 aVNOV 27, 2010
-p11
+p10
 aVNYK vs. ATL
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp14
+aa(lp13
 V0021000533
-p15
+p14
 aVJAN 07, 2011
-p16
+p15
 aVNYK @ PHX
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI-7
-aa(lp19
+aa(lp18
 V0021000723
-p20
+p19
 aVFEB 02, 2011
-p21
+p20
 aVNYK vs. DAL
-p22
+p21
 aVL
-p23
+p22
 aI4
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI0
 aI1
 aI3
-aa(lp24
+aa(lp23
 V0021000942
-p25
+p24
 aVMAR 07, 2011
-p26
+p25
 aVNYK vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI5
 aI1
 aI2
@@ -151,10 +148,25 @@ aI0
 aI2
 aI-6
 aasS'name'
-p29
+p28
 VAndy Rautins
+p29
+sS'weight'
 p30
-sS'experience'
+V190
 p31
+sS'age'
+p32
+I24
+sS'experience'
+p33
 I0
+sS'height'
+p34
+V6-4
+p35
+sS'position'
+p36
+VGuard
+p37
 s.

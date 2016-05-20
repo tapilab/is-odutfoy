@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900497
-p5
+p4
 aVJAN 04, 2010
-p6
+p5
 aVPOR @ LAC
-p7
+p6
 aVL
-p8
+p7
 aI5
 aI0
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI5
-aa(lp9
+aa(lp8
 V0020900710
-p10
+p9
 aVFEB 01, 2010
-p11
+p10
 aVPOR vs. CHA
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI1
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020900728
-p15
+p14
 aVFEB 03, 2010
-p16
+p15
 aVPOR @ UTA
-p17
+p16
 aVL
-p18
+p17
 aI1
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp19
+aa(lp18
 V0020900750
-p20
+p19
 aVFEB 06, 2010
-p21
+p20
 aVPOR vs. LAL
-p22
+p21
 aVL
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI1
 aI2
-aa(lp24
+aa(lp23
 V0020900788
-p25
+p24
 aVFEB 16, 2010
-p26
+p25
 aVPOR vs. LAC
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI1
 aI2
@@ -150,15 +147,15 @@ aI1
 aI0
 aI2
 aI-2
-aa(lp29
+aa(lp28
 V0020900815
-p30
+p29
 aVFEB 19, 2010
-p31
+p30
 aVPOR vs. BOS
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp34
+aa(lp33
 V0020900846
-p35
+p34
 aVFEB 24, 2010
-p36
+p35
 aVPOR @ TOR
-p37
+p36
 aVW
-p38
+p37
 aI1
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020900875
-p40
+p39
 aVFEB 27, 2010
-p41
+p40
 aVPOR @ MIN
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI3
 aI5
@@ -237,15 +234,15 @@ aI0
 aI0
 aI8
 aI-10
-aa(lp44
+aa(lp43
 V0020900909
-p45
+p44
 aVMAR 03, 2010
-p46
+p45
 aVPOR vs. IND
-p47
+p46
 aVW
-p48
+p47
 aI6
 aI0
 aI3
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0020901229
-p50
+p49
 aVAPR 14, 2010
-p51
+p50
 aVPOR vs. GSW
-p52
+p51
 aVL
-p53
+p52
 aI13
 aI4
 aI8
@@ -296,10 +293,25 @@ aI4
 aI11
 aI-8
 aasS'name'
-p54
+p53
 VPatty Mills
+p54
+sS'weight'
 p55
-sS'experience'
+V185
 p56
+sS'age'
+p57
+I21
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V6-0
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

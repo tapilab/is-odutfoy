@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800073
-p5
+p4
 aVNOV 07, 2008
-p6
+p5
 aVCHI vs. PHX
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp9
+aa(lp8
 V0020800137
-p10
+p9
 aVNOV 15, 2008
-p11
+p10
 aVCHI vs. IND
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp14
+aa(lp13
 V0020800158
-p15
+p14
 aVNOV 18, 2008
-p16
+p15
 aVCHI @ LAL
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI1
 aI7
-aa(lp19
+aa(lp18
 V0020800168
-p20
+p19
 aVNOV 19, 2008
-p21
+p20
 aVCHI @ POR
-p22
+p21
 aVL
-p23
+p22
 aI9
 aI1
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI3
 aI2
-aa(lp24
+aa(lp23
 V0020800380
-p25
+p24
 aVDEC 19, 2008
-p26
+p25
 aVCHI @ BOS
-p27
+p26
 aVL
-p28
+p27
 aI12
 aI3
 aI6
@@ -150,15 +147,15 @@ aI0
 aI1
 aI8
 aI-2
-aa(lp29
+aa(lp28
 V0020800426
-p30
+p29
 aVDEC 26, 2008
-p31
+p30
 aVCHI @ MIA
+p31
+aVL
 p32
-aVL
-p33
 aI1
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp34
+aa(lp33
 V0020800436
-p35
+p34
 aVDEC 27, 2008
-p36
+p35
 aVCHI @ ATL
-p37
+p36
 aVL
-p38
+p37
 aI4
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp39
+aa(lp38
 V0020800467
-p40
+p39
 aVDEC 31, 2008
-p41
+p40
 aVCHI vs. ORL
-p42
+p41
 aVL
-p43
+p42
 aI5
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp44
+aa(lp43
 V0020800476
-p45
+p44
 aVJAN 02, 2009
-p46
+p45
 aVCHI @ CLE
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI4
 aI8
@@ -266,15 +263,15 @@ aI0
 aI2
 aI9
 aI-4
-aa(lp49
+aa(lp48
 V0020800678
-p50
+p49
 aVJAN 28, 2009
-p51
+p50
 aVCHI @ LAC
-p52
+p51
 aVW
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0020800691
-p55
+p54
 aVJAN 30, 2009
-p56
+p55
 aVCHI @ SAC
-p57
+p56
 aVW
-p58
+p57
 aI4
 aI2
 aI2
@@ -324,15 +321,15 @@ aI0
 aI1
 aI5
 aI-2
-aa(lp59
+aa(lp58
 V0020800840
-p60
+p59
 aVFEB 23, 2009
-p61
+p60
 aVSAC vs. NOH
-p62
+p61
 aVL
-p63
+p62
 aI6
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp64
+aa(lp63
 V0020800874
-p65
+p64
 aVFEB 27, 2009
-p66
+p65
 aVSAC vs. LAC
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-11
-aa(lp69
+aa(lp68
 V0020800881
-p70
+p69
 aVFEB 28, 2009
-p71
+p70
 aVSAC @ UTA
-p72
+p71
 aVL
-p73
+p72
 aI3
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp74
+aa(lp73
 V0020801132
-p75
+p74
 aVAPR 03, 2009
-p76
+p75
 aVSAC @ PHX
-p77
+p76
 aVL
-p78
+p77
 aI5
 aI0
 aI2
@@ -440,15 +437,15 @@ aI1
 aI1
 aI1
 aI-6
-aa(lp79
+aa(lp78
 V0020801160
-p80
+p79
 aVAPR 07, 2009
-p81
+p80
 aVSAC vs. LAL
-p82
+p81
 aVL
-p83
+p82
 aI3
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp84
+aa(lp83
 V0020801209
-p85
+p84
 aVAPR 13, 2009
-p86
+p85
 aVSAC @ DEN
-p87
+p86
 aVL
-p88
+p87
 aI3
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp89
+aa(lp88
 V0020801224
-p90
+p89
 aVAPR 15, 2009
-p91
+p90
 aVSAC @ MIN
-p92
+p91
 aVW
-p93
+p92
 aI2
 aI0
 aI0
@@ -528,10 +525,25 @@ aI0
 aI0
 aI4
 aasS'name'
-p94
+p93
 VCedric Simmons
+p94
+sS'weight'
 p95
-sS'experience'
+V235
 p96
+sS'age'
+p97
+I22
+sS'experience'
+p98
 I2
+sS'height'
+p99
+V6-9
+p100
+sS'position'
+p101
+VForward
+p102
 s.

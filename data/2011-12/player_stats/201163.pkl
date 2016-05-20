@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100674
-p5
+p4
 aVMAR 19, 2012
-p6
+p5
 aVDEN vs. DAL
-p7
+p6
 aVL
-p8
+p7
 aI28
 aI6
 aI16
@@ -34,15 +31,15 @@ aI1
 aI2
 aI13
 aI-1
-aa(lp9
+aa(lp8
 V0021100691
-p10
+p9
 aVMAR 21, 2012
-p11
+p10
 aVDEN vs. DET
-p12
+p11
 aVW
-p13
+p12
 aI33
 aI4
 aI11
@@ -63,15 +60,15 @@ aI4
 aI3
 aI11
 aI0
-aa(lp14
+aa(lp13
 V0021100708
-p15
+p14
 aVMAR 23, 2012
-p16
+p15
 aVDEN @ UTA
-p17
+p16
 aVL
-p18
+p17
 aI27
 aI5
 aI11
@@ -92,15 +89,15 @@ aI1
 aI3
 aI13
 aI-23
-aa(lp19
+aa(lp18
 V0021100720
-p20
+p19
 aVMAR 25, 2012
-p21
+p20
 aVDEN @ MIN
-p22
+p21
 aVL
-p23
+p22
 aI33
 aI5
 aI10
@@ -121,15 +118,15 @@ aI3
 aI2
 aI12
 aI4
-aa(lp24
+aa(lp23
 V0021100733
-p25
+p24
 aVMAR 26, 2012
-p26
+p25
 aVDEN @ CHI
-p27
+p26
 aVW
-p28
+p27
 aI35
 aI3
 aI10
@@ -150,15 +147,15 @@ aI2
 aI3
 aI7
 aI19
-aa(lp29
+aa(lp28
 V0021100743
-p30
+p29
 aVMAR 28, 2012
-p31
+p30
 aVDEN @ TOR
-p32
+p31
 aVL
-p33
+p32
 aI33
 aI5
 aI14
@@ -179,15 +176,15 @@ aI2
 aI2
 aI13
 aI-8
-aa(lp34
+aa(lp33
 V0021100759
-p35
+p34
 aVMAR 30, 2012
-p36
+p35
 aVDEN @ CHA
-p37
+p36
 aVW
-p38
+p37
 aI19
 aI3
 aI5
@@ -208,15 +205,15 @@ aI5
 aI3
 aI6
 aI-6
-aa(lp39
+aa(lp38
 V0021100901
-p40
+p39
 aVAPR 15, 2012
-p41
+p40
 aVDEN vs. HOU
-p42
+p41
 aVW
-p43
+p42
 aI7
 aI0
 aI2
@@ -238,10 +235,25 @@ aI0
 aI0
 aI-4
 aasS'name'
-p44
+p43
 VWilson Chandler
+p44
+sS'weight'
 p45
-sS'experience'
+V225
 p46
+sS'age'
+p47
+I24
+sS'experience'
+p48
 I4
+sS'height'
+p49
+V6-8
+p50
+sS'position'
+p51
+VForward
+p52
 s.

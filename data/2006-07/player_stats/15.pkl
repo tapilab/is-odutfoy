@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I36
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600088
-p5
+p4
 aVNOV 11, 2006
-p6
+p5
 aVPHX vs. MEM
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-14
-aa(lp9
+aa(lp8
 V0020600799
-p10
+p9
 aVFEB 20, 2007
-p11
+p10
 aVPHX @ LAC
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI3
 aI5
-aa(lp14
+aa(lp13
 V0020600877
-p15
+p14
 aVMAR 02, 2007
-p16
+p15
 aVPHX vs. IND
-p17
+p16
 aVW
-p18
+p17
 aI21
 aI4
 aI9
@@ -92,15 +89,15 @@ aI1
 aI4
 aI11
 aI12
-aa(lp19
+aa(lp18
 V0020600890
-p20
+p19
 aVMAR 04, 2007
-p21
+p20
 aVPHX vs. LAL
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI0
 aI0
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI3
-aa(lp24
+aa(lp23
 V0020600915
-p25
+p24
 aVMAR 07, 2007
-p26
+p25
 aVPHX vs. CHA
-p27
+p26
 aVW
-p28
+p27
 aI8
 aI1
 aI3
@@ -150,15 +147,15 @@ aI1
 aI0
 aI3
 aI-3
-aa(lp29
+aa(lp28
 V0020600925
-p30
+p29
 aVMAR 09, 2007
-p31
+p30
 aVPHX vs. NOK
-p32
+p31
 aVW
-p33
+p32
 aI7
 aI2
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI6
 aI-4
-aa(lp34
+aa(lp33
 V0020600946
-p35
+p34
 aVMAR 12, 2007
-p36
+p35
 aVPHX vs. HOU
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI0
 aI2
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp39
+aa(lp38
 V0020600976
-p40
+p39
 aVMAR 16, 2007
-p41
+p40
 aVPHX vs. DET
-p42
+p41
 aVL
-p43
+p42
 aI5
 aI0
 aI1
@@ -237,15 +234,15 @@ aI2
 aI0
 aI0
 aI-3
-aa(lp44
+aa(lp43
 V0020600986
-p45
+p44
 aVMAR 17, 2007
-p46
+p45
 aVPHX @ DEN
-p47
+p46
 aVL
-p48
+p47
 aI7
 aI1
 aI2
@@ -266,15 +263,15 @@ aI0
 aI0
 aI2
 aI-8
-aa(lp49
+aa(lp48
 V0020601092
-p50
+p49
 aVAPR 01, 2007
-p51
+p50
 aVPHX vs. DAL
-p52
+p51
 aVW
-p53
+p52
 aI1
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp54
+aa(lp53
 V0020601192
-p55
+p54
 aVAPR 14, 2007
-p56
+p55
 aVPHX @ UTA
-p57
+p56
 aVW
-p58
+p57
 aI3
 aI0
 aI1
@@ -325,10 +322,25 @@ aI1
 aI2
 aI1
 aasS'name'
-p59
+p58
 VEric Piatkowski
+p59
+sS'weight'
 p60
-sS'experience'
+V215
 p61
+sS'age'
+p62
+I36
+sS'experience'
+p63
 I12
+sS'height'
+p64
+V6-7
+p65
+sS'position'
+p66
+VGuard-Forward
+p67
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300597
-p5
+p4
 aVJAN 18, 2014
-p6
+p5
 aVHOU vs. MIL
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0021300614
-p10
+p9
 aVJAN 20, 2014
-p11
+p10
 aVHOU vs. POR
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0021300627
-p15
+p14
 aVJAN 22, 2014
-p16
+p15
 aVHOU vs. SAC
-p17
+p16
 aVW
-p18
+p17
 aI10
 aI2
 aI5
@@ -92,15 +89,15 @@ aI0
 aI1
 aI5
 aI-3
-aa(lp19
+aa(lp18
 V0021300649
-p20
+p19
 aVJAN 25, 2014
-p21
+p20
 aVHOU @ MEM
-p22
+p21
 aVL
-p23
+p22
 aI7
 aI2
 aI4
@@ -121,15 +118,15 @@ aI0
 aI1
 aI6
 aI8
-aa(lp24
+aa(lp23
 V0021300729
-p25
+p24
 aVFEB 05, 2014
-p26
+p25
 aVHOU vs. PHX
-p27
+p26
 aVW
-p28
+p27
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0021301171
-p30
+p29
 aVAPR 09, 2014
-p31
+p30
 aVHOU @ DEN
-p32
+p31
 aVL
-p33
+p32
 aI11
 aI2
 aI3
@@ -179,15 +176,15 @@ aI1
 aI0
 aI5
 aI15
-aa(lp34
+aa(lp33
 V0021301219
-p35
+p34
 aVAPR 16, 2014
-p36
+p35
 aVHOU @ NOP
-p37
+p36
 aVL
-p38
+p37
 aI4
 aI0
 aI2
@@ -209,10 +206,25 @@ aI1
 aI0
 aI-3
 aasS'name'
-p39
+p38
 VRobert Covington
+p39
+sS'weight'
 p40
-sS'experience'
+V215
 p41
+sS'age'
+p42
+I23
+sS'experience'
+p43
 I0
+sS'height'
+p44
+V6-9
+p45
+sS'position'
+p46
+VForward
+p47
 s.

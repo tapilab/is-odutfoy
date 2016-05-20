@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300004
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVBKN @ CLE
-p7
+p6
 aVL
-p8
+p7
 aI23
 aI4
 aI11
@@ -34,15 +31,15 @@ aI1
 aI3
 aI9
 aI-12
-aa(lp9
+aa(lp8
 V0021300028
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVBKN vs. MIA
-p12
+p11
 aVW
-p13
+p12
 aI25
 aI2
 aI5
@@ -63,15 +60,15 @@ aI0
 aI4
 aI8
 aI-14
-aa(lp14
+aa(lp13
 V0021300043
-p15
+p14
 aVNOV 03, 2013
-p16
+p15
 aVBKN @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI19
 aI2
 aI5
@@ -92,15 +89,15 @@ aI0
 aI1
 aI7
 aI-7
-aa(lp19
+aa(lp18
 V0021300052
-p20
+p19
 aVNOV 05, 2013
-p21
+p20
 aVBKN vs. UTA
-p22
+p21
 aVW
-p23
+p22
 aI12
 aI1
 aI4
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI-8
-aa(lp24
+aa(lp23
 V0021300077
-p25
+p24
 aVNOV 08, 2013
-p26
+p25
 aVBKN @ WAS
-p27
+p26
 aVL
-p28
+p27
 aI15
 aI3
 aI6
@@ -150,15 +147,15 @@ aI1
 aI3
 aI6
 aI7
-aa(lp29
+aa(lp28
 V0021300087
-p30
+p29
 aVNOV 09, 2013
-p31
+p30
 aVBKN vs. IND
-p32
+p31
 aVL
-p33
+p32
 aI17
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI2
 aI4
 aI10
-aa(lp34
+aa(lp33
 V0021300121
-p35
+p34
 aVNOV 13, 2013
-p36
+p35
 aVBKN @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI16
 aI1
 aI4
@@ -208,15 +205,15 @@ aI2
 aI3
 aI3
 aI2
-aa(lp39
+aa(lp38
 V0021300132
-p40
+p39
 aVNOV 15, 2013
-p41
+p40
 aVBKN @ PHX
-p42
+p41
 aVW
-p43
+p42
 aI11
 aI1
 aI4
@@ -237,15 +234,15 @@ aI0
 aI0
 aI3
 aI-7
-aa(lp44
+aa(lp43
 V0021300146
-p45
+p44
 aVNOV 16, 2013
-p46
+p45
 aVBKN @ LAC
-p47
+p46
 aVL
-p48
+p47
 aI32
 aI4
 aI9
@@ -266,15 +263,15 @@ aI1
 aI1
 aI15
 aI-14
-aa(lp49
+aa(lp48
 V0021300150
-p50
+p49
 aVNOV 18, 2013
-p51
+p50
 aVBKN vs. POR
-p52
+p51
 aVL
-p53
+p52
 aI20
 aI2
 aI4
@@ -295,15 +292,15 @@ aI0
 aI3
 aI11
 aI-5
-aa(lp54
+aa(lp53
 V0021300161
-p55
+p54
 aVNOV 20, 2013
-p56
+p55
 aVBKN @ CHA
-p57
+p56
 aVL
-p58
+p57
 aI29
 aI5
 aI10
@@ -324,15 +321,15 @@ aI0
 aI2
 aI16
 aI-1
-aa(lp59
+aa(lp58
 V0021300182
-p60
+p59
 aVNOV 22, 2013
-p61
+p60
 aVBKN @ MIN
-p62
+p61
 aVL
-p63
+p62
 aI26
 aI5
 aI11
@@ -353,15 +350,15 @@ aI1
 aI2
 aI11
 aI-5
-aa(lp64
+aa(lp63
 V0021300197
-p65
+p64
 aVNOV 24, 2013
-p66
+p65
 aVBKN vs. DET
-p67
+p66
 aVL
-p68
+p67
 aI27
 aI3
 aI8
@@ -382,15 +379,15 @@ aI1
 aI3
 aI7
 aI-4
-aa(lp69
+aa(lp68
 V0021300211
-p70
+p69
 aVNOV 26, 2013
-p71
+p70
 aVBKN @ TOR
-p72
+p71
 aVW
-p73
+p72
 aI28
 aI3
 aI8
@@ -411,15 +408,15 @@ aI0
 aI2
 aI6
 aI-9
-aa(lp74
+aa(lp73
 V0021300218
-p75
+p74
 aVNOV 27, 2013
-p76
+p75
 aVBKN vs. LAL
-p77
+p76
 aVL
-p78
+p77
 aI35
 aI5
 aI13
@@ -440,15 +437,15 @@ aI0
 aI2
 aI14
 aI0
-aa(lp79
+aa(lp78
 V0021300234
-p80
+p79
 aVNOV 29, 2013
-p81
+p80
 aVBKN @ HOU
-p82
+p81
 aVL
-p83
+p82
 aI23
 aI5
 aI7
@@ -469,15 +466,15 @@ aI1
 aI0
 aI12
 aI-9
-aa(lp84
+aa(lp83
 V0021300243
-p85
+p84
 aVNOV 30, 2013
-p86
+p85
 aVBKN @ MEM
-p87
+p86
 aVW
-p88
+p87
 aI28
 aI0
 aI6
@@ -498,15 +495,15 @@ aI1
 aI2
 aI0
 aI-8
-aa(lp89
+aa(lp88
 V0021300263
-p90
+p89
 aVDEC 03, 2013
-p91
+p90
 aVBKN vs. DEN
-p92
+p91
 aVL
-p93
+p92
 aI30
 aI3
 aI6
@@ -527,15 +524,15 @@ aI3
 aI2
 aI8
 aI-10
-aa(lp94
+aa(lp93
 V0021300277
-p95
+p94
 aVDEC 05, 2013
-p96
+p95
 aVBKN vs. NYK
-p97
+p96
 aVL
-p98
+p97
 aI31
 aI3
 aI9
@@ -556,15 +553,15 @@ aI2
 aI4
 aI8
 aI-21
-aa(lp99
+aa(lp98
 V0021300295
-p100
+p99
 aVDEC 07, 2013
-p101
+p100
 aVBKN @ MIL
-p102
+p101
 aVW
-p103
+p102
 aI38
 aI5
 aI11
@@ -585,15 +582,15 @@ aI1
 aI4
 aI13
 aI7
-aa(lp104
+aa(lp103
 V0021300314
-p105
+p104
 aVDEC 10, 2013
-p106
+p105
 aVBKN vs. BOS
-p107
+p106
 aVW
-p108
+p107
 aI35
 aI6
 aI7
@@ -614,15 +611,15 @@ aI0
 aI1
 aI15
 aI2
-aa(lp109
+aa(lp108
 V0021300327
-p110
+p109
 aVDEC 12, 2013
-p111
+p110
 aVBKN vs. LAC
-p112
+p111
 aVW
-p113
+p112
 aI36
 aI1
 aI9
@@ -643,15 +640,15 @@ aI0
 aI3
 aI3
 aI2
-aa(lp114
+aa(lp113
 V0021300334
-p115
+p114
 aVDEC 13, 2013
-p116
+p115
 aVBKN @ DET
-p117
+p116
 aVL
-p118
+p117
 aI27
 aI2
 aI4
@@ -672,15 +669,15 @@ aI0
 aI2
 aI5
 aI3
-aa(lp119
+aa(lp118
 V0021300359
-p120
+p119
 aVDEC 16, 2013
-p121
+p120
 aVBKN vs. PHI
-p122
+p121
 aVW
-p123
+p122
 aI29
 aI5
 aI7
@@ -701,15 +698,15 @@ aI1
 aI1
 aI13
 aI35
-aa(lp124
+aa(lp123
 V0021300374
-p125
+p124
 aVDEC 18, 2013
-p126
+p125
 aVBKN vs. WAS
-p127
+p126
 aVL
-p128
+p127
 aI19
 aI0
 aI4
@@ -730,15 +727,15 @@ aI1
 aI0
 aI0
 aI-14
-aa(lp129
+aa(lp128
 V0021300383
-p130
+p129
 aVDEC 20, 2013
-p131
+p130
 aVBKN @ PHI
-p132
+p131
 aVL
-p133
+p132
 aI46
 aI9
 aI17
@@ -759,15 +756,15 @@ aI0
 aI2
 aI26
 aI5
-aa(lp134
+aa(lp133
 V0021300410
-p135
+p134
 aVDEC 23, 2013
-p136
+p135
 aVBKN vs. IND
-p137
+p136
 aVL
-p138
+p137
 aI27
 aI1
 aI3
@@ -788,15 +785,15 @@ aI0
 aI1
 aI5
 aI-11
-aa(lp139
+aa(lp138
 V0021300418
-p140
+p139
 aVDEC 25, 2013
-p141
+p140
 aVBKN vs. CHI
-p142
+p141
 aVL
-p143
+p142
 aI20
 aI1
 aI2
@@ -817,15 +814,15 @@ aI0
 aI0
 aI2
 aI4
-aa(lp144
+aa(lp143
 V0021300429
-p145
+p144
 aVDEC 27, 2013
-p146
+p145
 aVBKN vs. MIL
-p147
+p146
 aVW
-p148
+p147
 aI16
 aI1
 aI5
@@ -846,15 +843,15 @@ aI0
 aI1
 aI3
 aI-20
-aa(lp149
+aa(lp148
 V0021300437
-p150
+p149
 aVDEC 28, 2013
-p151
+p150
 aVBKN @ IND
-p152
+p151
 aVL
-p153
+p152
 aI15
 aI3
 aI7
@@ -875,15 +872,15 @@ aI0
 aI1
 aI10
 aI10
-aa(lp154
+aa(lp153
 V0021300465
-p155
+p154
 aVDEC 31, 2013
-p156
+p155
 aVBKN @ SAS
-p157
+p156
 aVL
-p158
+p157
 aI25
 aI5
 aI13
@@ -904,15 +901,15 @@ aI0
 aI1
 aI13
 aI5
-aa(lp159
+aa(lp158
 V0021300476
-p160
+p159
 aVJAN 02, 2014
-p161
+p160
 aVBKN @ OKC
-p162
+p161
 aVW
-p163
+p162
 aI22
 aI3
 aI6
@@ -933,15 +930,15 @@ aI0
 aI3
 aI13
 aI-5
-aa(lp164
+aa(lp163
 V0021300491
-p165
+p164
 aVJAN 04, 2014
-p166
+p165
 aVBKN vs. CLE
-p167
+p166
 aVW
-p168
+p167
 aI23
 aI1
 aI6
@@ -962,15 +959,15 @@ aI1
 aI3
 aI3
 aI2
-aa(lp169
+aa(lp168
 V0021300506
-p170
+p169
 aVJAN 06, 2014
-p171
+p170
 aVBKN vs. ATL
-p172
+p171
 aVW
-p173
+p172
 aI32
 aI4
 aI12
@@ -991,15 +988,15 @@ aI1
 aI3
 aI14
 aI16
-aa(lp174
+aa(lp173
 V0021300523
-p175
+p174
 aVJAN 08, 2014
-p176
+p175
 aVBKN vs. GSW
-p177
+p176
 aVW
-p178
+p177
 aI24
 aI1
 aI5
@@ -1020,15 +1017,15 @@ aI2
 aI1
 aI2
 aI-11
-aa(lp179
+aa(lp178
 V0021300537
-p180
+p179
 aVJAN 10, 2014
-p181
+p180
 aVBKN vs. MIA
-p182
+p181
 aVW
-p183
+p182
 aI35
 aI1
 aI5
@@ -1049,15 +1046,15 @@ aI0
 aI4
 aI2
 aI10
-aa(lp184
+aa(lp183
 V0021300543
-p185
+p184
 aVJAN 11, 2014
-p186
+p185
 aVBKN @ TOR
-p187
+p186
 aVL
-p188
+p187
 aI31
 aI3
 aI8
@@ -1078,15 +1075,15 @@ aI3
 aI3
 aI13
 aI-6
-aa(lp189
+aa(lp188
 V0021300579
-p190
+p189
 aVJAN 16, 2014
-p191
+p190
 aVBKN @ ATL
-p192
+p191
 aVW
-p193
+p192
 aI27
 aI5
 aI9
@@ -1107,15 +1104,15 @@ aI3
 aI5
 aI15
 aI13
-aa(lp194
+aa(lp193
 V0021300610
-p195
+p194
 aVJAN 20, 2014
-p196
+p195
 aVBKN @ NYK
-p197
+p196
 aVW
-p198
+p197
 aI23
 aI4
 aI11
@@ -1136,15 +1133,15 @@ aI2
 aI4
 aI15
 aI17
-aa(lp199
+aa(lp198
 V0021300616
-p200
+p199
 aVJAN 21, 2014
-p201
+p200
 aVBKN vs. ORL
-p202
+p201
 aVW
-p203
+p202
 aI22
 aI3
 aI6
@@ -1165,15 +1162,15 @@ aI1
 aI2
 aI7
 aI2
-aa(lp204
+aa(lp203
 V0021300637
-p205
+p204
 aVJAN 24, 2014
-p206
+p205
 aVBKN vs. DAL
-p207
+p206
 aVW
-p208
+p207
 aI10
 aI0
 aI5
@@ -1194,15 +1191,15 @@ aI0
 aI2
 aI2
 aI-13
-aa(lp209
+aa(lp208
 V0021300658
-p210
+p209
 aVJAN 26, 2014
-p211
+p210
 aVBKN @ BOS
-p212
+p211
 aVW
-p213
+p212
 aI22
 aI4
 aI10
@@ -1223,15 +1220,15 @@ aI0
 aI2
 aI11
 aI-2
-aa(lp214
+aa(lp213
 V0021300663
-p215
+p214
 aVJAN 27, 2014
-p216
+p215
 aVBKN vs. TOR
-p217
+p216
 aVL
-p218
+p217
 aI28
 aI2
 aI5
@@ -1252,15 +1249,15 @@ aI1
 aI0
 aI5
 aI2
-aa(lp219
+aa(lp218
 V0021300692
-p220
+p219
 aVJAN 31, 2014
-p221
+p220
 aVBKN vs. OKC
-p222
+p221
 aVL
-p223
+p222
 aI22
 aI2
 aI5
@@ -1281,15 +1278,15 @@ aI0
 aI3
 aI5
 aI-13
-aa(lp224
+aa(lp223
 V0021300697
-p225
+p224
 aVFEB 01, 2014
-p226
+p225
 aVBKN @ IND
-p227
+p226
 aVL
-p228
+p227
 aI19
 aI3
 aI5
@@ -1310,15 +1307,15 @@ aI2
 aI2
 aI7
 aI0
-aa(lp229
+aa(lp228
 V0021300712
-p230
+p229
 aVFEB 03, 2014
-p231
+p230
 aVBKN vs. PHI
-p232
+p231
 aVW
-p233
+p232
 aI31
 aI1
 aI8
@@ -1339,15 +1336,15 @@ aI3
 aI1
 aI5
 aI10
-aa(lp234
+aa(lp233
 V0021300737
-p235
+p234
 aVFEB 06, 2014
-p236
+p235
 aVBKN vs. SAS
-p237
+p236
 aVW
-p238
+p237
 aI30
 aI9
 aI15
@@ -1368,15 +1365,15 @@ aI1
 aI1
 aI22
 aI11
-aa(lp239
+aa(lp238
 V0021300744
-p240
+p239
 aVFEB 07, 2014
-p241
+p240
 aVBKN @ DET
-p242
+p241
 aVL
-p243
+p242
 aI31
 aI1
 aI8
@@ -1397,15 +1394,15 @@ aI1
 aI2
 aI4
 aI3
-aa(lp244
+aa(lp243
 V0021300759
-p245
+p244
 aVFEB 09, 2014
-p246
+p245
 aVBKN vs. NOP
-p247
+p246
 aVW
-p248
+p247
 aI28
 aI5
 aI9
@@ -1426,15 +1423,15 @@ aI4
 aI4
 aI13
 aI10
-aa(lp249
+aa(lp248
 V0021300781
-p250
+p249
 aVFEB 12, 2014
-p251
+p250
 aVBKN vs. CHA
-p252
+p251
 aVW
-p253
+p252
 aI23
 aI1
 aI4
@@ -1455,15 +1452,15 @@ aI1
 aI0
 aI2
 aI-2
-aa(lp254
+aa(lp253
 V0021300790
-p255
+p254
 aVFEB 13, 2014
-p256
+p255
 aVBKN @ CHI
-p257
+p256
 aVL
-p258
+p257
 aI14
 aI2
 aI5
@@ -1484,15 +1481,15 @@ aI0
 aI1
 aI6
 aI-6
-aa(lp259
+aa(lp258
 V0021300808
-p260
+p259
 aVFEB 19, 2014
-p261
+p260
 aVBKN @ UTA
-p262
+p261
 aVW
-p263
+p262
 aI10
 aI0
 aI2
@@ -1513,15 +1510,15 @@ aI0
 aI2
 aI0
 aI-1
-aa(lp264
+aa(lp263
 V0021300832
-p265
+p264
 aVFEB 22, 2014
-p266
+p265
 aVBKN @ GSW
-p267
+p266
 aVL
-p268
+p267
 aI16
 aI2
 aI6
@@ -1542,15 +1539,15 @@ aI0
 aI1
 aI6
 aI11
-aa(lp269
+aa(lp268
 V0021300839
-p270
+p269
 aVFEB 23, 2014
-p271
+p270
 aVBKN @ LAL
-p272
+p271
 aVW
-p273
+p272
 aI22
 aI2
 aI2
@@ -1571,15 +1568,15 @@ aI1
 aI2
 aI8
 aI-5
-aa(lp274
+aa(lp273
 V0021300861
-p275
+p274
 aVFEB 26, 2014
-p276
+p275
 aVBKN @ POR
-p277
+p276
 aVL
-p278
+p277
 aI24
 aI2
 aI6
@@ -1600,15 +1597,15 @@ aI2
 aI0
 aI4
 aI-24
-aa(lp279
+aa(lp278
 V0021300866
-p280
+p279
 aVFEB 27, 2014
-p281
+p280
 aVBKN @ DEN
-p282
+p281
 aVW
-p283
+p282
 aI12
 aI2
 aI6
@@ -1629,15 +1626,15 @@ aI1
 aI1
 aI6
 aI-10
-aa(lp284
+aa(lp283
 V0021300878
-p285
+p284
 aVMAR 01, 2014
-p286
+p285
 aVBKN @ MIL
-p287
+p286
 aVW
-p288
+p287
 aI7
 aI0
 aI2
@@ -1658,15 +1655,15 @@ aI0
 aI2
 aI0
 aI3
-aa(lp289
+aa(lp288
 V0021300891
-p290
+p289
 aVMAR 03, 2014
-p291
+p290
 aVBKN vs. CHI
-p292
+p291
 aVW
-p293
+p292
 aI3
 aI1
 aI2
@@ -1687,15 +1684,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp294
+aa(lp293
 V0021300908
-p295
+p294
 aVMAR 05, 2014
-p296
+p295
 aVBKN vs. MEM
-p297
+p296
 aVW
-p298
+p297
 aI10
 aI0
 aI3
@@ -1716,15 +1713,15 @@ aI1
 aI1
 aI2
 aI-17
-aa(lp299
+aa(lp298
 V0021300920
-p300
+p299
 aVMAR 07, 2014
-p301
+p300
 aVBKN @ BOS
-p302
+p301
 aVL
-p303
+p302
 aI4
 aI0
 aI1
@@ -1745,15 +1742,15 @@ aI1
 aI1
 aI0
 aI3
-aa(lp304
+aa(lp303
 V0021300938
-p305
+p304
 aVMAR 09, 2014
-p306
+p305
 aVBKN vs. SAC
-p307
+p306
 aVW
-p308
+p307
 aI24
 aI4
 aI10
@@ -1774,15 +1771,15 @@ aI0
 aI1
 aI11
 aI9
-aa(lp309
+aa(lp308
 V0021300944
-p310
+p309
 aVMAR 10, 2014
-p311
+p310
 aVBKN vs. TOR
-p312
+p311
 aVW
-p313
+p312
 aI24
 aI2
 aI3
@@ -1803,15 +1800,15 @@ aI0
 aI2
 aI11
 aI-2
-aa(lp314
+aa(lp313
 V0021300957
-p315
+p314
 aVMAR 12, 2014
-p316
+p315
 aVBKN @ MIA
-p317
+p316
 aVW
-p318
+p317
 aI14
 aI1
 aI4
@@ -1832,15 +1829,15 @@ aI0
 aI3
 aI3
 aI10
-aa(lp319
+aa(lp318
 V0021300982
-p320
+p319
 aVMAR 15, 2014
-p321
+p320
 aVBKN @ WAS
-p322
+p321
 aVL
-p323
+p322
 aI15
 aI1
 aI2
@@ -1861,15 +1858,15 @@ aI0
 aI2
 aI2
 aI-4
-aa(lp324
+aa(lp323
 V0021300998
-p325
+p324
 aVMAR 17, 2014
-p326
+p325
 aVBKN vs. PHX
-p327
+p326
 aVW
-p328
+p327
 aI19
 aI2
 aI6
@@ -1890,15 +1887,15 @@ aI1
 aI2
 aI7
 aI-7
-aa(lp329
+aa(lp328
 V0021301010
-p330
+p329
 aVMAR 19, 2014
-p331
+p330
 aVBKN vs. CHA
-p332
+p331
 aVW
-p333
+p332
 aI15
 aI0
 aI1
@@ -1919,15 +1916,15 @@ aI0
 aI2
 aI0
 aI-3
-aa(lp334
+aa(lp333
 V0021301026
-p335
+p334
 aVMAR 21, 2014
-p336
+p335
 aVBKN vs. BOS
-p337
+p336
 aVW
-p338
+p337
 aI17
 aI0
 aI2
@@ -1948,15 +1945,15 @@ aI1
 aI1
 aI0
 aI9
-aa(lp339
+aa(lp338
 V0021301044
-p340
+p339
 aVMAR 23, 2014
-p341
+p340
 aVBKN @ DAL
-p342
+p341
 aVW
-p343
+p342
 aI18
 aI2
 aI4
@@ -1977,15 +1974,15 @@ aI0
 aI4
 aI4
 aI8
-aa(lp344
+aa(lp343
 V0021301052
-p345
+p344
 aVMAR 24, 2014
-p346
+p345
 aVBKN @ NOP
-p347
+p346
 aVL
-p348
+p347
 aI24
 aI1
 aI6
@@ -2006,15 +2003,15 @@ aI0
 aI3
 aI2
 aI0
-aa(lp349
+aa(lp348
 V0021301061
-p350
+p349
 aVMAR 26, 2014
-p351
+p350
 aVBKN @ CHA
-p352
+p351
 aVL
-p353
+p352
 aI28
 aI3
 aI8
@@ -2035,15 +2032,15 @@ aI0
 aI1
 aI10
 aI5
-aa(lp354
+aa(lp353
 V0021301078
-p355
+p354
 aVMAR 28, 2014
-p356
+p355
 aVBKN vs. CLE
-p357
+p356
 aVW
-p358
+p357
 aI22
 aI6
 aI10
@@ -2064,15 +2061,15 @@ aI0
 aI0
 aI13
 aI17
-aa(lp359
+aa(lp358
 V0021301095
-p360
+p359
 aVMAR 30, 2014
-p361
+p360
 aVBKN vs. MIN
-p362
+p361
 aVW
-p363
+p362
 aI32
 aI5
 aI10
@@ -2093,15 +2090,15 @@ aI2
 aI2
 aI13
 aI14
-aa(lp364
+aa(lp363
 V0021301111
-p365
+p364
 aVAPR 01, 2014
-p366
+p365
 aVBKN vs. HOU
-p367
+p366
 aVW
-p368
+p367
 aI27
 aI1
 aI3
@@ -2122,15 +2119,15 @@ aI1
 aI5
 aI4
 aI4
-aa(lp369
+aa(lp368
 V0021301115
-p370
+p369
 aVAPR 02, 2014
-p371
+p370
 aVBKN @ NYK
-p372
+p371
 aVL
-p373
+p372
 aI26
 aI2
 aI5
@@ -2151,15 +2148,15 @@ aI3
 aI2
 aI11
 aI-25
-aa(lp374
+aa(lp373
 V0021301134
-p375
+p374
 aVAPR 04, 2014
-p376
+p375
 aVBKN vs. DET
-p377
+p376
 aVW
-p378
+p377
 aI9
 aI0
 aI0
@@ -2180,15 +2177,15 @@ aI1
 aI1
 aI0
 aI-6
-aa(lp379
+aa(lp378
 V0021301147
-p380
+p379
 aVAPR 05, 2014
-p381
+p380
 aVBKN @ PHI
-p382
+p381
 aVW
-p383
+p382
 aI18
 aI2
 aI4
@@ -2209,15 +2206,15 @@ aI0
 aI2
 aI5
 aI4
-aa(lp384
+aa(lp383
 V0021301158
-p385
+p384
 aVAPR 08, 2014
-p386
+p385
 aVBKN @ MIA
-p387
+p386
 aVW
-p388
+p387
 aI20
 aI3
 aI6
@@ -2238,15 +2235,15 @@ aI2
 aI0
 aI7
 aI-6
-aa(lp389
+aa(lp388
 V0021301163
-p390
+p389
 aVAPR 09, 2014
-p391
+p390
 aVBKN @ ORL
-p392
+p391
 aVL
-p393
+p392
 aI33
 aI3
 aI4
@@ -2268,10 +2265,25 @@ aI1
 aI9
 aI11
 aasS'name'
-p394
+p393
 VAlan Anderson
+p394
+sS'weight'
 p395
-sS'experience'
+V220
 p396
+sS'age'
+p397
+I31
+sS'experience'
+p398
 I8
+sS'height'
+p399
+V6-6
+p400
+sS'position'
+p401
+VForward-Guard
+p402
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900048
-p5
+p4
 aVNOV 02, 2009
-p6
+p5
 aVHOU @ UTA
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp9
+aa(lp8
 V0020900066
-p10
+p9
 aVNOV 04, 2009
-p11
+p10
 aVHOU vs. LAL
+p11
+aVL
 p12
-aVL
-p13
 aI0
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020900107
-p15
+p14
 aVNOV 10, 2009
-p16
+p15
 aVHOU @ DAL
+p16
+aVL
 p17
-aVL
-p18
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp19
+aa(lp18
 V0020900118
-p20
+p19
 aVNOV 11, 2009
-p21
+p20
 aVHOU vs. MEM
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI2
@@ -121,15 +118,15 @@ aI1
 aI2
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020900215
-p25
+p24
 aVNOV 25, 2009
-p26
+p25
 aVHOU vs. DAL
-p27
+p26
 aVL
-p28
+p27
 aI4
 aI2
 aI3
@@ -150,15 +147,15 @@ aI2
 aI0
 aI4
 aI-7
-aa(lp29
+aa(lp28
 V0020900244
-p30
+p29
 aVNOV 29, 2009
-p31
+p30
 aVHOU @ OKC
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0020900339
-p35
+p34
 aVDEC 13, 2009
-p36
+p35
 aVHOU @ TOR
-p37
+p36
 aVL
-p38
+p37
 aI1
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp39
+aa(lp38
 V0020900367
-p40
+p39
 aVDEC 16, 2009
-p41
+p40
 aVHOU @ DEN
-p42
+p41
 aVL
-p43
+p42
 aI1
 aI1
 aI2
@@ -237,15 +234,15 @@ aI0
 aI1
 aI3
 aI-1
-aa(lp44
+aa(lp43
 V0020900414
-p45
+p44
 aVDEC 23, 2009
-p46
+p45
 aVHOU @ ORL
-p47
+p46
 aVL
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0020900440
-p50
+p49
 aVDEC 27, 2009
-p51
+p50
 aVHOU @ CLE
-p52
+p51
 aVL
-p53
+p52
 aI6
 aI1
 aI2
@@ -295,15 +292,15 @@ aI1
 aI0
 aI4
 aI0
-aa(lp54
+aa(lp53
 V0020900653
-p55
+p54
 aVJAN 25, 2010
-p56
+p55
 aVHOU vs. ATL
-p57
+p56
 aVL
-p58
+p57
 aI2
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp59
+aa(lp58
 V0020900717
-p60
+p59
 aVFEB 02, 2010
-p61
+p60
 aVHOU vs. GSW
-p62
+p61
 aVW
-p63
+p62
 aI3
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp64
+aa(lp63
 V0020900736
-p65
+p64
 aVFEB 05, 2010
-p66
+p65
 aVHOU @ MEM
-p67
+p66
 aVW
-p68
+p67
 aI2
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp69
+aa(lp68
 V0020900762
-p70
+p69
 aVFEB 09, 2010
-p71
+p70
 aVHOU @ MIA
-p72
+p71
 aVL
-p73
+p72
 aI8
 aI1
 aI7
@@ -411,15 +408,15 @@ aI0
 aI0
 aI2
 aI-14
-aa(lp74
+aa(lp73
 V0020900797
-p75
+p74
 aVFEB 17, 2010
-p76
+p75
 aVHOU @ MIL
-p77
+p76
 aVW
-p78
+p77
 aI7
 aI1
 aI5
@@ -441,10 +438,25 @@ aI1
 aI4
 aI-9
 aasS'name'
-p79
+p78
 VBrian Cook
+p79
+sS'weight'
 p80
-sS'experience'
+V250
 p81
+sS'age'
+p82
+I29
+sS'experience'
+p83
 I6
+sS'height'
+p84
+V6-9
+p85
+sS'position'
+p86
+VCenter-Forward
+p87
 s.

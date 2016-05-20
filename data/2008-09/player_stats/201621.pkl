@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020801166
-p5
+p4
 aVAPR 08, 2009
-p6
+p5
 aVNYK vs. DET
-p7
+p6
 aVL
-p8
+p7
 aI11
 aI1
 aI4
@@ -34,15 +31,15 @@ aI0
 aI1
 aI4
 aI1
-aa(lp9
+aa(lp8
 V0020801225
-p10
+p9
 aVAPR 15, 2009
-p11
+p10
 aVNYK vs. NJN
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI2
 aI6
@@ -64,10 +61,25 @@ aI1
 aI5
 aI6
 aasS'name'
-p14
+p13
 VJoe Crawford
+p14
+sS'weight'
 p15
-sS'experience'
+V210
 p16
+sS'age'
+p17
+I22
+sS'experience'
+p18
 I0
+sS'height'
+p19
+V6-5
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900889
-p5
+p4
 aVMAR 01, 2010
-p6
+p5
 aVCHI vs. ATL
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp9
+aa(lp8
 V0020900949
-p10
+p9
 aVMAR 09, 2010
-p11
+p10
 aVCHI vs. UTA
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI2
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0020900962
-p15
+p14
 aVMAR 11, 2010
-p16
+p15
 aVCHI @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI13
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI4
 aI2
 aI-5
-aa(lp19
+aa(lp18
 V0020900967
-p20
+p19
 aVMAR 12, 2010
-p21
+p20
 aVCHI @ MIA
-p22
+p21
 aVL
-p23
+p22
 aI3
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0020901001
-p25
+p24
 aVMAR 16, 2010
-p26
+p25
 aVCHI @ MEM
+p26
+aVL
 p27
-aVL
-p28
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020901022
-p30
+p29
 aVMAR 19, 2010
-p31
+p30
 aVCHI vs. CLE
-p32
+p31
 aVL
-p33
+p32
 aI0
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp34
+aa(lp33
 V0020901068
-p35
+p34
 aVMAR 25, 2010
-p36
+p35
 aVCHI vs. MIA
-p37
+p36
 aVL
-p38
+p37
 aI4
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp39
+aa(lp38
 V0020901083
-p40
+p39
 aVMAR 27, 2010
-p41
+p40
 aVCHI vs. NJN
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI0
 aI0
@@ -238,10 +235,25 @@ aI3
 aI2
 aI0
 aasS'name'
-p44
+p43
 VJoe Alexander
+p44
+sS'weight'
 p45
-sS'experience'
+V230
 p46
+sS'age'
+p47
+I23
+sS'experience'
+p48
 I1
+sS'height'
+p49
+V6-8
+p50
+sS'position'
+p51
+VForward
+p52
 s.

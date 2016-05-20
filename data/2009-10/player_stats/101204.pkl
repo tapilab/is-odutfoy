@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020901216
-p5
+p4
 aVAPR 13, 2010
-p6
+p5
 aVPHX vs. DEN
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020901230
-p10
+p9
 aVAPR 14, 2010
-p11
+p10
 aVPHX @ UTA
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -64,10 +61,25 @@ aI1
 aI0
 aI-1
 aasS'name'
-p14
+p13
 VDwayne Jones
+p14
+sS'weight'
 p15
-sS'experience'
+V248
 p16
+sS'age'
+p17
+I26
+sS'experience'
+p18
 I4
+sS'height'
+p19
+V6-11
+p20
+sS'position'
+p21
+VForward-Center
+p22
 s.

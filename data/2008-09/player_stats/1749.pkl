@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800015
-p5
+p4
 aVOCT 29, 2008
-p6
+p5
 aVLAC vs. LAL
-p7
+p6
 aVL
-p8
+p7
 aI28
 aI5
 aI9
@@ -34,15 +31,15 @@ aI0
 aI2
 aI11
 aI-24
-aa(lp9
+aa(lp8
 V0020800024
-p10
+p9
 aVOCT 31, 2008
-p11
+p10
 aVLAC vs. DEN
-p12
+p11
 aVL
-p13
+p12
 aI39
 aI5
 aI18
@@ -63,15 +60,15 @@ aI5
 aI3
 aI14
 aI-14
-aa(lp14
+aa(lp13
 V0020800038
-p15
+p14
 aVNOV 01, 2008
-p16
+p15
 aVLAC @ UTA
-p17
+p16
 aVL
-p18
+p17
 aI30
 aI9
 aI16
@@ -92,15 +89,15 @@ aI3
 aI4
 aI20
 aI-13
-aa(lp19
+aa(lp18
 V0020800047
-p20
+p19
 aVNOV 03, 2008
-p21
+p20
 aVLAC vs. UTA
-p22
+p21
 aVL
-p23
+p22
 aI37
 aI4
 aI15
@@ -121,15 +118,15 @@ aI3
 aI3
 aI10
 aI-7
-aa(lp24
+aa(lp23
 V0020800063
-p25
+p24
 aVNOV 05, 2008
-p26
+p25
 aVLAC @ LAL
-p27
+p26
 aVL
-p28
+p27
 aI39
 aI4
 aI11
@@ -150,15 +147,15 @@ aI1
 aI4
 aI11
 aI-4
-aa(lp29
+aa(lp28
 V0020800078
-p30
+p29
 aVNOV 07, 2008
-p31
+p30
 aVLAC vs. HOU
-p32
+p31
 aVL
-p33
+p32
 aI21
 aI2
 aI6
@@ -179,15 +176,15 @@ aI2
 aI2
 aI4
 aI-12
-aa(lp34
+aa(lp33
 V0020800087
-p35
+p34
 aVNOV 09, 2008
-p36
+p35
 aVLAC vs. DAL
-p37
+p36
 aVW
-p38
+p37
 aI33
 aI3
 aI8
@@ -208,15 +205,15 @@ aI1
 aI2
 aI11
 aI-4
-aa(lp39
+aa(lp38
 V0020800115
-p40
+p39
 aVNOV 12, 2008
-p41
+p40
 aVLAC vs. SAC
-p42
+p41
 aVL
-p43
+p42
 aI31
 aI4
 aI8
@@ -237,15 +234,15 @@ aI0
 aI0
 aI10
 aI-8
-aa(lp44
+aa(lp43
 V0020800132
-p45
+p44
 aVNOV 15, 2008
-p46
+p45
 aVLAC vs. GSW
-p47
+p46
 aVL
-p48
+p47
 aI36
 aI8
 aI17
@@ -266,15 +263,15 @@ aI1
 aI1
 aI19
 aI-10
-aa(lp49
+aa(lp48
 V0020800148
-p50
+p49
 aVNOV 17, 2008
-p51
+p50
 aVLAC vs. SAS
-p52
+p51
 aVL
-p53
+p52
 aI36
 aI8
 aI18
@@ -295,15 +292,15 @@ aI0
 aI0
 aI18
 aI2
-aa(lp54
+aa(lp53
 V0020800165
-p55
+p54
 aVNOV 19, 2008
-p56
+p55
 aVLAC @ OKC
-p57
+p56
 aVW
-p58
+p57
 aI34
 aI11
 aI20
@@ -325,10 +322,25 @@ aI0
 aI23
 aI27
 aasS'name'
-p59
+p58
 VCuttino Mobley
+p59
+sS'weight'
 p60
-sS'experience'
+V215
 p61
+sS'age'
+p62
+I33
+sS'experience'
+p63
 I10
+sS'height'
+p64
+V6-4
+p65
+sS'position'
+p66
+VGuard
+p67
 s.

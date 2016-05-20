@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020601015
-p5
+p4
 aVMAR 22, 2007
-p6
+p5
 aVPOR @ NYK
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp9
+aa(lp8
 V0020601087
-p10
+p9
 aVMAR 31, 2007
-p11
+p10
 aVPOR vs. LAC
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI5
-aa(lp14
+aa(lp13
 V0020601117
-p15
+p14
 aVAPR 04, 2007
-p16
+p15
 aVPOR vs. UTA
-p17
+p16
 aVW
-p18
+p17
 aI11
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI2
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020601130
-p20
+p19
 aVAPR 06, 2007
-p21
+p20
 aVPOR @ HOU
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI0
 aI2
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0020601140
-p25
+p24
 aVAPR 07, 2007
-p26
+p25
 aVPOR @ DAL
-p27
+p26
 aVL
-p28
+p27
 aI14
 aI1
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp29
+aa(lp28
 V0020601151
-p30
+p29
 aVAPR 09, 2007
-p31
+p30
 aVPOR @ SAS
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI2
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0020601172
-p35
+p34
 aVAPR 11, 2007
-p36
+p35
 aVPOR vs. HOU
-p37
+p36
 aVL
-p38
+p37
 aI15
 aI3
 aI4
@@ -208,15 +205,15 @@ aI0
 aI6
 aI6
 aI8
-aa(lp39
+aa(lp38
 V0020601186
-p40
+p39
 aVAPR 13, 2007
-p41
+p40
 aVPOR @ LAC
-p42
+p41
 aVL
-p43
+p42
 aI24
 aI0
 aI3
@@ -237,15 +234,15 @@ aI1
 aI3
 aI0
 aI-5
-aa(lp44
+aa(lp43
 V0020601193
-p45
+p44
 aVAPR 14, 2007
-p46
+p45
 aVPOR vs. SEA
-p47
+p46
 aVW
-p48
+p47
 aI16
 aI2
 aI2
@@ -266,15 +263,15 @@ aI2
 aI4
 aI4
 aI11
-aa(lp49
+aa(lp48
 V0020601209
-p50
+p49
 aVAPR 16, 2007
-p51
+p50
 aVPOR @ UTA
-p52
+p51
 aVL
-p53
+p52
 aI17
 aI0
 aI3
@@ -295,15 +292,15 @@ aI1
 aI6
 aI3
 aI-14
-aa(lp54
+aa(lp53
 V0020601228
-p55
+p54
 aVAPR 18, 2007
-p56
+p55
 aVPOR vs. GSW
-p57
+p56
 aVL
-p58
+p57
 aI6
 aI0
 aI2
@@ -325,10 +322,25 @@ aI0
 aI2
 aI-2
 aasS'name'
-p59
+p58
 VLuke Schenscher
+p59
+sS'weight'
 p60
-sS'experience'
+V265
 p61
+sS'age'
+p62
+I25
+sS'experience'
+p63
 I1
+sS'height'
+p64
+V7-1
+p65
+sS'position'
+p66
+VCenter
+p67
 s.

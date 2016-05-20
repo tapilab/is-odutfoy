@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020901148
-p5
+p4
 aVAPR 04, 2010
-p6
+p5
 aVNYK @ LAC
-p7
+p6
 aVW
-p8
+p7
 aI18
 aI5
 aI9
@@ -34,15 +31,15 @@ aI0
 aI1
 aI10
 aI5
-aa(lp9
+aa(lp8
 V0020901153
-p10
+p9
 aVAPR 06, 2010
-p11
+p10
 aVNYK vs. BOS
-p12
+p11
 aVW
-p13
+p12
 aI44
 aI8
 aI13
@@ -63,15 +60,15 @@ aI3
 aI3
 aI17
 aI5
-aa(lp14
+aa(lp13
 V0020901158
-p15
+p14
 aVAPR 07, 2010
-p16
+p15
 aVNYK @ IND
-p17
+p16
 aVL
-p18
+p17
 aI29
 aI6
 aI13
@@ -92,15 +89,15 @@ aI0
 aI4
 aI15
 aI9
-aa(lp19
+aa(lp18
 V0020901174
-p20
+p19
 aVAPR 09, 2010
-p21
+p20
 aVNYK @ ORL
-p22
+p21
 aVL
-p23
+p22
 aI33
 aI3
 aI7
@@ -121,15 +118,15 @@ aI1
 aI5
 aI8
 aI-9
-aa(lp24
+aa(lp23
 V0020901199
-p25
+p24
 aVAPR 11, 2010
-p26
+p25
 aVNYK vs. MIA
-p27
+p26
 aVL
-p28
+p27
 aI37
 aI2
 aI7
@@ -150,15 +147,15 @@ aI6
 aI3
 aI13
 aI-11
-aa(lp29
+aa(lp28
 V0020901206
-p30
+p29
 aVAPR 12, 2010
-p31
+p30
 aVNYK vs. WAS
-p32
+p31
 aVW
-p33
+p32
 aI31
 aI2
 aI9
@@ -179,15 +176,15 @@ aI0
 aI5
 aI8
 aI16
-aa(lp34
+aa(lp33
 V0020901226
-p35
+p34
 aVAPR 14, 2010
-p36
+p35
 aVNYK @ TOR
-p37
+p36
 aVL
-p38
+p37
 aI40
 aI4
 aI10
@@ -209,10 +206,25 @@ aI3
 aI11
 aI-10
 aasS'name'
-p39
+p38
 VEarl Barron
+p39
+sS'weight'
 p40
-sS'experience'
+V250
 p41
+sS'age'
+p42
+I28
+sS'experience'
+p43
 I4
+sS'height'
+p44
+V7-0
+p45
+sS'position'
+p46
+VForward-Center
+p47
 s.

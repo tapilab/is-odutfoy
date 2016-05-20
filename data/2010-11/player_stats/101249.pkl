@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000229
-p5
+p4
 aVNOV 26, 2010
-p6
+p5
 aVCHI @ DEN
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0021000417
-p10
+p9
 aVDEC 21, 2010
-p11
+p10
 aVCHI vs. PHI
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI0
 aI1
@@ -64,10 +61,25 @@ aI0
 aI0
 aI-4
 aasS'name'
-p14
+p13
 VJohn Lucas III
+p14
+sS'weight'
 p15
-sS'experience'
+V166
 p16
+sS'age'
+p17
+I28
+sS'experience'
+p18
 I5
+sS'height'
+p19
+V5-11
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100940
-p5
+p4
 aVAPR 20, 2012
-p6
+p5
 aVDAL vs. GSW
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI2
@@ -34,15 +31,15 @@ aI2
 aI0
 aI0
 aI-6
-aa(lp9
+aa(lp8
 V0021100946
-p10
+p9
 aVAPR 21, 2012
-p11
+p10
 aVDAL @ CHI
-p12
+p11
 aVL
-p13
+p12
 aI4
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp14
+aa(lp13
 V0021100983
-p15
+p14
 aVAPR 26, 2012
-p16
+p15
 aVDAL @ ATL
-p17
+p16
 aVL
-p18
+p17
 aI8
 aI3
 aI5
@@ -93,10 +90,25 @@ aI1
 aI7
 aI0
 aasS'name'
-p19
+p18
 VKelenna Azubuike
+p19
+sS'weight'
 p20
-sS'experience'
+V215
 p21
+sS'age'
+p22
+I28
+sS'experience'
+p23
 I5
+sS'height'
+p24
+V6-5
+p25
+sS'position'
+p26
+VGuard
+p27
 s.

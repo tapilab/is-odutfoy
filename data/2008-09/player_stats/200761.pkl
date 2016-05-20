@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800087
-p5
+p4
 aVNOV 09, 2008
-p6
+p5
 aVDAL @ LAC
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp9
+aa(lp8
 V0020800149
-p10
+p9
 aVNOV 18, 2008
-p11
+p10
 aVDAL @ CHA
-p12
+p11
 aVW
-p13
+p12
 aI13
 aI2
 aI4
@@ -63,15 +60,15 @@ aI0
 aI0
 aI4
 aI5
-aa(lp14
+aa(lp13
 V0020800162
-p15
+p14
 aVNOV 19, 2008
-p16
+p15
 aVDAL @ HOU
-p17
+p16
 aVW
-p18
+p17
 aI31
 aI1
 aI7
@@ -92,15 +89,15 @@ aI0
 aI3
 aI5
 aI7
-aa(lp19
+aa(lp18
 V0020800177
-p20
+p19
 aVNOV 21, 2008
-p21
+p20
 aVDAL vs. MEM
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI0
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020800208
-p25
+p24
 aVNOV 25, 2008
-p26
+p25
 aVDAL vs. IND
-p27
+p26
 aVW
-p28
+p27
 aI7
 aI0
 aI2
@@ -150,15 +147,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp29
+aa(lp28
 V0020800245
-p30
+p29
 aVNOV 29, 2008
-p31
+p30
 aVDAL @ SAC
-p32
+p31
 aVW
-p33
+p32
 aI5
 aI1
 aI4
@@ -179,15 +176,15 @@ aI0
 aI1
 aI4
 aI-2
-aa(lp34
+aa(lp33
 V0020800259
-p35
+p34
 aVDEC 02, 2008
-p36
+p35
 aVDAL vs. LAC
-p37
+p36
 aVW
-p38
+p37
 aI18
 aI3
 aI7
@@ -208,15 +205,15 @@ aI0
 aI1
 aI6
 aI1
-aa(lp39
+aa(lp38
 V0020800274
-p40
+p39
 aVDEC 04, 2008
-p41
+p40
 aVDAL vs. PHX
-p42
+p41
 aVW
-p43
+p42
 aI26
 aI3
 aI8
@@ -237,15 +234,15 @@ aI2
 aI2
 aI7
 aI6
-aa(lp44
+aa(lp43
 V0020800293
-p45
+p44
 aVDEC 06, 2008
-p46
+p45
 aVDAL vs. ATL
-p47
+p46
 aVW
-p48
+p47
 aI21
 aI2
 aI7
@@ -266,15 +263,15 @@ aI2
 aI4
 aI4
 aI2
-aa(lp49
+aa(lp48
 V0020800341
-p50
+p49
 aVDEC 13, 2008
-p51
+p50
 aVDAL vs. OKC
-p52
+p51
 aVW
-p53
+p52
 aI14
 aI1
 aI4
@@ -295,15 +292,15 @@ aI0
 aI3
 aI3
 aI4
-aa(lp54
+aa(lp53
 V0020800356
-p55
+p54
 aVDEC 15, 2008
-p56
+p55
 aVDAL vs. DEN
-p57
+p56
 aVL
-p58
+p57
 aI0
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp59
+aa(lp58
 V0020800369
-p60
+p59
 aVDEC 17, 2008
-p61
+p60
 aVDAL @ TOR
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI1
 aI3
@@ -353,15 +350,15 @@ aI0
 aI2
 aI2
 aI-2
-aa(lp64
+aa(lp63
 V0020800381
-p65
+p64
 aVDEC 19, 2008
-p66
+p65
 aVDAL @ NJN
-p67
+p66
 aVL
-p68
+p67
 aI7
 aI1
 aI3
@@ -382,15 +379,15 @@ aI0
 aI2
 aI5
 aI-2
-aa(lp69
+aa(lp68
 V0020800433
-p70
+p69
 aVDEC 26, 2008
-p71
+p70
 aVDAL @ UTA
+p71
+aVL
 p72
-aVL
-p73
 aI1
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp74
+aa(lp73
 V0020800498
-p75
+p74
 aVJAN 04, 2009
-p76
+p75
 aVDAL @ MEM
-p77
+p76
 aVL
-p78
+p77
 aI2
 aI0
 aI2
@@ -441,10 +438,25 @@ aI0
 aI0
 aI-1
 aasS'name'
-p79
+p78
 VShawne Williams
+p79
+sS'weight'
 p80
-sS'experience'
+V230
 p81
+sS'age'
+p82
+I22
+sS'experience'
+p83
 I2
+sS'height'
+p84
+V6-10
+p85
+sS'position'
+p86
+VForward
+p87
 s.

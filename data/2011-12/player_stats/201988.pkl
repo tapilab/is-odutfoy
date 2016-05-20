@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100740
-p5
+p4
 aVMAR 27, 2012
-p6
+p5
 aVSAS @ PHX
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0021100750
-p10
+p9
 aVMAR 28, 2012
-p11
+p10
 aVSAS @ SAC
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI3
 aI5
@@ -63,15 +60,15 @@ aI1
 aI1
 aI7
 aI-4
-aa(lp14
+aa(lp13
 V0021100792
-p15
+p14
 aVAPR 03, 2012
-p16
+p15
 aVSAS @ CLE
-p17
+p16
 aVW
-p18
+p17
 aI20
 aI8
 aI11
@@ -92,15 +89,15 @@ aI1
 aI1
 aI20
 aI18
-aa(lp19
+aa(lp18
 V0021100822
-p20
+p19
 aVAPR 06, 2012
-p21
+p20
 aVSAS vs. NOH
-p22
+p21
 aVW
-p23
+p22
 aI23
 aI6
 aI9
@@ -121,15 +118,15 @@ aI1
 aI2
 aI14
 aI18
-aa(lp24
+aa(lp23
 V0021100839
-p25
+p24
 aVAPR 08, 2012
-p26
+p25
 aVSAS vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI11
 aI2
 aI7
@@ -150,15 +147,15 @@ aI4
 aI1
 aI5
 aI-2
-aa(lp29
+aa(lp28
 V0021100850
-p30
+p29
 aVAPR 09, 2012
-p31
+p30
 aVSAS @ UTA
-p32
+p31
 aVL
-p33
+p32
 aI24
 aI4
 aI10
@@ -179,15 +176,15 @@ aI2
 aI1
 aI9
 aI0
-aa(lp34
+aa(lp33
 V0021100866
-p35
+p34
 aVAPR 11, 2012
-p36
+p35
 aVSAS vs. LAL
-p37
+p36
 aVL
-p38
+p37
 aI21
 aI3
 aI11
@@ -208,15 +205,15 @@ aI0
 aI0
 aI7
 aI2
-aa(lp39
+aa(lp38
 V0021100892
-p40
+p39
 aVAPR 14, 2012
-p41
+p40
 aVSAS vs. PHX
-p42
+p41
 aVW
-p43
+p42
 aI16
 aI2
 aI7
@@ -237,15 +234,15 @@ aI4
 aI1
 aI8
 aI-14
-aa(lp44
+aa(lp43
 V0021100912
-p45
+p44
 aVAPR 16, 2012
-p46
+p45
 aVSAS @ GSW
-p47
+p46
 aVW
-p48
+p47
 aI17
 aI1
 aI7
@@ -266,15 +263,15 @@ aI1
 aI0
 aI6
 aI-9
-aa(lp49
+aa(lp48
 V0021100917
-p50
+p49
 aVAPR 17, 2012
-p51
+p50
 aVSAS @ LAL
-p52
+p51
 aVW
-p53
+p52
 aI4
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI1
 aI0
 aI-1
-aa(lp54
+aa(lp53
 V0021100929
-p55
+p54
 aVAPR 18, 2012
-p56
+p55
 aVSAS @ SAC
-p57
+p56
 aVW
-p58
+p57
 aI14
 aI4
 aI7
@@ -324,15 +321,15 @@ aI2
 aI1
 aI9
 aI3
-aa(lp59
+aa(lp58
 V0021100941
-p60
+p59
 aVAPR 20, 2012
-p61
+p60
 aVSAS vs. LAL
-p62
+p61
 aVW
-p63
+p62
 aI3
 aI1
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI3
 aI3
-aa(lp64
+aa(lp63
 V0021100956
-p65
+p64
 aVAPR 22, 2012
-p66
+p65
 aVSAS vs. CLE
-p67
+p66
 aVW
-p68
+p67
 aI8
 aI3
 aI3
@@ -382,15 +379,15 @@ aI2
 aI2
 aI7
 aI2
-aa(lp69
+aa(lp68
 V0021100965
-p70
+p69
 aVAPR 23, 2012
-p71
+p70
 aVSAS vs. POR
-p72
+p71
 aVW
-p73
+p72
 aI12
 aI3
 aI4
@@ -411,15 +408,15 @@ aI0
 aI0
 aI9
 aI9
-aa(lp74
+aa(lp73
 V0021100977
-p75
+p74
 aVAPR 25, 2012
-p76
+p75
 aVSAS @ PHX
-p77
+p76
 aVW
-p78
+p77
 aI35
 aI9
 aI23
@@ -440,15 +437,15 @@ aI3
 aI1
 aI27
 aI2
-aa(lp79
+aa(lp78
 V0021100990
-p80
+p79
 aVAPR 26, 2012
-p81
+p80
 aVSAS @ GSW
-p82
+p81
 aVW
-p83
+p82
 aI43
 aI14
 aI25
@@ -470,10 +467,25 @@ aI1
 aI34
 aI10
 aasS'name'
-p84
+p83
 VPatty Mills
+p84
+sS'weight'
 p85
-sS'experience'
+V185
 p86
+sS'age'
+p87
+I23
+sS'experience'
+p88
 I2
+sS'height'
+p89
+V6-0
+p90
+sS'position'
+p91
+VGuard
+p92
 s.

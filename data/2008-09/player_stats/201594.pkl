@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800042
-p5
+p4
 aVNOV 03, 2008
-p6
+p5
 aVDET @ CHA
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp9
+aa(lp8
 V0020800215
-p10
+p9
 aVNOV 26, 2008
-p11
+p10
 aVDET vs. NYK
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp14
+aa(lp13
 V0020800228
-p15
+p14
 aVNOV 28, 2008
-p16
+p15
 aVDET vs. MIL
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI2
 aI0
 aI-4
-aa(lp19
+aa(lp18
 V0020800921
-p20
+p19
 aVMAR 06, 2009
-p21
+p20
 aVDET vs. GSW
+p21
+aVW
 p22
-aVW
-p23
 aI3
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI0
-aa(lp24
+aa(lp23
 V0020801027
-p25
+p24
 aVMAR 20, 2009
-p26
+p25
 aVDET vs. LAC
-p27
+p26
 aVW
-p28
+p27
 aI1
 aI1
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp29
+aa(lp28
 V0020801055
-p30
+p29
 aVMAR 24, 2009
-p31
+p30
 aVDET @ CHI
-p32
+p31
 aVL
-p33
+p32
 aI1
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp34
+aa(lp33
 V0020801070
-p35
+p34
 aVMAR 26, 2009
-p36
+p35
 aVDET vs. LAL
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0020801166
-p40
+p39
 aVAPR 08, 2009
-p41
+p40
 aVDET @ NYK
-p42
+p41
 aVW
-p43
+p42
 aI5
 aI0
 aI2
@@ -238,10 +235,25 @@ aI0
 aI0
 aI-4
 aasS'name'
-p44
+p43
 VWalter Sharpe
+p44
+sS'weight'
 p45
-sS'experience'
+V245
 p46
+sS'age'
+p47
+I22
+sS'experience'
+p48
 I0
+sS'height'
+p49
+V6-9
+p50
+sS'position'
+p51
+VForward
+p52
 s.

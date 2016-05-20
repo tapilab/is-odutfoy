@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800820
-p5
+p4
 aVFEB 20, 2009
-p6
+p5
 aVPOR vs. ATL
-p7
+p6
 aVW
-p8
+p7
 aI0
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020800833
-p10
+p9
 aVFEB 22, 2009
-p11
+p10
 aVPOR vs. LAC
+p11
+aVW
 p12
-aVW
-p13
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0020800869
-p15
+p14
 aVFEB 27, 2009
-p16
+p15
 aVPOR @ MIN
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020800916
-p20
+p19
 aVMAR 05, 2009
-p21
+p20
 aVPOR @ DEN
-p22
+p21
 aVL
-p23
+p22
 aI3
 aI0
 aI2
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0020800985
-p25
+p24
 aVMAR 15, 2009
-p26
+p25
 aVPOR @ ATL
-p27
+p26
 aVL
-p28
+p27
 aI3
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp29
+aa(lp28
 V0020801072
-p30
+p29
 aVMAR 26, 2009
-p31
+p30
 aVPOR vs. PHX
+p31
+aVW
 p32
-aVW
-p33
 aI3
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0020801090
-p35
+p34
 aVMAR 28, 2009
-p36
+p35
 aVPOR vs. MEM
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020801111
-p40
+p39
 aVMAR 31, 2009
-p41
+p40
 aVPOR vs. UTA
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI0
 aI0
@@ -237,15 +234,15 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp44
+aa(lp43
 V0020801129
-p45
+p44
 aVAPR 03, 2009
-p46
+p45
 aVPOR @ OKC
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp49
+aa(lp48
 V0020801212
-p50
+p49
 aVAPR 13, 2009
-p51
+p50
 aVPOR vs. OKC
-p52
+p51
 aVW
-p53
+p52
 aI6
 aI2
 aI2
@@ -295,15 +292,15 @@ aI0
 aI2
 aI4
 aI-5
-aa(lp54
+aa(lp53
 V0020801230
-p55
+p54
 aVAPR 15, 2009
-p56
+p55
 aVPOR vs. DEN
-p57
+p56
 aVW
-p58
+p57
 aI5
 aI0
 aI1
@@ -325,10 +322,25 @@ aI0
 aI0
 aI-1
 aasS'name'
-p59
+p58
 VMichael Ruffin
+p59
+sS'weight'
 p60
-sS'experience'
+V248
 p61
+sS'age'
+p62
+I31
+sS'experience'
+p63
 I9
+sS'height'
+p64
+V6-8
+p65
+sS'position'
+p66
+VForward-Center
+p67
 s.

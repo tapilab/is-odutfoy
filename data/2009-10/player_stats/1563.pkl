@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I37
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900012
-p5
+p4
 aVOCT 28, 2009
-p6
+p5
 aVOKC vs. SAC
-p7
+p6
 aVW
-p8
+p7
 aI13
 aI1
 aI2
@@ -34,15 +31,15 @@ aI2
 aI0
 aI2
 aI-10
-aa(lp9
+aa(lp8
 V0020900023
-p10
+p9
 aVOCT 30, 2009
-p11
+p10
 aVOKC @ DET
-p12
+p11
 aVW
-p13
+p12
 aI14
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI7
-aa(lp14
+aa(lp13
 V0020900042
-p15
+p14
 aVNOV 01, 2009
-p16
+p15
 aVOKC vs. POR
-p17
+p16
 aVL
-p18
+p17
 aI16
 aI2
 aI3
@@ -92,15 +89,15 @@ aI0
 aI1
 aI4
 aI4
-aa(lp19
+aa(lp18
 V0020900057
-p20
+p19
 aVNOV 03, 2009
-p21
+p20
 aVOKC vs. LAL
-p22
+p21
 aVL
-p23
+p22
 aI19
 aI2
 aI6
@@ -121,15 +118,15 @@ aI0
 aI1
 aI4
 aI6
-aa(lp24
+aa(lp23
 V0020900081
-p25
+p24
 aVNOV 06, 2009
-p26
+p25
 aVOKC @ HOU
-p27
+p26
 aVL
-p28
+p27
 aI14
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp29
+aa(lp28
 V0020900094
-p30
+p29
 aVNOV 08, 2009
-p31
+p30
 aVOKC vs. ORL
-p32
+p31
 aVW
-p33
+p32
 aI18
 aI2
 aI2
@@ -179,15 +176,15 @@ aI0
 aI1
 aI4
 aI-11
-aa(lp34
+aa(lp33
 V0020900108
-p35
+p34
 aVNOV 10, 2009
-p36
+p35
 aVOKC @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI11
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI3
 aI0
 aI-8
-aa(lp39
+aa(lp38
 V0020900120
-p40
+p39
 aVNOV 11, 2009
-p41
+p40
 aVOKC @ LAC
-p42
+p41
 aVW
-p43
+p42
 aI26
 aI4
 aI7
@@ -237,15 +234,15 @@ aI0
 aI2
 aI11
 aI12
-aa(lp44
+aa(lp43
 V0020900142
-p45
+p44
 aVNOV 14, 2009
-p46
+p45
 aVOKC @ SAS
-p47
+p46
 aVW
-p48
+p47
 aI13
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI2
 aI2
 aI3
-aa(lp49
+aa(lp48
 V0020900144
-p50
+p49
 aVNOV 15, 2009
-p51
+p50
 aVOKC vs. LAC
-p52
+p51
 aVL
-p53
+p52
 aI11
 aI2
 aI3
@@ -295,15 +292,15 @@ aI0
 aI1
 aI4
 aI-5
-aa(lp54
+aa(lp53
 V0020900151
-p55
+p54
 aVNOV 17, 2009
-p56
+p55
 aVOKC @ MIA
-p57
+p56
 aVW
-p58
+p57
 aI15
 aI0
 aI3
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI9
-aa(lp59
+aa(lp58
 V0020900160
-p60
+p59
 aVNOV 18, 2009
-p61
+p60
 aVOKC @ ORL
-p62
+p61
 aVL
-p63
+p62
 aI19
 aI1
 aI3
@@ -353,15 +350,15 @@ aI0
 aI0
 aI2
 aI7
-aa(lp64
+aa(lp63
 V0020900178
-p65
+p64
 aVNOV 20, 2009
-p66
+p65
 aVOKC vs. WAS
-p67
+p66
 aVW
-p68
+p67
 aI14
 aI0
 aI2
@@ -382,15 +379,15 @@ aI1
 aI2
 aI0
 aI0
-aa(lp69
+aa(lp68
 V0020900197
-p70
+p69
 aVNOV 22, 2009
-p71
+p70
 aVOKC @ LAL
-p72
+p71
 aVL
-p73
+p72
 aI6
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp74
+aa(lp73
 V0020900684
-p75
+p74
 aVJAN 29, 2010
-p76
+p75
 aVOKC vs. DEN
-p77
+p76
 aVW
-p78
+p77
 aI4
 aI0
 aI1
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp79
+aa(lp78
 V0020900751
-p80
+p79
 aVFEB 06, 2010
-p81
+p80
 aVOKC @ GSW
-p82
+p81
 aVW
-p83
+p82
 aI2
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp84
+aa(lp83
 V0020900827
-p85
+p84
 aVFEB 21, 2010
-p86
+p85
 aVOKC @ MIN
-p87
+p86
 aVW
-p88
+p87
 aI4
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp89
+aa(lp88
 V0020900865
-p90
+p89
 aVFEB 26, 2010
-p91
+p90
 aVOKC vs. MIN
-p92
+p91
 aVW
-p93
+p92
 aI3
 aI0
 aI0
@@ -527,15 +524,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp94
+aa(lp93
 V0020900882
-p95
+p94
 aVFEB 28, 2010
-p96
+p95
 aVOKC vs. TOR
-p97
+p96
 aVW
-p98
+p97
 aI6
 aI0
 aI1
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp99
+aa(lp98
 V0020900908
-p100
+p99
 aVMAR 03, 2010
-p101
+p100
 aVOKC @ DEN
-p102
+p101
 aVL
-p103
+p102
 aI8
 aI0
 aI1
@@ -585,15 +582,15 @@ aI1
 aI0
 aI0
 aI11
-aa(lp104
+aa(lp103
 V0020900958
-p105
+p104
 aVMAR 10, 2010
-p106
+p105
 aVOKC vs. NOH
-p107
+p106
 aVW
-p108
+p107
 aI4
 aI0
 aI2
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp109
+aa(lp108
 V0020901019
-p110
+p109
 aVMAR 19, 2010
-p111
+p110
 aVOKC @ TOR
-p112
+p111
 aVW
-p113
+p112
 aI9
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp114
+aa(lp113
 V0020901037
-p115
+p114
 aVMAR 21, 2010
-p116
+p115
 aVOKC @ IND
-p117
+p116
 aVL
-p118
+p117
 aI10
 aI3
 aI4
@@ -672,15 +669,15 @@ aI2
 aI0
 aI7
 aI1
-aa(lp119
+aa(lp118
 V0020901103
-p120
+p119
 aVMAR 30, 2010
-p121
+p120
 aVOKC @ PHI
-p122
+p121
 aVW
-p123
+p122
 aI5
 aI0
 aI1
@@ -701,15 +698,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp124
+aa(lp123
 V0020901200
-p125
+p124
 aVAPR 11, 2010
-p126
+p125
 aVOKC @ GSW
-p127
+p126
 aVL
-p128
+p127
 aI1
 aI0
 aI0
@@ -731,10 +728,25 @@ aI1
 aI0
 aI1
 aasS'name'
-p129
+p128
 VKevin Ollie
+p129
+sS'weight'
 p130
-sS'experience'
+V195
 p131
+sS'age'
+p132
+I37
+sS'experience'
+p133
 I12
+sS'height'
+p134
+V6-2
+p135
+sS'position'
+p136
+VGuard
+p137
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000062
-p5
+p4
 aVNOV 03, 2010
-p6
+p5
 aVPHX vs. SAS
-p7
+p6
 aVL
-p8
+p7
 aI7
 aI0
 aI0
@@ -34,15 +31,15 @@ aI2
 aI2
 aI1
 aI1
-aa(lp9
+aa(lp8
 V0021000076
-p10
+p9
 aVNOV 05, 2010
-p11
+p10
 aVPHX vs. MEM
-p12
+p11
 aVW
-p13
+p12
 aI10
 aI0
 aI1
@@ -63,15 +60,15 @@ aI3
 aI1
 aI0
 aI5
-aa(lp14
+aa(lp13
 V0021000143
-p15
+p14
 aVNOV 14, 2010
-p16
+p15
 aVPHX @ LAL
-p17
+p16
 aVW
-p18
+p17
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0021000158
-p20
+p19
 aVNOV 17, 2010
-p21
+p20
 aVPHX @ MIA
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI1
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp24
+aa(lp23
 V0021000169
-p25
+p24
 aVNOV 18, 2010
-p26
+p25
 aVPHX @ ORL
-p27
+p26
 aVL
-p28
+p27
 aI10
 aI1
 aI2
@@ -150,15 +147,15 @@ aI1
 aI2
 aI2
 aI-12
-aa(lp29
+aa(lp28
 V0021000300
-p30
+p29
 aVDEC 05, 2010
-p31
+p30
 aVPHX vs. WAS
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI1
 aI3
 aI-1
-aa(lp34
+aa(lp33
 V0021000558
-p35
+p34
 aVJAN 11, 2011
-p36
+p35
 aVPHX @ DEN
-p37
+p36
 aVL
-p38
+p37
 aI6
 aI1
 aI3
@@ -208,15 +205,15 @@ aI0
 aI2
 aI2
 aI0
-aa(lp39
+aa(lp38
 V0021000634
-p40
+p39
 aVJAN 21, 2011
-p41
+p40
 aVPHX @ WAS
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI2
 aI2
@@ -237,15 +234,15 @@ aI0
 aI0
 aI4
 aI0
-aa(lp44
+aa(lp43
 V0021000784
-p45
+p44
 aVFEB 10, 2011
-p46
+p45
 aVPHX vs. GSW
-p47
+p46
 aVW
-p48
+p47
 aI5
 aI1
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI4
 aI3
-aa(lp49
+aa(lp48
 V0021000864
-p50
+p49
 aVFEB 25, 2011
-p51
+p50
 aVPHX @ TOR
-p52
+p51
 aVW
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI1
 aI1
 aI-1
-aa(lp54
+aa(lp53
 V0021000922
-p55
+p54
 aVMAR 04, 2011
-p56
+p55
 aVPHX @ MIL
-p57
+p56
 aVW
-p58
+p57
 aI1
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI1
 aI0
 aI-2
-aa(lp59
+aa(lp58
 V0021000966
-p60
+p59
 aVMAR 10, 2011
-p61
+p60
 aVPHX vs. DEN
-p62
+p61
 aVL
-p63
+p62
 aI3
 aI1
 aI2
@@ -353,15 +350,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp64
+aa(lp63
 V0021000987
-p65
+p64
 aVMAR 13, 2011
-p66
+p65
 aVPHX vs. ORL
-p67
+p66
 aVL
-p68
+p67
 aI3
 aI0
 aI2
@@ -382,15 +379,15 @@ aI0
 aI1
 aI1
 aI1
-aa(lp69
+aa(lp68
 V0021001077
-p70
+p69
 aVMAR 25, 2011
-p71
+p70
 aVPHX vs. NOH
-p72
+p71
 aVL
-p73
+p72
 aI1
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp74
+aa(lp73
 V0021001116
-p75
+p74
 aVMAR 30, 2011
-p76
+p75
 aVPHX vs. OKC
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI3
 aI3
@@ -440,15 +437,15 @@ aI0
 aI0
 aI8
 aI2
-aa(lp79
+aa(lp78
 V0021001129
-p80
+p79
 aVAPR 01, 2011
-p81
+p80
 aVPHX vs. LAC
-p82
+p81
 aVW
-p83
+p82
 aI3
 aI1
 aI1
@@ -469,15 +466,15 @@ aI0
 aI2
 aI3
 aI-4
-aa(lp84
+aa(lp83
 V0021001138
-p85
+p84
 aVAPR 03, 2011
-p86
+p85
 aVPHX @ SAS
-p87
+p86
 aVL
-p88
+p87
 aI6
 aI1
 aI2
@@ -498,15 +495,15 @@ aI0
 aI1
 aI2
 aI8
-aa(lp89
+aa(lp88
 V0021001168
-p90
+p89
 aVAPR 06, 2011
-p91
+p90
 aVPHX @ MIN
-p92
+p91
 aVW
-p93
+p92
 aI2
 aI0
 aI0
@@ -527,15 +524,15 @@ aI1
 aI1
 aI0
 aI0
-aa(lp94
+aa(lp93
 V0021001184
-p95
+p94
 aVAPR 08, 2011
-p96
+p95
 aVPHX @ NOH
-p97
+p96
 aVL
-p98
+p97
 aI6
 aI1
 aI1
@@ -556,15 +553,15 @@ aI0
 aI0
 aI2
 aI-9
-aa(lp99
+aa(lp98
 V0021001199
-p100
+p99
 aVAPR 10, 2011
-p101
+p100
 aVPHX @ DAL
-p102
+p101
 aVL
-p103
+p102
 aI12
 aI2
 aI4
@@ -585,15 +582,15 @@ aI1
 aI0
 aI6
 aI-5
-aa(lp104
+aa(lp103
 V0021001211
-p105
+p104
 aVAPR 11, 2011
-p106
+p105
 aVPHX vs. MIN
-p107
+p106
 aVW
-p108
+p107
 aI12
 aI1
 aI4
@@ -615,10 +612,25 @@ aI4
 aI2
 aI6
 aasS'name'
-p109
+p108
 VGarret Siler
+p109
+sS'weight'
 p110
-sS'experience'
+V305
 p111
+sS'age'
+p112
+I24
+sS'experience'
+p113
 I0
+sS'height'
+p114
+V6-11
+p115
+sS'position'
+p116
+VCenter
+p117
 s.

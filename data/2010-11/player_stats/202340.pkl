@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000195
-p5
+p4
 aVNOV 22, 2010
-p6
+p5
 aVBOS @ ATL
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI2
@@ -34,15 +31,15 @@ aI2
 aI0
 aI2
 aI-4
-aa(lp9
+aa(lp8
 V0021000254
-p10
+p9
 aVNOV 30, 2010
-p11
+p10
 aVBOS @ CLE
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0021000294
-p15
+p14
 aVDEC 05, 2010
-p16
+p15
 aVBOS @ NJN
-p17
+p16
 aVW
-p18
+p17
 aI15
 aI2
 aI7
@@ -92,15 +89,15 @@ aI2
 aI5
 aI4
 aI-1
-aa(lp19
+aa(lp18
 V0021000316
-p20
+p19
 aVDEC 08, 2010
-p21
+p20
 aVBOS vs. DEN
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp24
+aa(lp23
 V0021000343
-p25
+p24
 aVDEC 11, 2010
-p26
+p25
 aVBOS @ CHA
-p27
+p26
 aVW
-p28
+p27
 aI4
 aI1
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI2
 aI6
-aa(lp29
+aa(lp28
 V0021000379
-p30
+p29
 aVDEC 16, 2010
-p31
+p30
 aVBOS vs. ATL
-p32
+p31
 aVW
-p33
+p32
 aI4
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI1
 aI0
 aI-3
-aa(lp34
+aa(lp33
 V0021000400
-p35
+p34
 aVDEC 19, 2010
-p36
+p35
 aVBOS vs. IND
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp39
+aa(lp38
 V0021000424
-p40
+p39
 aVDEC 22, 2010
-p41
+p40
 aVBOS vs. PHI
-p42
+p41
 aVW
-p43
+p42
 aI6
 aI1
 aI2
@@ -237,15 +234,15 @@ aI0
 aI1
 aI2
 aI3
-aa(lp44
+aa(lp43
 V0021000434
-p45
+p44
 aVDEC 25, 2010
-p46
+p45
 aVBOS @ ORL
-p47
+p46
 aVL
-p48
+p47
 aI5
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI2
 aI0
 aI-3
-aa(lp49
+aa(lp48
 V0021000456
-p50
+p49
 aVDEC 28, 2010
-p51
+p50
 aVBOS @ IND
-p52
+p51
 aVW
-p53
+p52
 aI7
 aI0
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI1
 aI-2
-aa(lp54
+aa(lp53
 V0021000465
-p55
+p54
 aVDEC 29, 2010
-p56
+p55
 aVBOS @ DET
-p57
+p56
 aVL
-p58
+p57
 aI5
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp59
+aa(lp58
 V0021000476
-p60
+p59
 aVDEC 31, 2010
-p61
+p60
 aVBOS vs. NOH
-p62
+p61
 aVL
-p63
+p62
 aI0
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp64
+aa(lp63
 V0021000528
-p65
+p64
 aVJAN 07, 2011
-p66
+p65
 aVBOS vs. TOR
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI2
@@ -382,15 +379,15 @@ aI2
 aI0
 aI0
 aI-4
-aa(lp69
+aa(lp68
 V0021000564
-p70
+p69
 aVJAN 12, 2011
-p71
+p70
 aVBOS vs. SAC
-p72
+p71
 aVW
-p73
+p72
 aI1
 aI2
 aI3
@@ -411,15 +408,15 @@ aI0
 aI0
 aI4
 aI4
-aa(lp74
+aa(lp73
 V0021000783
-p75
+p74
 aVFEB 10, 2011
-p76
+p75
 aVBOS vs. LAL
-p77
+p76
 aVL
-p78
+p77
 aI1
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp79
+aa(lp78
 V0021000804
-p80
+p79
 aVFEB 13, 2011
-p81
+p80
 aVBOS vs. MIA
+p81
+aVW
 p82
-aVW
-p83
 aI0
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp84
+aa(lp83
 V0021000826
-p85
+p84
 aVFEB 16, 2011
-p86
+p85
 aVBOS vs. NJN
-p87
+p86
 aVW
-p88
+p87
 aI2
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp89
+aa(lp88
 V0021000845
-p90
+p89
 aVFEB 22, 2011
-p91
+p90
 aVBOS @ GSW
-p92
+p91
 aVW
-p93
+p92
 aI2
 aI2
 aI2
@@ -527,15 +524,15 @@ aI0
 aI0
 aI5
 aI4
-aa(lp94
+aa(lp93
 V0021000860
-p95
+p94
 aVFEB 24, 2011
-p96
+p95
 aVBOS @ DEN
-p97
+p96
 aVL
-p98
+p97
 aI5
 aI0
 aI1
@@ -556,15 +553,15 @@ aI1
 aI1
 aI0
 aI-3
-aa(lp99
+aa(lp98
 V0021000892
-p100
+p99
 aVFEB 28, 2011
-p101
+p100
 aVBOS @ UTA
-p102
+p101
 aVW
-p103
+p102
 aI6
 aI2
 aI6
@@ -585,15 +582,15 @@ aI0
 aI2
 aI4
 aI-1
-aa(lp104
+aa(lp103
 V0021000905
-p105
+p104
 aVMAR 02, 2011
-p106
+p105
 aVBOS vs. PHX
-p107
+p106
 aVW
-p108
+p107
 aI9
 aI1
 aI4
@@ -614,15 +611,15 @@ aI0
 aI2
 aI2
 aI-15
-aa(lp109
+aa(lp108
 V0021000918
-p110
+p109
 aVMAR 04, 2011
-p111
+p110
 aVBOS vs. GSW
-p112
+p111
 aVW
-p113
+p112
 aI8
 aI0
 aI3
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp114
+aa(lp113
 V0021000939
-p115
+p114
 aVMAR 06, 2011
-p116
+p115
 aVBOS @ MIL
-p117
+p116
 aVW
-p118
+p117
 aI10
 aI0
 aI3
@@ -672,15 +669,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp119
+aa(lp118
 V0021000957
-p120
+p119
 aVMAR 09, 2011
-p121
+p120
 aVBOS vs. LAC
-p122
+p121
 aVL
-p123
+p122
 aI0
 aI0
 aI0
@@ -701,15 +698,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp124
+aa(lp123
 V0021000969
-p125
+p124
 aVMAR 11, 2011
-p126
+p125
 aVBOS @ PHI
-p127
+p126
 aVL
-p128
+p127
 aI2
 aI0
 aI1
@@ -730,15 +727,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp129
+aa(lp128
 V0021000988
-p130
+p129
 aVMAR 13, 2011
-p131
+p130
 aVBOS vs. MIL
-p132
+p131
 aVW
-p133
+p132
 aI8
 aI0
 aI3
@@ -759,15 +756,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp134
+aa(lp133
 V0021001004
-p135
+p134
 aVMAR 16, 2011
-p136
+p135
 aVBOS vs. IND
-p137
+p136
 aVW
-p138
+p137
 aI2
 aI0
 aI1
@@ -788,15 +785,15 @@ aI1
 aI0
 aI0
 aI-5
-aa(lp139
+aa(lp138
 V0021001024
-p140
+p139
 aVMAR 18, 2011
-p141
+p140
 aVBOS @ HOU
-p142
+p141
 aVL
-p143
+p142
 aI7
 aI2
 aI4
@@ -817,15 +814,15 @@ aI1
 aI1
 aI4
 aI5
-aa(lp144
+aa(lp143
 V0021001057
-p145
+p144
 aVMAR 23, 2011
-p146
+p145
 aVBOS vs. MEM
-p147
+p146
 aVL
-p148
+p147
 aI0
 aI0
 aI0
@@ -846,15 +843,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp149
+aa(lp148
 V0021001205
-p150
+p149
 aVAPR 11, 2011
-p151
+p150
 aVBOS @ WAS
-p152
+p151
 aVL
-p153
+p152
 aI7
 aI0
 aI1
@@ -875,15 +872,15 @@ aI1
 aI3
 aI0
 aI-22
-aa(lp154
+aa(lp153
 V0021001216
-p155
+p154
 aVAPR 13, 2011
-p156
+p155
 aVBOS vs. NYK
-p157
+p156
 aVW
-p158
+p157
 aI27
 aI10
 aI16
@@ -905,10 +902,25 @@ aI1
 aI20
 aI10
 aasS'name'
-p159
+p158
 VAvery Bradley
+p159
+sS'weight'
 p160
-sS'experience'
+V180
 p161
+sS'age'
+p162
+I20
+sS'experience'
+p163
 I0
+sS'height'
+p164
+V6-2
+p165
+sS'position'
+p166
+VGuard
+p167
 s.

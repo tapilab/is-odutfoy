@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I38
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300061
-p5
+p4
 aVNOV 06, 2013
-p6
+p5
 aVCHI @ IND
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0021300079
-p10
+p9
 aVNOV 08, 2013
-p11
+p10
 aVCHI vs. UTA
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp14
+aa(lp13
 V0021300198
-p15
+p14
 aVNOV 24, 2013
-p16
+p15
 aVCHI @ LAC
-p17
+p16
 aVL
-p18
+p17
 aI6
 aI0
 aI3
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-10
-aa(lp19
+aa(lp18
 V0021300209
-p20
+p19
 aVNOV 25, 2013
-p21
+p20
 aVCHI @ UTA
-p22
+p21
 aVL
-p23
+p22
 aI3
 aI1
 aI2
@@ -121,15 +118,15 @@ aI1
 aI1
 aI2
 aI-1
-aa(lp24
+aa(lp23
 V0021300242
-p25
+p24
 aVNOV 30, 2013
-p26
+p25
 aVCHI @ CLE
-p27
+p26
 aVL
-p28
+p27
 aI13
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI4
 aI0
 aI5
-aa(lp29
+aa(lp28
 V0021300257
-p30
+p29
 aVDEC 02, 2013
-p31
+p30
 aVCHI vs. NOP
-p32
+p31
 aVL
-p33
+p32
 aI10
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI2
 aI0
 aI4
-aa(lp34
+aa(lp33
 V0021300346
-p35
+p34
 aVDEC 14, 2013
-p36
+p35
 aVCHI vs. TOR
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp39
+aa(lp38
 V0021300622
-p40
+p39
 aVJAN 22, 2014
-p41
+p40
 aVCHI @ CLE
-p42
+p41
 aVW
-p43
+p42
 aI9
 aI1
 aI2
@@ -237,15 +234,15 @@ aI1
 aI2
 aI2
 aI-3
-aa(lp44
+aa(lp43
 V0021300641
-p45
+p44
 aVJAN 24, 2014
-p46
+p45
 aVCHI vs. LAC
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI2
 aI5
@@ -266,15 +263,15 @@ aI1
 aI0
 aI5
 aI-4
-aa(lp49
+aa(lp48
 V0021300646
-p50
+p49
 aVJAN 25, 2014
-p51
+p50
 aVCHI @ CHA
-p52
+p51
 aVW
-p53
+p52
 aI4
 aI1
 aI1
@@ -295,15 +292,15 @@ aI1
 aI0
 aI2
 aI8
-aa(lp54
+aa(lp53
 V0021300664
-p55
+p54
 aVJAN 27, 2014
-p56
+p55
 aVCHI vs. MIN
-p57
+p56
 aVL
-p58
+p57
 aI9
 aI0
 aI3
@@ -325,10 +322,25 @@ aI1
 aI0
 aI-5
 aasS'name'
-p59
+p58
 VMike James
+p59
+sS'weight'
 p60
-sS'experience'
+V188
 p61
+sS'age'
+p62
+I38
+sS'experience'
+p63
 I12
+sS'height'
+p64
+V6-2
+p65
+sS'position'
+p66
+VGuard
+p67
 s.

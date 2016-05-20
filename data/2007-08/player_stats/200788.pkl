@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700005
-p5
+p4
 aVOCT 31, 2007
-p6
+p5
 aVORL vs. MIL
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI-5
-aa(lp9
+aa(lp8
 V0020700016
-p10
+p9
 aVNOV 02, 2007
-p11
+p10
 aVORL vs. DET
-p12
+p11
 aVL
-p13
+p12
 aI4
 aI1
 aI2
@@ -63,15 +60,15 @@ aI1
 aI0
 aI2
 aI-2
-aa(lp14
+aa(lp13
 V0020700079
-p15
+p14
 aVNOV 10, 2007
-p16
+p15
 aVORL vs. PHX
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI9
-aa(lp19
+aa(lp18
 V0020700097
-p20
+p19
 aVNOV 13, 2007
-p21
+p20
 aVORL vs. SEA
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp24
+aa(lp23
 V0020700122
-p25
+p24
 aVNOV 16, 2007
-p26
+p25
 aVORL @ NJN
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI1
 aI1
@@ -150,15 +147,15 @@ aI0
 aI1
 aI2
 aI4
-aa(lp29
+aa(lp28
 V0020700142
-p30
+p29
 aVNOV 18, 2007
-p31
+p30
 aVORL vs. BOS
-p32
+p31
 aVW
-p33
+p32
 aI4
 aI1
 aI1
@@ -179,15 +176,15 @@ aI1
 aI1
 aI2
 aI2
-aa(lp34
+aa(lp33
 V0020700147
-p35
+p34
 aVNOV 19, 2007
-p36
+p35
 aVORL @ NOH
-p37
+p36
 aVW
-p38
+p37
 aI11
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI2
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020700255
-p40
+p39
 aVDEC 03, 2007
-p41
+p40
 aVORL @ GSW
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp44
+aa(lp43
 V0020700278
-p45
+p44
 aVDEC 07, 2007
-p46
+p45
 aVORL vs. IND
-p47
+p46
 aVL
-p48
+p47
 aI3
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0020700320
-p50
+p49
 aVDEC 12, 2007
-p51
+p50
 aVORL @ MIL
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI3
 aI0
 aI-1
-aa(lp54
+aa(lp53
 V0020700341
-p55
+p54
 aVDEC 15, 2007
-p56
+p55
 aVORL vs. MEM
-p57
+p56
 aVL
-p58
+p57
 aI6
 aI1
 aI1
@@ -324,15 +321,15 @@ aI1
 aI0
 aI2
 aI0
-aa(lp59
+aa(lp58
 V0020700385
-p60
+p59
 aVDEC 21, 2007
-p61
+p60
 aVORL vs. UTA
-p62
+p61
 aVL
-p63
+p62
 aI15
 aI2
 aI2
@@ -353,15 +350,15 @@ aI0
 aI3
 aI5
 aI-10
-aa(lp64
+aa(lp63
 V0020700403
-p65
+p64
 aVDEC 23, 2007
-p66
+p65
 aVORL @ BOS
-p67
+p66
 aVL
-p68
+p67
 aI7
 aI0
 aI3
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp69
+aa(lp68
 V0020700411
-p70
+p69
 aVDEC 26, 2007
-p71
+p70
 aVORL vs. NYK
-p72
+p71
 aVW
-p73
+p72
 aI16
 aI3
 aI3
@@ -411,15 +408,15 @@ aI0
 aI2
 aI6
 aI14
-aa(lp74
+aa(lp73
 V0020700424
-p75
+p74
 aVDEC 28, 2007
-p76
+p75
 aVORL @ MIA
-p77
+p76
 aVW
-p78
+p77
 aI3
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp79
+aa(lp78
 V0020700459
-p80
+p79
 aVJAN 02, 2008
-p81
+p80
 aVORL vs. NJN
-p82
+p81
 aVL
-p83
+p82
 aI12
 aI1
 aI2
@@ -469,15 +466,15 @@ aI0
 aI1
 aI3
 aI13
-aa(lp84
+aa(lp83
 V0020700508
-p85
+p84
 aVJAN 08, 2008
-p86
+p85
 aVORL @ SAC
-p87
+p86
 aVL
-p88
+p87
 aI9
 aI0
 aI2
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp89
+aa(lp88
 V0020700519
-p90
+p89
 aVJAN 09, 2008
-p91
+p90
 aVORL @ LAC
-p92
+p91
 aVW
-p93
+p92
 aI4
 aI1
 aI1
@@ -527,15 +524,15 @@ aI1
 aI0
 aI2
 aI-8
-aa(lp94
+aa(lp93
 V0020700555
-p95
+p94
 aVJAN 15, 2008
-p96
+p95
 aVORL vs. CHI
-p97
+p96
 aVW
-p98
+p97
 aI4
 aI0
 aI1
@@ -556,15 +553,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp99
+aa(lp98
 V0020700614
-p100
+p99
 aVJAN 23, 2008
-p101
+p100
 aVORL @ MEM
+p101
+aVW
 p102
-aVW
-p103
 aI3
 aI0
 aI1
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp104
+aa(lp103
 V0020700870
-p105
+p104
 aVMAR 01, 2008
-p106
+p105
 aVORL vs. NYK
-p107
+p106
 aVW
-p108
+p107
 aI2
 aI0
 aI0
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp109
+aa(lp108
 V0020701167
-p110
+p109
 aVAPR 09, 2008
-p111
+p110
 aVORL vs. CHI
-p112
+p111
 aVW
-p113
+p112
 aI3
 aI1
 aI4
@@ -643,15 +640,15 @@ aI0
 aI0
 aI2
 aI4
-aa(lp114
+aa(lp113
 V0020701200
-p115
+p114
 aVAPR 13, 2008
-p116
+p115
 aVORL @ CHI
-p117
+p116
 aVW
-p118
+p117
 aI3
 aI1
 aI2
@@ -672,15 +669,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp119
+aa(lp118
 V0020701211
-p120
+p119
 aVAPR 15, 2008
-p121
+p120
 aVORL @ ATL
-p122
+p121
 aVW
-p123
+p122
 aI4
 aI0
 aI1
@@ -701,15 +698,15 @@ aI0
 aI2
 aI0
 aI-7
-aa(lp124
+aa(lp123
 V0020701218
-p125
+p124
 aVAPR 16, 2008
-p126
+p125
 aVORL vs. WAS
-p127
+p126
 aVW
-p128
+p127
 aI18
 aI3
 aI4
@@ -731,10 +728,25 @@ aI2
 aI8
 aI16
 aasS'name'
-p129
+p128
 VJames Augustine
+p129
+sS'weight'
 p130
-sS'experience'
+V235
 p131
+sS'age'
+p132
+I23
+sS'experience'
+p133
 I1
+sS'height'
+p134
+V6-10
+p135
+sS'position'
+p136
+VForward
+p137
 s.

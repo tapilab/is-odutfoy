@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000169
-p5
+p4
 aVNOV 18, 2010
-p6
+p5
 aVORL vs. PHX
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-7
-aa(lp9
+aa(lp8
 V0021000266
-p10
+p9
 aVDEC 01, 2010
-p11
+p10
 aVORL @ CHI
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI7
-aa(lp14
+aa(lp13
 V0021000279
-p15
+p14
 aVDEC 03, 2010
-p16
+p15
 aVORL @ DET
-p17
+p16
 aVW
-p18
+p17
 aI17
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI2
 aI2
 aI-1
-aa(lp19
+aa(lp18
 V0021000292
-p20
+p19
 aVDEC 04, 2010
-p21
+p20
 aVORL @ MIL
-p22
+p21
 aVL
-p23
+p22
 aI15
 aI2
 aI3
@@ -121,15 +118,15 @@ aI0
 aI2
 aI4
 aI4
-aa(lp24
+aa(lp23
 V0021000339
-p25
+p24
 aVDEC 10, 2010
-p26
+p25
 aVORL @ UTA
-p27
+p26
 aVL
-p28
+p27
 aI10
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI3
 aI0
 aI-3
-aa(lp29
+aa(lp28
 V0021000392
-p30
+p29
 aVDEC 18, 2010
-p31
+p30
 aVORL vs. PHI
-p32
+p31
 aVL
-p33
+p32
 aI22
 aI2
 aI7
@@ -179,15 +176,15 @@ aI1
 aI4
 aI4
 aI-1
-aa(lp34
+aa(lp33
 V0021000406
-p35
+p34
 aVDEC 20, 2010
-p36
+p35
 aVORL @ ATL
-p37
+p36
 aVL
-p38
+p37
 aI13
 aI0
 aI3
@@ -208,15 +205,15 @@ aI1
 aI3
 aI0
 aI-10
-aa(lp39
+aa(lp38
 V0021000737
-p40
+p39
 aVFEB 04, 2011
-p41
+p40
 aVORL @ WAS
-p42
+p41
 aVW
-p43
+p42
 aI16
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI2
 aI0
 aI-9
-aa(lp44
+aa(lp43
 V0021000757
-p45
+p44
 aVFEB 06, 2011
-p46
+p45
 aVORL @ BOS
-p47
+p46
 aVL
-p48
+p47
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp49
+aa(lp48
 V0021000767
-p50
+p49
 aVFEB 08, 2011
-p51
+p50
 aVORL vs. LAC
-p52
+p51
 aVW
-p53
+p52
 aI11
 aI0
 aI1
@@ -295,15 +292,15 @@ aI1
 aI2
 aI1
 aI-14
-aa(lp54
+aa(lp53
 V0021000987
-p55
+p54
 aVMAR 13, 2011
-p56
+p55
 aVORL @ PHX
-p57
+p56
 aVW
-p58
+p57
 aI3
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI2
 aI0
 aI-1
-aa(lp59
+aa(lp58
 V0021000051
-p60
+p59
 aVMAR 28, 2011
-p61
+p60
 aVORL @ NYK
+p61
+aVL
 p62
-aVL
-p63
 aI0
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp64
+aa(lp63
 V0021001105
-p65
+p64
 aVMAR 30, 2011
-p66
+p65
 aVORL @ ATL
-p67
+p66
 aVL
-p68
+p67
 aI1
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp69
+aa(lp68
 V0021001121
-p70
+p69
 aVAPR 01, 2011
-p71
+p70
 aVORL vs. CHA
-p72
+p71
 aVW
-p73
+p72
 aI10
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI3
 aI0
 aI0
-aa(lp74
+aa(lp73
 V0021001144
-p75
+p74
 aVAPR 03, 2011
-p76
+p75
 aVORL @ TOR
-p77
+p76
 aVL
-p78
+p77
 aI9
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp79
+aa(lp78
 V0021001193
-p80
+p79
 aVAPR 10, 2011
-p81
+p80
 aVORL vs. CHI
-p82
+p81
 aVL
-p83
+p82
 aI16
 aI1
 aI1
@@ -469,15 +466,15 @@ aI0
 aI3
 aI2
 aI-7
-aa(lp84
+aa(lp83
 V0021001204
-p85
+p84
 aVAPR 11, 2011
-p86
+p85
 aVORL @ PHI
-p87
+p86
 aVW
-p88
+p87
 aI8
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp89
+aa(lp88
 V0021001219
-p90
+p89
 aVAPR 13, 2011
-p91
+p90
 aVORL vs. IND
-p92
+p91
 aVW
-p93
+p92
 aI15
 aI3
 aI6
@@ -528,10 +525,25 @@ aI2
 aI6
 aI0
 aasS'name'
-p94
+p93
 VMalik Allen
+p94
+sS'weight'
 p95
-sS'experience'
+V255
 p96
+sS'age'
+p97
+I32
+sS'experience'
+p98
 I9
+sS'height'
+p99
+V6-10
+p100
+sS'position'
+p101
+VForward
+p102
 s.

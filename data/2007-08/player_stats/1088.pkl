@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700380
-p5
+p4
 aVDEC 20, 2007
-p6
+p5
 aVDEN vs. HOU
-p7
+p6
 aVW
-p8
+p7
 aI24
 aI5
 aI11
@@ -34,15 +31,15 @@ aI0
 aI2
 aI13
 aI4
-aa(lp9
+aa(lp8
 V0020700389
-p10
+p9
 aVDEC 21, 2007
-p11
+p10
 aVDEN @ POR
-p12
+p11
 aVL
-p13
+p12
 aI21
 aI1
 aI8
@@ -63,15 +60,15 @@ aI0
 aI0
 aI3
 aI-12
-aa(lp14
+aa(lp13
 V0020700404
-p15
+p14
 aVDEC 23, 2007
-p16
+p15
 aVDEN @ SAC
-p17
+p16
 aVW
-p18
+p17
 aI20
 aI1
 aI7
@@ -92,15 +89,15 @@ aI1
 aI1
 aI3
 aI0
-aa(lp19
+aa(lp18
 V0020700415
-p20
+p19
 aVDEC 26, 2007
-p21
+p20
 aVDEN vs. MIL
-p22
+p21
 aVW
-p23
+p22
 aI21
 aI2
 aI6
@@ -121,15 +118,15 @@ aI0
 aI2
 aI6
 aI2
-aa(lp24
+aa(lp23
 V0020700433
-p25
+p24
 aVDEC 28, 2007
-p26
+p25
 aVDEN @ GSW
-p27
+p26
 aVW
-p28
+p27
 aI21
 aI2
 aI6
@@ -150,15 +147,15 @@ aI1
 aI2
 aI6
 aI-4
-aa(lp29
+aa(lp28
 V0020700445
-p30
+p29
 aVDEC 30, 2007
-p31
+p30
 aVDEN vs. GSW
-p32
+p31
 aVL
-p33
+p32
 aI20
 aI0
 aI5
@@ -179,15 +176,15 @@ aI1
 aI1
 aI0
 aI6
-aa(lp34
+aa(lp33
 V0020700470
-p35
+p34
 aVJAN 03, 2008
-p36
+p35
 aVDEN vs. SAS
-p37
+p36
 aVW
-p38
+p37
 aI20
 aI2
 aI8
@@ -208,15 +205,15 @@ aI0
 aI4
 aI5
 aI4
-aa(lp39
+aa(lp38
 V0020700478
-p40
+p39
 aVJAN 04, 2008
-p41
+p40
 aVDEN @ MIN
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI2
@@ -237,15 +234,15 @@ aI0
 aI2
 aI0
 aI-7
-aa(lp44
+aa(lp43
 V0020700496
-p45
+p44
 aVJAN 06, 2008
-p46
+p45
 aVDEN vs. PHI
-p47
+p46
 aVW
-p48
+p47
 aI7
 aI0
 aI4
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp49
+aa(lp48
 V0020700922
-p50
+p49
 aVMAR 07, 2008
-p51
+p50
 aVDEN vs. SAS
-p52
+p51
 aVW
-p53
+p52
 aI7
 aI0
 aI1
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp54
+aa(lp53
 V0020700932
-p55
+p54
 aVMAR 08, 2008
-p56
+p55
 aVDEN @ UTA
-p57
+p56
 aVL
-p58
+p57
 aI21
 aI4
 aI7
@@ -324,15 +321,15 @@ aI1
 aI0
 aI9
 aI-1
-aa(lp59
+aa(lp58
 V0020700945
-p60
+p59
 aVMAR 10, 2008
-p61
+p60
 aVDEN @ SAS
-p62
+p61
 aVL
-p63
+p62
 aI12
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI1
 aI0
 aI9
-aa(lp64
+aa(lp63
 V0020700961
-p65
+p64
 aVMAR 12, 2008
-p66
+p65
 aVDEN vs. MEM
-p67
+p66
 aVW
-p68
+p67
 aI21
 aI3
 aI4
@@ -382,15 +379,15 @@ aI1
 aI1
 aI9
 aI4
-aa(lp69
+aa(lp68
 V0020700974
-p70
+p69
 aVMAR 14, 2008
-p71
+p70
 aVDEN vs. TOR
-p72
+p71
 aVW
-p73
+p72
 aI24
 aI5
 aI10
@@ -411,15 +408,15 @@ aI1
 aI3
 aI17
 aI3
-aa(lp74
+aa(lp73
 V0020700989
-p75
+p74
 aVMAR 16, 2008
-p76
+p75
 aVDEN vs. SEA
-p77
+p76
 aVW
-p78
+p77
 aI20
 aI7
 aI10
@@ -440,15 +437,15 @@ aI2
 aI3
 aI19
 aI13
-aa(lp79
+aa(lp78
 V0020700999
-p80
+p79
 aVMAR 18, 2008
-p81
+p80
 aVDEN @ DET
-p82
+p81
 aVL
-p83
+p82
 aI19
 aI3
 aI5
@@ -469,15 +466,15 @@ aI0
 aI1
 aI7
 aI-8
-aa(lp84
+aa(lp83
 V0020701007
-p85
+p84
 aVMAR 19, 2008
-p86
+p85
 aVDEN @ PHI
-p87
+p86
 aVL
-p88
+p87
 aI6
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp89
+aa(lp88
 V0020701041
-p90
+p89
 aVMAR 23, 2008
-p91
+p90
 aVDEN @ TOR
-p92
+p91
 aVW
-p93
+p92
 aI7
 aI0
 aI1
@@ -527,15 +524,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp94
+aa(lp93
 V0020701048
-p95
+p94
 aVMAR 24, 2008
-p96
+p95
 aVDEN @ MEM
-p97
+p96
 aVW
-p98
+p97
 aI7
 aI0
 aI2
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp99
+aa(lp98
 V0020701071
-p100
+p99
 aVMAR 27, 2008
-p101
+p100
 aVDEN vs. DAL
-p102
+p101
 aVW
-p103
+p102
 aI1
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp104
+aa(lp103
 V0020701103
-p105
+p104
 aVMAR 31, 2008
-p106
+p105
 aVDEN @ PHX
-p107
+p106
 aVL
-p108
+p107
 aI1
 aI0
 aI0
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp109
+aa(lp108
 V0020701142
-p110
+p109
 aVAPR 05, 2008
-p111
+p110
 aVDEN vs. SAC
-p112
+p111
 aVL
-p113
+p112
 aI5
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI-9
-aa(lp114
+aa(lp113
 V0020701193
-p115
+p114
 aVAPR 12, 2008
-p116
+p115
 aVDEN @ UTA
-p117
+p116
 aVL
-p118
+p117
 aI6
 aI2
 aI6
@@ -672,15 +669,15 @@ aI0
 aI0
 aI5
 aI-7
-aa(lp119
+aa(lp118
 V0020701228
-p120
+p119
 aVAPR 16, 2008
-p121
+p120
 aVDEN vs. MEM
-p122
+p121
 aVW
-p123
+p122
 aI35
 aI5
 aI17
@@ -702,10 +699,25 @@ aI2
 aI11
 aI6
 aasS'name'
-p124
+p123
 VChucky Atkins
+p124
+sS'weight'
 p125
-sS'experience'
+V185
 p126
+sS'age'
+p127
+I33
+sS'experience'
+p128
 I8
+sS'height'
+p129
+V5-11
+p130
+sS'position'
+p131
+VGuard
+p132
 s.

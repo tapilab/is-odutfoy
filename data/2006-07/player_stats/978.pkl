@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600006
-p5
+p4
 aVNOV 01, 2006
-p6
+p5
 aVNOK @ BOS
-p7
+p6
 aVW
-p8
+p7
 aI31
 aI4
 aI15
@@ -34,15 +31,15 @@ aI1
 aI4
 aI11
 aI0
-aa(lp9
+aa(lp8
 V0020600020
-p10
+p9
 aVNOV 03, 2006
-p11
+p10
 aVNOK @ IND
-p12
+p11
 aVW
-p13
+p12
 aI13
 aI3
 aI10
@@ -63,15 +60,15 @@ aI5
 aI3
 aI8
 aI1
-aa(lp14
+aa(lp13
 V0020600043
-p15
+p14
 aVNOV 05, 2006
-p16
+p15
 aVNOK vs. HOU
-p17
+p16
 aVW
-p18
+p17
 aI29
 aI5
 aI11
@@ -92,15 +89,15 @@ aI2
 aI1
 aI16
 aI-3
-aa(lp19
+aa(lp18
 V0020600056
-p20
+p19
 aVNOV 07, 2006
-p21
+p20
 aVNOK vs. GSW
-p22
+p21
 aVW
-p23
+p22
 aI35
 aI5
 aI16
@@ -121,15 +118,15 @@ aI1
 aI3
 aI18
 aI5
-aa(lp24
+aa(lp23
 V0020600071
-p25
+p24
 aVNOV 09, 2006
-p26
+p25
 aVNOK @ GSW
-p27
+p26
 aVL
-p28
+p27
 aI34
 aI6
 aI14
@@ -150,15 +147,15 @@ aI1
 aI2
 aI18
 aI6
-aa(lp29
+aa(lp28
 V0020600080
-p30
+p29
 aVNOV 10, 2006
-p31
+p30
 aVNOK @ POR
-p32
+p31
 aVL
-p33
+p32
 aI34
 aI8
 aI16
@@ -179,15 +176,15 @@ aI1
 aI2
 aI21
 aI-8
-aa(lp34
+aa(lp33
 V0020600090
-p35
+p34
 aVNOV 12, 2006
-p36
+p35
 aVNOK @ LAC
-p37
+p36
 aVL
-p38
+p37
 aI33
 aI4
 aI11
@@ -208,15 +205,15 @@ aI4
 aI2
 aI11
 aI-12
-aa(lp39
+aa(lp38
 V0020600102
-p40
+p39
 aVNOV 14, 2006
-p41
+p40
 aVNOK vs. CHA
-p42
+p41
 aVW
-p43
+p42
 aI38
 aI15
 aI22
@@ -237,15 +234,15 @@ aI3
 aI3
 aI42
 aI7
-aa(lp44
+aa(lp43
 V0020600113
-p45
+p44
 aVNOV 15, 2006
-p46
+p45
 aVNOK @ DET
-p47
+p46
 aVW
-p48
+p47
 aI35
 aI5
 aI13
@@ -266,15 +263,15 @@ aI1
 aI1
 aI14
 aI5
-aa(lp49
+aa(lp48
 V0020600135
-p50
+p49
 aVNOV 18, 2006
-p51
+p50
 aVNOK @ MIN
-p52
+p51
 aVW
-p53
+p52
 aI30
 aI9
 aI17
@@ -295,15 +292,15 @@ aI0
 aI3
 aI20
 aI9
-aa(lp54
+aa(lp53
 V0020600154
-p55
+p54
 aVNOV 21, 2006
-p56
+p55
 aVNOK vs. MIA
-p57
+p56
 aVW
-p58
+p57
 aI29
 aI8
 aI16
@@ -324,15 +321,15 @@ aI0
 aI2
 aI23
 aI8
-aa(lp59
+aa(lp58
 V0020600166
-p60
+p59
 aVNOV 22, 2006
-p61
+p60
 aVNOK @ PHX
-p62
+p61
 aVL
-p63
+p62
 aI39
 aI8
 aI20
@@ -353,15 +350,15 @@ aI0
 aI1
 aI21
 aI-6
-aa(lp64
+aa(lp63
 V0020600178
-p65
+p64
 aVNOV 24, 2006
-p66
+p65
 aVNOK vs. MIN
-p67
+p66
 aVL
-p68
+p67
 aI35
 aI3
 aI15
@@ -383,10 +380,25 @@ aI2
 aI8
 aI-1
 aasS'name'
-p69
+p68
 VPeja Stojakovic
+p69
+sS'weight'
 p70
-sS'experience'
+V229
 p71
+sS'age'
+p72
+I29
+sS'experience'
+p73
 I8
+sS'height'
+p74
+V6-10
+p75
+sS'position'
+p76
+VForward
+p77
 s.

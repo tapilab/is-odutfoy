@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021301032
-p5
+p4
 aVMAR 22, 2014
-p6
+p5
 aVCHA vs. POR
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0021301117
-p10
+p9
 aVAPR 02, 2014
-p11
+p10
 aVCHA @ PHI
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI0
 aI1
@@ -64,10 +61,25 @@ aI0
 aI0
 aI-2
 aasS'name'
-p14
+p13
 VDJ White
+p14
+sS'weight'
 p15
-sS'experience'
+V250
 p16
+sS'age'
+p17
+I27
+sS'experience'
+p18
 I5
+sS'height'
+p19
+V6-9
+p20
+sS'position'
+p21
+VForward
+p22
 s.

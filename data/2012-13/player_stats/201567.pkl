@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200166
-p5
+p4
 aVNOV 21, 2012
-p6
+p5
 aVMIN vs. DEN
-p7
+p6
 aVL
-p8
+p7
 aI35
 aI12
 aI25
@@ -34,15 +31,15 @@ aI3
 aI4
 aI34
 aI7
-aa(lp9
+aa(lp8
 V0021200182
-p10
+p9
 aVNOV 23, 2012
-p11
+p10
 aVMIN @ POR
-p12
+p11
 aVL
-p13
+p12
 aI36
 aI6
 aI15
@@ -63,15 +60,15 @@ aI1
 aI3
 aI24
 aI-2
-aa(lp14
+aa(lp13
 V0021200190
-p15
+p14
 aVNOV 24, 2012
-p16
+p15
 aVMIN @ GSW
-p17
+p16
 aVL
-p18
+p17
 aI34
 aI6
 aI20
@@ -92,15 +89,15 @@ aI2
 aI1
 aI15
 aI-15
-aa(lp19
+aa(lp18
 V0021200207
-p20
+p19
 aVNOV 27, 2012
-p21
+p20
 aVMIN @ SAC
-p22
+p21
 aVW
-p23
+p22
 aI44
 aI8
 aI17
@@ -121,15 +118,15 @@ aI2
 aI4
 aI23
 aI10
-aa(lp24
+aa(lp23
 V0021200219
-p25
+p24
 aVNOV 28, 2012
-p26
+p25
 aVMIN @ LAC
-p27
+p26
 aVL
-p28
+p27
 aI35
 aI3
 aI12
@@ -150,15 +147,15 @@ aI3
 aI3
 aI19
 aI-9
-aa(lp29
+aa(lp28
 V0021200230
-p30
+p29
 aVNOV 30, 2012
-p31
+p30
 aVMIN vs. MIL
-p32
+p31
 aVW
-p33
+p32
 aI30
 aI5
 aI19
@@ -179,15 +176,15 @@ aI1
 aI1
 aI15
 aI14
-aa(lp34
+aa(lp33
 V0021200251
-p35
+p34
 aVDEC 04, 2012
-p36
+p35
 aVMIN @ PHI
-p37
+p36
 aVW
-p38
+p37
 aI26
 aI2
 aI10
@@ -208,15 +205,15 @@ aI1
 aI0
 aI6
 aI9
-aa(lp39
+aa(lp38
 V0021200259
-p40
+p39
 aVDEC 05, 2012
-p41
+p40
 aVMIN @ BOS
-p42
+p41
 aVL
-p43
+p42
 aI35
 aI6
 aI15
@@ -237,15 +234,15 @@ aI5
 aI2
 aI19
 aI-9
-aa(lp44
+aa(lp43
 V0021200276
-p45
+p44
 aVDEC 07, 2012
-p46
+p45
 aVMIN vs. CLE
-p47
+p46
 aVW
-p48
+p47
 aI35
 aI10
 aI19
@@ -266,15 +263,15 @@ aI3
 aI0
 aI36
 aI18
-aa(lp49
+aa(lp48
 V0021200319
-p50
+p49
 aVDEC 12, 2012
-p51
+p50
 aVMIN vs. DEN
-p52
+p51
 aVW
-p53
+p52
 aI31
 aI3
 aI17
@@ -295,15 +292,15 @@ aI2
 aI5
 aI8
 aI1
-aa(lp54
+aa(lp53
 V0021200331
-p55
+p54
 aVDEC 14, 2012
-p56
+p55
 aVMIN @ NOH
-p57
+p56
 aVW
-p58
+p57
 aI36
 aI4
 aI18
@@ -324,15 +321,15 @@ aI1
 aI1
 aI14
 aI9
-aa(lp59
+aa(lp58
 V0021200350
-p60
+p59
 aVDEC 17, 2012
-p61
+p60
 aVMIN @ ORL
-p62
+p61
 aVL
-p63
+p62
 aI38
 aI10
 aI20
@@ -353,15 +350,15 @@ aI2
 aI0
 aI23
 aI-4
-aa(lp64
+aa(lp63
 V0021200359
-p65
+p64
 aVDEC 18, 2012
-p66
+p65
 aVMIN @ MIA
-p67
+p66
 aVL
-p68
+p67
 aI33
 aI2
 aI10
@@ -382,15 +379,15 @@ aI3
 aI3
 aI11
 aI-15
-aa(lp69
+aa(lp68
 V0021200377
-p70
+p69
 aVDEC 20, 2012
-p71
+p70
 aVMIN vs. OKC
-p72
+p71
 aVW
-p73
+p72
 aI40
 aI9
 aI20
@@ -411,15 +408,15 @@ aI1
 aI1
 aI28
 aI2
-aa(lp74
+aa(lp73
 V0021200417
-p75
+p74
 aVDEC 26, 2012
-p76
+p75
 aVMIN vs. HOU
-p77
+p76
 aVL
-p78
+p77
 aI36
 aI3
 aI14
@@ -440,15 +437,15 @@ aI5
 aI1
 aI7
 aI-4
-aa(lp79
+aa(lp78
 V0021200444
-p80
+p79
 aVDEC 29, 2012
-p81
+p80
 aVMIN vs. PHX
-p82
+p81
 aVW
-p83
+p82
 aI41
 aI8
 aI20
@@ -469,15 +466,15 @@ aI2
 aI3
 aI23
 aI6
-aa(lp84
+aa(lp83
 V0021200473
-p85
+p84
 aVJAN 02, 2013
-p86
+p85
 aVMIN @ UTA
-p87
+p86
 aVL
-p88
+p87
 aI30
 aI4
 aI14
@@ -498,15 +495,15 @@ aI1
 aI1
 aI13
 aI-4
-aa(lp89
+aa(lp88
 V0021200477
-p90
+p89
 aVJAN 03, 2013
-p91
+p90
 aVMIN @ DEN
-p92
+p91
 aVW
-p93
+p92
 aI24
 aI4
 aI13
@@ -528,10 +525,25 @@ aI1
 aI12
 aI-12
 aasS'name'
-p94
+p93
 VKevin Love
+p94
+sS'weight'
 p95
-sS'experience'
+V251
 p96
+sS'age'
+p97
+I24
+sS'experience'
+p98
 I4
+sS'height'
+p99
+V6-10
+p100
+sS'position'
+p101
+VForward
+p102
 s.

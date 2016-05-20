@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000166
-p5
+p4
 aVNOV 17, 2010
-p6
+p5
 aVSAS vs. CHI
-p7
+p6
 aVW
-p8
+p7
 aI0
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0021000187
-p10
+p9
 aVNOV 20, 2010
-p11
+p10
 aVSAS vs. CLE
-p12
+p11
 aVW
-p13
+p12
 aI9
 aI2
 aI5
@@ -63,15 +60,15 @@ aI0
 aI0
 aI6
 aI7
-aa(lp14
+aa(lp13
 V0021001033
-p15
+p14
 aVMAR 19, 2011
-p16
+p15
 aVSAS vs. CHA
-p17
+p16
 aVW
-p18
+p17
 aI4
 aI0
 aI1
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0021001049
-p20
+p19
 aVMAR 21, 2011
-p21
+p20
 aVSAS vs. GSW
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0021001099
-p25
+p24
 aVMAR 28, 2011
-p26
+p25
 aVSAS vs. POR
-p27
+p26
 aVL
-p28
+p27
 aI20
 aI3
 aI3
@@ -150,15 +147,15 @@ aI1
 aI0
 aI7
 aI-3
-aa(lp29
+aa(lp28
 V0021001171
-p30
+p29
 aVAPR 06, 2011
-p31
+p30
 aVSAS vs. SAC
-p32
+p31
 aVW
-p33
+p32
 aI13
 aI4
 aI7
@@ -179,15 +176,15 @@ aI1
 aI3
 aI9
 aI10
-aa(lp34
+aa(lp33
 V0021001215
-p35
+p34
 aVAPR 12, 2011
-p36
+p35
 aVSAS @ LAL
-p37
+p36
 aVL
-p38
+p37
 aI21
 aI3
 aI10
@@ -208,15 +205,15 @@ aI1
 aI2
 aI6
 aI-2
-aa(lp39
+aa(lp38
 V0021001229
-p40
+p39
 aVAPR 13, 2011
-p41
+p40
 aVSAS @ PHX
-p42
+p41
 aVL
-p43
+p42
 aI24
 aI5
 aI9
@@ -238,10 +235,25 @@ aI2
 aI13
 aI8
 aasS'name'
-p44
+p43
 VDanny Green
+p44
+sS'weight'
 p45
-sS'experience'
+V215
 p46
+sS'age'
+p47
+I23
+sS'experience'
+p48
 I1
+sS'height'
+p49
+V6-6
+p50
+sS'position'
+p51
+VGuard-Forward
+p52
 s.

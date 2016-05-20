@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900073
-p5
+p4
 aVNOV 06, 2009
-p6
+p5
 aVWAS @ IND
-p7
+p6
 aVL
-p8
+p7
 aI22
 aI2
 aI8
@@ -34,15 +31,15 @@ aI1
 aI1
 aI6
 aI9
-aa(lp9
+aa(lp8
 V0020900647
-p10
+p9
 aVJAN 24, 2010
-p11
+p10
 aVWAS vs. LAC
-p12
+p11
 aVL
-p13
+p12
 aI19
 aI4
 aI11
@@ -63,15 +60,15 @@ aI3
 aI1
 aI11
 aI3
-aa(lp14
+aa(lp13
 V0020900658
-p15
+p14
 aVJAN 26, 2010
-p16
+p15
 aVWAS vs. LAL
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI1
 aI0
 aI1
 aI-4
-aa(lp19
+aa(lp18
 V0020900721
-p20
+p19
 aVFEB 03, 2010
-p21
+p20
 aVWAS @ NYK
-p22
+p21
 aVL
-p23
+p22
 aI3
 aI0
 aI1
@@ -122,10 +119,25 @@ aI1
 aI0
 aI-6
 aasS'name'
-p24
+p23
 VMike James
+p24
+sS'weight'
 p25
-sS'experience'
+V188
 p26
+sS'age'
+p27
+I34
+sS'experience'
+p28
 I8
+sS'height'
+p29
+V6-2
+p30
+sS'position'
+p31
+VGuard
+p32
 s.

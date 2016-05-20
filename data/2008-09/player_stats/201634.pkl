@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800014
-p5
+p4
 aVOCT 29, 2008
-p6
+p5
 aVGSW vs. NOH
-p7
+p6
 aVL
-p8
+p7
 aI13
 aI3
 aI6
@@ -34,15 +31,15 @@ aI2
 aI2
 aI6
 aI-9
-aa(lp9
+aa(lp8
 V0020800020
-p10
+p9
 aVOCT 31, 2008
-p11
+p10
 aVGSW @ TOR
-p12
+p11
 aVL
-p13
+p12
 aI12
 aI1
 aI4
@@ -63,15 +60,15 @@ aI1
 aI0
 aI2
 aI-2
-aa(lp14
+aa(lp13
 V0020800031
-p15
+p14
 aVNOV 01, 2008
-p16
+p15
 aVGSW @ NJN
-p17
+p16
 aVW
-p18
+p17
 aI23
 aI4
 aI6
@@ -92,15 +89,15 @@ aI1
 aI3
 aI9
 aI13
-aa(lp19
+aa(lp18
 V0020800045
-p20
+p19
 aVNOV 03, 2008
-p21
+p20
 aVGSW @ MEM
-p22
+p21
 aVL
-p23
+p22
 aI26
 aI4
 aI8
@@ -121,15 +118,15 @@ aI2
 aI2
 aI8
 aI-5
-aa(lp24
+aa(lp23
 V0020800062
-p25
+p24
 aVNOV 05, 2008
-p26
+p25
 aVGSW vs. DEN
-p27
+p26
 aVW
-p28
+p27
 aI6
 aI2
 aI2
@@ -150,15 +147,15 @@ aI1
 aI0
 aI4
 aI-10
-aa(lp29
+aa(lp28
 V0020800077
-p30
+p29
 aVNOV 07, 2008
-p31
+p30
 aVGSW vs. MEM
-p32
+p31
 aVL
-p33
+p32
 aI10
 aI3
 aI5
@@ -179,15 +176,15 @@ aI0
 aI2
 aI6
 aI0
-aa(lp34
+aa(lp33
 V0020800091
-p35
+p34
 aVNOV 09, 2008
-p36
+p35
 aVGSW @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI25
 aI3
 aI8
@@ -208,15 +205,15 @@ aI2
 aI4
 aI6
 aI-8
-aa(lp39
+aa(lp38
 V0020800119
-p40
+p39
 aVNOV 13, 2008
-p41
+p40
 aVGSW vs. DET
-p42
+p41
 aVL
-p43
+p42
 aI3
 aI1
 aI2
@@ -237,15 +234,15 @@ aI1
 aI2
 aI2
 aI-4
-aa(lp44
+aa(lp43
 V0020800367
-p45
+p44
 aVDEC 17, 2008
-p46
+p45
 aVGSW @ IND
-p47
+p46
 aVL
-p48
+p47
 aI20
 aI1
 aI6
@@ -266,15 +263,15 @@ aI1
 aI2
 aI2
 aI3
-aa(lp49
+aa(lp48
 V0020800389
-p50
+p49
 aVDEC 20, 2008
-p51
+p50
 aVGSW @ CHA
-p52
+p51
 aVW
-p53
+p52
 aI1
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp54
+aa(lp53
 V0020800403
-p55
+p54
 aVDEC 22, 2008
-p56
+p55
 aVGSW @ ORL
-p57
+p56
 aVL
-p58
+p57
 aI9
 aI0
 aI1
@@ -324,15 +321,15 @@ aI1
 aI1
 aI0
 aI-9
-aa(lp59
+aa(lp58
 V0020800414
-p60
+p59
 aVDEC 23, 2008
-p61
+p60
 aVGSW @ MIA
-p62
+p61
 aVL
-p63
+p62
 aI16
 aI1
 aI5
@@ -353,15 +350,15 @@ aI2
 aI5
 aI6
 aI-5
-aa(lp64
+aa(lp63
 V0020800449
-p65
+p64
 aVDEC 28, 2008
-p66
+p65
 aVGSW @ LAL
-p67
+p66
 aVL
-p68
+p67
 aI8
 aI1
 aI1
@@ -383,10 +380,25 @@ aI1
 aI2
 aI2
 aasS'name'
-p69
+p68
 VDeMarcus Nelson
+p69
+sS'weight'
 p70
-sS'experience'
+V200
 p71
+sS'age'
+p72
+I23
+sS'experience'
+p73
 I0
+sS'height'
+p74
+V6-4
+p75
+sS'position'
+p76
+VGuard
+p77
 s.

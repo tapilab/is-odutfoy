@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I35
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021301210
-p5
+p4
 aVAPR 14, 2014
-p6
+p5
 aVNOP vs. OKC
-p7
+p6
 aVW
-p8
+p7
 aI10
 aI1
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI-4
-aa(lp9
+aa(lp8
 V0021301219
-p10
+p9
 aVAPR 16, 2014
-p11
+p10
 aVNOP vs. HOU
-p12
+p11
 aVW
-p13
+p12
 aI17
 aI2
 aI3
@@ -64,10 +61,25 @@ aI4
 aI4
 aI-11
 aasS'name'
-p14
+p13
 VMelvin Ely
+p14
+sS'weight'
 p15
-sS'experience'
+V260
 p16
+sS'age'
+p17
+I35
+sS'experience'
+p18
 I11
+sS'height'
+p19
+V6-10
+p20
+sS'position'
+p21
+VCenter-Forward
+p22
 s.

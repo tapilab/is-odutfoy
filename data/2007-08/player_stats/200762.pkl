@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700526
-p5
+p4
 aVJAN 11, 2008
-p6
+p5
 aVWAS @ ATL
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI1
 aI1
 aI2
 aI-4
-aa(lp9
+aa(lp8
 V0020700548
-p10
+p9
 aVJAN 14, 2008
-p11
+p10
 aVWAS @ BOS
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI2
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020700556
-p15
+p14
 aVJAN 15, 2008
-p16
+p15
 aVWAS @ NYK
-p17
+p16
 aVL
-p18
+p17
 aI18
 aI3
 aI7
@@ -92,15 +89,15 @@ aI0
 aI1
 aI9
 aI6
-aa(lp19
+aa(lp18
 V0020700574
-p20
+p19
 aVJAN 18, 2008
-p21
+p20
 aVWAS vs. NYK
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI3
 aI5
@@ -121,15 +118,15 @@ aI0
 aI1
 aI8
 aI0
-aa(lp24
+aa(lp23
 V0020700596
-p25
+p24
 aVJAN 21, 2008
-p26
+p25
 aVWAS vs. DAL
-p27
+p26
 aVW
-p28
+p27
 aI12
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI1
 aI2
 aI5
-aa(lp29
+aa(lp28
 V0020700612
-p30
+p29
 aVJAN 23, 2008
-p31
+p30
 aVWAS @ CLE
-p32
+p31
 aVL
-p33
+p32
 aI10
 aI2
 aI5
@@ -179,15 +176,15 @@ aI0
 aI2
 aI5
 aI-19
-aa(lp34
+aa(lp33
 V0020700626
-p35
+p34
 aVJAN 25, 2008
-p36
+p35
 aVWAS vs. MEM
-p37
+p36
 aVW
-p38
+p37
 aI5
 aI1
 aI2
@@ -208,15 +205,15 @@ aI1
 aI2
 aI2
 aI-11
-aa(lp39
+aa(lp38
 V0020700645
-p40
+p39
 aVJAN 27, 2008
-p41
+p40
 aVWAS @ MIL
-p42
+p41
 aVL
-p43
+p42
 aI2
 aI0
 aI1
@@ -237,15 +234,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp44
+aa(lp43
 V0020700656
-p45
+p44
 aVJAN 29, 2008
-p46
+p45
 aVWAS vs. TOR
-p47
+p46
 aVW
-p48
+p47
 aI7
 aI1
 aI3
@@ -266,15 +263,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp49
+aa(lp48
 V0020700665
-p50
+p49
 aVJAN 30, 2008
-p51
+p50
 aVWAS @ TOR
-p52
+p51
 aVL
-p53
+p52
 aI19
 aI2
 aI7
@@ -295,15 +292,15 @@ aI2
 aI0
 aI7
 aI-23
-aa(lp54
+aa(lp53
 V0020700696
-p55
+p54
 aVFEB 03, 2008
-p56
+p55
 aVWAS vs. LAL
-p57
+p56
 aVL
-p58
+p57
 aI15
 aI3
 aI6
@@ -324,15 +321,15 @@ aI1
 aI1
 aI8
 aI10
-aa(lp59
+aa(lp58
 V0020700712
-p60
+p59
 aVFEB 06, 2008
-p61
+p60
 aVWAS vs. SAS
-p62
+p61
 aVL
-p63
+p62
 aI10
 aI2
 aI5
@@ -353,15 +350,15 @@ aI1
 aI0
 aI4
 aI-3
-aa(lp64
+aa(lp63
 V0020700736
-p65
+p64
 aVFEB 08, 2008
-p66
+p65
 aVWAS @ DEN
-p67
+p66
 aVL
-p68
+p67
 aI14
 aI0
 aI5
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp69
+aa(lp68
 V0020700750
-p70
+p69
 aVFEB 10, 2008
-p71
+p70
 aVWAS @ PHX
-p72
+p71
 aVL
-p73
+p72
 aI5
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp74
+aa(lp73
 V0020700777
-p75
+p74
 aVFEB 13, 2008
-p76
+p75
 aVWAS @ LAC
-p77
+p76
 aVW
-p78
+p77
 aI4
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp79
+aa(lp78
 V0020700780
-p80
+p79
 aVFEB 19, 2008
-p81
+p80
 aVWAS vs. NYK
-p82
+p81
 aVL
-p83
+p82
 aI6
 aI1
 aI2
@@ -469,15 +466,15 @@ aI0
 aI1
 aI5
 aI7
-aa(lp84
+aa(lp83
 V0020700816
-p85
+p84
 aVFEB 23, 2008
-p86
+p85
 aVWAS vs. CHA
-p87
+p86
 aVW
-p88
+p87
 aI15
 aI4
 aI9
@@ -498,15 +495,15 @@ aI0
 aI3
 aI9
 aI8
-aa(lp89
+aa(lp88
 V0020700832
-p90
+p89
 aVFEB 25, 2008
-p91
+p90
 aVWAS @ NOH
-p92
+p91
 aVW
-p93
+p92
 aI5
 aI0
 aI1
@@ -527,15 +524,15 @@ aI0
 aI1
 aI0
 aI4
-aa(lp94
+aa(lp93
 V0020700842
-p95
+p94
 aVFEB 26, 2008
-p96
+p95
 aVWAS @ HOU
-p97
+p96
 aVL
-p98
+p97
 aI19
 aI3
 aI8
@@ -556,15 +553,15 @@ aI0
 aI2
 aI11
 aI2
-aa(lp99
+aa(lp98
 V0020700862
-p100
+p99
 aVFEB 29, 2008
-p101
+p100
 aVWAS @ CHI
-p102
+p101
 aVW
-p103
+p102
 aI4
 aI0
 aI1
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp104
+aa(lp103
 V0020700879
-p105
+p104
 aVMAR 02, 2008
-p106
+p105
 aVWAS vs. NOH
-p107
+p106
 aVW
-p108
+p107
 aI8
 aI3
 aI5
@@ -614,15 +611,15 @@ aI0
 aI1
 aI8
 aI-3
-aa(lp109
+aa(lp108
 V0020700897
-p110
+p109
 aVMAR 05, 2008
-p111
+p110
 aVWAS vs. ORL
-p112
+p111
 aVL
-p113
+p112
 aI23
 aI6
 aI8
@@ -643,15 +640,15 @@ aI6
 aI3
 aI15
 aI-3
-aa(lp114
+aa(lp113
 V0020700912
-p115
+p114
 aVMAR 07, 2008
-p116
+p115
 aVWAS @ TOR
-p117
+p116
 aVW
-p118
+p117
 aI3
 aI0
 aI0
@@ -672,15 +669,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp119
+aa(lp118
 V0020700925
-p120
+p119
 aVMAR 08, 2008
-p121
+p120
 aVWAS vs. CHA
-p122
+p121
 aVL
-p123
+p122
 aI6
 aI0
 aI3
@@ -701,15 +698,15 @@ aI0
 aI1
 aI0
 aI10
-aa(lp124
+aa(lp123
 V0020700977
-p125
+p124
 aVMAR 15, 2008
-p126
+p125
 aVWAS vs. LAC
-p127
+p126
 aVW
-p128
+p127
 aI3
 aI0
 aI1
@@ -730,15 +727,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp129
+aa(lp128
 V0020700991
-p130
+p129
 aVMAR 17, 2008
-p131
+p130
 aVWAS vs. ATL
-p132
+p131
 aVL
-p133
+p132
 aI1
 aI0
 aI2
@@ -759,15 +756,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp134
+aa(lp133
 V0020701008
-p135
+p134
 aVMAR 19, 2008
-p136
+p135
 aVWAS @ ORL
-p137
+p136
 aVW
-p138
+p137
 aI6
 aI0
 aI0
@@ -788,15 +785,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp139
+aa(lp138
 V0020701023
-p140
+p139
 aVMAR 21, 2008
-p141
+p140
 aVWAS @ MIA
-p142
+p141
 aVW
-p143
+p142
 aI10
 aI2
 aI5
@@ -817,15 +814,15 @@ aI1
 aI2
 aI6
 aI-12
-aa(lp144
+aa(lp143
 V0020701042
-p145
+p144
 aVMAR 23, 2008
-p146
+p145
 aVWAS vs. DET
-p147
+p146
 aVW
-p148
+p147
 aI1
 aI0
 aI0
@@ -846,15 +843,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp149
+aa(lp148
 V0020701057
-p150
+p149
 aVMAR 25, 2008
-p151
+p150
 aVWAS @ POR
-p152
+p151
 aVL
-p153
+p152
 aI3
 aI0
 aI1
@@ -875,15 +872,15 @@ aI0
 aI1
 aI1
 aI-2
-aa(lp154
+aa(lp153
 V0020701102
-p155
+p154
 aVMAR 31, 2008
-p156
+p155
 aVWAS @ UTA
-p157
+p156
 aVL
-p158
+p157
 aI13
 aI0
 aI5
@@ -904,15 +901,15 @@ aI0
 aI1
 aI2
 aI-16
-aa(lp159
+aa(lp158
 V0020701128
-p160
+p159
 aVAPR 04, 2008
-p161
+p160
 aVWAS vs. MIA
-p162
+p161
 aVW
-p163
+p162
 aI3
 aI0
 aI1
@@ -933,15 +930,15 @@ aI0
 aI0
 aI0
 aI-11
-aa(lp164
+aa(lp163
 V0020701183
-p165
+p164
 aVAPR 11, 2008
-p166
+p165
 aVWAS @ DET
-p167
+p166
 aVL
-p168
+p167
 aI9
 aI0
 aI3
@@ -962,15 +959,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp169
+aa(lp168
 V0020701205
-p170
+p169
 aVAPR 14, 2008
-p171
+p170
 aVWAS vs. IND
-p172
+p171
 aVW
-p173
+p172
 aI6
 aI2
 aI5
@@ -991,15 +988,15 @@ aI1
 aI2
 aI5
 aI8
-aa(lp174
+aa(lp173
 V0020701218
-p175
+p174
 aVAPR 16, 2008
-p176
+p175
 aVWAS @ ORL
-p177
+p176
 aVL
-p178
+p177
 aI39
 aI3
 aI11
@@ -1021,10 +1018,25 @@ aI1
 aI10
 aI-19
 aasS'name'
-p179
+p178
 VOleksiy Pecherov
+p179
+sS'weight'
 p180
-sS'experience'
+V234
 p181
+sS'age'
+p182
+I22
+sS'experience'
+p183
 I0
+sS'height'
+p184
+V7-0
+p185
+sS'position'
+p186
+VForward-Center
+p187
 s.

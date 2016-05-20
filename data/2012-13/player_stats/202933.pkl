@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200497
-p5
+p4
 aVJAN 05, 2013
-p6
+p5
 aVDEN vs. UTA
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI1
 aI1
@@ -34,15 +31,15 @@ aI1
 aI3
 aI2
 aI-4
-aa(lp9
+aa(lp8
 V0021200574
-p10
+p9
 aVJAN 16, 2013
-p11
+p10
 aVDEN @ OKC
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp14
+aa(lp13
 V0021201037
-p15
+p14
 aVMAR 23, 2013
-p16
+p15
 aVDEN vs. SAC
-p17
+p16
 aVW
-p18
+p17
 aI14
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI5
 aI10
-aa(lp19
+aa(lp18
 V0021201051
-p20
+p19
 aVMAR 25, 2013
-p21
+p20
 aVDEN @ NOH
-p22
+p21
 aVL
-p23
+p22
 aI2
 aI0
 aI0
@@ -122,10 +119,25 @@ aI1
 aI0
 aI2
 aasS'name'
-p24
+p23
 VJulyan Stone
+p24
+sS'weight'
 p25
-sS'experience'
+V200
 p26
+sS'age'
+p27
+I24
+sS'experience'
+p28
 I1
+sS'height'
+p29
+V6-6
+p30
+sS'position'
+p31
+VGuard
+p32
 s.

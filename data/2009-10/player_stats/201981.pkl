@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900060
-p5
+p4
 aVNOV 04, 2009
-p6
+p5
 aVPHX @ ORL
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI2
@@ -34,15 +31,15 @@ aI1
 aI1
 aI2
 aI4
-aa(lp9
+aa(lp8
 V0020900295
-p10
+p9
 aVDEC 06, 2009
-p11
+p10
 aVPHX @ LAL
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020900853
-p15
+p14
 aVFEB 24, 2010
-p16
+p15
 aVPHX vs. PHI
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp19
+aa(lp18
 V0020900870
-p20
+p19
 aVFEB 26, 2010
-p21
+p20
 aVPHX vs. LAC
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp24
+aa(lp23
 V0020900893
-p25
+p24
 aVMAR 01, 2010
-p26
+p25
 aVPHX vs. DEN
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp29
+aa(lp28
 V0020900910
-p30
+p29
 aVMAR 03, 2010
-p31
+p30
 aVPHX @ LAC
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp34
+aa(lp33
 V0020900988
-p35
+p34
 aVMAR 14, 2010
-p36
+p35
 aVPHX vs. NOH
-p37
+p36
 aVW
-p38
+p37
 aI4
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp39
+aa(lp38
 V0020901003
-p40
+p39
 aVMAR 16, 2010
-p41
+p40
 aVPHX vs. MIN
-p42
+p41
 aVW
-p43
+p42
 aI7
 aI1
 aI3
@@ -238,10 +235,25 @@ aI1
 aI4
 aI5
 aasS'name'
-p44
+p43
 VTaylor Griffin
+p44
+sS'weight'
 p45
-sS'experience'
+V238
 p46
+sS'age'
+p47
+I23
+sS'experience'
+p48
 I0
+sS'height'
+p49
+V6-7
+p50
+sS'position'
+p51
+VForward
+p52
 s.

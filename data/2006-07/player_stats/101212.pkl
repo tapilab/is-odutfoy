@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600186
-p5
+p4
 aVNOV 25, 2006
-p6
+p5
 aVATL @ ORL
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp9
+aa(lp8
 V0020600437
-p10
+p9
 aVDEC 29, 2006
-p11
+p10
 aVATL @ HOU
-p12
+p11
 aVL
-p13
+p12
 aI16
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI2
 aI2
 aI-4
-aa(lp14
+aa(lp13
 V0020600451
-p15
+p14
 aVDEC 31, 2006
-p16
+p15
 aVATL @ SAS
+p16
+aVL
 p17
-aVL
-p18
 aI2
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp19
+aa(lp18
 V0020600593
-p20
+p19
 aVJAN 20, 2007
-p21
+p20
 aVATL @ CHA
-p22
+p21
 aVL
-p23
+p22
 aI6
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp24
+aa(lp23
 V0020600896
-p25
+p24
 aVMAR 05, 2007
-p26
+p25
 aVATL @ MIA
-p27
+p26
 aVL
-p28
+p27
 aI7
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI2
 aI0
 aI-4
-aa(lp29
+aa(lp28
 V0020600948
-p30
+p29
 aVMAR 13, 2007
-p31
+p30
 aVATL vs. PHI
-p32
+p31
 aVW
-p33
+p32
 aI1
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp34
+aa(lp33
 V0020600995
-p35
+p34
 aVMAR 19, 2007
-p36
+p35
 aVATL vs. SAC
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI0
 aI1
@@ -208,15 +205,15 @@ aI1
 aI1
 aI2
 aI1
-aa(lp39
+aa(lp38
 V0020601047
-p40
+p39
 aVMAR 26, 2007
-p41
+p40
 aVATL @ MIA
-p42
+p41
 aVL
-p43
+p42
 aI20
 aI4
 aI5
@@ -237,15 +234,15 @@ aI1
 aI5
 aI8
 aI-2
-aa(lp44
+aa(lp43
 V0020601125
-p45
+p44
 aVAPR 06, 2007
-p46
+p45
 aVATL vs. MIL
-p47
+p46
 aVW
-p48
+p47
 aI2
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp49
+aa(lp48
 V0020601178
-p50
+p49
 aVAPR 13, 2007
-p51
+p50
 aVATL vs. WAS
-p52
+p51
 aVL
-p53
+p52
 aI3
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI0
 aI4
 aI8
-aa(lp54
+aa(lp53
 V0020601188
-p55
+p54
 aVAPR 14, 2007
-p56
+p55
 aVATL @ CLE
-p57
+p56
 aVL
-p58
+p57
 aI7
 aI1
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI-4
-aa(lp59
+aa(lp58
 V0020601205
-p60
+p59
 aVAPR 16, 2007
-p61
+p60
 aVATL @ MIL
-p62
+p61
 aVL
-p63
+p62
 aI8
 aI1
 aI1
@@ -353,15 +350,15 @@ aI2
 aI0
 aI2
 aI-2
-aa(lp64
+aa(lp63
 V0020601213
-p65
+p64
 aVAPR 17, 2007
-p66
+p65
 aVATL vs. IND
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI1
@@ -383,10 +380,25 @@ aI1
 aI0
 aI-4
 aasS'name'
-p69
+p68
 VEsteban Batista
+p69
+sS'weight'
 p70
-sS'experience'
+V268
 p71
+sS'age'
+p72
+I23
+sS'experience'
+p73
 I1
+sS'height'
+p74
+V6-10
+p75
+sS'position'
+p76
+VForward-Center
+p77
 s.

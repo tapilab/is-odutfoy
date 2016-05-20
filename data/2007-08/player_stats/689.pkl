@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700023
-p5
+p4
 aVNOV 02, 2007
-p6
+p5
 aVMIN vs. DEN
-p7
+p6
 aVL
-p8
+p7
 aI29
 aI4
 aI10
@@ -34,15 +31,15 @@ aI0
 aI1
 aI14
 aI7
-aa(lp9
+aa(lp8
 V0020700037
-p10
+p9
 aVNOV 04, 2007
-p11
+p10
 aVMIN @ NYK
-p12
+p11
 aVL
-p13
+p12
 aI33
 aI4
 aI8
@@ -63,15 +60,15 @@ aI4
 aI3
 aI8
 aI-4
-aa(lp14
+aa(lp13
 V0020700076
-p15
+p14
 aVNOV 09, 2007
-p16
+p15
 aVMIN @ LAL
-p17
+p16
 aVL
-p18
+p17
 aI24
 aI1
 aI5
@@ -92,15 +89,15 @@ aI1
 aI3
 aI4
 aI-4
-aa(lp19
+aa(lp18
 V0020700084
-p20
+p19
 aVNOV 10, 2007
-p21
+p20
 aVMIN @ SAC
-p22
+p21
 aVL
-p23
+p22
 aI37
 aI5
 aI7
@@ -121,15 +118,15 @@ aI1
 aI6
 aI14
 aI-8
-aa(lp24
+aa(lp23
 V0020700112
-p25
+p24
 aVNOV 14, 2007
-p26
+p25
 aVMIN vs. SAC
-p27
+p26
 aVW
-p28
+p27
 aI22
 aI3
 aI5
@@ -150,15 +147,15 @@ aI2
 aI4
 aI7
 aI6
-aa(lp29
+aa(lp28
 V0020700127
-p30
+p29
 aVNOV 16, 2007
-p31
+p30
 aVMIN vs. WAS
-p32
+p31
 aVL
-p33
+p32
 aI15
 aI1
 aI1
@@ -179,15 +176,15 @@ aI2
 aI2
 aI2
 aI-3
-aa(lp34
+aa(lp33
 V0020700801
-p35
+p34
 aVFEB 21, 2008
-p36
+p35
 aVMIN vs. SAS
-p37
+p36
 aVL
-p38
+p37
 aI14
 aI3
 aI4
@@ -208,15 +205,15 @@ aI0
 aI2
 aI8
 aI-1
-aa(lp39
+aa(lp38
 V0020700828
-p40
+p39
 aVFEB 24, 2008
-p41
+p40
 aVMIN vs. DAL
-p42
+p41
 aVL
-p43
+p42
 aI13
 aI1
 aI3
@@ -237,15 +234,15 @@ aI1
 aI1
 aI3
 aI-1
-aa(lp44
+aa(lp43
 V0020700841
-p45
+p44
 aVFEB 26, 2008
-p46
+p45
 aVMIN vs. UTA
-p47
+p46
 aVW
-p48
+p47
 aI13
 aI0
 aI1
@@ -266,15 +263,15 @@ aI1
 aI5
 aI0
 aI-6
-aa(lp49
+aa(lp48
 V0020700845
-p50
+p49
 aVFEB 27, 2008
-p51
+p50
 aVMIN @ TOR
-p52
+p51
 aVL
-p53
+p52
 aI13
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI3
 aI3
 aI-6
-aa(lp54
+aa(lp53
 V0020700915
-p55
+p54
 aVMAR 07, 2008
-p56
+p55
 aVDET @ NYK
-p57
+p56
 aVW
-p58
+p57
 aI22
 aI2
 aI5
@@ -324,15 +321,15 @@ aI0
 aI1
 aI5
 aI4
-aa(lp59
+aa(lp58
 V0020700937
-p60
+p59
 aVMAR 09, 2008
-p61
+p60
 aVDET vs. CHI
-p62
+p61
 aVW
-p63
+p62
 aI26
 aI4
 aI6
@@ -353,15 +350,15 @@ aI1
 aI2
 aI10
 aI3
-aa(lp64
+aa(lp63
 V0020700957
-p65
+p64
 aVMAR 12, 2008
-p66
+p65
 aVDET vs. PHI
-p67
+p66
 aVL
-p68
+p67
 aI14
 aI0
 aI1
@@ -382,15 +379,15 @@ aI1
 aI3
 aI0
 aI-15
-aa(lp69
+aa(lp68
 V0020700969
-p70
+p69
 aVMAR 14, 2008
-p71
+p70
 aVDET vs. SAS
-p72
+p71
 aVW
-p73
+p72
 aI13
 aI2
 aI5
@@ -411,15 +408,15 @@ aI0
 aI1
 aI7
 aI-3
-aa(lp74
+aa(lp73
 V0020700986
-p75
+p74
 aVMAR 16, 2008
-p76
+p75
 aVDET vs. NOH
-p77
+p76
 aVW
-p78
+p77
 aI5
 aI1
 aI1
@@ -440,15 +437,15 @@ aI0
 aI2
 aI2
 aI4
-aa(lp79
+aa(lp78
 V0020701011
-p80
+p79
 aVMAR 19, 2008
-p81
+p80
 aVDET @ CLE
-p82
+p81
 aVL
-p83
+p82
 aI12
 aI1
 aI2
@@ -469,15 +466,15 @@ aI2
 aI2
 aI4
 aI-1
-aa(lp84
+aa(lp83
 V0020701042
-p85
+p84
 aVMAR 23, 2008
-p86
+p85
 aVDET @ WAS
-p87
+p86
 aVL
-p88
+p87
 aI12
 aI0
 aI0
@@ -498,15 +495,15 @@ aI2
 aI1
 aI1
 aI3
-aa(lp89
+aa(lp88
 V0020701047
-p90
+p89
 aVMAR 24, 2008
-p91
+p90
 aVDET vs. PHX
-p92
+p91
 aVW
-p93
+p92
 aI14
 aI1
 aI3
@@ -527,15 +524,15 @@ aI0
 aI4
 aI4
 aI-1
-aa(lp94
+aa(lp93
 V0020701058
-p95
+p94
 aVMAR 26, 2008
-p96
+p95
 aVDET @ TOR
-p97
+p96
 aVL
-p98
+p97
 aI5
 aI0
 aI2
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp99
+aa(lp98
 V0020701085
-p100
+p99
 aVMAR 29, 2008
-p101
+p100
 aVDET vs. CLE
-p102
+p101
 aVW
-p103
+p102
 aI19
 aI1
 aI2
@@ -585,15 +582,15 @@ aI1
 aI1
 aI2
 aI5
-aa(lp104
+aa(lp103
 V0020701108
-p105
+p104
 aVAPR 01, 2008
-p106
+p105
 aVDET @ MIN
-p107
+p106
 aVW
-p108
+p107
 aI16
 aI1
 aI1
@@ -614,15 +611,15 @@ aI1
 aI1
 aI2
 aI-11
-aa(lp109
+aa(lp108
 V0020701143
-p110
+p109
 aVAPR 06, 2008
-p111
+p110
 aVDET @ MIA
-p112
+p111
 aVW
-p113
+p112
 aI15
 aI0
 aI2
@@ -643,15 +640,15 @@ aI1
 aI2
 aI0
 aI17
-aa(lp114
+aa(lp113
 V0020701165
-p115
+p114
 aVAPR 09, 2008
-p116
+p115
 aVDET @ PHI
-p117
+p116
 aVL
-p118
+p117
 aI17
 aI2
 aI3
@@ -672,15 +669,15 @@ aI0
 aI2
 aI5
 aI-4
-aa(lp119
+aa(lp118
 V0020701183
-p120
+p119
 aVAPR 11, 2008
-p121
+p120
 aVDET vs. WAS
-p122
+p121
 aVW
-p123
+p122
 aI9
 aI2
 aI4
@@ -701,15 +698,15 @@ aI0
 aI2
 aI4
 aI5
-aa(lp124
+aa(lp123
 V0020701199
-p125
+p124
 aVAPR 13, 2008
-p126
+p125
 aVDET vs. TOR
-p127
+p126
 aVW
-p128
+p127
 aI14
 aI1
 aI2
@@ -730,15 +727,15 @@ aI0
 aI4
 aI2
 aI10
-aa(lp129
+aa(lp128
 V0020701213
-p130
+p129
 aVAPR 15, 2008
-p131
+p130
 aVDET vs. MIN
-p132
+p131
 aVW
-p133
+p132
 aI9
 aI0
 aI1
@@ -760,10 +757,25 @@ aI1
 aI0
 aI10
 aasS'name'
-p134
+p133
 VTheo Ratliff
+p134
+sS'weight'
 p135
-sS'experience'
+V235
 p136
+sS'age'
+p137
+I34
+sS'experience'
+p138
 I12
+sS'height'
+p139
+V6-10
+p140
+sS'position'
+p141
+VCenter
+p142
 s.

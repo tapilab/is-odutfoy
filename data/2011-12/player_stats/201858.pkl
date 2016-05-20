@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100753
-p5
+p4
 aVMAR 29, 2012
-p6
+p5
 aVWAS @ IND
-p7
+p6
 aVL
-p8
+p7
 aI20
 aI4
 aI7
@@ -34,15 +31,15 @@ aI0
 aI1
 aI10
 aI-5
-aa(lp9
+aa(lp8
 V0021100758
-p10
+p9
 aVMAR 30, 2012
-p11
+p10
 aVWAS vs. PHI
-p12
+p11
 aVW
-p13
+p12
 aI26
 aI8
 aI12
@@ -63,15 +60,15 @@ aI1
 aI2
 aI20
 aI20
-aa(lp14
+aa(lp13
 V0021100779
-p15
+p14
 aVAPR 01, 2012
-p16
+p15
 aVWAS @ TOR
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI0
 aI1
@@ -92,15 +89,15 @@ aI1
 aI4
 aI0
 aI-9
-aa(lp19
+aa(lp18
 V0021100785
-p20
+p19
 aVAPR 02, 2012
-p21
+p20
 aVWAS vs. MIL
-p22
+p21
 aVL
-p23
+p22
 aI24
 aI3
 aI8
@@ -121,15 +118,15 @@ aI1
 aI3
 aI7
 aI7
-aa(lp24
+aa(lp23
 V0021100800
-p25
+p24
 aVAPR 04, 2012
-p26
+p25
 aVWAS vs. IND
-p27
+p26
 aVL
-p28
+p27
 aI19
 aI1
 aI3
@@ -150,15 +147,15 @@ aI1
 aI1
 aI4
 aI-5
-aa(lp29
+aa(lp28
 V0021100812
-p30
+p29
 aVAPR 05, 2012
-p31
+p30
 aVWAS @ DET
-p32
+p31
 aVL
-p33
+p32
 aI13
 aI2
 aI4
@@ -179,15 +176,15 @@ aI1
 aI0
 aI6
 aI-1
-aa(lp34
+aa(lp33
 V0021100817
-p35
+p34
 aVAPR 06, 2012
-p36
+p35
 aVWAS @ NJN
-p37
+p36
 aVL
-p38
+p37
 aI29
 aI3
 aI9
@@ -208,15 +205,15 @@ aI1
 aI1
 aI7
 aI-1
-aa(lp39
+aa(lp38
 V0021100842
-p40
+p39
 aVAPR 09, 2012
-p41
+p40
 aVWAS @ CHA
-p42
+p41
 aVW
-p43
+p42
 aI30
 aI7
 aI13
@@ -237,15 +234,15 @@ aI1
 aI3
 aI19
 aI12
-aa(lp44
+aa(lp43
 V0021100852
-p45
+p44
 aVAPR 10, 2012
-p46
+p45
 aVWAS vs. ORL
-p47
+p46
 aVW
-p48
+p47
 aI30
 aI5
 aI11
@@ -266,15 +263,15 @@ aI1
 aI2
 aI12
 aI6
-aa(lp49
+aa(lp48
 V0021100878
-p50
+p49
 aVAPR 13, 2012
-p51
+p50
 aVWAS @ NYK
-p52
+p51
 aVL
-p53
+p52
 aI18
 aI1
 aI3
@@ -295,15 +292,15 @@ aI0
 aI2
 aI5
 aI-18
-aa(lp54
+aa(lp53
 V0021100887
-p55
+p54
 aVAPR 14, 2012
-p56
+p55
 aVWAS vs. CLE
-p57
+p56
 aVL
-p58
+p57
 aI24
 aI2
 aI9
@@ -324,15 +321,15 @@ aI0
 aI5
 aI6
 aI-10
-aa(lp59
+aa(lp58
 V0021100907
-p60
+p59
 aVAPR 16, 2012
-p61
+p60
 aVWAS @ CHI
-p62
+p61
 aVW
-p63
+p62
 aI20
 aI2
 aI10
@@ -353,15 +350,15 @@ aI1
 aI1
 aI5
 aI-7
-aa(lp64
+aa(lp63
 V0021100918
-p65
+p64
 aVAPR 18, 2012
-p66
+p65
 aVWAS vs. MIL
-p67
+p66
 aVW
-p68
+p67
 aI17
 aI2
 aI2
@@ -382,15 +379,15 @@ aI0
 aI2
 aI7
 aI1
-aa(lp69
+aa(lp68
 V0021100945
-p70
+p69
 aVAPR 21, 2012
-p71
+p70
 aVWAS @ MIA
-p72
+p71
 aVW
-p73
+p72
 aI38
 aI8
 aI15
@@ -411,15 +408,15 @@ aI0
 aI3
 aI22
 aI0
-aa(lp74
+aa(lp73
 V0021100960
-p75
+p74
 aVAPR 23, 2012
-p76
+p75
 aVWAS vs. CHA
-p77
+p76
 aVW
-p78
+p77
 aI24
 aI4
 aI9
@@ -440,15 +437,15 @@ aI1
 aI2
 aI9
 aI23
-aa(lp79
+aa(lp78
 V0021100972
-p80
+p79
 aVAPR 25, 2012
-p81
+p80
 aVWAS @ CLE
-p82
+p81
 aVW
-p83
+p82
 aI26
 aI3
 aI10
@@ -469,15 +466,15 @@ aI2
 aI2
 aI7
 aI9
-aa(lp84
+aa(lp83
 V0021100981
-p85
+p84
 aVAPR 26, 2012
-p86
+p85
 aVWAS vs. MIA
-p87
+p86
 aVW
-p88
+p87
 aI22
 aI4
 aI8
@@ -499,10 +496,25 @@ aI1
 aI12
 aI10
 aasS'name'
-p89
+p88
 VCartier Martin
+p89
+sS'weight'
 p90
-sS'experience'
+V220
 p91
+sS'age'
+p92
+I27
+sS'experience'
+p93
 I3
+sS'height'
+p94
+V6-7
+p95
+sS'position'
+p96
+VForward
+p97
 s.

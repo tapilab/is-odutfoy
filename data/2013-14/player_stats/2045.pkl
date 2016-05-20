@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300581
-p5
+p4
 aVJAN 17, 2014
-p6
+p5
 aVLAC @ NYK
-p7
+p6
 aVW
-p8
+p7
 aI7
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp9
+aa(lp8
 V0021300594
-p10
+p9
 aVJAN 18, 2014
-p11
+p10
 aVLAC @ IND
-p12
+p11
 aVL
-p13
+p12
 aI13
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI4
 aI-1
-aa(lp14
+aa(lp13
 V0021300607
-p15
+p14
 aVJAN 20, 2014
-p16
+p15
 aVLAC @ DET
-p17
+p16
 aVW
-p18
+p17
 aI15
 aI0
 aI4
@@ -92,15 +89,15 @@ aI1
 aI1
 aI0
 aI10
-aa(lp19
+aa(lp18
 V0021300621
-p20
+p19
 aVJAN 22, 2014
-p21
+p20
 aVLAC @ CHA
-p22
+p21
 aVL
-p23
+p22
 aI12
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI2
 aI0
 aI-5
-aa(lp24
+aa(lp23
 V0021300641
-p25
+p24
 aVJAN 24, 2014
-p26
+p25
 aVLAC @ CHI
-p27
+p26
 aVW
-p28
+p27
 aI11
 aI2
 aI5
@@ -150,15 +147,15 @@ aI0
 aI2
 aI5
 aI2
-aa(lp29
+aa(lp28
 V0021300647
-p30
+p29
 aVJAN 25, 2014
-p31
+p30
 aVLAC @ TOR
-p32
+p31
 aVW
-p33
+p32
 aI9
 aI1
 aI2
@@ -179,15 +176,15 @@ aI0
 aI1
 aI2
 aI3
-aa(lp34
+aa(lp33
 V0021300665
-p35
+p34
 aVJAN 27, 2014
-p36
+p35
 aVLAC @ MIL
-p37
+p36
 aVW
-p38
+p37
 aI19
 aI2
 aI4
@@ -208,15 +205,15 @@ aI2
 aI2
 aI6
 aI7
-aa(lp39
+aa(lp38
 V0021300685
-p40
+p39
 aVJAN 29, 2014
-p41
+p40
 aVLAC vs. WAS
-p42
+p41
 aVW
-p43
+p42
 aI10
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI1
 aI1
 aI1
-aa(lp44
+aa(lp43
 V0021300688
-p45
+p44
 aVJAN 30, 2014
-p46
+p45
 aVLAC @ GSW
-p47
+p46
 aVL
-p48
+p47
 aI9
 aI1
 aI3
@@ -266,15 +263,15 @@ aI0
 aI2
 aI2
 aI-10
-aa(lp49
+aa(lp48
 V0021300708
-p50
+p49
 aVFEB 01, 2014
-p51
+p50
 aVLAC vs. UTA
-p52
+p51
 aVW
-p53
+p52
 aI13
 aI3
 aI4
@@ -295,15 +292,15 @@ aI0
 aI2
 aI6
 aI3
-aa(lp54
+aa(lp53
 V0021300718
-p55
+p54
 aVFEB 03, 2014
-p56
+p55
 aVLAC @ DEN
-p57
+p56
 aVL
-p58
+p57
 aI12
 aI1
 aI3
@@ -324,15 +321,15 @@ aI1
 aI1
 aI4
 aI1
-aa(lp59
+aa(lp58
 V0021300736
-p60
+p59
 aVFEB 05, 2014
-p61
+p60
 aVLAC vs. MIA
-p62
+p61
 aVL
-p63
+p62
 aI2
 aI0
 aI0
@@ -353,15 +350,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp64
+aa(lp63
 V0021300763
-p65
+p64
 aVFEB 09, 2014
-p66
+p65
 aVLAC vs. PHI
-p67
+p66
 aVW
-p68
+p67
 aI12
 aI0
 aI0
@@ -382,15 +379,15 @@ aI3
 aI2
 aI0
 aI16
-aa(lp69
+aa(lp68
 V0021300789
-p70
+p69
 aVFEB 12, 2014
-p71
+p70
 aVLAC vs. POR
-p72
+p71
 aVW
-p73
+p72
 aI9
 aI1
 aI2
@@ -411,15 +408,15 @@ aI0
 aI1
 aI2
 aI7
-aa(lp74
+aa(lp73
 V0021300800
-p75
+p74
 aVFEB 18, 2014
-p76
+p75
 aVLAC vs. SAS
-p77
+p76
 aVL
-p78
+p77
 aI10
 aI0
 aI2
@@ -440,15 +437,15 @@ aI0
 aI2
 aI0
 aI-12
-aa(lp79
+aa(lp78
 V0021300821
-p80
+p79
 aVFEB 21, 2014
-p81
+p80
 aVLAC @ MEM
-p82
+p81
 aVL
-p83
+p82
 aI7
 aI0
 aI1
@@ -469,15 +466,15 @@ aI2
 aI0
 aI0
 aI-14
-aa(lp84
+aa(lp83
 V0021300844
-p85
+p84
 aVFEB 24, 2014
-p86
+p85
 aVLAC @ NOP
-p87
+p86
 aVW
-p88
+p87
 aI15
 aI4
 aI10
@@ -498,15 +495,15 @@ aI0
 aI4
 aI12
 aI-4
-aa(lp89
+aa(lp88
 V0021300862
-p90
+p89
 aVFEB 26, 2014
-p91
+p90
 aVLAC vs. HOU
-p92
+p91
 aVW
-p93
+p92
 aI5
 aI0
 aI1
@@ -527,15 +524,15 @@ aI1
 aI1
 aI0
 aI-6
-aa(lp94
+aa(lp93
 V0021300882
-p95
+p94
 aVMAR 01, 2014
-p96
+p95
 aVLAC vs. NOP
-p97
+p96
 aVW
-p98
+p97
 aI15
 aI1
 aI4
@@ -556,15 +553,15 @@ aI1
 aI3
 aI2
 aI7
-aa(lp99
+aa(lp98
 V0021300902
-p100
+p99
 aVMAR 04, 2014
-p101
+p100
 aVLAC @ PHX
-p102
+p101
 aVW
-p103
+p102
 aI3
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp104
+aa(lp103
 V0021300916
-p105
+p104
 aVMAR 06, 2014
-p106
+p105
 aVLAC @ LAL
-p107
+p106
 aVW
-p108
+p107
 aI22
 aI3
 aI6
@@ -614,15 +611,15 @@ aI0
 aI2
 aI9
 aI14
-aa(lp109
+aa(lp108
 V0021300933
-p110
+p109
 aVMAR 08, 2014
-p111
+p110
 aVLAC vs. ATL
-p112
+p111
 aVW
-p113
+p112
 aI10
 aI0
 aI1
@@ -643,15 +640,15 @@ aI1
 aI1
 aI0
 aI2
-aa(lp114
+aa(lp113
 V0021300949
-p115
+p114
 aVMAR 10, 2014
-p116
+p115
 aVLAC vs. PHX
-p117
+p116
 aVW
-p118
+p117
 aI10
 aI0
 aI0
@@ -672,15 +669,15 @@ aI1
 aI2
 aI1
 aI0
-aa(lp119
+aa(lp118
 V0021300967
-p120
+p119
 aVMAR 12, 2014
-p121
+p120
 aVLAC vs. GSW
-p122
+p121
 aVW
-p123
+p122
 aI6
 aI0
 aI0
@@ -701,15 +698,15 @@ aI1
 aI0
 aI0
 aI3
-aa(lp124
+aa(lp123
 V0021300979
-p125
+p124
 aVMAR 14, 2014
-p126
+p125
 aVLAC @ UTA
-p127
+p126
 aVW
-p128
+p127
 aI7
 aI1
 aI2
@@ -730,15 +727,15 @@ aI0
 aI0
 aI3
 aI-2
-aa(lp129
+aa(lp128
 V0021300995
-p130
+p129
 aVMAR 16, 2014
-p131
+p130
 aVLAC vs. CLE
-p132
+p131
 aVW
-p133
+p132
 aI10
 aI0
 aI3
@@ -759,15 +756,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp134
+aa(lp133
 V0021301002
-p135
+p134
 aVMAR 17, 2014
-p136
+p135
 aVLAC @ DEN
-p137
+p136
 aVL
-p138
+p137
 aI8
 aI1
 aI3
@@ -788,15 +785,15 @@ aI0
 aI0
 aI3
 aI-1
-aa(lp139
+aa(lp138
 V0021301039
-p140
+p139
 aVMAR 22, 2014
-p141
+p140
 aVLAC vs. DET
-p142
+p141
 aVW
-p143
+p142
 aI11
 aI1
 aI2
@@ -817,15 +814,15 @@ aI0
 aI2
 aI2
 aI-14
-aa(lp144
+aa(lp143
 V0021301056
-p145
+p144
 aVMAR 24, 2014
-p146
+p145
 aVLAC vs. MIL
-p147
+p146
 aVW
-p148
+p147
 aI10
 aI0
 aI2
@@ -846,15 +843,15 @@ aI1
 aI1
 aI0
 aI-6
-aa(lp149
+aa(lp148
 V0021301066
-p150
+p149
 aVMAR 26, 2014
-p151
+p150
 aVLAC @ NOP
-p152
+p151
 aVL
-p153
+p152
 aI7
 aI1
 aI3
@@ -875,15 +872,15 @@ aI0
 aI0
 aI3
 aI-5
-aa(lp154
+aa(lp153
 V0021301088
-p155
+p154
 aVMAR 29, 2014
-p156
+p155
 aVLAC @ HOU
-p157
+p156
 aVW
-p158
+p157
 aI5
 aI1
 aI2
@@ -904,15 +901,15 @@ aI0
 aI1
 aI3
 aI-3
-aa(lp159
+aa(lp158
 V0021301107
-p160
+p159
 aVMAR 31, 2014
-p161
+p160
 aVLAC @ MIN
-p162
+p161
 aVW
-p163
+p162
 aI12
 aI2
 aI5
@@ -933,15 +930,15 @@ aI0
 aI0
 aI6
 aI-4
-aa(lp164
+aa(lp163
 V0021301125
-p165
+p164
 aVAPR 02, 2014
-p166
+p165
 aVLAC @ PHX
-p167
+p166
 aVW
-p168
+p167
 aI7
 aI1
 aI2
@@ -962,15 +959,15 @@ aI0
 aI3
 aI2
 aI8
-aa(lp169
+aa(lp168
 V0021301150
-p170
+p169
 aVAPR 06, 2014
-p171
+p170
 aVLAC vs. LAL
-p172
+p171
 aVW
-p173
+p172
 aI10
 aI4
 aI8
@@ -991,15 +988,15 @@ aI0
 aI1
 aI10
 aI2
-aa(lp174
+aa(lp173
 V0021301173
-p175
+p174
 aVAPR 09, 2014
-p176
+p175
 aVLAC vs. OKC
-p177
+p176
 aVL
-p178
+p177
 aI12
 aI3
 aI7
@@ -1020,15 +1017,15 @@ aI0
 aI3
 aI9
 aI5
-aa(lp179
+aa(lp178
 V0021301189
-p180
+p179
 aVAPR 12, 2014
-p181
+p180
 aVLAC vs. SAC
-p182
+p181
 aVW
-p183
+p182
 aI6
 aI1
 aI2
@@ -1049,15 +1046,15 @@ aI0
 aI1
 aI2
 aI-1
-aa(lp184
+aa(lp183
 V0021301215
-p185
+p184
 aVAPR 15, 2014
-p186
+p185
 aVLAC vs. DEN
-p187
+p186
 aVW
-p188
+p187
 aI18
 aI2
 aI5
@@ -1078,15 +1075,15 @@ aI0
 aI3
 aI6
 aI6
-aa(lp189
+aa(lp188
 V0021301228
-p190
+p189
 aVAPR 16, 2014
-p191
+p190
 aVLAC @ POR
-p192
+p191
 aVL
-p193
+p192
 aI15
 aI3
 aI7
@@ -1108,10 +1105,25 @@ aI2
 aI8
 aI0
 aasS'name'
-p194
+p193
 VHedo Turkoglu
+p194
+sS'weight'
 p195
-sS'experience'
+V220
 p196
+sS'age'
+p197
+I34
+sS'experience'
+p198
 I13
+sS'height'
+p199
+V6-10
+p200
+sS'position'
+p201
+VForward
+p202
 s.

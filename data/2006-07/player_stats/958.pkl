@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600258
-p5
+p4
 aVDEC 05, 2006
-p6
+p5
 aVSAC @ PHX
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp9
+aa(lp8
 V0020600297
-p10
+p9
 aVDEC 10, 2006
-p11
+p10
 aVSAC vs. ATL
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI2
@@ -63,15 +60,15 @@ aI2
 aI3
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0020600995
-p15
+p14
 aVMAR 19, 2007
-p16
+p15
 aVSAC @ ATL
-p17
+p16
 aVL
-p18
+p17
 aI4
 aI0
 aI0
@@ -93,10 +90,25 @@ aI0
 aI0
 aI1
 aasS'name'
-p19
+p18
 VVitaly Potapenko
+p19
+sS'weight'
 p20
-sS'experience'
+V285
 p21
+sS'age'
+p22
+I31
+sS'experience'
+p23
 I10
+sS'height'
+p24
+V6-10
+p25
+sS'position'
+p26
+VCenter-Forward
+p27
 s.

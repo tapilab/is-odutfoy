@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600075
-p5
+p4
 aVNOV 10, 2006
-p6
+p5
 aVCHA vs. SEA
-p7
+p6
 aVL
-p8
+p7
 aI22
 aI4
 aI8
@@ -34,15 +31,15 @@ aI1
 aI4
 aI9
 aI-8
-aa(lp9
+aa(lp8
 V0020600092
-p10
+p9
 aVNOV 12, 2006
-p11
+p10
 aVCHA vs. DEN
-p12
+p11
 aVL
-p13
+p12
 aI12
 aI1
 aI4
@@ -63,15 +60,15 @@ aI1
 aI1
 aI3
 aI0
-aa(lp14
+aa(lp13
 V0020600102
-p15
+p14
 aVNOV 14, 2006
-p16
+p15
 aVCHA @ NOK
-p17
+p16
 aVL
-p18
+p17
 aI5
 aI0
 aI1
@@ -92,15 +89,15 @@ aI2
 aI2
 aI0
 aI-7
-aa(lp19
+aa(lp18
 V0020600114
-p20
+p19
 aVNOV 15, 2006
-p21
+p20
 aVCHA @ SAS
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp24
+aa(lp23
 V0020600131
-p25
+p24
 aVNOV 18, 2006
-p26
+p25
 aVCHA @ ORL
-p27
+p26
 aVL
-p28
+p27
 aI8
 aI0
 aI2
@@ -150,15 +147,15 @@ aI2
 aI0
 aI0
 aI5
-aa(lp29
+aa(lp28
 V0020600144
-p30
+p29
 aVNOV 20, 2006
-p31
+p30
 aVCHA vs. DAL
-p32
+p31
 aVL
-p33
+p32
 aI10
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI2
 aI0
 aI-10
-aa(lp34
+aa(lp33
 V0020600998
-p35
+p34
 aVMAR 20, 2007
-p36
+p35
 aVCHA vs. CLE
-p37
+p36
 aVW
-p38
+p37
 aI9
 aI1
 aI1
@@ -208,15 +205,15 @@ aI1
 aI2
 aI2
 aI-4
-aa(lp39
+aa(lp38
 V0020601009
-p40
+p39
 aVMAR 21, 2007
-p41
+p40
 aVCHA @ BOS
-p42
+p41
 aVW
-p43
+p42
 aI20
 aI5
 aI7
@@ -237,15 +234,15 @@ aI3
 aI2
 aI14
 aI26
-aa(lp44
+aa(lp43
 V0020601021
-p45
+p44
 aVMAR 23, 2007
-p46
+p45
 aVCHA @ PHI
-p47
+p46
 aVL
-p48
+p47
 aI21
 aI3
 aI8
@@ -266,15 +263,15 @@ aI0
 aI4
 aI7
 aI-3
-aa(lp49
+aa(lp48
 V0020601032
-p50
+p49
 aVMAR 24, 2007
-p51
+p50
 aVCHA vs. NJN
-p52
+p51
 aVL
-p53
+p52
 aI17
 aI4
 aI5
@@ -295,15 +292,15 @@ aI1
 aI3
 aI12
 aI8
-aa(lp54
+aa(lp53
 V0020601060
-p55
+p54
 aVMAR 28, 2007
-p56
+p55
 aVCHA vs. ATL
-p57
+p56
 aVW
-p58
+p57
 aI4
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp59
+aa(lp58
 V0020601095
-p60
+p59
 aVAPR 01, 2007
-p61
+p60
 aVCHA @ TOR
-p62
+p61
 aVL
-p63
+p62
 aI12
 aI1
 aI3
@@ -353,15 +350,15 @@ aI0
 aI1
 aI6
 aI0
-aa(lp64
+aa(lp63
 V0020601146
-p65
+p64
 aVAPR 08, 2007
-p66
+p65
 aVCHA @ MIA
-p67
+p66
 aVW
-p68
+p67
 aI16
 aI0
 aI3
@@ -382,15 +379,15 @@ aI2
 aI2
 aI0
 aI-7
-aa(lp69
+aa(lp68
 V0020601159
-p70
+p69
 aVAPR 10, 2007
-p71
+p70
 aVCHA vs. MIA
-p72
+p71
 aVW
-p73
+p72
 aI22
 aI1
 aI9
@@ -411,15 +408,15 @@ aI1
 aI3
 aI2
 aI2
-aa(lp74
+aa(lp73
 V0020601182
-p75
+p74
 aVAPR 13, 2007
-p76
+p75
 aVCHA @ CHI
-p77
+p76
 aVL
-p78
+p77
 aI24
 aI4
 aI8
@@ -440,15 +437,15 @@ aI2
 aI1
 aI13
 aI-21
-aa(lp79
+aa(lp78
 V0020601190
-p80
+p79
 aVAPR 14, 2007
-p81
+p80
 aVCHA @ MIL
-p82
+p81
 aVW
-p83
+p82
 aI35
 aI10
 aI14
@@ -469,15 +466,15 @@ aI5
 aI3
 aI24
 aI11
-aa(lp84
+aa(lp83
 V0020601218
-p85
+p84
 aVAPR 18, 2007
-p86
+p85
 aVCHA vs. NYK
-p87
+p86
 aVL
-p88
+p87
 aI15
 aI3
 aI7
@@ -499,10 +496,25 @@ aI2
 aI6
 aI-6
 aasS'name'
-p89
+p88
 VAlan Anderson
+p89
+sS'weight'
 p90
-sS'experience'
+V220
 p91
+sS'age'
+p92
+I24
+sS'experience'
+p93
 I1
+sS'height'
+p94
+V6-6
+p95
+sS'position'
+p96
+VForward-Guard
+p97
 s.

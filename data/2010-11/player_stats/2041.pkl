@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000096
-p5
+p4
 aVNOV 08, 2010
-p6
+p5
 aVATL @ ORL
-p7
+p6
 aVL
-p8
+p7
 aI5
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI2
 aI2
 aI-6
-aa(lp9
+aa(lp8
 V0021000303
-p10
+p9
 aVDEC 06, 2010
-p11
+p10
 aVATL @ ORL
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI2
 aI1
 aI-2
-aa(lp14
+aa(lp13
 V0021000309
-p15
+p14
 aVDEC 07, 2010
-p16
+p15
 aVATL vs. NJN
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI1
 aI3
 aI12
-aa(lp19
+aa(lp18
 V0021000406
-p20
+p19
 aVDEC 20, 2010
-p21
+p20
 aVATL vs. ORL
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI-3
-aa(lp24
+aa(lp23
 V0021000606
-p25
+p24
 aVJAN 17, 2011
-p26
+p25
 aVATL vs. SAC
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp29
+aa(lp28
 V0021000631
-p30
+p29
 aVJAN 21, 2011
-p31
+p30
 aVATL vs. NOH
-p32
+p31
 aVL
-p33
+p32
 aI9
 aI2
 aI4
@@ -179,15 +176,15 @@ aI0
 aI0
 aI4
 aI-10
-aa(lp34
+aa(lp33
 V0021000639
-p35
+p34
 aVJAN 22, 2011
-p36
+p35
 aVATL @ CHA
-p37
+p36
 aVW
-p38
+p37
 aI7
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp39
+aa(lp38
 V0021000917
-p40
+p39
 aVMAR 04, 2011
-p41
+p40
 aVATL vs. OKC
-p42
+p41
 aVL
-p43
+p42
 aI7
 aI2
 aI5
@@ -237,15 +234,15 @@ aI0
 aI0
 aI5
 aI1
-aa(lp44
+aa(lp43
 V0021001105
-p45
+p44
 aVMAR 30, 2011
-p46
+p45
 aVATL vs. ORL
-p47
+p46
 aVW
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp49
+aa(lp48
 V0021001149
-p50
+p49
 aVAPR 05, 2011
-p51
+p50
 aVATL vs. SAS
-p52
+p51
 aVL
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI1
 aI2
 aI-3
-aa(lp54
+aa(lp53
 V0021001176
-p55
+p54
 aVAPR 08, 2011
-p56
+p55
 aVATL @ IND
-p57
+p56
 aVL
-p58
+p57
 aI9
 aI1
 aI1
@@ -324,15 +321,15 @@ aI1
 aI1
 aI5
 aI5
-aa(lp59
+aa(lp58
 V0021001188
-p60
+p59
 aVAPR 09, 2011
-p61
+p60
 aVATL @ WAS
-p62
+p61
 aVL
-p63
+p62
 aI3
 aI0
 aI0
@@ -353,15 +350,15 @@ aI1
 aI1
 aI0
 aI-7
-aa(lp64
+aa(lp63
 V0021001217
-p65
+p64
 aVAPR 13, 2011
-p66
+p65
 aVATL @ CHA
-p67
+p66
 aVL
-p68
+p67
 aI23
 aI3
 aI6
@@ -383,10 +380,25 @@ aI1
 aI8
 aI-8
 aasS'name'
-p69
+p68
 VEtan Thomas
+p69
+sS'weight'
 p70
-sS'experience'
+V260
 p71
+sS'age'
+p72
+I32
+sS'experience'
+p73
 I9
+sS'height'
+p74
+V6-10
+p75
+sS'position'
+p76
+VCenter
+p77
 s.

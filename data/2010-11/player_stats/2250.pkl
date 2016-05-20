@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000013
-p5
+p4
 aVOCT 27, 2010
-p6
+p5
 aVSAS vs. IND
+p6
+aVW
 p7
-aVW
-p8
 aI6
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI6
-aa(lp9
+aa(lp8
 V0021000046
-p10
+p9
 aVNOV 01, 2010
-p11
+p10
 aVSAS @ LAC
-p12
+p11
 aVW
-p13
+p12
 aI9
 aI0
 aI1
@@ -64,10 +61,25 @@ aI1
 aI0
 aI0
 aasS'name'
-p14
+p13
 VBobby Simmons
+p14
+sS'weight'
 p15
-sS'experience'
+V235
 p16
+sS'age'
+p17
+I30
+sS'experience'
+p18
 I9
+sS'height'
+p19
+V6-6
+p20
+sS'position'
+p21
+VForward
+p22
 s.

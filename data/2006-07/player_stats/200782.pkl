@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600007
-p5
+p4
 aVNOV 01, 2006
-p6
+p5
 aVTOR @ NJN
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI0
 aI2
@@ -34,15 +31,15 @@ aI1
 aI1
 aI3
 aI0
-aa(lp9
+aa(lp8
 V0020600018
-p10
+p9
 aVNOV 03, 2006
-p11
+p10
 aVTOR vs. MIL
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp14
+aa(lp13
 V0020600072
-p15
+p14
 aVNOV 10, 2006
-p16
+p15
 aVTOR vs. ATL
-p17
+p16
 aVL
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0020600094
-p20
+p19
 aVNOV 12, 2006
-p21
+p20
 aVTOR @ SAC
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI0
 aI0
@@ -121,15 +118,15 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp24
+aa(lp23
 V0020600107
-p25
+p24
 aVNOV 14, 2006
-p26
+p25
 aVTOR @ GSW
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020600206
-p30
+p29
 aVNOV 28, 2006
-p31
+p30
 aVTOR @ NOK
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0020600216
-p35
+p34
 aVNOV 29, 2006
-p36
+p35
 aVTOR @ DAL
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI1
 aI3
@@ -208,15 +205,15 @@ aI1
 aI0
 aI2
 aI1
-aa(lp39
+aa(lp38
 V0020600295
-p40
+p39
 aVDEC 10, 2006
-p41
+p40
 aVTOR vs. POR
-p42
+p41
 aVL
-p43
+p42
 aI4
 aI1
 aI1
@@ -237,15 +234,15 @@ aI0
 aI1
 aI2
 aI0
-aa(lp44
+aa(lp43
 V0020600304
-p45
+p44
 aVDEC 11, 2006
-p46
+p45
 aVTOR @ MIA
-p47
+p46
 aVL
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0020600351
-p50
+p49
 aVDEC 17, 2006
-p51
+p50
 aVTOR vs. GSW
-p52
+p51
 aVW
-p53
+p52
 aI1
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0020600363
-p55
+p54
 aVDEC 19, 2006
-p56
+p55
 aVTOR @ PHX
-p57
+p56
 aVL
-p58
+p57
 aI19
 aI5
 aI8
@@ -324,15 +321,15 @@ aI0
 aI2
 aI12
 aI-2
-aa(lp59
+aa(lp58
 V0020600375
-p60
+p59
 aVDEC 20, 2006
-p61
+p60
 aVTOR @ LAC
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI1
 aI2
@@ -353,15 +350,15 @@ aI1
 aI2
 aI3
 aI9
-aa(lp64
+aa(lp63
 V0020600390
-p65
+p64
 aVDEC 22, 2006
-p66
+p65
 aVTOR @ POR
-p67
+p66
 aVW
-p68
+p67
 aI5
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI2
 aI2
 aI-9
-aa(lp69
+aa(lp68
 V0020600402
-p70
+p69
 aVDEC 23, 2006
-p71
+p70
 aVTOR @ SEA
-p72
+p71
 aVL
-p73
+p72
 aI2
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp74
+aa(lp73
 V0020600445
-p75
+p74
 aVDEC 30, 2006
-p76
+p75
 aVTOR @ MEM
-p77
+p76
 aVL
-p78
+p77
 aI1
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp79
+aa(lp78
 V0020600467
-p80
+p79
 aVJAN 03, 2007
-p81
+p80
 aVTOR vs. PHX
-p82
+p81
 aVL
-p83
+p82
 aI4
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-9
-aa(lp84
+aa(lp83
 V0020600881
-p85
+p84
 aVMAR 03, 2007
-p86
+p85
 aVTOR @ CLE
-p87
+p86
 aVL
-p88
+p87
 aI12
 aI2
 aI3
@@ -499,10 +496,25 @@ aI2
 aI6
 aI-4
 aasS'name'
-p89
+p88
 VPJ Tucker
+p89
+sS'weight'
 p90
-sS'experience'
+V245
 p91
+sS'age'
+p92
+I21
+sS'experience'
+p93
 I0
+sS'height'
+p94
+V6-6
+p95
+sS'position'
+p96
+VForward
+p97
 s.

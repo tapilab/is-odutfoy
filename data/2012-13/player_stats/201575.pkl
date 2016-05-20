@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200010
-p5
+p4
 aVOCT 31, 2012
-p6
+p5
 aVGSW @ PHX
-p7
+p6
 aVW
-p8
+p7
 aI23
 aI6
 aI9
@@ -34,15 +31,15 @@ aI3
 aI5
 aI14
 aI3
-aa(lp9
+aa(lp8
 V0021200026
-p10
+p9
 aVNOV 02, 2012
-p11
+p10
 aVGSW vs. MEM
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -64,10 +61,25 @@ aI0
 aI0
 aI3
 aasS'name'
-p14
+p13
 VBrandon Rush
+p14
+sS'weight'
 p15
-sS'experience'
+V220
 p16
+sS'age'
+p17
+I27
+sS'experience'
+p18
 I4
+sS'height'
+p19
+V6-6
+p20
+sS'position'
+p21
+VForward-Guard
+p22
 s.

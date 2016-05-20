@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500050
-p5
+p4
 aVNOV 07, 2005
-p6
+p5
 aVCHI vs. SAS
-p7
+p6
 aVL
-p8
+p7
 aI11
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI9
-aa(lp9
+aa(lp8
 V0020500065
-p10
+p9
 aVNOV 09, 2005
-p11
+p10
 aVCHI vs. GSW
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI2
 aI4
@@ -63,15 +60,15 @@ aI0
 aI2
 aI4
 aI-7
-aa(lp14
+aa(lp13
 V0020500145
-p15
+p14
 aVNOV 20, 2005
-p16
+p15
 aVCHI @ LAL
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0020500176
-p20
+p19
 aVNOV 25, 2005
-p21
+p20
 aVCHI @ SAS
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp24
+aa(lp23
 V0020500201
-p25
+p24
 aVNOV 29, 2005
-p26
+p25
 aVCHI vs. ORL
-p27
+p26
 aVW
-p28
+p27
 aI4
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp29
+aa(lp28
 V0020500212
-p30
+p29
 aVNOV 30, 2005
-p31
+p30
 aVCHI @ NYK
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI4
 aI3
-aa(lp34
+aa(lp33
 V0020500221
-p35
+p34
 aVDEC 02, 2005
-p36
+p35
 aVCHI @ BOS
-p37
+p36
 aVW
-p38
+p37
 aI8
 aI1
 aI3
@@ -208,15 +205,15 @@ aI1
 aI2
 aI4
 aI-5
-aa(lp39
+aa(lp38
 V0020500232
-p40
+p39
 aVDEC 03, 2005
-p41
+p40
 aVCHI vs. DET
-p42
+p41
 aVL
-p43
+p42
 aI9
 aI1
 aI2
@@ -237,15 +234,15 @@ aI1
 aI2
 aI4
 aI1
-aa(lp44
+aa(lp43
 V0020500246
-p45
+p44
 aVDEC 05, 2005
-p46
+p45
 aVCHI vs. DAL
-p47
+p46
 aVL
-p48
+p47
 aI4
 aI0
 aI0
@@ -266,15 +263,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0020500260
-p50
+p49
 aVDEC 07, 2005
-p51
+p50
 aVCHI @ ORL
-p52
+p51
 aVW
-p53
+p52
 aI10
 aI2
 aI2
@@ -295,15 +292,15 @@ aI1
 aI1
 aI5
 aI-2
-aa(lp54
+aa(lp53
 V0020500274
-p55
+p54
 aVDEC 09, 2005
-p56
+p55
 aVCHI vs. LAL
-p57
+p56
 aVL
-p58
+p57
 aI17
 aI0
 aI2
@@ -324,15 +321,15 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp59
+aa(lp58
 V0020500280
-p60
+p59
 aVDEC 10, 2005
-p61
+p60
 aVCHI @ WAS
-p62
+p61
 aVW
-p63
+p62
 aI4
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI2
 aI0
 aI-6
-aa(lp64
+aa(lp63
 V0020500357
-p65
+p64
 aVDEC 20, 2005
-p66
+p65
 aVCHI vs. CHA
-p67
+p66
 aVL
-p68
+p67
 aI4
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp69
+aa(lp68
 V0020500453
-p70
+p69
 aVJAN 04, 2006
-p71
+p70
 aVCHI vs. SEA
-p72
+p71
 aVL
-p73
+p72
 aI16
 aI3
 aI6
@@ -411,15 +408,15 @@ aI2
 aI1
 aI8
 aI9
-aa(lp74
+aa(lp73
 V0020500477
-p75
+p74
 aVJAN 07, 2006
-p76
+p75
 aVCHI vs. MEM
-p77
+p76
 aVW
-p78
+p77
 aI9
 aI1
 aI1
@@ -440,15 +437,15 @@ aI2
 aI1
 aI2
 aI-3
-aa(lp79
+aa(lp78
 V0020500945
-p80
+p79
 aVMAR 14, 2006
-p81
+p80
 aVCHI vs. POR
-p82
+p81
 aVW
-p83
+p82
 aI9
 aI0
 aI3
@@ -469,15 +466,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp84
+aa(lp83
 V0020500956
-p85
+p84
 aVMAR 15, 2006
-p86
+p85
 aVCHI @ MIL
-p87
+p86
 aVL
-p88
+p87
 aI1
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp89
+aa(lp88
 V0020501135
-p90
+p89
 aVAPR 08, 2006
-p91
+p90
 aVCHI vs. PHI
-p92
+p91
 aVL
-p93
+p92
 aI11
 aI1
 aI4
@@ -527,15 +524,15 @@ aI0
 aI1
 aI2
 aI9
-aa(lp94
+aa(lp93
 V0020501162
-p95
+p94
 aVAPR 12, 2006
-p96
+p95
 aVCHI @ ATL
-p97
+p96
 aVW
-p98
+p97
 aI7
 aI2
 aI4
@@ -557,10 +554,25 @@ aI2
 aI4
 aI12
 aasS'name'
-p99
+p98
 VEddie Basden
+p99
+sS'weight'
 p100
-sS'experience'
+V215
 p101
+sS'age'
+p102
+I22
+sS'experience'
+p103
 I0
+sS'height'
+p104
+V6-5
+p105
+sS'position'
+p106
+VGuard
+p107
 s.

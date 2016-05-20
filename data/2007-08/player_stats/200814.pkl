@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700075
-p5
+p4
 aVNOV 09, 2007
-p6
+p5
 aVMEM @ POR
-p7
+p6
 aVL
-p8
+p7
 aI2
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp9
+aa(lp8
 V0020700099
-p10
+p9
 aVNOV 13, 2007
-p11
+p10
 aVMEM vs. HOU
-p12
+p11
 aVW
-p13
+p12
 aI11
 aI1
 aI4
@@ -63,15 +60,15 @@ aI2
 aI3
 aI2
 aI-3
-aa(lp14
+aa(lp13
 V0020700138
-p15
+p14
 aVNOV 17, 2007
-p16
+p15
 aVMEM @ DAL
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI2
 aI4
@@ -92,15 +89,15 @@ aI0
 aI1
 aI7
 aI1
-aa(lp19
+aa(lp18
 V0020700146
-p20
+p19
 aVNOV 19, 2007
-p21
+p20
 aVMEM vs. SEA
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI1
 aI3
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp24
+aa(lp23
 V0020700163
-p25
+p24
 aVNOV 21, 2007
-p26
+p25
 aVMEM vs. TOR
-p27
+p26
 aVL
-p28
+p27
 aI11
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp29
+aa(lp28
 V0020700176
-p30
+p29
 aVNOV 23, 2007
-p31
+p30
 aVMEM @ SAS
-p32
+p31
 aVL
-p33
+p32
 aI12
 aI2
 aI3
@@ -179,15 +176,15 @@ aI1
 aI1
 aI4
 aI-1
-aa(lp34
+aa(lp33
 V0020700187
-p35
+p34
 aVNOV 24, 2007
-p36
+p35
 aVMEM vs. WAS
-p37
+p36
 aVW
-p38
+p37
 aI0
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp39
+aa(lp38
 V0020700211
-p40
+p39
 aVNOV 28, 2007
-p41
+p40
 aVMEM @ TOR
-p42
+p41
 aVL
-p43
+p42
 aI12
 aI4
 aI8
@@ -237,15 +234,15 @@ aI0
 aI0
 aI11
 aI6
-aa(lp44
+aa(lp43
 V0020700237
-p45
+p44
 aVDEC 01, 2007
-p46
+p45
 aVMEM vs. MIN
-p47
+p46
 aVW
-p48
+p47
 aI5
 aI0
 aI2
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp49
+aa(lp48
 V0020700288
-p50
+p49
 aVDEC 08, 2007
-p51
+p50
 aVMEM @ ATL
-p52
+p51
 aVL
-p53
+p52
 aI10
 aI6
 aI9
@@ -295,15 +292,15 @@ aI0
 aI3
 aI12
 aI2
-aa(lp54
+aa(lp53
 V0020700333
-p55
+p54
 aVDEC 14, 2007
-p56
+p55
 aVMEM vs. LAC
-p57
+p56
 aVL
-p58
+p57
 aI12
 aI0
 aI2
@@ -325,10 +322,25 @@ aI1
 aI0
 aI0
 aasS'name'
-p59
+p58
 VTarence Kinsey
+p59
+sS'weight'
 p60
-sS'experience'
+V189
 p61
+sS'age'
+p62
+I23
+sS'experience'
+p63
 I1
+sS'height'
+p64
+V6-6
+p65
+sS'position'
+p66
+VGuard
+p67
 s.

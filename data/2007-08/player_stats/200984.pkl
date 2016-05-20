@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700992
-p5
+p4
 aVMAR 17, 2008
-p6
+p5
 aVCLE @ ORL
-p7
+p6
 aVL
-p8
+p7
 aI0
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020701036
-p10
+p9
 aVMAR 22, 2008
-p11
+p10
 aVCLE @ MIL
+p11
+aVL
 p12
-aVL
-p13
 aI0
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020701219
-p15
+p14
 aVAPR 16, 2008
-p16
+p15
 aVCLE vs. DET
-p17
+p16
 aVL
-p18
+p17
 aI10
 aI1
 aI3
@@ -93,10 +90,25 @@ aI1
 aI3
 aI-13
 aasS'name'
-p19
+p18
 VLance Allred
+p19
+sS'weight'
 p20
-sS'experience'
+V250
 p21
+sS'age'
+p22
+I26
+sS'experience'
+p23
 I0
+sS'height'
+p24
+V6-11
+p25
+sS'position'
+p26
+VCenter
+p27
 s.

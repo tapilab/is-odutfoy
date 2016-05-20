@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000003
-p5
+p4
 aVOCT 26, 2010
-p6
+p5
 aVHOU @ LAL
-p7
+p6
 aVL
-p8
+p7
 aI23
 aI4
 aI11
@@ -34,15 +31,15 @@ aI4
 aI6
 aI9
 aI-6
-aa(lp9
+aa(lp8
 V0021000037
-p10
+p9
 aVOCT 30, 2010
-p11
+p10
 aVHOU vs. DEN
-p12
+p11
 aVL
-p13
+p12
 aI23
 aI6
 aI10
@@ -63,15 +60,15 @@ aI3
 aI1
 aI14
 aI-19
-aa(lp14
+aa(lp13
 V0021000059
-p15
+p14
 aVNOV 03, 2010
-p16
+p15
 aVHOU vs. NOH
-p17
+p16
 aVL
-p18
+p17
 aI21
 aI5
 aI11
@@ -92,15 +89,15 @@ aI0
 aI4
 aI15
 aI-2
-aa(lp19
+aa(lp18
 V0021000092
-p20
+p19
 aVNOV 07, 2010
-p21
+p20
 aVHOU vs. MIN
-p22
+p21
 aVW
-p23
+p22
 aI17
 aI3
 aI5
@@ -121,15 +118,15 @@ aI0
 aI2
 aI13
 aI2
-aa(lp24
+aa(lp23
 V0021000111
-p25
+p24
 aVNOV 10, 2010
-p26
+p25
 aVHOU @ WAS
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI0
@@ -151,10 +148,25 @@ aI0
 aI0
 aI-2
 aasS'name'
-p29
+p28
 VYao Ming
+p29
+sS'weight'
 p30
-sS'experience'
+V310
 p31
+sS'age'
+p32
+I30
+sS'experience'
+p33
 I8
+sS'height'
+p34
+V7-6
+p35
+sS'position'
+p36
+VCenter
+p37
 s.

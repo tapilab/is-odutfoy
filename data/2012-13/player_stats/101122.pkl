@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200827
-p5
+p4
 aVFEB 23, 2013
-p6
+p5
 aVIND @ DET
-p7
+p6
 aVW
-p8
+p7
 aI19
 aI1
 aI10
@@ -34,15 +31,15 @@ aI1
 aI2
 aI2
 aI0
-aa(lp9
+aa(lp8
 V0021200844
-p10
+p9
 aVFEB 26, 2013
-p11
+p10
 aVIND vs. GSW
-p12
+p11
 aVW
-p13
+p12
 aI19
 aI1
 aI7
@@ -63,15 +60,15 @@ aI0
 aI0
 aI5
 aI0
-aa(lp14
+aa(lp13
 V0021200861
-p15
+p14
 aVFEB 28, 2013
-p16
+p15
 aVIND vs. LAC
-p17
+p16
 aVL
-p18
+p17
 aI19
 aI5
 aI10
@@ -92,15 +89,15 @@ aI2
 aI1
 aI12
 aI-25
-aa(lp19
+aa(lp18
 V0021200864
-p20
+p19
 aVMAR 01, 2013
-p21
+p20
 aVIND @ TOR
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI3
 aI5
@@ -121,15 +118,15 @@ aI1
 aI2
 aI8
 aI10
-aa(lp24
+aa(lp23
 V0021200887
-p25
+p24
 aVMAR 03, 2013
-p26
+p25
 aVIND vs. CHI
-p27
+p26
 aVW
-p28
+p27
 aI8
 aI0
 aI3
@@ -151,10 +148,25 @@ aI1
 aI0
 aI-1
 aasS'name'
-p29
+p28
 VDanny Granger
+p29
+sS'weight'
 p30
-sS'experience'
+V222
 p31
+sS'age'
+p32
+I29
+sS'experience'
+p33
 I7
+sS'height'
+p34
+V6-9
+p35
+sS'position'
+p36
+VForward-Guard
+p37
 s.

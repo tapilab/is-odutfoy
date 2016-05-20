@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020601053
-p5
+p4
 aVMAR 26, 2007
-p6
+p5
 aVSAS @ GSW
-p7
+p6
 aVW
-p8
+p7
 aI15
 aI3
 aI4
@@ -34,15 +31,15 @@ aI0
 aI3
 aI9
 aI6
-aa(lp9
+aa(lp8
 V0020601104
-p10
+p9
 aVAPR 03, 2007
-p11
+p10
 aVSAS vs. SEA
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI1
 aI3
@@ -63,15 +60,15 @@ aI1
 aI0
 aI6
 aI-7
-aa(lp14
+aa(lp13
 V0020601137
-p15
+p14
 aVAPR 07, 2007
-p16
+p15
 aVSAS vs. GSW
-p17
+p16
 aVW
-p18
+p17
 aI10
 aI1
 aI5
@@ -92,15 +89,15 @@ aI0
 aI0
 aI3
 aI2
-aa(lp19
+aa(lp18
 V0020601151
-p20
+p19
 aVAPR 09, 2007
-p21
+p20
 aVSAS vs. POR
-p22
+p21
 aVW
-p23
+p22
 aI20
 aI2
 aI4
@@ -121,15 +118,15 @@ aI0
 aI1
 aI5
 aI17
-aa(lp24
+aa(lp23
 V0020601206
-p25
+p24
 aVAPR 16, 2007
-p26
+p25
 aVSAS @ MEM
-p27
+p26
 aVL
-p28
+p27
 aI39
 aI8
 aI14
@@ -150,15 +147,15 @@ aI3
 aI1
 aI17
 aI-16
-aa(lp29
+aa(lp28
 V0020601224
-p30
+p29
 aVAPR 18, 2007
-p31
+p30
 aVSAS vs. DEN
-p32
+p31
 aVL
-p33
+p32
 aI42
 aI3
 aI11
@@ -180,10 +177,25 @@ aI2
 aI10
 aI-24
 aasS'name'
-p34
+p33
 VJames White
+p34
+sS'weight'
 p35
-sS'experience'
+V215
 p36
+sS'age'
+p37
+I24
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-7
+p40
+sS'position'
+p41
+VGuard-Forward
+p42
 s.

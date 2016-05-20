@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600015
-p5
+p4
 aVNOV 01, 2006
-p6
+p5
 aVGSW vs. LAL
-p7
+p6
 aVL
-p8
+p7
 aI5
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp9
+aa(lp8
 V0020600037
-p10
+p9
 aVNOV 04, 2006
-p11
+p10
 aVGSW @ UTA
-p12
+p11
 aVL
-p13
+p12
 aI16
 aI1
 aI3
@@ -63,15 +60,15 @@ aI1
 aI1
 aI2
 aI3
-aa(lp14
+aa(lp13
 V0020600056
-p15
+p14
 aVNOV 07, 2006
-p16
+p15
 aVGSW @ NOK
-p17
+p16
 aVL
-p18
+p17
 aI5
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0020600089
-p20
+p19
 aVNOV 11, 2006
-p21
+p20
 aVGSW vs. DET
-p22
+p21
 aVW
-p23
+p22
 aI9
 aI0
 aI2
@@ -121,15 +118,15 @@ aI1
 aI2
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020600180
-p25
+p24
 aVNOV 24, 2006
-p26
+p25
 aVGSW @ DEN
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI4
 aI0
 aI6
-aa(lp29
+aa(lp28
 V0020600250
-p30
+p29
 aVDEC 04, 2006
-p31
+p30
 aVGSW @ SAS
-p32
+p31
 aVL
-p33
+p32
 aI12
 aI2
 aI4
@@ -179,15 +176,15 @@ aI1
 aI2
 aI5
 aI-8
-aa(lp34
+aa(lp33
 V0020600257
-p35
+p34
 aVDEC 05, 2006
-p36
+p35
 aVGSW @ HOU
-p37
+p36
 aVL
-p38
+p37
 aI15
 aI3
 aI4
@@ -208,15 +205,15 @@ aI1
 aI4
 aI7
 aI-6
-aa(lp39
+aa(lp38
 V0020600294
-p40
+p39
 aVDEC 09, 2006
-p41
+p40
 aVGSW vs. NOK
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI1
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp44
+aa(lp43
 V0020600380
-p45
+p44
 aVDEC 22, 2006
-p46
+p45
 aVGSW @ ORL
-p47
+p46
 aVW
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI3
 aI0
 aI4
-aa(lp49
+aa(lp48
 V0020600394
-p50
+p49
 aVDEC 23, 2006
-p51
+p50
 aVGSW @ MIA
-p52
+p51
 aVL
-p53
+p52
 aI13
 aI0
 aI4
@@ -295,15 +292,15 @@ aI1
 aI3
 aI1
 aI3
-aa(lp54
+aa(lp53
 V0020600414
-p55
+p54
 aVDEC 26, 2006
-p56
+p55
 aVGSW vs. PHI
-p57
+p56
 aVW
-p58
+p57
 aI2
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp59
+aa(lp58
 V0020600450
-p60
+p59
 aVDEC 30, 2006
-p61
+p60
 aVGSW @ SAC
-p62
+p61
 aVL
-p63
+p62
 aI3
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI1
 aI3
-aa(lp64
+aa(lp63
 V0020600578
-p65
+p64
 aVJAN 17, 2007
-p66
+p65
 aVGSW @ LAC
-p67
+p66
 aVL
-p68
+p67
 aI10
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI3
 aI5
 aI0
-aa(lp69
+aa(lp68
 V0020600838
-p70
+p69
 aVFEB 25, 2007
-p71
+p70
 aVGSW vs. LAL
-p72
+p71
 aVL
-p73
+p72
 aI6
 aI1
 aI1
@@ -411,15 +408,15 @@ aI2
 aI1
 aI2
 aI6
-aa(lp74
+aa(lp73
 V0020600853
-p75
+p74
 aVFEB 27, 2007
-p76
+p75
 aVGSW @ MIL
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp79
+aa(lp78
 V0020600860
-p80
+p79
 aVFEB 28, 2007
-p81
+p80
 aVGSW @ CHI
-p82
+p81
 aVL
-p83
+p82
 aI10
 aI1
 aI4
@@ -470,10 +467,25 @@ aI2
 aI2
 aI-1
 aasS'name'
-p84
+p83
 VPatrick O'Bryant
+p84
+sS'weight'
 p85
-sS'experience'
+V250
 p86
+sS'age'
+p87
+I20
+sS'experience'
+p88
 I0
+sS'height'
+p89
+V7-0
+p90
+sS'position'
+p91
+VCenter
+p92
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100191
-p5
+p4
 aVJAN 16, 2012
-p6
+p5
 aVLAC vs. NJN
-p7
+p6
 aVW
-p8
+p7
 aI9
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp9
+aa(lp8
 V0021100201
-p10
+p9
 aVJAN 17, 2012
-p11
+p10
 aVLAC @ UTA
-p12
+p11
 aVL
-p13
+p12
 aI23
 aI5
 aI10
@@ -63,15 +60,15 @@ aI2
 aI1
 aI13
 aI-16
-aa(lp14
+aa(lp13
 V0021100225
-p15
+p14
 aVJAN 20, 2012
-p16
+p15
 aVLAC vs. MIN
-p17
+p16
 aVL
-p18
+p17
 aI8
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI1
 aI4
 aI3
-aa(lp19
+aa(lp18
 V0021100238
-p20
+p19
 aVJAN 22, 2012
-p21
+p20
 aVLAC vs. TOR
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI0
 aI1
@@ -121,15 +118,15 @@ aI3
 aI1
 aI0
 aI-15
-aa(lp24
+aa(lp23
 V0021100654
-p25
+p24
 aVMAR 17, 2012
-p26
+p25
 aVHOU @ LAC
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI2
 aI0
 aI0
 aI-1
-aa(lp29
+aa(lp28
 V0021100667
-p30
+p29
 aVMAR 18, 2012
-p31
+p30
 aVHOU @ PHX
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI0
 aI2
@@ -179,15 +176,15 @@ aI1
 aI0
 aI0
 aI2
-aa(lp34
+aa(lp33
 V0021100679
-p35
+p34
 aVMAR 20, 2012
-p36
+p35
 aVHOU vs. LAL
-p37
+p36
 aVW
-p38
+p37
 aI7
 aI1
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp39
+aa(lp38
 V0021100696
-p40
+p39
 aVMAR 22, 2012
-p41
+p40
 aVHOU vs. GSW
-p42
+p41
 aVW
-p43
+p42
 aI19
 aI4
 aI11
@@ -237,15 +234,15 @@ aI1
 aI1
 aI12
 aI-1
-aa(lp44
+aa(lp43
 V0021100716
-p45
+p44
 aVMAR 24, 2012
-p46
+p45
 aVHOU vs. DAL
-p47
+p46
 aVL
-p48
+p47
 aI4
 aI0
 aI2
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp49
+aa(lp48
 V0021100986
-p50
+p49
 aVAPR 26, 2012
-p51
+p50
 aVHOU vs. NOH
-p52
+p51
 aVW
-p53
+p52
 aI13
 aI1
 aI4
@@ -296,10 +293,25 @@ aI0
 aI4
 aI-1
 aasS'name'
-p54
+p53
 VCourtney Fortson
+p54
+sS'weight'
 p55
-sS'experience'
+V185
 p56
+sS'age'
+p57
+I23
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V5-11
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020701030
-p5
+p4
 aVMAR 22, 2008
-p6
+p5
 aVMIA @ CHA
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp9
+aa(lp8
 V0020701046
-p10
+p9
 aVMAR 24, 2008
-p11
+p10
 aVMIA vs. MIL
-p12
+p11
 aVW
-p13
+p12
 aI23
 aI2
 aI6
@@ -63,15 +60,15 @@ aI0
 aI1
 aI4
 aI-1
-aa(lp14
+aa(lp13
 V0020701059
-p15
+p14
 aVMAR 26, 2008
-p16
+p15
 aVMIA @ NYK
-p17
+p16
 aVL
-p18
+p17
 aI21
 aI5
 aI10
@@ -92,15 +89,15 @@ aI0
 aI2
 aI14
 aI-17
-aa(lp19
+aa(lp18
 V0020701070
-p20
+p19
 aVMAR 27, 2008
-p21
+p20
 aVMIA @ DET
-p22
+p21
 aVL
-p23
+p22
 aI34
 aI1
 aI8
@@ -121,15 +118,15 @@ aI0
 aI2
 aI2
 aI-17
-aa(lp24
+aa(lp23
 V0020701093
-p25
+p24
 aVMAR 30, 2008
-p26
+p25
 aVMIA @ BOS
-p27
+p26
 aVL
-p28
+p27
 aI40
 aI2
 aI8
@@ -150,15 +147,15 @@ aI2
 aI3
 aI6
 aI-22
-aa(lp29
+aa(lp28
 V0020701100
-p30
+p29
 aVMAR 31, 2008
-p31
+p30
 aVMIA @ IND
-p32
+p31
 aVL
-p33
+p32
 aI33
 aI6
 aI10
@@ -179,15 +176,15 @@ aI1
 aI2
 aI15
 aI-11
-aa(lp34
+aa(lp33
 V0020701155
-p35
+p34
 aVAPR 08, 2008
-p36
+p35
 aVMIA vs. CHI
-p37
+p36
 aVW
-p38
+p37
 aI37
 aI8
 aI16
@@ -208,15 +205,15 @@ aI1
 aI1
 aI18
 aI18
-aa(lp39
+aa(lp38
 V0020701182
-p40
+p39
 aVAPR 11, 2008
-p41
+p40
 aVMIA vs. MEM
-p42
+p41
 aVL
-p43
+p42
 aI36
 aI4
 aI12
@@ -237,15 +234,15 @@ aI0
 aI3
 aI11
 aI-9
-aa(lp44
+aa(lp43
 V0020701197
-p45
+p44
 aVAPR 13, 2008
-p46
+p45
 aVMIA @ CLE
-p47
+p46
 aVL
-p48
+p47
 aI30
 aI1
 aI5
@@ -266,15 +263,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp49
+aa(lp48
 V0020701203
-p50
+p49
 aVAPR 14, 2008
-p51
+p50
 aVMIA @ TOR
-p52
+p51
 aVL
-p53
+p52
 aI25
 aI3
 aI10
@@ -295,15 +292,15 @@ aI0
 aI1
 aI6
 aI-6
-aa(lp54
+aa(lp53
 V0020701222
-p55
+p54
 aVAPR 16, 2008
-p56
+p55
 aVMIA vs. ATL
-p57
+p56
 aVW
-p58
+p57
 aI22
 aI3
 aI9
@@ -325,10 +322,25 @@ aI2
 aI6
 aI-3
 aasS'name'
-p59
+p58
 VKasib Powell
+p59
+sS'weight'
 p60
-sS'experience'
+V215
 p61
+sS'age'
+p62
+I26
+sS'experience'
+p63
 I0
+sS'height'
+p64
+V6-7
+p65
+sS'position'
+p66
+VForward
+p67
 s.

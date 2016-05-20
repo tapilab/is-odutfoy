@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021301054
-p5
+p4
 aVMAR 24, 2014
-p6
+p5
 aVPHI @ SAS
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI0
 aI3
@@ -34,15 +31,15 @@ aI1
 aI1
 aI0
 aI-17
-aa(lp9
+aa(lp8
 V0021301072
-p10
+p9
 aVMAR 27, 2014
-p11
+p10
 aVPHI @ HOU
-p12
+p11
 aVL
-p13
+p12
 aI23
 aI2
 aI10
@@ -63,15 +60,15 @@ aI1
 aI2
 aI7
 aI-10
-aa(lp14
+aa(lp13
 V0021301087
-p15
+p14
 aVMAR 29, 2014
-p16
+p15
 aVPHI vs. DET
-p17
+p16
 aVW
-p18
+p17
 aI17
 aI3
 aI5
@@ -92,15 +89,15 @@ aI0
 aI2
 aI8
 aI5
-aa(lp19
+aa(lp18
 V0021301103
-p20
+p19
 aVMAR 31, 2014
-p21
+p20
 aVPHI @ ATL
-p22
+p21
 aVL
-p23
+p22
 aI14
 aI0
 aI5
@@ -121,15 +118,15 @@ aI1
 aI2
 aI0
 aI-9
-aa(lp24
+aa(lp23
 V0021301117
-p25
+p24
 aVAPR 02, 2014
-p26
+p25
 aVPHI vs. CHA
-p27
+p26
 aVL
-p28
+p27
 aI7
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI3
 aI-1
-aa(lp29
+aa(lp28
 V0021301182
-p30
+p29
 aVAPR 11, 2014
-p31
+p30
 aVPHI @ MEM
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI1
 aI2
@@ -179,15 +176,15 @@ aI1
 aI1
 aI4
 aI1
-aa(lp34
+aa(lp33
 V0021301190
-p35
+p34
 aVAPR 12, 2014
-p36
+p35
 aVPHI @ CHA
-p37
+p36
 aVL
-p38
+p37
 aI11
 aI3
 aI4
@@ -208,15 +205,15 @@ aI0
 aI0
 aI7
 aI-1
-aa(lp39
+aa(lp38
 V0021301204
-p40
+p39
 aVAPR 14, 2014
-p41
+p40
 aVPHI vs. BOS
-p42
+p41
 aVW
-p43
+p42
 aI14
 aI4
 aI6
@@ -237,15 +234,15 @@ aI0
 aI1
 aI9
 aI12
-aa(lp44
+aa(lp43
 V0021301225
-p45
+p44
 aVAPR 16, 2014
-p46
+p45
 aVPHI @ MIA
-p47
+p46
 aVW
-p48
+p47
 aI14
 aI4
 aI5
@@ -267,10 +264,25 @@ aI2
 aI10
 aI15
 aasS'name'
-p49
+p48
 VCasper Ware
+p49
+sS'weight'
 p50
-sS'experience'
+V175
 p51
+sS'age'
+p52
+I23
+sS'experience'
+p53
 I0
+sS'height'
+p54
+V5-10
+p55
+sS'position'
+p56
+VGuard
+p57
 s.

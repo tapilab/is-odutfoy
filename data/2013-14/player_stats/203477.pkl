@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300421
-p5
+p4
 aVDEC 25, 2013
-p6
+p5
 aVHOU @ SAS
-p7
+p6
 aVW
-p8
+p7
 aI0
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0021300450
-p10
+p9
 aVDEC 29, 2013
-p11
+p10
 aVHOU @ OKC
-p12
+p11
 aVL
-p13
+p12
 aI7
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI0
 aI4
 aI-7
-aa(lp14
+aa(lp13
 V0021300526
-p15
+p14
 aVJAN 08, 2014
-p16
+p15
 aVHOU vs. LAL
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp19
+aa(lp18
 V0021300572
-p20
+p19
 aVJAN 15, 2014
-p21
+p20
 aVHOU @ NOP
-p22
+p21
 aVW
-p23
+p22
 aI9
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI3
 aI0
 aI-8
-aa(lp24
+aa(lp23
 V0021300597
-p25
+p24
 aVJAN 18, 2014
-p26
+p25
 aVHOU vs. MIL
-p27
+p26
 aVW
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp29
+aa(lp28
 V0021300852
-p30
+p29
 aVFEB 25, 2014
-p31
+p30
 aVHOU @ SAC
-p32
+p31
 aVW
-p33
+p32
 aI8
 aI1
 aI3
@@ -179,15 +176,15 @@ aI1
 aI0
 aI3
 aI1
-aa(lp34
+aa(lp33
 V0021300905
-p35
+p34
 aVMAR 05, 2014
-p36
+p35
 aVHOU @ ORL
-p37
+p36
 aVW
-p38
+p37
 aI2
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp39
+aa(lp38
 V0021300926
-p40
+p39
 aVMAR 07, 2014
-p41
+p40
 aVHOU vs. IND
-p42
+p41
 aVW
-p43
+p42
 aI6
 aI1
 aI1
@@ -237,15 +234,15 @@ aI1
 aI1
 aI5
 aI-2
-aa(lp44
+aa(lp43
 V0021300968
-p45
+p44
 aVMAR 13, 2014
-p46
+p45
 aVHOU @ CHI
-p47
+p46
 aVL
-p48
+p47
 aI8
 aI1
 aI5
@@ -266,15 +263,15 @@ aI0
 aI1
 aI4
 aI0
-aa(lp49
+aa(lp48
 V0021301000
-p50
+p49
 aVMAR 17, 2014
-p51
+p50
 aVHOU vs. UTA
-p52
+p51
 aVW
-p53
+p52
 aI8
 aI1
 aI4
@@ -295,15 +292,15 @@ aI1
 aI0
 aI3
 aI15
-aa(lp54
+aa(lp53
 V0021301019
-p55
+p54
 aVMAR 20, 2014
-p56
+p55
 aVHOU vs. MIN
-p57
+p56
 aVW
-p58
+p57
 aI3
 aI2
 aI3
@@ -324,15 +321,15 @@ aI0
 aI1
 aI5
 aI3
-aa(lp59
+aa(lp58
 V0021301033
-p60
+p59
 aVMAR 22, 2014
-p61
+p60
 aVHOU @ CLE
-p62
+p61
 aVW
-p63
+p62
 aI5
 aI0
 aI1
@@ -353,15 +350,15 @@ aI1
 aI1
 aI3
 aI-12
-aa(lp64
+aa(lp63
 V0021301072
-p65
+p64
 aVMAR 27, 2014
-p66
+p65
 aVHOU vs. PHI
-p67
+p66
 aVW
-p68
+p67
 aI14
 aI2
 aI6
@@ -382,15 +379,15 @@ aI3
 aI2
 aI5
 aI3
-aa(lp69
+aa(lp68
 V0021301088
-p70
+p69
 aVMAR 29, 2014
-p71
+p70
 aVHOU vs. LAC
-p72
+p71
 aVL
-p73
+p72
 aI20
 aI3
 aI5
@@ -411,15 +408,15 @@ aI4
 aI2
 aI14
 aI-7
-aa(lp74
+aa(lp73
 V0021301111
-p75
+p74
 aVAPR 01, 2014
-p76
+p75
 aVHOU @ BKN
-p77
+p76
 aVL
-p78
+p77
 aI23
 aI1
 aI8
@@ -440,15 +437,15 @@ aI2
 aI1
 aI2
 aI-1
-aa(lp79
+aa(lp78
 V0021301118
-p80
+p79
 aVAPR 02, 2014
-p81
+p80
 aVHOU @ TOR
-p82
+p81
 aVL
-p83
+p82
 aI18
 aI2
 aI8
@@ -469,15 +466,15 @@ aI0
 aI2
 aI7
 aI-2
-aa(lp84
+aa(lp83
 V0021301139
-p85
+p84
 aVAPR 04, 2014
-p86
+p85
 aVHOU vs. OKC
-p87
+p86
 aVW
-p88
+p87
 aI18
 aI2
 aI5
@@ -498,15 +495,15 @@ aI2
 aI2
 aI6
 aI2
-aa(lp89
+aa(lp88
 V0021301153
-p90
+p89
 aVAPR 06, 2014
-p91
+p90
 aVHOU vs. DEN
-p92
+p91
 aVW
-p93
+p92
 aI19
 aI5
 aI8
@@ -527,15 +524,15 @@ aI0
 aI2
 aI15
 aI-4
-aa(lp94
+aa(lp93
 V0021301161
-p95
+p94
 aVAPR 08, 2014
-p96
+p95
 aVHOU @ LAL
-p97
+p96
 aVW
-p98
+p97
 aI27
 aI6
 aI8
@@ -556,15 +553,15 @@ aI2
 aI1
 aI15
 aI0
-aa(lp99
+aa(lp98
 V0021301171
-p100
+p99
 aVAPR 09, 2014
-p101
+p100
 aVHOU @ DEN
-p102
+p101
 aVL
-p103
+p102
 aI24
 aI2
 aI10
@@ -585,15 +582,15 @@ aI4
 aI3
 aI6
 aI5
-aa(lp104
+aa(lp103
 V0021301183
-p105
+p104
 aVAPR 11, 2014
-p106
+p105
 aVHOU @ MIN
-p107
+p106
 aVL
-p108
+p107
 aI4
 aI0
 aI2
@@ -614,15 +611,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp109
+aa(lp108
 V0021301219
-p110
+p109
 aVAPR 16, 2014
-p111
+p110
 aVHOU @ NOP
-p112
+p111
 aVL
-p113
+p112
 aI26
 aI1
 aI6
@@ -644,10 +641,25 @@ aI2
 aI2
 aI-8
 aasS'name'
-p114
+p113
 VIsaiah Canaan
+p114
+sS'weight'
 p115
-sS'experience'
+V201
 p116
+sS'age'
+p117
+I22
+sS'experience'
+p118
 I0
+sS'height'
+p119
+V6-0
+p120
+sS'position'
+p121
+VGuard
+p122
 s.

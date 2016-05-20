@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020601100
-p5
+p4
 aVAPR 03, 2007
-p6
+p5
 aVWAS @ CHA
-p7
+p6
 aVL
-p8
+p7
 aI7
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0020601195
-p10
+p9
 aVAPR 15, 2007
-p11
+p10
 aVWAS vs. CHI
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI2
@@ -64,10 +61,25 @@ aI1
 aI0
 aI-4
 aasS'name'
-p14
+p13
 VMike Hall
+p14
+sS'weight'
 p15
-sS'experience'
+V230
 p16
+sS'age'
+p17
+I22
+sS'experience'
+p18
 I0
+sS'height'
+p19
+V6-8
+p20
+sS'position'
+p21
+VForward
+p22
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700011
-p5
+p4
 aVOCT 31, 2007
-p6
+p5
 aVDEN vs. SEA
-p7
+p6
 aVW
-p8
+p7
 aI15
 aI1
 aI5
@@ -34,15 +31,15 @@ aI2
 aI0
 aI4
 aI-2
-aa(lp9
+aa(lp8
 V0020700023
-p10
+p9
 aVNOV 02, 2007
-p11
+p10
 aVDEN @ MIN
-p12
+p11
 aVW
-p13
+p12
 aI24
 aI1
 aI3
@@ -63,15 +60,15 @@ aI4
 aI3
 aI6
 aI13
-aa(lp14
+aa(lp13
 V0020700040
-p15
+p14
 aVNOV 04, 2007
-p16
+p15
 aVDEN vs. NOH
-p17
+p16
 aVL
-p18
+p17
 aI21
 aI4
 aI6
@@ -92,15 +89,15 @@ aI2
 aI5
 aI12
 aI1
-aa(lp19
+aa(lp18
 V0020700046
-p20
+p19
 aVNOV 06, 2007
-p21
+p20
 aVDEN @ NYK
-p22
+p21
 aVL
-p23
+p22
 aI26
 aI4
 aI7
@@ -121,15 +118,15 @@ aI1
 aI6
 aI8
 aI-6
-aa(lp24
+aa(lp23
 V0020700058
-p25
+p24
 aVNOV 07, 2007
-p26
+p25
 aVDEN @ BOS
-p27
+p26
 aVL
-p28
+p27
 aI11
 aI0
 aI1
@@ -150,15 +147,15 @@ aI1
 aI1
 aI2
 aI-16
-aa(lp29
+aa(lp28
 V0020700415
-p30
+p29
 aVDEC 26, 2007
-p31
+p30
 aVDEN vs. MIL
-p32
+p31
 aVW
-p33
+p32
 aI17
 aI3
 aI4
@@ -179,15 +176,15 @@ aI1
 aI3
 aI11
 aI-2
-aa(lp34
+aa(lp33
 V0020700433
-p35
+p34
 aVDEC 28, 2007
-p36
+p35
 aVDEN @ GSW
-p37
+p36
 aVW
-p38
+p37
 aI18
 aI2
 aI5
@@ -208,15 +205,15 @@ aI1
 aI4
 aI5
 aI-2
-aa(lp39
+aa(lp38
 V0020700445
-p40
+p39
 aVDEC 30, 2007
-p41
+p40
 aVDEN vs. GSW
-p42
+p41
 aVL
-p43
+p42
 aI17
 aI0
 aI5
@@ -237,15 +234,15 @@ aI2
 aI4
 aI1
 aI-9
-aa(lp44
+aa(lp43
 V0020700470
-p45
+p44
 aVJAN 03, 2008
-p46
+p45
 aVDEN vs. SAS
-p47
+p46
 aVW
-p48
+p47
 aI20
 aI3
 aI8
@@ -266,15 +263,15 @@ aI1
 aI4
 aI6
 aI5
-aa(lp49
+aa(lp48
 V0020700478
-p50
+p49
 aVJAN 04, 2008
-p51
+p50
 aVDEN @ MIN
-p52
+p51
 aVW
-p53
+p52
 aI24
 aI1
 aI4
@@ -295,15 +292,15 @@ aI3
 aI1
 aI4
 aI3
-aa(lp54
+aa(lp53
 V0020700496
-p55
+p54
 aVJAN 06, 2008
-p56
+p55
 aVDEN vs. PHI
-p57
+p56
 aVW
-p58
+p57
 aI22
 aI2
 aI7
@@ -324,15 +321,15 @@ aI0
 aI4
 aI6
 aI3
-aa(lp59
+aa(lp58
 V0020700498
-p60
+p59
 aVJAN 07, 2008
-p61
+p60
 aVDEN @ PHX
-p62
+p61
 aVL
-p63
+p62
 aI23
 aI5
 aI10
@@ -353,15 +350,15 @@ aI2
 aI4
 aI12
 aI0
-aa(lp64
+aa(lp63
 V0020701071
-p65
+p64
 aVMAR 27, 2008
-p66
+p65
 aVDEN vs. DAL
-p67
+p66
 aVW
-p68
+p67
 aI1
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp69
+aa(lp68
 V0020701103
-p70
+p69
 aVMAR 31, 2008
-p71
+p70
 aVDEN @ PHX
-p72
+p71
 aVL
-p73
+p72
 aI6
 aI2
 aI2
@@ -411,15 +408,15 @@ aI1
 aI2
 aI4
 aI9
-aa(lp74
+aa(lp73
 V0020701111
-p75
+p74
 aVAPR 01, 2008
-p76
+p75
 aVDEN vs. PHX
-p77
+p76
 aVW
-p78
+p77
 aI10
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI3
 aI4
 aI3
-aa(lp79
+aa(lp78
 V0020701142
-p80
+p79
 aVAPR 05, 2008
-p81
+p80
 aVDEN vs. SAC
-p82
+p81
 aVL
-p83
+p82
 aI11
 aI0
 aI2
@@ -470,10 +467,25 @@ aI2
 aI0
 aI5
 aasS'name'
-p84
+p83
 VNene
+p84
+sS'weight'
 p85
-sS'experience'
+V250
 p86
+sS'age'
+p87
+I25
+sS'experience'
+p88
 I5
+sS'height'
+p89
+V6-11
+p90
+sS'position'
+p91
+VForward-Center
+p92
 s.

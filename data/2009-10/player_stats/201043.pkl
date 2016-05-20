@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900072
-p5
+p4
 aVNOV 06, 2009
-p6
+p5
 aVATL @ CHA
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI3
 aI1
 aI2
-aa(lp9
+aa(lp8
 V0020900085
-p10
+p9
 aVNOV 07, 2009
-p11
+p10
 aVATL vs. DEN
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0020900114
-p15
+p14
 aVNOV 11, 2009
-p16
+p15
 aVATL @ NYK
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020900133
-p20
+p19
 aVNOV 14, 2009
-p21
+p20
 aVATL vs. NOH
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI3
 aI3
@@ -121,15 +118,15 @@ aI0
 aI2
 aI6
 aI1
-aa(lp24
+aa(lp23
 V0020900158
-p25
+p24
 aVNOV 18, 2009
-p26
+p25
 aVATL vs. MIA
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp29
+aa(lp28
 V0020900259
-p30
+p29
 aVDEC 02, 2009
-p31
+p30
 aVATL vs. TOR
-p32
+p31
 aVW
-p33
+p32
 aI7
 aI2
 aI4
@@ -179,15 +176,15 @@ aI1
 aI3
 aI6
 aI2
-aa(lp34
+aa(lp33
 V0020900308
-p35
+p34
 aVDEC 09, 2009
-p36
+p35
 aVATL vs. CHI
-p37
+p36
 aVW
-p38
+p37
 aI8
 aI1
 aI2
@@ -208,15 +205,15 @@ aI0
 aI0
 aI3
 aI4
-aa(lp39
+aa(lp38
 V0020900322
-p40
+p39
 aVDEC 11, 2009
-p41
+p40
 aVATL @ TOR
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp44
+aa(lp43
 V0020900340
-p45
+p44
 aVDEC 13, 2009
-p46
+p45
 aVATL vs. NJN
-p47
+p46
 aVW
-p48
+p47
 aI8
 aI3
 aI4
@@ -266,15 +263,15 @@ aI1
 aI3
 aI7
 aI0
-aa(lp49
+aa(lp48
 V0020900358
-p50
+p49
 aVDEC 16, 2009
-p51
+p50
 aVATL vs. MEM
-p52
+p51
 aVW
-p53
+p52
 aI9
 aI3
 aI6
@@ -295,15 +292,15 @@ aI0
 aI1
 aI7
 aI-10
-aa(lp54
+aa(lp53
 V0020900374
-p55
+p54
 aVDEC 18, 2009
-p56
+p55
 aVATL vs. UTA
-p57
+p56
 aVW
-p58
+p57
 aI9
 aI1
 aI2
@@ -324,15 +321,15 @@ aI2
 aI3
 aI3
 aI-12
-aa(lp59
+aa(lp58
 V0020900410
-p60
+p59
 aVDEC 22, 2009
-p61
+p60
 aVATL @ MIN
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI0
 aI0
@@ -353,15 +350,15 @@ aI1
 aI6
 aI3
 aI8
-aa(lp64
+aa(lp63
 V0020900421
-p65
+p64
 aVDEC 23, 2009
-p66
+p65
 aVATL @ DEN
-p67
+p66
 aVL
-p68
+p67
 aI2
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp69
+aa(lp68
 V0020900430
-p70
+p69
 aVDEC 26, 2009
-p71
+p70
 aVATL @ IND
-p72
+p71
 aVW
-p73
+p72
 aI3
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp74
+aa(lp73
 V0020900494
-p75
+p74
 aVJAN 04, 2010
-p76
+p75
 aVATL @ MIA
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI2
 aI3
@@ -440,15 +437,15 @@ aI0
 aI1
 aI4
 aI5
-aa(lp79
+aa(lp78
 V0020900507
-p80
+p79
 aVJAN 06, 2010
-p81
+p80
 aVATL vs. NJN
-p82
+p81
 aVW
-p83
+p82
 aI7
 aI2
 aI3
@@ -469,15 +466,15 @@ aI0
 aI0
 aI4
 aI0
-aa(lp84
+aa(lp83
 V0020900531
-p85
+p84
 aVJAN 09, 2010
-p86
+p85
 aVATL @ ORL
-p87
+p86
 aVL
-p88
+p87
 aI9
 aI0
 aI3
@@ -498,15 +495,15 @@ aI1
 aI3
 aI1
 aI-1
-aa(lp89
+aa(lp88
 V0020900608
-p90
+p89
 aVJAN 20, 2010
-p91
+p90
 aVATL vs. SAC
-p92
+p91
 aVW
-p93
+p92
 aI2
 aI1
 aI1
@@ -527,15 +524,15 @@ aI0
 aI0
 aI4
 aI-3
-aa(lp94
+aa(lp93
 V0020900627
-p95
+p94
 aVJAN 22, 2010
-p96
+p95
 aVATL vs. CHA
+p96
+aVW
 p97
-aVW
-p98
 aI1
 aI0
 aI0
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp99
+aa(lp98
 V0020900653
-p100
+p99
 aVJAN 25, 2010
-p101
+p100
 aVATL @ HOU
-p102
+p101
 aVW
-p103
+p102
 aI1
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp104
+aa(lp103
 V0020900671
-p105
+p104
 aVJAN 27, 2010
-p106
+p105
 aVATL @ SAS
-p107
+p106
 aVL
-p108
+p107
 aI2
 aI0
 aI0
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp109
+aa(lp108
 V0020900764
-p110
+p109
 aVFEB 09, 2010
-p111
+p110
 aVATL @ MEM
-p112
+p111
 aVW
-p113
+p112
 aI4
 aI0
 aI0
@@ -643,15 +640,15 @@ aI1
 aI0
 aI0
 aI-8
-aa(lp114
+aa(lp113
 V0020901000
-p115
+p114
 aVMAR 16, 2010
-p116
+p115
 aVATL @ NJN
-p117
+p116
 aVW
-p118
+p117
 aI4
 aI1
 aI2
@@ -672,15 +669,15 @@ aI0
 aI1
 aI3
 aI1
-aa(lp119
+aa(lp118
 V0020901149
-p120
+p119
 aVAPR 06, 2010
-p121
+p120
 aVATL @ CHA
-p122
+p121
 aVL
-p123
+p122
 aI2
 aI1
 aI1
@@ -701,15 +698,15 @@ aI0
 aI0
 aI2
 aI4
-aa(lp124
+aa(lp123
 V0020901176
-p125
+p124
 aVAPR 09, 2010
-p126
+p125
 aVATL vs. TOR
-p127
+p126
 aVW
-p128
+p127
 aI0
 aI0
 aI0
@@ -730,15 +727,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp129
+aa(lp128
 V0020901189
-p130
+p129
 aVAPR 10, 2010
-p131
+p130
 aVATL @ WAS
-p132
+p131
 aVW
-p133
+p132
 aI1
 aI0
 aI0
@@ -759,15 +756,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp134
+aa(lp133
 V0020901207
-p135
+p134
 aVAPR 12, 2010
-p136
+p135
 aVATL @ MIL
+p136
+aVW
 p137
-aVW
-p138
 aI0
 aI0
 aI0
@@ -788,15 +785,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp139
+aa(lp138
 V0020901217
-p140
+p139
 aVAPR 14, 2010
-p141
+p140
 aVATL vs. CLE
-p142
+p141
 aVW
-p143
+p142
 aI15
 aI2
 aI2
@@ -818,10 +815,25 @@ aI6
 aI6
 aI1
 aasS'name'
-p144
+p143
 VRandolph Morris
+p144
+sS'weight'
 p145
-sS'experience'
+V275
 p146
+sS'age'
+p147
+I23
+sS'experience'
+p148
 I3
+sS'height'
+p149
+V6-11
+p150
+sS'position'
+p151
+VCenter
+p152
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100863
-p5
+p4
 aVAPR 11, 2012
-p6
+p5
 aVNOH vs. SAC
-p7
+p6
 aVW
-p8
+p7
 aI23
 aI1
 aI5
@@ -34,15 +31,15 @@ aI2
 aI1
 aI3
 aI7
-aa(lp9
+aa(lp8
 V0021100881
-p10
+p9
 aVAPR 13, 2012
-p11
+p10
 aVNOH vs. UTA
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp14
+aa(lp13
 V0021100900
-p15
+p14
 aVAPR 15, 2012
-p16
+p15
 aVNOH vs. MEM
-p17
+p16
 aVW
-p18
+p17
 aI12
 aI1
 aI2
@@ -92,15 +89,15 @@ aI3
 aI2
 aI2
 aI-8
-aa(lp19
+aa(lp18
 V0021100903
-p20
+p19
 aVAPR 16, 2012
-p21
+p20
 aVNOH @ CHA
-p22
+p21
 aVW
-p23
+p22
 aI15
 aI2
 aI5
@@ -121,15 +118,15 @@ aI2
 aI4
 aI9
 aI12
-aa(lp24
+aa(lp23
 V0021100925
-p25
+p24
 aVAPR 18, 2012
-p26
+p25
 aVNOH @ MEM
-p27
+p26
 aVL
-p28
+p27
 aI27
 aI5
 aI7
@@ -150,15 +147,15 @@ aI3
 aI3
 aI24
 aI13
-aa(lp29
+aa(lp28
 V0021100935
-p30
+p29
 aVAPR 19, 2012
-p31
+p30
 aVNOH vs. HOU
-p32
+p31
 aVW
-p33
+p32
 aI13
 aI0
 aI5
@@ -179,15 +176,15 @@ aI2
 aI3
 aI0
 aI-7
-aa(lp34
+aa(lp33
 V0021100959
-p35
+p34
 aVAPR 22, 2012
-p36
+p35
 aVNOH @ LAC
-p37
+p36
 aVL
-p38
+p37
 aI18
 aI2
 aI2
@@ -208,15 +205,15 @@ aI3
 aI1
 aI7
 aI8
-aa(lp39
+aa(lp38
 V0021100970
-p40
+p39
 aVAPR 24, 2012
-p41
+p40
 aVNOH @ GSW
-p42
+p41
 aVW
-p43
+p42
 aI25
 aI1
 aI5
@@ -237,15 +234,15 @@ aI1
 aI2
 aI5
 aI-8
-aa(lp44
+aa(lp43
 V0021100986
-p45
+p44
 aVAPR 26, 2012
-p46
+p45
 aVNOH @ HOU
-p47
+p46
 aVL
-p48
+p47
 aI41
 aI6
 aI14
@@ -267,10 +264,25 @@ aI3
 aI15
 aI-19
 aasS'name'
-p49
+p48
 VJerome Dyson
+p49
+sS'weight'
 p50
-sS'experience'
+V180
 p51
+sS'age'
+p52
+I24
+sS'experience'
+p53
 I0
+sS'height'
+p54
+V6-3
+p55
+sS'position'
+p56
+VGuard
+p57
 s.

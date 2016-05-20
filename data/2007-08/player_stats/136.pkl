@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I38
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700917
-p5
+p4
 aVMAR 07, 2008
-p6
+p5
 aVBOS vs. CHI
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI1
 aI2
@@ -34,15 +31,15 @@ aI2
 aI2
 aI3
 aI-2
-aa(lp9
+aa(lp8
 V0020700929
-p10
+p9
 aVMAR 08, 2008
-p11
+p10
 aVBOS @ MEM
-p12
+p11
 aVW
-p13
+p12
 aI8
 aI0
 aI1
@@ -63,15 +60,15 @@ aI1
 aI1
 aI2
 aI8
-aa(lp14
+aa(lp13
 V0020700939
-p15
+p14
 aVMAR 10, 2008
-p16
+p15
 aVBOS @ PHI
-p17
+p16
 aVW
-p18
+p17
 aI9
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI2
 aI2
 aI-5
-aa(lp19
+aa(lp18
 V0020700954
-p20
+p19
 aVMAR 12, 2008
-p21
+p20
 aVBOS vs. SEA
-p22
+p21
 aVW
-p23
+p22
 aI14
 aI1
 aI5
@@ -121,15 +118,15 @@ aI0
 aI1
 aI3
 aI1
-aa(lp24
+aa(lp23
 V0020700980
-p25
+p24
 aVMAR 15, 2008
-p26
+p25
 aVBOS @ MIL
-p27
+p26
 aVW
-p28
+p27
 aI23
 aI1
 aI6
@@ -150,15 +147,15 @@ aI0
 aI1
 aI4
 aI8
-aa(lp29
+aa(lp28
 V0020700997
-p30
+p29
 aVMAR 17, 2008
-p31
+p30
 aVBOS @ SAS
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI3
 aI2
 aI-4
-aa(lp34
+aa(lp33
 V0020701002
-p35
+p34
 aVMAR 18, 2008
-p36
+p35
 aVBOS @ HOU
-p37
+p36
 aVW
-p38
+p37
 aI7
 aI0
 aI2
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0020701017
-p40
+p39
 aVMAR 20, 2008
-p41
+p40
 aVBOS @ DAL
-p42
+p41
 aVW
-p43
+p42
 aI12
 aI0
 aI2
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI7
-aa(lp44
+aa(lp43
 V0020701033
-p45
+p44
 aVMAR 22, 2008
-p46
+p45
 aVBOS @ NOH
-p47
+p46
 aVL
-p48
+p47
 aI12
 aI1
 aI4
@@ -266,15 +263,15 @@ aI2
 aI2
 aI2
 aI-15
-aa(lp49
+aa(lp48
 V0020701076
-p50
+p49
 aVMAR 28, 2008
-p51
+p50
 aVBOS vs. NOH
-p52
+p51
 aVW
-p53
+p52
 aI10
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI2
 aI2
 aI-6
-aa(lp54
+aa(lp53
 V0020701093
-p55
+p54
 aVMAR 30, 2008
-p56
+p55
 aVBOS vs. MIA
-p57
+p56
 aVW
-p58
+p57
 aI11
 aI1
 aI2
@@ -324,15 +321,15 @@ aI1
 aI2
 aI2
 aI2
-aa(lp59
+aa(lp58
 V0020701116
-p60
+p59
 aVAPR 02, 2008
-p61
+p60
 aVBOS vs. IND
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI2
 aI2
@@ -353,15 +350,15 @@ aI0
 aI2
 aI4
 aI0
-aa(lp64
+aa(lp63
 V0020701139
-p65
+p64
 aVAPR 05, 2008
-p66
+p65
 aVBOS @ CHA
-p67
+p66
 aVW
-p68
+p67
 aI19
 aI1
 aI2
@@ -382,15 +379,15 @@ aI1
 aI2
 aI4
 aI3
-aa(lp69
+aa(lp68
 V0020701166
-p70
+p69
 aVAPR 09, 2008
-p71
+p70
 aVBOS @ WAS
-p72
+p71
 aVL
-p73
+p72
 aI13
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI2
 aI2
 aI2
-aa(lp74
+aa(lp73
 V0020701180
-p75
+p74
 aVAPR 11, 2008
-p76
+p75
 aVBOS vs. MIL
-p77
+p76
 aVW
-p78
+p77
 aI18
 aI2
 aI4
@@ -440,15 +437,15 @@ aI2
 aI2
 aI4
 aI2
-aa(lp79
+aa(lp78
 V0020701189
-p80
+p79
 aVAPR 12, 2008
-p81
+p80
 aVBOS @ ATL
-p82
+p81
 aVW
-p83
+p82
 aI19
 aI0
 aI2
@@ -469,15 +466,15 @@ aI1
 aI1
 aI0
 aI5
-aa(lp84
+aa(lp83
 V0020701206
-p85
+p84
 aVAPR 14, 2008
-p86
+p85
 aVBOS @ NYK
-p87
+p86
 aVW
-p88
+p87
 aI8
 aI1
 aI3
@@ -498,15 +495,15 @@ aI0
 aI2
 aI3
 aI-6
-aa(lp89
+aa(lp88
 V0020701221
-p90
+p89
 aVAPR 16, 2008
-p91
+p90
 aVBOS vs. NJN
-p92
+p91
 aVW
-p93
+p92
 aI10
 aI0
 aI0
@@ -528,10 +525,25 @@ aI2
 aI0
 aI2
 aasS'name'
-p94
+p93
 VP.J. Brown
+p94
+sS'weight'
 p95
-sS'experience'
+V239
 p96
+sS'age'
+p97
+I38
+sS'experience'
+p98
 I14
+sS'height'
+p99
+V6-11
+p100
+sS'position'
+p101
+VForward-Center
+p102
 s.

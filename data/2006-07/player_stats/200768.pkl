@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600010
-p5
+p4
 aVNOV 01, 2006
-p6
+p5
 aVMEM vs. NYK
-p7
+p6
 aVL
-p8
+p7
 aI28
 aI1
 aI4
@@ -34,15 +31,15 @@ aI1
 aI5
 aI6
 aI7
-aa(lp9
+aa(lp8
 V0020600024
-p10
+p9
 aVNOV 03, 2006
-p11
+p10
 aVMEM vs. CHA
-p12
+p11
 aVW
-p13
+p12
 aI17
 aI0
 aI1
@@ -63,15 +60,15 @@ aI2
 aI4
 aI0
 aI16
-aa(lp14
+aa(lp13
 V0020600034
-p15
+p14
 aVNOV 04, 2006
-p16
+p15
 aVMEM @ DET
-p17
+p16
 aVL
-p18
+p17
 aI8
 aI0
 aI2
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0020600088
-p20
+p19
 aVNOV 11, 2006
-p21
+p20
 aVMEM @ PHX
-p22
+p21
 aVL
-p23
+p22
 aI12
 aI0
 aI0
@@ -121,15 +118,15 @@ aI2
 aI1
 aI2
 aI2
-aa(lp24
+aa(lp23
 V0020600096
-p25
+p24
 aVNOV 12, 2006
-p26
+p25
 aVMEM @ LAL
-p27
+p26
 aVL
-p28
+p27
 aI10
 aI1
 aI3
@@ -150,15 +147,15 @@ aI1
 aI1
 aI6
 aI7
-aa(lp29
+aa(lp28
 V0020600115
-p30
+p29
 aVNOV 15, 2006
-p31
+p30
 aVMEM @ SAC
-p32
+p31
 aVL
-p33
+p32
 aI19
 aI1
 aI4
@@ -179,15 +176,15 @@ aI2
 aI3
 aI7
 aI7
-aa(lp34
+aa(lp33
 V0020600124
-p35
+p34
 aVNOV 17, 2006
-p36
+p35
 aVMEM vs. DAL
-p37
+p36
 aVL
-p38
+p37
 aI18
 aI2
 aI5
@@ -208,15 +205,15 @@ aI2
 aI2
 aI7
 aI-1
-aa(lp39
+aa(lp38
 V0020600137
-p40
+p39
 aVNOV 18, 2006
-p41
+p40
 aVMEM @ DAL
-p42
+p41
 aVL
-p43
+p42
 aI20
 aI2
 aI5
@@ -237,15 +234,15 @@ aI0
 aI1
 aI8
 aI-1
-aa(lp44
+aa(lp43
 V0020600146
-p45
+p44
 aVNOV 20, 2006
-p46
+p45
 aVMEM vs. ORL
-p47
+p46
 aVW
-p48
+p47
 aI30
 aI6
 aI10
@@ -266,15 +263,15 @@ aI0
 aI3
 aI16
 aI21
-aa(lp49
+aa(lp48
 V0020600152
-p50
+p49
 aVNOV 21, 2006
-p51
+p50
 aVMEM @ CLE
-p52
+p51
 aVL
-p53
+p52
 aI12
 aI1
 aI4
@@ -296,10 +293,25 @@ aI0
 aI4
 aI4
 aasS'name'
-p54
+p53
 VKyle Lowry
+p54
+sS'weight'
 p55
-sS'experience'
+V205
 p56
+sS'age'
+p57
+I20
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V6-0
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

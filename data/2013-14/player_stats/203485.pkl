@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300165
-p5
+p4
 aVNOV 20, 2013
-p6
+p5
 aVPHI vs. TOR
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI2
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI5
 aI5
-aa(lp9
+aa(lp8
 V0021300177
-p10
+p9
 aVNOV 22, 2013
-p11
+p10
 aVPHI vs. MIL
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp14
+aa(lp13
 V0021300188
-p15
+p14
 aVNOV 23, 2013
-p16
+p15
 aVPHI @ IND
-p17
+p16
 aVL
-p18
+p17
 aI10
 aI2
 aI6
@@ -92,15 +89,15 @@ aI0
 aI1
 aI4
 aI-2
-aa(lp19
+aa(lp18
 V0021300216
-p20
+p19
 aVNOV 27, 2013
-p21
+p20
 aVPHI @ ORL
-p22
+p21
 aVL
-p23
+p22
 aI8
 aI0
 aI4
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp24
+aa(lp23
 V0021300237
-p25
+p24
 aVNOV 29, 2013
-p26
+p25
 aVPHI vs. NOP
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp29
+aa(lp28
 V0021300250
-p30
+p29
 aVDEC 01, 2013
-p31
+p30
 aVPHI @ DET
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp34
+aa(lp33
 V0021300280
-p35
+p34
 aVDEC 06, 2013
-p36
+p35
 aVPHI @ CHA
-p37
+p36
 aVL
-p38
+p37
 aI13
 aI2
 aI8
@@ -208,15 +205,15 @@ aI0
 aI0
 aI4
 aI-12
-aa(lp39
+aa(lp38
 V0021300290
-p40
+p39
 aVDEC 07, 2013
-p41
+p40
 aVPHI vs. DEN
-p42
+p41
 aVL
-p43
+p42
 aI15
 aI3
 aI6
@@ -237,15 +234,15 @@ aI0
 aI1
 aI6
 aI1
-aa(lp44
+aa(lp43
 V0021300305
-p45
+p44
 aVDEC 09, 2013
-p46
+p45
 aVPHI vs. LAC
-p47
+p46
 aVL
-p48
+p47
 aI12
 aI1
 aI6
@@ -266,15 +263,15 @@ aI1
 aI4
 aI4
 aI-3
-aa(lp49
+aa(lp48
 V0021300322
-p50
+p49
 aVDEC 11, 2013
-p51
+p50
 aVPHI @ MIN
-p52
+p51
 aVL
-p53
+p52
 aI19
 aI2
 aI3
@@ -295,15 +292,15 @@ aI5
 aI5
 aI4
 aI0
-aa(lp54
+aa(lp53
 V0021300331
-p55
+p54
 aVDEC 13, 2013
-p56
+p55
 aVPHI @ TOR
-p57
+p56
 aVL
-p58
+p57
 aI11
 aI0
 aI2
@@ -324,15 +321,15 @@ aI3
 aI0
 aI0
 aI-3
-aa(lp59
+aa(lp58
 V0021300347
-p60
+p59
 aVDEC 14, 2013
-p61
+p60
 aVPHI vs. POR
-p62
+p61
 aVL
-p63
+p62
 aI24
 aI3
 aI9
@@ -353,15 +350,15 @@ aI2
 aI1
 aI8
 aI-17
-aa(lp64
+aa(lp63
 V0021300359
-p65
+p64
 aVDEC 16, 2013
-p66
+p65
 aVPHI @ BKN
-p67
+p66
 aVL
-p68
+p67
 aI19
 aI3
 aI6
@@ -382,15 +379,15 @@ aI0
 aI1
 aI6
 aI16
-aa(lp69
+aa(lp68
 V0021300505
-p70
+p69
 aVJAN 06, 2014
-p71
+p70
 aVPHI vs. MIN
-p72
+p71
 aVL
-p73
+p72
 aI16
 aI1
 aI7
@@ -411,15 +408,15 @@ aI2
 aI2
 aI4
 aI-6
-aa(lp74
+aa(lp73
 V0021300509
-p75
+p74
 aVJAN 07, 2014
-p76
+p75
 aVPHI @ CLE
-p77
+p76
 aVL
-p78
+p77
 aI11
 aI1
 aI3
@@ -440,15 +437,15 @@ aI2
 aI0
 aI3
 aI17
-aa(lp79
+aa(lp78
 V0021300596
-p80
+p79
 aVJAN 18, 2014
-p81
+p80
 aVPHI @ CHI
-p82
+p81
 aVL
-p83
+p82
 aI4
 aI1
 aI4
@@ -469,15 +466,15 @@ aI0
 aI0
 aI4
 aI5
-aa(lp84
+aa(lp83
 V0021300609
-p85
+p84
 aVJAN 20, 2014
-p86
+p85
 aVPHI @ WAS
-p87
+p86
 aVL
-p88
+p87
 aI5
 aI1
 aI2
@@ -498,15 +495,15 @@ aI0
 aI1
 aI3
 aI8
-aa(lp89
+aa(lp88
 V0021300626
-p90
+p89
 aVJAN 22, 2014
-p91
+p90
 aVPHI @ NYK
-p92
+p91
 aVW
-p93
+p92
 aI3
 aI0
 aI1
@@ -527,15 +524,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp94
+aa(lp93
 V0021300662
-p95
+p94
 aVJAN 27, 2014
-p96
+p95
 aVPHI vs. PHX
+p96
+aVL
 p97
-aVL
-p98
 aI0
 aI0
 aI0
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp99
+aa(lp98
 V0021300741
-p100
+p99
 aVFEB 07, 2014
-p101
+p100
 aVPHI vs. LAL
+p101
+aVL
 p102
-aVL
-p103
 aI0
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp104
+aa(lp103
 V0021300763
-p105
+p104
 aVFEB 09, 2014
-p106
+p105
 aVPHI @ LAC
-p107
+p106
 aVL
-p108
+p107
 aI12
 aI1
 aI6
@@ -614,15 +611,15 @@ aI0
 aI0
 aI3
 aI4
-aa(lp109
+aa(lp108
 V0021300769
-p110
+p109
 aVFEB 10, 2014
-p111
+p110
 aVPHI @ GSW
-p112
+p111
 aVL
-p113
+p112
 aI4
 aI1
 aI2
@@ -643,15 +640,15 @@ aI0
 aI1
 aI2
 aI-3
-aa(lp114
+aa(lp113
 V0021300793
-p115
+p114
 aVFEB 18, 2014
-p116
+p115
 aVPHI vs. CLE
-p117
+p116
 aVL
-p118
+p117
 aI3
 aI0
 aI0
@@ -672,15 +669,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp119
+aa(lp118
 V0021300817
-p120
+p119
 aVFEB 21, 2014
-p121
+p120
 aVPHI vs. DAL
-p122
+p121
 aVL
-p123
+p122
 aI16
 aI2
 aI5
@@ -701,15 +698,15 @@ aI0
 aI2
 aI4
 aI5
-aa(lp124
+aa(lp123
 V0021300875
-p125
+p124
 aVMAR 01, 2014
-p126
+p125
 aVPHI vs. WAS
+p126
+aVL
 p127
-aVL
-p128
 aI1
 aI0
 aI0
@@ -730,15 +727,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp129
+aa(lp128
 V0021300901
-p130
+p129
 aVMAR 04, 2014
-p131
+p130
 aVPHI @ OKC
-p132
+p131
 aVL
-p133
+p132
 aI8
 aI0
 aI2
@@ -760,10 +757,25 @@ aI0
 aI0
 aI-7
 aasS'name'
-p134
+p133
 VLorenzo Brown
+p134
+sS'weight'
 p135
-sS'experience'
+V189
 p136
+sS'age'
+p137
+I23
+sS'experience'
+p138
 I0
+sS'height'
+p139
+V6-5
+p140
+sS'position'
+p141
+VGuard
+p142
 s.

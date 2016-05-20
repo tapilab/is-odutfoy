@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100013
-p5
+p4
 aVDEC 26, 2011
-p6
+p5
 aVMEM @ SAS
-p7
+p6
 aVL
-p8
+p7
 aI29
 aI3
 aI8
@@ -34,15 +31,15 @@ aI3
 aI3
 aI10
 aI-16
-aa(lp9
+aa(lp8
 V0021100027
-p10
+p9
 aVDEC 28, 2011
-p11
+p10
 aVMEM vs. OKC
-p12
+p11
 aVL
-p13
+p12
 aI40
 aI7
 aI20
@@ -63,15 +60,15 @@ aI1
 aI2
 aI24
 aI6
-aa(lp14
+aa(lp13
 V0021100043
-p15
+p14
 aVDEC 30, 2011
-p16
+p15
 aVMEM vs. HOU
-p17
+p16
 aVW
-p18
+p17
 aI33
 aI11
 aI14
@@ -92,15 +89,15 @@ aI3
 aI2
 aI23
 aI14
-aa(lp19
+aa(lp18
 V0021100062
-p20
+p19
 aVJAN 01, 2012
-p21
+p20
 aVMEM @ CHI
-p22
+p21
 aVL
-p23
+p22
 aI11
 aI1
 aI5
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI-14
-aa(lp24
+aa(lp23
 V0021100648
-p25
+p24
 aVMAR 16, 2012
-p26
+p25
 aVMEM vs. TOR
-p27
+p26
 aVL
-p28
+p27
 aI25
 aI9
 aI14
@@ -150,15 +147,15 @@ aI0
 aI1
 aI25
 aI7
-aa(lp29
+aa(lp28
 V0021100664
-p30
+p29
 aVMAR 18, 2012
-p31
+p30
 aVMEM vs. WAS
-p32
+p31
 aVW
-p33
+p32
 aI24
 aI4
 aI9
@@ -179,15 +176,15 @@ aI2
 aI3
 aI13
 aI16
-aa(lp34
+aa(lp33
 V0021100681
-p35
+p34
 aVMAR 20, 2012
-p36
+p35
 aVMEM @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI29
 aI6
 aI15
@@ -208,15 +205,15 @@ aI2
 aI3
 aI13
 aI-7
-aa(lp39
+aa(lp38
 V0021100698
-p40
+p39
 aVMAR 22, 2012
-p41
+p40
 aVMEM @ POR
-p42
+p41
 aVL
-p43
+p42
 aI27
 aI5
 aI10
@@ -237,15 +234,15 @@ aI1
 aI1
 aI12
 aI3
-aa(lp44
+aa(lp43
 V0021100710
-p45
+p44
 aVMAR 24, 2012
-p46
+p45
 aVMEM @ LAC
-p47
+p46
 aVL
-p48
+p47
 aI38
 aI6
 aI16
@@ -266,15 +263,15 @@ aI0
 aI2
 aI14
 aI0
-aa(lp49
+aa(lp48
 V0021100726
-p50
+p49
 aVMAR 25, 2012
-p51
+p50
 aVMEM @ LAL
-p52
+p51
 aVW
-p53
+p52
 aI28
 aI5
 aI9
@@ -295,15 +292,15 @@ aI0
 aI4
 aI10
 aI17
-aa(lp54
+aa(lp53
 V0021100738
-p55
+p54
 aVMAR 27, 2012
-p56
+p55
 aVMEM vs. MIN
-p57
+p56
 aVW
-p58
+p57
 aI22
 aI3
 aI6
@@ -324,15 +321,15 @@ aI3
 aI2
 aI8
 aI8
-aa(lp59
+aa(lp58
 V0021100764
-p60
+p59
 aVMAR 30, 2012
-p61
+p60
 aVMEM @ HOU
-p62
+p61
 aVL
-p63
+p62
 aI25
 aI3
 aI7
@@ -353,15 +350,15 @@ aI0
 aI1
 aI6
 aI1
-aa(lp64
+aa(lp63
 V0021100773
-p65
+p64
 aVMAR 31, 2012
-p66
+p65
 aVMEM @ MIL
-p67
+p66
 aVW
-p68
+p67
 aI23
 aI6
 aI9
@@ -382,15 +379,15 @@ aI3
 aI3
 aI13
 aI3
-aa(lp69
+aa(lp68
 V0021100787
-p70
+p69
 aVAPR 02, 2012
-p71
+p70
 aVMEM @ OKC
-p72
+p71
 aVW
-p73
+p72
 aI27
 aI2
 aI9
@@ -411,15 +408,15 @@ aI1
 aI1
 aI10
 aI4
-aa(lp74
+aa(lp73
 V0021100796
-p75
+p74
 aVAPR 03, 2012
-p76
+p75
 aVMEM vs. GSW
-p77
+p76
 aVW
-p78
+p77
 aI15
 aI2
 aI4
@@ -440,15 +437,15 @@ aI0
 aI2
 aI6
 aI-3
-aa(lp79
+aa(lp78
 V0021100807
-p80
+p79
 aVAPR 04, 2012
-p81
+p80
 aVMEM @ DAL
-p82
+p81
 aVL
-p83
+p82
 aI23
 aI2
 aI6
@@ -469,15 +466,15 @@ aI2
 aI0
 aI4
 aI9
-aa(lp84
+aa(lp83
 V0021100819
-p85
+p84
 aVAPR 06, 2012
-p86
+p85
 aVMEM @ MIA
-p87
+p86
 aVW
-p88
+p87
 aI29
 aI6
 aI17
@@ -498,15 +495,15 @@ aI0
 aI1
 aI14
 aI8
-aa(lp89
+aa(lp88
 V0021100829
-p90
+p89
 aVAPR 07, 2012
-p91
+p90
 aVMEM vs. DAL
-p92
+p91
 aVW
-p93
+p92
 aI29
 aI6
 aI15
@@ -527,15 +524,15 @@ aI1
 aI0
 aI15
 aI4
-aa(lp94
+aa(lp93
 V0021100846
-p95
+p94
 aVAPR 09, 2012
-p96
+p95
 aVMEM vs. LAC
-p97
+p96
 aVW
-p98
+p97
 aI30
 aI4
 aI11
@@ -556,15 +553,15 @@ aI4
 aI3
 aI10
 aI6
-aa(lp99
+aa(lp98
 V0021100862
-p100
+p99
 aVAPR 11, 2012
-p101
+p100
 aVMEM vs. PHX
-p102
+p101
 aVW
-p103
+p102
 aI26
 aI7
 aI12
@@ -585,15 +582,15 @@ aI2
 aI3
 aI17
 aI3
-aa(lp104
+aa(lp103
 V0021100872
-p105
+p104
 aVAPR 12, 2012
-p106
+p105
 aVMEM @ SAS
-p107
+p106
 aVL
-p108
+p107
 aI28
 aI4
 aI10
@@ -614,15 +611,15 @@ aI0
 aI1
 aI10
 aI-11
-aa(lp109
+aa(lp108
 V0021100889
-p110
+p109
 aVAPR 14, 2012
-p111
+p110
 aVMEM vs. UTA
-p112
+p111
 aVW
-p113
+p112
 aI30
 aI3
 aI6
@@ -643,15 +640,15 @@ aI1
 aI3
 aI7
 aI6
-aa(lp114
+aa(lp113
 V0021100900
-p115
+p114
 aVAPR 15, 2012
-p116
+p115
 aVMEM @ NOH
-p117
+p116
 aVL
-p118
+p117
 aI23
 aI1
 aI2
@@ -672,15 +669,15 @@ aI0
 aI4
 aI2
 aI-2
-aa(lp119
+aa(lp118
 V0021100916
-p120
+p119
 aVAPR 17, 2012
-p121
+p120
 aVMEM @ MIN
-p122
+p121
 aVW
-p123
+p122
 aI32
 aI8
 aI15
@@ -701,15 +698,15 @@ aI2
 aI3
 aI16
 aI19
-aa(lp124
+aa(lp123
 V0021100925
-p125
+p124
 aVAPR 18, 2012
-p126
+p125
 aVMEM vs. NOH
-p127
+p126
 aVW
-p128
+p127
 aI24
 aI5
 aI9
@@ -730,15 +727,15 @@ aI1
 aI2
 aI10
 aI24
-aa(lp129
+aa(lp128
 V0021100937
-p130
+p129
 aVAPR 20, 2012
-p131
+p130
 aVMEM @ CHA
-p132
+p131
 aVW
-p133
+p132
 aI21
 aI6
 aI10
@@ -759,15 +756,15 @@ aI2
 aI2
 aI14
 aI5
-aa(lp134
+aa(lp133
 V0021100964
-p135
+p134
 aVAPR 23, 2012
-p136
+p135
 aVMEM vs. CLE
-p137
+p136
 aVW
-p138
+p137
 aI19
 aI1
 aI5
@@ -788,15 +785,15 @@ aI3
 aI3
 aI3
 aI-12
-aa(lp139
+aa(lp138
 V0021100985
-p140
+p139
 aVAPR 26, 2012
-p141
+p140
 aVMEM vs. ORL
-p142
+p141
 aVW
-p143
+p142
 aI26
 aI6
 aI12
@@ -818,10 +815,25 @@ aI1
 aI13
 aI16
 aasS'name'
-p144
+p143
 VZach Randolph
+p144
+sS'weight'
 p145
-sS'experience'
+V260
 p146
+sS'age'
+p147
+I30
+sS'experience'
+p148
 I10
+sS'height'
+p149
+V6-9
+p150
+sS'position'
+p151
+VForward
+p152
 s.

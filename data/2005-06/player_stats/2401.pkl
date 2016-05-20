@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500366
-p5
+p4
 aVDEC 21, 2005
-p6
+p5
 aVMIN vs. NOK
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI0
 aI3
 aI-4
-aa(lp9
+aa(lp8
 V0020500410
-p10
+p9
 aVDEC 28, 2005
-p11
+p10
 aVMIN vs. SEA
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp14
+aa(lp13
 V0020500418
-p15
+p14
 aVDEC 30, 2005
-p16
+p15
 aVMIN @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp19
+aa(lp18
 V0020500452
-p20
+p19
 aVJAN 04, 2006
-p21
+p20
 aVMIN vs. DAL
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp24
+aa(lp23
 V0020500519
-p25
+p24
 aVJAN 13, 2006
-p26
+p25
 aVMIN vs. DEN
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp29
+aa(lp28
 V0020500693
-p30
+p29
 aVFEB 04, 2006
-p31
+p30
 aVPHX vs. CHI
-p32
+p31
 aVW
-p33
+p32
 aI4
 aI1
 aI4
@@ -179,15 +176,15 @@ aI1
 aI1
 aI2
 aI-7
-aa(lp34
+aa(lp33
 V0020500774
-p35
+p34
 aVFEB 15, 2006
-p36
+p35
 aVPHX @ DEN
-p37
+p36
 aVW
-p38
+p37
 aI4
 aI1
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp39
+aa(lp38
 V0020500778
-p40
+p39
 aVFEB 16, 2006
-p41
+p40
 aVPHX vs. HOU
-p42
+p41
 aVW
-p43
+p42
 aI9
 aI0
 aI4
@@ -237,15 +234,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp44
+aa(lp43
 V0020500909
-p45
+p44
 aVMAR 09, 2006
-p46
+p45
 aVPHX vs. SAS
-p47
+p46
 aVL
-p48
+p47
 aI6
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp49
+aa(lp48
 V0020500958
-p50
+p49
 aVMAR 15, 2006
-p51
+p50
 aVPHX vs. LAC
-p52
+p51
 aVW
-p53
+p52
 aI5
 aI2
 aI3
@@ -295,15 +292,15 @@ aI1
 aI0
 aI5
 aI1
-aa(lp54
+aa(lp53
 V0020501016
-p55
+p54
 aVMAR 23, 2006
-p56
+p55
 aVPHX vs. POR
-p57
+p56
 aVW
-p58
+p57
 aI5
 aI0
 aI1
@@ -324,15 +321,15 @@ aI0
 aI0
 aI1
 aI-6
-aa(lp59
+aa(lp58
 V0020501043
-p60
+p59
 aVMAR 27, 2006
-p61
+p60
 aVPHX @ NJN
-p62
+p61
 aVL
-p63
+p62
 aI4
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp64
+aa(lp63
 V0020501049
-p65
+p64
 aVMAR 28, 2006
-p66
+p65
 aVPHX @ MIL
-p67
+p66
 aVL
-p68
+p67
 aI3
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI1
 aI2
 aI2
-aa(lp69
+aa(lp68
 V0020501186
-p70
+p69
 aVAPR 14, 2006
-p71
+p70
 aVPHX @ GSW
-p72
+p71
 aVL
-p73
+p72
 aI15
 aI3
 aI7
@@ -411,15 +408,15 @@ aI0
 aI1
 aI6
 aI0
-aa(lp74
+aa(lp73
 V0020501196
-p75
+p74
 aVAPR 16, 2006
-p76
+p75
 aVPHX @ LAL
-p77
+p76
 aVL
-p78
+p77
 aI17
 aI3
 aI7
@@ -440,15 +437,15 @@ aI0
 aI4
 aI9
 aI-3
-aa(lp79
+aa(lp78
 V0020501210
-p80
+p79
 aVAPR 17, 2006
-p81
+p80
 aVPHX vs. NOK
-p82
+p81
 aVW
-p83
+p82
 aI12
 aI1
 aI2
@@ -469,15 +466,15 @@ aI0
 aI1
 aI4
 aI14
-aa(lp84
+aa(lp83
 V0020501228
-p85
+p84
 aVAPR 19, 2006
-p86
+p85
 aVPHX @ POR
-p87
+p86
 aVW
-p88
+p87
 aI2
 aI0
 aI1
@@ -499,10 +496,25 @@ aI0
 aI0
 aI-3
 aasS'name'
-p89
+p88
 VNikoloz Tskitishvili
+p89
+sS'weight'
 p90
-sS'experience'
+V225
 p91
+sS'age'
+p92
+I22
+sS'experience'
+p93
 I3
+sS'height'
+p94
+V7-0
+p95
+sS'position'
+p96
+VForward
+p97
 s.

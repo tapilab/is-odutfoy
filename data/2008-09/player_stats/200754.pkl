@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800113
-p5
+p4
 aVNOV 12, 2008
-p6
+p5
 aVOKC vs. ORL
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI1
 aI7
-aa(lp9
+aa(lp8
 V0020800134
-p10
+p9
 aVNOV 15, 2008
-p11
+p10
 aVOKC @ PHI
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI3
 aI4
@@ -63,15 +60,15 @@ aI1
 aI0
 aI6
 aI0
-aa(lp14
+aa(lp13
 V0020800165
-p15
+p14
 aVNOV 19, 2008
-p16
+p15
 aVOKC vs. LAC
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI1
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp19
+aa(lp18
 V0020800180
-p20
+p19
 aVNOV 21, 2008
-p21
+p20
 aVOKC vs. NOH
-p22
+p21
 aVL
-p23
+p22
 aI6
 aI1
 aI2
@@ -121,15 +118,15 @@ aI1
 aI1
 aI4
 aI1
-aa(lp24
+aa(lp23
 V0020800211
-p25
+p24
 aVNOV 26, 2008
-p26
+p25
 aVOKC @ CLE
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI0
@@ -150,15 +147,15 @@ aI1
 aI1
 aI4
 aI-3
-aa(lp29
+aa(lp28
 V0020801225
-p30
+p29
 aVAPR 15, 2009
-p31
+p30
 aVNYK vs. NJN
-p32
+p31
 aVW
-p33
+p32
 aI6
 aI1
 aI2
@@ -180,10 +177,25 @@ aI0
 aI3
 aI0
 aasS'name'
-p34
+p33
 VMouhamed Sene
+p34
+sS'weight'
 p35
-sS'experience'
+V230
 p36
+sS'age'
+p37
+I22
+sS'experience'
+p38
 I2
+sS'height'
+p39
+V6-11
+p40
+sS'position'
+p41
+VCenter
+p42
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I19
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500457
-p5
+p4
 aVJAN 05, 2006
-p6
+p5
 aVCLE vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020500674
-p10
+p9
 aVFEB 02, 2006
-p11
+p10
 aVCLE @ MIA
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020500725
-p15
+p14
 aVFEB 10, 2006
-p16
+p15
 aVCLE @ WAS
-p17
+p16
 aVL
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp19
+aa(lp18
 V0020500758
-p20
+p19
 aVFEB 13, 2006
-p21
+p20
 aVCLE vs. SAS
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0020500791
-p25
+p24
 aVFEB 22, 2006
-p26
+p25
 aVCLE @ PHI
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp29
+aa(lp28
 V0020500822
-p30
+p29
 aVFEB 26, 2006
-p31
+p30
 aVCLE @ DET
-p32
+p31
 aVL
-p33
+p32
 aI2
 aI0
 aI0
@@ -180,10 +177,25 @@ aI0
 aI0
 aI9
 aasS'name'
-p34
+p33
 VMartynas Andriuskevicius
+p34
+sS'weight'
 p35
-sS'experience'
+V240
 p36
+sS'age'
+p37
+I19
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V7-2
+p40
+sS'position'
+p41
+VCenter
+p42
 s.

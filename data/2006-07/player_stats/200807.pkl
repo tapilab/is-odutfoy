@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600346
-p5
+p4
 aVDEC 16, 2006
-p6
+p5
 aVDET @ NJN
-p7
+p6
 aVW
-p8
+p7
 aI11
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI9
-aa(lp9
+aa(lp8
 V0020600354
-p10
+p9
 aVDEC 17, 2006
-p11
+p10
 aVDET vs. SEA
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI0
 aI3
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020600377
-p15
+p14
 aVDEC 21, 2006
-p16
+p15
 aVDET @ CLE
-p17
+p16
 aVW
-p18
+p17
 aI10
 aI0
 aI1
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-4
-aa(lp19
+aa(lp18
 V0020600395
-p20
+p19
 aVDEC 23, 2006
-p21
+p20
 aVDET vs. ATL
-p22
+p21
 aVW
-p23
+p22
 aI19
 aI1
 aI2
@@ -121,15 +118,15 @@ aI2
 aI0
 aI4
 aI2
-aa(lp24
+aa(lp23
 V0020600406
-p25
+p24
 aVDEC 26, 2006
-p26
+p25
 aVDET vs. NJN
-p27
+p26
 aVW
-p28
+p27
 aI9
 aI0
 aI0
@@ -150,15 +147,15 @@ aI1
 aI0
 aI0
 aI-7
-aa(lp29
+aa(lp28
 V0020600420
-p30
+p29
 aVDEC 27, 2006
-p31
+p30
 aVDET @ NYK
-p32
+p31
 aVL
-p33
+p32
 aI11
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp34
+aa(lp33
 V0020600434
-p35
+p34
 aVDEC 29, 2006
-p36
+p35
 aVDET vs. IND
-p37
+p36
 aVL
-p38
+p37
 aI7
 aI0
 aI0
@@ -208,15 +205,15 @@ aI2
 aI0
 aI0
 aI-4
-aa(lp39
+aa(lp38
 V0020600453
-p40
+p39
 aVDEC 31, 2006
-p41
+p40
 aVDET vs. PHX
-p42
+p41
 aVL
-p43
+p42
 aI9
 aI0
 aI0
@@ -237,15 +234,15 @@ aI1
 aI2
 aI2
 aI-1
-aa(lp44
+aa(lp43
 V0020600476
-p45
+p44
 aVJAN 04, 2007
-p46
+p45
 aVDET @ NOK
-p47
+p46
 aVW
-p48
+p47
 aI16
 aI1
 aI4
@@ -266,15 +263,15 @@ aI1
 aI0
 aI2
 aI8
-aa(lp49
+aa(lp48
 V0020600494
-p50
+p49
 aVJAN 06, 2007
-p51
+p50
 aVDET @ CHI
-p52
+p51
 aVL
-p53
+p52
 aI18
 aI0
 aI3
@@ -295,15 +292,15 @@ aI2
 aI1
 aI0
 aI3
-aa(lp54
+aa(lp53
 V0020600508
-p55
+p54
 aVJAN 09, 2007
-p56
+p55
 aVDET @ PHI
-p57
+p56
 aVW
-p58
+p57
 aI17
 aI2
 aI4
@@ -324,15 +321,15 @@ aI0
 aI3
 aI5
 aI4
-aa(lp59
+aa(lp58
 V0020600520
-p60
+p59
 aVJAN 10, 2007
-p61
+p60
 aVDET vs. CHA
-p62
+p61
 aVL
-p63
+p62
 aI10
 aI2
 aI5
@@ -353,15 +350,15 @@ aI0
 aI1
 aI4
 aI-12
-aa(lp64
+aa(lp63
 V0020600534
-p65
+p64
 aVJAN 12, 2007
-p66
+p65
 aVDET @ ATL
-p67
+p66
 aVL
-p68
+p67
 aI5
 aI1
 aI4
@@ -382,15 +379,15 @@ aI0
 aI0
 aI2
 aI-10
-aa(lp69
+aa(lp68
 V0020601000
-p70
+p69
 aVMAR 20, 2007
-p71
+p70
 aVDET vs. PHI
-p72
+p71
 aVW
-p73
+p72
 aI7
 aI1
 aI1
@@ -412,10 +409,25 @@ aI1
 aI2
 aI-2
 aasS'name'
-p74
+p73
 VWill Blalock
+p74
+sS'weight'
 p75
-sS'experience'
+V205
 p76
+sS'age'
+p77
+I23
+sS'experience'
+p78
 I0
+sS'height'
+p79
+V6-0
+p80
+sS'position'
+p81
+VGuard
+p82
 s.

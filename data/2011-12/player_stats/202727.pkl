@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100029
-p5
+p4
 aVDEC 28, 2011
-p6
+p5
 aVLAC @ SAS
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp9
+aa(lp8
 V0021100093
-p10
+p9
 aVJAN 04, 2012
-p11
+p10
 aVLAC vs. HOU
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI4
 aI-2
-aa(lp14
+aa(lp13
 V0021100201
-p15
+p14
 aVJAN 17, 2012
-p16
+p15
 aVLAC @ UTA
-p17
+p16
 aVL
-p18
+p17
 aI10
 aI1
 aI6
@@ -92,15 +89,15 @@ aI1
 aI1
 aI2
 aI-9
-aa(lp19
+aa(lp18
 V0021100238
-p20
+p19
 aVJAN 22, 2012
-p21
+p20
 aVLAC vs. TOR
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp24
+aa(lp23
 V0021100330
-p25
+p24
 aVFEB 02, 2012
-p26
+p25
 aVLAC vs. DEN
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0021100342
-p30
+p29
 aVFEB 04, 2012
-p31
+p30
 aVLAC @ WAS
-p32
+p31
 aVW
-p33
+p32
 aI6
 aI3
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI6
 aI-6
-aa(lp34
+aa(lp33
 V0021100400
-p35
+p34
 aVFEB 11, 2012
-p36
+p35
 aVLAC @ CHA
-p37
+p36
 aVW
-p38
+p37
 aI4
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0021100441
-p40
+p39
 aVFEB 15, 2012
-p41
+p40
 aVLAC vs. WAS
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI0
 aI0
@@ -237,15 +234,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp44
+aa(lp43
 V0021100676
-p45
+p44
 aVMAR 20, 2012
-p46
+p45
 aVLAC @ IND
-p47
+p46
 aVL
-p48
+p47
 aI2
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0021100689
-p50
+p49
 aVMAR 21, 2012
-p51
+p50
 aVLAC @ OKC
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI0
 aI1
@@ -296,10 +293,25 @@ aI1
 aI2
 aI-1
 aasS'name'
-p54
+p53
 VTravis Leslie
+p54
+sS'weight'
 p55
-sS'experience'
+V205
 p56
+sS'age'
+p57
+I21
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V6-4
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

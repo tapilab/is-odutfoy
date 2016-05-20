@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600489
-p5
+p4
 aVJAN 05, 2007
-p6
+p5
 aVLAL vs. DEN
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI-5
-aa(lp9
+aa(lp8
 V0020600825
-p10
+p9
 aVFEB 23, 2007
-p11
+p10
 aVLAL vs. BOS
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI2
 aI2
@@ -63,15 +60,15 @@ aI2
 aI0
 aI4
 aI6
-aa(lp14
+aa(lp13
 V0020600838
-p15
+p14
 aVFEB 25, 2007
-p16
+p15
 aVLAL @ GSW
-p17
+p16
 aVW
-p18
+p17
 aI13
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI1
 aI2
 aI8
-aa(lp19
+aa(lp18
 V0020600847
-p20
+p19
 aVFEB 26, 2007
-p21
+p20
 aVLAL @ UTA
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0020600878
-p25
+p24
 aVMAR 02, 2007
-p26
+p25
 aVLAL vs. SAC
-p27
+p26
 aVL
-p28
+p27
 aI25
 aI6
 aI7
@@ -150,15 +147,15 @@ aI1
 aI5
 aI12
 aI9
-aa(lp29
+aa(lp28
 V0020600890
-p30
+p29
 aVMAR 04, 2007
-p31
+p30
 aVLAL @ PHX
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0020600902
-p35
+p34
 aVMAR 06, 2007
-p36
+p35
 aVLAL @ MIN
-p37
+p36
 aVL
-p38
+p37
 aI11
 aI0
 aI2
@@ -208,15 +205,15 @@ aI2
 aI1
 aI0
 aI-8
-aa(lp39
+aa(lp38
 V0020600913
-p40
+p39
 aVMAR 07, 2007
-p41
+p40
 aVLAL @ MIL
-p42
+p41
 aVL
-p43
+p42
 aI20
 aI1
 aI2
@@ -237,15 +234,15 @@ aI1
 aI1
 aI2
 aI-9
-aa(lp44
+aa(lp43
 V0020600919
-p45
+p44
 aVMAR 09, 2007
-p46
+p45
 aVLAL @ PHI
-p47
+p46
 aVL
-p48
+p47
 aI14
 aI1
 aI2
@@ -266,15 +263,15 @@ aI0
 aI2
 aI2
 aI-4
-aa(lp49
+aa(lp48
 V0020600941
-p50
+p49
 aVMAR 11, 2007
-p51
+p50
 aVLAL vs. DAL
-p52
+p51
 aVL
-p53
+p52
 aI17
 aI0
 aI1
@@ -296,10 +293,25 @@ aI3
 aI0
 aI-10
 aasS'name'
-p54
+p53
 VAaron McKie
+p54
+sS'weight'
 p55
-sS'experience'
+V209
 p56
+sS'age'
+p57
+I34
+sS'experience'
+p58
 I12
+sS'height'
+p59
+V6-5
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

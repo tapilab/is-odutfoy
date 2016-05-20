@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600226
-p5
+p4
 aVDEC 01, 2006
-p6
+p5
 aVCLE @ ATL
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-12
-aa(lp9
+aa(lp8
 V0020600333
-p10
+p9
 aVDEC 15, 2006
-p11
+p10
 aVCLE vs. SEA
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-12
-aa(lp14
+aa(lp13
 V0020600529
-p15
+p14
 aVJAN 11, 2007
-p16
+p15
 aVCLE @ PHX
-p17
+p16
 aVL
-p18
+p17
 aI6
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp19
+aa(lp18
 V0020600881
-p20
+p19
 aVMAR 03, 2007
-p21
+p20
 aVCLE vs. TOR
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI2
 aI3
 aI-3
-aa(lp24
+aa(lp23
 V0020600895
-p25
+p24
 aVMAR 05, 2007
-p26
+p25
 aVCLE vs. HOU
+p26
+aVW
 p27
-aVW
-p28
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020600932
-p30
+p29
 aVMAR 10, 2007
-p31
+p30
 aVCLE @ MIL
-p32
+p31
 aVW
-p33
+p32
 aI8
 aI1
 aI1
@@ -179,15 +176,15 @@ aI0
 aI1
 aI3
 aI12
-aa(lp34
+aa(lp33
 V0020600940
-p35
+p34
 aVMAR 11, 2007
-p36
+p35
 aVCLE vs. IND
-p37
+p36
 aVW
-p38
+p37
 aI2
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020600949
-p40
+p39
 aVMAR 13, 2007
-p41
+p40
 aVCLE vs. SAC
-p42
+p41
 aVW
-p43
+p42
 aI22
 aI4
 aI8
@@ -237,15 +234,15 @@ aI0
 aI1
 aI12
 aI10
-aa(lp44
+aa(lp43
 V0020600963
-p45
+p44
 aVMAR 14, 2007
-p46
+p45
 aVCLE @ MEM
-p47
+p46
 aVW
-p48
+p47
 aI19
 aI0
 aI2
@@ -266,15 +263,15 @@ aI0
 aI2
 aI4
 aI-12
-aa(lp49
+aa(lp48
 V0020600982
-p50
+p49
 aVMAR 17, 2007
-p51
+p50
 aVCLE vs. UTA
-p52
+p51
 aVW
-p53
+p52
 aI8
 aI2
 aI3
@@ -295,15 +292,15 @@ aI0
 aI1
 aI4
 aI4
-aa(lp54
+aa(lp53
 V0020600998
-p55
+p54
 aVMAR 20, 2007
-p56
+p55
 aVCLE @ CHA
-p57
+p56
 aVL
-p58
+p57
 aI1
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp59
+aa(lp58
 V0020601026
-p60
+p59
 aVMAR 23, 2007
-p61
+p60
 aVCLE vs. NYK
-p62
+p61
 aVW
-p63
+p62
 aI11
 aI2
 aI3
@@ -353,15 +350,15 @@ aI0
 aI2
 aI5
 aI6
-aa(lp64
+aa(lp63
 V0020601042
-p65
+p64
 aVMAR 25, 2007
-p66
+p65
 aVCLE vs. DEN
-p67
+p66
 aVL
-p68
+p67
 aI11
 aI1
 aI4
@@ -382,15 +379,15 @@ aI0
 aI1
 aI2
 aI-11
-aa(lp69
+aa(lp68
 V0020601126
-p70
+p69
 aVAPR 06, 2007
-p71
+p70
 aVCLE @ WAS
-p72
+p71
 aVW
-p73
+p72
 aI17
 aI3
 aI4
@@ -411,15 +408,15 @@ aI1
 aI3
 aI9
 aI11
-aa(lp74
+aa(lp73
 V0020601173
-p75
+p74
 aVAPR 12, 2007
-p76
+p75
 aVCLE vs. NJN
-p77
+p76
 aVW
-p78
+p77
 aI13
 aI1
 aI6
@@ -441,10 +438,25 @@ aI3
 aI2
 aI-4
 aasS'name'
-p79
+p78
 VIra Newble
+p79
+sS'weight'
 p80
-sS'experience'
+V220
 p81
+sS'age'
+p82
+I31
+sS'experience'
+p83
 I6
+sS'height'
+p84
+V6-7
+p85
+sS'position'
+p86
+VGuard-Forward
+p87
 s.

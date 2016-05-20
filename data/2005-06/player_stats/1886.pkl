@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500005
-p5
+p4
 aVNOV 02, 2005
-p6
+p5
 aVIND @ ORL
-p7
+p6
 aVW
-p8
+p7
 aI8
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp9
+aa(lp8
 V0020500035
-p10
+p9
 aVNOV 05, 2005
-p11
+p10
 aVIND vs. PHI
-p12
+p11
 aVL
-p13
+p12
 aI12
 aI3
 aI4
@@ -64,10 +61,25 @@ aI2
 aI8
 aI-10
 aasS'name'
-p14
+p13
 VJonathan Bender
+p14
+sS'weight'
 p15
-sS'experience'
+V230
 p16
+sS'age'
+p17
+I24
+sS'experience'
+p18
 I6
+sS'height'
+p19
+V7-0
+p20
+sS'position'
+p21
+VForward
+p22
 s.

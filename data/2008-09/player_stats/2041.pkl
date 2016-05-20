@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800006
-p5
+p4
 aVOCT 29, 2008
-p6
+p5
 aVWAS vs. NJN
-p7
+p6
 aVL
-p8
+p7
 aI19
 aI3
 aI5
@@ -34,15 +31,15 @@ aI1
 aI3
 aI10
 aI3
-aa(lp9
+aa(lp8
 V0020800030
-p10
+p9
 aVNOV 01, 2008
-p11
+p10
 aVWAS @ DET
-p12
+p11
 aVL
-p13
+p12
 aI18
 aI2
 aI5
@@ -63,15 +60,15 @@ aI1
 aI2
 aI5
 aI-21
-aa(lp14
+aa(lp13
 V0020800067
-p15
+p14
 aVNOV 07, 2008
-p16
+p15
 aVWAS vs. NYK
-p17
+p16
 aVL
-p18
+p17
 aI13
 aI3
 aI6
@@ -92,15 +89,15 @@ aI2
 aI1
 aI6
 aI-11
-aa(lp19
+aa(lp18
 V0020800080
-p20
+p19
 aVNOV 08, 2008
-p21
+p20
 aVWAS @ ORL
-p22
+p21
 aVL
-p23
+p22
 aI17
 aI2
 aI3
@@ -121,15 +118,15 @@ aI0
 aI2
 aI4
 aI-16
-aa(lp24
+aa(lp23
 V0020800114
-p25
+p24
 aVNOV 12, 2008
-p26
+p25
 aVWAS vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI13
 aI0
 aI0
@@ -150,15 +147,15 @@ aI1
 aI3
 aI1
 aI-8
-aa(lp29
+aa(lp28
 V0020800122
-p30
+p29
 aVNOV 14, 2008
-p31
+p30
 aVWAS @ MIA
-p32
+p31
 aVL
-p33
+p32
 aI16
 aI2
 aI4
@@ -179,15 +176,15 @@ aI1
 aI1
 aI4
 aI-13
-aa(lp34
+aa(lp33
 V0020800152
-p35
+p34
 aVNOV 18, 2008
-p36
+p35
 aVWAS vs. MIA
-p37
+p36
 aVL
-p38
+p37
 aI10
 aI1
 aI3
@@ -208,15 +205,15 @@ aI1
 aI1
 aI2
 aI-12
-aa(lp39
+aa(lp38
 V0020800159
-p40
+p39
 aVNOV 19, 2008
-p41
+p40
 aVWAS @ ATL
-p42
+p41
 aVL
-p43
+p42
 aI16
 aI0
 aI1
@@ -237,15 +234,15 @@ aI1
 aI2
 aI2
 aI4
-aa(lp44
+aa(lp43
 V0020800174
-p45
+p44
 aVNOV 21, 2008
-p46
+p45
 aVWAS vs. HOU
-p47
+p46
 aVL
-p48
+p47
 aI5
 aI1
 aI2
@@ -266,15 +263,15 @@ aI1
 aI1
 aI2
 aI-5
-aa(lp49
+aa(lp48
 V0020800189
-p50
+p49
 aVNOV 22, 2008
-p51
+p50
 aVWAS @ NYK
-p52
+p51
 aVL
-p53
+p52
 aI12
 aI2
 aI4
@@ -295,15 +292,15 @@ aI0
 aI0
 aI4
 aI-7
-aa(lp54
+aa(lp53
 V0020800223
-p55
+p54
 aVNOV 27, 2008
-p56
+p55
 aVWAS vs. ORL
-p57
+p56
 aVL
-p58
+p57
 aI15
 aI2
 aI4
@@ -324,15 +321,15 @@ aI2
 aI3
 aI6
 aI-15
-aa(lp59
+aa(lp58
 V0020800238
-p60
+p59
 aVNOV 29, 2008
-p61
+p60
 aVWAS vs. ATL
-p62
+p61
 aVL
-p63
+p62
 aI2
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp64
+aa(lp63
 V0020800268
-p65
+p64
 aVDEC 03, 2008
-p66
+p65
 aVWAS vs. POR
-p67
+p66
 aVL
-p68
+p67
 aI4
 aI1
 aI2
@@ -382,15 +379,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp69
+aa(lp68
 V0020800277
-p70
+p69
 aVDEC 05, 2008
-p71
+p70
 aVWAS vs. LAL
-p72
+p71
 aVL
-p73
+p72
 aI14
 aI1
 aI2
@@ -411,15 +408,15 @@ aI3
 aI3
 aI6
 aI4
-aa(lp74
+aa(lp73
 V0020800292
-p75
+p74
 aVDEC 06, 2008
-p76
+p75
 aVWAS @ CHI
-p77
+p76
 aVL
-p78
+p77
 aI5
 aI1
 aI1
@@ -440,15 +437,15 @@ aI0
 aI0
 aI2
 aI5
-aa(lp79
+aa(lp78
 V0020800323
-p80
+p79
 aVDEC 11, 2008
-p81
+p80
 aVWAS vs. BOS
-p82
+p81
 aVL
-p83
+p82
 aI7
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI3
 aI1
 aI-6
-aa(lp84
+aa(lp83
 V0020800424
-p85
+p84
 aVDEC 25, 2008
-p86
+p85
 aVWAS @ CLE
-p87
+p86
 aVL
-p88
+p87
 aI2
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp89
+aa(lp88
 V0020800438
-p90
+p89
 aVDEC 27, 2008
-p91
+p90
 aVWAS vs. OKC
-p92
+p91
 aVW
-p93
+p92
 aI18
 aI2
 aI6
@@ -527,15 +524,15 @@ aI0
 aI2
 aI4
 aI11
-aa(lp94
+aa(lp93
 V0020800455
-p95
+p94
 aVDEC 29, 2008
-p96
+p95
 aVWAS @ HOU
-p97
+p96
 aVW
-p98
+p97
 aI15
 aI1
 aI2
@@ -556,15 +553,15 @@ aI1
 aI0
 aI2
 aI13
-aa(lp99
+aa(lp98
 V0020800462
-p100
+p99
 aVDEC 30, 2008
-p101
+p100
 aVWAS @ NOH
-p102
+p101
 aVL
-p103
+p102
 aI16
 aI3
 aI3
@@ -585,15 +582,15 @@ aI0
 aI2
 aI7
 aI-4
-aa(lp104
+aa(lp103
 V0020800475
-p105
+p104
 aVJAN 02, 2009
-p106
+p105
 aVWAS @ BOS
-p107
+p106
 aVL
-p108
+p107
 aI14
 aI2
 aI3
@@ -614,15 +611,15 @@ aI1
 aI2
 aI4
 aI-2
-aa(lp109
+aa(lp108
 V0020800496
-p110
+p109
 aVJAN 04, 2009
-p111
+p110
 aVWAS vs. CLE
-p112
+p111
 aVW
-p113
+p112
 aI13
 aI1
 aI3
@@ -643,15 +640,15 @@ aI0
 aI1
 aI2
 aI-4
-aa(lp114
+aa(lp113
 V0020800507
-p115
+p114
 aVJAN 06, 2009
-p116
+p115
 aVWAS @ ORL
-p117
+p116
 aVL
-p118
+p117
 aI18
 aI2
 aI3
@@ -672,15 +669,15 @@ aI1
 aI3
 aI4
 aI-11
-aa(lp119
+aa(lp118
 V0020800516
-p120
+p119
 aVJAN 07, 2009
-p121
+p120
 aVWAS vs. TOR
-p122
+p121
 aVL
-p123
+p122
 aI7
 aI0
 aI0
@@ -701,15 +698,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp124
+aa(lp123
 V0020800534
-p125
+p124
 aVJAN 09, 2009
-p126
+p125
 aVWAS @ CHI
-p127
+p126
 aVL
-p128
+p127
 aI11
 aI0
 aI1
@@ -730,15 +727,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp129
+aa(lp128
 V0020800553
-p130
+p129
 aVJAN 12, 2009
-p131
+p130
 aVWAS vs. MIL
-p132
+p131
 aVL
-p133
+p132
 aI4
 aI0
 aI3
@@ -760,10 +757,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p134
+p133
 VEtan Thomas
+p134
+sS'weight'
 p135
-sS'experience'
+V260
 p136
+sS'age'
+p137
+I30
+sS'experience'
+p138
 I7
+sS'height'
+p139
+V6-10
+p140
+sS'position'
+p141
+VCenter
+p142
 s.

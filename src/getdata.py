@@ -59,12 +59,10 @@ def get_data(season):
 
     os.makedirs('data' + os.sep + season + os.sep + 'player_stats')
 
-
-    player_info = dict()
-
     player_list = pickle.load(open('data' + os.sep + season + os.sep + 'player_list.pkl', 'rb'))
 
     for i, player in enumerate(player_list['resultSets'][0]['rowSet']):
+        player_info = dict()
 
         print "fetching stats of player %d" % (i + 1)
 
@@ -101,12 +99,40 @@ def get_data(season):
 
             pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
 
+#Used to modify data from a season that was already retrieved instead of fetching everything again
+def modif_data(season):
+    player_list = pickle.load(open('data' + os.sep + season + os.sep + 'player_list.pkl', 'rb'))
+
+    for i, player in enumerate(player_list['resultSets'][0]['rowSet']):
+        player_info = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'rb'))
+
+        print "fetching stats of player %d" % (i + 1)
+
+        name_req = requests.request('GET', 'http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=' + str(player[0]) + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
+        sleep(1)
+
+        position = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][14]
+
+        if position != "":
+            player_info['position'] = position
+            player_info['height'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][10]
+            player_info['weight'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][11]
+            pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
+
+        else:
+            os.remove('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl')
 
 
-if len(sys.argv) < 2:
-    print "Please input season you wish to retrieve data from as first argument"
-    print "Season must be of following format xxxx-yy i.e : 2013-14"
+# if len(sys.argv) < 2:
+#     print "Please input season you wish to retrieve data from as first argument"
+#     print "Season must be of following format xxxx-yy i.e : 2013-14"
+#
+# else:
+#     #get_player_list(sys.argv[1])
+#     #get_data(sys.argv[1])
+#     modif_data(sys.argv[1])
 
-else:
-    get_player_list(sys.argv[1])
-    get_data(sys.argv[1])
+seasons = ['2011-12', '2012-13', '2013-14']
+
+for season in seasons:
+    modif_data(season)

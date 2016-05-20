@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800016
-p5
+p4
 aVOCT 30, 2008
-p6
+p5
 aVCHA @ CLE
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020800054
-p10
+p9
 aVNOV 05, 2008
-p11
+p10
 aVCHA @ NYK
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0020800956
-p15
+p14
 aVMAR 11, 2009
-p16
+p15
 aVCHI @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI11
 aI0
 aI2
@@ -92,15 +89,15 @@ aI1
 aI1
 aI0
 aI7
-aa(lp19
+aa(lp18
 V0020800981
-p20
+p19
 aVMAR 14, 2009
-p21
+p20
 aVCHI vs. NOH
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp24
+aa(lp23
 V0020801071
-p25
+p24
 aVMAR 26, 2009
-p26
+p25
 aVCHI vs. MIA
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020801094
-p30
+p29
 aVMAR 29, 2009
-p31
+p30
 aVCHI @ TOR
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI2
 aI3
@@ -179,15 +176,15 @@ aI0
 aI1
 aI4
 aI-6
-aa(lp34
+aa(lp33
 V0020801158
-p35
+p34
 aVAPR 07, 2009
-p36
+p35
 aVCHI vs. NYK
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp39
+aa(lp38
 V0020801173
-p40
+p39
 aVAPR 09, 2009
-p41
+p40
 aVCHI vs. PHI
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI1
 aI1
@@ -237,15 +234,15 @@ aI1
 aI0
 aI3
 aI4
-aa(lp44
+aa(lp43
 V0020801192
-p45
+p44
 aVAPR 11, 2009
-p46
+p45
 aVCHI vs. CHA
-p47
+p46
 aVW
-p48
+p47
 aI8
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI2
 aI0
 aI-5
-aa(lp49
+aa(lp48
 V0020801218
-p50
+p49
 aVAPR 15, 2009
-p51
+p50
 aVCHI vs. TOR
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI1
 aI2
@@ -296,10 +293,25 @@ aI0
 aI2
 aI-3
 aasS'name'
-p54
+p53
 VLinton Johnson
+p54
+sS'weight'
 p55
-sS'experience'
+V205
 p56
+sS'age'
+p57
+I28
+sS'experience'
+p58
 I5
+sS'height'
+p59
+V6-8
+p60
+sS'position'
+p61
+VForward
+p62
 s.

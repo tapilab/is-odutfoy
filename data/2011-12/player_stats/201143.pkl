@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100018
-p5
+p4
 aVDEC 27, 2011
-p6
+p5
 aVATL @ NJN
-p7
+p6
 aVW
-p8
+p7
 aI24
 aI4
 aI6
@@ -34,15 +31,15 @@ aI0
 aI1
 aI8
 aI19
-aa(lp9
+aa(lp8
 V0021100025
-p10
+p9
 aVDEC 28, 2011
-p11
+p10
 aVATL vs. WAS
-p12
+p11
 aVW
-p13
+p12
 aI33
 aI4
 aI9
@@ -63,15 +60,15 @@ aI0
 aI1
 aI11
 aI25
-aa(lp14
+aa(lp13
 V0021100042
-p15
+p14
 aVDEC 30, 2011
-p16
+p15
 aVATL vs. NJN
-p17
+p16
 aVW
-p18
+p17
 aI26
 aI4
 aI8
@@ -92,15 +89,15 @@ aI1
 aI5
 aI12
 aI-8
-aa(lp19
+aa(lp18
 V0021100052
-p20
+p19
 aVDEC 31, 2011
-p21
+p20
 aVATL @ HOU
-p22
+p21
 aVL
-p23
+p22
 aI31
 aI6
 aI11
@@ -121,15 +118,15 @@ aI2
 aI1
 aI15
 aI-19
-aa(lp24
+aa(lp23
 V0021100070
-p25
+p24
 aVJAN 02, 2012
-p26
+p25
 aVATL @ MIA
-p27
+p26
 aVW
-p28
+p27
 aI39
 aI6
 aI9
@@ -150,15 +147,15 @@ aI1
 aI2
 aI16
 aI0
-aa(lp29
+aa(lp28
 V0021100077
-p30
+p29
 aVJAN 03, 2012
-p31
+p30
 aVATL @ CHI
-p32
+p31
 aVL
-p33
+p32
 aI40
 aI7
 aI14
@@ -179,15 +176,15 @@ aI1
 aI3
 aI16
 aI5
-aa(lp34
+aa(lp33
 V0021100094
-p35
+p34
 aVJAN 05, 2012
-p36
+p35
 aVATL vs. MIA
-p37
+p36
 aVL
-p38
+p37
 aI40
 aI5
 aI7
@@ -208,15 +205,15 @@ aI4
 aI6
 aI10
 aI-11
-aa(lp39
+aa(lp38
 V0021100101
-p40
+p39
 aVJAN 06, 2012
-p41
+p40
 aVATL @ CHA
-p42
+p41
 aVW
-p43
+p42
 aI43
 aI5
 aI12
@@ -237,15 +234,15 @@ aI3
 aI1
 aI15
 aI8
-aa(lp44
+aa(lp43
 V0021100110
-p45
+p44
 aVJAN 07, 2012
-p46
+p45
 aVATL vs. CHI
-p47
+p46
 aVW
-p48
+p47
 aI24
 aI7
 aI8
@@ -266,15 +263,15 @@ aI1
 aI1
 aI14
 aI29
-aa(lp49
+aa(lp48
 V0021100128
-p50
+p49
 aVJAN 09, 2012
-p51
+p50
 aVATL @ NJN
-p52
+p51
 aVW
-p53
+p52
 aI42
 aI7
 aI14
@@ -295,15 +292,15 @@ aI3
 aI0
 aI14
 aI8
-aa(lp54
+aa(lp53
 V0021100144
-p55
+p54
 aVJAN 11, 2012
-p56
+p55
 aVATL @ IND
-p57
+p56
 aVL
-p58
+p57
 aI6
 aI2
 aI5
@@ -325,10 +322,25 @@ aI0
 aI5
 aI-4
 aasS'name'
-p59
+p58
 VAl Horford
+p59
+sS'weight'
 p60
-sS'experience'
+V245
 p61
+sS'age'
+p62
+I25
+sS'experience'
+p63
 I4
+sS'height'
+p64
+V6-10
+p65
+sS'position'
+p66
+VCenter-Forward
+p67
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021001114
-p5
+p4
 aVMAR 30, 2011
-p6
+p5
 aVNOH vs. POR
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp9
+aa(lp8
 V0021001127
-p10
+p9
 aVAPR 01, 2011
-p11
+p10
 aVNOH vs. MEM
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp14
+aa(lp13
 V0021001147
-p15
+p14
 aVAPR 03, 2011
-p16
+p15
 aVNOH vs. IND
-p17
+p16
 aVW
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp19
+aa(lp18
 V0021001184
-p20
+p19
 aVAPR 08, 2011
-p21
+p20
 aVNOH vs. PHX
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0021001197
-p25
+p24
 aVAPR 10, 2011
-p26
+p25
 aVNOH @ MEM
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI3
 aI2
-aa(lp29
+aa(lp28
 V0021001208
-p30
+p29
 aVAPR 11, 2011
-p31
+p30
 aVNOH vs. UTA
-p32
+p31
 aVL
-p33
+p32
 aI1
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp34
+aa(lp33
 V0021001223
-p35
+p34
 aVAPR 13, 2011
-p36
+p35
 aVNOH @ DAL
-p37
+p36
 aVL
-p38
+p37
 aI6
 aI0
 aI2
@@ -209,10 +206,25 @@ aI0
 aI0
 aI-11
 aasS'name'
-p39
+p38
 VPatrick Ewing Jr.
+p39
+sS'weight'
 p40
-sS'experience'
+V235
 p41
+sS'age'
+p42
+I26
+sS'experience'
+p43
 I0
+sS'height'
+p44
+V6-8
+p45
+sS'position'
+p46
+VForward
+p47
 s.

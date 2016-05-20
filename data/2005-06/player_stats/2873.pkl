@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500919
-p5
+p4
 aVMAR 11, 2006
-p6
+p5
 aVWAS vs. DET
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp9
+aa(lp8
 V0020500992
-p10
+p9
 aVMAR 21, 2006
-p11
+p10
 aVWAS vs. NJN
-p12
+p11
 aVL
-p13
+p12
 aI1
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp14
+aa(lp13
 V0020501027
-p15
+p14
 aVMAR 25, 2006
-p16
+p15
 aVWAS @ LAC
-p17
+p16
 aVL
-p18
+p17
 aI7
 aI2
 aI5
@@ -92,15 +89,15 @@ aI0
 aI3
 aI6
 aI0
-aa(lp19
+aa(lp18
 V0020501046
-p20
+p19
 aVMAR 27, 2006
-p21
+p20
 aVWAS @ GSW
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI1
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI3
 aI7
-aa(lp24
+aa(lp23
 V0020501052
-p25
+p24
 aVMAR 28, 2006
-p26
+p25
 aVWAS @ SAC
-p27
+p26
 aVW
-p28
+p27
 aI23
 aI5
 aI10
@@ -150,15 +147,15 @@ aI1
 aI3
 aI14
 aI6
-aa(lp29
+aa(lp28
 V0020501074
-p30
+p29
 aVMAR 31, 2006
-p31
+p30
 aVWAS @ HOU
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp34
+aa(lp33
 V0020501082
-p35
+p34
 aVAPR 01, 2006
-p36
+p35
 aVWAS @ SAS
-p37
+p36
 aVL
-p38
+p37
 aI1
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0020501096
-p40
+p39
 aVAPR 04, 2006
-p41
+p40
 aVWAS vs. NYK
-p42
+p41
 aVW
-p43
+p42
 aI8
 aI0
 aI2
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-16
-aa(lp44
+aa(lp43
 V0020501108
-p45
+p44
 aVAPR 05, 2006
-p46
+p45
 aVWAS @ BOS
-p47
+p46
 aVW
-p48
+p47
 aI5
 aI0
 aI2
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0020501122
-p50
+p49
 aVAPR 07, 2006
-p51
+p50
 aVWAS @ ATL
-p52
+p51
 aVL
-p53
+p52
 aI17
 aI1
 aI3
@@ -295,15 +292,15 @@ aI2
 aI2
 aI3
 aI-11
-aa(lp54
+aa(lp53
 V0020501134
-p55
+p54
 aVAPR 08, 2006
-p56
+p55
 aVWAS vs. MIA
-p57
+p56
 aVL
-p58
+p57
 aI4
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp59
+aa(lp58
 V0020501149
-p60
+p59
 aVAPR 10, 2006
-p61
+p60
 aVWAS @ PHI
-p62
+p61
 aVL
-p63
+p62
 aI19
 aI1
 aI3
@@ -353,15 +350,15 @@ aI1
 aI5
 aI3
 aI5
-aa(lp64
+aa(lp63
 V0020501168
-p65
+p64
 aVAPR 12, 2006
-p66
+p65
 aVWAS @ MIL
-p67
+p66
 aVL
-p68
+p67
 aI2
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp69
+aa(lp68
 V0020501184
-p70
+p69
 aVAPR 14, 2006
-p71
+p70
 aVWAS @ CHI
-p72
+p71
 aVL
-p73
+p72
 aI7
 aI1
 aI2
@@ -411,15 +408,15 @@ aI0
 aI1
 aI3
 aI0
-aa(lp74
+aa(lp73
 V0020501197
-p75
+p74
 aVAPR 16, 2006
-p76
+p75
 aVWAS vs. CLE
-p77
+p76
 aVW
-p78
+p77
 aI4
 aI0
 aI1
@@ -440,15 +437,15 @@ aI1
 aI0
 aI0
 aI-5
-aa(lp79
+aa(lp78
 V0020501213
-p80
+p79
 aVAPR 18, 2006
-p81
+p80
 aVWAS vs. MIL
-p82
+p81
 aVW
-p83
+p82
 aI4
 aI1
 aI1
@@ -469,15 +466,15 @@ aI0
 aI0
 aI3
 aI2
-aa(lp84
+aa(lp83
 V0020501222
-p85
+p84
 aVAPR 19, 2006
-p86
+p85
 aVWAS @ DET
-p87
+p86
 aVW
-p88
+p87
 aI13
 aI1
 aI5
@@ -499,10 +496,25 @@ aI2
 aI3
 aI10
 aasS'name'
-p89
+p88
 VBilly Thomas
+p89
+sS'weight'
 p90
-sS'experience'
+V220
 p91
+sS'age'
+p92
+I30
+sS'experience'
+p93
 I1
+sS'height'
+p94
+V6-5
+p95
+sS'position'
+p96
+VGuard
+p97
 s.

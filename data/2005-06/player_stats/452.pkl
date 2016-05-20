@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500853
-p5
+p4
 aVMAR 01, 2006
-p6
+p5
 aVLAC vs. NOK
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp9
+aa(lp8
 V0020501027
-p10
+p9
 aVMAR 25, 2006
-p11
+p10
 aVLAC vs. WAS
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI1
 aI-3
-aa(lp14
+aa(lp13
 V0020501041
-p15
+p14
 aVMAR 26, 2006
-p16
+p15
 aVLAC @ POR
-p17
+p16
 aVW
-p18
+p17
 aI11
 aI1
 aI2
@@ -92,15 +89,15 @@ aI4
 aI2
 aI3
 aI-3
-aa(lp19
+aa(lp18
 V0020501053
-p20
+p19
 aVMAR 28, 2006
-p21
+p20
 aVLAC vs. SAS
-p22
+p21
 aVL
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020501076
-p25
+p24
 aVMAR 31, 2006
-p26
+p25
 aVLAC vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI6
 aI0
 aI0
@@ -150,15 +147,15 @@ aI1
 aI0
 aI2
 aI-6
-aa(lp29
+aa(lp28
 V0020501201
-p30
+p29
 aVAPR 16, 2006
-p31
+p30
 aVLAC vs. SEA
-p32
+p31
 aVL
-p33
+p32
 aI16
 aI1
 aI3
@@ -179,15 +176,15 @@ aI2
 aI1
 aI5
 aI7
-aa(lp34
+aa(lp33
 V0020501215
-p35
+p34
 aVAPR 18, 2006
-p36
+p35
 aVLAC @ MEM
-p37
+p36
 aVL
-p38
+p37
 aI18
 aI2
 aI4
@@ -208,15 +205,15 @@ aI1
 aI3
 aI6
 aI5
-aa(lp39
+aa(lp38
 V0020501226
-p40
+p39
 aVAPR 19, 2006
-p41
+p40
 aVLAC @ DAL
-p42
+p41
 aVW
-p43
+p42
 aI26
 aI3
 aI5
@@ -238,10 +235,25 @@ aI6
 aI10
 aI18
 aasS'name'
-p44
+p43
 VVin Baker
+p44
+sS'weight'
 p45
-sS'experience'
+V240
 p46
+sS'age'
+p47
+I34
+sS'experience'
+p48
 I12
+sS'height'
+p49
+V6-11
+p50
+sS'position'
+p51
+VForward
+p52
 s.

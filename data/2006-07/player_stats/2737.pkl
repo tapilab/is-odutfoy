@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600106
-p5
+p4
 aVNOV 14, 2006
-p6
+p5
 aVUTA vs. LAC
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI2
@@ -34,15 +31,15 @@ aI1
 aI1
 aI1
 aI-1
-aa(lp9
+aa(lp8
 V0020600139
-p10
+p9
 aVNOV 18, 2006
-p11
+p10
 aVUTA vs. PHX
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI0
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp14
+aa(lp13
 V0020600379
-p15
+p14
 aVDEC 22, 2006
-p16
+p15
 aVUTA @ CHA
-p17
+p16
 aVL
-p18
+p17
 aI2
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0020600427
-p20
+p19
 aVDEC 28, 2006
-p21
+p20
 aVUTA @ SAS
-p22
+p21
 aVL
-p23
+p22
 aI16
 aI1
 aI4
@@ -121,15 +118,15 @@ aI1
 aI3
 aI4
 aI3
-aa(lp24
+aa(lp23
 V0020600548
-p25
+p24
 aVJAN 13, 2007
-p26
+p25
 aVUTA vs. MIA
-p27
+p26
 aVL
-p28
+p27
 aI13
 aI1
 aI2
@@ -150,15 +147,15 @@ aI1
 aI2
 aI5
 aI5
-aa(lp29
+aa(lp28
 V0020600649
-p30
+p29
 aVJAN 27, 2007
-p31
+p30
 aVUTA @ NOK
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0020600667
-p35
+p34
 aVJAN 29, 2007
-p36
+p35
 aVUTA vs. NJN
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI1
 aI3
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI7
-aa(lp39
+aa(lp38
 V0020600684
-p40
+p39
 aVJAN 31, 2007
-p41
+p40
 aVUTA vs. SAS
-p42
+p41
 aVW
-p43
+p42
 aI19
 aI2
 aI5
@@ -237,15 +234,15 @@ aI1
 aI3
 aI7
 aI8
-aa(lp44
+aa(lp43
 V0020600718
-p45
+p44
 aVFEB 05, 2007
-p46
+p45
 aVUTA vs. CHI
-p47
+p46
 aVW
-p48
+p47
 aI8
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI2
 aI0
 aI16
-aa(lp49
+aa(lp48
 V0020600754
-p50
+p49
 aVFEB 10, 2007
-p51
+p50
 aVUTA vs. NYK
-p52
+p51
 aVW
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI1
 aI0
 aI-7
-aa(lp54
+aa(lp53
 V0020600767
-p55
+p54
 aVFEB 12, 2007
-p56
+p55
 aVUTA vs. ATL
-p57
+p56
 aVW
-p58
+p57
 aI11
 aI2
 aI2
@@ -324,15 +321,15 @@ aI1
 aI2
 aI4
 aI7
-aa(lp59
+aa(lp58
 V0020600784
-p60
+p59
 aVFEB 14, 2007
-p61
+p60
 aVUTA vs. CLE
-p62
+p61
 aVW
-p63
+p62
 aI10
 aI1
 aI1
@@ -353,15 +350,15 @@ aI1
 aI2
 aI2
 aI2
-aa(lp64
+aa(lp63
 V0020600797
-p65
+p64
 aVFEB 20, 2007
-p66
+p65
 aVUTA @ POR
-p67
+p66
 aVL
-p68
+p67
 aI6
 aI0
 aI2
@@ -382,15 +379,15 @@ aI2
 aI1
 aI0
 aI2
-aa(lp69
+aa(lp68
 V0020600824
-p70
+p69
 aVFEB 23, 2007
-p71
+p70
 aVUTA @ DEN
-p72
+p71
 aVW
-p73
+p72
 aI34
 aI2
 aI3
@@ -411,15 +408,15 @@ aI0
 aI3
 aI5
 aI7
-aa(lp74
+aa(lp73
 V0020600831
-p75
+p74
 aVFEB 24, 2007
-p76
+p75
 aVUTA vs. BOS
-p77
+p76
 aVW
-p78
+p77
 aI15
 aI3
 aI3
@@ -440,15 +437,15 @@ aI1
 aI3
 aI6
 aI10
-aa(lp79
+aa(lp78
 V0020600847
-p80
+p79
 aVFEB 26, 2007
-p81
+p80
 aVUTA vs. LAL
-p82
+p81
 aVL
-p83
+p82
 aI5
 aI0
 aI2
@@ -469,15 +466,15 @@ aI2
 aI0
 aI0
 aI0
-aa(lp84
+aa(lp83
 V0020600858
-p85
+p84
 aVFEB 28, 2007
-p86
+p85
 aVUTA @ MEM
-p87
+p86
 aVW
-p88
+p87
 aI7
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI2
 aI0
 aI-9
-aa(lp89
+aa(lp88
 V0020600874
-p90
+p89
 aVMAR 02, 2007
-p91
+p90
 aVUTA @ MIN
-p92
+p91
 aVW
-p93
+p92
 aI3
 aI0
 aI0
@@ -527,15 +524,15 @@ aI1
 aI1
 aI1
 aI-2
-aa(lp94
+aa(lp93
 V0020600898
-p95
+p94
 aVMAR 05, 2007
-p96
+p95
 aVUTA vs. CHA
-p97
+p96
 aVW
-p98
+p97
 aI3
 aI1
 aI2
@@ -556,15 +553,15 @@ aI0
 aI1
 aI2
 aI3
-aa(lp99
+aa(lp98
 V0020600914
-p100
+p99
 aVMAR 07, 2007
-p101
+p100
 aVUTA vs. IND
-p102
+p101
 aVW
-p103
+p102
 aI12
 aI3
 aI4
@@ -585,15 +582,15 @@ aI2
 aI1
 aI6
 aI5
-aa(lp104
+aa(lp103
 V0020601029
-p105
+p104
 aVMAR 23, 2007
-p106
+p105
 aVUTA @ LAC
-p107
+p106
 aVL
-p108
+p107
 aI18
 aI2
 aI4
@@ -614,15 +611,15 @@ aI0
 aI1
 aI5
 aI-9
-aa(lp109
+aa(lp108
 V0020601034
-p110
+p109
 aVMAR 24, 2007
-p111
+p110
 aVUTA vs. MEM
-p112
+p111
 aVW
-p113
+p112
 aI1
 aI1
 aI3
@@ -643,15 +640,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp114
+aa(lp113
 V0020601051
-p115
+p114
 aVMAR 26, 2007
-p116
+p115
 aVUTA vs. WAS
-p117
+p116
 aVW
-p118
+p117
 aI0
 aI0
 aI0
@@ -672,15 +669,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp119
+aa(lp118
 V0020601141
-p120
+p119
 aVAPR 07, 2007
-p121
+p120
 aVUTA vs. SEA
-p122
+p121
 aVL
-p123
+p122
 aI6
 aI0
 aI1
@@ -701,15 +698,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp124
+aa(lp123
 V0020601156
-p125
+p124
 aVAPR 09, 2007
-p126
+p125
 aVUTA @ GSW
-p127
+p126
 aVL
-p128
+p127
 aI7
 aI2
 aI5
@@ -730,15 +727,15 @@ aI1
 aI1
 aI6
 aI5
-aa(lp129
+aa(lp128
 V0020601192
-p130
+p129
 aVAPR 14, 2007
-p131
+p130
 aVUTA vs. PHX
-p132
+p131
 aVL
-p133
+p132
 aI8
 aI3
 aI5
@@ -759,15 +756,15 @@ aI0
 aI1
 aI6
 aI-3
-aa(lp134
+aa(lp133
 V0020601209
-p135
+p134
 aVAPR 16, 2007
-p136
+p135
 aVUTA vs. POR
-p137
+p136
 aVW
-p138
+p137
 aI5
 aI0
 aI2
@@ -788,15 +785,15 @@ aI0
 aI1
 aI0
 aI9
-aa(lp139
+aa(lp138
 V0020601226
-p140
+p139
 aVAPR 18, 2007
-p141
+p140
 aVUTA vs. HOU
-p142
+p141
 aVW
-p143
+p142
 aI17
 aI2
 aI6
@@ -818,10 +815,25 @@ aI5
 aI8
 aI13
 aasS'name'
-p144
+p143
 VRafael Araujo
+p144
+sS'weight'
 p145
-sS'experience'
+V270
 p146
+sS'age'
+p147
+I26
+sS'experience'
+p148
 I2
+sS'height'
+p149
+V6-11
+p150
+sS'position'
+p151
+VCenter
+p152
 s.

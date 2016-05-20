@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I37
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300007
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVDET vs. WAS
-p7
+p6
 aVW
-p8
+p7
 aI31
 aI4
 aI8
@@ -34,15 +31,15 @@ aI1
 aI3
 aI16
 aI6
-aa(lp9
+aa(lp8
 V0021300026
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVDET @ MEM
-p12
+p11
 aVL
-p13
+p12
 aI32
 aI1
 aI7
@@ -63,15 +60,15 @@ aI2
 aI4
 aI5
 aI-11
-aa(lp14
+aa(lp13
 V0021300041
-p15
+p14
 aVNOV 03, 2013
-p16
+p15
 aVDET vs. BOS
-p17
+p16
 aVW
-p18
+p17
 aI21
 aI2
 aI4
@@ -92,15 +89,15 @@ aI2
 aI2
 aI5
 aI10
-aa(lp19
+aa(lp18
 V0021300053
-p20
+p19
 aVNOV 05, 2013
-p21
+p20
 aVDET vs. IND
-p22
+p21
 aVL
-p23
+p22
 aI24
 aI2
 aI5
@@ -121,15 +118,15 @@ aI1
 aI0
 aI4
 aI-15
-aa(lp24
+aa(lp23
 V0021300078
-p25
+p24
 aVNOV 08, 2013
-p26
+p25
 aVDET vs. OKC
-p27
+p26
 aVL
-p28
+p27
 aI28
 aI1
 aI6
@@ -150,15 +147,15 @@ aI3
 aI1
 aI3
 aI13
-aa(lp29
+aa(lp28
 V0021300105
-p30
+p29
 aVNOV 11, 2013
-p31
+p30
 aVDET @ POR
-p32
+p31
 aVL
-p33
+p32
 aI14
 aI2
 aI5
@@ -179,15 +176,15 @@ aI1
 aI1
 aI4
 aI-4
-aa(lp34
+aa(lp33
 V0021300109
-p35
+p34
 aVNOV 12, 2013
-p36
+p35
 aVDET @ GSW
-p37
+p36
 aVL
-p38
+p37
 aI6
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-12
-aa(lp39
+aa(lp38
 V0021300315
-p40
+p39
 aVDEC 10, 2013
-p41
+p40
 aVDET vs. MIN
-p42
+p41
 aVL
-p43
+p42
 aI18
 aI2
 aI7
@@ -237,15 +234,15 @@ aI0
 aI3
 aI7
 aI-4
-aa(lp44
+aa(lp43
 V0021300334
-p45
+p44
 aVDEC 13, 2013
-p46
+p45
 aVDET vs. BKN
-p47
+p46
 aVW
-p48
+p47
 aI13
 aI0
 aI1
@@ -266,15 +263,15 @@ aI1
 aI0
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0021300352
-p50
+p49
 aVDEC 15, 2013
-p51
+p50
 aVDET vs. POR
-p52
+p51
 aVL
-p53
+p52
 aI17
 aI2
 aI6
@@ -295,15 +292,15 @@ aI1
 aI0
 aI6
 aI16
-aa(lp54
+aa(lp53
 V0021300373
-p55
+p54
 aVDEC 18, 2013
-p56
+p55
 aVDET @ BOS
-p57
+p56
 aVW
-p58
+p57
 aI19
 aI2
 aI5
@@ -324,15 +321,15 @@ aI2
 aI2
 aI6
 aI-1
-aa(lp59
+aa(lp58
 V0021300386
-p60
+p59
 aVDEC 20, 2013
-p61
+p60
 aVDET vs. CHA
-p62
+p61
 aVL
-p63
+p62
 aI13
 aI1
 aI4
@@ -353,15 +350,15 @@ aI3
 aI1
 aI3
 aI-3
-aa(lp64
+aa(lp63
 V0021300408
-p65
+p64
 aVDEC 23, 2013
-p66
+p65
 aVDET @ CLE
-p67
+p66
 aVW
-p68
+p67
 aI16
 aI1
 aI3
@@ -382,15 +379,15 @@ aI1
 aI0
 aI3
 aI-3
-aa(lp69
+aa(lp68
 V0021300439
-p70
+p69
 aVDEC 28, 2013
-p71
+p70
 aVDET @ WAS
-p72
+p71
 aVL
-p73
+p72
 aI8
 aI1
 aI3
@@ -411,15 +408,15 @@ aI1
 aI0
 aI3
 aI-2
-aa(lp74
+aa(lp73
 V0021300453
-p75
+p74
 aVDEC 30, 2013
-p76
+p75
 aVDET vs. WAS
-p77
+p76
 aVL
-p78
+p77
 aI12
 aI0
 aI2
@@ -440,15 +437,15 @@ aI1
 aI2
 aI0
 aI-15
-aa(lp79
+aa(lp78
 V0021300498
-p80
+p79
 aVJAN 05, 2014
-p81
+p80
 aVDET vs. MEM
-p82
+p81
 aVL
-p83
+p82
 aI14
 aI1
 aI2
@@ -469,15 +466,15 @@ aI2
 aI3
 aI2
 aI-21
-aa(lp84
+aa(lp83
 V0021300512
-p85
+p84
 aVJAN 07, 2014
-p86
+p85
 aVDET @ NYK
-p87
+p86
 aVL
-p88
+p87
 aI8
 aI0
 aI3
@@ -498,15 +495,15 @@ aI1
 aI2
 aI0
 aI5
-aa(lp89
+aa(lp88
 V0021300532
-p90
+p89
 aVJAN 10, 2014
-p91
+p90
 aVDET @ PHI
-p92
+p91
 aVW
-p93
+p92
 aI7
 aI1
 aI3
@@ -527,15 +524,15 @@ aI0
 aI0
 aI3
 aI3
-aa(lp94
+aa(lp93
 V0021300744
-p95
+p94
 aVFEB 07, 2014
-p96
+p95
 aVDET vs. BKN
-p97
+p96
 aVW
-p98
+p97
 aI9
 aI1
 aI4
@@ -557,10 +554,25 @@ aI1
 aI2
 aI-5
 aasS'name'
-p99
+p98
 VChauncey Billups
+p99
+sS'weight'
 p100
-sS'experience'
+V210
 p101
+sS'age'
+p102
+I37
+sS'experience'
+p103
 I16
+sS'height'
+p104
+V6-3
+p105
+sS'position'
+p106
+VGuard
+p107
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800133
-p5
+p4
 aVNOV 15, 2008
-p6
+p5
 aVATL vs. NJN
-p7
+p6
 aVL
-p8
+p7
 aI2
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI3
 aI3
-aa(lp9
+aa(lp8
 V0020800603
-p10
+p9
 aVJAN 19, 2009
-p11
+p10
 aVATL vs. TOR
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI0
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0020800613
-p15
+p14
 aVJAN 20, 2009
-p16
+p15
 aVATL @ CHI
-p17
+p16
 aVW
-p18
+p17
 aI4
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI0
 aI3
 aI-5
-aa(lp19
+aa(lp18
 V0020800633
-p20
+p19
 aVJAN 23, 2009
-p21
+p20
 aVATL vs. MIL
-p22
+p21
 aVW
-p23
+p22
 aI10
 aI1
 aI3
@@ -121,15 +118,15 @@ aI1
 aI0
 aI2
 aI2
-aa(lp24
+aa(lp23
 V0020800797
-p25
+p24
 aVFEB 17, 2009
-p26
+p25
 aVATL @ LAL
-p27
+p26
 aVL
-p28
+p27
 aI5
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI11
-aa(lp29
+aa(lp28
 V0020800839
-p30
+p29
 aVFEB 23, 2009
-p31
+p30
 aVATL @ UTA
-p32
+p31
 aVL
-p33
+p32
 aI11
 aI1
 aI4
@@ -179,15 +176,15 @@ aI0
 aI1
 aI2
 aI5
-aa(lp34
+aa(lp33
 V0020800972
-p35
+p34
 aVMAR 13, 2009
-p36
+p35
 aVATL vs. IND
-p37
+p36
 aVW
-p38
+p37
 aI2
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp39
+aa(lp38
 V0020800985
-p40
+p39
 aVMAR 15, 2009
-p41
+p40
 aVATL vs. POR
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI1
 aI3
@@ -237,15 +234,15 @@ aI0
 aI0
 aI3
 aI0
-aa(lp44
+aa(lp43
 V0020801001
-p45
+p44
 aVMAR 17, 2009
-p46
+p45
 aVATL vs. SAC
-p47
+p46
 aVW
-p48
+p47
 aI2
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp49
+aa(lp48
 V0020801034
-p50
+p49
 aVMAR 21, 2009
-p51
+p50
 aVATL @ CLE
-p52
+p51
 aVL
-p53
+p52
 aI2
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp54
+aa(lp53
 V0020801048
-p55
+p54
 aVMAR 23, 2009
-p56
+p55
 aVATL vs. MIN
-p57
+p56
 aVW
-p58
+p57
 aI2
 aI0
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI-10
-aa(lp59
+aa(lp58
 V0020801154
-p60
+p59
 aVAPR 07, 2009
-p61
+p60
 aVATL @ TOR
+p61
+aVW
 p62
-aVW
-p63
 aI0
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp64
+aa(lp63
 V0020801167
-p65
+p64
 aVAPR 08, 2009
-p66
+p65
 aVATL @ MIL
-p67
+p66
 aVW
-p68
+p67
 aI0
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp69
+aa(lp68
 V0020801178
-p70
+p69
 aVAPR 10, 2009
-p71
+p70
 aVATL vs. IND
-p72
+p71
 aVW
-p73
+p72
 aI1
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp74
+aa(lp73
 V0020801214
-p75
+p74
 aVAPR 14, 2009
-p76
+p75
 aVATL vs. MIA
-p77
+p76
 aVW
-p78
+p77
 aI22
 aI1
 aI7
@@ -440,15 +437,15 @@ aI1
 aI2
 aI3
 aI8
-aa(lp79
+aa(lp78
 V0020801222
-p80
+p79
 aVAPR 15, 2009
-p81
+p80
 aVATL @ MEM
-p82
+p81
 aVL
-p83
+p82
 aI25
 aI3
 aI8
@@ -470,10 +467,25 @@ aI1
 aI8
 aI-4
 aasS'name'
-p84
+p83
 VThomas Gardner
+p84
+sS'weight'
 p85
-sS'experience'
+V225
 p86
+sS'age'
+p87
+I23
+sS'experience'
+p88
 I1
+sS'height'
+p89
+V6-5
+p90
+sS'position'
+p91
+VGuard
+p92
 s.

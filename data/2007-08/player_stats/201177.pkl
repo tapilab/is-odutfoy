@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700145
-p5
+p4
 aVNOV 19, 2007
-p6
+p5
 aVPOR @ CHA
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp9
+aa(lp8
 V0020700243
-p10
+p9
 aVDEC 02, 2007
-p11
+p10
 aVPOR @ SAS
-p12
+p11
 aVL
-p13
+p12
 aI5
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0020700444
-p15
+p14
 aVDEC 30, 2007
-p16
+p15
 aVPOR vs. PHI
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI2
 aI2
@@ -92,15 +89,15 @@ aI1
 aI0
 aI4
 aI2
-aa(lp19
+aa(lp18
 V0020700731
-p20
+p19
 aVFEB 08, 2008
-p21
+p20
 aVPOR @ DET
-p22
+p21
 aVL
-p23
+p22
 aI12
 aI3
 aI5
@@ -121,15 +118,15 @@ aI0
 aI0
 aI6
 aI10
-aa(lp24
+aa(lp23
 V0020700774
-p25
+p24
 aVFEB 13, 2008
-p26
+p25
 aVPOR @ DAL
-p27
+p26
 aVL
-p28
+p27
 aI3
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020701186
-p30
+p29
 aVAPR 11, 2008
-p31
+p30
 aVPOR @ SAC
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp34
+aa(lp33
 V0020701195
-p35
+p34
 aVAPR 12, 2008
-p36
+p35
 aVPOR vs. DAL
+p36
+aVW
 p37
-aVW
-p38
 aI0
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020701215
-p40
+p39
 aVAPR 15, 2008
-p41
+p40
 aVPOR vs. MEM
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI1
 aI3
@@ -238,10 +235,25 @@ aI0
 aI2
 aI0
 aasS'name'
-p44
+p43
 VJosh McRoberts
+p44
+sS'weight'
 p45
-sS'experience'
+V240
 p46
+sS'age'
+p47
+I20
+sS'experience'
+p48
 I0
+sS'height'
+p49
+V6-10
+p50
+sS'position'
+p51
+VForward
+p52
 s.

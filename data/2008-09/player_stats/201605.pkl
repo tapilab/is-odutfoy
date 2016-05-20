@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800618
-p5
+p4
 aVJAN 21, 2009
-p6
+p5
 aVTOR @ DET
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020800649
-p10
+p9
 aVJAN 25, 2009
-p11
+p10
 aVTOR vs. SAC
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp14
+aa(lp13
 V0020800703
-p15
+p14
 aVFEB 01, 2009
-p16
+p15
 aVTOR vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020800799
-p20
+p19
 aVFEB 18, 2009
-p21
+p20
 aVTOR vs. CLE
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI1
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp24
+aa(lp23
 V0020800812
-p25
+p24
 aVFEB 20, 2009
-p26
+p25
 aVTOR @ NYK
-p27
+p26
 aVL
-p28
+p27
 aI5
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI2
 aI0
 aI-3
-aa(lp29
+aa(lp28
 V0020801063
-p30
+p29
 aVMAR 25, 2009
-p31
+p30
 aVTOR vs. MIL
-p32
+p31
 aVW
-p33
+p32
 aI1
 aI0
 aI0
@@ -180,10 +177,25 @@ aI0
 aI0
 aI-4
 aasS'name'
-p34
+p33
 VNathan Jawai
+p34
+sS'weight'
 p35
-sS'experience'
+V280
 p36
+sS'age'
+p37
+I22
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-10
+p40
+sS'position'
+p41
+VForward
+p42
 s.

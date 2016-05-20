@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100001
-p5
+p4
 aVDEC 25, 2011
-p6
+p5
 aVNYK vs. BOS
-p7
+p6
 aVW
-p8
+p7
 aI15
 aI0
 aI1
@@ -34,15 +31,15 @@ aI3
 aI4
 aI0
 aI-5
-aa(lp9
+aa(lp8
 V0021100032
-p10
+p9
 aVDEC 28, 2011
-p11
+p10
 aVNYK @ GSW
-p12
+p11
 aVL
-p13
+p12
 aI27
 aI6
 aI8
@@ -63,15 +60,15 @@ aI1
 aI2
 aI14
 aI-11
-aa(lp14
+aa(lp13
 V0021100038
-p15
+p14
 aVDEC 29, 2011
-p16
+p15
 aVNYK @ LAL
-p17
+p16
 aVL
-p18
+p17
 aI17
 aI0
 aI3
@@ -92,15 +89,15 @@ aI0
 aI5
 aI1
 aI-15
-aa(lp19
+aa(lp18
 V0021100054
-p20
+p19
 aVDEC 31, 2011
-p21
+p20
 aVNYK @ SAC
-p22
+p21
 aVW
-p23
+p22
 aI31
 aI5
 aI8
@@ -121,15 +118,15 @@ aI2
 aI5
 aI11
 aI13
-aa(lp24
+aa(lp23
 V0021100069
-p25
+p24
 aVJAN 02, 2012
-p26
+p25
 aVNYK vs. TOR
-p27
+p26
 aVL
-p28
+p27
 aI24
 aI2
 aI6
@@ -150,15 +147,15 @@ aI1
 aI4
 aI7
 aI-13
-aa(lp29
+aa(lp28
 V0021100085
-p30
+p29
 aVJAN 04, 2012
-p31
+p30
 aVNYK vs. CHA
-p32
+p31
 aVL
-p33
+p32
 aI16
 aI2
 aI4
@@ -179,15 +176,15 @@ aI1
 aI3
 aI6
 aI5
-aa(lp34
+aa(lp33
 V0021100100
-p35
+p34
 aVJAN 06, 2012
-p36
+p35
 aVNYK @ WAS
-p37
+p36
 aVW
-p38
+p37
 aI20
 aI1
 aI3
@@ -208,15 +205,15 @@ aI1
 aI2
 aI2
 aI-3
-aa(lp39
+aa(lp38
 V0021100113
-p40
+p39
 aVJAN 07, 2012
-p41
+p40
 aVNYK @ DET
-p42
+p41
 aVW
-p43
+p42
 aI19
 aI1
 aI3
@@ -237,15 +234,15 @@ aI0
 aI3
 aI2
 aI-1
-aa(lp44
+aa(lp43
 V0021100129
-p45
+p44
 aVJAN 09, 2012
-p46
+p45
 aVNYK vs. CHA
-p47
+p46
 aVW
-p48
+p47
 aI15
 aI0
 aI2
@@ -266,15 +263,15 @@ aI0
 aI3
 aI0
 aI0
-aa(lp49
+aa(lp48
 V0021100145
-p50
+p49
 aVJAN 11, 2012
-p51
+p50
 aVNYK vs. PHI
-p52
+p51
 aVW
-p53
+p52
 aI17
 aI1
 aI3
@@ -295,15 +292,15 @@ aI0
 aI2
 aI3
 aI8
-aa(lp54
+aa(lp53
 V0021100156
-p55
+p54
 aVJAN 12, 2012
-p56
+p55
 aVNYK @ MEM
-p57
+p56
 aVL
-p58
+p57
 aI21
 aI5
 aI8
@@ -324,15 +321,15 @@ aI0
 aI4
 aI14
 aI2
-aa(lp59
+aa(lp58
 V0021100177
-p60
+p59
 aVJAN 14, 2012
-p61
+p60
 aVNYK @ OKC
-p62
+p61
 aVL
-p63
+p62
 aI21
 aI1
 aI6
@@ -353,15 +350,15 @@ aI1
 aI3
 aI3
 aI-15
-aa(lp64
+aa(lp63
 V0021100184
-p65
+p64
 aVJAN 16, 2012
-p66
+p65
 aVNYK vs. ORL
-p67
+p66
 aVL
-p68
+p67
 aI10
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI1
 aI0
 aI-11
-aa(lp69
+aa(lp68
 V0021100220
-p70
+p69
 aVJAN 20, 2012
-p71
+p70
 aVNYK vs. MIL
-p72
+p71
 aVL
-p73
+p72
 aI22
 aI1
 aI4
@@ -411,15 +408,15 @@ aI1
 aI3
 aI3
 aI-1
-aa(lp74
+aa(lp73
 V0021100228
-p75
+p74
 aVJAN 21, 2012
-p76
+p75
 aVNYK vs. DEN
-p77
+p76
 aVL
-p78
+p77
 aI11
 aI5
 aI6
@@ -440,15 +437,15 @@ aI2
 aI2
 aI15
 aI5
-aa(lp79
+aa(lp78
 V0021100252
-p80
+p79
 aVJAN 24, 2012
-p81
+p80
 aVNYK @ CHA
-p82
+p81
 aVW
-p83
+p82
 aI18
 aI1
 aI6
@@ -469,15 +466,15 @@ aI2
 aI1
 aI5
 aI4
-aa(lp84
+aa(lp83
 V0021100259
-p85
+p84
 aVJAN 25, 2012
-p86
+p85
 aVNYK @ CLE
-p87
+p86
 aVL
-p88
+p87
 aI18
 aI1
 aI3
@@ -498,15 +495,15 @@ aI1
 aI1
 aI2
 aI-5
-aa(lp89
+aa(lp88
 V0021100276
-p90
+p89
 aVJAN 27, 2012
-p91
+p90
 aVNYK @ MIA
-p92
+p91
 aVL
-p93
+p92
 aI31
 aI7
 aI12
@@ -527,15 +524,15 @@ aI6
 aI6
 aI21
 aI3
-aa(lp94
+aa(lp93
 V0021100287
-p95
+p94
 aVJAN 28, 2012
-p96
+p95
 aVNYK @ HOU
-p97
+p96
 aVL
-p98
+p97
 aI22
 aI2
 aI9
@@ -556,15 +553,15 @@ aI1
 aI2
 aI5
 aI-2
-aa(lp99
+aa(lp98
 V0021100311
-p100
+p99
 aVJAN 31, 2012
-p101
+p100
 aVNYK vs. DET
-p102
+p101
 aVW
-p103
+p102
 aI15
 aI4
 aI7
@@ -585,15 +582,15 @@ aI2
 aI5
 aI11
 aI0
-aa(lp104
+aa(lp103
 V0021100327
-p105
+p104
 aVFEB 02, 2012
-p106
+p105
 aVNYK vs. CHI
-p107
+p106
 aVL
-p108
+p107
 aI9
 aI0
 aI1
@@ -614,15 +611,15 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp109
+aa(lp108
 V0021100337
-p110
+p109
 aVFEB 03, 2012
-p111
+p110
 aVNYK @ BOS
-p112
+p111
 aVL
-p113
+p112
 aI10
 aI1
 aI3
@@ -643,15 +640,15 @@ aI0
 aI1
 aI2
 aI4
-aa(lp114
+aa(lp113
 V0021100345
-p115
+p114
 aVFEB 04, 2012
-p116
+p115
 aVNYK vs. NJN
-p117
+p116
 aVW
-p118
+p117
 aI15
 aI1
 aI1
@@ -672,15 +669,15 @@ aI1
 aI2
 aI7
 aI8
-aa(lp119
+aa(lp118
 V0021100361
-p120
+p119
 aVFEB 06, 2012
-p121
+p120
 aVNYK vs. UTA
-p122
+p121
 aVW
-p123
+p122
 aI30
 aI4
 aI10
@@ -701,15 +698,15 @@ aI0
 aI5
 aI11
 aI-1
-aa(lp124
+aa(lp123
 V0021100375
-p125
+p124
 aVFEB 08, 2012
-p126
+p125
 aVNYK @ WAS
-p127
+p126
 aVW
-p128
+p127
 aI27
 aI2
 aI10
@@ -730,15 +727,15 @@ aI0
 aI1
 aI5
 aI7
-aa(lp129
+aa(lp128
 V0021100395
-p130
+p129
 aVFEB 10, 2012
-p131
+p130
 aVNYK vs. LAL
-p132
+p131
 aVW
-p133
+p132
 aI31
 aI3
 aI11
@@ -759,15 +756,15 @@ aI2
 aI3
 aI7
 aI16
-aa(lp134
+aa(lp133
 V0021100404
-p135
+p134
 aVFEB 11, 2012
-p136
+p135
 aVNYK @ MIN
-p137
+p136
 aVW
-p138
+p137
 aI24
 aI0
 aI5
@@ -788,15 +785,15 @@ aI1
 aI1
 aI3
 aI-4
-aa(lp139
+aa(lp138
 V0021100420
-p140
+p139
 aVFEB 14, 2012
-p141
+p140
 aVNYK @ TOR
-p142
+p141
 aVW
-p143
+p142
 aI30
 aI3
 aI8
@@ -817,15 +814,15 @@ aI2
 aI4
 aI8
 aI-1
-aa(lp144
+aa(lp143
 V0021100433
-p145
+p144
 aVFEB 15, 2012
-p146
+p145
 aVNYK vs. SAC
-p147
+p146
 aVW
-p148
+p147
 aI20
 aI6
 aI9
@@ -846,15 +843,15 @@ aI0
 aI1
 aI14
 aI22
-aa(lp149
+aa(lp148
 V0021100450
-p150
+p149
 aVFEB 17, 2012
-p151
+p150
 aVNYK vs. NOH
-p152
+p151
 aVL
-p153
+p152
 aI26
 aI1
 aI5
@@ -875,15 +872,15 @@ aI3
 aI2
 aI2
 aI-4
-aa(lp154
+aa(lp153
 V0021100857
-p155
+p154
 aVAPR 10, 2012
-p156
+p155
 aVNYK @ CHI
-p157
+p156
 aVL
-p158
+p157
 aI1
 aI1
 aI2
@@ -904,15 +901,15 @@ aI0
 aI1
 aI2
 aI-2
-aa(lp159
+aa(lp158
 V0021100921
-p160
+p159
 aVAPR 18, 2012
-p161
+p160
 aVNYK @ NJN
-p162
+p161
 aVW
-p163
+p162
 aI9
 aI1
 aI3
@@ -934,10 +931,25 @@ aI1
 aI3
 aI-7
 aasS'name'
-p164
+p163
 VHenry Walker
+p164
+sS'weight'
 p165
-sS'experience'
+V235
 p166
+sS'age'
+p167
+I24
+sS'experience'
+p168
 I3
+sS'height'
+p169
+V6-6
+p170
+sS'position'
+p171
+VForward
+p172
 s.

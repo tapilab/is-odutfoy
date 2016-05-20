@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700137
-p5
+p4
 aVNOV 17, 2007
-p6
+p5
 aVHOU vs. PHX
-p7
+p6
 aVL
-p8
+p7
 aI23
 aI3
 aI11
@@ -34,15 +31,15 @@ aI0
 aI3
 aI8
 aI4
-aa(lp9
+aa(lp8
 V0020700189
-p10
+p9
 aVNOV 24, 2007
-p11
+p10
 aVHOU vs. DEN
-p12
+p11
 aVW
-p13
+p12
 aI20
 aI4
 aI9
@@ -63,15 +60,15 @@ aI1
 aI3
 aI10
 aI11
-aa(lp14
+aa(lp13
 V0020700202
-p15
+p14
 aVNOV 26, 2007
-p16
+p15
 aVHOU @ LAC
-p17
+p16
 aVW
-p18
+p17
 aI8
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp19
+aa(lp18
 V0020700217
-p20
+p19
 aVNOV 28, 2007
-p21
+p20
 aVHOU @ PHX
-p22
+p21
 aVW
-p23
+p22
 aI27
 aI4
 aI8
@@ -121,15 +118,15 @@ aI1
 aI3
 aI9
 aI2
-aa(lp24
+aa(lp23
 V0020700223
-p25
+p24
 aVNOV 29, 2007
-p26
+p25
 aVHOU @ GSW
-p27
+p26
 aVL
-p28
+p27
 aI29
 aI3
 aI5
@@ -150,15 +147,15 @@ aI1
 aI6
 aI8
 aI3
-aa(lp29
+aa(lp28
 V0020700268
-p30
+p29
 aVDEC 05, 2007
-p31
+p30
 aVHOU vs. MEM
-p32
+p31
 aVW
-p33
+p32
 aI10
 aI1
 aI3
@@ -179,15 +176,15 @@ aI0
 aI2
 aI2
 aI5
-aa(lp34
+aa(lp33
 V0020700281
-p35
+p34
 aVDEC 07, 2007
-p36
+p35
 aVHOU @ NJN
-p37
+p36
 aVW
-p38
+p37
 aI18
 aI1
 aI5
@@ -208,15 +205,15 @@ aI1
 aI2
 aI5
 aI0
-aa(lp39
+aa(lp38
 V0020700294
-p40
+p39
 aVDEC 09, 2007
-p41
+p40
 aVHOU @ TOR
-p42
+p41
 aVL
-p43
+p42
 aI31
 aI2
 aI4
@@ -237,15 +234,15 @@ aI2
 aI2
 aI7
 aI-13
-aa(lp44
+aa(lp43
 V0020700301
-p45
+p44
 aVDEC 10, 2007
-p46
+p45
 aVHOU @ PHI
-p47
+p46
 aVL
-p48
+p47
 aI11
 aI0
 aI3
@@ -266,15 +263,15 @@ aI3
 aI1
 aI1
 aI-13
-aa(lp49
+aa(lp48
 V0020700347
-p50
+p49
 aVDEC 15, 2007
-p51
+p50
 aVHOU vs. DAL
-p52
+p51
 aVL
-p53
+p52
 aI23
 aI1
 aI8
@@ -296,10 +293,25 @@ aI3
 aI3
 aI-6
 aasS'name'
-p54
+p53
 VSteve Francis
+p54
+sS'weight'
 p55
-sS'experience'
+V210
 p56
+sS'age'
+p57
+I30
+sS'experience'
+p58
 I8
+sS'height'
+p59
+V6-3
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

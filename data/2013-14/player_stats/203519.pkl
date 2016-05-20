@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300874
-p5
+p4
 aVMAR 01, 2014
-p6
+p5
 aVORL @ MIA
-p7
+p6
 aVL
-p8
+p7
 aI5
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI5
-aa(lp9
+aa(lp8
 V0021300886
-p10
+p9
 aVMAR 02, 2014
-p11
+p10
 aVORL vs. PHI
-p12
+p11
 aVW
-p13
+p12
 aI9
 aI1
 aI5
@@ -63,15 +60,15 @@ aI0
 aI1
 aI3
 aI-9
-aa(lp14
+aa(lp13
 V0021300905
-p15
+p14
 aVMAR 05, 2014
-p16
+p15
 aVORL vs. HOU
-p17
+p16
 aVL
-p18
+p17
 aI9
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI1
 aI2
 aI9
-aa(lp19
+aa(lp18
 V0021300932
-p20
+p19
 aVMAR 08, 2014
-p21
+p20
 aVORL @ SAS
-p22
+p21
 aVL
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp24
+aa(lp23
 V0021301182
-p25
+p24
 aVAPR 11, 2014
-p26
+p25
 aVPHI @ MEM
-p27
+p26
 aVL
-p28
+p27
 aI8
 aI2
 aI3
@@ -150,15 +147,15 @@ aI1
 aI1
 aI4
 aI-1
-aa(lp29
+aa(lp28
 V0021301225
-p30
+p29
 aVAPR 16, 2014
-p31
+p30
 aVPHI @ MIA
-p32
+p31
 aVW
-p33
+p32
 aI5
 aI1
 aI2
@@ -180,10 +177,25 @@ aI3
 aI3
 aI1
 aasS'name'
-p34
+p33
 VAdonis Thomas
+p34
+sS'weight'
 p35
-sS'experience'
+V240
 p36
+sS'age'
+p37
+I20
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-7
+p40
+sS'position'
+p41
+VGuard-Forward
+p42
 s.

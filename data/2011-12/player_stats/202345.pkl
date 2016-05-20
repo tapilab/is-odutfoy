@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100006
-p5
+p4
 aVDEC 26, 2011
-p6
+p5
 aVNJN @ WAS
-p7
+p6
 aVW
-p8
+p7
 aI38
 aI2
 aI7
@@ -34,15 +31,15 @@ aI1
 aI4
 aI6
 aI14
-aa(lp9
+aa(lp8
 V0021100018
-p10
+p9
 aVDEC 27, 2011
-p11
+p10
 aVNJN vs. ATL
-p12
+p11
 aVL
-p13
+p12
 aI24
 aI0
 aI4
@@ -63,15 +60,15 @@ aI4
 aI2
 aI0
 aI-24
-aa(lp14
+aa(lp13
 V0021100033
-p15
+p14
 aVDEC 29, 2011
-p16
+p15
 aVNJN @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI13
 aI2
 aI2
@@ -92,15 +89,15 @@ aI2
 aI3
 aI4
 aI-5
-aa(lp19
+aa(lp18
 V0021100042
-p20
+p19
 aVDEC 30, 2011
-p21
+p20
 aVNJN @ ATL
-p22
+p21
 aVL
-p23
+p22
 aI20
 aI1
 aI6
@@ -121,15 +118,15 @@ aI1
 aI0
 aI2
 aI-1
-aa(lp24
+aa(lp23
 V0021100060
-p25
+p24
 aVJAN 01, 2012
-p26
+p25
 aVNJN @ CLE
-p27
+p26
 aVL
-p28
+p27
 aI32
 aI3
 aI5
@@ -150,15 +147,15 @@ aI2
 aI3
 aI10
 aI-10
-aa(lp29
+aa(lp28
 V0021100068
-p30
+p29
 aVJAN 02, 2012
-p31
+p30
 aVNJN vs. IND
-p32
+p31
 aVL
-p33
+p32
 aI26
 aI4
 aI9
@@ -179,15 +176,15 @@ aI1
 aI3
 aI10
 aI-9
-aa(lp34
+aa(lp33
 V0021100084
-p35
+p34
 aVJAN 04, 2012
-p36
+p35
 aVNJN @ BOS
-p37
+p36
 aVL
-p38
+p37
 aI18
 aI1
 aI2
@@ -209,10 +206,25 @@ aI2
 aI2
 aI7
 aasS'name'
-p39
+p38
 VDamion James
+p39
+sS'weight'
 p40
-sS'experience'
+V225
 p41
+sS'age'
+p42
+I24
+sS'experience'
+p43
 I1
+sS'height'
+p44
+V6-7
+p45
+sS'position'
+p46
+VForward
+p47
 s.

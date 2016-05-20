@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100895
-p5
+p4
 aVAPR 15, 2012
-p6
+p5
 aVCHA vs. BOS
-p7
+p6
 aVL
-p8
+p7
 aI13
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp9
+aa(lp8
 V0021100903
-p10
+p9
 aVAPR 16, 2012
-p11
+p10
 aVCHA vs. NOH
-p12
+p11
 aVL
-p13
+p12
 aI14
 aI0
 aI3
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp14
+aa(lp13
 V0021100919
-p15
+p14
 aVAPR 18, 2012
-p16
+p15
 aVCHA vs. CHI
-p17
+p16
 aVL
-p18
+p17
 aI18
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-23
-aa(lp19
+aa(lp18
 V0021100937
-p20
+p19
 aVAPR 20, 2012
-p21
+p20
 aVCHA vs. MEM
-p22
+p21
 aVL
-p23
+p22
 aI9
 aI0
 aI1
@@ -121,15 +118,15 @@ aI2
 aI1
 aI0
 aI-7
-aa(lp24
+aa(lp23
 V0021100953
-p25
+p24
 aVAPR 22, 2012
-p26
+p25
 aVCHA vs. SAC
-p27
+p26
 aVL
-p28
+p27
 aI14
 aI3
 aI5
@@ -150,15 +147,15 @@ aI2
 aI1
 aI7
 aI-3
-aa(lp29
+aa(lp28
 V0021100960
-p30
+p29
 aVAPR 23, 2012
-p31
+p30
 aVCHA @ WAS
-p32
+p31
 aVL
-p33
+p32
 aI22
 aI1
 aI6
@@ -179,15 +176,15 @@ aI2
 aI1
 aI4
 aI-23
-aa(lp34
+aa(lp33
 V0021100971
-p35
+p34
 aVAPR 25, 2012
-p36
+p35
 aVCHA @ ORL
-p37
+p36
 aVL
-p38
+p37
 aI11
 aI1
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI3
 aI-8
-aa(lp39
+aa(lp38
 V0021100982
-p40
+p39
 aVAPR 26, 2012
-p41
+p40
 aVCHA vs. NYK
-p42
+p41
 aVL
-p43
+p42
 aI23
 aI2
 aI5
@@ -238,10 +235,25 @@ aI0
 aI4
 aI-12
 aasS'name'
-p44
+p43
 VJamario Moon
+p44
+sS'weight'
 p45
-sS'experience'
+V205
 p46
+sS'age'
+p47
+I31
+sS'experience'
+p48
 I4
+sS'height'
+p49
+V6-8
+p50
+sS'position'
+p51
+VForward
+p52
 s.

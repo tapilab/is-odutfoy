@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700414
-p5
+p4
 aVDEC 26, 2007
-p6
+p5
 aVSAS vs. CHI
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp9
+aa(lp8
 V0020701089
-p10
+p9
 aVMAR 29, 2008
-p11
+p10
 aVLAC vs. MEM
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp14
+aa(lp13
 V0020701104
-p15
+p14
 aVMAR 31, 2008
-p16
+p15
 aVLAC vs. DAL
-p17
+p16
 aVL
-p18
+p17
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0020701121
-p20
+p19
 aVAPR 02, 2008
-p21
+p20
 aVLAC @ SEA
-p22
+p21
 aVW
-p23
+p22
 aI7
 aI0
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp24
+aa(lp23
 V0020701124
-p25
+p24
 aVAPR 03, 2008
-p26
+p25
 aVLAC @ SAC
-p27
+p26
 aVL
-p28
+p27
 aI3
 aI2
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI4
 aI3
-aa(lp29
+aa(lp28
 V0020701152
-p30
+p29
 aVAPR 06, 2008
-p31
+p30
 aVLAC vs. HOU
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp34
+aa(lp33
 V0020701162
-p35
+p34
 aVAPR 08, 2008
-p36
+p35
 aVLAC vs. DEN
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI2
 aI5
@@ -208,15 +205,15 @@ aI0
 aI1
 aI4
 aI10
-aa(lp39
+aa(lp38
 V0020701175
-p40
+p39
 aVAPR 10, 2008
-p41
+p40
 aVLAC vs. LAL
-p42
+p41
 aVL
-p43
+p42
 aI8
 aI0
 aI4
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp44
+aa(lp43
 V0020701196
-p45
+p44
 aVAPR 12, 2008
-p46
+p45
 aVLAC @ GSW
+p46
+aVL
 p47
-aVL
-p48
 aI0
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0020701214
-p50
+p49
 aVAPR 15, 2008
-p51
+p50
 aVLAC @ NOH
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp54
+aa(lp53
 V0020701226
-p55
+p54
 aVAPR 16, 2008
-p56
+p55
 aVLAC @ HOU
-p57
+p56
 aVL
-p58
+p57
 aI3
 aI0
 aI2
@@ -325,10 +322,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p59
+p58
 VMarcus Williams
+p59
+sS'weight'
 p60
-sS'experience'
+V207
 p61
+sS'age'
+p62
+I21
+sS'experience'
+p63
 I0
+sS'height'
+p64
+V6-7
+p65
+sS'position'
+p66
+VGuard
+p67
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000011
-p5
+p4
 aVOCT 27, 2010
-p6
+p5
 aVCHI @ OKC
-p7
+p6
 aVL
-p8
+p7
 aI11
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI2
 aI2
 aI-1
-aa(lp9
+aa(lp8
 V0021000035
-p10
+p9
 aVOCT 30, 2010
-p11
+p10
 aVCHI vs. DET
-p12
+p11
 aVW
-p13
+p12
 aI20
 aI3
 aI4
@@ -63,15 +60,15 @@ aI2
 aI2
 aI6
 aI5
-aa(lp14
+aa(lp13
 V0021000044
-p15
+p14
 aVNOV 01, 2010
-p16
+p15
 aVCHI vs. POR
-p17
+p16
 aVW
-p18
+p17
 aI6
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI2
 aI2
 aI-3
-aa(lp19
+aa(lp18
 V0021000066
-p20
+p19
 aVNOV 04, 2010
-p21
+p20
 aVCHI vs. NYK
-p22
+p21
 aVL
-p23
+p22
 aI7
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI2
 aI2
 aI-12
-aa(lp24
+aa(lp23
 V0021000073
-p25
+p24
 aVNOV 05, 2010
-p26
+p25
 aVCHI @ BOS
-p27
+p26
 aVL
-p28
+p27
 aI3
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp29
+aa(lp28
 V0021000119
-p30
+p29
 aVNOV 11, 2010
-p31
+p30
 aVCHI vs. GSW
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI0
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0021000166
-p35
+p34
 aVNOV 17, 2010
-p36
+p35
 aVCHI @ SAS
-p37
+p36
 aVL
-p38
+p37
 aI9
 aI0
 aI1
@@ -208,15 +205,15 @@ aI0
 aI2
 aI0
 aI6
-aa(lp39
+aa(lp38
 V0021000218
-p40
+p39
 aVNOV 24, 2010
-p41
+p40
 aVCHI @ PHX
-p42
+p41
 aVW
-p43
+p42
 aI8
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI2
 aI0
 aI10
-aa(lp44
+aa(lp43
 V0021000280
-p45
+p44
 aVDEC 03, 2010
-p46
+p45
 aVCHI @ BOS
-p47
+p46
 aVL
-p48
+p47
 aI1
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp49
+aa(lp48
 V0021000395
-p50
+p49
 aVDEC 18, 2010
-p51
+p50
 aVCHI vs. LAC
-p52
+p51
 aVL
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp54
+aa(lp53
 V0021000417
-p55
+p54
 aVDEC 21, 2010
-p56
+p55
 aVCHI vs. PHI
-p57
+p56
 aVW
-p58
+p57
 aI6
 aI1
 aI4
@@ -324,15 +321,15 @@ aI0
 aI1
 aI2
 aI-4
-aa(lp59
+aa(lp58
 V0021000440
-p60
+p59
 aVDEC 26, 2010
-p61
+p60
 aVCHI @ DET
-p62
+p61
 aVW
-p63
+p62
 aI0
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp64
+aa(lp63
 V0021000507
-p65
+p64
 aVJAN 04, 2011
-p66
+p65
 aVCHI vs. TOR
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI2
 aI2
 aI-2
-aa(lp69
+aa(lp68
 V0021000693
-p70
+p69
 aVJAN 29, 2011
-p71
+p70
 aVCHI vs. IND
-p72
+p71
 aVW
-p73
+p72
 aI2
 aI0
 aI1
@@ -411,15 +408,15 @@ aI1
 aI1
 aI0
 aI-2
-aa(lp74
+aa(lp73
 V0021000819
-p75
+p74
 aVFEB 15, 2011
-p76
+p75
 aVCHI vs. CHA
-p77
+p76
 aVW
-p78
+p77
 aI1
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp79
+aa(lp78
 V0021000890
-p80
+p79
 aVFEB 28, 2011
-p81
+p80
 aVCHI @ WAS
-p82
+p81
 aVW
-p83
+p82
 aI1
 aI1
 aI1
@@ -469,15 +466,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp84
+aa(lp83
 V0021000971
-p85
+p84
 aVMAR 11, 2011
-p86
+p85
 aVCHI vs. ATL
-p87
+p86
 aVW
-p88
+p87
 aI1
 aI1
 aI2
@@ -498,15 +495,15 @@ aI0
 aI0
 aI2
 aI-4
-aa(lp89
+aa(lp88
 V0021001001
-p90
+p89
 aVMAR 15, 2011
-p91
+p90
 aVCHI vs. WAS
-p92
+p91
 aVW
-p93
+p92
 aI4
 aI0
 aI2
@@ -528,10 +525,25 @@ aI0
 aI0
 aI1
 aasS'name'
-p94
+p93
 VBrian Scalabrine
+p94
+sS'weight'
 p95
-sS'experience'
+V235
 p96
+sS'age'
+p97
+I32
+sS'experience'
+p98
 I9
+sS'height'
+p99
+V6-9
+p100
+sS'position'
+p101
+VForward
+p102
 s.

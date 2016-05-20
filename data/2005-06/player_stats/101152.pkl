@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500602
-p5
+p4
 aVJAN 24, 2006
-p6
+p5
 aVMIN vs. DET
-p7
+p6
 aVL
-p8
+p7
 aI6
 aI2
 aI5
@@ -34,15 +31,15 @@ aI0
 aI0
 aI5
 aI1
-aa(lp9
+aa(lp8
 V0020500611
-p10
+p9
 aVJAN 25, 2006
-p11
+p10
 aVMIN @ MEM
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI1
 aI1
-aa(lp14
+aa(lp13
 V0020501157
-p15
+p14
 aVAPR 11, 2006
-p16
+p15
 aVMIN @ MEM
-p17
+p16
 aVL
-p18
+p17
 aI16
 aI1
 aI5
@@ -92,15 +89,15 @@ aI1
 aI1
 aI7
 aI0
-aa(lp19
+aa(lp18
 V0020501170
-p20
+p19
 aVAPR 12, 2006
-p21
+p20
 aVMIN @ HOU
-p22
+p21
 aVW
-p23
+p22
 aI27
 aI3
 aI10
@@ -121,15 +118,15 @@ aI2
 aI1
 aI13
 aI12
-aa(lp24
+aa(lp23
 V0020501182
-p25
+p24
 aVAPR 14, 2006
-p26
+p25
 aVMIN @ IND
-p27
+p26
 aVL
-p28
+p27
 aI26
 aI2
 aI8
@@ -150,15 +147,15 @@ aI1
 aI4
 aI4
 aI-3
-aa(lp29
+aa(lp28
 V0020501195
-p30
+p29
 aVAPR 16, 2006
-p31
+p30
 aVMIN vs. SAS
-p32
+p31
 aVL
-p33
+p32
 aI24
 aI5
 aI8
@@ -179,15 +176,15 @@ aI1
 aI1
 aI13
 aI-1
-aa(lp34
+aa(lp33
 V0020501224
-p35
+p34
 aVAPR 19, 2006
-p36
+p35
 aVMIN vs. MEM
-p37
+p36
 aVL
-p38
+p37
 aI34
 aI8
 aI14
@@ -209,10 +206,25 @@ aI1
 aI19
 aI-18
 aasS'name'
-p39
+p38
 VBracey Wright
+p39
+sS'weight'
 p40
-sS'experience'
+V201
 p41
+sS'age'
+p42
+I21
+sS'experience'
+p43
 I0
+sS'height'
+p44
+V6-3
+p45
+sS'position'
+p46
+VGuard
+p47
 s.

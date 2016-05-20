@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021001122
-p5
+p4
 aVAPR 01, 2011
-p6
+p5
 aVNJN @ PHI
-p7
+p6
 aVL
-p8
+p7
 aI15
 aI5
 aI6
@@ -34,15 +31,15 @@ aI2
 aI1
 aI13
 aI-1
-aa(lp9
+aa(lp8
 V0021001142
-p10
+p9
 aVAPR 03, 2011
-p11
+p10
 aVNJN vs. MIA
-p12
+p11
 aVL
-p13
+p12
 aI20
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI4
 aI2
 aI-1
-aa(lp14
+aa(lp13
 V0021001151
-p15
+p14
 aVAPR 05, 2011
-p16
+p15
 aVNJN vs. MIN
-p17
+p16
 aVW
-p18
+p17
 aI29
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI2
 aI3
 aI-2
-aa(lp19
+aa(lp18
 V0021001167
-p20
+p19
 aVAPR 06, 2011
-p21
+p20
 aVNJN @ DET
-p22
+p21
 aVL
-p23
+p22
 aI13
 aI0
 aI3
@@ -121,15 +118,15 @@ aI0
 aI3
 aI0
 aI-2
-aa(lp24
+aa(lp23
 V0021001177
-p25
+p24
 aVAPR 08, 2011
-p26
+p25
 aVNJN vs. NYK
-p27
+p26
 aVL
-p28
+p27
 aI22
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI2
 aI2
 aI-9
-aa(lp29
+aa(lp28
 V0021001196
-p30
+p29
 aVAPR 10, 2011
-p31
+p30
 aVNJN @ TOR
-p32
+p31
 aVL
-p33
+p32
 aI16
 aI1
 aI4
@@ -180,10 +177,25 @@ aI1
 aI2
 aI8
 aasS'name'
-p34
+p33
 VMario West
+p34
+sS'weight'
 p35
-sS'experience'
+V210
 p36
+sS'age'
+p37
+I26
+sS'experience'
+p38
 I3
+sS'height'
+p39
+V6-5
+p40
+sS'position'
+p41
+VGuard
+p42
 s.

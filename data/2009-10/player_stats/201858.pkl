@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900552
-p5
+p4
 aVJAN 11, 2010
-p6
+p5
 aVGSW vs. CLE
-p7
+p6
 aVL
-p8
+p7
 aI19
 aI2
 aI6
@@ -34,15 +31,15 @@ aI0
 aI2
 aI5
 aI0
-aa(lp9
+aa(lp8
 V0020900568
-p10
+p9
 aVJAN 13, 2010
-p11
+p10
 aVGSW vs. MIA
-p12
+p11
 aVL
-p13
+p12
 aI34
 aI3
 aI10
@@ -63,15 +60,15 @@ aI1
 aI5
 aI11
 aI-2
-aa(lp14
+aa(lp13
 V0020900581
-p15
+p14
 aVJAN 15, 2010
-p16
+p15
 aVGSW vs. MIL
-p17
+p16
 aVL
-p18
+p17
 aI34
 aI3
 aI9
@@ -92,15 +89,15 @@ aI1
 aI1
 aI7
 aI-14
-aa(lp19
+aa(lp18
 V0020900602
-p20
+p19
 aVJAN 18, 2010
-p21
+p20
 aVGSW vs. CHI
-p22
+p21
 aVW
-p23
+p22
 aI36
 aI2
 aI8
@@ -121,15 +118,15 @@ aI0
 aI5
 aI5
 aI12
-aa(lp24
+aa(lp23
 V0020900619
-p25
+p24
 aVJAN 20, 2010
-p26
+p25
 aVGSW vs. DEN
-p27
+p26
 aVL
-p28
+p27
 aI15
 aI2
 aI5
@@ -150,15 +147,15 @@ aI2
 aI4
 aI5
 aI-1
-aa(lp29
+aa(lp28
 V0020900634
-p30
+p29
 aVJAN 22, 2010
-p31
+p30
 aVGSW vs. NJN
-p32
+p31
 aVW
-p33
+p32
 aI36
 aI6
 aI12
@@ -179,15 +176,15 @@ aI0
 aI5
 aI16
 aI28
-aa(lp34
+aa(lp33
 V0020900644
-p35
+p34
 aVJAN 23, 2010
-p36
+p35
 aVGSW @ PHX
-p37
+p36
 aVL
-p38
+p37
 aI37
 aI4
 aI10
@@ -208,15 +205,15 @@ aI3
 aI4
 aI13
 aI-4
-aa(lp39
+aa(lp38
 V0020900662
-p40
+p39
 aVJAN 26, 2010
-p41
+p40
 aVGSW @ SAC
-p42
+p41
 aVL
-p43
+p42
 aI34
 aI6
 aI15
@@ -237,15 +234,15 @@ aI4
 aI4
 aI20
 aI-1
-aa(lp44
+aa(lp43
 V0020900673
-p45
+p44
 aVJAN 27, 2010
-p46
+p45
 aVGSW vs. NOH
-p47
+p46
 aVL
-p48
+p47
 aI21
 aI2
 aI9
@@ -266,15 +263,15 @@ aI1
 aI3
 aI4
 aI-1
-aa(lp49
+aa(lp48
 V0020900688
-p50
+p49
 aVJAN 29, 2010
-p51
+p50
 aVGSW vs. CHA
-p52
+p51
 aVL
-p53
+p52
 aI10
 aI2
 aI4
@@ -295,15 +292,15 @@ aI1
 aI3
 aI4
 aI-3
-aa(lp54
+aa(lp53
 V0020901106
-p55
+p54
 aVMAR 30, 2010
-p56
+p55
 aVWAS @ HOU
-p57
+p56
 aVL
-p58
+p57
 aI6
 aI0
 aI1
@@ -324,15 +321,15 @@ aI0
 aI2
 aI0
 aI2
-aa(lp59
+aa(lp58
 V0020901124
-p60
+p59
 aVAPR 02, 2010
-p61
+p60
 aVWAS vs. CHI
-p62
+p61
 aVL
-p63
+p62
 aI15
 aI2
 aI7
@@ -353,15 +350,15 @@ aI1
 aI2
 aI8
 aI-8
-aa(lp64
+aa(lp63
 V0020901146
-p65
+p64
 aVAPR 04, 2010
-p66
+p65
 aVWAS vs. NJN
-p67
+p66
 aVW
-p68
+p67
 aI22
 aI4
 aI7
@@ -382,15 +379,15 @@ aI1
 aI1
 aI16
 aI2
-aa(lp69
+aa(lp68
 V0020901152
-p70
+p69
 aVAPR 06, 2010
-p71
+p70
 aVWAS vs. GSW
-p72
+p71
 aVW
-p73
+p72
 aI22
 aI3
 aI10
@@ -411,15 +408,15 @@ aI1
 aI0
 aI7
 aI11
-aa(lp74
+aa(lp73
 V0020901166
-p75
+p74
 aVAPR 07, 2010
-p76
+p75
 aVWAS @ ORL
-p77
+p76
 aVL
-p78
+p77
 aI13
 aI4
 aI6
@@ -440,15 +437,15 @@ aI2
 aI2
 aI9
 aI-16
-aa(lp79
+aa(lp78
 V0020901189
-p80
+p79
 aVAPR 10, 2010
-p81
+p80
 aVWAS vs. ATL
-p82
+p81
 aVL
-p83
+p82
 aI0
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp84
+aa(lp83
 V0020901206
-p85
+p84
 aVAPR 12, 2010
-p86
+p85
 aVWAS @ NYK
-p87
+p86
 aVL
-p88
+p87
 aI4
 aI0
 aI3
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp89
+aa(lp88
 V0020901227
-p90
+p89
 aVAPR 14, 2010
-p91
+p90
 aVWAS vs. IND
-p92
+p91
 aVW
-p93
+p92
 aI32
 aI5
 aI14
@@ -528,10 +525,25 @@ aI5
 aI11
 aI-1
 aasS'name'
-p94
+p93
 VCartier Martin
+p94
+sS'weight'
 p95
-sS'experience'
+V220
 p96
+sS'age'
+p97
+I25
+sS'experience'
+p98
 I1
+sS'height'
+p99
+V6-7
+p100
+sS'position'
+p101
+VForward
+p102
 s.

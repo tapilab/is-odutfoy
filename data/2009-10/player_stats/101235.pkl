@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900015
-p5
+p4
 aVOCT 28, 2009
-p6
+p5
 aVGSW vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI18
 aI6
 aI7
@@ -34,15 +31,15 @@ aI0
 aI0
 aI13
 aI7
-aa(lp9
+aa(lp8
 V0020900030
-p10
+p9
 aVOCT 30, 2009
-p11
+p10
 aVGSW @ PHX
-p12
+p11
 aVL
-p13
+p12
 aI23
 aI7
 aI14
@@ -63,15 +60,15 @@ aI2
 aI5
 aI17
 aI-9
-aa(lp14
+aa(lp13
 V0020900069
-p15
+p14
 aVNOV 04, 2009
-p16
+p15
 aVGSW vs. MEM
-p17
+p16
 aVW
-p18
+p17
 aI16
 aI3
 aI7
@@ -92,15 +89,15 @@ aI1
 aI1
 aI6
 aI-20
-aa(lp19
+aa(lp18
 V0020900082
-p20
+p19
 aVNOV 06, 2009
-p21
+p20
 aVGSW vs. LAC
-p22
+p21
 aVL
-p23
+p22
 aI33
 aI3
 aI9
@@ -121,15 +118,15 @@ aI0
 aI2
 aI13
 aI-19
-aa(lp24
+aa(lp23
 V0020900096
-p25
+p24
 aVNOV 08, 2009
-p26
+p25
 aVGSW @ SAC
-p27
+p26
 aVL
-p28
+p27
 aI34
 aI5
 aI8
@@ -150,15 +147,15 @@ aI0
 aI2
 aI13
 aI-21
-aa(lp29
+aa(lp28
 V0020900101
-p30
+p29
 aVNOV 09, 2009
-p31
+p30
 aVGSW vs. MIN
-p32
+p31
 aVW
-p33
+p32
 aI29
 aI13
 aI19
@@ -179,15 +176,15 @@ aI0
 aI3
 aI31
 aI24
-aa(lp34
+aa(lp33
 V0020900109
-p35
+p34
 aVNOV 11, 2009
-p36
+p35
 aVGSW @ IND
-p37
+p36
 aVL
-p38
+p37
 aI35
 aI2
 aI10
@@ -208,15 +205,15 @@ aI2
 aI1
 aI10
 aI-15
-aa(lp39
+aa(lp38
 V0020900126
-p40
+p39
 aVNOV 13, 2009
-p41
+p40
 aVGSW @ NYK
-p42
+p41
 aVW
-p43
+p42
 aI40
 aI9
 aI13
@@ -237,15 +234,15 @@ aI1
 aI2
 aI22
 aI11
-aa(lp44
+aa(lp43
 V0020900141
-p45
+p44
 aVNOV 14, 2009
-p46
+p45
 aVGSW @ MIL
-p47
+p46
 aVL
-p48
+p47
 aI3
 aI0
 aI1
@@ -267,10 +264,25 @@ aI0
 aI0
 aI1
 aasS'name'
-p49
+p48
 VKelenna Azubuike
+p49
+sS'weight'
 p50
-sS'experience'
+V215
 p51
+sS'age'
+p52
+I26
+sS'experience'
+p53
 I3
+sS'height'
+p54
+V6-5
+p55
+sS'position'
+p56
+VGuard
+p57
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500016
-p5
+p4
 aVNOV 02, 2005
-p6
+p5
 aVLAL @ DEN
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020500019
-p10
+p9
 aVNOV 03, 2005
-p11
+p10
 aVLAL vs. PHX
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-12
-aa(lp14
+aa(lp13
 V0020500045
-p15
+p14
 aVNOV 06, 2005
-p16
+p15
 aVLAL vs. DEN
-p17
+p16
 aVW
-p18
+p17
 aI7
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI1
 aI2
 aI-8
-aa(lp19
+aa(lp18
 V0020500051
-p20
+p19
 aVNOV 08, 2005
-p21
+p20
 aVLAL @ ATL
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-9
-aa(lp24
+aa(lp23
 V0020500077
-p25
+p24
 aVNOV 11, 2005
-p26
+p25
 aVLAL @ PHI
-p27
+p26
 aVL
-p28
+p27
 aI7
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp29
+aa(lp28
 V0020500130
-p30
+p29
 aVNOV 18, 2005
-p31
+p30
 aVLAL vs. LAC
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp34
+aa(lp33
 V0020500145
-p35
+p34
 aVNOV 20, 2005
-p36
+p35
 aVLAL vs. CHI
-p37
+p36
 aVL
-p38
+p37
 aI16
 aI0
 aI1
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020500168
-p40
+p39
 aVNOV 24, 2005
-p41
+p40
 aVLAL vs. SEA
-p42
+p41
 aVW
-p43
+p42
 aI8
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp44
+aa(lp43
 V0020500203
-p45
+p44
 aVNOV 29, 2005
-p46
+p45
 aVLAL @ SAS
-p47
+p46
 aVL
-p48
+p47
 aI12
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI2
 aI0
 aI2
-aa(lp49
+aa(lp48
 V0020500218
-p50
+p49
 aVDEC 01, 2005
-p51
+p50
 aVLAL @ UTA
-p52
+p51
 aVW
-p53
+p52
 aI11
 aI0
 aI2
@@ -295,15 +292,15 @@ aI0
 aI2
 aI1
 aI5
-aa(lp54
+aa(lp53
 V0020501089
-p55
+p54
 aVAPR 02, 2006
-p56
+p55
 aVLAL vs. HOU
-p57
+p56
 aVW
-p58
+p57
 aI4
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp59
+aa(lp58
 V0020501185
-p60
+p59
 aVAPR 14, 2006
-p61
+p60
 aVLAL vs. POR
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI1
 aI0
 aI-13
-aa(lp64
+aa(lp63
 V0020501196
-p65
+p64
 aVAPR 16, 2006
-p66
+p65
 aVLAL vs. PHX
-p67
+p66
 aVW
-p68
+p67
 aI12
 aI1
 aI1
@@ -382,15 +379,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp69
+aa(lp68
 V0020501229
-p70
+p69
 aVAPR 19, 2006
-p71
+p70
 aVLAL vs. NOK
-p72
+p71
 aVW
-p73
+p72
 aI19
 aI1
 aI1
@@ -412,10 +409,25 @@ aI0
 aI2
 aI3
 aasS'name'
-p74
+p73
 VAaron McKie
+p74
+sS'weight'
 p75
-sS'experience'
+V209
 p76
+sS'age'
+p77
+I33
+sS'experience'
+p78
 I11
+sS'height'
+p79
+V6-5
+p80
+sS'position'
+p81
+VGuard
+p82
 s.

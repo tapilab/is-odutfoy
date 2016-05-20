@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000043
-p5
+p4
 aVOCT 31, 2010
-p6
+p5
 aVLAL vs. GSW
-p7
+p6
 aVW
-p8
+p7
 aI12
 aI0
 aI4
@@ -34,15 +31,15 @@ aI2
 aI1
 aI4
 aI-12
-aa(lp9
+aa(lp8
 V0021000053
-p10
+p9
 aVNOV 02, 2010
-p11
+p10
 aVLAL vs. MEM
-p12
+p11
 aVW
-p13
+p12
 aI11
 aI2
 aI4
@@ -63,15 +60,15 @@ aI0
 aI1
 aI4
 aI-9
-aa(lp14
+aa(lp13
 V0021000065
-p15
+p14
 aVNOV 03, 2010
-p16
+p15
 aVLAL @ SAC
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp19
+aa(lp18
 V0021000143
-p20
+p19
 aVNOV 14, 2010
-p21
+p20
 aVLAL vs. PHX
-p22
+p21
 aVL
-p23
+p22
 aI4
 aI0
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp24
+aa(lp23
 V0021000155
-p25
+p24
 aVNOV 16, 2010
-p26
+p25
 aVLAL @ MIL
-p27
+p26
 aVW
-p28
+p27
 aI5
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI3
 aI1
-aa(lp29
+aa(lp28
 V0021000161
-p30
+p29
 aVNOV 17, 2010
-p31
+p30
 aVLAL @ DET
-p32
+p31
 aVW
-p33
+p32
 aI8
 aI1
 aI5
@@ -179,15 +176,15 @@ aI0
 aI0
 aI4
 aI-13
-aa(lp34
+aa(lp33
 V0021000176
-p35
+p34
 aVNOV 19, 2010
-p36
+p35
 aVLAL @ MIN
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI1
 aI1
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI-8
-aa(lp39
+aa(lp38
 V0021000194
-p40
+p39
 aVNOV 21, 2010
-p41
+p40
 aVLAL vs. GSW
-p42
+p41
 aVW
-p43
+p42
 aI15
 aI3
 aI5
@@ -237,15 +234,15 @@ aI0
 aI1
 aI7
 aI-3
-aa(lp44
+aa(lp43
 V0021000287
-p45
+p44
 aVDEC 03, 2010
-p46
+p45
 aVLAL vs. SAC
-p47
+p46
 aVW
-p48
+p47
 aI9
 aI4
 aI4
@@ -266,15 +263,15 @@ aI0
 aI0
 aI9
 aI5
-aa(lp49
+aa(lp48
 V0021000351
-p50
+p49
 aVDEC 12, 2010
-p51
+p50
 aVLAL @ NJN
-p52
+p51
 aVW
-p53
+p52
 aI4
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp54
+aa(lp53
 V0021000367
-p55
+p54
 aVDEC 15, 2010
-p56
+p55
 aVLAL @ IND
-p57
+p56
 aVW
-p58
+p57
 aI2
 aI0
 aI1
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp59
+aa(lp58
 V0021000420
-p60
+p59
 aVDEC 21, 2010
-p61
+p60
 aVLAL vs. MIL
-p62
+p61
 aVL
-p63
+p62
 aI1
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp64
+aa(lp63
 V0021000560
-p65
+p64
 aVJAN 11, 2011
-p66
+p65
 aVLAL vs. CLE
-p67
+p66
 aVW
-p68
+p67
 aI6
 aI3
 aI5
@@ -382,15 +379,15 @@ aI1
 aI0
 aI7
 aI5
-aa(lp69
+aa(lp68
 V0021000621
-p70
+p69
 aVJAN 19, 2011
-p71
+p70
 aVLAL @ DAL
-p72
+p71
 aVL
-p73
+p72
 aI0
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp74
+aa(lp73
 V0021000667
-p75
+p74
 aVJAN 25, 2011
-p76
+p75
 aVLAL vs. UTA
-p77
+p76
 aVW
-p78
+p77
 aI8
 aI1
 aI3
@@ -440,15 +437,15 @@ aI1
 aI1
 aI5
 aI-9
-aa(lp79
+aa(lp78
 V0021000718
-p80
+p79
 aVFEB 01, 2011
-p81
+p80
 aVLAL vs. HOU
-p82
+p81
 aVW
-p83
+p82
 aI4
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp84
+aa(lp83
 V0021000805
-p85
+p84
 aVFEB 13, 2011
-p86
+p85
 aVLAL @ ORL
-p87
+p86
 aVL
-p88
+p87
 aI1
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp89
+aa(lp88
 V0021000812
-p90
+p89
 aVFEB 14, 2011
-p91
+p90
 aVLAL @ CHA
-p92
+p91
 aVL
-p93
+p92
 aI5
 aI0
 aI2
@@ -527,15 +524,15 @@ aI1
 aI1
 aI3
 aI5
-aa(lp94
+aa(lp93
 V0021000846
-p95
+p94
 aVFEB 22, 2011
-p96
+p95
 aVLAL vs. ATL
-p97
+p96
 aVW
-p98
+p97
 aI8
 aI2
 aI4
@@ -556,15 +553,15 @@ aI1
 aI1
 aI8
 aI-3
-aa(lp99
+aa(lp98
 V0021000871
-p100
+p99
 aVFEB 25, 2011
-p101
+p100
 aVLAL vs. LAC
-p102
+p101
 aVW
-p103
+p102
 aI7
 aI2
 aI5
@@ -586,10 +583,25 @@ aI0
 aI4
 aI-8
 aasS'name'
-p104
+p103
 VDevin Ebanks
+p104
+sS'weight'
 p105
-sS'experience'
+V215
 p106
+sS'age'
+p107
+I21
+sS'experience'
+p108
 I0
+sS'height'
+p109
+V6-9
+p110
+sS'position'
+p111
+VForward
+p112
 s.

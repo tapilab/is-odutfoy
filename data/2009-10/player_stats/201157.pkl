@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900032
-p5
+p4
 aVOCT 31, 2009
-p6
+p5
 aVNJN @ WAS
-p7
+p6
 aVL
-p8
+p7
 aI7
 aI2
 aI3
@@ -34,15 +31,15 @@ aI1
 aI1
 aI4
 aI3
-aa(lp9
+aa(lp8
 V0020900046
-p10
+p9
 aVNOV 02, 2009
-p11
+p10
 aVNJN @ CHA
-p12
+p11
 aVL
-p13
+p12
 aI11
 aI0
 aI0
@@ -63,15 +60,15 @@ aI3
 aI3
 aI0
 aI-14
-aa(lp14
+aa(lp13
 V0020900063
-p15
+p14
 aVNOV 04, 2009
-p16
+p15
 aVNJN vs. DEN
-p17
+p16
 aVL
-p18
+p17
 aI8
 aI2
 aI3
@@ -92,15 +89,15 @@ aI0
 aI0
 aI6
 aI1
-aa(lp19
+aa(lp18
 V0020900086
-p20
+p19
 aVNOV 07, 2009
-p21
+p20
 aVNJN vs. BOS
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI2
 aI2
@@ -121,15 +118,15 @@ aI1
 aI1
 aI4
 aI-1
-aa(lp24
+aa(lp23
 V0020900124
-p25
+p24
 aVNOV 13, 2009
-p26
+p25
 aVNJN @ ORL
-p27
+p26
 aVL
-p28
+p27
 aI17
 aI1
 aI3
@@ -150,15 +147,15 @@ aI1
 aI2
 aI3
 aI10
-aa(lp29
+aa(lp28
 V0020900138
-p30
+p29
 aVNOV 14, 2009
-p31
+p30
 aVNJN @ MIA
-p32
+p31
 aVL
-p33
+p32
 aI15
 aI6
 aI7
@@ -179,15 +176,15 @@ aI1
 aI3
 aI12
 aI3
-aa(lp34
+aa(lp33
 V0020900152
-p35
+p34
 aVNOV 17, 2009
-p36
+p35
 aVNJN vs. IND
-p37
+p36
 aVL
-p38
+p37
 aI13
 aI1
 aI2
@@ -208,15 +205,15 @@ aI1
 aI3
 aI2
 aI-5
-aa(lp39
+aa(lp38
 V0020900165
-p40
+p39
 aVNOV 18, 2009
-p41
+p40
 aVNJN @ MIL
-p42
+p41
 aVL
-p43
+p42
 aI24
 aI1
 aI6
@@ -237,15 +234,15 @@ aI1
 aI3
 aI4
 aI16
-aa(lp44
+aa(lp43
 V0020900183
-p45
+p44
 aVNOV 21, 2009
-p46
+p45
 aVNJN vs. NYK
-p47
+p46
 aVL
-p48
+p47
 aI16
 aI0
 aI5
@@ -266,15 +263,15 @@ aI2
 aI6
 aI0
 aI-3
-aa(lp49
+aa(lp48
 V0020900205
-p50
+p49
 aVNOV 24, 2009
-p51
+p50
 aVNJN @ DEN
-p52
+p51
 aVL
-p53
+p52
 aI11
 aI0
 aI0
@@ -295,15 +292,15 @@ aI3
 aI3
 aI0
 aI-13
-aa(lp54
+aa(lp53
 V0020900218
-p55
+p54
 aVNOV 25, 2009
-p56
+p55
 aVNJN @ POR
-p57
+p56
 aVL
-p58
+p57
 aI15
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI4
 aI0
 aI-4
-aa(lp59
+aa(lp58
 V0020900233
-p60
+p59
 aVNOV 27, 2009
-p61
+p60
 aVNJN @ SAC
-p62
+p61
 aVL
-p63
+p62
 aI12
 aI0
 aI1
@@ -353,15 +350,15 @@ aI1
 aI3
 aI0
 aI-11
-aa(lp64
+aa(lp63
 V0020900248
-p65
+p64
 aVNOV 29, 2009
-p66
+p65
 aVNJN @ LAL
-p67
+p66
 aVL
-p68
+p67
 aI15
 aI1
 aI4
@@ -382,15 +379,15 @@ aI0
 aI2
 aI2
 aI-6
-aa(lp69
+aa(lp68
 V0020900263
-p70
+p69
 aVDEC 02, 2009
-p71
+p70
 aVNJN vs. DAL
-p72
+p71
 aVL
-p73
+p72
 aI14
 aI1
 aI3
@@ -411,15 +408,15 @@ aI0
 aI2
 aI2
 aI-15
-aa(lp74
+aa(lp73
 V0020900311
-p75
+p74
 aVDEC 09, 2009
-p76
+p75
 aVNJN vs. GSW
-p77
+p76
 aVL
-p78
+p77
 aI6
 aI0
 aI0
@@ -440,15 +437,15 @@ aI2
 aI3
 aI0
 aI3
-aa(lp79
+aa(lp78
 V0020900340
-p80
+p79
 aVDEC 13, 2009
-p81
+p80
 aVNJN @ ATL
-p82
+p81
 aVL
-p83
+p82
 aI8
 aI0
 aI2
@@ -469,15 +466,15 @@ aI0
 aI0
 aI1
 aI0
-aa(lp84
+aa(lp83
 V0020900362
-p85
+p84
 aVDEC 16, 2009
-p86
+p85
 aVNJN vs. UTA
-p87
+p86
 aVL
-p88
+p87
 aI2
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp89
+aa(lp88
 V0020900373
-p90
+p89
 aVDEC 18, 2009
-p91
+p90
 aVNJN @ TOR
-p92
+p91
 aVL
-p93
+p92
 aI16
 aI3
 aI6
@@ -527,15 +524,15 @@ aI1
 aI1
 aI10
 aI3
-aa(lp94
+aa(lp93
 V0020900388
-p95
+p94
 aVDEC 19, 2009
-p96
+p95
 aVNJN vs. LAL
-p97
+p96
 aVL
-p98
+p97
 aI5
 aI0
 aI0
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp99
+aa(lp98
 V0020900507
-p100
+p99
 aVJAN 06, 2010
-p101
+p100
 aVNJN @ ATL
-p102
+p101
 aVL
-p103
+p102
 aI7
 aI1
 aI2
@@ -586,10 +583,25 @@ aI0
 aI2
 aI0
 aasS'name'
-p104
+p103
 VSean Williams
+p104
+sS'weight'
 p105
-sS'experience'
+V235
 p106
+sS'age'
+p107
+I23
+sS'experience'
+p108
 I2
+sS'height'
+p109
+V6-10
+p110
+sS'position'
+p111
+VForward-Center
+p112
 s.

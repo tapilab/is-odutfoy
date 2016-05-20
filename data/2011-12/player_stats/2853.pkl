@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100171
-p5
+p4
 aVJAN 14, 2012
-p6
+p5
 aVGSW @ CHA
-p7
+p6
 aVL
-p8
+p7
 aI6
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI3
 aI2
 aI-2
-aa(lp9
+aa(lp8
 V0021100331
-p10
+p9
 aVFEB 02, 2012
-p11
+p10
 aVGSW vs. UTA
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI1
 aI2
@@ -64,10 +61,25 @@ aI2
 aI2
 aI0
 aasS'name'
-p14
+p13
 VEarl Barron
+p14
+sS'weight'
 p15
-sS'experience'
+V250
 p16
+sS'age'
+p17
+I30
+sS'experience'
+p18
 I6
+sS'height'
+p19
+V7-0
+p20
+sS'position'
+p21
+VForward-Center
+p22
 s.

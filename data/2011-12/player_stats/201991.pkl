@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100761
-p5
+p4
 aVMAR 30, 2012
-p6
+p5
 aVCLE vs. MIL
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI4
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-10
-aa(lp9
+aa(lp8
 V0021100770
-p10
+p9
 aVMAR 31, 2012
-p11
+p10
 aVCLE @ NYK
-p12
+p11
 aVL
-p13
+p12
 aI24
 aI2
 aI8
@@ -63,15 +60,15 @@ aI4
 aI0
 aI4
 aI-6
-aa(lp14
+aa(lp13
 V0021100792
-p15
+p14
 aVAPR 03, 2012
-p16
+p15
 aVCLE vs. SAS
-p17
+p16
 aVL
-p18
+p17
 aI22
 aI5
 aI10
@@ -92,15 +89,15 @@ aI3
 aI3
 aI12
 aI-18
-aa(lp19
+aa(lp18
 V0021100804
-p20
+p19
 aVAPR 04, 2012
-p21
+p20
 aVCLE @ MIL
-p22
+p21
 aVL
-p23
+p22
 aI28
 aI3
 aI13
@@ -121,15 +118,15 @@ aI1
 aI2
 aI9
 aI-3
-aa(lp24
+aa(lp23
 V0021100816
-p25
+p24
 aVAPR 06, 2012
-p26
+p25
 aVCLE @ TOR
-p27
+p26
 aVW
-p28
+p27
 aI32
 aI6
 aI14
@@ -150,15 +147,15 @@ aI1
 aI3
 aI23
 aI14
-aa(lp29
+aa(lp28
 V0021100837
-p30
+p29
 aVAPR 08, 2012
-p31
+p30
 aVCLE @ NJN
-p32
+p31
 aVL
-p33
+p32
 aI29
 aI9
 aI22
@@ -179,15 +176,15 @@ aI3
 aI4
 aI26
 aI-5
-aa(lp34
+aa(lp33
 V0021100854
-p35
+p34
 aVAPR 10, 2012
-p36
+p35
 aVCLE vs. CHA
-p37
+p36
 aVW
-p38
+p37
 aI36
 aI9
 aI18
@@ -208,15 +205,15 @@ aI4
 aI2
 aI25
 aI27
-aa(lp39
+aa(lp38
 V0021100859
-p40
+p39
 aVAPR 11, 2012
-p41
+p40
 aVCLE vs. IND
-p42
+p41
 aVL
-p43
+p42
 aI34
 aI8
 aI20
@@ -237,15 +234,15 @@ aI6
 aI5
 aI19
 aI-5
-aa(lp44
+aa(lp43
 V0021100877
-p45
+p44
 aVAPR 13, 2012
-p46
+p45
 aVCLE @ IND
-p47
+p46
 aVL
-p48
+p47
 aI19
 aI2
 aI6
@@ -266,15 +263,15 @@ aI5
 aI2
 aI7
 aI12
-aa(lp49
+aa(lp48
 V0021100887
-p50
+p49
 aVAPR 14, 2012
-p51
+p50
 aVCLE @ WAS
-p52
+p51
 aVW
-p53
+p52
 aI19
 aI3
 aI7
@@ -295,15 +292,15 @@ aI2
 aI1
 aI10
 aI6
-aa(lp54
+aa(lp53
 V0021100898
-p55
+p54
 aVAPR 15, 2012
-p56
+p55
 aVCLE vs. ORL
-p57
+p56
 aVL
-p58
+p57
 aI16
 aI3
 aI6
@@ -324,15 +321,15 @@ aI0
 aI2
 aI6
 aI-3
-aa(lp59
+aa(lp58
 V0021100914
-p60
+p59
 aVAPR 17, 2012
-p61
+p60
 aVCLE @ DET
-p62
+p61
 aVL
-p63
+p62
 aI21
 aI2
 aI10
@@ -353,15 +350,15 @@ aI1
 aI0
 aI7
 aI7
-aa(lp64
+aa(lp63
 V0021100920
-p65
+p64
 aVAPR 18, 2012
-p66
+p65
 aVCLE vs. PHI
-p67
+p66
 aVL
-p68
+p67
 aI26
 aI6
 aI13
@@ -382,15 +379,15 @@ aI0
 aI2
 aI15
 aI-8
-aa(lp69
+aa(lp68
 V0021100947
-p70
+p69
 aVAPR 21, 2012
-p71
+p70
 aVMEM vs. POR
-p72
+p71
 aVW
-p73
+p72
 aI5
 aI0
 aI3
@@ -411,15 +408,15 @@ aI1
 aI0
 aI0
 aI-8
-aa(lp74
+aa(lp73
 V0021100964
-p75
+p74
 aVAPR 23, 2012
-p76
+p75
 aVMEM vs. CLE
-p77
+p76
 aVW
-p78
+p77
 aI12
 aI3
 aI6
@@ -440,15 +437,15 @@ aI0
 aI0
 aI9
 aI7
-aa(lp79
+aa(lp78
 V0021100985
-p80
+p79
 aVAPR 26, 2012
-p81
+p80
 aVMEM vs. ORL
-p82
+p81
 aVW
-p83
+p82
 aI3
 aI0
 aI2
@@ -470,10 +467,25 @@ aI0
 aI0
 aI-5
 aasS'name'
-p84
+p83
 VLester Hudson
+p84
+sS'weight'
 p85
-sS'experience'
+V190
 p86
+sS'age'
+p87
+I27
+sS'experience'
+p88
 I2
+sS'height'
+p89
+V6-3
+p90
+sS'position'
+p91
+VGuard
+p92
 s.

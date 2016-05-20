@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I20
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500017
-p5
+p4
 aVNOV 02, 2005
-p6
+p5
 aVGSW vs. ATL
-p7
+p6
 aVW
-p8
+p7
 aI17
 aI2
 aI3
@@ -34,15 +31,15 @@ aI0
 aI2
 aI4
 aI18
-aa(lp9
+aa(lp8
 V0020500029
-p10
+p9
 aVNOV 04, 2005
-p11
+p10
 aVGSW vs. UTA
-p12
+p11
 aVL
-p13
+p12
 aI13
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI2
 aI2
 aI-8
-aa(lp14
+aa(lp13
 V0020500043
-p15
+p14
 aVNOV 06, 2005
-p16
+p15
 aVGSW @ NYK
-p17
+p16
 aVW
-p18
+p17
 aI15
 aI3
 aI3
@@ -92,15 +89,15 @@ aI0
 aI3
 aI6
 aI-13
-aa(lp19
+aa(lp18
 V0020500052
-p20
+p19
 aVNOV 08, 2005
-p21
+p20
 aVGSW @ MIL
-p22
+p21
 aVW
-p23
+p22
 aI7
 aI2
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI4
 aI-7
-aa(lp24
+aa(lp23
 V0020500065
-p25
+p24
 aVNOV 09, 2005
-p26
+p25
 aVGSW @ CHI
-p27
+p26
 aVL
-p28
+p27
 aI19
 aI3
 aI6
@@ -150,15 +147,15 @@ aI0
 aI4
 aI7
 aI8
-aa(lp29
+aa(lp28
 V0020500079
-p30
+p29
 aVNOV 11, 2005
-p31
+p30
 aVGSW vs. NYK
-p32
+p31
 aVW
-p33
+p32
 aI13
 aI1
 aI4
@@ -179,15 +176,15 @@ aI0
 aI1
 aI2
 aI0
-aa(lp34
+aa(lp33
 V0020500088
-p35
+p34
 aVNOV 12, 2005
-p36
+p35
 aVGSW @ PHX
-p37
+p36
 aVL
-p38
+p37
 aI2
 aI0
 aI1
@@ -208,15 +205,15 @@ aI1
 aI1
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0020500097
-p40
+p39
 aVNOV 14, 2005
-p41
+p40
 aVGSW vs. CHI
-p42
+p41
 aVW
-p43
+p42
 aI9
 aI2
 aI3
@@ -237,15 +234,15 @@ aI0
 aI4
 aI4
 aI2
-aa(lp44
+aa(lp43
 V0020500116
-p45
+p44
 aVNOV 16, 2005
-p46
+p45
 aVGSW vs. MIL
-p47
+p46
 aVL
-p48
+p47
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0020500129
-p50
+p49
 aVNOV 18, 2005
-p51
+p50
 aVGSW @ POR
-p52
+p51
 aVW
-p53
+p52
 aI9
 aI1
 aI2
@@ -295,15 +292,15 @@ aI0
 aI1
 aI2
 aI-5
-aa(lp54
+aa(lp53
 V0020500141
-p55
+p54
 aVNOV 20, 2005
-p56
+p55
 aVGSW @ LAC
-p57
+p56
 aVL
-p58
+p57
 aI4
 aI1
 aI1
@@ -324,15 +321,15 @@ aI0
 aI2
 aI2
 aI5
-aa(lp59
+aa(lp58
 V0020500166
-p60
+p59
 aVNOV 23, 2005
-p61
+p60
 aVGSW vs. SAS
-p62
+p61
 aVL
-p63
+p62
 aI6
 aI2
 aI3
@@ -353,15 +350,15 @@ aI1
 aI1
 aI4
 aI10
-aa(lp64
+aa(lp63
 V0020500189
-p65
+p64
 aVNOV 26, 2005
-p66
+p65
 aVGSW vs. TOR
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI7
-aa(lp69
+aa(lp68
 V0020500197
-p70
+p69
 aVNOV 28, 2005
-p71
+p70
 aVGSW vs. NOK
-p72
+p71
 aVW
-p73
+p72
 aI3
 aI1
 aI1
@@ -411,15 +408,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp74
+aa(lp73
 V0020500429
-p75
+p74
 aVDEC 31, 2005
-p76
+p75
 aVGSW @ HOU
-p77
+p76
 aVW
-p78
+p77
 aI7
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI2
 aI7
-aa(lp79
+aa(lp78
 V0020500444
-p80
+p79
 aVJAN 03, 2006
-p81
+p80
 aVGSW @ MEM
-p82
+p81
 aVL
-p83
+p82
 aI9
 aI2
 aI3
@@ -469,15 +466,15 @@ aI0
 aI2
 aI4
 aI-3
-aa(lp84
+aa(lp83
 V0020500509
-p85
+p84
 aVJAN 11, 2006
-p86
+p85
 aVGSW vs. MIA
-p87
+p86
 aVL
-p88
+p87
 aI6
 aI1
 aI1
@@ -499,10 +496,25 @@ aI1
 aI2
 aI0
 aasS'name'
-p89
+p88
 VChris Taft
+p89
+sS'weight'
 p90
-sS'experience'
+V261
 p91
+sS'age'
+p92
+I20
+sS'experience'
+p93
 I0
+sS'height'
+p94
+V6-10
+p95
+sS'position'
+p96
+VForward
+p97
 s.

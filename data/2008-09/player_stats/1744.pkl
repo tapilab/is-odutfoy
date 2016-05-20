@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800345
-p5
+p4
 aVDEC 13, 2008
-p6
+p5
 aVNYK @ SAC
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI1
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0020800382
-p10
+p9
 aVDEC 19, 2008
-p11
+p10
 aVNYK vs. MIL
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI2
 aI5
@@ -64,10 +61,25 @@ aI1
 aI4
 aI-1
 aasS'name'
-p14
+p13
 VJerome James
+p14
+sS'weight'
 p15
-sS'experience'
+V285
 p16
+sS'age'
+p17
+I33
+sS'experience'
+p18
 I10
+sS'height'
+p19
+V7-1
+p20
+sS'position'
+p21
+VCenter
+p22
 s.

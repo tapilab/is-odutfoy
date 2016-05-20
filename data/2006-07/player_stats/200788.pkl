@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600690
-p5
+p4
 aVFEB 02, 2007
-p6
+p5
 aVORL vs. NJN
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI3
-aa(lp9
+aa(lp8
 V0020600778
-p10
+p9
 aVFEB 14, 2007
-p11
+p10
 aVORL vs. POR
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI2
@@ -64,10 +61,25 @@ aI1
 aI0
 aI-4
 aasS'name'
-p14
+p13
 VJames Augustine
+p14
+sS'weight'
 p15
-sS'experience'
+V235
 p16
+sS'age'
+p17
+I22
+sS'experience'
+p18
 I0
+sS'height'
+p19
+V6-10
+p20
+sS'position'
+p21
+VForward
+p22
 s.

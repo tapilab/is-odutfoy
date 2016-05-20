@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I18
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500602
-p5
+p4
 aVJAN 24, 2006
-p6
+p5
 aVDET @ MIN
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI2
 aI2
 aI2
 aI-4
-aa(lp9
+aa(lp8
 V0020501207
-p10
+p9
 aVAPR 17, 2006
-p11
+p10
 aVDET @ MIL
-p12
+p11
 aVL
-p13
+p12
 aI18
 aI6
 aI6
@@ -63,15 +60,15 @@ aI1
 aI3
 aI18
 aI0
-aa(lp14
+aa(lp13
 V0020501222
-p15
+p14
 aVAPR 19, 2006
-p16
+p15
 aVDET vs. WAS
-p17
+p16
 aVL
-p18
+p17
 aI16
 aI0
 aI2
@@ -93,10 +90,25 @@ aI2
 aI0
 aI-18
 aasS'name'
-p19
+p18
 VAmir Johnson
+p19
+sS'weight'
 p20
-sS'experience'
+V240
 p21
+sS'age'
+p22
+I18
+sS'experience'
+p23
 I0
+sS'height'
+p24
+V6-9
+p25
+sS'position'
+p26
+VForward
+p27
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800077
-p5
+p4
 aVNOV 07, 2008
-p6
+p5
 aVGSW vs. MEM
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI0
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp9
+aa(lp8
 V0020800091
-p10
+p9
 aVNOV 09, 2008
-p11
+p10
 aVGSW @ SAC
-p12
+p11
 aVL
-p13
+p12
 aI9
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI2
 aI0
 aI3
-aa(lp14
+aa(lp13
 V0020800119
-p15
+p14
 aVNOV 13, 2008
-p16
+p15
 aVGSW vs. DET
-p17
+p16
 aVL
-p18
+p17
 aI4
 aI0
 aI1
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020800182
-p20
+p19
 aVNOV 21, 2008
-p21
+p20
 aVGSW vs. CHI
-p22
+p21
 aVL
-p23
+p22
 aI4
 aI1
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI-4
-aa(lp24
+aa(lp23
 V0020800335
-p25
+p24
 aVDEC 12, 2008
-p26
+p25
 aVGSW vs. HOU
-p27
+p26
 aVL
-p28
+p27
 aI10
 aI0
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI2
 aI7
-aa(lp29
+aa(lp28
 V0020800343
-p30
+p29
 aVDEC 13, 2008
-p31
+p30
 aVGSW @ DEN
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI0
 aI0
 aI4
-aa(lp34
+aa(lp33
 V0020800403
-p35
+p34
 aVDEC 22, 2008
-p36
+p35
 aVGSW @ ORL
-p37
+p36
 aVL
-p38
+p37
 aI9
 aI2
 aI4
@@ -208,15 +205,15 @@ aI1
 aI0
 aI5
 aI-9
-aa(lp39
+aa(lp38
 V0020800588
-p40
+p39
 aVJAN 16, 2009
-p41
+p40
 aVGSW vs. ATL
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI1
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI3
 aI0
-aa(lp44
+aa(lp43
 V0020800654
-p45
+p44
 aVJAN 25, 2009
-p46
+p45
 aVGSW vs. LAC
-p47
+p46
 aVW
-p48
+p47
 aI4
 aI0
 aI1
@@ -267,10 +264,25 @@ aI1
 aI0
 aI-6
 aasS'name'
-p49
+p48
 VMarcus Williams
+p49
+sS'weight'
 p50
-sS'experience'
+V205
 p51
+sS'age'
+p52
+I23
+sS'experience'
+p53
 I2
+sS'height'
+p54
+V6-3
+p55
+sS'position'
+p56
+VGuard
+p57
 s.

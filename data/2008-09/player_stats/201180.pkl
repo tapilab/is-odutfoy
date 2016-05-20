@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800300
-p5
+p4
 aVDEC 07, 2008
-p6
+p5
 aVLAL vs. MIL
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI2
 aI3
@@ -34,15 +31,15 @@ aI2
 aI4
 aI4
 aI-10
-aa(lp9
+aa(lp8
 V0020800449
-p10
+p9
 aVDEC 28, 2008
-p11
+p10
 aVLAL vs. GSW
-p12
+p11
 aVW
-p13
+p12
 aI7
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp14
+aa(lp13
 V0020800500
-p15
+p14
 aVJAN 04, 2009
-p16
+p15
 aVLAL vs. POR
-p17
+p16
 aVW
-p18
+p17
 aI1
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp19
+aa(lp18
 V0020800525
-p20
+p19
 aVJAN 07, 2009
-p21
+p20
 aVLAL @ GSW
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI-9
-aa(lp24
+aa(lp23
 V0020800538
-p25
+p24
 aVJAN 09, 2009
-p26
+p25
 aVLAL vs. IND
+p26
+aVW
 p27
-aVW
-p28
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020800562
-p30
+p29
 aVJAN 13, 2009
-p31
+p30
 aVLAL @ HOU
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp34
+aa(lp33
 V0020800574
-p35
+p34
 aVJAN 14, 2009
-p36
+p35
 aVLAL @ SAS
-p37
+p36
 aVL
-p38
+p37
 aI1
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0020800612
-p40
+p39
 aVJAN 19, 2009
-p41
+p40
 aVLAL vs. CLE
+p41
+aVW
 p42
-aVW
-p43
 aI1
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp44
+aa(lp43
 V0020800629
-p45
+p44
 aVJAN 22, 2009
-p46
+p45
 aVLAL vs. WAS
-p47
+p46
 aVW
-p48
+p47
 aI5
 aI0
 aI3
@@ -266,15 +263,15 @@ aI0
 aI3
 aI0
 aI-11
-aa(lp49
+aa(lp48
 V0020800709
-p50
+p49
 aVFEB 02, 2009
-p51
+p50
 aVLAL @ NYK
-p52
+p51
 aVW
-p53
+p52
 aI2
 aI0
 aI0
@@ -296,10 +293,25 @@ aI1
 aI0
 aI-8
 aasS'name'
-p54
+p53
 VSun Yue
+p54
+sS'weight'
 p55
-sS'experience'
+V205
 p56
+sS'age'
+p57
+I23
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V6-9
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

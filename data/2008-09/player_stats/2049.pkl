@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020801214
-p5
+p4
 aVAPR 14, 2009
-p6
+p5
 aVATL vs. MIA
-p7
+p6
 aVW
-p8
+p7
 aI7
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI1
 aI1
 aI6
-aa(lp9
+aa(lp8
 V0020801222
-p10
+p9
 aVAPR 15, 2009
-p11
+p10
 aVATL @ MEM
-p12
+p11
 aVL
-p13
+p12
 aI8
 aI2
 aI5
@@ -64,10 +61,25 @@ aI0
 aI4
 aI-11
 aasS'name'
-p14
+p13
 VSpeedy Claxton
+p14
+sS'weight'
 p15
-sS'experience'
+V170
 p16
+sS'age'
+p17
+I30
+sS'experience'
+p18
 I7
+sS'height'
+p19
+V5-11
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

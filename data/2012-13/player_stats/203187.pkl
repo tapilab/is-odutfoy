@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200621
-p5
+p4
 aVJAN 23, 2013
-p6
+p5
 aVMEM vs. LAL
-p7
+p6
 aVW
-p8
+p7
 aI7
 aI2
 aI4
@@ -34,15 +31,15 @@ aI0
 aI0
 aI4
 aI7
-aa(lp9
+aa(lp8
 V0021200637
-p10
+p9
 aVJAN 25, 2013
-p11
+p10
 aVMEM vs. BKN
-p12
+p11
 aVW
-p13
+p12
 aI22
 aI4
 aI6
@@ -63,15 +60,15 @@ aI1
 aI1
 aI10
 aI21
-aa(lp14
+aa(lp13
 V0021200655
-p15
+p14
 aVJAN 27, 2013
-p16
+p15
 aVMEM vs. NOH
-p17
+p16
 aVL
-p18
+p17
 aI16
 aI2
 aI5
@@ -92,15 +89,15 @@ aI1
 aI0
 aI6
 aI8
-aa(lp19
+aa(lp18
 V0021200660
-p20
+p19
 aVJAN 28, 2013
-p21
+p20
 aVMEM @ PHI
-p22
+p21
 aVW
-p23
+p22
 aI26
 aI3
 aI4
@@ -121,15 +118,15 @@ aI0
 aI1
 aI8
 aI19
-aa(lp24
+aa(lp23
 V0021200682
-p25
+p24
 aVJAN 31, 2013
-p26
+p25
 aVMEM @ OKC
-p27
+p26
 aVL
-p28
+p27
 aI21
 aI0
 aI6
@@ -150,15 +147,15 @@ aI1
 aI3
 aI1
 aI-16
-aa(lp29
+aa(lp28
 V0021200717
-p30
+p29
 aVFEB 05, 2013
-p31
+p30
 aVMEM vs. PHX
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0021200725
-p35
+p34
 aVFEB 06, 2013
-p36
+p35
 aVMEM @ ATL
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0021200757
-p40
+p39
 aVFEB 10, 2013
-p41
+p40
 aVMEM vs. MIN
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI0
 aI0
@@ -238,10 +235,25 @@ aI0
 aI0
 aI-1
 aasS'name'
-p44
+p43
 VChris Johnson
+p44
+sS'weight'
 p45
-sS'experience'
+V206
 p46
+sS'age'
+p47
+I22
+sS'experience'
+p48
 I0
+sS'height'
+p49
+V6-6
+p50
+sS'position'
+p51
+VForward
+p52
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900541
-p5
+p4
 aVJAN 10, 2010
-p6
+p5
 aVSAS vs. NJN
-p7
+p6
 aVW
-p8
+p7
 aI21
 aI6
 aI6
@@ -34,15 +31,15 @@ aI1
 aI5
 aI15
 aI1
-aa(lp9
+aa(lp8
 V0020900571
-p10
+p9
 aVJAN 15, 2010
-p11
+p10
 aVSAS @ CHA
-p12
+p11
 aVL
-p13
+p12
 aI5
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp14
+aa(lp13
 V0020900588
-p15
+p14
 aVJAN 16, 2010
-p16
+p15
 aVSAS @ MEM
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI0
 aI3
@@ -92,15 +89,15 @@ aI0
 aI4
 aI1
 aI-5
-aa(lp19
+aa(lp18
 V0020900671
-p20
+p19
 aVJAN 27, 2010
-p21
+p20
 aVSAS vs. ATL
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0020900695
-p25
+p24
 aVJAN 31, 2010
-p26
+p25
 aVSAS vs. DEN
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp29
+aa(lp28
 V0020900780
-p30
+p29
 aVFEB 11, 2010
-p31
+p30
 aVSAS @ DEN
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI3
 aI1
 aI4
 aI-2
-aa(lp34
+aa(lp33
 V0020900805
-p35
+p34
 aVFEB 19, 2010
-p36
+p35
 aVSAS @ PHI
-p37
+p36
 aVL
-p38
+p37
 aI2
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI2
 aI2
-aa(lp39
+aa(lp38
 V0020900866
-p40
+p39
 aVFEB 26, 2010
-p41
+p40
 aVSAS @ HOU
-p42
+p41
 aVL
-p43
+p42
 aI10
 aI3
 aI3
@@ -237,15 +234,15 @@ aI1
 aI3
 aI8
 aI8
-aa(lp44
+aa(lp43
 V0020900891
-p45
+p44
 aVMAR 01, 2010
-p46
+p45
 aVSAS @ NOH
+p46
+aVW
 p47
-aVW
-p48
 aI1
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp49
+aa(lp48
 V0020900923
-p50
+p49
 aVMAR 05, 2010
-p51
+p50
 aVSAS vs. NOH
-p52
+p51
 aVW
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0020900940
-p55
+p54
 aVMAR 08, 2010
-p56
+p55
 aVSAS @ CLE
-p57
+p56
 aVL
-p58
+p57
 aI5
 aI0
 aI1
@@ -324,15 +321,15 @@ aI3
 aI1
 aI1
 aI2
-aa(lp59
+aa(lp58
 V0020900970
-p60
+p59
 aVMAR 12, 2010
-p61
+p60
 aVSAS @ MIN
-p62
+p61
 aVW
-p63
+p62
 aI4
 aI2
 aI2
@@ -353,15 +350,15 @@ aI0
 aI2
 aI4
 aI-3
-aa(lp64
+aa(lp63
 V0020900981
-p65
+p64
 aVMAR 13, 2010
-p66
+p65
 aVSAS vs. LAC
-p67
+p66
 aVW
-p68
+p67
 aI8
 aI3
 aI5
@@ -382,15 +379,15 @@ aI1
 aI2
 aI7
 aI3
-aa(lp69
+aa(lp68
 V0020900999
-p70
+p69
 aVMAR 16, 2010
-p71
+p70
 aVSAS @ MIA
-p72
+p71
 aVW
-p73
+p72
 aI2
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp74
+aa(lp73
 V0020901010
-p75
+p74
 aVMAR 17, 2010
-p76
+p75
 aVSAS @ ORL
-p77
+p76
 aVL
-p78
+p77
 aI12
 aI4
 aI7
@@ -440,15 +437,15 @@ aI0
 aI0
 aI10
 aI-4
-aa(lp79
+aa(lp78
 V0020901024
-p80
+p79
 aVMAR 19, 2010
-p81
+p80
 aVSAS vs. GSW
-p82
+p81
 aVW
-p83
+p82
 aI13
 aI6
 aI9
@@ -469,15 +466,15 @@ aI1
 aI2
 aI12
 aI5
-aa(lp84
+aa(lp83
 V0020901066
-p85
+p84
 aVMAR 24, 2010
-p86
+p85
 aVSAS vs. LAL
-p87
+p86
 aVL
-p88
+p87
 aI1
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp89
+aa(lp88
 V0020901095
-p90
+p89
 aVMAR 28, 2010
-p91
+p90
 aVSAS @ BOS
-p92
+p91
 aVW
-p93
+p92
 aI3
 aI0
 aI0
@@ -527,15 +524,15 @@ aI1
 aI1
 aI2
 aI-1
-aa(lp94
+aa(lp93
 V0020901117
-p95
+p94
 aVMAR 31, 2010
-p96
+p95
 aVSAS vs. HOU
-p97
+p96
 aVW
-p98
+p97
 aI4
 aI0
 aI1
@@ -556,15 +553,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp99
+aa(lp98
 V0020901129
-p100
+p99
 aVAPR 02, 2010
-p101
+p100
 aVSAS vs. ORL
+p101
+aVW
 p102
-aVW
-p103
 aI0
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp104
+aa(lp103
 V0020901142
-p105
+p104
 aVAPR 04, 2010
-p106
+p105
 aVSAS @ LAL
-p107
+p106
 aVW
-p108
+p107
 aI2
 aI0
 aI0
@@ -614,15 +611,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp109
+aa(lp108
 V0020901157
-p110
+p109
 aVAPR 06, 2010
-p111
+p110
 aVSAS @ SAC
-p112
+p111
 aVW
-p113
+p112
 aI1
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp114
+aa(lp113
 V0020901185
-p115
+p114
 aVAPR 09, 2010
-p116
+p115
 aVSAS vs. MEM
-p117
+p116
 aVL
-p118
+p117
 aI8
 aI2
 aI3
@@ -672,15 +669,15 @@ aI1
 aI1
 aI4
 aI-5
-aa(lp119
+aa(lp118
 V0020901192
-p120
+p119
 aVAPR 10, 2010
-p121
+p120
 aVSAS @ DEN
-p122
+p121
 aVW
-p123
+p122
 aI5
 aI0
 aI0
@@ -701,15 +698,15 @@ aI1
 aI1
 aI5
 aI-1
-aa(lp124
+aa(lp123
 V0020901208
-p125
+p124
 aVAPR 12, 2010
-p126
+p125
 aVSAS vs. MIN
-p127
+p126
 aVW
-p128
+p127
 aI20
 aI4
 aI7
@@ -730,15 +727,15 @@ aI1
 aI6
 aI14
 aI1
-aa(lp129
+aa(lp128
 V0020901220
-p130
+p129
 aVAPR 14, 2010
-p131
+p130
 aVSAS @ DAL
-p132
+p131
 aVL
-p133
+p132
 aI15
 aI3
 aI4
@@ -760,10 +757,25 @@ aI1
 aI8
 aI-9
 aasS'name'
-p134
+p133
 VIan Mahinmi
+p134
+sS'weight'
 p135
-sS'experience'
+V250
 p136
+sS'age'
+p137
+I23
+sS'experience'
+p138
 I2
+sS'height'
+p139
+V6-11
+p140
+sS'position'
+p141
+VCenter
+p142
 s.

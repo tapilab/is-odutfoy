@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200016
-p5
+p4
 aVNOV 02, 2012
-p6
+p5
 aVORL vs. DEN
-p7
+p6
 aVW
-p8
+p7
 aI17
 aI3
 aI4
@@ -34,15 +31,15 @@ aI0
 aI3
 aI6
 aI-2
-aa(lp9
+aa(lp8
 V0021200439
-p10
+p9
 aVDEC 29, 2012
-p11
+p10
 aVORL vs. TOR
-p12
+p11
 aVL
-p13
+p12
 aI23
 aI3
 aI8
@@ -63,15 +60,15 @@ aI2
 aI0
 aI8
 aI-37
-aa(lp14
+aa(lp13
 V0021200454
-p15
+p14
 aVDEC 31, 2012
-p16
+p15
 aVORL vs. MIA
-p17
+p16
 aVL
-p18
+p17
 aI39
 aI4
 aI11
@@ -92,15 +89,15 @@ aI5
 aI3
 aI9
 aI9
-aa(lp19
+aa(lp18
 V0021200465
-p20
+p19
 aVJAN 02, 2013
-p21
+p20
 aVORL vs. CHI
-p22
+p21
 aVL
-p23
+p22
 aI18
 aI0
 aI3
@@ -121,15 +118,15 @@ aI0
 aI3
 aI0
 aI4
-aa(lp24
+aa(lp23
 V0021200490
-p25
+p24
 aVJAN 05, 2013
-p26
+p25
 aVORL vs. NYK
-p27
+p26
 aVL
-p28
+p27
 aI18
 aI0
 aI5
@@ -150,15 +147,15 @@ aI2
 aI0
 aI1
 aI-13
-aa(lp29
+aa(lp28
 V0021200510
-p30
+p29
 aVJAN 07, 2013
-p31
+p30
 aVORL @ POR
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0021200662
-p35
+p34
 aVJAN 28, 2013
-p36
+p35
 aVORL @ BKN
-p37
+p36
 aVL
-p38
+p37
 aI12
 aI2
 aI5
@@ -208,15 +205,15 @@ aI1
 aI1
 aI4
 aI-13
-aa(lp39
+aa(lp38
 V0021200673
-p40
+p39
 aVJAN 30, 2013
-p41
+p40
 aVORL @ NYK
-p42
+p41
 aVL
-p43
+p42
 aI16
 aI1
 aI5
@@ -237,15 +234,15 @@ aI1
 aI0
 aI2
 aI-9
-aa(lp44
+aa(lp43
 V0021200686
-p45
+p44
 aVFEB 01, 2013
-p46
+p45
 aVORL @ BOS
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI0
 aI6
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-19
-aa(lp49
+aa(lp48
 V0021200701
-p50
+p49
 aVFEB 02, 2013
-p51
+p50
 aVORL @ MIL
-p52
+p51
 aVL
-p53
+p52
 aI5
 aI1
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI2
 aI-6
-aa(lp54
+aa(lp53
 V0021200708
-p55
+p54
 aVFEB 04, 2013
-p56
+p55
 aVORL @ PHI
-p57
+p56
 aVL
-p58
+p57
 aI18
 aI0
 aI3
@@ -325,10 +322,25 @@ aI0
 aI0
 aI5
 aasS'name'
-p59
+p58
 VHedo Turkoglu
+p59
+sS'weight'
 p60
-sS'experience'
+V220
 p61
+sS'age'
+p62
+I33
+sS'experience'
+p63
 I12
+sS'height'
+p64
+V6-10
+p65
+sS'position'
+p66
+VForward
+p67
 s.

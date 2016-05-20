@@ -25,7 +25,7 @@ Features :
 6 : FG3_PCT (3 pointers %)
 7 : FTM (free throws made)
 8 : FTA (free throws attempted)
-9 : FT_PCT (free throws percentage)
+9 : FT_PCT (free throws %)
 10 : OREB (offensive rebound)
 11 : DREB (defensive rebound)
 12 : REB (rebounds)

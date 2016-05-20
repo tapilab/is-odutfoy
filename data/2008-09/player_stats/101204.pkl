@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800236
-p5
+p4
 aVNOV 29, 2008
-p6
+p5
 aVCHA vs. BOS
-p7
+p6
 aVL
-p8
+p7
 aI13
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI2
 aI1
 aI2
-aa(lp9
+aa(lp8
 V0020800252
-p10
+p9
 aVDEC 01, 2008
-p11
+p10
 aVCHA vs. MIN
-p12
+p11
 aVW
-p13
+p12
 aI7
 aI1
 aI1
@@ -63,15 +60,15 @@ aI1
 aI2
 aI3
 aI0
-aa(lp14
+aa(lp13
 V0020800264
-p15
+p14
 aVDEC 03, 2008
-p16
+p15
 aVCHA vs. OKC
-p17
+p16
 aVW
-p18
+p17
 aI6
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI1
 aI4
 aI-5
-aa(lp19
+aa(lp18
 V0020800287
-p20
+p19
 aVDEC 06, 2008
-p21
+p20
 aVCHA vs. CLE
-p22
+p21
 aVL
-p23
+p22
 aI18
 aI1
 aI3
@@ -121,15 +118,15 @@ aI2
 aI0
 aI2
 aI7
-aa(lp24
+aa(lp23
 V0020800301
-p25
+p24
 aVDEC 08, 2008
-p26
+p25
 aVCHA @ MIA
-p27
+p26
 aVL
-p28
+p27
 aI3
 aI1
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp29
+aa(lp28
 V0020800316
-p30
+p29
 aVDEC 10, 2008
-p31
+p30
 aVCHA @ NOH
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI0
 aI0
@@ -180,10 +177,25 @@ aI1
 aI0
 aI-5
 aasS'name'
-p34
+p33
 VDwayne Jones
+p34
+sS'weight'
 p35
-sS'experience'
+V248
 p36
+sS'age'
+p37
+I25
+sS'experience'
+p38
 I3
+sS'height'
+p39
+V6-11
+p40
+sS'position'
+p41
+VForward-Center
+p42
 s.

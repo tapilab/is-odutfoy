@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700574
-p5
+p4
 aVJAN 18, 2008
-p6
+p5
 aVNYK @ WAS
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI4
 aI2
-aa(lp9
+aa(lp8
 V0020700595
-p10
+p9
 aVJAN 21, 2008
-p11
+p10
 aVNYK vs. BOS
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -64,10 +61,25 @@ aI0
 aI0
 aI4
 aasS'name'
-p14
+p13
 VJerome James
+p14
+sS'weight'
 p15
-sS'experience'
+V285
 p16
+sS'age'
+p17
+I32
+sS'experience'
+p18
 I9
+sS'height'
+p19
+V7-1
+p20
+sS'position'
+p21
+VCenter
+p22
 s.

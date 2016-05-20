@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800038
-p5
+p4
 aVNOV 01, 2008
-p6
+p5
 aVUTA vs. LAC
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI2
 aI3
@@ -34,15 +31,15 @@ aI0
 aI0
 aI5
 aI-4
-aa(lp9
+aa(lp8
 V0020800047
-p10
+p9
 aVNOV 03, 2008
-p11
+p10
 aVUTA @ LAC
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp14
+aa(lp13
 V0020800135
-p15
+p14
 aVNOV 15, 2008
-p16
+p15
 aVUTA @ CLE
-p17
+p16
 aVL
-p18
+p17
 aI21
 aI2
 aI5
@@ -92,15 +89,15 @@ aI2
 aI5
 aI7
 aI6
-aa(lp19
+aa(lp18
 V0020800167
-p20
+p19
 aVNOV 19, 2008
-p21
+p20
 aVUTA vs. MIL
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI9
-aa(lp24
+aa(lp23
 V0020800179
-p25
+p24
 aVNOV 21, 2008
-p26
+p25
 aVUTA @ SAS
-p27
+p26
 aVL
-p28
+p27
 aI17
 aI4
 aI6
@@ -150,15 +147,15 @@ aI0
 aI1
 aI9
 aI-7
-aa(lp29
+aa(lp28
 V0020800190
-p30
+p29
 aVNOV 22, 2008
-p31
+p30
 aVUTA @ MEM
-p32
+p31
 aVW
-p33
+p32
 aI15
 aI3
 aI6
@@ -179,15 +176,15 @@ aI0
 aI3
 aI11
 aI13
-aa(lp34
+aa(lp33
 V0020800202
-p35
+p34
 aVNOV 24, 2008
-p36
+p35
 aVUTA vs. CHI
-p37
+p36
 aVL
-p38
+p37
 aI14
 aI2
 aI5
@@ -208,15 +205,15 @@ aI0
 aI0
 aI4
 aI-5
-aa(lp39
+aa(lp38
 V0020800219
-p40
+p39
 aVNOV 26, 2008
-p41
+p40
 aVUTA vs. MEM
-p42
+p41
 aVW
-p43
+p42
 aI13
 aI2
 aI3
@@ -237,15 +234,15 @@ aI2
 aI3
 aI4
 aI-18
-aa(lp44
+aa(lp43
 V0020800233
-p45
+p44
 aVNOV 28, 2008
-p46
+p45
 aVUTA vs. SAC
-p47
+p46
 aVW
-p48
+p47
 aI12
 aI1
 aI5
@@ -266,15 +263,15 @@ aI0
 aI2
 aI2
 aI-7
-aa(lp49
+aa(lp48
 V0020800244
-p50
+p49
 aVNOV 29, 2008
-p51
+p50
 aVUTA vs. NJN
-p52
+p51
 aVL
-p53
+p52
 aI8
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp54
+aa(lp53
 V0020800262
-p55
+p54
 aVDEC 02, 2008
-p56
+p55
 aVUTA @ SAC
-p57
+p56
 aVW
-p58
+p57
 aI26
 aI5
 aI9
@@ -324,15 +321,15 @@ aI2
 aI4
 aI12
 aI14
-aa(lp59
+aa(lp58
 V0020800273
-p60
+p59
 aVDEC 03, 2008
-p61
+p60
 aVUTA vs. MIA
-p62
+p61
 aVL
-p63
+p62
 aI24
 aI3
 aI10
@@ -353,15 +350,15 @@ aI1
 aI4
 aI10
 aI-4
-aa(lp64
+aa(lp63
 V0020800286
-p65
+p64
 aVDEC 05, 2008
-p66
+p65
 aVUTA vs. TOR
-p67
+p66
 aVW
-p68
+p67
 aI15
 aI1
 aI5
@@ -382,15 +379,15 @@ aI3
 aI1
 aI4
 aI5
-aa(lp69
+aa(lp68
 V0020800307
-p70
+p69
 aVDEC 09, 2008
-p71
+p70
 aVUTA @ MIN
-p72
+p71
 aVW
-p73
+p72
 aI13
 aI1
 aI3
@@ -411,15 +408,15 @@ aI0
 aI3
 aI4
 aI-8
-aa(lp74
+aa(lp73
 V0020800344
-p75
+p74
 aVDEC 13, 2008
-p76
+p75
 aVUTA vs. ORL
-p77
+p76
 aVL
-p78
+p77
 aI19
 aI2
 aI8
@@ -440,15 +437,15 @@ aI3
 aI1
 aI5
 aI-12
-aa(lp79
+aa(lp78
 V0020800371
-p80
+p79
 aVDEC 17, 2008
-p81
+p80
 aVUTA @ NJN
-p82
+p81
 aVW
-p83
+p82
 aI8
 aI1
 aI4
@@ -469,15 +466,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp84
+aa(lp83
 V0020800416
-p85
+p84
 aVDEC 23, 2008
-p86
+p85
 aVUTA @ MIL
-p87
+p86
 aVL
-p88
+p87
 aI13
 aI2
 aI2
@@ -498,15 +495,15 @@ aI1
 aI1
 aI5
 aI-2
-aa(lp89
+aa(lp88
 V0020800456
-p90
+p89
 aVDEC 29, 2008
-p91
+p90
 aVUTA vs. PHI
-p92
+p91
 aVW
-p93
+p92
 aI5
 aI0
 aI1
@@ -527,15 +524,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp94
+aa(lp93
 V0020800544
-p95
+p94
 aVJAN 10, 2009
-p96
+p95
 aVUTA vs. DET
-p97
+p96
 aVW
-p98
+p97
 aI7
 aI0
 aI3
@@ -556,15 +553,15 @@ aI0
 aI1
 aI0
 aI-10
-aa(lp99
+aa(lp98
 V0020800558
-p100
+p99
 aVJAN 12, 2009
-p101
+p100
 aVUTA vs. IND
-p102
+p101
 aVW
-p103
+p102
 aI4
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp104
+aa(lp103
 V0020800572
-p105
+p104
 aVJAN 14, 2009
-p106
+p105
 aVUTA @ OKC
-p107
+p106
 aVL
-p108
+p107
 aI2
 aI0
 aI1
@@ -614,15 +611,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp109
+aa(lp108
 V0020800712
-p110
+p109
 aVFEB 02, 2009
-p111
+p110
 aVUTA vs. CHA
+p111
+aVW
 p112
-aVW
-p113
 aI1
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp114
+aa(lp113
 V0020800733
-p115
+p114
 aVFEB 05, 2009
-p116
+p115
 aVUTA vs. DAL
+p116
+aVW
 p117
-aVW
-p118
 aI5
 aI2
 aI2
@@ -672,15 +669,15 @@ aI1
 aI0
 aI5
 aI1
-aa(lp119
+aa(lp118
 V0020800741
-p120
+p119
 aVFEB 06, 2009
-p121
+p120
 aVUTA @ SAC
-p122
+p121
 aVW
-p123
+p122
 aI0
 aI0
 aI0
@@ -701,15 +698,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp124
+aa(lp123
 V0020800759
-p125
+p124
 aVFEB 08, 2009
-p126
+p125
 aVUTA @ GSW
-p127
+p126
 aVL
-p128
+p127
 aI4
 aI0
 aI0
@@ -731,10 +728,25 @@ aI0
 aI1
 aI2
 aasS'name'
-p129
+p128
 VMorris Almond
+p129
+sS'weight'
 p130
-sS'experience'
+V225
 p131
+sS'age'
+p132
+I23
+sS'experience'
+p133
 I1
+sS'height'
+p134
+V6-6
+p135
+sS'position'
+p136
+VGuard
+p137
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500782
-p5
+p4
 aVFEB 21, 2006
-p6
+p5
 aVDET vs. ATL
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020500800
-p10
+p9
 aVFEB 23, 2006
-p11
+p10
 aVDET vs. IND
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI-8
-aa(lp14
+aa(lp13
 V0020500822
-p15
+p14
 aVFEB 26, 2006
-p16
+p15
 aVDET vs. CLE
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI1
 aI2
 aI-9
-aa(lp19
+aa(lp18
 V0020501207
-p20
+p19
 aVAPR 17, 2006
-p21
+p20
 aVDET @ MIL
-p22
+p21
 aVL
-p23
+p22
 aI19
 aI2
 aI8
@@ -121,15 +118,15 @@ aI1
 aI2
 aI4
 aI-6
-aa(lp24
+aa(lp23
 V0020501222
-p25
+p24
 aVAPR 19, 2006
-p26
+p25
 aVDET vs. WAS
-p27
+p26
 aVL
-p28
+p27
 aI13
 aI1
 aI5
@@ -151,10 +148,25 @@ aI1
 aI3
 aI-8
 aasS'name'
-p29
+p28
 VAlex Acker
+p29
+sS'weight'
 p30
-sS'experience'
+V185
 p31
+sS'age'
+p32
+I22
+sS'experience'
+p33
 I0
+sS'height'
+p34
+V6-5
+p35
+sS'position'
+p36
+VGuard
+p37
 s.

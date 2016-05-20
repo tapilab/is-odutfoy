@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200218
-p5
+p4
 aVNOV 28, 2012
-p6
+p5
 aVHOU @ OKC
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp9
+aa(lp8
 V0021200394
-p10
+p9
 aVDEC 22, 2012
-p11
+p10
 aVHOU vs. MEM
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI1
 aI1
@@ -63,15 +60,15 @@ aI2
 aI0
 aI2
 aI1
-aa(lp14
+aa(lp13
 V0021200408
-p15
+p14
 aVDEC 25, 2012
-p16
+p15
 aVHOU @ CHI
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI0
 aI2
@@ -92,15 +89,15 @@ aI2
 aI0
 aI0
 aI1
-aa(lp19
+aa(lp18
 V0021200443
-p20
+p19
 aVDEC 29, 2012
-p21
+p20
 aVHOU vs. OKC
-p22
+p21
 aVL
-p23
+p22
 aI7
 aI1
 aI2
@@ -121,15 +118,15 @@ aI2
 aI0
 aI2
 aI-5
-aa(lp24
+aa(lp23
 V0021200455
-p25
+p24
 aVDEC 31, 2012
-p26
+p25
 aVHOU vs. ATL
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp29
+aa(lp28
 V0021200486
-p30
+p29
 aVJAN 04, 2013
-p31
+p30
 aVHOU @ MIL
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -180,10 +177,25 @@ aI0
 aI2
 aI-4
 aasS'name'
-p34
+p33
 VScott Machado
+p34
+sS'weight'
 p35
-sS'experience'
+V205
 p36
+sS'age'
+p37
+I22
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-1
+p40
+sS'position'
+p41
+VGuard
+p42
 s.

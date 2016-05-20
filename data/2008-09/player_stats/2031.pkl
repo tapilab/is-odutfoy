@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800244
-p5
+p4
 aVNOV 29, 2008
-p6
+p5
 aVNJN @ UTA
-p7
+p6
 aVW
-p8
+p7
 aI9
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI3
 aI3
 aI11
-aa(lp9
+aa(lp8
 V0020800250
-p10
+p9
 aVNOV 30, 2008
-p11
+p10
 aVNJN @ PHX
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI3
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0020800256
-p15
+p14
 aVDEC 02, 2008
-p16
+p15
 aVNJN vs. WAS
-p17
+p16
 aVL
-p18
+p17
 aI6
 aI0
 aI0
@@ -92,15 +89,15 @@ aI2
 aI1
 aI1
 aI-6
-aa(lp19
+aa(lp18
 V0020800280
-p20
+p19
 aVDEC 05, 2008
-p21
+p20
 aVNJN vs. MIN
-p22
+p21
 aVW
-p23
+p22
 aI16
 aI3
 aI3
@@ -121,15 +118,15 @@ aI1
 aI4
 aI8
 aI14
-aa(lp24
+aa(lp23
 V0020800289
-p25
+p24
 aVDEC 06, 2008
-p26
+p25
 aVNJN @ PHI
-p27
+p26
 aVW
-p28
+p27
 aI17
 aI3
 aI5
@@ -150,15 +147,15 @@ aI1
 aI1
 aI7
 aI-9
-aa(lp29
+aa(lp28
 V0020800315
-p30
+p29
 aVDEC 10, 2008
-p31
+p30
 aVNJN vs. NYK
-p32
+p31
 aVL
-p33
+p32
 aI12
 aI2
 aI4
@@ -179,15 +176,15 @@ aI2
 aI3
 aI4
 aI-6
-aa(lp34
+aa(lp33
 V0020800923
-p35
+p34
 aVMAR 06, 2009
-p36
+p35
 aVPHX @ HOU
-p37
+p36
 aVL
-p38
+p37
 aI11
 aI0
 aI2
@@ -208,15 +205,15 @@ aI1
 aI3
 aI0
 aI-2
-aa(lp39
+aa(lp38
 V0020800938
-p40
+p39
 aVMAR 08, 2009
-p41
+p40
 aVPHX @ SAS
-p42
+p41
 aVL
-p43
+p42
 aI4
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp44
+aa(lp43
 V0020800967
-p45
+p44
 aVMAR 12, 2009
-p46
+p45
 aVPHX vs. CLE
-p47
+p46
 aVL
-p48
+p47
 aI5
 aI1
 aI1
@@ -266,15 +263,15 @@ aI2
 aI2
 aI2
 aI0
-aa(lp49
+aa(lp48
 V0020800994
-p50
+p49
 aVMAR 15, 2009
-p51
+p50
 aVPHX @ GSW
-p52
+p51
 aVW
-p53
+p52
 aI6
 aI0
 aI2
@@ -295,15 +292,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0020801040
-p55
+p54
 aVMAR 21, 2009
-p56
+p55
 aVPHX vs. WAS
-p57
+p56
 aVW
-p58
+p57
 aI21
 aI5
 aI12
@@ -324,15 +321,15 @@ aI0
 aI5
 aI10
 aI13
-aa(lp59
+aa(lp58
 V0020801053
-p60
+p59
 aVMAR 23, 2009
-p61
+p60
 aVPHX vs. DEN
-p62
+p61
 aVW
-p63
+p62
 aI5
 aI0
 aI0
@@ -353,15 +350,15 @@ aI1
 aI3
 aI0
 aI-5
-aa(lp64
+aa(lp63
 V0020801069
-p65
+p64
 aVMAR 25, 2009
-p66
+p65
 aVPHX vs. UTA
-p67
+p66
 aVW
-p68
+p67
 aI8
 aI1
 aI2
@@ -382,15 +379,15 @@ aI0
 aI0
 aI4
 aI7
-aa(lp69
+aa(lp68
 V0020801072
-p70
+p69
 aVMAR 26, 2009
-p71
+p70
 aVPHX @ POR
-p72
+p71
 aVL
-p73
+p72
 aI16
 aI4
 aI6
@@ -411,15 +408,15 @@ aI0
 aI2
 aI12
 aI-11
-aa(lp74
+aa(lp73
 V0020801089
-p75
+p74
 aVMAR 28, 2009
-p76
+p75
 aVPHX @ UTA
-p77
+p76
 aVL
-p78
+p77
 aI14
 aI2
 aI4
@@ -440,15 +437,15 @@ aI2
 aI3
 aI4
 aI4
-aa(lp79
+aa(lp78
 V0020801099
-p80
+p79
 aVMAR 29, 2009
-p81
+p80
 aVPHX @ SAC
-p82
+p81
 aVL
-p83
+p82
 aI11
 aI1
 aI3
@@ -469,15 +466,15 @@ aI1
 aI2
 aI3
 aI-6
-aa(lp84
+aa(lp83
 V0020801119
-p85
+p84
 aVAPR 01, 2009
-p86
+p85
 aVPHX vs. HOU
-p87
+p86
 aVW
-p88
+p87
 aI5
 aI0
 aI2
@@ -498,15 +495,15 @@ aI1
 aI1
 aI0
 aI-5
-aa(lp89
+aa(lp88
 V0020801181
-p90
+p89
 aVAPR 10, 2009
-p91
+p90
 aVPHX @ MEM
-p92
+p91
 aVL
-p93
+p92
 aI9
 aI1
 aI5
@@ -527,15 +524,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp94
+aa(lp93
 V0020801191
-p95
+p94
 aVAPR 11, 2009
-p96
+p95
 aVPHX @ MIN
-p97
+p96
 aVW
-p98
+p97
 aI6
 aI0
 aI1
@@ -557,10 +554,25 @@ aI3
 aI2
 aI2
 aasS'name'
-p99
+p98
 VStromile Swift
+p99
+sS'weight'
 p100
-sS'experience'
+V220
 p101
+sS'age'
+p102
+I29
+sS'experience'
+p103
 I8
+sS'height'
+p104
+V6-10
+p105
+sS'position'
+p106
+VForward-Center
+p107
 s.

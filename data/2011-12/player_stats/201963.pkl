@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100076
-p5
+p4
 aVJAN 03, 2012
-p6
+p5
 aVCLE vs. CHA
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI4
-aa(lp9
+aa(lp8
 V0021100369
-p10
+p9
 aVFEB 07, 2012
-p11
+p10
 aVCLE @ MIA
-p12
+p11
 aVL
-p13
+p12
 aI21
 aI0
 aI4
@@ -63,15 +60,15 @@ aI0
 aI3
 aI0
 aI-19
-aa(lp14
+aa(lp13
 V0021100377
-p15
+p14
 aVFEB 08, 2012
-p16
+p15
 aVCLE vs. LAC
-p17
+p16
 aVW
-p18
+p17
 aI16
 aI2
 aI3
@@ -92,15 +89,15 @@ aI1
 aI2
 aI6
 aI0
-aa(lp19
+aa(lp18
 V0021100394
-p20
+p19
 aVFEB 10, 2012
-p21
+p20
 aVCLE vs. MIL
-p22
+p21
 aVL
-p23
+p22
 aI14
 aI1
 aI5
@@ -121,15 +118,15 @@ aI1
 aI1
 aI2
 aI-15
-aa(lp24
+aa(lp23
 V0021100402
-p25
+p24
 aVFEB 11, 2012
-p26
+p25
 aVCLE vs. PHI
-p27
+p26
 aVL
-p28
+p27
 aI18
 aI0
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI1
 aI-10
-aa(lp29
+aa(lp28
 V0021100449
-p30
+p29
 aVFEB 17, 2012
-p31
+p30
 aVCLE vs. MIA
-p32
+p31
 aVL
-p33
+p32
 aI13
 aI0
 aI4
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp34
+aa(lp33
 V0021100989
-p35
+p34
 aVAPR 26, 2012
-p36
+p35
 aVLAL @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI19
 aI3
 aI6
@@ -209,10 +206,25 @@ aI0
 aI8
 aI3
 aasS'name'
-p39
+p38
 VChristian Eyenga
+p39
+sS'weight'
 p40
-sS'experience'
+V210
 p41
+sS'age'
+p42
+I22
+sS'experience'
+p43
 I1
+sS'height'
+p44
+V6-7
+p45
+sS'position'
+p46
+VForward
+p47
 s.

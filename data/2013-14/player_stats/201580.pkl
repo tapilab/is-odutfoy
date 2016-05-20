@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300016
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVDEN @ SAC
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI2
 aI5
@@ -34,15 +31,15 @@ aI1
 aI4
 aI4
 aI2
-aa(lp9
+aa(lp8
 V0021300029
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVDEN vs. POR
-p12
+p11
 aVL
-p13
+p12
 aI13
 aI3
 aI6
@@ -63,15 +60,15 @@ aI0
 aI1
 aI6
 aI-11
-aa(lp14
+aa(lp13
 V0021300057
-p15
+p14
 aVNOV 05, 2013
-p16
+p15
 aVDEN vs. SAS
-p17
+p16
 aVL
-p18
+p17
 aI21
 aI4
 aI10
@@ -92,15 +89,15 @@ aI5
 aI5
 aI9
 aI1
-aa(lp19
+aa(lp18
 V0021300071
-p20
+p19
 aVNOV 07, 2013
-p21
+p20
 aVDEN vs. ATL
-p22
+p21
 aVW
-p23
+p22
 aI24
 aI7
 aI13
@@ -121,15 +118,15 @@ aI0
 aI3
 aI14
 aI12
-aa(lp24
+aa(lp23
 V0021300083
-p25
+p24
 aVNOV 08, 2013
-p26
+p25
 aVDEN @ PHX
-p27
+p26
 aVL
-p28
+p27
 aI12
 aI1
 aI4
@@ -151,10 +148,25 @@ aI3
 aI2
 aI-9
 aasS'name'
-p29
+p28
 VJaVale McGee
+p29
+sS'weight'
 p30
-sS'experience'
+V270
 p31
+sS'age'
+p32
+I25
+sS'experience'
+p33
 I5
+sS'height'
+p34
+V7-0
+p35
+sS'position'
+p36
+VCenter
+p37
 s.

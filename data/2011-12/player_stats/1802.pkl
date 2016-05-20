@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I35
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100297
-p5
+p4
 aVJAN 29, 2012
-p6
+p5
 aVMIN vs. LAL
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI0
 aI2
@@ -34,15 +31,15 @@ aI0
 aI1
 aI3
 aI-4
-aa(lp9
+aa(lp8
 V0021100304
-p10
+p9
 aVJAN 30, 2012
-p11
+p10
 aVMIN @ HOU
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI6
-aa(lp14
+aa(lp13
 V0021100348
-p15
+p14
 aVFEB 04, 2012
-p16
+p15
 aVMIN vs. HOU
-p17
+p16
 aVW
-p18
+p17
 aI6
 aI0
 aI0
@@ -92,15 +89,15 @@ aI2
 aI0
 aI0
 aI4
-aa(lp19
+aa(lp18
 V0021100371
-p20
+p19
 aVFEB 07, 2012
-p21
+p20
 aVMIN vs. SAC
-p22
+p21
 aVW
-p23
+p22
 aI11
 aI1
 aI2
@@ -121,15 +118,15 @@ aI1
 aI0
 aI3
 aI0
-aa(lp24
+aa(lp23
 V0021100380
-p25
+p24
 aVFEB 08, 2012
-p26
+p25
 aVMIN @ MEM
-p27
+p26
 aVL
-p28
+p27
 aI8
 aI0
 aI2
@@ -150,15 +147,15 @@ aI1
 aI1
 aI2
 aI-1
-aa(lp29
+aa(lp28
 V0021100476
-p30
+p29
 aVFEB 20, 2012
-p31
+p30
 aVMIN @ DEN
-p32
+p31
 aVL
-p33
+p32
 aI6
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI1
 aI0
 aI-2
-aa(lp34
+aa(lp33
 V0021100600
-p35
+p34
 aVMAR 10, 2012
-p36
+p35
 aVMIN vs. NOH
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0021100706
-p40
+p39
 aVMAR 23, 2012
-p41
+p40
 aVMIN @ OKC
-p42
+p41
 aVL
-p43
+p42
 aI4
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-10
-aa(lp44
+aa(lp43
 V0021100738
-p45
+p44
 aVMAR 27, 2012
-p46
+p45
 aVMIN @ MEM
-p47
+p46
 aVL
-p48
+p47
 aI4
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0021100765
-p50
+p49
 aVMAR 30, 2012
-p51
+p50
 aVMIN vs. BOS
-p52
+p51
 aVL
-p53
+p52
 aI8
 aI0
 aI1
@@ -295,15 +292,15 @@ aI1
 aI1
 aI2
 aI-5
-aa(lp54
+aa(lp53
 V0021100789
-p55
+p54
 aVAPR 02, 2012
-p56
+p55
 aVMIN @ SAC
-p57
+p56
 aVL
-p58
+p57
 aI22
 aI4
 aI7
@@ -324,15 +321,15 @@ aI0
 aI1
 aI11
 aI-6
-aa(lp59
+aa(lp58
 V0021100806
-p60
+p59
 aVAPR 04, 2012
-p61
+p60
 aVMIN vs. GSW
-p62
+p61
 aVL
-p63
+p62
 aI11
 aI1
 aI2
@@ -353,15 +350,15 @@ aI3
 aI0
 aI3
 aI8
-aa(lp64
+aa(lp63
 V0021100905
-p65
+p64
 aVAPR 16, 2012
-p66
+p65
 aVMIN @ IND
-p67
+p66
 aVL
-p68
+p67
 aI25
 aI2
 aI5
@@ -382,15 +379,15 @@ aI1
 aI1
 aI5
 aI4
-aa(lp69
+aa(lp68
 V0021100916
-p70
+p69
 aVAPR 17, 2012
-p71
+p70
 aVMIN vs. MEM
-p72
+p71
 aVL
-p73
+p72
 aI12
 aI0
 aI2
@@ -411,15 +408,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp74
+aa(lp73
 V0021100987
-p75
+p74
 aVAPR 26, 2012
-p76
+p75
 aVMIN vs. DEN
-p77
+p76
 aVL
-p78
+p77
 aI17
 aI1
 aI3
@@ -441,10 +438,25 @@ aI1
 aI4
 aI-1
 aasS'name'
-p79
+p78
 VBrad Miller
+p79
+sS'weight'
 p80
-sS'experience'
+V261
 p81
+sS'age'
+p82
+I35
+sS'experience'
+p83
 I13
+sS'height'
+p84
+V7-0
+p85
+sS'position'
+p86
+VCenter-Forward
+p87
 s.

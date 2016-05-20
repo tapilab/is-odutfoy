@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900933
-p5
+p4
 aVMAR 06, 2010
-p6
+p5
 aVUTA vs. LAC
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp9
+aa(lp8
 V0020900949
-p10
+p9
 aVMAR 09, 2010
-p11
+p10
 aVUTA @ CHI
-p12
+p11
 aVW
-p13
+p12
 aI2
 aI0
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI3
-aa(lp14
+aa(lp13
 V0020900994
-p15
+p14
 aVMAR 15, 2010
-p16
+p15
 aVUTA vs. WAS
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI0
 aI2
@@ -92,15 +89,15 @@ aI1
 aI0
 aI2
 aI-6
-aa(lp19
+aa(lp18
 V0020901013
-p20
+p19
 aVMAR 17, 2010
-p21
+p20
 aVUTA vs. MIN
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI1
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp24
+aa(lp23
 V0020901025
-p25
+p24
 aVMAR 19, 2010
-p26
+p25
 aVUTA @ PHX
-p27
+p26
 aVL
-p28
+p27
 aI9
 aI3
 aI3
@@ -150,15 +147,15 @@ aI0
 aI2
 aI8
 aI9
-aa(lp29
+aa(lp28
 V0020901035
-p30
+p29
 aVMAR 20, 2010
-p31
+p30
 aVUTA vs. NOH
-p32
+p31
 aVW
-p33
+p32
 aI8
 aI1
 aI1
@@ -179,15 +176,15 @@ aI1
 aI1
 aI3
 aI-11
-aa(lp34
+aa(lp33
 V0020901050
-p35
+p34
 aVMAR 22, 2010
-p36
+p35
 aVUTA vs. BOS
+p36
+aVW
 p37
-aVW
-p38
 aI0
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp39
+aa(lp38
 V0020901061
-p40
+p39
 aVMAR 24, 2010
-p41
+p40
 aVUTA @ TOR
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI3
@@ -237,15 +234,15 @@ aI0
 aI2
 aI0
 aI6
-aa(lp44
+aa(lp43
 V0020901082
-p45
+p44
 aVMAR 27, 2010
-p46
+p45
 aVUTA @ WAS
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI1
 aI1
 aI0
 aI-6
-aa(lp49
+aa(lp48
 V0020901119
-p50
+p49
 aVMAR 31, 2010
-p51
+p50
 aVUTA vs. GSW
-p52
+p51
 aVW
-p53
+p52
 aI5
 aI1
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI5
 aI-4
-aa(lp54
+aa(lp53
 V0020901131
-p55
+p54
 aVAPR 02, 2010
-p56
+p55
 aVUTA @ LAL
-p57
+p56
 aVL
-p58
+p57
 aI5
 aI1
 aI4
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI4
-aa(lp59
+aa(lp58
 V0020901156
-p60
+p59
 aVAPR 06, 2010
-p61
+p60
 aVUTA vs. OKC
-p62
+p61
 aVW
-p63
+p62
 aI2
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI2
 aI0
 aI-2
-aa(lp64
+aa(lp63
 V0020901168
-p65
+p64
 aVAPR 07, 2010
-p66
+p65
 aVUTA @ HOU
-p67
+p66
 aVL
-p68
+p67
 aI13
 aI2
 aI5
@@ -382,15 +379,15 @@ aI2
 aI0
 aI6
 aI6
-aa(lp69
+aa(lp68
 V0020901230
-p70
+p69
 aVAPR 14, 2010
-p71
+p70
 aVUTA vs. PHX
-p72
+p71
 aVL
-p73
+p72
 aI9
 aI2
 aI2
@@ -412,10 +409,25 @@ aI2
 aI5
 aI6
 aasS'name'
-p74
+p73
 VOthyus Jeffers
+p74
+sS'weight'
 p75
-sS'experience'
+V210
 p76
+sS'age'
+p77
+I24
+sS'experience'
+p78
 I0
+sS'height'
+p79
+V6-5
+p80
+sS'position'
+p81
+VGuard-Forward
+p82
 s.

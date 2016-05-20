@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300004
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVBKN @ CLE
-p7
+p6
 aVL
-p8
+p7
 aI34
 aI9
 aI18
@@ -34,15 +31,15 @@ aI1
 aI3
 aI21
 aI-4
-aa(lp9
+aa(lp8
 V0021300028
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVBKN vs. MIA
-p12
+p11
 aVW
-p13
+p12
 aI20
 aI4
 aI7
@@ -63,15 +60,15 @@ aI3
 aI5
 aI13
 aI3
-aa(lp14
+aa(lp13
 V0021300043
-p15
+p14
 aVNOV 03, 2013
-p16
+p15
 aVBKN @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI33
 aI8
 aI15
@@ -92,15 +89,15 @@ aI1
 aI1
 aI21
 aI-11
-aa(lp19
+aa(lp18
 V0021300052
-p20
+p19
 aVNOV 05, 2013
-p21
+p20
 aVBKN vs. UTA
-p22
+p21
 aVW
-p23
+p22
 aI25
 aI10
 aI13
@@ -121,15 +118,15 @@ aI1
 aI2
 aI27
 aI22
-aa(lp24
+aa(lp23
 V0021300077
-p25
+p24
 aVNOV 08, 2013
-p26
+p25
 aVBKN @ WAS
-p27
+p26
 aVL
-p28
+p27
 aI37
 aI10
 aI14
@@ -150,15 +147,15 @@ aI1
 aI3
 aI23
 aI-11
-aa(lp29
+aa(lp28
 V0021300087
-p30
+p29
 aVNOV 09, 2013
-p31
+p30
 aVBKN vs. IND
-p32
+p31
 aVL
-p33
+p32
 aI32
 aI6
 aI13
@@ -179,15 +176,15 @@ aI2
 aI4
 aI16
 aI-2
-aa(lp34
+aa(lp33
 V0021300121
-p35
+p34
 aVNOV 13, 2013
-p36
+p35
 aVBKN @ SAC
-p37
+p36
 aVL
-p38
+p37
 aI27
 aI6
 aI12
@@ -208,15 +205,15 @@ aI1
 aI3
 aI16
 aI-19
-aa(lp39
+aa(lp38
 V0021300132
-p40
+p39
 aVNOV 15, 2013
-p41
+p40
 aVBKN @ PHX
-p42
+p41
 aVW
-p43
+p42
 aI36
 aI9
 aI16
@@ -237,15 +234,15 @@ aI4
 aI4
 aI27
 aI1
-aa(lp44
+aa(lp43
 V0021300234
-p45
+p44
 aVNOV 29, 2013
-p46
+p45
 aVBKN @ HOU
-p47
+p46
 aVL
-p48
+p47
 aI21
 aI5
 aI9
@@ -266,15 +263,15 @@ aI0
 aI0
 aI16
 aI-14
-aa(lp49
+aa(lp48
 V0021300243
-p50
+p49
 aVNOV 30, 2013
-p51
+p50
 aVBKN @ MEM
-p52
+p51
 aVW
-p53
+p52
 aI31
 aI7
 aI16
@@ -295,15 +292,15 @@ aI2
 aI1
 aI20
 aI-4
-aa(lp54
+aa(lp53
 V0021300263
-p55
+p54
 aVDEC 03, 2013
-p56
+p55
 aVBKN vs. DEN
-p57
+p56
 aVL
-p58
+p57
 aI21
 aI3
 aI9
@@ -324,15 +321,15 @@ aI1
 aI4
 aI12
 aI-2
-aa(lp59
+aa(lp58
 V0021300277
-p60
+p59
 aVDEC 05, 2013
-p61
+p60
 aVBKN vs. NYK
-p62
+p61
 aVL
-p63
+p62
 aI35
 aI9
 aI18
@@ -353,15 +350,15 @@ aI1
 aI1
 aI24
 aI-23
-aa(lp64
+aa(lp63
 V0021300295
-p65
+p64
 aVDEC 07, 2013
-p66
+p65
 aVBKN @ MIL
-p67
+p66
 aVW
-p68
+p67
 aI40
 aI11
 aI13
@@ -382,15 +379,15 @@ aI2
 aI5
 aI32
 aI12
-aa(lp69
+aa(lp68
 V0021300314
-p70
+p69
 aVDEC 10, 2013
-p71
+p70
 aVBKN vs. BOS
-p72
+p71
 aVW
-p73
+p72
 aI37
 aI10
 aI13
@@ -411,15 +408,15 @@ aI1
 aI4
 aI24
 aI18
-aa(lp74
+aa(lp73
 V0021300327
-p75
+p74
 aVDEC 12, 2013
-p76
+p75
 aVBKN vs. LAC
-p77
+p76
 aVW
-p78
+p77
 aI28
 aI6
 aI13
@@ -440,15 +437,15 @@ aI1
 aI3
 aI16
 aI10
-aa(lp79
+aa(lp78
 V0021300374
-p80
+p79
 aVDEC 18, 2013
-p81
+p80
 aVBKN vs. WAS
-p82
+p81
 aVL
-p83
+p82
 aI32
 aI7
 aI11
@@ -469,15 +466,15 @@ aI4
 aI4
 aI22
 aI-5
-aa(lp84
+aa(lp83
 V0021300383
-p85
+p84
 aVDEC 20, 2013
-p86
+p85
 aVBKN @ PHI
-p87
+p86
 aVL
-p88
+p87
 aI44
 aI9
 aI19
@@ -499,10 +496,25 @@ aI5
 aI22
 aI6
 aasS'name'
-p89
+p88
 VBrook Lopez
+p89
+sS'weight'
 p90
-sS'experience'
+V275
 p91
+sS'age'
+p92
+I25
+sS'experience'
+p93
 I5
+sS'height'
+p94
+V7-0
+p95
+sS'position'
+p96
+VCenter
+p97
 s.

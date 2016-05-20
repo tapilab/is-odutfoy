@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020701053
-p5
+p4
 aVMAR 25, 2008
-p6
+p5
 aVNOH @ IND
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI2
 aI0
 aI-8
-aa(lp9
+aa(lp8
 V0020701062
-p10
+p9
 aVMAR 26, 2008
-p11
+p10
 aVNOH @ CLE
-p12
+p11
 aVW
-p13
+p12
 aI7
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI3
 aI0
-aa(lp14
+aa(lp13
 V0020701076
-p15
+p14
 aVMAR 28, 2008
-p16
+p15
 aVNOH @ BOS
-p17
+p16
 aVL
-p18
+p17
 aI12
 aI0
 aI3
@@ -92,15 +89,15 @@ aI0
 aI2
 aI0
 aI2
-aa(lp19
+aa(lp18
 V0020701094
-p20
+p19
 aVMAR 30, 2008
-p21
+p20
 aVNOH @ TOR
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020701117
-p25
+p24
 aVAPR 02, 2008
-p26
+p25
 aVNOH @ MIA
-p27
+p26
 aVW
-p28
+p27
 aI4
 aI1
 aI3
@@ -151,10 +148,25 @@ aI1
 aI3
 aI9
 aasS'name'
-p29
+p28
 VChris Andersen
+p29
+sS'weight'
 p30
-sS'experience'
+V245
 p31
+sS'age'
+p32
+I29
+sS'experience'
+p33
 I6
+sS'height'
+p34
+V6-10
+p35
+sS'position'
+p36
+VForward-Center
+p37
 s.

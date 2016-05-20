@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100974
-p5
+p4
 aVAPR 25, 2012
-p6
+p5
 aVNYK vs. LAC
-p7
+p6
 aVW
-p8
+p7
 aI8
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI2
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0021100982
-p10
+p9
 aVAPR 26, 2012
-p11
+p10
 aVNYK @ CHA
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI0
 aI2
@@ -64,10 +61,25 @@ aI2
 aI0
 aI0
 aasS'name'
-p14
+p13
 VDan Gadzuric
+p14
+sS'weight'
 p15
-sS'experience'
+V240
 p16
+sS'age'
+p17
+I33
+sS'experience'
+p18
 I9
+sS'height'
+p19
+V6-11
+p20
+sS'position'
+p21
+VCenter
+p22
 s.

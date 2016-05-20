@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200023
-p5
+p4
 aVNOV 02, 2012
-p6
+p5
 aVMIN vs. SAC
-p7
+p6
 aVW
-p8
+p7
 aI30
 aI4
 aI14
@@ -34,15 +31,15 @@ aI1
 aI0
 aI10
 aI-4
-aa(lp9
+aa(lp8
 V0021200038
-p10
+p9
 aVNOV 04, 2012
-p11
+p10
 aVMIN @ TOR
-p12
+p11
 aVL
-p13
+p12
 aI22
 aI0
 aI3
@@ -63,15 +60,15 @@ aI5
 aI2
 aI4
 aI-4
-aa(lp14
+aa(lp13
 V0021200043
-p15
+p14
 aVNOV 05, 2012
-p16
+p15
 aVMIN @ BKN
-p17
+p16
 aVW
-p18
+p17
 aI29
 aI3
 aI7
@@ -92,15 +89,15 @@ aI0
 aI1
 aI6
 aI-2
-aa(lp19
+aa(lp18
 V0021200060
-p20
+p19
 aVNOV 07, 2012
-p21
+p20
 aVMIN vs. ORL
-p22
+p21
 aVW
-p23
+p22
 aI26
 aI1
 aI6
@@ -121,15 +118,15 @@ aI1
 aI2
 aI3
 aI19
-aa(lp24
+aa(lp23
 V0021200076
-p25
+p24
 aVNOV 09, 2012
-p26
+p25
 aVMIN vs. IND
-p27
+p26
 aVW
-p28
+p27
 aI15
 aI3
 aI5
@@ -151,10 +148,25 @@ aI0
 aI6
 aI-3
 aasS'name'
-p29
+p28
 VBrandon Roy
+p29
+sS'weight'
 p30
-sS'experience'
+V211
 p31
+sS'age'
+p32
+I28
+sS'experience'
+p33
 I6
+sS'height'
+p34
+V6-6
+p35
+sS'position'
+p36
+VGuard
+p37
 s.

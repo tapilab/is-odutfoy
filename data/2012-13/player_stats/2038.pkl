@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200033
-p5
+p4
 aVNOV 03, 2012
-p6
+p5
 aVMIL vs. CLE
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp9
+aa(lp8
 V0021200057
-p10
+p9
 aVNOV 07, 2012
-p11
+p10
 aVMIL vs. MEM
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp14
+aa(lp13
 V0021200111
-p15
+p14
 aVNOV 14, 2012
-p16
+p15
 aVMIL vs. IND
-p17
+p16
 aVW
-p18
+p17
 aI7
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-9
-aa(lp19
+aa(lp18
 V0021200188
-p20
+p19
 aVNOV 24, 2012
-p21
+p20
 aVMIL vs. CHI
-p22
+p21
 aVL
-p23
+p22
 aI17
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI3
 aI0
 aI-4
-aa(lp24
+aa(lp23
 V0021200230
-p25
+p24
 aVNOV 30, 2012
-p26
+p25
 aVMIL @ MIN
-p27
+p26
 aVL
-p28
+p27
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0021200247
-p30
+p29
 aVDEC 03, 2012
-p31
+p30
 aVMIL @ NOH
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI0
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0021200277
-p35
+p34
 aVDEC 07, 2012
-p36
+p35
 aVMIL vs. CHA
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp39
+aa(lp38
 V0021200293
-p40
+p39
 aVDEC 09, 2012
-p41
+p40
 aVMIL @ BKN
-p42
+p41
 aVW
-p43
+p42
 aI6
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp44
+aa(lp43
 V0021200343
-p45
+p44
 aVDEC 15, 2012
-p46
+p45
 aVMIL vs. LAC
-p47
+p46
 aVL
-p48
+p47
 aI7
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp49
+aa(lp48
 V0021200374
-p50
+p49
 aVDEC 19, 2012
-p51
+p50
 aVMIL @ MEM
-p52
+p51
 aVL
-p53
+p52
 aI3
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp54
+aa(lp53
 V0021200732
-p55
+p54
 aVFEB 06, 2013
-p56
+p55
 aVMIL @ UTA
-p57
+p56
 aVL
-p58
+p57
 aI3
 aI0
 aI0
@@ -324,15 +321,15 @@ aI1
 aI3
 aI0
 aI-4
-aa(lp59
+aa(lp58
 V0021200767
-p60
+p59
 aVFEB 11, 2013
-p61
+p60
 aVMIL vs. WAS
-p62
+p61
 aVL
-p63
+p62
 aI5
 aI0
 aI1
@@ -354,10 +351,25 @@ aI1
 aI0
 aI-8
 aasS'name'
-p64
+p63
 VJoel Przybilla
+p64
+sS'weight'
 p65
-sS'experience'
+V245
 p66
+sS'age'
+p67
+I33
+sS'experience'
+p68
 I12
+sS'height'
+p69
+V7-1
+p70
+sS'position'
+p71
+VCenter
+p72
 s.

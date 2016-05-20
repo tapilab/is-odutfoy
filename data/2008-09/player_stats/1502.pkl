@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800185
-p5
+p4
 aVNOV 22, 2008
-p6
+p5
 aVORL vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI13
 aI2
 aI3
@@ -34,15 +31,15 @@ aI1
 aI0
 aI4
 aI0
-aa(lp9
+aa(lp8
 V0020800199
-p10
+p9
 aVNOV 24, 2008
-p11
+p10
 aVORL vs. MIL
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp14
+aa(lp13
 V0020800266
-p15
+p14
 aVDEC 03, 2008
-p16
+p15
 aVORL vs. MIN
-p17
+p16
 aVW
-p18
+p17
 aI4
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI1
 aI2
 aI-7
-aa(lp19
+aa(lp18
 V0020800276
-p20
+p19
 aVDEC 05, 2008
-p21
+p20
 aVORL vs. OKC
+p21
+aVW
 p22
-aVW
-p23
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020800403
-p25
+p24
 aVDEC 22, 2008
-p26
+p25
 aVORL vs. GSW
-p27
+p26
 aVW
-p28
+p27
 aI5
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp29
+aa(lp28
 V0020800842
-p30
+p29
 aVFEB 24, 2009
-p31
+p30
 aVMEM @ CLE
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp34
+aa(lp33
 V0020801130
-p35
+p34
 aVAPR 03, 2009
-p36
+p35
 aVORL vs. CLE
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0020801190
-p40
+p39
 aVAPR 11, 2009
-p41
+p40
 aVORL @ NJN
-p42
+p41
 aVL
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp44
+aa(lp43
 V0020801206
-p45
+p44
 aVAPR 13, 2009
-p46
+p45
 aVORL @ MIL
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI4
 aI6
@@ -266,15 +263,15 @@ aI1
 aI2
 aI10
 aI1
-aa(lp49
+aa(lp48
 V0020801226
-p50
+p49
 aVAPR 15, 2009
-p51
+p50
 aVORL vs. CHA
-p52
+p51
 aVW
-p53
+p52
 aI6
 aI0
 aI0
@@ -296,10 +293,25 @@ aI0
 aI1
 aI1
 aasS'name'
-p54
+p53
 VAdonal Foyle
+p54
+sS'weight'
 p55
-sS'experience'
+V270
 p56
+sS'age'
+p57
+I33
+sS'experience'
+p58
 I11
+sS'height'
+p59
+V6-10
+p60
+sS'position'
+p61
+VCenter
+p62
 s.

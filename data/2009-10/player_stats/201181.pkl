@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900745
-p5
+p4
 aVFEB 06, 2010
-p6
+p5
 aVCHI vs. MIA
-p7
+p6
 aVW
-p8
+p7
 aI20
 aI1
 aI4
@@ -34,15 +31,15 @@ aI1
 aI2
 aI2
 aI4
-aa(lp9
+aa(lp8
 V0020900760
-p10
+p9
 aVFEB 09, 2010
-p11
+p10
 aVCHI @ IND
-p12
+p11
 aVW
-p13
+p12
 aI11
 aI0
 aI3
@@ -63,15 +60,15 @@ aI1
 aI2
 aI1
 aI3
-aa(lp14
+aa(lp13
 V0020900773
-p15
+p14
 aVFEB 10, 2010
-p16
+p15
 aVCHI vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI20
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI2
 aI3
 aI-2
-aa(lp19
+aa(lp18
 V0020900784
-p20
+p19
 aVFEB 16, 2010
-p21
+p20
 aVCHI vs. NYK
-p22
+p21
 aVW
-p23
+p22
 aI12
 aI1
 aI3
@@ -121,15 +118,15 @@ aI0
 aI3
 aI2
 aI6
-aa(lp24
+aa(lp23
 V0020900796
-p25
+p24
 aVFEB 17, 2010
-p26
+p25
 aVCHI @ NYK
-p27
+p26
 aVW
-p28
+p27
 aI7
 aI1
 aI1
@@ -150,15 +147,15 @@ aI2
 aI2
 aI3
 aI-4
-aa(lp29
+aa(lp28
 V0020900911
-p30
+p29
 aVMAR 04, 2010
-p31
+p30
 aVCHI vs. MEM
-p32
+p31
 aVL
-p33
+p32
 aI12
 aI1
 aI1
@@ -179,15 +176,15 @@ aI1
 aI3
 aI4
 aI-12
-aa(lp34
+aa(lp33
 V0020900928
-p35
+p34
 aVMAR 06, 2010
-p36
+p35
 aVCHI vs. DAL
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI2
 aI2
@@ -208,15 +205,15 @@ aI0
 aI1
 aI4
 aI0
-aa(lp39
+aa(lp38
 V0020900949
-p40
+p39
 aVMAR 09, 2010
-p41
+p40
 aVCHI vs. UTA
-p42
+p41
 aVL
-p43
+p42
 aI17
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI5
 aI0
 aI-17
-aa(lp44
+aa(lp43
 V0020900962
-p45
+p44
 aVMAR 11, 2010
-p46
+p45
 aVCHI @ ORL
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI1
 aI2
@@ -266,15 +263,15 @@ aI2
 aI6
 aI2
 aI-20
-aa(lp49
+aa(lp48
 V0020900967
-p50
+p49
 aVMAR 12, 2010
-p51
+p50
 aVCHI @ MIA
-p52
+p51
 aVL
-p53
+p52
 aI18
 aI0
 aI2
@@ -295,15 +292,15 @@ aI3
 aI6
 aI0
 aI3
-aa(lp54
+aa(lp53
 V0020901001
-p55
+p54
 aVMAR 16, 2010
-p56
+p55
 aVCHI @ MEM
-p57
+p56
 aVL
-p58
+p57
 aI14
 aI2
 aI3
@@ -324,15 +321,15 @@ aI0
 aI4
 aI4
 aI8
-aa(lp59
+aa(lp58
 V0020901011
-p60
+p59
 aVMAR 17, 2010
-p61
+p60
 aVCHI @ DAL
-p62
+p61
 aVL
-p63
+p62
 aI14
 aI3
 aI3
@@ -353,15 +350,15 @@ aI0
 aI2
 aI6
 aI4
-aa(lp64
+aa(lp63
 V0020901022
-p65
+p64
 aVMAR 19, 2010
-p66
+p65
 aVCHI vs. CLE
-p67
+p66
 aVL
-p68
+p67
 aI14
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI4
 aI2
 aI0
-aa(lp69
+aa(lp68
 V0020901029
-p70
+p69
 aVMAR 20, 2010
-p71
+p70
 aVCHI @ PHI
-p72
+p71
 aVW
-p73
+p72
 aI5
 aI0
 aI0
@@ -411,15 +408,15 @@ aI1
 aI3
 aI0
 aI-1
-aa(lp74
+aa(lp73
 V0020901068
-p75
+p74
 aVMAR 25, 2010
-p76
+p75
 aVCHI vs. MIA
-p77
+p76
 aVL
-p78
+p77
 aI23
 aI1
 aI2
@@ -440,15 +437,15 @@ aI1
 aI2
 aI2
 aI-8
-aa(lp79
+aa(lp78
 V0020901083
-p80
+p79
 aVMAR 27, 2010
-p81
+p80
 aVCHI vs. NJN
-p82
+p81
 aVW
-p83
+p82
 aI9
 aI1
 aI1
@@ -469,15 +466,15 @@ aI2
 aI2
 aI2
 aI8
-aa(lp84
+aa(lp83
 V0020901104
-p85
+p84
 aVMAR 30, 2010
-p86
+p85
 aVCHI vs. PHX
-p87
+p86
 aVL
-p88
+p87
 aI1
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp89
+aa(lp88
 V0020901197
-p90
+p89
 aVAPR 11, 2010
-p91
+p90
 aVCHI @ TOR
-p92
+p91
 aVW
-p93
+p92
 aI2
 aI0
 aI0
@@ -528,10 +525,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p94
+p93
 VChris Richard
+p94
+sS'weight'
 p95
-sS'experience'
+V256
 p96
+sS'age'
+p97
+I25
+sS'experience'
+p98
 I2
+sS'height'
+p99
+V6-9
+p100
+sS'position'
+p101
+VForward
+p102
 s.

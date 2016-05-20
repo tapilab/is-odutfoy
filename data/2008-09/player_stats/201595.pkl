@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800092
-p5
+p4
 aVNOV 09, 2008
-p6
+p5
 aVHOU @ LAL
-p7
+p6
 aVL
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp9
+aa(lp8
 V0020800242
-p10
+p9
 aVNOV 29, 2008
-p11
+p10
 aVHOU vs. SAS
+p11
+aVW
 p12
-aVW
-p13
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0020800404
-p15
+p14
 aVDEC 22, 2008
-p16
+p15
 aVHOU @ NJN
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI1
 aI2
@@ -93,10 +90,25 @@ aI0
 aI2
 aI-2
 aasS'name'
-p19
+p18
 VJoey Dorsey
+p19
+sS'weight'
 p20
-sS'experience'
+V275
 p21
+sS'age'
+p22
+I25
+sS'experience'
+p23
 I0
+sS'height'
+p24
+V6-9
+p25
+sS'position'
+p26
+VCenter-Forward
+p27
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I36
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000006
-p5
+p4
 aVOCT 27, 2010
-p6
+p5
 aVMIA @ PHI
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0021000040
-p10
+p9
 aVOCT 31, 2010
-p11
+p10
 aVMIA @ NJN
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI0
@@ -63,15 +60,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0021000050
-p15
+p14
 aVNOV 02, 2010
-p16
+p15
 aVMIA vs. MIN
-p17
+p16
 aVW
-p18
+p17
 aI6
 aI0
 aI2
@@ -92,15 +89,15 @@ aI1
 aI0
 aI1
 aI6
-aa(lp19
+aa(lp18
 V0021000082
-p20
+p19
 aVNOV 06, 2010
-p21
+p20
 aVMIA vs. NJN
-p22
+p21
 aVW
-p23
+p22
 aI4
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp24
+aa(lp23
 V0021000118
-p25
+p24
 aVNOV 11, 2010
-p26
+p25
 aVMIA vs. BOS
-p27
+p26
 aVL
-p28
+p27
 aI7
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp29
+aa(lp28
 V0021000158
-p30
+p29
 aVNOV 17, 2010
-p31
+p30
 aVMIA vs. PHX
-p32
+p31
 aVW
-p33
+p32
 aI5
 aI2
 aI4
@@ -179,15 +176,15 @@ aI0
 aI0
 aI5
 aI1
-aa(lp34
+aa(lp33
 V0021000185
-p35
+p34
 aVNOV 20, 2010
-p36
+p35
 aVMIA @ MEM
-p37
+p36
 aVL
-p38
+p37
 aI19
 aI1
 aI3
@@ -209,10 +206,25 @@ aI2
 aI2
 aI-3
 aasS'name'
-p39
+p38
 VJerry Stackhouse
+p39
+sS'weight'
 p40
-sS'experience'
+V218
 p41
+sS'age'
+p42
+I36
+sS'experience'
+p43
 I15
+sS'height'
+p44
+V6-6
+p45
+sS'position'
+p46
+VForward
+p47
 s.

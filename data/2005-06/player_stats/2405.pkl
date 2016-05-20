@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020501016
-p5
+p4
 aVMAR 23, 2006
-p6
+p5
 aVPHX vs. POR
-p7
+p6
 aVW
-p8
+p7
 aI19
 aI7
 aI14
@@ -34,15 +31,15 @@ aI0
 aI1
 aI20
 aI15
-aa(lp9
+aa(lp8
 V0020501030
-p10
+p9
 aVMAR 25, 2006
-p11
+p10
 aVPHX vs. DEN
-p12
+p11
 aVW
-p13
+p12
 aI17
 aI2
 aI7
@@ -63,15 +60,15 @@ aI0
 aI0
 aI6
 aI-4
-aa(lp14
+aa(lp13
 V0020501043
-p15
+p14
 aVMAR 27, 2006
-p16
+p15
 aVPHX @ NJN
-p17
+p16
 aVL
-p18
+p17
 aI15
 aI0
 aI6
@@ -93,10 +90,25 @@ aI3
 aI0
 aI-15
 aasS'name'
-p19
+p18
 VAmar'e Stoudemire
+p19
+sS'weight'
 p20
-sS'experience'
+V245
 p21
+sS'age'
+p22
+I23
+sS'experience'
+p23
 I3
+sS'height'
+p24
+V6-10
+p25
+sS'position'
+p26
+VForward-Center
+p27
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I30
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000001
-p5
+p4
 aVOCT 26, 2010
-p6
+p5
 aVMIA @ BOS
-p7
+p6
 aVL
-p8
+p7
 aI31
 aI3
 aI7
@@ -34,15 +31,15 @@ aI0
 aI4
 aI8
 aI-4
-aa(lp9
+aa(lp8
 V0021000006
-p10
+p9
 aVOCT 27, 2010
-p11
+p10
 aVMIA @ PHI
-p12
+p11
 aVW
-p13
+p12
 aI13
 aI0
 aI2
@@ -63,15 +60,15 @@ aI1
 aI5
 aI0
 aI-2
-aa(lp14
+aa(lp13
 V0021000025
-p15
+p14
 aVOCT 29, 2010
-p16
+p15
 aVMIA vs. ORL
-p17
+p16
 aVW
-p18
+p17
 aI23
 aI4
 aI7
@@ -92,15 +89,15 @@ aI2
 aI2
 aI11
 aI2
-aa(lp19
+aa(lp18
 V0021000040
-p20
+p19
 aVOCT 31, 2010
-p21
+p20
 aVMIA @ NJN
-p22
+p21
 aVW
-p23
+p22
 aI24
 aI2
 aI7
@@ -121,15 +118,15 @@ aI0
 aI3
 aI6
 aI8
-aa(lp24
+aa(lp23
 V0021000050
-p25
+p24
 aVNOV 02, 2010
-p26
+p25
 aVMIA vs. MIN
-p27
+p26
 aVW
-p28
+p27
 aI24
 aI5
 aI6
@@ -150,15 +147,15 @@ aI1
 aI4
 aI11
 aI10
-aa(lp29
+aa(lp28
 V0021000075
-p30
+p29
 aVNOV 05, 2010
-p31
+p30
 aVMIA @ NOH
-p32
+p31
 aVL
-p33
+p32
 aI26
 aI3
 aI7
@@ -179,15 +176,15 @@ aI0
 aI4
 aI8
 aI5
-aa(lp34
+aa(lp33
 V0021000082
-p35
+p34
 aVNOV 06, 2010
-p36
+p35
 aVMIA vs. NJN
-p37
+p36
 aVW
-p38
+p37
 aI30
 aI3
 aI9
@@ -208,15 +205,15 @@ aI3
 aI4
 aI6
 aI8
-aa(lp39
+aa(lp38
 V0021000103
-p40
+p39
 aVNOV 09, 2010
-p41
+p40
 aVMIA vs. UTA
-p42
+p41
 aVL
-p43
+p42
 aI31
 aI2
 aI5
@@ -237,15 +234,15 @@ aI1
 aI3
 aI5
 aI-13
-aa(lp44
+aa(lp43
 V0021000118
-p45
+p44
 aVNOV 11, 2010
-p46
+p45
 aVMIA vs. BOS
-p47
+p46
 aVL
-p48
+p47
 aI33
 aI9
 aI10
@@ -266,15 +263,15 @@ aI1
 aI1
 aI21
 aI9
-aa(lp49
+aa(lp48
 V0021000133
-p50
+p49
 aVNOV 13, 2010
-p51
+p50
 aVMIA vs. TOR
-p52
+p51
 aVW
-p53
+p52
 aI37
 aI4
 aI8
@@ -295,15 +292,15 @@ aI2
 aI2
 aI10
 aI1
-aa(lp54
+aa(lp53
 V0021000158
-p55
+p54
 aVNOV 17, 2010
-p56
+p55
 aVMIA vs. PHX
-p57
+p56
 aVW
-p58
+p57
 aI27
 aI4
 aI8
@@ -324,15 +321,15 @@ aI2
 aI2
 aI8
 aI21
-aa(lp59
+aa(lp58
 V0021000175
-p60
+p59
 aVNOV 19, 2010
-p61
+p60
 aVMIA vs. CHA
-p62
+p61
 aVW
-p63
+p62
 aI32
 aI3
 aI6
@@ -353,15 +350,15 @@ aI1
 aI2
 aI6
 aI6
-aa(lp64
+aa(lp63
 V0021000185
-p65
+p64
 aVNOV 20, 2010
-p66
+p65
 aVMIA @ MEM
-p67
+p66
 aVL
-p68
+p67
 aI16
 aI2
 aI4
@@ -383,10 +380,25 @@ aI3
 aI4
 aI1
 aasS'name'
-p69
+p68
 VUdonis Haslem
+p69
+sS'weight'
 p70
-sS'experience'
+V235
 p71
+sS'age'
+p72
+I30
+sS'experience'
+p73
 I7
+sS'height'
+p74
+V6-8
+p75
+sS'position'
+p76
+VForward
+p77
 s.

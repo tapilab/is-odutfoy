@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300029
-p5
+p4
 aVNOV 01, 2013
-p6
+p5
 aVPOR @ DEN
+p6
+aVW
 p7
-aVW
-p8
 aI1
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0021300058
-p10
+p9
 aVNOV 05, 2013
-p11
+p10
 aVPOR vs. HOU
-p12
+p11
 aVL
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0021300128
-p15
+p14
 aVNOV 15, 2013
-p16
+p15
 aVPOR @ BOS
-p17
+p16
 aVW
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp19
+aa(lp18
 V0021300196
-p20
+p19
 aVNOV 23, 2013
-p21
+p20
 aVPOR @ GSW
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0021300226
-p25
+p24
 aVNOV 27, 2013
-p26
+p25
 aVPOR @ PHX
-p27
+p26
 aVL
-p28
+p27
 aI5
 aI1
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI4
 aI8
-aa(lp29
+aa(lp28
 V0021300288
-p30
+p29
 aVDEC 06, 2013
-p31
+p30
 aVPOR vs. UTA
-p32
+p31
 aVW
-p33
+p32
 aI11
 aI3
 aI6
@@ -179,15 +176,15 @@ aI1
 aI0
 aI8
 aI-6
-aa(lp34
+aa(lp33
 V0021300347
-p35
+p34
 aVDEC 14, 2013
-p36
+p35
 aVPOR @ PHI
-p37
+p36
 aVW
-p38
+p37
 aI12
 aI2
 aI4
@@ -208,15 +205,15 @@ aI2
 aI0
 aI7
 aI3
-aa(lp39
+aa(lp38
 V0021300480
-p40
+p39
 aVJAN 02, 2014
-p41
+p40
 aVPOR vs. CHA
-p42
+p41
 aVW
-p43
+p42
 aI7
 aI1
 aI3
@@ -237,15 +234,15 @@ aI0
 aI1
 aI3
 aI1
-aa(lp44
+aa(lp43
 V0021300823
-p45
+p44
 aVFEB 21, 2014
-p46
+p45
 aVPOR vs. UTA
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp49
+aa(lp48
 V0021300840
-p50
+p49
 aVFEB 23, 2014
-p51
+p50
 aVPOR vs. MIN
-p52
+p51
 aVW
-p53
+p52
 aI1
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp54
+aa(lp53
 V0021300861
-p55
+p54
 aVFEB 26, 2014
-p56
+p55
 aVPOR vs. BKN
-p57
+p56
 aVW
-p58
+p57
 aI7
 aI0
 aI4
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI13
-aa(lp59
+aa(lp58
 V0021300913
-p60
+p59
 aVMAR 05, 2014
-p61
+p60
 aVPOR vs. ATL
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI1
 aI2
@@ -353,15 +350,15 @@ aI0
 aI1
 aI2
 aI-3
-aa(lp64
+aa(lp63
 V0021301020
-p65
+p64
 aVMAR 20, 2014
-p66
+p65
 aVPOR vs. WAS
-p67
+p66
 aVW
-p68
+p67
 aI2
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp69
+aa(lp68
 V0021301032
-p70
+p69
 aVMAR 22, 2014
-p71
+p70
 aVPOR @ CHA
-p72
+p71
 aVL
-p73
+p72
 aI11
 aI2
 aI3
@@ -411,15 +408,15 @@ aI0
 aI0
 aI5
 aI0
-aa(lp74
+aa(lp73
 V0021301228
-p75
+p74
 aVAPR 16, 2014
-p76
+p75
 aVPOR vs. LAC
-p77
+p76
 aVW
-p78
+p77
 aI29
 aI2
 aI8
@@ -441,10 +438,25 @@ aI6
 aI4
 aI-11
 aasS'name'
-p79
+p78
 VAllen Crabbe
+p79
+sS'weight'
 p80
-sS'experience'
+V210
 p81
+sS'age'
+p82
+I21
+sS'experience'
+p83
 I0
+sS'height'
+p84
+V6-6
+p85
+sS'position'
+p86
+VGuard
+p87
 s.

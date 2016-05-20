@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900742
-p5
+p4
 aVMAR 11, 2010
-p6
+p5
 aVWAS vs. ATL
-p7
+p6
 aVL
-p8
+p7
 aI7
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-3
-aa(lp9
+aa(lp8
 V0020900968
-p10
+p9
 aVMAR 12, 2010
-p11
+p10
 aVWAS @ DET
-p12
+p11
 aVL
-p13
+p12
 aI5
 aI3
 aI4
@@ -63,15 +60,15 @@ aI0
 aI0
 aI6
 aI4
-aa(lp14
+aa(lp13
 V0020900977
-p15
+p14
 aVMAR 13, 2010
-p16
+p15
 aVWAS vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI12
 aI2
 aI5
@@ -92,15 +89,15 @@ aI0
 aI0
 aI7
 aI-2
-aa(lp19
+aa(lp18
 V0020900994
-p20
+p19
 aVMAR 15, 2010
-p21
+p20
 aVWAS @ UTA
-p22
+p21
 aVL
-p23
+p22
 aI15
 aI3
 aI4
@@ -121,15 +118,15 @@ aI2
 aI1
 aI10
 aI7
-aa(lp24
+aa(lp23
 V0020901002
-p25
+p24
 aVMAR 16, 2010
-p26
+p25
 aVWAS @ DEN
-p27
+p26
 aVL
-p28
+p27
 aI27
 aI5
 aI9
@@ -150,15 +147,15 @@ aI3
 aI0
 aI13
 aI-6
-aa(lp29
+aa(lp28
 V0020901026
-p30
+p29
 aVMAR 19, 2010
-p31
+p30
 aVWAS @ POR
-p32
+p31
 aVL
-p33
+p32
 aI20
 aI2
 aI5
@@ -179,15 +176,15 @@ aI2
 aI0
 aI5
 aI0
-aa(lp34
+aa(lp33
 V0020901041
-p35
+p34
 aVMAR 21, 2010
-p36
+p35
 aVWAS @ LAL
-p37
+p36
 aVL
-p38
+p37
 aI7
 aI1
 aI4
@@ -208,15 +205,15 @@ aI0
 aI0
 aI2
 aI5
-aa(lp39
+aa(lp38
 V0020901053
-p40
+p39
 aVMAR 23, 2010
-p41
+p40
 aVWAS vs. CHA
-p42
+p41
 aVL
-p43
+p42
 aI15
 aI3
 aI5
@@ -237,15 +234,15 @@ aI1
 aI4
 aI9
 aI5
-aa(lp44
+aa(lp43
 V0020901060
-p45
+p44
 aVMAR 24, 2010
-p46
+p45
 aVWAS @ IND
-p47
+p46
 aVL
-p48
+p47
 aI14
 aI1
 aI6
@@ -266,15 +263,15 @@ aI0
 aI1
 aI2
 aI-2
-aa(lp49
+aa(lp48
 V0020901071
-p50
+p49
 aVMAR 26, 2010
-p51
+p50
 aVWAS @ CHA
-p52
+p51
 aVL
-p53
+p52
 aI33
 aI5
 aI9
@@ -295,15 +292,15 @@ aI1
 aI5
 aI19
 aI-9
-aa(lp54
+aa(lp53
 V0020901082
-p55
+p54
 aVMAR 27, 2010
-p56
+p55
 aVWAS vs. UTA
-p57
+p56
 aVL
-p58
+p57
 aI27
 aI2
 aI7
@@ -325,10 +322,25 @@ aI2
 aI6
 aI-4
 aasS'name'
-p59
+p58
 VAlonzo Gee
+p59
+sS'weight'
 p60
-sS'experience'
+V225
 p61
+sS'age'
+p62
+I22
+sS'experience'
+p63
 I0
+sS'height'
+p64
+V6-6
+p65
+sS'position'
+p66
+VForward
+p67
 s.

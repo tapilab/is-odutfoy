@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300736
-p5
+p4
 aVFEB 05, 2014
-p6
+p5
 aVLAC vs. MIA
-p7
+p6
 aVL
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-11
-aa(lp9
+aa(lp8
 V0021300763
-p10
+p9
 aVFEB 09, 2014
-p11
+p10
 aVLAC vs. PHI
-p12
+p11
 aVW
-p13
+p12
 aI9
 aI2
 aI5
@@ -64,10 +61,25 @@ aI0
 aI5
 aI-1
 aasS'name'
-p14
+p13
 VSasha Vujacic
+p14
+sS'weight'
 p15
-sS'experience'
+V195
 p16
+sS'age'
+p17
+I29
+sS'experience'
+p18
 I9
+sS'height'
+p19
+V6-7
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

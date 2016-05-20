@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700010
-p5
+p4
 aVOCT 31, 2007
-p6
+p5
 aVSAC @ NOH
-p7
+p6
 aVL
-p8
+p7
 aI19
 aI0
 aI4
@@ -34,15 +31,15 @@ aI0
 aI5
 aI2
 aI7
-aa(lp9
+aa(lp8
 V0020700025
-p10
+p9
 aVNOV 02, 2007
-p11
+p10
 aVSAC @ SAS
-p12
+p11
 aVL
-p13
+p12
 aI13
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI1
 aI4
 aI1
-aa(lp14
+aa(lp13
 V0020700033
-p15
+p14
 aVNOV 03, 2007
-p16
+p15
 aVSAC @ DAL
-p17
+p16
 aVL
-p18
+p17
 aI9
 aI2
 aI3
@@ -92,15 +89,15 @@ aI1
 aI1
 aI4
 aI4
-aa(lp19
+aa(lp18
 V0020700051
-p20
+p19
 aVNOV 06, 2007
-p21
+p20
 aVSAC vs. SEA
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-9
-aa(lp24
+aa(lp23
 V0020700084
-p25
+p24
 aVNOV 10, 2007
-p26
+p25
 aVSAC vs. MIN
-p27
+p26
 aVW
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp29
+aa(lp28
 V0020700095
-p30
+p29
 aVNOV 12, 2007
-p31
+p30
 aVSAC @ UTA
-p32
+p31
 aVL
-p33
+p32
 aI7
 aI0
 aI3
@@ -180,10 +177,25 @@ aI1
 aI0
 aI-1
 aasS'name'
-p34
+p33
 VShareef Abdur-Rahim
+p34
+sS'weight'
 p35
-sS'experience'
+V245
 p36
+sS'age'
+p37
+I31
+sS'experience'
+p38
 I11
+sS'height'
+p39
+V6-9
+p40
+sS'position'
+p41
+VForward
+p42
 s.

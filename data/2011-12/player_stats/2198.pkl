@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100005
-p5
+p4
 aVDEC 25, 2011
-p6
+p5
 aVGSW vs. LAC
-p7
+p6
 aVL
-p8
+p7
 aI7
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI3
 aI1
 aI-7
-aa(lp9
+aa(lp8
 V0021100017
-p10
+p9
 aVDEC 26, 2011
-p11
+p10
 aVGSW vs. CHI
-p12
+p11
 aVW
-p13
+p12
 aI23
 aI1
 aI3
@@ -63,15 +60,15 @@ aI0
 aI1
 aI5
 aI21
-aa(lp14
+aa(lp13
 V0021100032
-p15
+p14
 aVDEC 28, 2011
-p16
+p15
 aVGSW vs. NYK
-p17
+p16
 aVW
-p18
+p17
 aI12
 aI1
 aI3
@@ -92,15 +89,15 @@ aI3
 aI3
 aI3
 aI9
-aa(lp19
+aa(lp18
 V0021100056
-p20
+p19
 aVDEC 31, 2011
-p21
+p20
 aVGSW vs. PHI
-p22
+p21
 aVL
-p23
+p22
 aI15
 aI1
 aI1
@@ -121,15 +118,15 @@ aI1
 aI2
 aI2
 aI3
-aa(lp24
+aa(lp23
 V0021100066
-p25
+p24
 aVJAN 02, 2012
-p26
+p25
 aVGSW @ PHX
-p27
+p26
 aVL
-p28
+p27
 aI24
 aI3
 aI4
@@ -150,15 +147,15 @@ aI3
 aI2
 aI9
 aI-19
-aa(lp29
+aa(lp28
 V0021100091
-p30
+p29
 aVJAN 04, 2012
-p31
+p30
 aVGSW @ SAS
-p32
+p31
 aVL
-p33
+p32
 aI20
 aI3
 aI6
@@ -179,15 +176,15 @@ aI1
 aI2
 aI8
 aI4
-aa(lp34
+aa(lp33
 V0021100109
-p35
+p34
 aVJAN 06, 2012
-p36
+p35
 aVGSW @ LAL
-p37
+p36
 aVL
-p38
+p37
 aI34
 aI6
 aI13
@@ -208,15 +205,15 @@ aI2
 aI3
 aI13
 aI-11
-aa(lp39
+aa(lp38
 V0021100119
-p40
+p39
 aVJAN 07, 2012
-p41
+p40
 aVGSW vs. UTA
-p42
+p41
 aVL
-p43
+p42
 aI31
 aI3
 aI4
@@ -237,15 +234,15 @@ aI3
 aI1
 aI8
 aI-15
-aa(lp44
+aa(lp43
 V0021100142
-p45
+p44
 aVJAN 10, 2012
-p46
+p45
 aVGSW vs. MIA
-p47
+p46
 aVW
-p48
+p47
 aI21
 aI3
 aI5
@@ -267,10 +264,25 @@ aI4
 aI8
 aI-13
 aasS'name'
-p49
+p48
 VKwame Brown
+p49
+sS'weight'
 p50
-sS'experience'
+V290
 p51
+sS'age'
+p52
+I29
+sS'experience'
+p53
 I10
+sS'height'
+p54
+V6-11
+p55
+sS'position'
+p56
+VCenter
+p57
 s.

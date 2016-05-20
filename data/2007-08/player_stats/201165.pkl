@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700060
-p5
+p4
 aVNOV 07, 2007
-p6
+p5
 aVUTA vs. CLE
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI2
 aI0
 aI3
-aa(lp9
+aa(lp8
 V0020700083
-p10
+p9
 aVNOV 10, 2007
-p11
+p10
 aVUTA vs. MEM
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0020700148
-p15
+p14
 aVNOV 19, 2007
-p16
+p15
 aVUTA vs. NJN
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp19
+aa(lp18
 V0020700231
-p20
+p19
 aVNOV 30, 2007
-p21
+p20
 aVUTA vs. LAL
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp24
+aa(lp23
 V0020700507
-p25
+p24
 aVJAN 08, 2008
-p26
+p25
 aVUTA vs. IND
-p27
+p26
 aVW
-p28
+p27
 aI7
 aI1
 aI5
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI-9
-aa(lp29
+aa(lp28
 V0020700522
-p30
+p29
 aVJAN 10, 2008
-p31
+p30
 aVUTA vs. PHX
-p32
+p31
 aVW
-p33
+p32
 aI7
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI1
 aI-5
-aa(lp34
+aa(lp33
 V0020701102
-p35
+p34
 aVMAR 31, 2008
-p36
+p35
 aVUTA vs. WAS
-p37
+p36
 aVW
-p38
+p37
 aI8
 aI1
 aI3
@@ -208,15 +205,15 @@ aI1
 aI1
 aI5
 aI2
-aa(lp39
+aa(lp38
 V0020701119
-p40
+p39
 aVAPR 02, 2008
-p41
+p40
 aVUTA vs. MIN
-p42
+p41
 aVW
-p43
+p42
 aI3
 aI2
 aI3
@@ -237,15 +234,15 @@ aI0
 aI1
 aI5
 aI-4
-aa(lp44
+aa(lp43
 V0020701133
-p45
+p44
 aVAPR 04, 2008
-p46
+p45
 aVUTA vs. SAS
-p47
+p46
 aVW
-p48
+p47
 aI2
 aI0
 aI0
@@ -267,10 +264,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p49
+p48
 VMorris Almond
+p49
+sS'weight'
 p50
-sS'experience'
+V225
 p51
+sS'age'
+p52
+I22
+sS'experience'
+p53
 I0
+sS'height'
+p54
+V6-6
+p55
+sS'position'
+p56
+VGuard
+p57
 s.

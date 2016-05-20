@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021301116
-p5
+p4
 aVAPR 02, 2014
-p6
+p5
 aVCLE @ ORL
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI1
 aI2
-aa(lp9
+aa(lp8
 V0021301162
-p10
+p9
 aVAPR 09, 2014
-p11
+p10
 aVCLE vs. DET
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI4
@@ -64,10 +61,25 @@ aI0
 aI0
 aI-8
 aasS'name'
-p14
+p13
 VScotty Hopson
+p14
+sS'weight'
 p15
-sS'experience'
+V204
 p16
+sS'age'
+p17
+I24
+sS'experience'
+p18
 I0
+sS'height'
+p19
+V6-7
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

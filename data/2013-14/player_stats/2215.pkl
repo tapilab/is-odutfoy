@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I35
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300839
-p5
+p4
 aVFEB 23, 2014
-p6
+p5
 aVBKN @ LAL
-p7
+p6
 aVW
-p8
+p7
 aI11
 aI0
 aI1
@@ -34,15 +31,15 @@ aI2
 aI5
 aI0
 aI8
-aa(lp9
+aa(lp8
 V0021300861
-p10
+p9
 aVFEB 26, 2014
-p11
+p10
 aVBKN @ POR
-p12
+p11
 aVL
-p13
+p12
 aI7
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-10
-aa(lp14
+aa(lp13
 V0021300866
-p15
+p14
 aVFEB 27, 2014
-p16
+p15
 aVBKN @ DEN
-p17
+p16
 aVW
-p18
+p17
 aI8
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI4
 aI3
 aI-12
-aa(lp19
+aa(lp18
 V0021300878
-p20
+p19
 aVMAR 01, 2014
-p21
+p20
 aVBKN @ MIL
-p22
+p21
 aVW
-p23
+p22
 aI8
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI1
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0021300891
-p25
+p24
 aVMAR 03, 2014
-p26
+p25
 aVBKN vs. CHI
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp29
+aa(lp28
 V0021300908
-p30
+p29
 aVMAR 05, 2014
-p31
+p30
 aVBKN vs. MEM
-p32
+p31
 aVW
-p33
+p32
 aI17
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI2
 aI0
 aI-7
-aa(lp34
+aa(lp33
 V0021300938
-p35
+p34
 aVMAR 09, 2014
-p36
+p35
 aVBKN vs. SAC
-p37
+p36
 aVW
-p38
+p37
 aI20
 aI1
 aI2
@@ -208,15 +205,15 @@ aI0
 aI2
 aI2
 aI16
-aa(lp39
+aa(lp38
 V0021300944
-p40
+p39
 aVMAR 10, 2014
-p41
+p40
 aVBKN vs. TOR
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI0
@@ -237,15 +234,15 @@ aI1
 aI3
 aI0
 aI-6
-aa(lp44
+aa(lp43
 V0021300998
-p45
+p44
 aVMAR 17, 2014
-p46
+p45
 aVBKN vs. PHX
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI2
 aI0
 aI-3
-aa(lp49
+aa(lp48
 V0021301010
-p50
+p49
 aVMAR 19, 2014
-p51
+p50
 aVBKN vs. CHA
-p52
+p51
 aVW
-p53
+p52
 aI4
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI9
-aa(lp54
+aa(lp53
 V0021301026
-p55
+p54
 aVMAR 21, 2014
-p56
+p55
 aVBKN vs. BOS
-p57
+p56
 aVW
-p58
+p57
 aI6
 aI1
 aI1
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp59
+aa(lp58
 V0021301044
-p60
+p59
 aVMAR 23, 2014
-p61
+p60
 aVBKN @ DAL
-p62
+p61
 aVW
-p63
+p62
 aI5
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp64
+aa(lp63
 V0021301061
-p65
+p64
 aVMAR 26, 2014
-p66
+p65
 aVBKN @ CHA
-p67
+p66
 aVL
-p68
+p67
 aI2
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI1
 aI0
 aI-2
-aa(lp69
+aa(lp68
 V0021301078
-p70
+p69
 aVMAR 28, 2014
-p71
+p70
 aVBKN vs. CLE
-p72
+p71
 aVW
-p73
+p72
 aI3
 aI1
 aI2
@@ -411,15 +408,15 @@ aI0
 aI0
 aI2
 aI-6
-aa(lp74
+aa(lp73
 V0021301095
-p75
+p74
 aVMAR 30, 2014
-p76
+p75
 aVBKN vs. MIN
-p77
+p76
 aVW
-p78
+p77
 aI5
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp79
+aa(lp78
 V0021301111
-p80
+p79
 aVAPR 01, 2014
-p81
+p80
 aVBKN vs. HOU
-p82
+p81
 aVW
-p83
+p82
 aI0
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp84
+aa(lp83
 V0021301115
-p85
+p84
 aVAPR 02, 2014
-p86
+p85
 aVBKN @ NYK
-p87
+p86
 aVL
-p88
+p87
 aI7
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp89
+aa(lp88
 V0021301134
-p90
+p89
 aVAPR 04, 2014
-p91
+p90
 aVBKN vs. DET
-p92
+p91
 aVW
-p93
+p92
 aI17
 aI3
 aI3
@@ -527,15 +524,15 @@ aI1
 aI3
 aI6
 aI7
-aa(lp94
+aa(lp93
 V0021301163
-p95
+p94
 aVAPR 09, 2014
-p96
+p95
 aVBKN @ ORL
-p97
+p96
 aVL
-p98
+p97
 aI0
 aI0
 aI0
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp99
+aa(lp98
 V0021301199
-p100
+p99
 aVAPR 13, 2014
-p101
+p100
 aVBKN vs. ORL
-p102
+p101
 aVW
-p103
+p102
 aI1
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp104
+aa(lp103
 V0021301214
-p105
+p104
 aVAPR 15, 2014
-p106
+p105
 aVBKN vs. NYK
-p107
+p106
 aVL
-p108
+p107
 aI3
 aI1
 aI2
@@ -614,15 +611,15 @@ aI0
 aI1
 aI2
 aI7
-aa(lp109
+aa(lp108
 V0021301224
-p110
+p109
 aVAPR 16, 2014
-p111
+p110
 aVBKN @ CLE
-p112
+p111
 aVL
-p113
+p112
 aI39
 aI3
 aI8
@@ -644,10 +641,25 @@ aI3
 aI8
 aI-18
 aasS'name'
-p114
+p113
 VJason Collins
+p114
+sS'weight'
 p115
-sS'experience'
+V255
 p116
+sS'age'
+p117
+I35
+sS'experience'
+p118
 I12
+sS'height'
+p119
+V7-0
+p120
+sS'position'
+p121
+VCenter
+p122
 s.

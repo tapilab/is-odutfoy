@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020801030
-p5
+p4
 aVMAR 20, 2009
-p6
+p5
 aVHOU vs. MIN
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI2
 aI2
@@ -34,15 +31,15 @@ aI3
 aI2
 aI5
 aI-4
-aa(lp9
+aa(lp8
 V0020801058
-p10
+p9
 aVMAR 24, 2009
-p11
+p10
 aVHOU @ UTA
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp14
+aa(lp13
 V0020801087
-p15
+p14
 aVMAR 28, 2009
-p16
+p15
 aVHOU vs. LAC
-p17
+p16
 aVW
-p18
+p17
 aI4
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp19
+aa(lp18
 V0020801134
-p20
+p19
 aVAPR 03, 2009
-p21
+p20
 aVHOU @ LAL
-p22
+p21
 aVL
-p23
+p22
 aI1
 aI0
 aI1
@@ -122,10 +119,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p24
+p23
 VJames White
+p24
+sS'weight'
 p25
-sS'experience'
+V215
 p26
+sS'age'
+p27
+I26
+sS'experience'
+p28
 I2
+sS'height'
+p29
+V6-7
+p30
+sS'position'
+p31
+VGuard-Forward
+p32
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700231
-p5
+p4
 aVNOV 30, 2007
-p6
+p5
 aVUTA vs. LAL
-p7
+p6
 aVW
-p8
+p7
 aI17
 aI3
 aI5
@@ -34,15 +31,15 @@ aI2
 aI4
 aI6
 aI10
-aa(lp9
+aa(lp8
 V0020700337
-p10
+p9
 aVDEC 14, 2007
-p11
+p10
 aVUTA @ POR
-p12
+p11
 aVL
-p13
+p12
 aI4
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0020700349
-p15
+p14
 aVDEC 15, 2007
-p16
+p15
 aVUTA vs. SEA
-p17
+p16
 aVW
-p18
+p17
 aI11
 aI1
 aI1
@@ -92,15 +89,15 @@ aI1
 aI2
 aI2
 aI10
-aa(lp19
+aa(lp18
 V0020700354
-p20
+p19
 aVDEC 17, 2007
-p21
+p20
 aVUTA @ ATL
-p22
+p21
 aVL
-p23
+p22
 aI8
 aI0
 aI3
@@ -121,15 +118,15 @@ aI2
 aI3
 aI0
 aI-6
-aa(lp24
+aa(lp23
 V0020700366
-p25
+p24
 aVDEC 19, 2007
-p26
+p25
 aVUTA @ CHA
-p27
+p26
 aVL
-p28
+p27
 aI4
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI2
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020700385
-p30
+p29
 aVDEC 21, 2007
-p31
+p30
 aVUTA @ ORL
-p32
+p31
 aVW
-p33
+p32
 aI14
 aI0
 aI3
@@ -179,15 +176,15 @@ aI2
 aI5
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0020700393
-p35
+p34
 aVDEC 22, 2007
-p36
+p35
 aVUTA @ MIA
-p37
+p36
 aVL
-p38
+p37
 aI5
 aI1
 aI1
@@ -208,15 +205,15 @@ aI1
 aI1
 aI2
 aI-7
-aa(lp39
+aa(lp38
 V0020701091
-p40
+p39
 aVMAR 30, 2008
-p41
+p40
 aVUTA @ MIN
-p42
+p41
 aVL
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp44
+aa(lp43
 V0020701102
-p45
+p44
 aVMAR 31, 2008
-p46
+p45
 aVUTA vs. WAS
-p47
+p46
 aVW
-p48
+p47
 aI6
 aI1
 aI2
@@ -267,10 +264,25 @@ aI1
 aI4
 aI-1
 aasS'name'
-p49
+p48
 VKyrylo Fesenko
+p49
+sS'weight'
 p50
-sS'experience'
+V280
 p51
+sS'age'
+p52
+I21
+sS'experience'
+p53
 I0
+sS'height'
+p54
+V7-1
+p55
+sS'position'
+p56
+VCenter
+p57
 s.

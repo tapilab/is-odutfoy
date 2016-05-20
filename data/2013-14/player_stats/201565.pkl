@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300002
-p5
+p4
 aVOCT 29, 2013
-p6
+p5
 aVCHI @ MIA
-p7
+p6
 aVL
-p8
+p7
 aI34
 aI4
 aI15
@@ -34,15 +31,15 @@ aI5
 aI2
 aI12
 aI-9
-aa(lp9
+aa(lp8
 V0021300018
-p10
+p9
 aVOCT 31, 2013
-p11
+p10
 aVCHI vs. NYK
-p12
+p11
 aVW
-p13
+p12
 aI34
 aI7
 aI23
@@ -63,15 +60,15 @@ aI4
 aI2
 aI18
 aI-1
-aa(lp14
+aa(lp13
 V0021300034
-p15
+p14
 aVNOV 02, 2013
-p16
+p15
 aVCHI @ PHI
-p17
+p16
 aVL
-p18
+p17
 aI32
 aI4
 aI14
@@ -92,15 +89,15 @@ aI8
 aI2
 aI13
 aI-11
-aa(lp19
+aa(lp18
 V0021300061
-p20
+p19
 aVNOV 06, 2013
-p21
+p20
 aVCHI @ IND
-p22
+p21
 aVL
-p23
+p22
 aI27
 aI6
 aI15
@@ -121,15 +118,15 @@ aI4
 aI3
 aI17
 aI-28
-aa(lp24
+aa(lp23
 V0021300079
-p25
+p24
 aVNOV 08, 2013
-p26
+p25
 aVCHI vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI27
 aI3
 aI8
@@ -150,15 +147,15 @@ aI4
 aI1
 aI12
 aI18
-aa(lp29
+aa(lp28
 V0021300102
-p30
+p29
 aVNOV 11, 2013
-p31
+p30
 aVCHI vs. CLE
-p32
+p31
 aVW
-p33
+p32
 aI34
 aI8
 aI21
@@ -179,15 +176,15 @@ aI0
 aI1
 aI16
 aI9
-aa(lp34
+aa(lp33
 V0021300140
-p35
+p34
 aVNOV 16, 2013
-p36
+p35
 aVCHI vs. IND
-p37
+p36
 aVW
-p38
+p37
 aI31
 aI7
 aI16
@@ -208,15 +205,15 @@ aI0
 aI1
 aI20
 aI12
-aa(lp39
+aa(lp38
 V0021300151
-p40
+p39
 aVNOV 18, 2013
-p41
+p40
 aVCHI vs. CHA
-p42
+p41
 aVW
-p43
+p42
 aI31
 aI4
 aI13
@@ -237,15 +234,15 @@ aI3
 aI1
 aI12
 aI3
-aa(lp44
+aa(lp43
 V0021300175
-p45
+p44
 aVNOV 21, 2013
-p46
+p45
 aVCHI @ DEN
-p47
+p46
 aVL
-p48
+p47
 aI33
 aI9
 aI20
@@ -266,15 +263,15 @@ aI2
 aI2
 aI19
 aI-16
-aa(lp49
+aa(lp48
 V0021300185
-p50
+p49
 aVNOV 22, 2013
-p51
+p50
 aVCHI @ POR
-p52
+p51
 aVL
-p53
+p52
 aI28
 aI6
 aI19
@@ -296,10 +293,25 @@ aI0
 aI20
 aI-8
 aasS'name'
-p54
+p53
 VDerrick Rose
+p54
+sS'weight'
 p55
-sS'experience'
+V190
 p56
+sS'age'
+p57
+I25
+sS'experience'
+p58
 I5
+sS'height'
+p59
+V6-3
+p60
+sS'position'
+p61
+VGuard
+p62
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700006
-p5
+p4
 aVOCT 31, 2007
-p6
+p5
 aVWAS @ IND
-p7
+p6
 aVL
-p8
+p7
 aI44
 aI10
 aI25
@@ -34,15 +31,15 @@ aI5
 aI5
 aI34
 aI-10
-aa(lp9
+aa(lp8
 V0020700021
-p10
+p9
 aVNOV 02, 2007
-p11
+p10
 aVWAS @ BOS
-p12
+p11
 aVL
-p13
+p12
 aI40
 aI5
 aI19
@@ -63,15 +60,15 @@ aI4
 aI3
 aI21
 aI-10
-aa(lp14
+aa(lp13
 V0020700029
-p15
+p14
 aVNOV 03, 2007
-p16
+p15
 aVWAS vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI39
 aI5
 aI15
@@ -92,15 +89,15 @@ aI6
 aI3
 aI10
 aI-11
-aa(lp19
+aa(lp18
 V0020700063
-p20
+p19
 aVNOV 08, 2007
-p21
+p20
 aVWAS @ NJN
-p22
+p21
 aVL
-p23
+p22
 aI43
 aI7
 aI17
@@ -121,15 +118,15 @@ aI6
 aI2
 aI21
 aI-2
-aa(lp24
+aa(lp23
 V0020700071
-p25
+p24
 aVNOV 09, 2007
-p26
+p25
 aVWAS vs. DEN
-p27
+p26
 aVL
-p28
+p27
 aI37
 aI5
 aI13
@@ -150,15 +147,15 @@ aI4
 aI3
 aI18
 aI-16
-aa(lp29
+aa(lp28
 V0020700086
-p30
+p29
 aVNOV 11, 2007
-p31
+p30
 aVWAS @ ATL
-p32
+p31
 aVW
-p33
+p32
 aI39
 aI5
 aI15
@@ -179,15 +176,15 @@ aI4
 aI2
 aI18
 aI11
-aa(lp34
+aa(lp33
 V0020700105
-p35
+p34
 aVNOV 14, 2007
-p36
+p35
 aVWAS vs. IND
-p37
+p36
 aVW
-p38
+p37
 aI36
 aI9
 aI18
@@ -208,15 +205,15 @@ aI3
 aI3
 aI30
 aI9
-aa(lp39
+aa(lp38
 V0020700127
-p40
+p39
 aVNOV 16, 2007
-p41
+p40
 aVWAS @ MIN
-p42
+p41
 aVW
-p43
+p42
 aI38
 aI9
 aI19
@@ -237,15 +234,15 @@ aI7
 aI1
 aI27
 aI21
-aa(lp44
+aa(lp43
 V0020701113
-p45
+p44
 aVAPR 02, 2008
-p46
+p45
 aVWAS vs. MIL
-p47
+p46
 aVL
-p48
+p47
 aI20
 aI5
 aI9
@@ -266,15 +263,15 @@ aI4
 aI1
 aI17
 aI-8
-aa(lp49
+aa(lp48
 V0020701128
-p50
+p49
 aVAPR 04, 2008
-p51
+p50
 aVWAS vs. MIA
-p52
+p51
 aVW
-p53
+p52
 aI20
 aI4
 aI10
@@ -295,15 +292,15 @@ aI1
 aI0
 aI13
 aI14
-aa(lp54
+aa(lp53
 V0020701166
-p55
+p54
 aVAPR 09, 2008
-p56
+p55
 aVWAS vs. BOS
-p57
+p56
 aVW
-p58
+p57
 aI24
 aI5
 aI14
@@ -324,15 +321,15 @@ aI1
 aI3
 aI13
 aI7
-aa(lp59
+aa(lp58
 V0020701183
-p60
+p59
 aVAPR 11, 2008
-p61
+p60
 aVWAS @ DET
-p62
+p61
 aVL
-p63
+p62
 aI19
 aI2
 aI8
@@ -353,15 +350,15 @@ aI2
 aI2
 aI10
 aI-19
-aa(lp64
+aa(lp63
 V0020701188
-p65
+p64
 aVAPR 12, 2008
-p66
+p65
 aVWAS vs. PHI
-p67
+p66
 aVW
-p68
+p67
 aI25
 aI7
 aI14
@@ -383,10 +380,25 @@ aI2
 aI20
 aI21
 aasS'name'
-p69
+p68
 VGilbert Arenas
+p69
+sS'weight'
 p70
-sS'experience'
+V215
 p71
+sS'age'
+p72
+I25
+sS'experience'
+p73
 I6
+sS'height'
+p74
+V6-4
+p75
+sS'position'
+p76
+VGuard
+p77
 s.

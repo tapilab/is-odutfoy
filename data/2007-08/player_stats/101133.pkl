@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700001
-p5
+p4
 aVOCT 30, 2007
-p6
+p5
 aVSAS vs. POR
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0020700025
-p10
+p9
 aVNOV 02, 2007
-p11
+p10
 aVSAS vs. SAC
-p12
+p11
 aVW
-p13
+p12
 aI6
 aI2
 aI2
@@ -63,15 +60,15 @@ aI0
 aI3
 aI5
 aI-8
-aa(lp14
+aa(lp13
 V0020700059
-p15
+p14
 aVNOV 07, 2007
-p16
+p15
 aVSAS vs. MIA
-p17
+p16
 aVW
-p18
+p17
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp19
+aa(lp18
 V0020700073
-p20
+p19
 aVNOV 09, 2007
-p21
+p20
 aVSAS @ NOH
+p21
+aVW
 p22
-aVW
-p23
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp24
+aa(lp23
 V0020700090
-p25
+p24
 aVNOV 11, 2007
-p26
+p25
 aVSAS vs. MIL
-p27
+p26
 aVW
-p28
+p27
 aI10
 aI4
 aI7
@@ -150,15 +147,15 @@ aI2
 aI0
 aI12
 aI-5
-aa(lp29
+aa(lp28
 V0020700101
-p30
+p29
 aVNOV 13, 2007
-p31
+p30
 aVSAS vs. LAL
-p32
+p31
 aVW
-p33
+p32
 aI4
 aI0
 aI3
@@ -180,10 +177,25 @@ aI1
 aI2
 aI-3
 aasS'name'
-p34
+p33
 VIan Mahinmi
+p34
+sS'weight'
 p35
-sS'experience'
+V250
 p36
+sS'age'
+p37
+I21
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-11
+p40
+sS'position'
+p41
+VCenter
+p42
 s.

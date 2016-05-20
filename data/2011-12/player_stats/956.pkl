@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I36
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100392
-p5
+p4
 aVFEB 10, 2012
-p6
+p5
 aVATL @ ORL
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0021100411
-p10
+p9
 aVFEB 12, 2012
-p11
+p10
 aVATL vs. MIA
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI8
-aa(lp14
+aa(lp13
 V0021100428
-p15
+p14
 aVFEB 14, 2012
-p16
+p15
 aVATL @ LAL
-p17
+p16
 aVL
-p18
+p17
 aI16
 aI0
 aI3
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0021100439
-p20
+p19
 aVFEB 15, 2012
-p21
+p20
 aVATL @ PHX
-p22
+p21
 aVW
-p23
+p22
 aI2
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI5
-aa(lp24
+aa(lp23
 V0021100470
-p25
+p24
 aVFEB 20, 2012
-p26
+p25
 aVATL @ CHI
-p27
+p26
 aVL
-p28
+p27
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp29
+aa(lp28
 V0021100492
-p30
+p29
 aVFEB 22, 2012
-p31
+p30
 aVATL @ NYK
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp34
+aa(lp33
 V0021100564
-p35
+p34
 aVMAR 06, 2012
-p36
+p35
 aVATL @ IND
-p37
+p36
 aVW
-p38
+p37
 aI12
 aI1
 aI2
@@ -208,15 +205,15 @@ aI1
 aI1
 aI2
 aI2
-aa(lp39
+aa(lp38
 V0021100573
-p40
+p39
 aVMAR 07, 2012
-p41
+p40
 aVATL @ MIA
-p42
+p41
 aVL
-p43
+p42
 aI4
 aI0
 aI0
@@ -237,15 +234,15 @@ aI1
 aI1
 aI0
 aI0
-aa(lp44
+aa(lp43
 V0021100587
-p45
+p44
 aVMAR 09, 2012
-p46
+p45
 aVATL @ DET
-p47
+p46
 aVL
-p48
+p47
 aI8
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0021100609
-p50
+p49
 aVMAR 11, 2012
-p51
+p50
 aVATL @ SAC
-p52
+p51
 aVW
-p53
+p52
 aI6
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI2
 aI0
 aI1
-aa(lp54
+aa(lp53
 V0021100624
-p55
+p54
 aVMAR 13, 2012
-p56
+p55
 aVATL @ DEN
-p57
+p56
 aVL
-p58
+p57
 aI4
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp59
+aa(lp58
 V0021100636
-p60
+p59
 aVMAR 14, 2012
-p61
+p60
 aVATL @ LAC
-p62
+p61
 aVL
-p63
+p62
 aI8
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp64
+aa(lp63
 V0021100662
-p65
+p64
 aVMAR 18, 2012
-p66
+p65
 aVATL @ CLE
-p67
+p66
 aVW
-p68
+p67
 aI1
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp69
+aa(lp68
 V0021100876
-p70
+p69
 aVAPR 13, 2012
-p71
+p70
 aVATL @ ORL
-p72
+p71
 aVW
-p73
+p72
 aI4
 aI0
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp74
+aa(lp73
 V0021100983
-p75
+p74
 aVAPR 26, 2012
-p76
+p75
 aVATL vs. DAL
-p77
+p76
 aVW
-p78
+p77
 aI5
 aI0
 aI0
@@ -441,10 +438,25 @@ aI1
 aI0
 aI-5
 aasS'name'
-p79
+p78
 VErick Dampier
+p79
+sS'weight'
 p80
-sS'experience'
+V265
 p81
+sS'age'
+p82
+I36
+sS'experience'
+p83
 I15
+sS'height'
+p84
+V6-11
+p85
+sS'position'
+p86
+VCenter
+p87
 s.

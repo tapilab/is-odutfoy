@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100144
-p5
+p4
 aVJAN 11, 2012
-p6
+p5
 aVIND vs. ATL
-p7
+p6
 aVW
-p8
+p7
 aI5
 aI0
 aI4
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-10
-aa(lp9
+aa(lp8
 V0021100173
-p10
+p9
 aVJAN 14, 2012
-p11
+p10
 aVIND vs. BOS
-p12
+p11
 aVW
-p13
+p12
 aI3
 aI1
 aI2
@@ -63,15 +60,15 @@ aI0
 aI1
 aI2
 aI-4
-aa(lp14
+aa(lp13
 V0021100253
-p15
+p14
 aVJAN 24, 2012
-p16
+p15
 aVIND vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0021100294
-p20
+p19
 aVJAN 29, 2012
-p21
+p20
 aVIND @ ORL
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI2
 aI3
@@ -121,15 +118,15 @@ aI0
 aI1
 aI4
 aI0
-aa(lp24
+aa(lp23
 V0021100421
-p25
+p24
 aVFEB 14, 2012
-p26
+p25
 aVIND vs. MIA
-p27
+p26
 aVL
-p28
+p27
 aI5
 aI0
 aI0
@@ -150,15 +147,15 @@ aI1
 aI1
 aI0
 aI13
-aa(lp29
+aa(lp28
 V0021100434
-p30
+p29
 aVFEB 15, 2012
-p31
+p30
 aVIND @ CLE
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp34
+aa(lp33
 V0021100464
-p35
+p34
 aVFEB 19, 2012
-p36
+p35
 aVIND vs. CHA
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI1
 aI1
@@ -208,15 +205,15 @@ aI1
 aI1
 aI3
 aI-7
-aa(lp39
+aa(lp38
 V0021100488
-p40
+p39
 aVFEB 22, 2012
-p41
+p40
 aVIND @ CHA
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp44
+aa(lp43
 V0021100504
-p45
+p44
 aVFEB 28, 2012
-p46
+p45
 aVIND vs. GSW
-p47
+p46
 aVW
-p48
+p47
 aI6
 aI1
 aI3
@@ -266,15 +263,15 @@ aI0
 aI2
 aI2
 aI-7
-aa(lp49
+aa(lp48
 V0021100543
-p50
+p49
 aVMAR 03, 2012
-p51
+p50
 aVIND @ NOH
-p52
+p51
 aVW
-p53
+p52
 aI6
 aI1
 aI4
@@ -295,15 +292,15 @@ aI0
 aI3
 aI2
 aI-12
-aa(lp54
+aa(lp53
 V0021100606
-p55
+p54
 aVMAR 11, 2012
-p56
+p55
 aVIND @ ORL
-p57
+p56
 aVL
-p58
+p57
 aI9
 aI1
 aI2
@@ -324,15 +321,15 @@ aI0
 aI1
 aI2
 aI14
-aa(lp59
+aa(lp58
 V0021100620
-p60
+p59
 aVMAR 13, 2012
-p61
+p60
 aVIND vs. POR
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI2
 aI0
 aI-8
-aa(lp64
+aa(lp63
 V0021100645
-p65
+p64
 aVMAR 16, 2012
-p66
+p65
 aVIND @ NYK
-p67
+p66
 aVL
-p68
+p67
 aI6
 aI0
 aI1
@@ -382,15 +379,15 @@ aI0
 aI1
 aI0
 aI12
-aa(lp69
+aa(lp68
 V0021100717
-p70
+p69
 aVMAR 24, 2012
-p71
+p70
 aVIND @ MIL
-p72
+p71
 aVW
-p73
+p72
 aI6
 aI1
 aI1
@@ -411,15 +408,15 @@ aI0
 aI0
 aI2
 aI-2
-aa(lp74
+aa(lp73
 V0021100748
-p75
+p74
 aVMAR 28, 2012
-p76
+p75
 aVIND @ NJN
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI1
 aI2
@@ -440,15 +437,15 @@ aI0
 aI0
 aI4
 aI5
-aa(lp79
+aa(lp78
 V0021100800
-p80
+p79
 aVAPR 04, 2012
-p81
+p80
 aVIND @ WAS
-p82
+p81
 aVW
-p83
+p82
 aI4
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp84
+aa(lp83
 V0021100877
-p85
+p84
 aVAPR 13, 2012
-p86
+p85
 aVIND vs. CLE
-p87
+p86
 aVW
-p88
+p87
 aI3
 aI1
 aI1
@@ -498,15 +495,15 @@ aI0
 aI0
 aI3
 aI2
-aa(lp89
+aa(lp88
 V0021100905
-p90
+p89
 aVAPR 16, 2012
-p91
+p90
 aVIND vs. MIN
-p92
+p91
 aVW
-p93
+p92
 aI4
 aI0
 aI1
@@ -527,15 +524,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp94
+aa(lp93
 V0021100961
-p95
+p94
 aVAPR 23, 2012
-p96
+p95
 aVIND vs. DET
-p97
+p96
 aVW
-p98
+p97
 aI18
 aI5
 aI10
@@ -556,15 +553,15 @@ aI0
 aI2
 aI10
 aI7
-aa(lp99
+aa(lp98
 V0021100973
-p100
+p99
 aVAPR 25, 2012
-p101
+p100
 aVIND vs. CHI
-p102
+p101
 aVL
-p103
+p102
 aI4
 aI0
 aI1
@@ -586,10 +583,25 @@ aI0
 aI0
 aI7
 aasS'name'
-p104
+p103
 VJeff Ayres
+p104
+sS'weight'
 p105
-sS'experience'
+V250
 p106
+sS'age'
+p107
+I24
+sS'experience'
+p108
 I2
+sS'height'
+p109
+V6-9
+p110
+sS'position'
+p111
+VForward-Center
+p112
 s.

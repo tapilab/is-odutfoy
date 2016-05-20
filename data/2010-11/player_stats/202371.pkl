@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000482
-p5
+p4
 aVDEC 31, 2010
-p6
+p5
 aVPHX vs. DET
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -35,10 +32,25 @@ aI1
 aI0
 aI-2
 aasS'name'
-p9
+p8
 VGani Lawal
+p9
+sS'weight'
 p10
-sS'experience'
+V234
 p11
+sS'age'
+p12
+I22
+sS'experience'
+p13
 I0
+sS'height'
+p14
+V6-9
+p15
+sS'position'
+p16
+VForward
+p17
 s.

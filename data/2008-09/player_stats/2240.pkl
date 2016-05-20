@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020801085
-p5
+p4
 aVMAR 28, 2009
-p6
+p5
 aVWAS vs. DET
-p7
+p6
 aVL
-p8
+p7
 aI29
 aI3
 aI12
@@ -34,15 +31,15 @@ aI1
 aI2
 aI15
 aI-3
-aa(lp9
+aa(lp8
 V0020801123
-p10
+p9
 aVAPR 02, 2009
-p11
+p10
 aVWAS vs. CLE
-p12
+p11
 aVW
-p13
+p12
 aI33
 aI3
 aI11
@@ -64,10 +61,25 @@ aI2
 aI11
 aI5
 aasS'name'
-p14
+p13
 VGilbert Arenas
+p14
+sS'weight'
 p15
-sS'experience'
+V215
 p16
+sS'age'
+p17
+I26
+sS'experience'
+p18
 I7
+sS'height'
+p19
+V6-4
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

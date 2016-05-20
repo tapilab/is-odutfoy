@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700002
-p5
+p4
 aVOCT 30, 2007
-p6
+p5
 aVLAL vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI3
 aI-4
-aa(lp9
+aa(lp8
 V0020700042
-p10
+p9
 aVNOV 04, 2007
-p11
+p10
 aVLAL vs. UTA
-p12
+p11
 aVW
-p13
+p12
 aI7
 aI0
 aI2
@@ -63,15 +60,15 @@ aI1
 aI1
 aI1
 aI0
-aa(lp14
+aa(lp13
 V0020700052
-p15
+p14
 aVNOV 06, 2007
-p16
+p15
 aVLAL vs. NOH
-p17
+p16
 aVL
-p18
+p17
 aI17
 aI4
 aI7
@@ -92,15 +89,15 @@ aI2
 aI1
 aI8
 aI-8
-aa(lp19
+aa(lp18
 V0020700076
-p20
+p19
 aVNOV 09, 2007
-p21
+p20
 aVLAL vs. MIN
-p22
+p21
 aVW
-p23
+p22
 aI21
 aI5
 aI9
@@ -121,15 +118,15 @@ aI1
 aI3
 aI10
 aI-1
-aa(lp24
+aa(lp23
 V0020700101
-p25
+p24
 aVNOV 13, 2007
-p26
+p25
 aVLAL @ SAS
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI0
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp29
+aa(lp28
 V0020700113
-p30
+p29
 aVNOV 14, 2007
-p31
+p30
 aVLAL @ HOU
-p32
+p31
 aVW
-p33
+p32
 aI2
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp34
+aa(lp33
 V0020700144
-p35
+p34
 aVNOV 18, 2007
-p36
+p35
 aVLAL vs. CHI
-p37
+p36
 aVW
-p38
+p37
 aI13
 aI2
 aI8
@@ -208,15 +205,15 @@ aI3
 aI4
 aI11
 aI7
-aa(lp39
+aa(lp38
 V0020700152
-p40
+p39
 aVNOV 20, 2007
-p41
+p40
 aVLAL @ IND
-p42
+p41
 aVW
-p43
+p42
 aI19
 aI4
 aI7
@@ -237,15 +234,15 @@ aI1
 aI2
 aI9
 aI-6
-aa(lp44
+aa(lp43
 V0020700162
-p45
+p44
 aVNOV 21, 2007
-p46
+p45
 aVLAL @ MIL
-p47
+p46
 aVL
-p48
+p47
 aI16
 aI0
 aI2
@@ -266,15 +263,15 @@ aI1
 aI0
 aI1
 aI-10
-aa(lp49
+aa(lp48
 V0020700172
-p50
+p49
 aVNOV 23, 2007
-p51
+p50
 aVLAL @ BOS
-p52
+p51
 aVL
-p53
+p52
 aI14
 aI0
 aI4
@@ -295,15 +292,15 @@ aI2
 aI4
 aI0
 aI-19
-aa(lp54
+aa(lp53
 V0020700196
-p55
+p54
 aVNOV 25, 2007
-p56
+p55
 aVLAL vs. NJN
-p57
+p56
 aVL
-p58
+p57
 aI4
 aI2
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI4
 aI0
-aa(lp59
+aa(lp58
 V0020700210
-p60
+p59
 aVNOV 27, 2007
-p61
+p60
 aVLAL vs. SEA
-p62
+p61
 aVW
-p63
+p62
 aI22
 aI2
 aI10
@@ -353,15 +350,15 @@ aI0
 aI4
 aI6
 aI10
-aa(lp64
+aa(lp63
 V0020700222
-p65
+p64
 aVNOV 29, 2007
-p66
+p65
 aVLAL vs. DEN
-p67
+p66
 aVW
-p68
+p67
 aI4
 aI0
 aI2
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp69
+aa(lp68
 V0020700231
-p70
+p69
 aVNOV 30, 2007
-p71
+p70
 aVLAL @ UTA
-p72
+p71
 aVL
-p73
+p72
 aI10
 aI0
 aI0
@@ -411,15 +408,15 @@ aI1
 aI1
 aI0
 aI-1
-aa(lp74
+aa(lp73
 V0020700249
-p75
+p74
 aVDEC 02, 2007
-p76
+p75
 aVLAL vs. ORL
-p77
+p76
 aVL
-p78
+p77
 aI10
 aI1
 aI3
@@ -440,15 +437,15 @@ aI3
 aI2
 aI2
 aI3
-aa(lp79
+aa(lp78
 V0020700259
-p80
+p79
 aVDEC 04, 2007
-p81
+p80
 aVLAL @ MIN
-p82
+p81
 aVW
-p83
+p82
 aI33
 aI5
 aI9
@@ -469,15 +466,15 @@ aI0
 aI5
 aI11
 aI17
-aa(lp84
+aa(lp83
 V0020700270
-p85
+p84
 aVDEC 05, 2007
-p86
+p85
 aVLAL @ DEN
-p87
+p86
 aVW
-p88
+p87
 aI22
 aI2
 aI7
@@ -498,15 +495,15 @@ aI1
 aI3
 aI6
 aI-9
-aa(lp89
+aa(lp88
 V0020700353
-p90
+p89
 aVDEC 16, 2007
-p91
+p90
 aVLAL vs. LAC
-p92
+p91
 aVW
-p93
+p92
 aI15
 aI1
 aI3
@@ -527,15 +524,15 @@ aI0
 aI3
 aI2
 aI2
-aa(lp94
+aa(lp93
 V0020700400
-p95
+p94
 aVDEC 23, 2007
-p96
+p95
 aVLAL @ NYK
-p97
+p96
 aVW
-p98
+p97
 aI10
 aI2
 aI3
@@ -556,15 +553,15 @@ aI0
 aI3
 aI4
 aI3
-aa(lp99
+aa(lp98
 V0020701082
-p100
+p99
 aVMAR 28, 2008
-p101
+p100
 aVLAL vs. MEM
-p102
+p101
 aVL
-p103
+p102
 aI5
 aI0
 aI1
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI0
-aa(lp104
+aa(lp103
 V0020701098
-p105
+p104
 aVMAR 30, 2008
-p106
+p105
 aVLAL vs. WAS
-p107
+p106
 aVW
-p108
+p107
 aI3
 aI0
 aI1
@@ -614,15 +611,15 @@ aI0
 aI2
 aI0
 aI2
-aa(lp109
+aa(lp108
 V0020701175
-p110
+p109
 aVAPR 10, 2008
-p111
+p110
 aVLAL @ LAC
-p112
+p111
 aVW
-p113
+p112
 aI5
 aI0
 aI2
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp114
+aa(lp113
 V0020701216
-p115
+p114
 aVAPR 15, 2008
-p116
+p115
 aVLAL vs. SAC
-p117
+p116
 aVW
-p118
+p117
 aI12
 aI1
 aI7
@@ -673,10 +670,25 @@ aI1
 aI4
 aI-6
 aasS'name'
-p119
+p118
 VChris Mihm
+p119
+sS'weight'
 p120
-sS'experience'
+V265
 p121
+sS'age'
+p122
+I28
+sS'experience'
+p123
 I7
+sS'height'
+p124
+V7-0
+p125
+sS'position'
+p126
+VCenter
+p127
 s.

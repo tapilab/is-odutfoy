@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200017
-p5
+p4
 aVNOV 02, 2012
-p6
+p5
 aVBOS vs. MIL
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI9
-aa(lp9
+aa(lp8
 V0021200225
-p10
+p9
 aVNOV 30, 2012
-p11
+p10
 aVBOS vs. POR
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI3
@@ -63,15 +60,15 @@ aI0
 aI2
 aI2
 aI-3
-aa(lp14
+aa(lp13
 V0021200259
-p15
+p14
 aVDEC 05, 2012
-p16
+p15
 aVBOS vs. MIN
-p17
+p16
 aVW
-p18
+p17
 aI1
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp19
+aa(lp18
 V0021200405
-p20
+p19
 aVDEC 25, 2012
-p21
+p20
 aVBOS @ BKN
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI1
 aI2
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp24
+aa(lp23
 V0021200424
-p25
+p24
 aVDEC 27, 2012
-p26
+p25
 aVBOS @ LAC
-p27
+p26
 aVL
-p28
+p27
 aI8
 aI0
 aI2
@@ -150,15 +147,15 @@ aI1
 aI0
 aI1
 aI-6
-aa(lp29
+aa(lp28
 V0021200447
-p30
+p29
 aVDEC 29, 2012
-p31
+p30
 aVBOS @ GSW
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI1
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI2
 aI0
-aa(lp34
+aa(lp33
 V0021201114
-p35
+p34
 aVAPR 03, 2013
-p36
+p35
 aVBKN @ CLE
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp39
+aa(lp38
 V0021201155
-p40
+p39
 aVAPR 09, 2013
-p41
+p40
 aVBKN vs. PHI
-p42
+p41
 aVW
-p43
+p42
 aI5
 aI0
 aI1
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp44
+aa(lp43
 V0021201168
-p45
+p44
 aVAPR 10, 2013
-p46
+p45
 aVBKN @ BOS
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-9
-aa(lp49
+aa(lp48
 V0021201205
-p50
+p49
 aVAPR 15, 2013
-p51
+p50
 aVBKN vs. WAS
-p52
+p51
 aVW
-p53
+p52
 aI20
 aI0
 aI1
@@ -296,10 +293,25 @@ aI1
 aI2
 aI12
 aasS'name'
-p54
+p53
 VKris Joseph
+p54
+sS'weight'
 p55
-sS'experience'
+V210
 p56
+sS'age'
+p57
+I24
+sS'experience'
+p58
 I0
+sS'height'
+p59
+V6-7
+p60
+sS'position'
+p61
+VForward
+p62
 s.

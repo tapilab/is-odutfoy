@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020701038
-p5
+p4
 aVMAR 22, 2008
-p6
+p5
 aVHOU @ PHX
-p7
+p6
 aVL
-p8
+p7
 aI3
 aI1
 aI1
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI-5
-aa(lp9
+aa(lp8
 V0020701090
-p10
+p9
 aVMAR 30, 2008
-p11
+p10
 aVHOU @ SAS
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI2
 aI3
@@ -63,15 +60,15 @@ aI0
 aI1
 aI4
 aI2
-aa(lp14
+aa(lp13
 V0020701136
-p15
+p14
 aVAPR 04, 2008
-p16
+p15
 aVHOU @ SEA
-p17
+p16
 aVW
-p18
+p17
 aI1
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0020701152
-p20
+p19
 aVAPR 06, 2008
-p21
+p20
 aVHOU @ LAC
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020701171
-p25
+p24
 aVAPR 09, 2008
-p26
+p25
 aVHOU vs. SEA
-p27
+p26
 aVW
-p28
+p27
 aI2
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI7
-aa(lp29
+aa(lp28
 V0020701201
-p30
+p29
 aVAPR 13, 2008
-p31
+p30
 aVHOU @ DEN
-p32
+p31
 aVL
-p33
+p32
 aI5
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp34
+aa(lp33
 V0020701226
-p35
+p34
 aVAPR 16, 2008
-p36
+p35
 aVHOU vs. LAC
-p37
+p36
 aVW
-p38
+p37
 aI1
 aI0
 aI0
@@ -209,10 +206,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p39
+p38
 VLoren Woods
+p39
+sS'weight'
 p40
-sS'experience'
+V260
 p41
+sS'age'
+p42
+I29
+sS'experience'
+p43
 I6
+sS'height'
+p44
+V7-2
+p45
+sS'position'
+p46
+VCenter
+p47
 s.

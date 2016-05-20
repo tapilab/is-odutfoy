@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000164
-p5
+p4
 aVNOV 17, 2010
-p6
+p5
 aVOKC vs. HOU
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0021000227
-p10
+p9
 aVNOV 26, 2010
-p11
+p10
 aVOKC @ IND
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI0
 aI0
@@ -63,15 +60,15 @@ aI1
 aI2
 aI0
 aI9
-aa(lp14
+aa(lp13
 V0021000262
-p15
+p14
 aVDEC 01, 2010
-p16
+p15
 aVOKC @ NJN
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI1
 aI1
 aI2
-aa(lp19
+aa(lp18
 V0021000276
-p20
+p19
 aVDEC 03, 2010
-p21
+p20
 aVOKC @ TOR
-p22
+p21
 aVL
-p23
+p22
 aI3
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp24
+aa(lp23
 V0021000305
-p25
+p24
 aVDEC 06, 2010
-p26
+p25
 aVOKC @ CHI
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0021000352
-p30
+p29
 aVDEC 12, 2010
-p31
+p30
 aVOKC vs. CLE
-p32
+p31
 aVW
-p33
+p32
 aI7
 aI2
 aI4
@@ -179,15 +176,15 @@ aI2
 aI3
 aI5
 aI0
-aa(lp34
+aa(lp33
 V0021000374
-p35
+p34
 aVDEC 15, 2010
-p36
+p35
 aVOKC vs. HOU
-p37
+p36
 aVW
-p38
+p37
 aI5
 aI0
 aI3
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0021000388
-p40
+p39
 aVDEC 17, 2010
-p41
+p40
 aVOKC vs. SAC
-p42
+p41
 aVW
-p43
+p42
 aI2
 aI0
 aI1
@@ -237,15 +234,15 @@ aI1
 aI0
 aI1
 aI-1
-aa(lp44
+aa(lp43
 V0021000415
-p45
+p44
 aVDEC 21, 2010
-p46
+p45
 aVOKC @ CHA
-p47
+p46
 aVW
-p48
+p47
 aI8
 aI0
 aI2
@@ -266,15 +263,15 @@ aI2
 aI2
 aI0
 aI-3
-aa(lp49
+aa(lp48
 V0021000425
-p50
+p49
 aVDEC 22, 2010
-p51
+p50
 aVOKC @ NYK
-p52
+p51
 aVL
-p53
+p52
 aI5
 aI1
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp54
+aa(lp53
 V0021000468
-p55
+p54
 aVDEC 29, 2010
-p56
+p55
 aVOKC vs. NJN
-p57
+p56
 aVW
-p58
+p57
 aI5
 aI0
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI1
 aI-2
-aa(lp59
+aa(lp58
 V0021000488
-p60
+p59
 aVJAN 01, 2011
-p61
+p60
 aVOKC @ SAS
-p62
+p61
 aVL
-p63
+p62
 aI8
 aI1
 aI4
@@ -353,15 +350,15 @@ aI0
 aI1
 aI3
 aI-6
-aa(lp64
+aa(lp63
 V0021001225
-p65
+p64
 aVAPR 13, 2011
-p66
+p65
 aVOKC vs. MIL
-p67
+p66
 aVL
-p68
+p67
 aI29
 aI4
 aI9
@@ -383,10 +380,25 @@ aI2
 aI10
 aI-22
 aasS'name'
-p69
+p68
 VByron Mullens
+p69
+sS'weight'
 p70
-sS'experience'
+V275
 p71
+sS'age'
+p72
+I21
+sS'experience'
+p73
 I1
+sS'height'
+p74
+V7-0
+p75
+sS'position'
+p76
+VCenter
+p77
 s.

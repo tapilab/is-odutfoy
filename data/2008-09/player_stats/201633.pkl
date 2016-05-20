@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800091
-p5
+p4
 aVNOV 09, 2008
-p6
+p5
 aVGSW @ SAC
-p7
+p6
 aVL
-p8
+p7
 aI23
 aI1
 aI6
@@ -34,15 +31,15 @@ aI1
 aI3
 aI4
 aI-5
-aa(lp9
+aa(lp8
 V0020800213
-p10
+p9
 aVNOV 26, 2008
-p11
+p10
 aVGSW @ BOS
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI1
 aI1
@@ -63,15 +60,15 @@ aI0
 aI2
 aI4
 aI2
-aa(lp14
+aa(lp13
 V0020800227
-p15
+p14
 aVNOV 28, 2008
-p16
+p15
 aVGSW @ CLE
-p17
+p16
 aVL
-p18
+p17
 aI8
 aI1
 aI2
@@ -92,15 +89,15 @@ aI1
 aI1
 aI5
 aI11
-aa(lp19
+aa(lp18
 V0020800284
-p20
+p19
 aVDEC 05, 2008
-p21
+p20
 aVGSW @ HOU
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp24
+aa(lp23
 V0020800294
-p25
+p24
 aVDEC 06, 2008
-p26
+p25
 aVGSW @ SAS
-p27
+p26
 aVL
-p28
+p27
 aI18
 aI1
 aI3
@@ -150,15 +147,15 @@ aI0
 aI1
 aI3
 aI0
-aa(lp29
+aa(lp28
 V0020800321
-p30
+p29
 aVDEC 10, 2008
-p31
+p30
 aVGSW vs. MIL
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp34
+aa(lp33
 V0020800335
-p35
+p34
 aVDEC 12, 2008
-p36
+p35
 aVGSW vs. HOU
-p37
+p36
 aVL
-p38
+p37
 aI15
 aI4
 aI4
@@ -208,15 +205,15 @@ aI0
 aI1
 aI10
 aI6
-aa(lp39
+aa(lp38
 V0020800343
-p40
+p39
 aVDEC 13, 2008
-p41
+p40
 aVGSW @ DEN
-p42
+p41
 aVL
-p43
+p42
 aI33
 aI7
 aI11
@@ -237,15 +234,15 @@ aI2
 aI3
 aI20
 aI-19
-aa(lp44
+aa(lp43
 V0020800379
-p45
+p44
 aVDEC 19, 2008
-p46
+p45
 aVGSW @ ATL
-p47
+p46
 aVL
-p48
+p47
 aI12
 aI0
 aI4
@@ -266,15 +263,15 @@ aI1
 aI2
 aI0
 aI-8
-aa(lp49
+aa(lp48
 V0020800389
-p50
+p49
 aVDEC 20, 2008
-p51
+p50
 aVGSW @ CHA
-p52
+p51
 aVW
-p53
+p52
 aI10
 aI1
 aI2
@@ -295,15 +292,15 @@ aI0
 aI3
 aI4
 aI10
-aa(lp54
+aa(lp53
 V0020800403
-p55
+p54
 aVDEC 22, 2008
-p56
+p55
 aVGSW @ ORL
-p57
+p56
 aVL
-p58
+p57
 aI19
 aI0
 aI6
@@ -324,15 +321,15 @@ aI3
 aI4
 aI2
 aI-26
-aa(lp59
+aa(lp58
 V0020800449
-p60
+p59
 aVDEC 28, 2008
-p61
+p60
 aVGSW @ LAL
-p62
+p61
 aVL
-p63
+p62
 aI9
 aI3
 aI4
@@ -353,15 +350,15 @@ aI0
 aI1
 aI10
 aI2
-aa(lp64
+aa(lp63
 V0020800481
-p65
+p64
 aVJAN 02, 2009
-p66
+p65
 aVGSW @ MIN
-p67
+p66
 aVL
-p68
+p67
 aI16
 aI4
 aI7
@@ -382,15 +379,15 @@ aI1
 aI4
 aI9
 aI-6
-aa(lp69
+aa(lp68
 V0020800505
-p70
+p69
 aVJAN 05, 2009
-p71
+p70
 aVGSW @ UTA
-p72
+p71
 aVL
-p73
+p72
 aI9
 aI0
 aI2
@@ -411,15 +408,15 @@ aI1
 aI4
 aI0
 aI-5
-aa(lp74
+aa(lp73
 V0020800525
-p75
+p74
 aVJAN 07, 2009
-p76
+p75
 aVGSW vs. LAL
-p77
+p76
 aVL
-p78
+p77
 aI5
 aI0
 aI0
@@ -440,15 +437,15 @@ aI0
 aI2
 aI0
 aI-10
-aa(lp79
+aa(lp78
 V0020800545
-p80
+p79
 aVJAN 10, 2009
-p81
+p80
 aVGSW @ POR
-p82
+p81
 aVL
-p83
+p82
 aI7
 aI0
 aI3
@@ -469,15 +466,15 @@ aI0
 aI2
 aI0
 aI-14
-aa(lp84
+aa(lp83
 V0020800575
-p85
+p84
 aVJAN 14, 2009
-p86
+p85
 aVGSW vs. SAC
-p87
+p86
 aVL
-p88
+p87
 aI8
 aI1
 aI2
@@ -498,15 +495,15 @@ aI0
 aI1
 aI2
 aI-1
-aa(lp89
+aa(lp88
 V0020800608
-p90
+p89
 aVJAN 19, 2009
-p91
+p90
 aVGSW vs. WAS
-p92
+p91
 aVW
-p93
+p92
 aI1
 aI0
 aI0
@@ -527,15 +524,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp94
+aa(lp93
 V0020800626
-p95
+p94
 aVJAN 21, 2009
-p96
+p95
 aVGSW vs. OKC
-p97
+p96
 aVL
-p98
+p97
 aI11
 aI2
 aI3
@@ -556,15 +553,15 @@ aI0
 aI2
 aI6
 aI-10
-aa(lp99
+aa(lp98
 V0020800654
-p100
+p99
 aVJAN 25, 2009
-p101
+p100
 aVGSW vs. LAC
-p102
+p101
 aVW
-p103
+p102
 aI5
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp104
+aa(lp103
 V0020800676
-p105
+p104
 aVJAN 28, 2009
-p106
+p105
 aVGSW @ DAL
-p107
+p106
 aVL
-p108
+p107
 aI7
 aI0
 aI3
@@ -614,15 +611,15 @@ aI0
 aI3
 aI0
 aI1
-aa(lp109
+aa(lp108
 V0020800697
-p110
+p109
 aVJAN 31, 2009
-p111
+p110
 aVGSW @ HOU
-p112
+p111
 aVL
-p113
+p112
 aI12
 aI0
 aI2
@@ -643,15 +640,15 @@ aI0
 aI3
 aI2
 aI-19
-aa(lp114
+aa(lp113
 V0020800742
-p115
+p114
 aVFEB 06, 2009
-p116
+p115
 aVGSW @ PHX
-p117
+p116
 aVL
-p118
+p117
 aI3
 aI0
 aI0
@@ -672,15 +669,15 @@ aI1
 aI3
 aI0
 aI-4
-aa(lp119
+aa(lp118
 V0020800901
-p120
+p119
 aVMAR 03, 2009
-p121
+p120
 aVGSW @ MIN
-p122
+p121
 aVW
-p123
+p122
 aI2
 aI0
 aI2
@@ -701,15 +698,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp124
+aa(lp123
 V0020800910
-p125
+p124
 aVMAR 04, 2009
-p126
+p125
 aVGSW @ CHI
-p127
+p126
 aVL
-p128
+p127
 aI3
 aI0
 aI1
@@ -730,15 +727,15 @@ aI0
 aI0
 aI1
 aI-2
-aa(lp129
+aa(lp128
 V0020800921
-p130
+p129
 aVMAR 06, 2009
-p131
+p130
 aVGSW @ DET
-p132
+p131
 aVL
-p133
+p132
 aI22
 aI1
 aI5
@@ -759,15 +756,15 @@ aI0
 aI3
 aI4
 aI-6
-aa(lp134
+aa(lp133
 V0020800994
-p135
+p134
 aVMAR 15, 2009
-p136
+p135
 aVGSW vs. PHX
-p137
+p136
 aVL
-p138
+p137
 aI3
 aI0
 aI1
@@ -788,15 +785,15 @@ aI0
 aI1
 aI0
 aI2
-aa(lp139
+aa(lp138
 V0020801033
-p140
+p139
 aVMAR 20, 2009
-p141
+p140
 aVGSW vs. PHI
-p142
+p141
 aVW
-p143
+p142
 aI8
 aI1
 aI2
@@ -817,15 +814,15 @@ aI0
 aI3
 aI3
 aI5
-aa(lp144
+aa(lp143
 V0020801057
-p145
+p144
 aVMAR 24, 2009
-p146
+p145
 aVGSW @ SAS
-p147
+p146
 aVL
-p148
+p147
 aI4
 aI0
 aI1
@@ -846,15 +843,15 @@ aI0
 aI0
 aI1
 aI4
-aa(lp149
+aa(lp148
 V0020801068
-p150
+p149
 aVMAR 25, 2009
-p151
+p150
 aVGSW @ DAL
-p152
+p151
 aVL
-p153
+p152
 aI7
 aI0
 aI2
@@ -875,15 +872,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp154
+aa(lp153
 V0020801088
-p155
+p154
 aVMAR 28, 2009
-p156
+p155
 aVGSW @ DEN
-p157
+p156
 aVL
-p158
+p157
 aI13
 aI0
 aI2
@@ -904,15 +901,15 @@ aI1
 aI4
 aI3
 aI-12
-aa(lp159
+aa(lp158
 V0020801103
-p160
+p159
 aVMAR 30, 2009
-p161
+p160
 aVGSW vs. MEM
-p162
+p161
 aVL
-p163
+p162
 aI12
 aI3
 aI5
@@ -933,15 +930,15 @@ aI1
 aI3
 aI7
 aI5
-aa(lp164
+aa(lp163
 V0020801120
-p165
+p164
 aVAPR 01, 2009
-p166
+p165
 aVGSW vs. SAC
-p167
+p166
 aVW
-p168
+p167
 aI5
 aI1
 aI1
@@ -962,15 +959,15 @@ aI0
 aI1
 aI2
 aI0
-aa(lp169
+aa(lp168
 V0020801133
-p170
+p169
 aVAPR 03, 2009
-p171
+p170
 aVGSW vs. NOH
-p172
+p171
 aVW
-p173
+p172
 aI19
 aI2
 aI4
@@ -991,15 +988,15 @@ aI0
 aI3
 aI4
 aI-2
-aa(lp174
+aa(lp173
 V0020801151
-p175
+p174
 aVAPR 05, 2009
-p176
+p175
 aVGSW @ SAC
-p177
+p176
 aVW
-p178
+p177
 aI8
 aI1
 aI3
@@ -1020,15 +1017,15 @@ aI0
 aI2
 aI4
 aI0
-aa(lp179
+aa(lp178
 V0020801172
-p180
+p179
 aVAPR 08, 2009
-p181
+p180
 aVGSW vs. MIN
-p182
+p181
 aVL
-p183
+p182
 aI7
 aI1
 aI2
@@ -1049,15 +1046,15 @@ aI0
 aI1
 aI3
 aI-3
-aa(lp184
+aa(lp183
 V0020801187
-p185
+p184
 aVAPR 10, 2009
-p186
+p185
 aVGSW vs. HOU
-p187
+p186
 aVL
-p188
+p187
 aI9
 aI1
 aI3
@@ -1078,15 +1075,15 @@ aI0
 aI1
 aI3
 aI-2
-aa(lp189
+aa(lp188
 V0020801194
-p190
+p189
 aVAPR 11, 2009
-p191
+p190
 aVGSW @ UTA
-p192
+p191
 aVW
-p193
+p192
 aI38
 aI8
 aI14
@@ -1107,15 +1104,15 @@ aI2
 aI4
 aI21
 aI11
-aa(lp194
+aa(lp193
 V0020801213
-p195
+p194
 aVAPR 13, 2009
-p196
+p195
 aVGSW vs. SAS
-p197
+p196
 aVL
-p198
+p197
 aI21
 aI3
 aI8
@@ -1136,15 +1133,15 @@ aI1
 aI2
 aI9
 aI-2
-aa(lp199
+aa(lp198
 V0020801229
-p200
+p199
 aVAPR 15, 2009
-p201
+p200
 aVGSW @ PHX
-p202
+p201
 aVL
-p203
+p202
 aI19
 aI3
 aI8
@@ -1166,10 +1163,25 @@ aI3
 aI11
 aI-7
 aasS'name'
-p204
+p203
 VRob Kurz
+p204
+sS'weight'
 p205
-sS'experience'
+V232
 p206
+sS'age'
+p207
+I23
+sS'experience'
+p208
 I0
+sS'height'
+p209
+V6-9
+p210
+sS'position'
+p211
+VForward
+p212
 s.

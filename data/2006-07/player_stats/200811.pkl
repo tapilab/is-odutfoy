@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600831
-p5
+p4
 aVFEB 24, 2007
-p6
+p5
 aVUTA vs. BOS
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020600948
-p10
+p9
 aVMAR 13, 2007
-p11
+p10
 aVPHI @ ATL
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0020600992
-p15
+p14
 aVMAR 18, 2007
-p16
+p15
 aVPHI vs. HOU
-p17
+p16
 aVL
-p18
+p17
 aI6
 aI0
 aI2
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-8
-aa(lp19
+aa(lp18
 V0020601059
-p20
+p19
 aVMAR 28, 2007
-p21
+p20
 aVPHI @ WAS
-p22
+p21
 aVL
-p23
+p22
 aI5
 aI0
 aI0
@@ -121,15 +118,15 @@ aI1
 aI1
 aI0
 aI0
-aa(lp24
+aa(lp23
 V0020601147
-p25
+p24
 aVAPR 08, 2007
-p26
+p25
 aVPHI vs. ATL
-p27
+p26
 aVW
-p28
+p27
 aI14
 aI0
 aI2
@@ -150,15 +147,15 @@ aI0
 aI2
 aI1
 aI-2
-aa(lp29
+aa(lp28
 V0020601157
-p30
+p29
 aVAPR 10, 2007
-p31
+p30
 aVPHI vs. IND
-p32
+p31
 aVW
-p33
+p32
 aI8
 aI0
 aI0
@@ -179,15 +176,15 @@ aI1
 aI2
 aI2
 aI-9
-aa(lp34
+aa(lp33
 V0020601164
-p35
+p34
 aVAPR 11, 2007
-p36
+p35
 aVPHI @ BOS
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp39
+aa(lp38
 V0020601187
-p40
+p39
 aVAPR 14, 2007
-p41
+p40
 aVPHI vs. ORL
-p42
+p41
 aVL
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp44
+aa(lp43
 V0020601201
-p45
+p44
 aVAPR 15, 2007
-p46
+p45
 aVPHI @ DET
-p47
+p46
 aVW
-p48
+p47
 aI23
 aI4
 aI7
@@ -266,15 +263,15 @@ aI1
 aI3
 aI8
 aI-1
-aa(lp49
+aa(lp48
 V0020601211
-p50
+p49
 aVAPR 17, 2007
-p51
+p50
 aVPHI vs. CLE
-p52
+p51
 aVL
-p53
+p52
 aI12
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI3
 aI2
 aI-5
-aa(lp54
+aa(lp53
 V0020601217
-p55
+p54
 aVAPR 18, 2007
-p56
+p55
 aVPHI @ TOR
-p57
+p56
 aVW
-p58
+p57
 aI14
 aI1
 aI2
@@ -325,10 +322,25 @@ aI4
 aI3
 aI2
 aasS'name'
-p59
+p58
 VLou Amundson
+p59
+sS'weight'
 p60
-sS'experience'
+V220
 p61
+sS'age'
+p62
+I24
+sS'experience'
+p63
 I0
+sS'height'
+p64
+V6-9
+p65
+sS'position'
+p66
+VForward
+p67
 s.

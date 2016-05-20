@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600061
-p5
+p4
 aVNOV 08, 2006
-p6
+p5
 aVBOS vs. CHA
-p7
+p6
 aVW
-p8
+p7
 aI26
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI5
 aI4
 aI-5
-aa(lp9
+aa(lp8
 V0020600077
-p10
+p9
 aVNOV 10, 2006
-p11
+p10
 aVBOS vs. UTA
-p12
+p11
 aVL
-p13
+p12
 aI17
 aI0
 aI0
@@ -64,10 +61,25 @@ aI1
 aI1
 aI-15
 aasS'name'
-p14
+p13
 VTheo Ratliff
+p14
+sS'weight'
 p15
-sS'experience'
+V235
 p16
+sS'age'
+p17
+I33
+sS'experience'
+p18
 I11
+sS'height'
+p19
+V6-10
+p20
+sS'position'
+p21
+VCenter
+p22
 s.

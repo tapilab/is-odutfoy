@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I37
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700102
-p5
+p4
 aVNOV 13, 2007
-p6
+p5
 aVPHX vs. NYK
-p7
+p6
 aVW
-p8
+p7
 aI11
 aI1
 aI3
@@ -34,15 +31,15 @@ aI0
 aI2
 aI3
 aI2
-aa(lp9
+aa(lp8
 V0020700137
-p10
+p9
 aVNOV 17, 2007
-p11
+p10
 aVPHX @ HOU
-p12
+p11
 aVW
-p13
+p12
 aI7
 aI2
 aI3
@@ -63,15 +60,15 @@ aI1
 aI0
 aI6
 aI-3
-aa(lp14
+aa(lp13
 V0020700156
-p15
+p14
 aVNOV 20, 2007
-p16
+p15
 aVPHX @ SAC
-p17
+p16
 aVW
-p18
+p17
 aI15
 aI0
 aI4
@@ -92,15 +89,15 @@ aI0
 aI1
 aI2
 aI5
-aa(lp19
+aa(lp18
 V0020700245
-p20
+p19
 aVDEC 02, 2007
-p21
+p20
 aVPHX @ NYK
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI1
 aI2
@@ -121,15 +118,15 @@ aI1
 aI0
 aI3
 aI-2
-aa(lp24
+aa(lp23
 V0020700262
-p25
+p24
 aVDEC 05, 2007
-p26
+p25
 aVPHX @ TOR
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp29
+aa(lp28
 V0020700277
-p30
+p29
 aVDEC 07, 2007
-p31
+p30
 aVPHX @ WAS
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp34
+aa(lp33
 V0020700420
-p35
+p34
 aVDEC 27, 2007
-p36
+p35
 aVPHX @ LAC
-p37
+p36
 aVW
-p38
+p37
 aI7
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-9
-aa(lp39
+aa(lp38
 V0020700498
-p40
+p39
 aVJAN 07, 2008
-p41
+p40
 aVPHX vs. DEN
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI1
 aI2
@@ -237,15 +234,15 @@ aI0
 aI2
 aI3
 aI-1
-aa(lp44
+aa(lp43
 V0020700522
-p45
+p44
 aVJAN 10, 2008
-p46
+p45
 aVPHX @ UTA
-p47
+p46
 aVL
-p48
+p47
 aI18
 aI1
 aI5
@@ -266,15 +263,15 @@ aI0
 aI2
 aI3
 aI0
-aa(lp49
+aa(lp48
 V0020700581
-p50
+p49
 aVJAN 18, 2008
-p51
+p50
 aVPHX vs. MIN
-p52
+p51
 aVW
-p53
+p52
 aI2
 aI0
 aI1
@@ -295,15 +292,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0020700594
-p55
+p54
 aVJAN 20, 2008
-p56
+p55
 aVPHX vs. NJN
-p57
+p56
 aVW
-p58
+p57
 aI2
 aI1
 aI2
@@ -324,15 +321,15 @@ aI1
 aI1
 aI5
 aI3
-aa(lp59
+aa(lp58
 V0020700662
-p60
+p59
 aVJAN 29, 2008
-p61
+p60
 aVPHX vs. ATL
-p62
+p61
 aVW
-p63
+p62
 aI6
 aI1
 aI2
@@ -353,15 +350,15 @@ aI1
 aI0
 aI3
 aI0
-aa(lp64
+aa(lp63
 V0020700704
-p65
+p64
 aVFEB 04, 2008
-p66
+p65
 aVPHX vs. CHA
-p67
+p66
 aVW
-p68
+p67
 aI3
 aI0
 aI0
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI-8
-aa(lp69
+aa(lp68
 V0020700981
-p70
+p69
 aVMAR 15, 2008
-p71
+p70
 aVPHX vs. SAC
-p72
+p71
 aVW
-p73
+p72
 aI5
 aI1
 aI2
@@ -411,15 +408,15 @@ aI1
 aI0
 aI3
 aI-2
-aa(lp74
+aa(lp73
 V0020701134
-p75
+p74
 aVAPR 04, 2008
-p76
+p75
 aVPHX vs. MIN
-p77
+p76
 aVW
-p78
+p77
 aI6
 aI1
 aI1
@@ -440,15 +437,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp79
+aa(lp78
 V0020701229
-p80
+p79
 aVAPR 16, 2008
-p81
+p80
 aVPHX vs. POR
-p82
+p81
 aVW
-p83
+p82
 aI16
 aI2
 aI6
@@ -470,10 +467,25 @@ aI1
 aI6
 aI-5
 aasS'name'
-p84
+p83
 VEric Piatkowski
+p84
+sS'weight'
 p85
-sS'experience'
+V215
 p86
+sS'age'
+p87
+I37
+sS'experience'
+p88
 I13
+sS'height'
+p89
+V6-7
+p90
+sS'position'
+p91
+VGuard-Forward
+p92
 s.

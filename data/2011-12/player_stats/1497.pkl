@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I35
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100005
-p5
+p4
 aVDEC 25, 2011
-p6
+p5
 aVLAC @ GSW
-p7
+p6
 aVW
-p8
+p7
 aI38
 aI6
 aI19
@@ -34,15 +31,15 @@ aI1
 aI2
 aI21
 aI18
-aa(lp9
+aa(lp8
 V0021100029
-p10
+p9
 aVDEC 28, 2011
-p11
+p10
 aVLAC @ SAS
-p12
+p11
 aVL
-p13
+p12
 aI28
 aI2
 aI5
@@ -63,15 +60,15 @@ aI1
 aI2
 aI11
 aI-11
-aa(lp14
+aa(lp13
 V0021100093
-p15
+p14
 aVJAN 04, 2012
-p16
+p15
 aVLAC vs. HOU
-p17
+p16
 aVW
-p18
+p17
 aI23
 aI3
 aI5
@@ -92,15 +89,15 @@ aI0
 aI1
 aI13
 aI14
-aa(lp19
+aa(lp18
 V0021100118
-p20
+p19
 aVJAN 07, 2012
-p21
+p20
 aVLAC vs. MIL
-p22
+p21
 aVW
-p23
+p22
 aI32
 aI5
 aI14
@@ -121,15 +118,15 @@ aI0
 aI3
 aI19
 aI15
-aa(lp24
+aa(lp23
 V0021100140
-p25
+p24
 aVJAN 10, 2012
-p26
+p25
 aVLAC @ POR
-p27
+p26
 aVL
-p28
+p27
 aI31
 aI5
 aI13
@@ -150,15 +147,15 @@ aI5
 aI1
 aI19
 aI-5
-aa(lp29
+aa(lp28
 V0021100153
-p30
+p29
 aVJAN 11, 2012
-p31
+p30
 aVLAC vs. MIA
-p32
+p31
 aVW
-p33
+p32
 aI40
 aI2
 aI11
@@ -179,15 +176,15 @@ aI4
 aI2
 aI12
 aI7
-aa(lp34
+aa(lp33
 V0021100180
-p35
+p34
 aVJAN 14, 2012
-p36
+p35
 aVLAC vs. LAL
-p37
+p36
 aVW
-p38
+p37
 aI33
 aI6
 aI12
@@ -208,15 +205,15 @@ aI2
 aI2
 aI19
 aI4
-aa(lp39
+aa(lp38
 V0021100191
-p40
+p39
 aVJAN 16, 2012
-p41
+p40
 aVLAC vs. NJN
-p42
+p41
 aVW
-p43
+p42
 aI34
 aI5
 aI16
@@ -237,15 +234,15 @@ aI1
 aI3
 aI20
 aI3
-aa(lp44
+aa(lp43
 V0021100201
-p45
+p44
 aVJAN 17, 2012
-p46
+p45
 aVLAC @ UTA
-p47
+p46
 aVL
-p48
+p47
 aI24
 aI3
 aI12
@@ -266,15 +263,15 @@ aI3
 aI4
 aI10
 aI-4
-aa(lp49
+aa(lp48
 V0021100212
-p50
+p49
 aVJAN 18, 2012
-p51
+p50
 aVLAC vs. DAL
-p52
+p51
 aVW
-p53
+p52
 aI32
 aI7
 aI19
@@ -295,15 +292,15 @@ aI3
 aI2
 aI21
 aI11
-aa(lp54
+aa(lp53
 V0021100225
-p55
+p54
 aVJAN 20, 2012
-p56
+p55
 aVLAC vs. MIN
-p57
+p56
 aVL
-p58
+p57
 aI28
 aI6
 aI13
@@ -324,15 +321,15 @@ aI4
 aI4
 aI20
 aI-13
-aa(lp59
+aa(lp58
 V0021100238
-p60
+p59
 aVJAN 22, 2012
-p61
+p60
 aVLAC vs. TOR
-p62
+p61
 aVW
-p63
+p62
 aI31
 aI1
 aI9
@@ -353,15 +350,15 @@ aI2
 aI1
 aI5
 aI23
-aa(lp64
+aa(lp63
 V0021100268
-p65
+p64
 aVJAN 25, 2012
-p66
+p65
 aVLAC @ LAL
-p67
+p66
 aVL
-p68
+p67
 aI33
 aI1
 aI8
@@ -382,15 +379,15 @@ aI0
 aI4
 aI9
 aI-4
-aa(lp69
+aa(lp68
 V0021100271
-p70
+p69
 aVJAN 26, 2012
-p71
+p70
 aVLAC vs. MEM
-p72
+p71
 aVW
-p73
+p72
 aI23
 aI4
 aI10
@@ -411,15 +408,15 @@ aI4
 aI2
 aI9
 aI0
-aa(lp74
+aa(lp73
 V0021100298
-p75
+p74
 aVJAN 29, 2012
-p76
+p75
 aVLAC @ DEN
-p77
+p76
 aVW
-p78
+p77
 aI35
 aI11
 aI20
@@ -440,15 +437,15 @@ aI3
 aI2
 aI32
 aI2
-aa(lp79
+aa(lp78
 V0021100307
-p80
+p79
 aVJAN 30, 2012
-p81
+p80
 aVLAC vs. OKC
-p82
+p81
 aVW
-p83
+p82
 aI36
 aI4
 aI9
@@ -469,15 +466,15 @@ aI0
 aI0
 aI13
 aI10
-aa(lp84
+aa(lp83
 V0021100325
-p85
+p84
 aVFEB 01, 2012
-p86
+p85
 aVLAC @ UTA
-p87
+p86
 aVW
-p88
+p87
 aI34
 aI1
 aI8
@@ -498,15 +495,15 @@ aI3
 aI3
 aI8
 aI0
-aa(lp89
+aa(lp88
 V0021100330
-p90
+p89
 aVFEB 02, 2012
-p91
+p90
 aVLAC vs. DEN
-p92
+p91
 aVL
-p93
+p92
 aI22
 aI2
 aI9
@@ -527,15 +524,15 @@ aI0
 aI2
 aI8
 aI-18
-aa(lp94
+aa(lp93
 V0021100342
-p95
+p94
 aVFEB 04, 2012
-p96
+p95
 aVLAC @ WAS
-p97
+p96
 aVW
-p98
+p97
 aI18
 aI4
 aI5
@@ -556,15 +553,15 @@ aI2
 aI0
 aI12
 aI23
-aa(lp99
+aa(lp98
 V0021100359
-p100
+p99
 aVFEB 06, 2012
-p101
+p100
 aVLAC @ ORL
-p102
+p101
 aVW
-p103
+p102
 aI32
 aI5
 aI11
@@ -586,10 +583,25 @@ aI0
 aI18
 aI6
 aasS'name'
-p104
+p103
 VChauncey Billups
+p104
+sS'weight'
 p105
-sS'experience'
+V210
 p106
+sS'age'
+p107
+I35
+sS'experience'
+p108
 I14
+sS'height'
+p109
+V6-3
+p110
+sS'position'
+p111
+VGuard
+p112
 s.

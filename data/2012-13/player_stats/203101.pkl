@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200047
-p5
+p4
 aVNOV 05, 2012
-p6
+p5
 aVIND @ SAS
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI0
 aI2
 aI-1
-aa(lp9
+aa(lp8
 V0021200111
-p10
+p9
 aVNOV 14, 2012
-p11
+p10
 aVIND @ MIL
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI2
 aI5
-aa(lp14
+aa(lp13
 V0021200124
-p15
+p14
 aVNOV 16, 2012
-p16
+p15
 aVIND vs. DAL
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI1
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0021200139
-p20
+p19
 aVNOV 18, 2012
-p21
+p20
 aVIND @ NYK
-p22
+p21
 aVL
-p23
+p22
 aI4
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI0
 aI7
-aa(lp24
+aa(lp23
 V0021200369
-p25
+p24
 aVDEC 19, 2012
-p26
+p25
 aVIND vs. UTA
-p27
+p26
 aVW
-p28
+p27
 aI5
 aI1
 aI4
@@ -150,15 +147,15 @@ aI1
 aI2
 aI2
 aI-4
-aa(lp29
+aa(lp28
 V0021200385
-p30
+p29
 aVDEC 21, 2012
-p31
+p30
 aVIND @ CLE
-p32
+p31
 aVW
-p33
+p32
 aI1
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp34
+aa(lp33
 V0021200671
-p35
+p34
 aVJAN 30, 2013
-p36
+p35
 aVIND vs. DET
-p37
+p36
 aVW
-p38
+p37
 aI3
 aI0
 aI0
@@ -208,15 +205,15 @@ aI1
 aI0
 aI0
 aI-3
-aa(lp39
+aa(lp38
 V0021200777
-p40
+p39
 aVFEB 13, 2013
-p41
+p40
 aVIND vs. CHA
-p42
+p41
 aVW
-p43
+p42
 aI4
 aI0
 aI2
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp44
+aa(lp43
 V0021200916
-p45
+p44
 aVMAR 08, 2013
-p46
+p45
 aVIND @ ORL
+p46
+aVW
 p47
-aVW
-p48
 aI3
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp49
+aa(lp48
 V0021200995
-p50
+p49
 aVMAR 18, 2013
-p51
+p50
 aVIND @ CLE
-p52
+p51
 aVW
-p53
+p52
 aI5
 aI0
 aI2
@@ -295,15 +292,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp54
+aa(lp53
 V0021201004
-p55
+p54
 aVMAR 19, 2013
-p56
+p55
 aVIND vs. ORL
-p57
+p56
 aVW
-p58
+p57
 aI4
 aI0
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI1
 aI-3
-aa(lp59
+aa(lp58
 V0021201024
-p60
+p59
 aVMAR 22, 2013
-p61
+p60
 aVIND vs. MIL
-p62
+p61
 aVW
-p63
+p62
 aI4
 aI0
 aI1
@@ -353,15 +350,15 @@ aI1
 aI1
 aI0
 aI0
-aa(lp64
+aa(lp63
 V0021201138
-p65
+p64
 aVAPR 06, 2013
-p66
+p65
 aVIND @ WAS
-p67
+p66
 aVL
-p68
+p67
 aI3
 aI2
 aI2
@@ -382,15 +379,15 @@ aI0
 aI0
 aI4
 aI2
-aa(lp69
+aa(lp68
 V0021201221
-p70
+p69
 aVAPR 17, 2013
-p71
+p70
 aVIND vs. PHI
-p72
+p71
 aVL
-p73
+p72
 aI6
 aI1
 aI3
@@ -412,10 +409,25 @@ aI0
 aI2
 aI-10
 aasS'name'
-p74
+p73
 VMiles Plumlee
+p74
+sS'weight'
 p75
-sS'experience'
+V249
 p76
+sS'age'
+p77
+I24
+sS'experience'
+p78
 I0
+sS'height'
+p79
+V6-11
+p80
+sS'position'
+p81
+VCenter
+p82
 s.

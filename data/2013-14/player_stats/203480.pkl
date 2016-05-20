@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300228
-p5
+p4
 aVNOV 29, 2013
-p6
+p5
 aVCHA vs. MIL
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI3
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp9
+aa(lp8
 V0021301184
-p10
+p9
 aVAPR 11, 2014
-p11
+p10
 aVNOP @ OKC
-p12
+p11
 aVL
-p13
+p12
 aI10
 aI4
 aI7
@@ -63,15 +60,15 @@ aI0
 aI0
 aI10
 aI8
-aa(lp14
+aa(lp13
 V0021301194
-p15
+p14
 aVAPR 12, 2014
-p16
+p15
 aVNOP @ HOU
-p17
+p16
 aVL
-p18
+p17
 aI10
 aI1
 aI3
@@ -92,15 +89,15 @@ aI1
 aI2
 aI3
 aI2
-aa(lp19
+aa(lp18
 V0021301210
-p20
+p19
 aVAPR 14, 2014
-p21
+p20
 aVNOP vs. OKC
-p22
+p21
 aVW
-p23
+p22
 aI7
 aI0
 aI2
@@ -122,10 +119,25 @@ aI1
 aI1
 aI0
 aasS'name'
-p24
+p23
 VJames Southerland
+p24
+sS'weight'
 p25
-sS'experience'
+V215
 p26
+sS'age'
+p27
+I23
+sS'experience'
+p28
 I0
+sS'height'
+p29
+V6-8
+p30
+sS'position'
+p31
+VForward
+p32
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I22
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200009
-p5
+p4
 aVOCT 31, 2012
-p6
+p5
 aVUTA vs. DAL
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI1
 aI2
@@ -34,15 +31,15 @@ aI1
 aI1
 aI2
 aI-1
-aa(lp9
+aa(lp8
 V0021200079
-p10
+p9
 aVNOV 09, 2012
-p11
+p10
 aVUTA @ DEN
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp14
+aa(lp13
 V0021200153
-p15
+p14
 aVNOV 19, 2012
-p16
+p15
 aVUTA vs. HOU
-p17
+p16
 aVW
-p18
+p17
 aI4
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI-8
-aa(lp19
+aa(lp18
 V0021200517
-p20
+p19
 aVJAN 09, 2013
-p21
+p20
 aVUTA @ CHA
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI-5
-aa(lp24
+aa(lp23
 V0021200598
-p25
+p24
 aVJAN 19, 2013
-p26
+p25
 aVUTA vs. CLE
-p27
+p26
 aVW
-p28
+p27
 aI1
 aI0
 aI1
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp29
+aa(lp28
 V0021200641
-p30
+p29
 aVJAN 25, 2013
-p31
+p30
 aVUTA @ LAL
-p32
+p31
 aVL
-p33
+p32
 aI3
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp34
+aa(lp33
 V0021200665
-p35
+p34
 aVJAN 28, 2013
-p36
+p35
 aVUTA vs. HOU
-p37
+p36
 aVL
-p38
+p37
 aI12
 aI4
 aI6
@@ -208,15 +205,15 @@ aI0
 aI0
 aI9
 aI-11
-aa(lp39
+aa(lp38
 V0021200693
-p40
+p39
 aVFEB 01, 2013
-p41
+p40
 aVUTA vs. POR
+p41
+aVW
 p42
-aVW
-p43
 aI0
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp44
+aa(lp43
 V0021200732
-p45
+p44
 aVFEB 06, 2013
-p46
+p45
 aVUTA vs. MIL
-p47
+p46
 aVW
-p48
+p47
 aI1
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp49
+aa(lp48
 V0021200751
-p50
+p49
 aVFEB 09, 2013
-p51
+p50
 aVUTA @ SAC
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI0
 aI3
@@ -295,15 +292,15 @@ aI0
 aI2
 aI0
 aI4
-aa(lp54
+aa(lp53
 V0021200772
-p55
+p54
 aVFEB 12, 2013
-p56
+p55
 aVUTA vs. OKC
-p57
+p56
 aVW
-p58
+p57
 aI2
 aI0
 aI0
@@ -324,15 +321,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp59
+aa(lp58
 V0021200795
-p60
+p59
 aVFEB 19, 2013
-p61
+p60
 aVUTA vs. GSW
-p62
+p61
 aVW
-p63
+p62
 aI1
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp64
+aa(lp63
 V0021200873
-p65
+p64
 aVMAR 01, 2013
-p66
+p65
 aVUTA vs. CHA
-p67
+p66
 aVW
-p68
+p67
 aI4
 aI0
 aI2
@@ -382,15 +379,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp69
+aa(lp68
 V0021200928
-p70
+p69
 aVMAR 09, 2013
-p71
+p70
 aVUTA @ NYK
-p72
+p71
 aVL
-p73
+p72
 aI4
 aI1
 aI3
@@ -411,15 +408,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp74
+aa(lp73
 V0021200962
-p75
+p74
 aVMAR 13, 2013
-p76
+p75
 aVUTA @ OKC
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI0
 aI1
@@ -440,15 +437,15 @@ aI1
 aI0
 aI0
 aI-2
-aa(lp79
+aa(lp78
 V0021201106
-p80
+p79
 aVAPR 01, 2013
-p81
+p80
 aVUTA vs. POR
-p82
+p81
 aVW
-p83
+p82
 aI1
 aI0
 aI1
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp84
+aa(lp83
 V0021201210
-p85
+p84
 aVAPR 15, 2013
-p86
+p85
 aVUTA @ MIN
-p87
+p86
 aVW
-p88
+p87
 aI3
 aI0
 aI2
@@ -499,10 +496,25 @@ aI0
 aI0
 aI-6
 aasS'name'
-p89
+p88
 VKevin Murphy
+p89
+sS'weight'
 p90
-sS'experience'
+V185
 p91
+sS'age'
+p92
+I22
+sS'experience'
+p93
 I0
+sS'height'
+p94
+V6-6
+p95
+sS'position'
+p96
+VGuard
+p97
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I32
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700412
-p5
+p4
 aVDEC 26, 2007
-p6
+p5
 aVNJN vs. DET
-p7
+p6
 aVL
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-3
-aa(lp9
+aa(lp8
 V0020700423
-p10
+p9
 aVDEC 28, 2007
-p11
+p10
 aVNJN vs. WAS
-p12
+p11
 aVW
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0020700439
-p15
+p14
 aVDEC 29, 2007
-p16
+p15
 aVNJN @ MIL
-p17
+p16
 aVW
-p18
+p17
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp19
+aa(lp18
 V0020700484
-p20
+p19
 aVJAN 05, 2008
-p21
+p20
 aVNJN @ ATL
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI0
 aI3
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0020700807
-p25
+p24
 aVFEB 22, 2008
-p26
+p25
 aVCLE vs. WAS
-p27
+p26
 aVW
-p28
+p27
 aI19
 aI3
 aI11
@@ -150,15 +147,15 @@ aI3
 aI2
 aI9
 aI-3
-aa(lp29
+aa(lp28
 V0020700826
-p30
+p29
 aVFEB 24, 2008
-p31
+p30
 aVCLE vs. MEM
-p32
+p31
 aVW
-p33
+p32
 aI1
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp34
+aa(lp33
 V0020700849
-p35
+p34
 aVFEB 27, 2008
-p36
+p35
 aVCLE @ BOS
-p37
+p36
 aVL
-p38
+p37
 aI0
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI0
 aI0
 aI5
-aa(lp39
+aa(lp38
 V0020700861
-p40
+p39
 aVFEB 29, 2008
-p41
+p40
 aVCLE vs. MIN
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp44
+aa(lp43
 V0020700900
-p45
+p44
 aVMAR 05, 2008
-p46
+p45
 aVCLE @ NYK
-p47
+p46
 aVW
-p48
+p47
 aI0
 aI0
 aI0
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp49
+aa(lp48
 V0020700909
-p50
+p49
 aVMAR 06, 2008
-p51
+p50
 aVCLE @ CHI
-p52
+p51
 aVL
-p53
+p52
 aI4
 aI1
 aI1
@@ -295,15 +292,15 @@ aI0
 aI1
 aI3
 aI11
-aa(lp54
+aa(lp53
 V0020701219
-p55
+p54
 aVAPR 16, 2008
-p56
+p55
 aVCLE vs. DET
-p57
+p56
 aVL
-p58
+p57
 aI7
 aI0
 aI2
@@ -325,10 +322,25 @@ aI0
 aI0
 aI-13
 aasS'name'
-p59
+p58
 VBilly Thomas
+p59
+sS'weight'
 p60
-sS'experience'
+V220
 p61
+sS'age'
+p62
+I32
+sS'experience'
+p63
 I3
+sS'height'
+p64
+V6-5
+p65
+sS'position'
+p66
+VGuard
+p67
 s.

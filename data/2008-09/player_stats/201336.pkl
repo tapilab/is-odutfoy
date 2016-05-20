@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800148
-p5
+p4
 aVNOV 17, 2008
-p6
+p5
 aVSAS @ LAC
-p7
+p6
 aVW
-p8
+p7
 aI4
 aI1
 aI2
@@ -34,15 +31,15 @@ aI1
 aI0
 aI3
 aI-2
-aa(lp9
+aa(lp8
 V0020800166
-p10
+p9
 aVNOV 19, 2008
-p11
+p10
 aVSAS vs. DEN
-p12
+p11
 aVL
-p13
+p12
 aI6
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI2
 aI9
-aa(lp14
+aa(lp13
 V0020800179
-p15
+p14
 aVNOV 21, 2008
-p16
+p15
 aVSAS vs. UTA
-p17
+p16
 aVW
-p18
+p17
 aI8
 aI1
 aI3
@@ -93,10 +90,25 @@ aI2
 aI3
 aI1
 aasS'name'
-p19
+p18
 VBlake Ahearn
+p19
+sS'weight'
 p20
-sS'experience'
+V190
 p21
+sS'age'
+p22
+I24
+sS'experience'
+p23
 I1
+sS'height'
+p24
+V6-2
+p25
+sS'position'
+p26
+VGuard
+p27
 s.

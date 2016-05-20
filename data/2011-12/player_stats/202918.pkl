@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100975
-p5
+p4
 aVAPR 25, 2012
-p6
+p5
 aVPHI @ MIL
-p7
+p6
 aVW
-p8
+p7
 aI19
 aI2
 aI5
@@ -34,15 +31,15 @@ aI2
 aI2
 aI5
 aI-10
-aa(lp9
+aa(lp8
 V0021100978
-p10
+p9
 aVAPR 26, 2012
-p11
+p10
 aVPHI @ DET
-p12
+p11
 aVL
-p13
+p12
 aI20
 aI2
 aI10
@@ -64,10 +61,25 @@ aI3
 aI6
 aI-4
 aasS'name'
-p14
+p13
 VXavier Silas
+p14
+sS'weight'
 p15
-sS'experience'
+V205
 p16
+sS'age'
+p17
+I23
+sS'experience'
+p18
 I0
+sS'height'
+p19
+V6-5
+p20
+sS'position'
+p21
+VGuard
+p22
 s.

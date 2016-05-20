@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500010
-p5
+p4
 aVNOV 02, 2005
-p6
+p5
 aVMIA @ MEM
-p7
+p6
 aVW
-p8
+p7
 aI2
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0020500018
-p10
+p9
 aVNOV 03, 2005
-p11
+p10
 aVMIA vs. IND
-p12
+p11
 aVL
-p13
+p12
 aI1
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp14
+aa(lp13
 V0020500083
-p15
+p14
 aVNOV 12, 2005
-p16
+p15
 aVMIA vs. CHA
-p17
+p16
 aVW
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI1
 aI0
 aI0
 aI-13
-aa(lp19
+aa(lp18
 V0020501021
-p20
+p19
 aVMAR 24, 2006
-p21
+p20
 aVMIA vs. CHA
-p22
+p21
 aVW
-p23
+p22
 aI3
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI1
 aI2
 aI-2
-aa(lp24
+aa(lp23
 V0020501100
-p25
+p24
 aVAPR 04, 2006
-p26
+p25
 aVMIA vs. MIL
-p27
+p26
 aVW
-p28
+p27
 aI3
 aI1
 aI1
@@ -150,15 +147,15 @@ aI1
 aI0
 aI2
 aI2
-aa(lp29
+aa(lp28
 V0020501194
-p30
+p29
 aVAPR 16, 2006
-p31
+p30
 aVMIA vs. CHI
-p32
+p31
 aVL
-p33
+p32
 aI2
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp34
+aa(lp33
 V0020501214
-p35
+p34
 aVAPR 18, 2006
-p36
+p35
 aVMIA @ ATL
-p37
+p36
 aVL
-p38
+p37
 aI16
 aI3
 aI5
@@ -208,15 +205,15 @@ aI0
 aI5
 aI6
 aI-3
-aa(lp39
+aa(lp38
 V0020501219
-p40
+p39
 aVAPR 19, 2006
-p41
+p40
 aVMIA @ BOS
-p42
+p41
 aVL
-p43
+p42
 aI17
 aI0
 aI6
@@ -238,10 +235,25 @@ aI3
 aI1
 aI-9
 aasS'name'
-p44
+p43
 VEarl Barron
+p44
+sS'weight'
 p45
-sS'experience'
+V250
 p46
+sS'age'
+p47
+I24
+sS'experience'
+p48
 I0
+sS'height'
+p49
+V7-0
+p50
+sS'position'
+p51
+VForward-Center
+p52
 s.

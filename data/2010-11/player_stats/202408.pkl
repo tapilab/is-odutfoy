@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000956
-p5
+p4
 aVMAR 09, 2011
-p6
+p5
 aVUTA @ TOR
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp9
+aa(lp8
 V0021000972
-p10
+p9
 aVMAR 11, 2011
-p11
+p10
 aVUTA @ MIN
-p12
+p11
 aVL
-p13
+p12
 aI13
 aI2
 aI3
@@ -63,15 +60,15 @@ aI1
 aI1
 aI4
 aI-6
-aa(lp14
+aa(lp13
 V0021000979
-p15
+p14
 aVMAR 12, 2011
-p16
+p15
 aVUTA @ CHI
-p17
+p16
 aVL
-p18
+p17
 aI3
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp19
+aa(lp18
 V0021001010
-p20
+p19
 aVMAR 16, 2011
-p21
+p20
 aVUTA vs. MIN
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -122,10 +119,25 @@ aI0
 aI0
 aI-3
 aasS'name'
-p24
+p23
 VMarcus Cousin
+p24
+sS'weight'
 p25
-sS'experience'
+V255
 p26
+sS'age'
+p27
+I24
+sS'experience'
+p28
 I0
+sS'height'
+p29
+V6-11
+p30
+sS'position'
+p31
+VForward
+p32
 s.

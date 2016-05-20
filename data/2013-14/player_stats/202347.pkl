@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I25
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300013
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVMEM @ SAS
-p7
+p6
 aVL
-p8
+p7
 aI22
 aI4
 aI9
@@ -34,15 +31,15 @@ aI1
 aI0
 aI13
 aI9
-aa(lp9
+aa(lp8
 V0021300026
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVMEM vs. DET
-p12
+p11
 aVW
-p13
+p12
 aI18
 aI2
 aI6
@@ -63,15 +60,15 @@ aI2
 aI3
 aI6
 aI-14
-aa(lp14
+aa(lp13
 V0021300036
-p15
+p14
 aVNOV 02, 2013
-p16
+p15
 aVMEM @ DAL
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI1
 aI4
@@ -92,15 +89,15 @@ aI2
 aI3
 aI2
 aI-12
-aa(lp19
+aa(lp18
 V0021300049
-p20
+p19
 aVNOV 04, 2013
-p21
+p20
 aVMEM vs. BOS
-p22
+p21
 aVW
-p23
+p22
 aI19
 aI2
 aI6
@@ -121,15 +118,15 @@ aI2
 aI2
 aI8
 aI-14
-aa(lp24
+aa(lp23
 V0021300065
-p25
+p24
 aVNOV 06, 2013
-p26
+p25
 aVMEM vs. NOP
-p27
+p26
 aVL
-p28
+p27
 aI17
 aI0
 aI4
@@ -150,15 +147,15 @@ aI1
 aI1
 aI0
 aI-22
-aa(lp29
+aa(lp28
 V0021300091
-p30
+p29
 aVNOV 09, 2013
-p31
+p30
 aVMEM vs. GSW
-p32
+p31
 aVW
-p33
+p32
 aI4
 aI0
 aI0
@@ -179,15 +176,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp34
+aa(lp33
 V0021300099
-p35
+p34
 aVNOV 11, 2013
-p36
+p35
 aVMEM @ IND
-p37
+p36
 aVL
-p38
+p37
 aI7
 aI0
 aI4
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-3
-aa(lp39
+aa(lp38
 V0021300134
-p40
+p39
 aVNOV 15, 2013
-p41
+p40
 aVMEM @ LAL
-p42
+p41
 aVW
-p43
+p42
 aI20
 aI3
 aI6
@@ -237,15 +234,15 @@ aI2
 aI1
 aI6
 aI0
-aa(lp44
+aa(lp43
 V0021300148
-p45
+p44
 aVNOV 17, 2013
-p46
+p45
 aVMEM @ SAC
-p47
+p46
 aVW
-p48
+p47
 aI15
 aI2
 aI3
@@ -266,15 +263,15 @@ aI1
 aI2
 aI5
 aI-4
-aa(lp49
+aa(lp48
 V0021300155
-p50
+p49
 aVNOV 18, 2013
-p51
+p50
 aVMEM @ LAC
-p52
+p51
 aVW
-p53
+p52
 aI31
 aI2
 aI5
@@ -295,15 +292,15 @@ aI1
 aI2
 aI7
 aI-8
-aa(lp54
+aa(lp53
 V0021300173
-p55
+p54
 aVNOV 20, 2013
-p56
+p55
 aVMEM @ GSW
-p57
+p56
 aVW
-p58
+p57
 aI32
 aI2
 aI5
@@ -324,15 +321,15 @@ aI0
 aI0
 aI6
 aI-6
-aa(lp59
+aa(lp58
 V0021300181
-p60
+p59
 aVNOV 22, 2013
-p61
+p60
 aVMEM vs. SAS
-p62
+p61
 aVL
-p63
+p62
 aI7
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp64
+aa(lp63
 V0021300243
-p65
+p64
 aVNOV 30, 2013
-p66
+p65
 aVMEM vs. BKN
-p67
+p66
 aVL
-p68
+p67
 aI21
 aI8
 aI12
@@ -382,15 +379,15 @@ aI2
 aI1
 aI22
 aI-7
-aa(lp69
+aa(lp68
 V0021300278
-p70
+p69
 aVDEC 05, 2013
-p71
+p70
 aVMEM vs. LAC
-p72
+p71
 aVL
-p73
+p72
 aI30
 aI4
 aI12
@@ -411,15 +408,15 @@ aI1
 aI1
 aI15
 aI-10
-aa(lp74
+aa(lp73
 V0021300293
-p75
+p74
 aVDEC 07, 2013
-p76
+p75
 aVMEM vs. GSW
-p77
+p76
 aVL
-p78
+p77
 aI13
 aI1
 aI3
@@ -441,10 +438,25 @@ aI1
 aI4
 aI-7
 aasS'name'
-p79
+p78
 VQuincy Pondexter
+p79
+sS'weight'
 p80
-sS'experience'
+V220
 p81
+sS'age'
+p82
+I25
+sS'experience'
+p83
 I3
+sS'height'
+p84
+V6-7
+p85
+sS'position'
+p86
+VForward-Guard
+p87
 s.

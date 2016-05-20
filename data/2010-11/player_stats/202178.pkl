@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021000125
-p5
+p4
 aVNOV 12, 2010
-p6
+p5
 aVMIN vs. NYK
-p7
+p6
 aVW
-p8
+p7
 aI11
 aI0
 aI4
@@ -34,15 +31,15 @@ aI2
 aI0
 aI1
 aI1
-aa(lp9
+aa(lp8
 V0021000139
-p10
+p9
 aVNOV 14, 2010
-p11
+p10
 aVMIN @ ATL
-p12
+p11
 aVL
-p13
+p12
 aI9
 aI0
 aI3
@@ -63,15 +60,15 @@ aI1
 aI1
 aI0
 aI-12
-aa(lp14
+aa(lp13
 V0021000144
-p15
+p14
 aVNOV 15, 2010
-p16
+p15
 aVMIN @ CHA
-p17
+p16
 aVL
-p18
+p17
 aI17
 aI4
 aI5
@@ -92,15 +89,15 @@ aI0
 aI1
 aI10
 aI8
-aa(lp19
+aa(lp18
 V0021000176
-p20
+p19
 aVNOV 19, 2010
-p21
+p20
 aVMIN vs. LAL
-p22
+p21
 aVL
-p23
+p22
 aI4
 aI1
 aI2
@@ -121,15 +118,15 @@ aI1
 aI0
 aI4
 aI8
-aa(lp24
+aa(lp23
 V0021000268
-p25
+p24
 aVDEC 01, 2010
-p26
+p25
 aVMIN @ DAL
-p27
+p26
 aVL
-p28
+p27
 aI10
 aI1
 aI3
@@ -150,15 +147,15 @@ aI1
 aI0
 aI4
 aI-1
-aa(lp29
+aa(lp28
 V0021000291
-p30
+p29
 aVDEC 04, 2010
-p31
+p30
 aVMIN vs. CLE
-p32
+p31
 aVW
-p33
+p32
 aI7
 aI1
 aI3
@@ -179,15 +176,15 @@ aI0
 aI1
 aI2
 aI-2
-aa(lp34
+aa(lp33
 V0021000345
-p35
+p34
 aVDEC 11, 2010
-p36
+p35
 aVMIN @ CHI
-p37
+p36
 aVL
-p38
+p37
 aI6
 aI0
 aI2
@@ -208,15 +205,15 @@ aI1
 aI1
 aI0
 aI-7
-aa(lp39
+aa(lp38
 V0021000487
-p40
+p39
 aVJAN 01, 2011
-p41
+p40
 aVMIN vs. NJN
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp44
+aa(lp43
 V0021000589
-p45
+p44
 aVJAN 15, 2011
-p46
+p45
 aVTOR @ WAS
-p47
+p46
 aVL
-p48
+p47
 aI14
 aI1
 aI3
@@ -266,15 +263,15 @@ aI1
 aI3
 aI2
 aI-2
-aa(lp49
+aa(lp48
 V0021000603
-p50
+p49
 aVJAN 17, 2011
-p51
+p50
 aVTOR @ NOH
-p52
+p51
 aVL
-p53
+p52
 aI24
 aI3
 aI6
@@ -295,15 +292,15 @@ aI2
 aI3
 aI7
 aI-2
-aa(lp54
+aa(lp53
 V0021000620
-p55
+p54
 aVJAN 19, 2011
-p56
+p55
 aVTOR @ SAS
-p57
+p56
 aVL
-p58
+p57
 aI11
 aI4
 aI6
@@ -324,15 +321,15 @@ aI2
 aI2
 aI10
 aI-3
-aa(lp59
+aa(lp58
 V0021000630
-p60
+p59
 aVJAN 21, 2011
-p61
+p60
 aVTOR @ ORL
-p62
+p61
 aVL
-p63
+p62
 aI18
 aI4
 aI9
@@ -353,15 +350,15 @@ aI1
 aI1
 aI10
 aI-18
-aa(lp64
+aa(lp63
 V0021000643
-p65
+p64
 aVJAN 22, 2011
-p66
+p65
 aVTOR @ MIA
-p67
+p66
 aVL
-p68
+p67
 aI5
 aI0
 aI1
@@ -382,15 +379,15 @@ aI1
 aI0
 aI0
 aI-10
-aa(lp69
+aa(lp68
 V0021000656
-p70
+p69
 aVJAN 24, 2011
-p71
+p70
 aVTOR vs. MEM
-p72
+p71
 aVL
-p73
+p72
 aI17
 aI3
 aI10
@@ -411,15 +408,15 @@ aI1
 aI1
 aI6
 aI-11
-aa(lp74
+aa(lp73
 V0021000914
-p75
+p74
 aVMAR 04, 2011
-p76
+p75
 aVNJN vs. TOR
-p77
+p76
 aVW
-p78
+p77
 aI8
 aI3
 aI3
@@ -440,15 +437,15 @@ aI1
 aI0
 aI7
 aI10
-aa(lp79
+aa(lp78
 V0021000925
-p80
+p79
 aVMAR 05, 2011
-p81
+p80
 aVNJN vs. TOR
-p82
+p81
 aVW
-p83
+p82
 aI23
 aI1
 aI5
@@ -469,15 +466,15 @@ aI2
 aI1
 aI5
 aI0
-aa(lp84
+aa(lp83
 V0021000954
-p85
+p84
 aVMAR 09, 2011
-p86
+p85
 aVNJN vs. GSW
-p87
+p86
 aVW
-p88
+p87
 aI24
 aI2
 aI6
@@ -498,15 +495,15 @@ aI3
 aI2
 aI5
 aI21
-aa(lp89
+aa(lp88
 V0021000968
-p90
+p89
 aVMAR 11, 2011
-p91
+p90
 aVNJN vs. LAC
-p92
+p91
 aVW
-p93
+p92
 aI17
 aI4
 aI8
@@ -527,15 +524,15 @@ aI2
 aI1
 aI9
 aI-2
-aa(lp94
+aa(lp93
 V0021000991
-p95
+p94
 aVMAR 14, 2011
-p96
+p95
 aVNJN vs. BOS
-p97
+p96
 aVW
-p98
+p97
 aI7
 aI2
 aI2
@@ -556,15 +553,15 @@ aI0
 aI1
 aI6
 aI10
-aa(lp99
+aa(lp98
 V0021001014
-p100
+p99
 aVMAR 17, 2011
-p101
+p100
 aVNJN vs. CHI
-p102
+p101
 aVL
-p103
+p102
 aI11
 aI0
 aI4
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI3
-aa(lp104
+aa(lp103
 V0021001025
-p105
+p104
 aVMAR 18, 2011
-p106
+p105
 aVNJN @ MIL
-p107
+p106
 aVL
-p108
+p107
 aI12
 aI1
 aI4
@@ -614,15 +611,15 @@ aI1
 aI0
 aI3
 aI-8
-aa(lp109
+aa(lp108
 V0021001035
-p110
+p109
 aVMAR 20, 2011
-p111
+p110
 aVNJN @ WAS
-p112
+p111
 aVL
-p113
+p112
 aI15
 aI1
 aI4
@@ -643,15 +640,15 @@ aI3
 aI3
 aI2
 aI-13
-aa(lp114
+aa(lp113
 V0021001045
-p115
+p114
 aVMAR 21, 2011
-p116
+p115
 aVNJN vs. IND
-p117
+p116
 aVL
-p118
+p117
 aI24
 aI6
 aI11
@@ -672,15 +669,15 @@ aI0
 aI2
 aI18
 aI2
-aa(lp119
+aa(lp118
 V0021001055
-p120
+p119
 aVMAR 23, 2011
-p121
+p120
 aVNJN @ CLE
-p122
+p121
 aVW
-p123
+p122
 aI5
 aI0
 aI1
@@ -702,10 +699,25 @@ aI0
 aI0
 aI-5
 aasS'name'
-p124
+p123
 VSundiata Gaines
+p124
+sS'weight'
 p125
-sS'experience'
+V200
 p126
+sS'age'
+p127
+I24
+sS'experience'
+p128
 I1
+sS'height'
+p129
+V6-1
+p130
+sS'position'
+p131
+VGuard
+p132
 s.

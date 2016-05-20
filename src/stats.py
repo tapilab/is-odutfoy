@@ -28,6 +28,11 @@ def average(season, playerID, number_games = -1):
 
     else:
         averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
+
+        #Ensuring Percentages are correct
+        for i in [3, 6, 9]:
+            averaged[i] = averaged[i - 2]/averaged[i - 1]
+
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
         averaged.append(winrate)
@@ -43,6 +48,11 @@ def average(season, playerID, number_games = -1):
 
         if len(home) != 0:
             home_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in home])]
+
+            #Ensuring Percentages are correct
+            for i in [3, 6, 9]:
+                home_avg[i] = home_avg[i - 2]/home_avg[i - 1]
+
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
             home_avg.append(home_winrate)
@@ -51,6 +61,11 @@ def average(season, playerID, number_games = -1):
 
         if len(away) != 0:
             away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in away])]
+
+            #Ensuring Percentages are correct
+            for i in [3, 6, 9]:
+                away_avg[i] = away_avg[i - 2]/away_avg[i - 1]
+
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
             away_avg.append(away_winrate)
@@ -93,8 +108,14 @@ def weighted_average(avg1, avg2, weight = 2):
         return avg1
 
     avg = []
-    for a, b, in zip(avg1, avg2):
-        tmp = (a*weight + b)/(weight + 1)
+    for i, a, b, in enumerate(zip(avg1, avg2)):
+        #to ensure correct percentages
+        if i in [3, 6, 9]:
+            tmp = avg[i - 2]/avg[i - 1]
+
+        else:
+            tmp = (a*weight + b)/(weight + 1)
+
         avg.append(tmp)
 
     return avg
@@ -140,7 +161,13 @@ def baselines(seasons):
     return result
 
 #print compute_fantasy('2011-12', '977', 0)
-#player = pickle.load(open('data' + os.sep + '2006-07' + os.sep + 'player_stats' + os.sep + '101144' + '.pkl', 'rb'))
-#print player['stats'][0]
+positions = []
+for file in os.listdir("data/2006-07/player_stats"):
+    player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
+    position = player['position']
+    if position not in positions:
+        positions.append(position)
+
+print positions
 #print average('2005-06', '15')[0]
-# print player['experience']
+#print player['stats']

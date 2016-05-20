@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I29
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020500326
-p5
+p4
 aVDEC 16, 2005
-p6
+p5
 aVMIL @ BOS
-p7
+p6
 aVW
-p8
+p7
 aI7
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI1
 aI0
 aI-7
-aa(lp9
+aa(lp8
 V0020500339
-p10
+p9
 aVDEC 17, 2005
-p11
+p10
 aVMIL vs. UTA
-p12
+p11
 aVL
-p13
+p12
 aI2
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI-6
-aa(lp14
+aa(lp13
 V0020500356
-p15
+p14
 aVDEC 20, 2005
-p16
+p15
 aVMIL vs. SAS
-p17
+p16
 aVW
-p18
+p17
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp19
+aa(lp18
 V0020500380
-p20
+p19
 aVDEC 23, 2005
-p21
+p20
 aVMIL vs. NOK
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0020500388
-p25
+p24
 aVDEC 26, 2005
-p26
+p25
 aVMIL @ ORL
-p27
+p26
 aVL
-p28
+p27
 aI2
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp29
+aa(lp28
 V0020500399
-p30
+p29
 aVDEC 27, 2005
-p31
+p30
 aVMIL @ MIA
-p32
+p31
 aVL
-p33
+p32
 aI15
 aI0
 aI1
@@ -179,15 +176,15 @@ aI0
 aI2
 aI2
 aI4
-aa(lp34
+aa(lp33
 V0020500422
-p35
+p34
 aVDEC 30, 2005
-p36
+p35
 aVMIL vs. NYK
-p37
+p36
 aVW
-p38
+p37
 aI15
 aI1
 aI5
@@ -208,15 +205,15 @@ aI2
 aI1
 aI2
 aI-7
-aa(lp39
+aa(lp38
 V0020500439
-p40
+p39
 aVJAN 02, 2006
-p41
+p40
 aVMIL @ CHI
-p42
+p41
 aVW
-p43
+p42
 aI14
 aI1
 aI1
@@ -237,15 +234,15 @@ aI2
 aI0
 aI3
 aI-12
-aa(lp44
+aa(lp43
 V0020500450
-p45
+p44
 aVJAN 04, 2006
-p46
+p45
 aVMIL vs. CLE
-p47
+p46
 aVL
-p48
+p47
 aI8
 aI0
 aI1
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp49
+aa(lp48
 V0020500467
-p50
+p49
 aVJAN 06, 2006
-p51
+p50
 aVMIL vs. CHI
-p52
+p51
 aVL
-p53
+p52
 aI9
 aI0
 aI0
@@ -295,15 +292,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp54
+aa(lp53
 V0020500494
-p55
+p54
 aVJAN 10, 2006
-p56
+p55
 aVMIL vs. MIN
-p57
+p56
 aVW
-p58
+p57
 aI16
 aI2
 aI5
@@ -324,15 +321,15 @@ aI0
 aI1
 aI8
 aI7
-aa(lp59
+aa(lp58
 V0020500504
-p60
+p59
 aVJAN 11, 2006
-p61
+p60
 aVMIL @ IND
-p62
+p61
 aVL
-p63
+p62
 aI11
 aI0
 aI0
@@ -353,15 +350,15 @@ aI0
 aI1
 aI0
 aI-8
-aa(lp64
+aa(lp63
 V0020500515
-p65
+p64
 aVJAN 13, 2006
-p66
+p65
 aVMIL @ CHA
-p67
+p66
 aVW
-p68
+p67
 aI8
 aI0
 aI0
@@ -382,15 +379,15 @@ aI3
 aI2
 aI0
 aI-16
-aa(lp69
+aa(lp68
 V0020500525
-p70
+p69
 aVJAN 14, 2006
-p71
+p70
 aVMIL vs. DEN
-p72
+p71
 aVL
-p73
+p72
 aI1
 aI0
 aI0
@@ -411,15 +408,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp74
+aa(lp73
 V0020500546
-p75
+p74
 aVJAN 16, 2006
-p76
+p75
 aVMIL @ DAL
-p77
+p76
 aVL
-p78
+p77
 aI7
 aI1
 aI1
@@ -440,15 +437,15 @@ aI0
 aI1
 aI3
 aI-2
-aa(lp79
+aa(lp78
 V0020500558
-p80
+p79
 aVJAN 18, 2006
-p81
+p80
 aVMIL @ SAS
-p82
+p81
 aVL
-p83
+p82
 aI2
 aI0
 aI0
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp84
+aa(lp83
 V0020500566
-p85
+p84
 aVJAN 20, 2006
-p86
+p85
 aVMIL @ ATL
-p87
+p86
 aVW
-p88
+p87
 aI17
 aI0
 aI2
@@ -498,15 +495,15 @@ aI1
 aI1
 aI2
 aI-2
-aa(lp89
+aa(lp88
 V0020500581
-p90
+p89
 aVJAN 21, 2006
-p91
+p90
 aVMIL vs. CHA
-p92
+p91
 aVW
-p93
+p92
 aI21
 aI3
 aI3
@@ -527,15 +524,15 @@ aI2
 aI1
 aI6
 aI-5
-aa(lp94
+aa(lp93
 V0020500594
-p95
+p94
 aVJAN 23, 2006
-p96
+p95
 aVMIL vs. HOU
-p97
+p96
 aVL
-p98
+p97
 aI2
 aI0
 aI0
@@ -556,15 +553,15 @@ aI0
 aI0
 aI1
 aI1
-aa(lp99
+aa(lp98
 V0020500627
-p100
+p99
 aVJAN 27, 2006
-p101
+p100
 aVMIL vs. TOR
-p102
+p101
 aVW
-p103
+p102
 aI3
 aI0
 aI0
@@ -585,15 +582,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp104
+aa(lp103
 V0020500761
-p105
+p104
 aVFEB 14, 2006
-p106
+p105
 aVMIL vs. SEA
-p107
+p106
 aVW
-p108
+p107
 aI6
 aI0
 aI2
@@ -614,15 +611,15 @@ aI0
 aI1
 aI2
 aI-6
-aa(lp109
+aa(lp108
 V0020500902
-p110
+p109
 aVMAR 08, 2006
-p111
+p110
 aVMIL vs. SAC
-p112
+p111
 aVL
-p113
+p112
 aI1
 aI0
 aI0
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp114
+aa(lp113
 V0020500912
-p115
+p114
 aVMAR 10, 2006
-p116
+p115
 aVMIL @ BOS
-p117
+p116
 aVW
-p118
+p117
 aI6
 aI0
 aI0
@@ -672,15 +669,15 @@ aI1
 aI0
 aI0
 aI-6
-aa(lp119
+aa(lp118
 V0020500977
-p120
+p119
 aVMAR 18, 2006
-p121
+p120
 aVMIL vs. POR
-p122
+p121
 aVW
-p123
+p122
 aI4
 aI0
 aI0
@@ -701,15 +698,15 @@ aI0
 aI0
 aI0
 aI-7
-aa(lp124
+aa(lp123
 V0020500991
-p125
+p124
 aVMAR 20, 2006
-p126
+p125
 aVMIL @ POR
-p127
+p126
 aVW
-p128
+p127
 aI5
 aI0
 aI1
@@ -730,15 +727,15 @@ aI0
 aI0
 aI0
 aI-10
-aa(lp129
+aa(lp128
 V0020501009
-p130
+p129
 aVMAR 22, 2006
-p131
+p130
 aVMIL @ SEA
-p132
+p131
 aVL
-p133
+p132
 aI1
 aI0
 aI0
@@ -759,15 +756,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp134
+aa(lp133
 V0020501026
-p135
+p134
 aVMAR 24, 2006
-p136
+p135
 aVMIL @ LAL
-p137
+p136
 aVL
-p138
+p137
 aI8
 aI2
 aI2
@@ -788,15 +785,15 @@ aI0
 aI2
 aI4
 aI-5
-aa(lp139
+aa(lp138
 V0020501036
-p140
+p139
 aVMAR 26, 2006
-p141
+p140
 aVMIL vs. TOR
-p142
+p141
 aVW
-p143
+p142
 aI13
 aI1
 aI1
@@ -817,15 +814,15 @@ aI0
 aI1
 aI2
 aI-7
-aa(lp144
+aa(lp143
 V0020501049
-p145
+p144
 aVMAR 28, 2006
-p146
+p145
 aVMIL vs. PHX
-p147
+p146
 aVW
-p148
+p147
 aI2
 aI0
 aI1
@@ -846,15 +843,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp149
+aa(lp148
 V0020501207
-p150
+p149
 aVAPR 17, 2006
-p151
+p150
 aVMIL vs. DET
-p152
+p151
 aVW
-p153
+p152
 aI4
 aI0
 aI0
@@ -876,10 +873,25 @@ aI0
 aI0
 aI-2
 aasS'name'
-p154
+p153
 VJermaine Jackson
+p154
+sS'weight'
 p155
-sS'experience'
+V204
 p156
+sS'age'
+p157
+I29
+sS'experience'
+p158
 I6
+sS'height'
+p159
+V6-5
+p160
+sS'position'
+p161
+VGuard
+p162
 s.

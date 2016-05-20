@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900026
-p5
+p4
 aVOCT 30, 2009
-p6
+p5
 aVCLE @ MIN
-p7
+p6
 aVW
-p8
+p7
 aI3
 aI0
 aI0
@@ -34,15 +31,15 @@ aI1
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020900162
-p10
+p9
 aVNOV 18, 2009
-p11
+p10
 aVCLE @ WAS
-p12
+p11
 aVL
-p13
+p12
 aI0
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp14
+aa(lp13
 V0020900292
-p15
+p14
 aVDEC 06, 2009
-p16
+p15
 aVCLE @ MIL
-p17
+p16
 aVW
-p18
+p17
 aI2
 aI0
 aI0
@@ -92,15 +89,15 @@ aI3
 aI0
 aI0
 aI-5
-aa(lp19
+aa(lp18
 V0020900703
-p20
+p19
 aVJAN 31, 2010
-p21
+p20
 aVGSW @ OKC
-p22
+p21
 aVL
-p23
+p22
 aI24
 aI2
 aI4
@@ -121,15 +118,15 @@ aI0
 aI6
 aI6
 aI4
-aa(lp24
+aa(lp23
 V0020900717
-p25
+p24
 aVFEB 02, 2010
-p26
+p25
 aVGSW @ HOU
-p27
+p26
 aVL
-p28
+p27
 aI38
 aI5
 aI13
@@ -150,15 +147,15 @@ aI3
 aI3
 aI12
 aI-15
-aa(lp29
+aa(lp28
 V0020900724
-p30
+p29
 aVFEB 03, 2010
-p31
+p30
 aVGSW @ DAL
-p32
+p31
 aVL
-p33
+p32
 aI16
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI2
 aI0
 aI-8
-aa(lp34
+aa(lp33
 V0020900751
-p35
+p34
 aVFEB 06, 2010
-p36
+p35
 aVGSW vs. OKC
-p37
+p36
 aVL
-p38
+p37
 aI30
 aI4
 aI12
@@ -209,10 +206,25 @@ aI3
 aI10
 aI-5
 aasS'name'
-p39
+p38
 VCoby Karl
+p39
+sS'weight'
 p40
-sS'experience'
+V215
 p41
+sS'age'
+p42
+I26
+sS'experience'
+p43
 I2
+sS'height'
+p44
+V6-5
+p45
+sS'position'
+p46
+VGuard
+p47
 s.

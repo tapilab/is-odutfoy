@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I34
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800017
-p5
+p4
 aVOCT 30, 2008
-p6
+p5
 aVDAL vs. HOU
-p7
+p6
 aVL
-p8
+p7
 aI18
 aI1
 aI6
@@ -34,15 +31,15 @@ aI1
 aI1
 aI2
 aI-21
-aa(lp9
+aa(lp8
 V0020800032
-p10
+p9
 aVNOV 01, 2008
-p11
+p10
 aVDAL @ MIN
-p12
+p11
 aVW
-p13
+p12
 aI12
 aI1
 aI5
@@ -63,15 +60,15 @@ aI1
 aI0
 aI2
 aI3
-aa(lp14
+aa(lp13
 V0020800050
-p15
+p14
 aVNOV 04, 2008
-p16
+p15
 aVDAL @ SAS
-p17
+p16
 aVW
-p18
+p17
 aI18
 aI1
 aI5
@@ -92,15 +89,15 @@ aI1
 aI0
 aI3
 aI-15
-aa(lp19
+aa(lp18
 V0020800076
-p20
+p19
 aVNOV 07, 2008
-p21
+p20
 aVDAL @ DEN
-p22
+p21
 aVL
-p23
+p22
 aI14
 aI1
 aI8
@@ -121,15 +118,15 @@ aI1
 aI1
 aI2
 aI-19
-aa(lp24
+aa(lp23
 V0020800087
-p25
+p24
 aVNOV 09, 2008
-p26
+p25
 aVDAL @ LAC
-p27
+p26
 aVL
-p28
+p27
 aI24
 aI5
 aI9
@@ -150,15 +147,15 @@ aI1
 aI1
 aI10
 aI2
-aa(lp29
+aa(lp28
 V0020800102
-p30
+p29
 aVNOV 11, 2008
-p31
+p30
 aVDAL vs. LAL
-p32
+p31
 aVL
-p33
+p32
 aI24
 aI5
 aI12
@@ -179,15 +176,15 @@ aI2
 aI1
 aI17
 aI-11
-aa(lp34
+aa(lp33
 V0020800118
-p35
+p34
 aVNOV 13, 2008
-p36
+p35
 aVDAL @ CHI
-p37
+p36
 aVL
-p38
+p37
 aI13
 aI1
 aI5
@@ -208,15 +205,15 @@ aI0
 aI1
 aI4
 aI0
-aa(lp39
+aa(lp38
 V0020800128
-p40
+p39
 aVNOV 14, 2008
-p41
+p40
 aVDAL vs. ORL
-p42
+p41
 aVL
-p43
+p42
 aI19
 aI1
 aI5
@@ -237,15 +234,15 @@ aI1
 aI0
 aI2
 aI-11
-aa(lp44
+aa(lp43
 V0020800817
-p45
+p44
 aVFEB 20, 2009
-p46
+p45
 aVDAL @ HOU
-p47
+p46
 aVL
-p48
+p47
 aI8
 aI0
 aI3
@@ -266,15 +263,15 @@ aI0
 aI1
 aI0
 aI4
-aa(lp49
+aa(lp48
 V0020800824
-p50
+p49
 aVFEB 21, 2009
-p51
+p50
 aVDAL vs. SAC
-p52
+p51
 aVW
-p53
+p52
 aI13
 aI0
 aI2
@@ -296,10 +293,25 @@ aI0
 aI0
 aI-8
 aasS'name'
-p54
+p53
 VJerry Stackhouse
+p54
+sS'weight'
 p55
-sS'experience'
+V218
 p56
+sS'age'
+p57
+I34
+sS'experience'
+p58
 I13
+sS'height'
+p59
+V6-6
+p60
+sS'position'
+p61
+VForward
+p62
 s.

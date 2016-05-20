@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I31
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300110
-p5
+p4
 aVNOV 12, 2013
-p6
+p5
 aVNOP @ LAL
-p7
+p6
 aVL
-p8
+p7
 aI8
 aI1
 aI2
@@ -34,15 +31,15 @@ aI0
 aI2
 aI3
 aI10
-aa(lp9
+aa(lp8
 V0021300119
-p10
+p9
 aVNOV 13, 2013
-p11
+p10
 aVNOP @ UTA
-p12
+p11
 aVL
-p13
+p12
 aI18
 aI2
 aI3
@@ -63,15 +60,15 @@ aI2
 aI5
 aI5
 aI7
-aa(lp14
+aa(lp13
 V0021300143
-p15
+p14
 aVNOV 16, 2013
-p16
+p15
 aVNOP vs. PHI
-p17
+p16
 aVW
-p18
+p17
 aI14
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI3
 aI2
 aI-1
-aa(lp19
+aa(lp18
 V0021300169
-p20
+p19
 aVNOV 20, 2013
-p21
+p20
 aVNOP vs. UTA
-p22
+p21
 aVW
-p23
+p22
 aI5
 aI1
 aI1
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI-2
-aa(lp24
+aa(lp23
 V0021300183
-p25
+p24
 aVNOV 22, 2013
-p26
+p25
 aVNOP vs. CLE
-p27
+p26
 aVW
-p28
+p27
 aI4
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI1
 aI0
 aI-5
-aa(lp29
+aa(lp28
 V0021300208
-p30
+p29
 aVNOV 25, 2013
-p31
+p30
 aVNOP @ SAS
-p32
+p31
 aVL
-p33
+p32
 aI8
 aI0
 aI3
@@ -179,15 +176,15 @@ aI0
 aI2
 aI1
 aI10
-aa(lp34
+aa(lp33
 V0021300214
-p35
+p34
 aVNOV 26, 2013
-p36
+p35
 aVNOP vs. GSW
-p37
+p36
 aVL
-p38
+p37
 aI3
 aI0
 aI1
@@ -208,15 +205,15 @@ aI1
 aI3
 aI0
 aI-5
-aa(lp39
+aa(lp38
 V0021300237
-p40
+p39
 aVNOV 29, 2013
-p41
+p40
 aVNOP @ PHI
-p42
+p41
 aVW
-p43
+p42
 aI5
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp44
+aa(lp43
 V0021300254
-p45
+p44
 aVDEC 01, 2013
-p46
+p45
 aVNOP @ NYK
-p47
+p46
 aVW
-p48
+p47
 aI7
 aI1
 aI2
@@ -266,15 +263,15 @@ aI0
 aI1
 aI2
 aI-9
-aa(lp49
+aa(lp48
 V0021300257
-p50
+p49
 aVDEC 02, 2013
-p51
+p50
 aVNOP @ CHI
-p52
+p51
 aVW
-p53
+p52
 aI15
 aI0
 aI0
@@ -295,15 +292,15 @@ aI0
 aI6
 aI0
 aI-9
-aa(lp54
+aa(lp53
 V0021300273
-p55
+p54
 aVDEC 04, 2013
-p56
+p55
 aVNOP vs. DAL
-p57
+p56
 aVL
-p58
+p57
 aI11
 aI0
 aI0
@@ -324,15 +321,15 @@ aI2
 aI3
 aI0
 aI-5
-aa(lp59
+aa(lp58
 V0021300286
-p60
+p59
 aVDEC 06, 2013
-p61
+p60
 aVNOP vs. OKC
-p62
+p61
 aVL
-p63
+p62
 aI8
 aI1
 aI3
@@ -353,15 +350,15 @@ aI1
 aI1
 aI2
 aI-6
-aa(lp64
+aa(lp63
 V0021300323
-p65
+p64
 aVDEC 11, 2013
-p66
+p65
 aVNOP vs. DET
-p67
+p66
 aVW
-p68
+p67
 aI14
 aI2
 aI3
@@ -382,15 +379,15 @@ aI1
 aI3
 aI5
 aI-7
-aa(lp69
+aa(lp68
 V0021300335
-p70
+p69
 aVDEC 13, 2013
-p71
+p70
 aVNOP vs. MEM
-p72
+p71
 aVW
-p73
+p72
 aI18
 aI3
 aI4
@@ -411,15 +408,15 @@ aI2
 aI3
 aI7
 aI3
-aa(lp74
+aa(lp73
 V0021300354
-p75
+p74
 aVDEC 15, 2013
-p76
+p75
 aVNOP @ DEN
-p77
+p76
 aVL
-p78
+p77
 aI19
 aI1
 aI3
@@ -440,15 +437,15 @@ aI2
 aI5
 aI2
 aI-8
-aa(lp79
+aa(lp78
 V0021300368
-p80
+p79
 aVDEC 17, 2013
-p81
+p80
 aVNOP @ GSW
-p82
+p81
 aVL
-p83
+p82
 aI16
 aI2
 aI4
@@ -469,15 +466,15 @@ aI3
 aI6
 aI5
 aI1
-aa(lp84
+aa(lp83
 V0021300417
-p85
+p84
 aVDEC 23, 2013
-p86
+p85
 aVNOP @ SAC
-p87
+p86
 aVW
-p88
+p87
 aI5
 aI0
 aI0
@@ -498,15 +495,15 @@ aI0
 aI2
 aI0
 aI-6
-aa(lp89
+aa(lp88
 V0021300432
-p90
+p89
 aVDEC 27, 2013
-p91
+p90
 aVNOP vs. DEN
-p92
+p91
 aVW
-p93
+p92
 aI5
 aI1
 aI1
@@ -527,15 +524,15 @@ aI0
 aI1
 aI2
 aI6
-aa(lp94
+aa(lp93
 V0021301208
-p95
+p94
 aVAPR 14, 2014
-p96
+p95
 aVCHI vs. ORL
-p97
+p96
 aVW
-p98
+p97
 aI1
 aI0
 aI0
@@ -557,10 +554,25 @@ aI0
 aI0
 aI-5
 aasS'name'
-p99
+p98
 VLou Amundson
+p99
+sS'weight'
 p100
-sS'experience'
+V220
 p101
+sS'age'
+p102
+I31
+sS'experience'
+p103
 I7
+sS'height'
+p104
+V6-9
+p105
+sS'position'
+p106
+VForward
+p107
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I24
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020700011
-p5
+p4
 aVOCT 31, 2007
-p6
+p5
 aVSEA @ DEN
-p7
+p6
 aVL
-p8
+p7
 aI4
 aI1
 aI3
@@ -34,15 +31,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp9
+aa(lp8
 V0020700036
-p10
+p9
 aVNOV 04, 2007
-p11
+p10
 aVSEA @ LAC
-p12
+p11
 aVL
-p13
+p12
 aI3
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI1
 aI0
 aI1
-aa(lp14
+aa(lp13
 V0020700097
-p15
+p14
 aVNOV 13, 2007
-p16
+p15
 aVSEA @ ORL
-p17
+p16
 aVL
-p18
+p17
 aI9
 aI3
 aI4
@@ -92,15 +89,15 @@ aI2
 aI2
 aI7
 aI6
-aa(lp19
+aa(lp18
 V0020700123
-p20
+p19
 aVNOV 16, 2007
-p21
+p20
 aVSEA @ ATL
-p22
+p21
 aVW
-p23
+p22
 aI6
 aI1
 aI2
@@ -121,15 +118,15 @@ aI0
 aI1
 aI2
 aI11
-aa(lp24
+aa(lp23
 V0020700132
-p25
+p24
 aVNOV 17, 2007
-p26
+p25
 aVSEA @ CHA
-p27
+p26
 aVL
-p28
+p27
 aI19
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI2
 aI10
-aa(lp29
+aa(lp28
 V0020700146
-p30
+p29
 aVNOV 19, 2007
-p31
+p30
 aVSEA @ MEM
-p32
+p31
 aVL
-p33
+p32
 aI13
 aI1
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI4
 aI6
-aa(lp34
+aa(lp33
 V0020700195
-p35
+p34
 aVNOV 25, 2007
-p36
+p35
 aVSEA vs. SAS
-p37
+p36
 aVL
-p38
+p37
 aI7
 aI0
 aI0
@@ -208,15 +205,15 @@ aI0
 aI1
 aI0
 aI-1
-aa(lp39
+aa(lp38
 V0020700248
-p40
+p39
 aVDEC 02, 2007
-p41
+p40
 aVSEA vs. GSW
-p42
+p41
 aVL
-p43
+p42
 aI19
 aI1
 aI2
@@ -237,15 +234,15 @@ aI1
 aI1
 aI3
 aI10
-aa(lp44
+aa(lp43
 V0020700272
-p45
+p44
 aVDEC 05, 2007
-p46
+p45
 aVSEA vs. LAC
-p47
+p46
 aVW
-p48
+p47
 aI11
 aI0
 aI5
@@ -266,15 +263,15 @@ aI3
 aI0
 aI0
 aI8
-aa(lp49
+aa(lp48
 V0020700286
-p50
+p49
 aVDEC 07, 2007
-p51
+p50
 aVSEA vs. MIL
-p52
+p51
 aVW
-p53
+p52
 aI8
 aI1
 aI1
@@ -295,15 +292,15 @@ aI1
 aI3
 aI2
 aI-8
-aa(lp54
+aa(lp53
 V0020700311
-p55
+p54
 aVDEC 11, 2007
-p56
+p55
 aVSEA @ CHI
-p57
+p56
 aVL
-p58
+p57
 aI19
 aI5
 aI9
@@ -324,15 +321,15 @@ aI3
 aI2
 aI12
 aI-7
-aa(lp59
+aa(lp58
 V0020700319
-p60
+p59
 aVDEC 12, 2007
-p61
+p60
 aVSEA @ NYK
-p62
+p61
 aVW
-p63
+p62
 aI3
 aI1
 aI1
@@ -353,15 +350,15 @@ aI1
 aI0
 aI2
 aI-2
-aa(lp64
+aa(lp63
 V0020700349
-p65
+p64
 aVDEC 15, 2007
-p66
+p65
 aVSEA @ UTA
-p67
+p66
 aVL
-p68
+p67
 aI5
 aI0
 aI1
@@ -382,15 +379,15 @@ aI2
 aI0
 aI0
 aI-9
-aa(lp69
+aa(lp68
 V0020700377
-p70
+p69
 aVDEC 19, 2007
-p71
+p70
 aVSEA vs. NOH
-p72
+p71
 aVL
-p73
+p72
 aI8
 aI1
 aI6
@@ -411,15 +408,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp74
+aa(lp73
 V0020700390
-p75
+p74
 aVDEC 21, 2007
-p76
+p75
 aVSEA vs. TOR
-p77
+p76
 aVW
-p78
+p77
 aI8
 aI2
 aI3
@@ -440,15 +437,15 @@ aI0
 aI0
 aI4
 aI0
-aa(lp79
+aa(lp78
 V0020700407
-p80
+p79
 aVDEC 25, 2007
-p81
+p80
 aVSEA @ POR
-p82
+p81
 aVL
-p83
+p82
 aI3
 aI0
 aI2
@@ -469,15 +466,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp84
+aa(lp83
 V0020700421
-p85
+p84
 aVDEC 27, 2007
-p86
+p85
 aVSEA vs. BOS
-p87
+p86
 aVL
-p88
+p87
 aI11
 aI0
 aI1
@@ -498,15 +495,15 @@ aI0
 aI1
 aI0
 aI-4
-aa(lp89
+aa(lp88
 V0020700442
-p90
+p89
 aVDEC 29, 2007
-p91
+p90
 aVSEA vs. MIN
-p92
+p91
 aVW
-p93
+p92
 aI7
 aI3
 aI4
@@ -527,15 +524,15 @@ aI1
 aI0
 aI9
 aI-7
-aa(lp94
+aa(lp93
 V0020700456
-p95
+p94
 aVDEC 31, 2007
-p96
+p95
 aVSEA vs. PHI
-p97
+p96
 aVL
-p98
+p97
 aI3
 aI0
 aI1
@@ -556,15 +553,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp99
+aa(lp98
 V0020700503
-p100
+p99
 aVJAN 08, 2008
-p101
+p100
 aVSEA @ CLE
-p102
+p101
 aVL
-p103
+p102
 aI7
 aI1
 aI1
@@ -585,15 +582,15 @@ aI0
 aI0
 aI2
 aI1
-aa(lp104
+aa(lp103
 V0020700512
-p105
+p104
 aVJAN 09, 2008
-p106
+p105
 aVSEA @ NJN
-p107
+p106
 aVL
-p108
+p107
 aI9
 aI0
 aI3
@@ -614,15 +611,15 @@ aI3
 aI1
 aI0
 aI4
-aa(lp109
+aa(lp108
 V0020700533
-p110
+p109
 aVJAN 11, 2008
-p111
+p110
 aVSEA vs. DAL
-p112
+p111
 aVL
-p113
+p112
 aI2
 aI0
 aI1
@@ -643,15 +640,15 @@ aI0
 aI0
 aI0
 aI1
-aa(lp114
+aa(lp113
 V0020700569
-p115
+p114
 aVJAN 16, 2008
-p116
+p115
 aVSEA @ NOH
-p117
+p116
 aVL
-p118
+p117
 aI6
 aI1
 aI2
@@ -672,15 +669,15 @@ aI1
 aI0
 aI3
 aI-8
-aa(lp119
+aa(lp118
 V0020700578
-p120
+p119
 aVJAN 18, 2008
-p121
+p120
 aVSEA @ MEM
-p122
+p121
 aVL
-p123
+p122
 aI9
 aI2
 aI3
@@ -701,15 +698,15 @@ aI0
 aI0
 aI4
 aI3
-aa(lp124
+aa(lp123
 V0020700802
-p125
+p124
 aVFEB 21, 2008
-p126
+p125
 aVSEA @ POR
-p127
+p126
 aVL
-p128
+p127
 aI11
 aI0
 aI3
@@ -730,15 +727,15 @@ aI0
 aI2
 aI0
 aI-8
-aa(lp129
+aa(lp128
 V0020700815
-p130
+p129
 aVFEB 22, 2008
-p131
+p130
 aVSEA vs. POR
-p132
+p131
 aVW
-p133
+p132
 aI20
 aI4
 aI6
@@ -759,15 +756,15 @@ aI1
 aI2
 aI12
 aI8
-aa(lp134
+aa(lp133
 V0020700830
-p135
+p134
 aVFEB 24, 2008
-p136
+p135
 aVSEA vs. LAL
-p137
+p136
 aVL
-p138
+p137
 aI32
 aI10
 aI16
@@ -788,15 +785,15 @@ aI0
 aI3
 aI21
 aI10
-aa(lp139
+aa(lp138
 V0020700844
-p140
+p139
 aVFEB 26, 2008
-p141
+p140
 aVSEA @ GSW
-p142
+p141
 aVL
-p143
+p142
 aI28
 aI5
 aI9
@@ -817,15 +814,15 @@ aI2
 aI2
 aI12
 aI2
-aa(lp144
+aa(lp143
 V0020700853
-p145
+p144
 aVFEB 27, 2008
-p146
+p145
 aVSEA vs. DEN
-p147
+p146
 aVL
-p148
+p147
 aI28
 aI7
 aI13
@@ -846,15 +843,15 @@ aI2
 aI1
 aI16
 aI-19
-aa(lp149
+aa(lp148
 V0020700869
-p150
+p149
 aVFEB 29, 2008
-p151
+p150
 aVSEA vs. MIA
-p152
+p151
 aVL
-p153
+p152
 aI13
 aI1
 aI8
@@ -875,15 +872,15 @@ aI1
 aI1
 aI2
 aI4
-aa(lp154
+aa(lp153
 V0020700882
-p155
+p154
 aVMAR 02, 2008
-p156
+p155
 aVSEA @ MIN
-p157
+p156
 aVW
-p158
+p157
 aI10
 aI1
 aI3
@@ -904,15 +901,15 @@ aI0
 aI1
 aI3
 aI-2
-aa(lp159
+aa(lp158
 V0020700891
-p160
+p159
 aVMAR 04, 2008
-p161
+p160
 aVSEA @ DET
-p162
+p161
 aVL
-p163
+p162
 aI9
 aI0
 aI3
@@ -933,15 +930,15 @@ aI2
 aI1
 aI0
 aI-10
-aa(lp164
+aa(lp163
 V0020700902
-p165
+p164
 aVMAR 05, 2008
-p166
+p165
 aVSEA @ MIL
-p167
+p166
 aVL
-p168
+p167
 aI10
 aI1
 aI3
@@ -962,15 +959,15 @@ aI0
 aI0
 aI2
 aI6
-aa(lp169
+aa(lp168
 V0020700913
-p170
+p169
 aVMAR 07, 2008
-p171
+p170
 aVSEA @ PHI
-p172
+p171
 aVL
-p173
+p172
 aI15
 aI1
 aI3
@@ -991,15 +988,15 @@ aI0
 aI0
 aI2
 aI-10
-aa(lp174
+aa(lp173
 V0020700934
-p175
+p174
 aVMAR 09, 2008
-p176
+p175
 aVSEA @ TOR
-p177
+p176
 aVL
-p178
+p177
 aI9
 aI1
 aI3
@@ -1020,15 +1017,15 @@ aI0
 aI1
 aI4
 aI-9
-aa(lp179
+aa(lp178
 V0020700947
-p180
+p179
 aVMAR 11, 2008
-p181
+p180
 aVSEA @ IND
-p182
+p181
 aVL
-p183
+p182
 aI21
 aI2
 aI3
@@ -1049,15 +1046,15 @@ aI0
 aI1
 aI5
 aI2
-aa(lp184
+aa(lp183
 V0020700954
-p185
+p184
 aVMAR 12, 2008
-p186
+p185
 aVSEA @ BOS
-p187
+p186
 aVL
-p188
+p187
 aI21
 aI1
 aI4
@@ -1078,15 +1075,15 @@ aI1
 aI1
 aI4
 aI0
-aa(lp189
+aa(lp188
 V0020700975
-p190
+p189
 aVMAR 14, 2008
-p191
+p190
 aVSEA vs. MIN
-p192
+p191
 aVL
-p193
+p192
 aI19
 aI4
 aI8
@@ -1107,15 +1104,15 @@ aI0
 aI0
 aI9
 aI-10
-aa(lp194
+aa(lp193
 V0020700989
-p195
+p194
 aVMAR 16, 2008
-p196
+p195
 aVSEA @ DEN
-p197
+p196
 aVL
-p198
+p197
 aI21
 aI6
 aI12
@@ -1137,10 +1134,25 @@ aI1
 aI16
 aI-19
 aasS'name'
-p199
+p198
 VMickael Gelabale
+p199
+sS'weight'
 p200
-sS'experience'
+V215
 p201
+sS'age'
+p202
+I24
+sS'experience'
+p203
 I1
+sS'height'
+p204
+V6-7
+p205
+sS'position'
+p206
+VForward
+p207
 s.

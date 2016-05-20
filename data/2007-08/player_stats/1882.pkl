@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I28
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020701121
-p5
+p4
 aVAPR 02, 2008
-p6
+p5
 aVLAC @ SEA
-p7
+p6
 aVW
-p8
+p7
 aI26
 aI7
 aI14
@@ -34,15 +31,15 @@ aI2
 aI3
 aI19
 aI7
-aa(lp9
+aa(lp8
 V0020701124
-p10
+p9
 aVAPR 03, 2008
-p11
+p10
 aVLAC @ SAC
-p12
+p11
 aVL
-p13
+p12
 aI27
 aI7
 aI15
@@ -63,15 +60,15 @@ aI1
 aI2
 aI15
 aI-6
-aa(lp14
+aa(lp13
 V0020701152
-p15
+p14
 aVAPR 06, 2008
-p16
+p15
 aVLAC vs. HOU
-p17
+p16
 aVL
-p18
+p17
 aI36
 aI8
 aI16
@@ -92,15 +89,15 @@ aI3
 aI2
 aI19
 aI-12
-aa(lp19
+aa(lp18
 V0020701162
-p20
+p19
 aVAPR 08, 2008
-p21
+p20
 aVLAC vs. DEN
-p22
+p21
 aVL
-p23
+p22
 aI35
 aI5
 aI12
@@ -121,15 +118,15 @@ aI1
 aI2
 aI17
 aI-18
-aa(lp24
+aa(lp23
 V0020701175
-p25
+p24
 aVAPR 10, 2008
-p26
+p25
 aVLAC vs. LAL
-p27
+p26
 aVL
-p28
+p27
 aI33
 aI10
 aI20
@@ -150,15 +147,15 @@ aI1
 aI5
 aI23
 aI-19
-aa(lp29
+aa(lp28
 V0020701196
-p30
+p29
 aVAPR 12, 2008
-p31
+p30
 aVLAC @ GSW
-p32
+p31
 aVL
-p33
+p32
 aI40
 aI6
 aI14
@@ -179,15 +176,15 @@ aI3
 aI2
 aI21
 aI-17
-aa(lp34
+aa(lp33
 V0020701214
-p35
+p34
 aVAPR 15, 2008
-p36
+p35
 aVLAC @ NOH
-p37
+p36
 aVL
-p38
+p37
 aI35
 aI4
 aI9
@@ -208,15 +205,15 @@ aI4
 aI2
 aI9
 aI-20
-aa(lp39
+aa(lp38
 V0020701226
-p40
+p39
 aVAPR 16, 2008
-p41
+p40
 aVLAC @ HOU
-p42
+p41
 aVL
-p43
+p42
 aI41
 aI5
 aI14
@@ -238,10 +235,25 @@ aI3
 aI18
 aI-12
 aasS'name'
-p44
+p43
 VElton Brand
+p44
+sS'weight'
 p45
-sS'experience'
+V254
 p46
+sS'age'
+p47
+I28
+sS'experience'
+p48
 I8
+sS'height'
+p49
+V6-9
+p50
+sS'position'
+p51
+VForward
+p52
 s.

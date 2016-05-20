@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I21
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020600162
-p5
+p4
 aVNOV 22, 2006
-p6
+p5
 aVSAS vs. MIA
-p7
+p6
 aVW
-p8
+p7
 aI13
 aI0
 aI3
@@ -34,15 +31,15 @@ aI1
 aI3
 aI2
 aI-3
-aa(lp9
+aa(lp8
 V0020600308
-p10
+p9
 aVDEC 11, 2006
-p11
+p10
 aVSAS @ LAC
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI1
 aI3
@@ -63,15 +60,15 @@ aI1
 aI0
 aI2
 aI-1
-aa(lp14
+aa(lp13
 V0020600327
-p15
+p14
 aVDEC 14, 2006
-p16
+p15
 aVSAS @ NOK
-p17
+p16
 aVW
-p18
+p17
 aI7
 aI2
 aI3
@@ -92,15 +89,15 @@ aI3
 aI2
 aI4
 aI5
-aa(lp19
+aa(lp18
 V0020600500
-p20
+p19
 aVJAN 07, 2007
-p21
+p20
 aVSAS @ MEM
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-4
-aa(lp24
+aa(lp23
 V0020600559
-p25
+p24
 aVJAN 15, 2007
-p26
+p25
 aVSAS @ CHI
-p27
+p26
 aVL
-p28
+p27
 aI1
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI-2
-aa(lp29
+aa(lp28
 V0020600768
-p30
+p29
 aVFEB 13, 2007
-p31
+p30
 aVSAS @ NJN
-p32
+p31
 aVW
-p33
+p32
 aI11
 aI0
 aI2
@@ -179,15 +176,15 @@ aI0
 aI2
 aI0
 aI0
-aa(lp34
+aa(lp33
 V0020601104
-p35
+p34
 aVAPR 03, 2007
-p36
+p35
 aVSAS vs. SEA
-p37
+p36
 aVW
-p38
+p37
 aI6
 aI2
 aI4
@@ -208,15 +205,15 @@ aI0
 aI1
 aI5
 aI-4
-aa(lp39
+aa(lp38
 V0020601137
-p40
+p39
 aVAPR 07, 2007
-p41
+p40
 aVSAS vs. GSW
-p42
+p41
 aVW
-p43
+p42
 aI1
 aI0
 aI0
@@ -237,15 +234,15 @@ aI0
 aI0
 aI0
 aI3
-aa(lp44
+aa(lp43
 V0020601151
-p45
+p44
 aVAPR 09, 2007
-p46
+p45
 aVSAS vs. POR
-p47
+p46
 aVW
-p48
+p47
 aI3
 aI2
 aI2
@@ -266,15 +263,15 @@ aI0
 aI0
 aI6
 aI-2
-aa(lp49
+aa(lp48
 V0020601206
-p50
+p49
 aVAPR 16, 2007
-p51
+p50
 aVSAS @ MEM
-p52
+p51
 aVL
-p53
+p52
 aI28
 aI5
 aI11
@@ -295,15 +292,15 @@ aI3
 aI5
 aI12
 aI-11
-aa(lp54
+aa(lp53
 V0020601224
-p55
+p54
 aVAPR 18, 2007
-p56
+p55
 aVSAS vs. DEN
-p57
+p56
 aVL
-p58
+p57
 aI28
 aI4
 aI7
@@ -325,10 +322,25 @@ aI3
 aI10
 aI-19
 aasS'name'
-p59
+p58
 VJackie Butler
+p59
+sS'weight'
 p60
-sS'experience'
+V260
 p61
+sS'age'
+p62
+I21
+sS'experience'
+p63
 I2
+sS'height'
+p64
+V6-10
+p65
+sS'position'
+p66
+VCenter
+p67
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300183
-p5
+p4
 aVNOV 22, 2013
-p6
+p5
 aVCLE @ NOP
-p7
+p6
 aVL
-p8
+p7
 aI2
 aI0
 aI0
@@ -34,15 +31,15 @@ aI2
 aI0
 aI0
 aI-6
-aa(lp9
+aa(lp8
 V0021300194
-p10
+p9
 aVNOV 23, 2013
-p11
+p10
 aVCLE @ SAS
-p12
+p11
 aVL
-p13
+p12
 aI9
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI1
 aI2
 aI1
-aa(lp14
+aa(lp13
 V0021300232
-p15
+p14
 aVNOV 29, 2013
-p16
+p15
 aVCLE @ BOS
-p17
+p16
 aVL
-p18
+p17
 aI4
 aI1
 aI3
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI2
-aa(lp19
+aa(lp18
 V0021300397
-p20
+p19
 aVDEC 21, 2013
-p21
+p20
 aVCLE @ CHI
+p21
+aVL
 p22
-aVL
-p23
 aI2
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp24
+aa(lp23
 V0021300408
-p25
+p24
 aVDEC 23, 2013
-p26
+p25
 aVCLE vs. DET
-p27
+p26
 aVL
-p28
+p27
 aI6
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI0
 aI3
 aI1
-aa(lp29
+aa(lp28
 V0021300509
-p30
+p29
 aVJAN 07, 2014
-p31
+p30
 aVCLE vs. PHI
-p32
+p31
 aVW
-p33
+p32
 aI3
 aI1
 aI1
@@ -179,15 +176,15 @@ aI1
 aI1
 aI2
 aI-8
-aa(lp34
+aa(lp33
 V0021301224
-p35
+p34
 aVAPR 16, 2014
-p36
+p35
 aVCLE vs. BKN
-p37
+p36
 aVW
-p38
+p37
 aI12
 aI4
 aI6
@@ -209,10 +206,25 @@ aI2
 aI10
 aI12
 aasS'name'
-p39
+p38
 VCarrick Felix
+p39
+sS'weight'
 p40
-sS'experience'
+V201
 p41
+sS'age'
+p42
+I23
+sS'experience'
+p43
 I0
+sS'height'
+p44
+V6-6
+p45
+sS'position'
+p46
+VGuard-Forward
+p47
 s.

@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I33
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020900277
-p5
+p4
 aVDEC 04, 2009
-p6
+p5
 aVNJN vs. CHA
-p7
+p6
 aVW
-p8
+p7
 aI6
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp9
+aa(lp8
 V0020900303
-p10
+p9
 aVDEC 08, 2009
-p11
+p10
 aVNJN @ CHI
-p12
+p11
 aVW
-p13
+p12
 aI15
 aI2
 aI4
@@ -63,15 +60,15 @@ aI0
 aI5
 aI4
 aI-8
-aa(lp14
+aa(lp13
 V0020900311
-p15
+p14
 aVDEC 09, 2009
-p16
+p15
 aVNJN vs. GSW
-p17
+p16
 aVL
-p18
+p17
 aI5
 aI0
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI-12
-aa(lp19
+aa(lp18
 V0020900320
-p20
+p19
 aVDEC 11, 2009
-p21
+p20
 aVNJN @ IND
-p22
+p21
 aVL
-p23
+p22
 aI14
 aI0
 aI1
@@ -121,15 +118,15 @@ aI1
 aI0
 aI0
 aI-16
-aa(lp24
+aa(lp23
 V0020900417
-p25
+p24
 aVDEC 23, 2009
-p26
+p25
 aVNJN vs. MIN
-p27
+p26
 aVL
-p28
+p27
 aI8
 aI1
 aI2
@@ -150,15 +147,15 @@ aI0
 aI1
 aI4
 aI12
-aa(lp29
+aa(lp28
 V0020900431
-p30
+p29
 aVDEC 26, 2009
-p31
+p30
 aVNJN vs. HOU
-p32
+p31
 aVL
-p33
+p32
 aI4
 aI1
 aI2
@@ -179,15 +176,15 @@ aI0
 aI2
 aI2
 aI2
-aa(lp34
+aa(lp33
 V0020900446
-p35
+p34
 aVDEC 28, 2009
-p36
+p35
 aVNJN vs. OKC
-p37
+p36
 aVL
-p38
+p37
 aI15
 aI1
 aI4
@@ -208,15 +205,15 @@ aI0
 aI2
 aI4
 aI0
-aa(lp39
+aa(lp38
 V0020900477
-p40
+p39
 aVJAN 02, 2010
-p41
+p40
 aVNJN vs. CLE
-p42
+p41
 aVL
-p43
+p42
 aI9
 aI1
 aI3
@@ -237,15 +234,15 @@ aI1
 aI2
 aI3
 aI-8
-aa(lp44
+aa(lp43
 V0020900501
-p45
+p44
 aVJAN 05, 2010
-p46
+p45
 aVNJN vs. MIL
-p47
+p46
 aVL
-p48
+p47
 aI10
 aI0
 aI3
@@ -266,15 +263,15 @@ aI0
 aI0
 aI0
 aI-6
-aa(lp49
+aa(lp48
 V0020900507
-p50
+p49
 aVJAN 06, 2010
-p51
+p50
 aVNJN @ ATL
-p52
+p51
 aVL
-p53
+p52
 aI12
 aI3
 aI6
@@ -295,15 +292,15 @@ aI0
 aI0
 aI9
 aI1
-aa(lp54
+aa(lp53
 V0020900523
-p55
+p54
 aVJAN 08, 2010
-p56
+p55
 aVNJN @ NOH
-p57
+p56
 aVL
-p58
+p57
 aI6
 aI1
 aI2
@@ -324,15 +321,15 @@ aI0
 aI0
 aI2
 aI-7
-aa(lp59
+aa(lp58
 V0020900645
-p60
+p59
 aVJAN 23, 2010
-p61
+p60
 aVNJN @ UTA
-p62
+p61
 aVL
-p63
+p62
 aI7
 aI0
 aI1
@@ -353,15 +350,15 @@ aI0
 aI2
 aI0
 aI3
-aa(lp64
+aa(lp63
 V0020900667
-p65
+p64
 aVJAN 27, 2010
-p66
+p65
 aVNJN vs. LAC
-p67
+p66
 aVW
-p68
+p67
 aI9
 aI2
 aI4
@@ -382,15 +379,15 @@ aI1
 aI3
 aI4
 aI0
-aa(lp69
+aa(lp68
 V0020900759
-p70
+p69
 aVFEB 09, 2010
-p71
+p70
 aVNJN @ CLE
-p72
+p71
 aVL
-p73
+p72
 aI10
 aI2
 aI5
@@ -411,15 +408,15 @@ aI0
 aI2
 aI4
 aI-19
-aa(lp74
+aa(lp73
 V0020900772
-p75
+p74
 aVFEB 10, 2010
-p76
+p75
 aVNJN vs. MIL
-p77
+p76
 aVL
-p78
+p77
 aI3
 aI0
 aI0
@@ -441,10 +438,25 @@ aI0
 aI0
 aI3
 aasS'name'
-p79
+p78
 VTony Battie
+p79
+sS'weight'
 p80
-sS'experience'
+V240
 p81
+sS'age'
+p82
+I33
+sS'experience'
+p83
 I12
+sS'height'
+p84
+V6-11
+p85
+sS'position'
+p86
+VCenter
+p87
 s.

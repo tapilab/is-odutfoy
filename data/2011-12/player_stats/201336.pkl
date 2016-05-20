@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021100889
-p5
+p4
 aVAPR 14, 2012
-p6
+p5
 aVUTA @ MEM
-p7
+p6
 aVL
-p8
+p7
 aI5
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0021100909
-p10
+p9
 aVAPR 16, 2012
-p11
+p10
 aVUTA vs. DAL
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI1
 aI2
@@ -63,15 +60,15 @@ aI1
 aI1
 aI3
 aI3
-aa(lp14
+aa(lp13
 V0021100930
-p15
+p14
 aVAPR 18, 2012
-p16
+p15
 aVUTA @ POR
-p17
+p16
 aVW
-p18
+p17
 aI5
 aI0
 aI3
@@ -92,15 +89,15 @@ aI1
 aI1
 aI0
 aI-4
-aa(lp19
+aa(lp18
 V0021100988
-p20
+p19
 aVAPR 26, 2012
-p21
+p20
 aVUTA vs. POR
-p22
+p21
 aVW
-p23
+p22
 aI15
 aI3
 aI8
@@ -122,10 +119,25 @@ aI2
 aI7
 aI-11
 aasS'name'
-p24
+p23
 VBlake Ahearn
+p24
+sS'weight'
 p25
-sS'experience'
+V190
 p26
+sS'age'
+p27
+I27
+sS'experience'
+p28
 I4
+sS'height'
+p29
+V6-2
+p30
+sS'position'
+p31
+VGuard
+p32
 s.

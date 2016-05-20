@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I26
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021300011
-p5
+p4
 aVOCT 30, 2013
-p6
+p5
 aVNOP vs. IND
-p7
+p6
 aVL
-p8
+p7
 aI15
 aI1
 aI3
@@ -34,15 +31,15 @@ aI1
 aI3
 aI2
 aI0
-aa(lp9
+aa(lp8
 V0021300021
-p10
+p9
 aVNOV 01, 2013
-p11
+p10
 aVNOP @ ORL
-p12
+p11
 aVL
-p13
+p12
 aI10
 aI0
 aI1
@@ -63,15 +60,15 @@ aI0
 aI0
 aI1
 aI-6
-aa(lp14
+aa(lp13
 V0021300081
-p15
+p14
 aVNOV 08, 2013
-p16
+p15
 aVNOP vs. LAL
+p16
+aVW
 p17
-aVW
-p18
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0021300867
-p20
+p19
 aVFEB 28, 2014
-p21
+p20
 aVCLE vs. UTA
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI1
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI-1
-aa(lp24
+aa(lp23
 V0021300898
-p25
+p24
 aVMAR 04, 2014
-p26
+p25
 aVCLE vs. SAS
-p27
+p26
 aVL
-p28
+p27
 aI4
 aI0
 aI0
@@ -151,10 +148,25 @@ aI0
 aI0
 aI1
 aasS'name'
-p29
+p28
 VArinze Onuaku
+p29
+sS'weight'
 p30
-sS'experience'
+V275
 p31
+sS'age'
+p32
+I26
+sS'experience'
+p33
 I0
+sS'height'
+p34
+V6-9
+p35
+sS'position'
+p36
+VForward-Center
+p37
 s.

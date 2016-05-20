@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I27
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021200081
-p5
+p4
 aVNOV 10, 2012
-p6
+p5
 aVTOR vs. PHI
-p7
+p6
 aVL
-p8
+p7
 aI12
 aI0
 aI1
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI-20
-aa(lp9
+aa(lp8
 V0021200095
-p10
+p9
 aVNOV 12, 2012
-p11
+p10
 aVTOR vs. UTA
-p12
+p11
 aVL
-p13
+p12
 aI30
 aI7
 aI16
@@ -63,15 +60,15 @@ aI0
 aI6
 aI20
 aI0
-aa(lp14
+aa(lp13
 V0021200105
-p15
+p14
 aVNOV 13, 2012
-p16
+p15
 aVTOR @ IND
-p17
+p16
 aVW
-p18
+p17
 aI25
 aI2
 aI9
@@ -92,15 +89,15 @@ aI2
 aI2
 aI10
 aI-2
-aa(lp19
+aa(lp18
 V0021200131
-p20
+p19
 aVNOV 17, 2012
-p21
+p20
 aVTOR @ BOS
-p22
+p21
 aVL
-p23
+p22
 aI24
 aI3
 aI9
@@ -121,15 +118,15 @@ aI1
 aI2
 aI10
 aI-9
-aa(lp24
+aa(lp23
 V0021200140
-p25
+p24
 aVNOV 18, 2012
-p26
+p25
 aVTOR vs. ORL
-p27
+p26
 aVW
-p28
+p27
 aI26
 aI5
 aI9
@@ -150,15 +147,15 @@ aI2
 aI3
 aI12
 aI7
-aa(lp29
+aa(lp28
 V0021200154
-p30
+p29
 aVNOV 20, 2012
-p31
+p30
 aVTOR @ PHI
-p32
+p31
 aVL
-p33
+p32
 aI17
 aI1
 aI3
@@ -179,15 +176,15 @@ aI0
 aI0
 aI5
 aI-6
-aa(lp34
+aa(lp33
 V0021200157
-p35
+p34
 aVNOV 21, 2012
-p36
+p35
 aVTOR @ CHA
-p37
+p36
 aVL
-p38
+p37
 aI12
 aI0
 aI3
@@ -208,15 +205,15 @@ aI2
 aI0
 aI0
 aI-7
-aa(lp39
+aa(lp38
 V0021200175
-p40
+p39
 aVNOV 23, 2012
-p41
+p40
 aVTOR @ DET
-p42
+p41
 aVL
-p43
+p42
 aI24
 aI2
 aI8
@@ -237,15 +234,15 @@ aI0
 aI1
 aI4
 aI-2
-aa(lp44
+aa(lp43
 V0021200206
-p45
+p44
 aVNOV 27, 2012
-p46
+p45
 aVTOR @ HOU
-p47
+p46
 aVL
-p48
+p47
 aI5
 aI0
 aI1
@@ -266,15 +263,15 @@ aI1
 aI2
 aI0
 aI1
-aa(lp49
+aa(lp48
 V0021200216
-p50
+p49
 aVNOV 28, 2012
-p51
+p50
 aVTOR @ MEM
-p52
+p51
 aVL
-p53
+p52
 aI25
 aI5
 aI15
@@ -295,15 +292,15 @@ aI0
 aI2
 aI11
 aI-13
-aa(lp54
+aa(lp53
 V0021200222
-p55
+p54
 aVNOV 30, 2012
-p56
+p55
 aVTOR vs. PHX
-p57
+p56
 aVW
-p58
+p57
 aI15
 aI2
 aI5
@@ -324,15 +321,15 @@ aI3
 aI3
 aI5
 aI-3
-aa(lp59
+aa(lp58
 V0021200279
-p60
+p59
 aVDEC 07, 2012
-p61
+p60
 aVTOR @ UTA
-p62
+p61
 aVL
-p63
+p62
 aI6
 aI1
 aI5
@@ -353,15 +350,15 @@ aI0
 aI1
 aI3
 aI-2
-aa(lp64
+aa(lp63
 V0021200292
-p65
+p64
 aVDEC 09, 2012
-p66
+p65
 aVTOR @ LAC
-p67
+p66
 aVL
-p68
+p67
 aI30
 aI5
 aI11
@@ -382,15 +379,15 @@ aI1
 aI4
 aI17
 aI-6
-aa(lp69
+aa(lp68
 V0021200325
-p70
+p69
 aVDEC 14, 2012
-p71
+p70
 aVTOR vs. DAL
-p72
+p71
 aVW
-p73
+p72
 aI30
 aI7
 aI13
@@ -411,15 +408,15 @@ aI0
 aI3
 aI20
 aI22
-aa(lp74
+aa(lp73
 V0021200346
-p75
+p74
 aVDEC 16, 2012
-p76
+p75
 aVTOR vs. HOU
-p77
+p76
 aVW
-p78
+p77
 aI19
 aI1
 aI6
@@ -440,15 +437,15 @@ aI0
 aI2
 aI2
 aI-8
-aa(lp79
+aa(lp78
 V0021200357
-p80
+p79
 aVDEC 18, 2012
-p81
+p80
 aVTOR @ CLE
-p82
+p81
 aVW
-p83
+p82
 aI21
 aI2
 aI6
@@ -469,15 +466,15 @@ aI1
 aI3
 aI10
 aI5
-aa(lp84
+aa(lp83
 V0021200366
-p85
+p84
 aVDEC 19, 2012
-p86
+p85
 aVTOR vs. DET
-p87
+p86
 aVW
-p88
+p87
 aI20
 aI1
 aI6
@@ -498,15 +495,15 @@ aI0
 aI4
 aI5
 aI-1
-aa(lp89
+aa(lp88
 V0021200380
-p90
+p89
 aVDEC 21, 2012
-p91
+p90
 aVTOR vs. ORL
-p92
+p91
 aVW
-p93
+p92
 aI13
 aI3
 aI9
@@ -527,15 +524,15 @@ aI0
 aI4
 aI9
 aI1
-aa(lp94
+aa(lp93
 V0021200418
-p95
+p94
 aVDEC 26, 2012
-p96
+p95
 aVTOR @ SAS
-p97
+p96
 aVL
-p98
+p97
 aI16
 aI1
 aI8
@@ -556,15 +553,15 @@ aI1
 aI3
 aI5
 aI-9
-aa(lp99
+aa(lp98
 V0021200430
-p100
+p99
 aVDEC 28, 2012
-p101
+p100
 aVTOR @ NOH
-p102
+p101
 aVW
-p103
+p102
 aI5
 aI0
 aI1
@@ -586,10 +583,25 @@ aI0
 aI0
 aI5
 aasS'name'
-p104
+p103
 VLinas Kleiza
+p104
+sS'weight'
 p105
-sS'experience'
+V234
 p106
+sS'age'
+p107
+I27
+sS'experience'
+p108
 I7
+sS'height'
+p109
+V6-8
+p110
+sS'position'
+p111
+VForward
+p112
 s.

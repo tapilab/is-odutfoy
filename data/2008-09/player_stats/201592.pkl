@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I23
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0020800829
-p5
+p4
 aVFEB 22, 2009
-p6
+p5
 aVBOS @ PHX
-p7
+p6
 aVW
-p8
+p7
 aI1
 aI0
 aI0
@@ -34,15 +31,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp9
+aa(lp8
 V0020800838
-p10
+p9
 aVFEB 23, 2009
-p11
+p10
 aVBOS @ DEN
-p12
+p11
 aVW
-p13
+p12
 aI5
 aI2
 aI3
@@ -63,15 +60,15 @@ aI1
 aI1
 aI4
 aI1
-aa(lp14
+aa(lp13
 V0020800883
-p15
+p14
 aVMAR 01, 2009
-p16
+p15
 aVBOS vs. DET
+p16
+aVL
 p17
-aVL
-p18
 aI0
 aI0
 aI0
@@ -92,15 +89,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp19
+aa(lp18
 V0020800920
-p20
+p19
 aVMAR 06, 2009
-p21
+p20
 aVBOS vs. CLE
-p22
+p21
 aVW
-p23
+p22
 aI1
 aI0
 aI0
@@ -121,15 +118,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp24
+aa(lp23
 V0020800988
-p25
+p24
 aVMAR 15, 2009
-p26
+p25
 aVBOS @ MIL
+p26
+aVL
 p27
-aVL
-p28
 aI0
 aI0
 aI0
@@ -150,15 +147,15 @@ aI0
 aI0
 aI0
 aI0
-aa(lp29
+aa(lp28
 V0020801003
-p30
+p29
 aVMAR 17, 2009
-p31
+p30
 aVBOS @ CHI
-p32
+p31
 aVL
-p33
+p32
 aI0
 aI0
 aI0
@@ -180,10 +177,25 @@ aI0
 aI0
 aI0
 aasS'name'
-p34
+p33
 VJ.R. Giddens
+p34
+sS'weight'
 p35
-sS'experience'
+V215
 p36
+sS'age'
+p37
+I23
+sS'experience'
+p38
 I0
+sS'height'
+p39
+V6-5
+p40
+sS'position'
+p41
+VGuard
+p42
 s.

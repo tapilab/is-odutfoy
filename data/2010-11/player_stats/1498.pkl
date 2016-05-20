@@ -1,19 +1,16 @@
 (dp0
-S'age'
+S'stats'
 p1
-I35
-sS'stats'
-p2
+(lp2
 (lp3
-(lp4
 V0021001154
-p5
+p4
 aVAPR 05, 2011
-p6
+p5
 aVPHI @ BOS
-p7
+p6
 aVL
-p8
+p7
 aI10
 aI1
 aI2
@@ -34,15 +31,15 @@ aI1
 aI0
 aI4
 aI-4
-aa(lp9
+aa(lp8
 V0021001178
-p10
+p9
 aVAPR 08, 2011
-p11
+p10
 aVPHI vs. TOR
-p12
+p11
 aVW
-p13
+p12
 aI4
 aI0
 aI0
@@ -63,15 +60,15 @@ aI0
 aI0
 aI0
 aI2
-aa(lp14
+aa(lp13
 V0021001204
-p15
+p14
 aVAPR 11, 2011
-p16
+p15
 aVPHI vs. ORL
-p17
+p16
 aVL
-p18
+p17
 aI14
 aI1
 aI2
@@ -92,15 +89,15 @@ aI0
 aI0
 aI2
 aI11
-aa(lp19
+aa(lp18
 V0021001220
-p20
+p19
 aVAPR 13, 2011
-p21
+p20
 aVPHI vs. DET
-p22
+p21
 aVL
-p23
+p22
 aI9
 aI0
 aI1
@@ -122,10 +119,25 @@ aI0
 aI0
 aI3
 aasS'name'
-p24
+p23
 VAntonio Daniels
+p24
+sS'weight'
 p25
-sS'experience'
+V205
 p26
+sS'age'
+p27
+I35
+sS'experience'
+p28
 I13
+sS'height'
+p29
+V6-4
+p30
+sS'position'
+p31
+VGuard
+p32
 s.
