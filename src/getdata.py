@@ -71,30 +71,37 @@ def get_data(season):
         name_req = requests.request('GET', 'http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=' + str(player[0]) + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
         sleep(1)
 
-        player_info['name'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][3]
+        position = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][14]
 
-        birthdate = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][6]
-        start_year = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][22]
+        if position != "":
 
-        player_info['experience'] = int(season.split('-')[0]) - start_year
-        player_info['age'] = int(season.split('-')[0]) - int(birthdate.split('-')[0]) #approximation
+            player_info['position'] = position
 
-        #may be interesting but incomplete for previous seasons
-        # player_info['height'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][10]
-        # player_info['weight'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][11]
-        # player_info['position'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][14]
+            player_info['name'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][3]
 
-        stats_req = requests.request('GET', 'http://stats.nba.com/stats/playergamelog?LeagueID=00&PlayerID=' + str(player[0]) + '&Season=' + season + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
-        sleep(1)
+            birthdate = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][6]
+            start_year = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][22]
+
+            player_info['experience'] = int(season.split('-')[0]) - start_year
+            player_info['age'] = int(season.split('-')[0]) - int(birthdate.split('-')[0]) #approximation
+
+            #may be interesting but incomplete for previous seasons
+            player_info['height'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][10]
+            player_info['weight'] = json.loads(name_req.content)['resultSets'][0]['rowSet'][0][11]
+
+            stats_req = requests.request('GET', 'http://stats.nba.com/stats/playergamelog?LeagueID=00&PlayerID=' + str(player[0]) + '&Season=' + season + '&SeasonType=Regular+Season', headers=headers, cookies=cookies)
+            sleep(1)
 
 
-        player_info['stats'] = []
+            player_info['stats'] = []
 
-        #removing useless data
-        for match in json.loads(stats_req.content)['resultSets'][0]['rowSet'][::-1]:
-            player_info['stats'].append(match[2:-1])
+            #removing useless data
+            for match in json.loads(stats_req.content)['resultSets'][0]['rowSet'][::-1]:
+                player_info['stats'].append(match[2:-1])
 
-        pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
+            pickle.dump(player_info, open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl', 'wb'))
+
+
 
 if len(sys.argv) < 2:
     print "Please input season you wish to retrieve data from as first argument"
