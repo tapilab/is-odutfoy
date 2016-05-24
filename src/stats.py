@@ -31,7 +31,7 @@ def average(season, playerID, number_games = -1):
 
         #Ensuring Percentages are correct
         for i in [3, 6, 9]:
-            averaged[i] = averaged[i - 2]/averaged[i - 1]
+            averaged[i] = 0.5 if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
@@ -51,7 +51,7 @@ def average(season, playerID, number_games = -1):
 
             #Ensuring Percentages are correct
             for i in [3, 6, 9]:
-                home_avg[i] = home_avg[i - 2]/home_avg[i - 1]
+                home_avg[i] = 0.5 if home_avg[i - 1] == 0. else home_avg[i - 2]/home_avg[i - 1]
 
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
@@ -64,7 +64,7 @@ def average(season, playerID, number_games = -1):
 
             #Ensuring Percentages are correct
             for i in [3, 6, 9]:
-                away_avg[i] = away_avg[i - 2]/away_avg[i - 1]
+                away_avg[i] = 0.5 if away_avg[i - 1] == 0 else away_avg[i - 2]/away_avg[i - 1]
 
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
@@ -161,13 +161,13 @@ def baselines(seasons):
     return result
 
 #print compute_fantasy('2011-12', '977', 0)
-positions = []
-for file in os.listdir("data/2006-07/player_stats"):
-    player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
-    position = player['position']
-    if position not in positions:
-        positions.append(position)
+# positions = []
+# for file in os.listdir("data/2006-07/player_stats"):
+#     player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
+#     position = player['position']
+#     if position not in positions:
+#         positions.append(position)
 
-print positions
+#print positions
 #print average('2005-06', '15')[0]
 #print player['stats']
