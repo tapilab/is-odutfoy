@@ -10,7 +10,6 @@ import numpy as np
 def average(season, player, number_games = -1):
     games_num = len(player['stats'])
 
-
     experience = player['experience']
     age = player['age']
     height = 6*int(player['height'].split('-')[0]) + int(player['height'].split('-')[1])
@@ -36,9 +35,11 @@ def average(season, player, number_games = -1):
     else:
         averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
 
-        #Ensuring Percentages are correct
-        for i in [3, 6, 9]:
-            averaged[i] = 0.5 if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
+        #Ensuring Percentages are correct (using average as default value)
+        averaged[3] = 0.45 if averaged[2] == 0 else averaged[1]/averaged[i - 1]
+
+        for i, j in zip([3, 6, 9], [0.45, 0.35, 0.75]):
+            averaged[i] = j if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
@@ -59,8 +60,8 @@ def average(season, player, number_games = -1):
             home_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in home])]
 
             #Ensuring Percentages are correct
-            for i in [3, 6, 9]:
-                home_avg[i] = 0.5 if home_avg[i - 1] == 0. else home_avg[i - 2]/home_avg[i - 1]
+            for i, j in zip([3, 6, 9], [0.45, 0.35, 0.75]):
+                averaged[i] = j if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
@@ -74,8 +75,8 @@ def average(season, player, number_games = -1):
             away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in away])]
 
             #Ensuring Percentages are correct
-            for i in [3, 6, 9]:
-                away_avg[i] = 0.5 if away_avg[i - 1] == 0 else away_avg[i - 2]/away_avg[i - 1]
+            for i, j in zip([3, 6, 9], [0.45, 0.35, 0.75]):
+                averaged[i] = j if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
