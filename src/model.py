@@ -41,9 +41,11 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, i
                 else:
                     continue
 
-        #TODO : if include_pos:
+        #TODO : if include_pos: (See notes for question)
 
-        #TODO : if include_last_games :
+        if include_last_games:
+            last = average(season, player, i, i - num_last_games)[0]
+            tmp += last
 
         averages.append(tmp)
         next_match_points.append(compute_fantasy(season, player, i + 1))
@@ -331,12 +333,12 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
 
 #baselines(seasons)
 
-season_features("sample_", binary_pos=True, include_loc = False)
+season_features("2014-15", binary_pos = False, include_loc = False, include_last_games= False, num_last_games=5)
 #
-X = pickle.load(open('data' + os.sep + "sample_" + os.sep + 'averages' + os.sep + "Bslide" + '_X.pkl', 'rb'))
-y = pickle.load(open('data' + os.sep + "sample_" + os.sep + 'averages' + os.sep + "Bslide" + '_y.pkl', 'rb'))
+X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
+y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
 #
 print X.shape
 print y.shape
 
-print X[155]
+#print X[155]
