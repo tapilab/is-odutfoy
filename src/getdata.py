@@ -123,16 +123,15 @@ def modif_data(season):
             os.remove('data' + os.sep + season + os.sep + 'player_stats' + os.sep + str(player[0]) + '.pkl')
 
 
-# if len(sys.argv) < 2:
-#     print "Please input season you wish to retrieve data from as first argument"
-#     print "Season must be of following format xxxx-yy i.e : 2013-14"
-#
-# else:
-#     #get_player_list(sys.argv[1])
-#     #get_data(sys.argv[1])
-#     modif_data(sys.argv[1])
+if len(sys.argv) < 2:
+    print "Please input season you wish to retrieve data from as first argument"
+    print "Season must be of following format xxxx-yy i.e : 2013-14"
 
-seasons = ['2011-12', '2012-13', '2013-14']
+else:
+    get_player_list(sys.argv[1])
+    get_data(sys.argv[1])
 
-for season in seasons:
-    modif_data(season)
+#seasons = ['2011-12', '2012-13', '2013-14']
+
+#for season in seasons:
+#    modif_data(season)

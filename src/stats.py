@@ -36,8 +36,6 @@ def average(season, player, number_games = -1):
         averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
 
         #Ensuring Percentages are correct (using average as default value)
-        averaged[3] = 0.45 if averaged[2] == 0 else averaged[1]/averaged[i - 1]
-
         for i, j in zip([3, 6, 9], [0.45, 0.35, 0.75]):
             averaged[i] = j if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
@@ -177,11 +175,11 @@ def baselines(seasons):
 # positions = []
 # for file in os.listdir("data/2006-07/player_stats"):
 #     player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
-#     position = 6*int(player['height'].split('-')[0]) + int(player['height'].split('-')[1])
+#     position = player['position']
 #
 #     if position not in positions:
 #         positions.append(position)
 #
 # print positions
-#print average('2005-06', '15')[0]
-#print player['stats']
+# #print average('2005-06', '15')[0]
+# #print player['stats']

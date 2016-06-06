@@ -7,7 +7,7 @@ import shutil
 from plot import *
 
 #factored code to compute sliding feature matrices for one player
-def player_features(season, playerID, include_loc = False, include_pos = False, include_last_games = False, num_last_games = 0):
+def player_features(season, playerID, binary_pos = False, include_loc = False, include_pos = False, include_last_games = False, num_last_games = 0):
     averages = []
     next_match_points = []
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
@@ -17,6 +17,14 @@ def player_features(season, playerID, include_loc = False, include_pos = False, 
         all, home, away = average(season, player, i)
 
         tmp = list(all)
+
+        if binary_pos:
+            positions = ['Center', 'Forward', 'Center-Forward', 'Guard', 'Forward-Guard', 'Forward-Center', 'Guard-Forward']
+            index = positions.index(player["position"])
+            bin = [0, 0, 0, 0, 0, 0, 0]
+            bin[index] += 1
+
+            tmp = bin + tmp
 
         if include_loc:
             #test if next game is home or away
@@ -46,14 +54,14 @@ def player_features(season, playerID, include_loc = False, include_pos = False, 
     return X, y
 
 #factored code to compute sliding feature matrices for one season
-def season_features(season, include_loc = False, include_pos = False, include_last_games = False, num_last_games = 0):
+def season_features(season, binary_pos = False, include_loc = False, include_pos = False, include_last_games = False, num_last_games = 0):
     Xs = []
     ys = []
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     for file in players:
         playerID = file[26:-4]
         print "Dealing with {}".format(playerID)
-        X, y = player_features(season, playerID, include_loc, include_pos, include_last_games, num_last_games)
+        X, y = player_features(season, playerID, binary_pos, include_loc, include_pos, include_last_games, num_last_games)
 
         if X.shape != (0,):
             Xs.append(X)
@@ -63,6 +71,9 @@ def season_features(season, include_loc = False, include_pos = False, include_la
     yf = np.concatenate(ys)
 
     filename = 'slide'
+
+    if binary_pos:
+        filename = 'B' + filename
 
     if include_loc:
         filename += '_loc'
@@ -320,10 +331,12 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
 
 #baselines(seasons)
 
-season_features("sample_", include_loc = False)
+season_features("sample_", binary_pos=True, include_loc = False)
 #
-X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
-y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
+X = pickle.load(open('data' + os.sep + "sample_" + os.sep + 'averages' + os.sep + "Bslide" + '_X.pkl', 'rb'))
+y = pickle.load(open('data' + os.sep + "sample_" + os.sep + 'averages' + os.sep + "Bslide" + '_y.pkl', 'rb'))
 #
 print X.shape
 print y.shape
+
+print X[155]
