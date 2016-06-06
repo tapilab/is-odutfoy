@@ -7,8 +7,7 @@ import numpy as np
 
 #Returns the averaged stats (all, home and away) of a given player in his first given number of games as well as winrate
 #Returns averaged of all games but last by default
-def average(season, playerID, number_games = -1):
-    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+def average(season, player, number_games = -1):
     games_num = len(player['stats'])
 
     if number_games == 0:
@@ -20,11 +19,11 @@ def average(season, playerID, number_games = -1):
         # exit()
 
     if number_games == -1:
-        return average(season, playerID, games_num - 1)
+        return average(season, player, games_num - 1)
 
     elif number_games > games_num:
         print "not enough games, returned average of all available games (%d)" % games_num
-        return average(season, playerID, games_num)
+        return average(season, player, games_num)
 
     else:
         averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
@@ -78,18 +77,17 @@ def average(season, playerID, number_games = -1):
 
 #computes fantasy points of a given player on his given ith game (last by default)
 #Allows different way of computing points but has espn values by default
-def compute_fantasy(season, playerID, game_number = -1,
+def compute_fantasy(season, player, game_number = -1,
                     PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
-    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
     games_num = len(player['stats'])
 
     if game_number == -1:
-        return compute_fantasy(season, playerID, games_num,
+        return compute_fantasy(season, player, games_num,
                         PTS, BLK, STL, AST, REB, FGM, FTM, FGA, FTA, TOV)
 
     elif game_number > games_num:
         print "This game does not exist, returned last game played instead"
-        return compute_fantasy(season, playerID, games_num,
+        return compute_fantasy(season, player, games_num,
                         PTS, BLK, STL, AST, REB, FGM, FTM, FGA, FTA, TOV)
 
     else:
@@ -165,6 +163,14 @@ def baselines(seasons):
 # for file in os.listdir("data/2006-07/player_stats"):
 #     player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
 #     position = player['position']
+#     if position == 'Forward-Guard':
+#         print "FG"
+#         print player['name']
+#
+#     if position == 'Guard-Forward':
+#         print "GF"
+#         print player['name']
+#
 #     if position not in positions:
 #         positions.append(position)
 

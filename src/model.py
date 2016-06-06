@@ -14,7 +14,7 @@ def player_features(season, playerID, include_loc = False, include_pos = False, 
     games_num = len(player['stats'])
 
     for i in range(1, games_num - 1):
-        all, home, away = average(season, playerID, i)
+        all, home, away = average(season, player, i)
 
         tmp = list(all)
 
@@ -38,7 +38,7 @@ def player_features(season, playerID, include_loc = False, include_pos = False, 
         #TODO : if include_last_games :
 
         averages.append(tmp)
-        next_match_points.append(compute_fantasy(season, playerID, i + 1))
+        next_match_points.append(compute_fantasy(season, player, i + 1))
 
     X = np.array(averages)
     y = np.array(next_match_points)
@@ -228,6 +228,7 @@ def train_linear(X, y, normalize = False):
 
     return lr
 
+
 #computed error given model as input
 def error(model, X, y):
     predictions = model.predict(X)
@@ -319,10 +320,10 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
 
 #baselines(seasons)
 
-# season_features("2014-15", include_loc = False)
+season_features("sample_", include_loc = False)
 #
-# X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
-# y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
+X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
+y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
 #
-# print X.shape
-# print y.shape
+print X.shape
+print y.shape
