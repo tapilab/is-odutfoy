@@ -10,10 +10,18 @@ import numpy as np
 def average(season, player, number_games = -1):
     games_num = len(player['stats'])
 
+
+    experience = player['experience']
+    age = player['age']
+    height = 6*int(player['height'].split('-')[0]) + int(player['height'].split('-')[1])
+    weight = int(player['weight'])
+
     if number_games == 0:
-        tmp = [0.]*23
-        tmp[21] = player['experience']
-        tmp[22] = player['age']
+        tmp = [0.]*25
+        tmp[21] = experience
+        tmp[22] = age
+        tmp[23] = height
+        tmp[24] = weight
         return tmp, tmp, tmp
         # print "Please choose a strictly positive number of games"
         # exit()
@@ -35,8 +43,10 @@ def average(season, player, number_games = -1):
         won = float([match[3] for match in player['stats'][:number_games]].count('W'))
         winrate = won/number_games
         averaged.append(winrate)
-        averaged.append(player['experience'])
-        averaged.append(player['age'])
+        averaged.append(experience)
+        averaged.append(age)
+        averaged.append(height)
+        averaged.append(weight)
 
         home = [match for match in player['stats'][:number_games] if match[2][4] == '@']
         away = [match for match in player['stats'][:number_games] if match[2][4] != '@']
@@ -55,8 +65,10 @@ def average(season, player, number_games = -1):
             home_won = float([match[3] for match in home].count('W'))
             home_winrate = home_won/len(home)
             home_avg.append(home_winrate)
-            home_avg.append(player['experience'])
-            home_avg.append(player['age'])
+            home_avg.append(experience)
+            home_avg.append(age)
+            home_avg.append(height)
+            home_avg.append(weight)
 
         if len(away) != 0:
             away_avg = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in away])]
@@ -68,8 +80,10 @@ def average(season, player, number_games = -1):
             away_won = float([match[3] for match in away].count('W'))
             away_winrate = away_won/len(away)
             away_avg.append(away_winrate)
-            away_avg.append(player['experience'])
-            away_avg.append(player['age'])
+            away_avg.append(experience)
+            away_avg.append(age)
+            away_avg.append(height)
+            away_avg.append(weight)
 
         return averaged, home_avg, away_avg
 
@@ -162,18 +176,11 @@ def baselines(seasons):
 # positions = []
 # for file in os.listdir("data/2006-07/player_stats"):
 #     player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
-#     position = player['position']
-#     if position == 'Forward-Guard':
-#         print "FG"
-#         print player['name']
-#
-#     if position == 'Guard-Forward':
-#         print "GF"
-#         print player['name']
+#     position = 6*int(player['height'].split('-')[0]) + int(player['height'].split('-')[1])
 #
 #     if position not in positions:
 #         positions.append(position)
-
-#print positions
+#
+# print positions
 #print average('2005-06', '15')[0]
 #print player['stats']
