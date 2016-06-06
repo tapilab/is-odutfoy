@@ -5,9 +5,9 @@ import numpy as np
 
 #This file takes "raw" data as input and computes additionnal stats such as averaged stats, winrate, fatansy points etc.
 
-#Returns the averaged stats (all, home and away) of a given player in his first given number of games as well as winrate
+#Returns the averaged stats (all, home and away) of a given player between game start and end
 #Returns averaged of all games but last by default
-def average(season, player, number_games = -1):
+def average(season, player, end = -1, start = 0):
     games_num = len(player['stats'])
 
     experience = player['experience']
@@ -15,7 +15,7 @@ def average(season, player, number_games = -1):
     height = 6*int(player['height'].split('-')[0]) + int(player['height'].split('-')[1])
     weight = int(player['weight'])
 
-    if number_games == 0:
+    if end == 0:
         tmp = [0.]*25
         tmp[21] = experience
         tmp[22] = age
@@ -25,30 +25,37 @@ def average(season, player, number_games = -1):
         # print "Please choose a strictly positive number of games"
         # exit()
 
-    if number_games == -1:
+    if end == -1:
         return average(season, player, games_num - 1)
 
-    elif number_games > games_num:
+    elif end > games_num:
         print "not enough games, returned average of all available games (%d)" % games_num
         return average(season, player, games_num)
 
+    elif start >= end:
+        print "start must be smaller then end, returned average of all available games (%d)" % games_num
+        return average(season, player, games_num)
+
+    elif start < 0:
+        return average(season, player, end)
+
     else:
-        averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][:number_games]])]
+        averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][start:end]])]
 
         #Ensuring Percentages are correct (using average as default value)
         for i, j in zip([3, 6, 9], [0.45, 0.35, 0.75]):
             averaged[i] = j if averaged[i - 1] == 0 else averaged[i - 2]/averaged[i - 1]
 
-        won = float([match[3] for match in player['stats'][:number_games]].count('W'))
-        winrate = won/number_games
+        won = float([match[3] for match in player['stats'][start:end]].count('W'))
+        winrate = won/end
         averaged.append(winrate)
         averaged.append(experience)
         averaged.append(age)
         averaged.append(height)
         averaged.append(weight)
 
-        home = [match for match in player['stats'][:number_games] if match[2][4] == '@']
-        away = [match for match in player['stats'][:number_games] if match[2][4] != '@']
+        home = [match for match in player['stats'][start:end] if match[2][4] == '@']
+        away = [match for match in player['stats'][start:end] if match[2][4] != '@']
 
         #In order to avoid unreferenced return
         home_avg = []
@@ -182,4 +189,8 @@ def baselines(seasons):
 #
 # print positions
 # #print average('2005-06', '15')[0]
-# #print player['stats']
+
+# player = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'player_stats' + os.sep + '708' + '.pkl', 'rb'))
+# print player['stats']
+#print len(player['stats'])
+#print average('sample_', player, 47, 45)[0]
