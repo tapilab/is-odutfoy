@@ -6,14 +6,10 @@ To investigate.
 
 get rid of some players?
 
-Mistake when average goals %.
-
-Include position and get rid of players without?
-restart from scratch.
-
 binary feature for position
 create new features per position
 Ridge regression
+add computed features
 
 Features :
 0 : MIN : (minutes played)
@@ -39,7 +35,33 @@ Features :
 20 : winrate
 21 : experience
 22 : age
+23 : height
+24 : weight
 
 
 4=7=-18 (sometimes sign inversed)
 10=11=-12
+
+data averages names:
+baseline.txt
+slide_X
+slide_loc_X
+slide_N_X (N being number of last games included)
+slide_loc_N_X
+slide_pos_X
+slide_loc_pos_X
+slide_pos_NX
+slide_loc_pos_N_X
+
+raw_X (obsolete)
+sliding_X (obsolete)
+sliding_loc (obsolete)
+
+
+See mails for questions:
+Smart way of reimplementing average order? do start end
+
+function as arguments? or model object directly.
+
+
+check panda
