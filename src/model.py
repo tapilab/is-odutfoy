@@ -62,7 +62,7 @@ def season_features(season, binary_pos = False, include_loc = False, include_pos
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     for file in players:
         playerID = file[26:-4]
-        print "Dealing with {}".format(playerID)
+        #print "Dealing with {}".format(playerID)
         X, y = player_features(season, playerID, binary_pos, include_loc, include_pos, include_last_games, num_last_games)
 
         if X.shape != (0,):
@@ -235,13 +235,6 @@ def sliding_loc_averages(season):
 
     return Xf, yf
 
-def train_linear(X, y, normalize = False):
-    lr = linear_model.LinearRegression(normalize=normalize)
-    lr.fit(X, y)
-
-    return lr
-
-
 #computed error given model as input
 def error(model, X, y):
     predictions = model.predict(X)
@@ -272,12 +265,27 @@ def error(model, X, y):
 # print error(modeln, X, y)
 
 #all but one fold error over seasons using inputed average type (raw, sliding, ...)
-def ABOF_error(seasons, average_type = "raw", weight = ""):
+def ABOF_error(seasons, model, binary_pos = False, include_loc = False, include_pos = False, include_last_games = False, num_last_games = 0):
+    filename = 'slide'
+
+    if binary_pos:
+        filename = 'B' + filename
+
+    if include_loc:
+        filename += '_loc'
+
+    if include_pos:
+        filename += '_pos'
+
+    if include_last_games:
+        filename += '_' + str(num_last_games)
+
     Xs = []
     ys = []
+
     for season in seasons:
-        X = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_X' + weight + '.pkl', 'rb'))
-        y = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + average_type + '_y' + weight + '.pkl', 'rb'))
+        X = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + filename + '_X.pkl', 'rb'))
+        y = pickle.load(open('data' + os.sep + season + os.sep + 'averages' + os.sep + filename + '_y.pkl', 'rb'))
         Xs.append(X)
         ys.append(y)
 
@@ -285,60 +293,49 @@ def ABOF_error(seasons, average_type = "raw", weight = ""):
     avg_error = 0.
     avg_max = 0.
 
-    errorsn = []
-    avg_errorn = 0.
-    avg_maxn = 0.
-
     for i, season in enumerate(seasons):
         print "Testing on season %s (Training on the rest)" % season
         tmp_X = list(Xs)
         tmp_y = list(ys)
         testX, testy = tmp_X.pop(i), tmp_y.pop(i)
         trainX, trainy = np.concatenate(tmp_X), np.concatenate(tmp_y)
-        model = train_linear(trainX, trainy)
-        modeln = train_linear(trainX, trainy, True)
+        model.fit(trainX, trainy)
         err = error(model, testX, testy)
-        errn = error(modeln, testX, testy)
         errors.append(err[0])
-        errorsn.append(errn[0])
         avg_error += err[0]
-        avg_errorn += errn[0]
         avg_max += err[1]
-        avg_maxn += errn[1]
 
         #print model.coef_
 
         #plot(trainX, trainy)
 
         print "error for this season is %s" % (err,)
-        print "error for this season with normalized features is %s" % (errn,)
-
-
 
     result = avg_error/len(seasons), avg_max/len(seasons)
-    resultn = avg_errorn/len(seasons), avg_maxn/len(seasons)
     print "Average error and Averaged max error over all seasons is %s" % (result,)
-    print "Average error and Averaged max error over all seasons with normalized features is %s" % (resultn,)
+
+    print filename
+    return result
+
+seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14', '2014-15']
 
 
-    return result, resultn
+for season in seasons:
+   print season
+   #season_features(season, binary_pos=True, include_loc=False, include_pos=False, include_last_games=True, num_last_games=7)
 
-
-#seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14']
-#ABOF_error(seasons, "sliding_loc", "")
-
-# for season in seasons:
-#      print season
-#      sliding_loc_averages(season)
+#model = linear_model.LinearRegression(normalize=True)
+model = linear_model.Ridge(normalize=False)
+ABOF_error(seasons, model, binary_pos=True, include_loc=True, include_pos=False, include_last_games=True, num_last_games=5)
 
 #baselines(seasons)
 
-season_features("2014-15", binary_pos = False, include_loc = False, include_last_games= False, num_last_games=5)
+#season_features("2014-15", binary_pos = False, include_loc = False, include_last_games= False, num_last_games=5)
 #
-X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
-y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
+#X = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_X.pkl', 'rb'))
+#y = pickle.load(open('data' + os.sep + "2014-15" + os.sep + 'averages' + os.sep + "slide" + '_y.pkl', 'rb'))
 #
-print X.shape
-print y.shape
+#print X.shape
+#print y.shape
 
 #print X[155]
