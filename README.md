@@ -24,17 +24,23 @@ In order to evaluate the model I use the average error made as well as the maxim
 
 ## Results
 
-When the training and testing sets are computed in the same way I obtain the following resultsusing a dataset of 9 seasons (from 2005 to 2014):
+When the training and testing sets are computed in the same way I obtain the following results using a dataset of 10 seasons (from 2005 to 2015):
 
-| Method                   | Mean Error | Maximum Error |
-|--------------------------|------------|---------------|
-| Baseline                 | 5.23       | 36.22         |
-| Raw                      | 5.14       | 25.00         |
-| Sliding                  | 4.27       | 30.70         |
-| Weighted_Sliding (w = 2) | 4.29       | 30.85         |
-| Double_Instances         | 4.32       | 31.26         |
-
-Normalizing the features provides very similar results.
+|              |            |               | Linear Model |            |               |   | Ridge      |               |
+|--------------|------------|---------------|--------------|------------|---------------|---|------------|---------------|
+|              |            |               |              | Normalized |               |   |            |               |
+| Method       | Mean Error | Maximum Error |              | Mean Error | Maximum Error |   | Mean Error | Maximum Error |
+| Baseline     | 5.23       | 36.22         |              | 5.23       | 36.22         |   | 5.23       | 36.22         |
+| Slide        | 4.29       | 30.32         |              | 4.29       | 30.33         |   | 4.29       | 30.33         |
+| Bslide       | 4.29       | 30.31         |              | 4.29       | 30.31         |   | 4.29       | 30.32         |
+| slide_loc    | 4.29       | 30.33         |              | 4.29       | 30.32         |   | 4.29       | 30.32         |
+| slide_5      | 4.17       | 28.89         |              | 4.17       | 28.89         |   | 4.17       | 28.93         |
+| slide_10     | 4.19       | 29.57         |              | 4.19       | 29.55         |   |            |               |
+| slide_3      | 4.17       | 29.07         |              | 4.17       | 29.07         |   |            |               |
+| Bslide_5     | 4.17       | 28.86         |              | 4.18       | 28.87         |   | 4.17       | 28.92         |
+| Bslide_loc_5 | 4.17       | 28.89         |              | 4.17       | 28.91         |   |            |               |
+| slide_loc_5  | 4.17       | 28.93         |              | 4.17       | 28.94         |   |            |               |
+| Bslide_7     | 4.18       | 29.04         |              | 4.18       | 29.03         |   |            |               |
 
 ## Future Work
 
