@@ -1,5 +1,6 @@
 import pickle
 import os
+import glob
 
 #This file contains fucntions concerning experts opinion retrieval
 
@@ -40,6 +41,7 @@ def date_in(date, start, end):
 #date must follow following format : "FEB 10, 2015"
 def get_games(season, playerID, start, end):
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+    print player['name']
     tmp = []
     for game in player['stats']:
         if date_in(game[1], start, end):
@@ -47,5 +49,32 @@ def get_games(season, playerID, start, end):
 
     return tmp
 
-print get_games("sample_", "708", "DEC 01, 2014", "MAR 01, 2015")
+#print get_games("sample_", "708", "DEC 01, 2014", "MAR 01, 2015")
 
+#Returns the stats of all players between start and end date in a given season
+#date must follow following format : "FEB 10, 2015"
+def get_all_games(season, start, end):
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+    tmp = []
+
+    for file in players:
+        playerID = file[26:-4]
+        games = get_games(season, playerID, start, end)
+        tmp += games
+
+    return tmp
+
+#print get_all_games("sample_", "DEC 01, 2014", "MAR 01, 2015")
+
+#Returns ID of a player given his name
+def get_ID(season, name):
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+    for file in players:
+        playerID = file[26:-4]
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        if player['name'] == name:
+            return playerID
+
+    print "Player could not be found"
+
+print get_ID('2012-13', 'Jeremy Lin')
