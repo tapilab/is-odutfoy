@@ -178,6 +178,11 @@ def baselines(seasons):
 
     return result
 
+#Computes fantasy score of a given game
+def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
+    return PTS*game[20] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
+           + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
+
 #print compute_fantasy('2011-12', '977', 0)
 # positions = []
 # for file in os.listdir("data/2006-07/player_stats"):
@@ -190,7 +195,7 @@ def baselines(seasons):
 # print positions
 # #print average('2005-06', '15')[0]
 
-# player = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'player_stats' + os.sep + '708' + '.pkl', 'rb'))
-# print player['stats']
+#player = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'player_stats' + os.sep + '708' + '.pkl', 'rb'))
+#print player['stats']
 #print len(player['stats'])
-#print average('sample_', player, 47, 45)[0]
+#print average('sample_', player, 47, -2)[0]
