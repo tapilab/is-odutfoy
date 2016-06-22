@@ -1,6 +1,8 @@
 import pickle
 import os
 import glob
+from stats import *
+import operator
 
 #This file contains fucntions concerning experts opinion retrieval
 
@@ -39,9 +41,7 @@ def date_in(date, start, end):
 
 #Returns the stats of a player between a start and end date in a given season
 #date must follow following format : "FEB 10, 2015"
-def get_games(season, playerID, start, end):
-    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-    print player['name']
+def get_games(player, start, end):
     tmp = []
     for game in player['stats']:
         if date_in(game[1], start, end):
@@ -59,7 +59,8 @@ def get_all_games(season, start, end):
 
     for file in players:
         playerID = file[26:-4]
-        games = get_games(season, playerID, start, end)
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        games = get_games(player, start, end)
         tmp += games
 
     return tmp
@@ -77,4 +78,29 @@ def get_ID(season, name):
 
     print "Player could not be found"
 
-print get_ID('2012-13', 'Jeremy Lin')
+#print get_ID('2012-13', 'Jeremy Lin')
+
+#Computes fantasy points in a given timestamp and returns most proficient players
+def get_fantasies(season, start, end):
+    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+    D = dict()
+
+    for file in players:
+        playerID = file[26:-4]
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        games = get_games(player, start, end)
+        score = 0
+
+        for game in games:
+            score += get_fantasy(game)
+
+        D[player['name']] = score
+
+    return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
+
+#print get_fantasies('2012-13', 'NOV 12, 2012', 'NOV 19, 2012')
+
+print get_ID('2012-13', 'Joel Freeland')
+player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jared Dudley') + '.pkl', 'rb'))
+games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
+print games
