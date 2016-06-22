@@ -97,17 +97,17 @@ def average(season, player, end = -1, start = 0):
 
 #computes fantasy points of a given player on his given ith game (last by default)
 #Allows different way of computing points but has espn values by default
-def compute_fantasy(season, player, game_number = -1,
+def compute_fantasy(player, game_number = -1,
                     PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
     games_num = len(player['stats'])
 
     if game_number == -1:
-        return compute_fantasy(season, player, games_num,
+        return compute_fantasy(player, games_num,
                         PTS, BLK, STL, AST, REB, FGM, FTM, FGA, FTA, TOV)
 
     elif game_number > games_num:
         print "This game does not exist, returned last game played instead"
-        return compute_fantasy(season, player, games_num,
+        return compute_fantasy(player, games_num,
                         PTS, BLK, STL, AST, REB, FGM, FTM, FGA, FTA, TOV)
 
     else:
