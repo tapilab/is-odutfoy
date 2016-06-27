@@ -43,7 +43,20 @@ When the training and testing sets are computed in the same way I obtain the fol
 | Bslide_7     | 4.18       | 29.04         |              | 4.18       | 29.03         |   |            |               |
 
 with correct fantasy calculations :
-    
+
+| Method (Normalized Features) | Mean Error | Maximum Error |
+|------------------------------|------------|---------------|
+| Baseline                     | 9.74       | 67.7          |
+| Slide                        | 7.83       | 53.44         |
+| Bslide                       | 7.71       | 53.50         |
+| slide_loc                    | 7.83       | 53.44         |
+| slide_5                      | 7.64       | 53.47         |
+| slide_10                     | 7.68       | 52.92         |
+| slide_3                      | 7.63       | 53.28         |
+| Bslide_5                     | 7.64       | 53.44         |
+| Bslide_loc_5                 | 7.63       | 53.45         |
+| slide_loc_5                  | 7.64       | 53.45         |
+| Bslide_7                     | 7.64       | 53.65         |
 
 ## Future Work
 
