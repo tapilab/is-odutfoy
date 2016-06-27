@@ -42,6 +42,9 @@ When the training and testing sets are computed in the same way I obtain the fol
 | slide_loc_5  | 4.17       | 28.93         |              | 4.17       | 28.94         |   |            |               |
 | Bslide_7     | 4.18       | 29.04         |              | 4.18       | 29.03         |   |            |               |
 
+with correct fantasy calculations :
+    
+
 ## Future Work
 
 - Correct some code mistakes and refactor
