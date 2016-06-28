@@ -58,6 +58,23 @@ with correct fantasy calculations :
 | slide_loc_5                  | 7.64       | 53.45         |
 | Bslide_7                     | 7.64       | 53.65         |
 
+with removal of season 2011-12:
+
+| Method       |            | All players   | Linear (Normalized) | Best 120 players after 1.5 months |               |
+|--------------|------------|---------------|---------------------|-----------------------------------|---------------|
+|              | Mean Error | Maximum Error |                     | Mean Error                        | Maximum Error |
+| Baseline     | 9.73       | 68.44         |                     | 11.49                             | 68.44         |
+| Slide        | 7.83       | 53.31         |                     | 8.81                              | 52.44         |
+| Bslide       | 7.83       | 54.29         |                     | 8.81                              | 52.47         |
+| slide_loc    | 7.83       | 53.35         |                     | 8.79                              | 52.12         |
+| slide_5      | 7.64       | 54.00         |                     | 8.70                              | 52.23         |
+| slide_10     | 7.68       | 53.37         |                     | 8.71                              | 51.74         |
+| slide_3      | 7.64       | 53.98         |                     | 8.71                              | 52.72         |
+| Bslide_5     | 7.65       | 53.96         |                     | 8.70                              | 52.34         |
+| Bslide_loc_5 | 7.64       | 54.01         |                     | 8.69                              | 52.19         |
+| slide_loc_5  | 7.64       | 54.03         |                     | 8.69                              | 52.05         |
+| Bslide_7     | 7.65       | 54.03         |                     | 8.70                              | 51.95         |
+
 ## Future Work
 
 - Correct some code mistakes and refactor
