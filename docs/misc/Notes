@@ -1,4 +1,15 @@
-triple using average on last games!
+season dates :
+14-15 : 28 OCT - 15 APR
+13-14 : 29 OCT - 16 APR
+12-13 : 30 OCT - 17 APR
+
+10-11 : 26 OCT - 13 APR
+09-10 : 27 OCT - 14 APR
+08-09 : 28 OCT - 15 APR
+07-08 : 30 OCT - 16 APR
+06-07 : 31 OCT - 18 APR
+05-06 : 1 NOV - 19 APR
+
 
 look at model, see which features are important :
 Some seem much much more important than others, some redundance, exactly same coeffs for some features.
@@ -6,10 +17,7 @@ To investigate.
 
 get rid of some players?
 
-binary feature for position
 create new features per position
-Ridge regression
-add computed features
 
 Features :
 0 : MIN : (minutes played)
@@ -37,6 +45,7 @@ Features :
 22 : age
 23 : height
 24 : weight
+25 : game number
 
 
 4=7=-18 (sometimes sign inversed)
@@ -63,5 +72,29 @@ Smart way of reimplementing average order? do start end
 
 function as arguments? or model object directly.
 
-
 check panda
+
+For position, do average until game or overall?
+Should I save feature matrices?
+
+Positions :
+['Center', 'Forward', 'Center-Forward', 'Guard', 'Forward-Guard', 'Forward-Center', 'Guard-Forward']
+
+dictvectorizer
+coeffs
+scatterplot
+
+plotting error as season goes on : append number of games played? wouldn't that be a bad feature?
+starting mid season!
+
+polynomial features : too long
+SVM : too long /try with parameters
+NR
+
+Experts
+
+pre draft + head to head and trading. (reddit? ) buy/Sell
+Unit Tests
+Simulate Season
+
+
