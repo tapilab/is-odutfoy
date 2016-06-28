@@ -91,16 +91,19 @@ def get_fantasies(season, start, end):
         games = get_games(player, start, end)
         score = 0
 
-        for game in games:
-            score += get_fantasy(game)
+        if games != []:
+            for game in games:
+                score += get_fantasy(game)
 
-        D[player['name']] = score
+            D[player['name']] = score
 
     return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
 
-#print get_fantasies('2012-13', 'NOV 12, 2012', 'NOV 19, 2012')
+# test = get_fantasies('2010-11', 'OCT 20, 2010', 'DEC 15, 2010')
+# #print test[100]
+# print len(test)
 
-print get_ID('2012-13', 'Joel Freeland')
-player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jared Dudley') + '.pkl', 'rb'))
-games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
-print games
+#print get_ID('2012-13', 'Jeremy Lin')
+# player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jeremy Lin') + '.pkl', 'rb'))
+# games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
+# print games

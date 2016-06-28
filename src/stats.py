@@ -112,7 +112,7 @@ def compute_fantasy(player, game_number = -1,
 
     else:
         game = player['stats'][game_number - 1]
-        score = PTS*game[20] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5]
+        score = PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5]
         + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
         return score
@@ -148,8 +148,8 @@ def baseline(season):
         games_num = len(player['stats'])
 
         for i in range(1, games_num - 1):
-            next_points = compute_fantasy(season, playerID, i + 1)
-            curr_points = compute_fantasy(season, playerID, i)
+            next_points = compute_fantasy(player, i + 1)
+            curr_points = compute_fantasy(player, i)
             errors.append(abs(next_points - curr_points))
 
     error = np.mean(errors), np.max(errors)
@@ -180,7 +180,7 @@ def baselines(seasons):
 
 #Computes fantasy score of a given game
 def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
-    return PTS*game[20] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
+    return PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
            + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
 #print compute_fantasy('2011-12', '977', 0)
@@ -199,3 +199,4 @@ def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM 
 #print player['stats']
 #print len(player['stats'])
 #print average('sample_', player, 47, -2)[0]
+

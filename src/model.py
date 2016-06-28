@@ -7,9 +7,10 @@ import shutil
 from plot import *
 from sklearn import preprocessing
 from sklearn import svm
+from experts import *
 
 #factored code to compute sliding feature matrices for one player
-def player_features(season, playerID, binary_pos = False, include_loc = False, include_pos = False, num_last_games = 0):
+def player_features(season, playerID, binary_pos = False, include_loc = False, num_last_games = 0):
     averages = []
     next_match_points = []
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
@@ -43,15 +44,13 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, i
                 else:
                     continue
 
-        #TODO : if include_pos: (See notes for question)
-
         if num_last_games > 0:
             last = average(season, player, i, i - num_last_games)[0]
             tmp += last
 
         tmp.append(i)
         averages.append(tmp)
-        next_match_points.append(compute_fantasy(season, player, i + 1))
+        next_match_points.append(compute_fantasy(player, i + 1))
 
     X = np.array(averages)
     y = np.array(next_match_points)
@@ -59,14 +58,25 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, i
     return X, y
 
 #factored code to compute sliding feature matrices for one season
-def season_features(season, binary_pos = False, include_loc = False, include_pos = False, num_last_games = 0):
+def season_features(season, binary_pos = False, include_loc = False, num_last_games = 0, best_players = 0):
     Xs = []
     ys = []
-    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
-    for file in players:
-        playerID = file[26:-4]
+
+    if best_players == 0:
+        players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    else:
+        best = get_fantasies(season, 'OCT 20, ' + season[:4], 'DEC 15, ' + season[:4])
+        players = []
+
+        for player in best[:best_players]:
+            players.append(get_ID(season, player[0]))
+
+    for player in players:
+        playerID = player[26:-4] if best_players == 0 else player
+
         #print "Dealing with {}".format(playerID)
-        X, y = player_features(season, playerID, binary_pos, include_loc, include_pos, num_last_games)
+        X, y = player_features(season, playerID, binary_pos, include_loc, num_last_games)
 
         if X.shape != (0,):
             Xs.append(X)
@@ -82,9 +92,6 @@ def season_features(season, binary_pos = False, include_loc = False, include_pos
 
     if include_loc:
         filename += '_loc'
-
-    if include_pos:
-        filename += '_pos'
 
     if num_last_games > 0:
         filename += '_' + str(num_last_games)
@@ -121,15 +128,15 @@ def error(model, X, y):
     for i in range(82):
         values[i] = values[i]/counter[i] if counter[i] != 0 else 0
 
-    plt.plot(values)
+    #plt.plot(values)
     #plt.plot(errors, games, 'o')
-    plt.show()
+    #plt.show()
 
     return avg_error/predictions.shape[0], max_error
 
 
 #all but one fold error over seasons using inputed average type (raw, sliding, ...)
-def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = False, include_pos = False, num_last_games = 0):
+def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = False, num_last_games = 0):
     def polyf(X):
         poly = preprocessing.PolynomialFeatures(degree)
         return poly.fit_transform(X)
@@ -141,9 +148,6 @@ def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = Fal
 
     if include_loc:
         filename += '_loc'
-
-    if include_pos:
-        filename += '_pos'
 
     if num_last_games > 0:
         filename += '_' + str(num_last_games)
@@ -173,6 +177,8 @@ def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = Fal
         testX, testy = tmp_X.pop(i), tmp_y.pop(i)
         trainX, trainy = np.concatenate(tmp_X), np.concatenate(tmp_y)
 
+        print trainX.shape
+
         # if degree > 0:
         #     print "coucou"
         #     trainX = polyf(trainX)
@@ -196,18 +202,24 @@ def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = Fal
     print filename
     return result
 
+def compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players = 0):
+    for season in seasons:
+        print season
+        season_features(season, binary_pos, include_loc, num_last_games, best_players)
+    ABOF_error(seasons, model, degree, binary_pos, include_loc, num_last_games)
 
-seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14', '2014-15']
+#got rid of season 2011-12 because it starts much later
+seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14', '2014-15']
 
-# for season in seasons:
-#     print season
-#     season_features(season, binary_pos=True, include_loc=False, include_pos=False, num_last_games=5)
 
-model = linear_model.LinearRegression(normalize=False)
+model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=False)
-#model = svm.SVR()
+#model = svm.SVR(kernel='poly', degree=2)
 
-ABOF_error(seasons, model, degree=0, binary_pos=True, include_loc=False, include_pos=False, num_last_games=5)
+compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 120)
+#ABOF_error(seasons, model, degree=0, binary_pos=True, include_loc=False, num_last_games=5)
+
+
 # filename = "slide"
 # X = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'averages' + os.sep + filename + '_X.pkl', 'rb'))
 # y = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'averages' + os.sep + filename + '_y.pkl', 'rb'))
@@ -236,3 +248,4 @@ ABOF_error(seasons, model, degree=0, binary_pos=True, include_loc=False, include
 #print y.shape
 
 #print X[155]
+
