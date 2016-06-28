@@ -70,7 +70,7 @@ def season_features(season, binary_pos = False, include_loc = False, num_last_ga
         players = []
 
         for player in best[:best_players]:
-            players.append(get_ID(season, player[0]))
+            players.append(player[0])
 
     for player in players:
         playerID = player[26:-4] if best_players == 0 else player

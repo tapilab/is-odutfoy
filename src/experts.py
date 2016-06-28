@@ -95,12 +95,12 @@ def get_fantasies(season, start, end):
             for game in games:
                 score += get_fantasy(game)
 
-            D[player['name']] = score
+            D[playerID] = score
 
     return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
 
-# test = get_fantasies('2010-11', 'OCT 20, 2010', 'DEC 15, 2010')
-# #print test[100]
+#test = get_fantasies('2010-11', 'OCT 20, 2010', 'DEC 15, 2010')
+#print test
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
