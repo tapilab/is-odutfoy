@@ -90,8 +90,6 @@ def date_add(date, days):
 
     return date_to_string(year, month, day)
 
-
-
 #Returns the stats of a player between a start and end date in a given season
 #date must follow following format : "FEB 10, 2015"
 def get_games(player, start, end):
@@ -157,12 +155,29 @@ def get_fantasies(season, start, end):
 
     return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
 
+#given two dates and a player, returns the game numbers of first and last game played
+def get_games_num(player, start, end):
+    for i, game in enumerate(player['stats']):
+        if date_in(game[1], start, end):
+            begin = i
+            break
+
+    for j, game in enumerate(player['stats'][begin:]):
+        if not date_in(game[1], start, end):
+            end = j + begin - 1
+            break
+
+    return begin, end
+
+
 # test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
 # print test
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
 # player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jeremy Lin') + '.pkl', 'rb'))
+# print player['stats']
+# print get_games_num(player, 'NOV 03, 2012', 'NOV 07, 2012')
 # games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
 # print games
 
