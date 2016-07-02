@@ -24,7 +24,8 @@ def number_to_month(number):
 
 #Outputs date with correct string format when day, month and year are given as numbers
 def date_to_string(year, month, day):
-    return number_to_month(month) + ' ' + str(day) + ', ' + str(year)
+    day = '0' + str(day) if day < 10 else str(day)
+    return number_to_month(month) + ' ' + day + ', ' + str(year)
 
 #compares 2 dates given in following format : "FEB 10, 2015"
 #returns true if date1 is before or equal date2
@@ -171,14 +172,14 @@ def get_games_num(playerID, season, start, end):
     return begin, end
 
 
-# test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
-# print test
+#test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
+#print test
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
 # player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jeremy Lin') + '.pkl', 'rb'))
 # print player['stats']
-print get_games_num(get_ID('2012-13', 'Jeremy Lin'),'2012-13', 'NOV 03, 2012', 'NOV 07, 2012')
+#print get_games_num(get_ID('2012-13', 'Jeremy Lin'),'2012-13', 'NOV 03, 2012', 'NOV 07, 2012')
 # games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
 # print games
 
