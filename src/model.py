@@ -10,13 +10,15 @@ from sklearn import svm
 from experts import *
 
 #factored code to compute sliding feature matrices for one player
-def player_features(season, playerID, binary_pos = False, include_loc = False, num_last_games = 0):
+def player_features(season, playerID, binary_pos = False, include_loc = False, num_last_games = 0, start = 1, end = -1):
     averages = []
     next_match_points = []
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-    games_num = len(player['stats'])
 
-    for i in range(1, games_num - 1):
+    if end == -1:
+        end = len(player['stats'])
+
+    for i in range(start, end - 1):
         all, home, away = average(season, player, i)
 
         tmp = list(all)
@@ -212,13 +214,13 @@ def compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14', '2014-15']
 
 
-model = linear_model.LinearRegression(normalize=True)
+#model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=False)
-#model = svm.SVR(kernel='poly', degree=2)
+#model = svm.SVR(kernel='poly', degree=1, max_iter=5000)
 
-compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 120)
-#ABOF_error(seasons, model, degree=0, binary_pos=True, include_loc=False, num_last_games=5)
-
+#compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 120)
+#ABOF_error(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0)
+#baselines(seasons, best_players = 120)
 
 # filename = "slide"
 # X = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'averages' + os.sep + filename + '_X.pkl', 'rb'))
@@ -234,10 +236,6 @@ compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=Fals
 
 #print X[10]
 
-
-
-
-#baselines(seasons)
 
 #season_features("2014-15", binary_pos = False, include_loc = False, include_last_games= False, num_last_games=5)
 #

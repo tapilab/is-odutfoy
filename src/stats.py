@@ -2,6 +2,7 @@ import pickle
 import os
 import glob
 import numpy as np
+from experts import *
 
 #This file takes "raw" data as input and computes additionnal stats such as averaged stats, winrate, fatansy points etc.
 
@@ -138,12 +139,21 @@ def weighted_average(avg1, avg2, weight = 2):
 
     return avg
 
-def baseline(season):
+def baseline(season, best_players = 0):
     errors = []
-    players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    if best_players == 0:
+        players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    else:
+        best = get_fantasies(season, 'OCT 20, ' + season[:4], 'DEC 15, ' + season[:4])
+        players = []
+
+        for player in best[:best_players]:
+            players.append(player[0])
 
     for file in players:
-        playerID = file[26:-4]
+        playerID = file[26:-4] if best_players == 0 else file
         player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
         games_num = len(player['stats'])
 
@@ -162,13 +172,13 @@ def baseline(season):
 
     return error
 
-def baselines(seasons):
+def baselines(seasons, best_players = 0):
     avg_error = 0.
     avg_max = 0.
 
     for season in seasons:
         print "computing for season {}".format(season)
-        error = baseline(season)
+        error = baseline(season, best_players)
         avg_error += error[0]
         avg_max += error[1]
 
@@ -178,10 +188,6 @@ def baselines(seasons):
 
     return result
 
-#Computes fantasy score of a given game
-def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
-    return PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
-           + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
 #print compute_fantasy('2011-12', '977', 0)
 # positions = []
