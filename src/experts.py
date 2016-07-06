@@ -185,10 +185,12 @@ def get_games_num(playerID, season, start, end):
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
-# player = pickle.load(open('data' + os.sep + '2014-15' + os.sep + 'player_stats' + os.sep + '203953' + '.pkl', 'rb'))
-# print player['stats']
-# print get_games_num('203953', '2014-15', 'DEC 09, 2014', 'DEC 15, 2014')
+#player = pickle.load(open('data' + os.sep + '2014-15' + os.sep + 'player_stats' + os.sep + '203487' + '.pkl', 'rb'))
+#print player['stats']
+#print get_games_num('203487', '2014-15', 'OCT 28, 2014', date_add('OCT 28, 2014', 6))
 #games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
 # print games
+
+#print get_all_games('2014-15', 'APR 14, 2015', 'APR 20, 2015')
 
 #print date_add('FEB 25, 2016', 7)

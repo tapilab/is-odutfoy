@@ -6,7 +6,7 @@ class simulation:
     #here players_num corresponds to the number of players you want to be taken into account for the simulation
     #while best_players is the number of players for the training of previous seasons
     #days is the number of days taken into account for each step of the simulation
-    def __init__(self, season, start_date, model, days = 6, players_num = 0, binary_pos = False, include_loc = False, num_last_games = 0, best_players = 0):
+    def __init__(self, season, start_date, end_date, model, days = 6, players_num = 0, binary_pos = False, include_loc = False, num_last_games = 0, best_players = 0):
         print "Initializing attributes"
         self.season = season
         self.curr_date = start_date
@@ -17,6 +17,7 @@ class simulation:
         self.binary_pos = binary_pos
         self.include_loc = include_loc
         self.num_last_games = num_last_games
+        self.end_date = end_date
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -90,14 +91,19 @@ class simulation:
 
         self.curr_date = date_add(next_date, 1)
 
-        self.update_testing()
+        if date_before(self.curr_date, self.end_date):
+            self.update_testing()
+
+        else:
+            print "Season has ended, user should stop simulating"
+
+    def full_simulation(self):
+        while date_before(self.curr_date, self.end_date):
+            self.simulate()
 
 model = linear_model.LinearRegression(normalize=True)
-test = simulation('2013-14', 'OCT 29, 2013', model, players_num= 120, best_players=120)
-test.simulate()
-test.simulate()
-test.simulate()
-test.simulate()
+test = simulation('2014-15', 'OCT 28, 2014', 'APR 15, 2015', model, players_num=120, best_players=120)
+test.full_simulation()
 
 
 #print get_all_games('2014-15', 'OCT 28, 2014', date_add('OCT 28, 2014', 6))
