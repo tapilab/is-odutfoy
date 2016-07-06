@@ -18,6 +18,7 @@ class simulation:
         self.include_loc = include_loc
         self.num_last_games = num_last_games
         self.end_date = end_date
+        self.week = 0
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -90,6 +91,7 @@ class simulation:
         self.trainX, self.trainy = np.concatenate((self.trainX, self.testX)), np.concatenate((self.trainy, self.testy))
 
         self.curr_date = date_add(next_date, 1)
+        self.week += 1
 
         if date_before(self.curr_date, self.end_date):
             self.update_testing()
@@ -97,13 +99,43 @@ class simulation:
         else:
             print "Season has ended, user should stop simulating"
 
-    def full_simulation(self):
+        return errors
+
+    def full_simulation(self, playerID = None):
+        errors = []
+        weeks = []
+        if playerID:
+            Xs = []
+            ys = []
+
         while date_before(self.curr_date, self.end_date):
-            self.simulate()
+            if playerID:
+                start, end = get_games_num(playerID, self.season, self.curr_date, date_add(self.curr_date, self.days))
+                if start != -1:
+                    X, y = player_features(self.season, playerID, self.binary_pos, self.include_loc, self.num_last_games, start, end)
+
+                    if X.shape != (0,):
+                        Xs.append(X)
+                        ys.append(y)
+
+            errors.append(self.simulate())
+            weeks.append(self.week)
+
+        if playerID:
+            playerX, playery = np.concatenate(Xs), np.concatenate(ys)
+            predicts = model.predict(playerX)
+            games = [game for game in range(len(playery))]
+            plt.plot(games, predicts, 'ro', games, playery, 'o')
+            plt.show()
+            plt.clf()
+
+        plt.plot(weeks, errors)
+        plt.show()
+
 
 model = linear_model.LinearRegression(normalize=True)
-test = simulation('2014-15', 'OCT 28, 2014', 'APR 15, 2015', model, players_num=120, best_players=120)
-test.full_simulation()
+test = simulation('2014-15', 'OCT 28, 2014', 'APR 15, 2015', model, players_num=0, best_players=0)
+test.full_simulation('203082')
 
 
 #print get_all_games('2014-15', 'OCT 28, 2014', date_add('OCT 28, 2014', 6))

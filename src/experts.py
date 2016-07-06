@@ -180,8 +180,8 @@ def get_games_num(playerID, season, start, end):
     return first, last
 
 
-#test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
-#print test
+# test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
+# print test[:120]
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
