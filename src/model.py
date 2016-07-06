@@ -16,9 +16,9 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, n
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
 
     if end == -1:
-        end = len(player['stats'])
+        end = len(player['stats']) - 1
 
-    for i in range(start, end - 1):
+    for i in range(start, end):
         all, home, away = average(season, player, i)
 
         tmp = list(all)
@@ -213,7 +213,7 @@ def compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=
 #got rid of season 2011-12 because it starts much later
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14', '2014-15']
 
-
+#model = linear_model.SGDRegressor()
 #model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=False)
 #model = svm.SVR(kernel='poly', degree=1, max_iter=5000)
