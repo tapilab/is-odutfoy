@@ -162,19 +162,23 @@ def get_games_num(playerID, season, start, end):
 
     for i, game in enumerate(player['stats']):
         if date_in(game[1], start, end):
-            begin = i
+            first = i
             break
+
+    last = len(player['stats']) - 1
 
     #in case no games are played in that period of time
     try:
-        for j, game in enumerate(player['stats'][begin:]):
+        for j, game in enumerate(player['stats'][first:]):
             if not date_in(game[1], start, end):
-                end = j + begin - 1
+                last = j + first - 1
                 break
+
     except UnboundLocalError:
         return (-1, -1)
 
-    return begin, end
+    print playerID, start, end
+    return first, last
 
 
 #test = get_fantasies('2014-15', 'OCT 20, 2014', 'DEC 15, 2014')
@@ -182,9 +186,9 @@ def get_games_num(playerID, season, start, end):
 # print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
-# player = pickle.load(open('data' + os.sep + '2012-13' + os.sep + 'player_stats' + os.sep + get_ID('2012-13', 'Jeremy Lin') + '.pkl', 'rb'))
+# player = pickle.load(open('data' + os.sep + '2014-15' + os.sep + 'player_stats' + os.sep + '203953' + '.pkl', 'rb'))
 # print player['stats']
-# print get_games_num(get_ID('2012-13', 'Jeremy Lin'),'2012-13', 'OCT 12, 2012', 'OCT 30, 2012')
+# print get_games_num('203953', '2014-15', 'DEC 09, 2014', 'DEC 15, 2014')
 #games = get_games(player, 'NOV 12, 2012', 'NOV 19, 2012')
 # print games
 
