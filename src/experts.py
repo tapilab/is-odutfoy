@@ -177,7 +177,6 @@ def get_games_num(playerID, season, start, end):
     except UnboundLocalError:
         return (-1, -1)
 
-    print playerID, start, end
     return first, last
 
 
