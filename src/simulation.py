@@ -53,6 +53,10 @@ class simulation:
 
         print "Building initial test data"
         self.update_testing()
+        next_date = date_add(self.curr_date, self.days)
+        self.curr_date = date_add(next_date, 1)
+        self.week += 1
+        self.update_testing()
 
     def debug(self):
         print self.season
@@ -133,9 +137,10 @@ class simulation:
         plt.show()
 
 
-model = linear_model.LinearRegression(normalize=True)
-test = simulation('2014-15', 'OCT 28, 2014', 'APR 15, 2015', model, players_num=0, best_players=0)
-test.full_simulation('203082')
+#model = linear_model.LinearRegression(normalize=True)
+model = linear_model.Ridge(normalize=True)
+test = simulation('2013-14', 'OCT 29, 2013', 'APR 14, 2014', model, binary_pos= True, num_last_games=5, players_num=120, best_players=120)
+test.full_simulation('203076')
 
 
 #print get_all_games('2014-15', 'OCT 28, 2014', date_add('OCT 28, 2014', 6))
