@@ -63,7 +63,8 @@ with removal of season 2011-12:
 | Method       |            | All players   | Linear (Normalized) | Best 120 players after 1.5 months |               |
 |--------------|------------|---------------|---------------------|-----------------------------------|---------------|
 |              | Mean Error | Maximum Error |                     | Mean Error                        | Maximum Error |
-| Baseline     | 9.73       | 68.44         |                     | 11.49                             | 68.44         |
+| Baseline     | 9.77       | 68.44         |                     | 11.52                             | 68.44         |
+| Baseline(avg)| 7.89       | 55.93         |                     | 8.88                              | 54.18
 | Slide        | 7.83       | 53.31         |                     | 8.81                              | 52.44         |
 | Bslide       | 7.83       | 54.29         |                     | 8.81                              | 52.47         |
 | slide_loc    | 7.83       | 53.35         |                     | 8.79                              | 52.12         |

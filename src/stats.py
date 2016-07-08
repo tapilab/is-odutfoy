@@ -157,7 +157,7 @@ def baseline(season, best_players = 0):
         player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
         games_num = len(player['stats'])
 
-        for i in range(1, games_num - 1):
+        for i in range(games_num - 1):
             next_points = compute_fantasy(player, i + 1)
             curr_points = compute_fantasy(player, i)
             errors.append(abs(next_points - curr_points))
@@ -172,13 +172,19 @@ def baseline(season, best_players = 0):
 
     return error
 
-def baselines(seasons, best_players = 0):
+def baselines(seasons, best_players = 0, avg = False):
     avg_error = 0.
     avg_max = 0.
 
     for season in seasons:
         print "computing for season {}".format(season)
-        error = baseline(season, best_players)
+
+        if not avg:
+            error = baseline(season, best_players)
+
+        else :
+            error = avg_baseline(season, best_players)
+
         avg_error += error[0]
         avg_max += error[1]
 
@@ -188,6 +194,37 @@ def baselines(seasons, best_players = 0):
 
     return result
 
+def avg_baseline(season, best_players = 0):
+    errors = []
+
+    if best_players == 0:
+        players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    else:
+        best = get_fantasies(season, 'OCT 20, ' + season[:4], 'DEC 15, ' + season[:4])
+        players = []
+
+        for player in best[:best_players]:
+            players.append(player[0])
+
+    for file in players:
+        playerID = file[26:-4] if best_players == 0 else file
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        games_num = len(player['stats'])
+
+        points = []
+
+        for i in range(games_num - 1):
+            points.append(compute_fantasy(player, i))
+            next_points = compute_fantasy(player, i + 1)
+            avg_points = np.mean(points)
+            errors.append(abs(next_points - avg_points))
+
+    error = np.mean(errors), np.max(errors)
+
+    print "Average error and max error for season {} is {}".format(season, error)
+
+    return error
 
 #print compute_fantasy('2011-12', '977', 0)
 # positions = []
@@ -205,4 +242,3 @@ def baselines(seasons, best_players = 0):
 #print player['stats']
 #print len(player['stats'])
 #print average('sample_', player, 47, -2)[0]
-

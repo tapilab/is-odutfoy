@@ -187,6 +187,7 @@ def ABOF_error(seasons, model, degree = 0, binary_pos = False, include_loc = Fal
         #     testX = polyf(testX)
 
         model.fit(trainX, trainy)
+        #print model.coef_
         err = error(model, testX, testy)
         errors.append(err[0])
         avg_error += err[0]
@@ -213,12 +214,12 @@ def compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=
 #got rid of season 2011-12 because it starts much later
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14', '2014-15']
 
-#model = linear_model.SGDRegressor()
+#model = linear_model.SGDRegressor(learning_rate='constant', eta0=0.000001)
 #model = linear_model.LinearRegression(normalize=True)
-#model = linear_model.Ridge(normalize=False)
+#model = linear_model.Ridge(normalize=True)
 #model = svm.SVR(kernel='poly', degree=1, max_iter=5000)
 
-#compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 120)
+#compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 0)
 #ABOF_error(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0)
 #baselines(seasons, best_players = 120)
 
@@ -247,3 +248,4 @@ seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '20
 
 #print X[155]
 
+#baselines(seasons, best_players=120, avg=True)
