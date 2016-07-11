@@ -71,10 +71,12 @@ class simulation:
     def update_testing(self):
         Xs = []
         ys = []
+        next_date = date_add(self.curr_date, self.days)
         for player in self.players:
             playerID = player[26:-4] if self.players_num == 0 else player
             player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-            start, end = get_games_num(player, self.curr_date, date_add(self.curr_date, self.days))
+
+            start, end = get_games_num(player, self.curr_date, next_date)
 
             if start != -1:
                 X, y = player_features(self.season, playerID, self.binary_pos, self.include_loc, self.num_last_games, start, end)
@@ -141,7 +143,7 @@ class simulation:
 
 #model = linear_model.LinearRegression(normalize=True)
 model = linear_model.Ridge(normalize=True)
-test = simulation('2013-14', 'OCT 29, 2013', 'APR 14, 2014', model, binary_pos= True, num_last_games=5, players_num=0, best_players=0)
+test = simulation('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, binary_pos= True, num_last_games=5, players_num=0, best_players=0)
 test.full_simulation('203076')
 
 

@@ -1,37 +1,73 @@
 from model import *
 
 #builds feature vector for week predition
-#start and end are the game numbers of the week to be predicted, stats of player before start date will be used for prediction
-def week_feature(player, start, end, binary_pos = False, num_last_games = 0):
-    avg = average(player, start - 1)[0]
+#start and end are the dates of the week to be predicted, stats of player before start date will be used for prediction
+def week_feature(player, start_date, end_date, binary_pos = False, num_last_games = 0):
+    start, end = get_games_num(player, start_date, end_date)
 
-    if binary_pos:
-        positions = ['Center', 'Forward', 'Center-Forward', 'Guard', 'Forward-Guard', 'Forward-Center', 'Guard-Forward']
-        index = positions.index(player["position"])
-        bin = [0, 0, 0, 0, 0, 0, 0]
-        bin[index] += 1
+    next_games = get_games(player, start_date, end_date)
 
-        avg = bin + avg
+    #score = -100 means no games were played by the player the following week and the feature will not be used
+    score = 0. if next_games != [] else -100.
 
-    if num_last_games > 0:
-        last = average(player, start - 1, start - 1 - num_last_games)[0]
-        avg += last
-        avg.append(start - 1)
+    avg = []
 
-    next_games = get_games(player, start, end)
+    if start != -1:
+        avg = average(player, start - 1)[0]
 
-    score = 0.
+        if binary_pos:
+            positions = ['Center', 'Forward', 'Center-Forward', 'Guard', 'Forward-Guard', 'Forward-Center', 'Guard-Forward']
+            index = positions.index(player["position"])
+            bin = [0, 0, 0, 0, 0, 0, 0]
+            bin[index] += 1
 
-    for game in next_games:
-        score += get_fantasy(game)
+            avg = bin + avg
+
+        if num_last_games > 0:
+            last = average(player, start - 1, start - 1 - num_last_games)[0]
+            avg += last
+            avg.append(start - 1)
+
+        for game in next_games:
+            score += get_fantasy(game)
 
     return avg, score
 
-#produces the feature matrix for a player for the entire season wih given step
-def week_features(season, player, start_date, end_date, step, binary_pos = False, num_last_games = 0):
+#produces the feature matrix for a entire season wih given step in between 2 dates
+def week_features(season, start_date, end_date, step, binary_pos = False, num_last_games = 0, best_players = 0):
     Xs = []
     ys = []
 
+    if best_players == 0:
+        players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
+
+    else:
+        best = get_fantasies(season, 'OCT 20, ' + season[:4], 'DEC 15, ' + season[:4])
+        players = []
+
+        for player in best[:best_players]:
+            players.append(player[0])
+
+    for player in players:
+        playerID = player[26:-4] if best_players == 0 else player
+        player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+        curr_date = date_add(start_date, step)
+        curr_end_date = date_add(curr_date, step)
+        while date_before(date_add(curr_end_date, step + 1), end_date):
+            X, y = week_feature(player, curr_date, curr_end_date, binary_pos, num_last_games)
+
+            #make sure some games are played the next week
+            if X != [] and y != -100:
+                Xs.append(X)
+                ys.append(y)
+
+            curr_date = date_add(curr_date, step + 1)
+            curr_end_date = date_add(curr_end_date, step + 1)
+
+    Xf = np.reshape(Xs, (len(Xs), len(Xs[0])))
+    yf = np.reshape(ys, len(ys))
+
+    return Xf, yf
 
 
 
@@ -62,10 +98,10 @@ class week_simul:
                 self.players.append(player[0])
 
         #ensuring training data will only be in the past
-        for s in seasons:
+        for s, s_start, s_end in seasons, start_dates, end_dates:
             year = int(self.season[:4])
             if int(s[:4]) < year:
-                self.prev_seasons.append(s)
+                self.prev_seasons.append((s, start_date, s_end))
 
         #creating initial training data
         Xs = []
@@ -74,7 +110,7 @@ class week_simul:
         print "Building training data"
         for season in self.prev_seasons:
             print season
-            X, y = season_features(season, self.binary_pos, self.include_loc, self.num_last_games, best_players)
+            X, y = week_features(season[0], season[1], season[2], self.binary_pos, self.include_loc, self.num_last_games, best_players)
 
             Xs.append(X)
             ys.append(y)
@@ -97,3 +133,21 @@ class week_simul:
         print len(self.players)
         print self.trainX.shape, self.trainy.shape
         print self.testX.shape, self.testy.shape
+
+    def update_testing(self):
+        Xs = []
+        ys = []
+        next_date = date_add(self.curr_date, self.days)
+        for player in self.players:
+            playerID = player[26:-4] if self.players_num == 0 else player
+            player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+            X, y = week_feature(player, self.curr_date, next_date, self.binary_pos, self.num_last_games)
+
+            if X != [] and y != -100:
+                Xs.append(X)
+                ys.append(y)
+
+        self.testX, self.testy = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
+
+
+week_features('2014-15', 'OCT 28, 2014', 'APR, 15, 2015', 6)

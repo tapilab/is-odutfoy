@@ -213,6 +213,8 @@ def compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=
 
 #got rid of season 2011-12 because it starts much later
 seasons = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14', '2014-15']
+start_dates = ['NOV 01, 2005', 'OCT 31, 2006', 'OCT 30, 2007', 'OCT 28, 2008', 'OCT 27, 2009', 'OCT 26, 2010', 'OCT 30, 2012', 'OCT 29, 2013', 'OCT 28, 2014']
+end_dates = ['APR 19, 2006', 'APR 18, 2007', 'APR 16, 2008', 'APR 15, 2009', 'APR 14, 2010', 'APR 13, 2011', 'APR 17, 2013', 'APR 16, 2014', 'APR 15, 2015']
 
 #model = linear_model.SGDRegressor(learning_rate='constant', eta0=0.000001)
 #model = linear_model.LinearRegression(normalize=True)
