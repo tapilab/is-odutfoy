@@ -73,7 +73,8 @@ class simulation:
         ys = []
         for player in self.players:
             playerID = player[26:-4] if self.players_num == 0 else player
-            start, end = get_games_num(playerID, self.season, self.curr_date, date_add(self.curr_date, self.days))
+            player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+            start, end = get_games_num(player, self.curr_date, date_add(self.curr_date, self.days))
 
             if start != -1:
                 X, y = player_features(self.season, playerID, self.binary_pos, self.include_loc, self.num_last_games, start, end)
@@ -114,7 +115,8 @@ class simulation:
 
         while date_before(self.curr_date, self.end_date):
             if playerID:
-                start, end = get_games_num(playerID, self.season, self.curr_date, date_add(self.curr_date, self.days))
+                player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+                start, end = get_games_num(player, self.curr_date, date_add(self.curr_date, self.days))
                 if start != -1:
                     X, y = player_features(self.season, playerID, self.binary_pos, self.include_loc, self.num_last_games, start, end)
 
@@ -139,7 +141,7 @@ class simulation:
 
 #model = linear_model.LinearRegression(normalize=True)
 model = linear_model.Ridge(normalize=True)
-test = simulation('2013-14', 'OCT 29, 2013', 'APR 14, 2014', model, binary_pos= True, num_last_games=5, players_num=120, best_players=120)
+test = simulation('2013-14', 'OCT 29, 2013', 'APR 14, 2014', model, binary_pos= True, num_last_games=5, players_num=0, best_players=0)
 test.full_simulation('203076')
 
 

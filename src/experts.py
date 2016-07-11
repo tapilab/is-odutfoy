@@ -157,9 +157,7 @@ def get_fantasies(season, start, end):
     return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
 
 #given two dates and a player, returns the game numbers of first and last game played
-def get_games_num(playerID, season, start, end):
-    player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-
+def get_games_num(player, start, end):
     for i, game in enumerate(player['stats']):
         if date_in(game[1], start, end):
             first = i
