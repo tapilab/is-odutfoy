@@ -110,7 +110,7 @@ class week_simul:
         print "Building training data"
         for season in self.prev_seasons:
             print season
-            X, y = week_features(season[0], season[1], season[2], self.binary_pos, self.num_last_games, best_players)
+            X, y = week_features(season[0], season[1], season[2], self.days, self.binary_pos, self.num_last_games, best_players)
 
             Xs.append(X)
             ys.append(y)
