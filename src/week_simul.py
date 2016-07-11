@@ -1,9 +1,9 @@
 from model import *
 
 #builds feature vector for week predition
-#start and end are the week to be predicted, stats of player before start date will be used for prediction
-def week_feature(season, player, start, end, binary_pos = False, num_last_games = 0):
-    avg = average(season, player, start - 1)[0]
+#start and end are the game numbers of the week to be predicted, stats of player before start date will be used for prediction
+def week_feature(player, start, end, binary_pos = False, num_last_games = 0):
+    avg = average(player, start - 1)[0]
 
     if binary_pos:
         positions = ['Center', 'Forward', 'Center-Forward', 'Guard', 'Forward-Guard', 'Forward-Center', 'Guard-Forward']
@@ -14,7 +14,7 @@ def week_feature(season, player, start, end, binary_pos = False, num_last_games 
         avg = bin + avg
 
     if num_last_games > 0:
-        last = average(season, player, start - 1, start - 1 - num_last_games)[0]
+        last = average(player, start - 1, start - 1 - num_last_games)[0]
         avg += last
         avg.append(start - 1)
 
@@ -29,6 +29,10 @@ def week_feature(season, player, start, end, binary_pos = False, num_last_games 
 
 #produces the feature matrix for a player for the entire season wih given step
 def week_features(season, player, start_date, end_date, step, binary_pos = False, num_last_games = 0):
+    Xs = []
+    ys = []
+
+
 
 
 class week_simul:

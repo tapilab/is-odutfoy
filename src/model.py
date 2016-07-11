@@ -19,7 +19,7 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, n
         end = len(player['stats']) - 1
 
     for i in range(start, end):
-        all, home, away = average(season, player, i)
+        all, home, away = average(player, i)
 
         tmp = list(all)
 
@@ -47,7 +47,7 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, n
                     continue
 
         if num_last_games > 0:
-            last = average(season, player, i, i - num_last_games)[0]
+            last = average(player, i, i - num_last_games)[0]
             tmp += last
 
         tmp.append(i)

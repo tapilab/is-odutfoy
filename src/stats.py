@@ -8,7 +8,7 @@ from experts import *
 
 #Returns the averaged stats (all, home and away) of a given player between game start and end
 #Returns averaged of all games but last by default
-def average(season, player, end = -1, start = 0):
+def average(player, end = -1, start = 0):
     games_num = len(player['stats'])
 
     experience = player['experience']
@@ -27,18 +27,18 @@ def average(season, player, end = -1, start = 0):
         # exit()
 
     if end == -1:
-        return average(season, player, games_num - 1)
+        return average(player, games_num - 1)
 
     elif end > games_num:
         print "not enough games, returned average of all available games (%d)" % games_num
-        return average(season, player, games_num)
+        return average(player, games_num)
 
     elif start >= end:
         print "start must be smaller then end, returned average of all available games (%d)" % games_num
-        return average(season, player, games_num)
+        return average(player, games_num)
 
     elif start < 0:
-        return average(season, player, end)
+        return average(player, end)
 
     else:
         averaged = [float(sum(x))/float(len(x)) for x in zip(*[match[4:] for match in player['stats'][start:end]])]
