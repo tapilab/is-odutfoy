@@ -98,10 +98,10 @@ class week_simul:
                 self.players.append(player[0])
 
         #ensuring training data will only be in the past
-        for s, s_start, s_end in seasons, start_dates, end_dates:
+        for s, s_start, s_end in zip(seasons, start_dates, end_dates):
             year = int(self.season[:4])
             if int(s[:4]) < year:
-                self.prev_seasons.append((s, start_date, s_end))
+                self.prev_seasons.append((s, s_start, s_end))
 
         #creating initial training data
         Xs = []
@@ -110,12 +110,14 @@ class week_simul:
         print "Building training data"
         for season in self.prev_seasons:
             print season
-            X, y = week_features(season[0], season[1], season[2], self.binary_pos, self.include_loc, self.num_last_games, best_players)
+            X, y = week_features(season[0], season[1], season[2], self.binary_pos, self.num_last_games, best_players)
 
             Xs.append(X)
             ys.append(y)
 
         self.trainX, self.trainy = np.concatenate(Xs), np.concatenate(ys)
+        print self.trainX.shape, self.trainy.shape
+        print self.trainy.min(), self.trainy.max()
 
         print "Building initial test data"
         self.update_testing()
@@ -150,4 +152,33 @@ class week_simul:
         self.testX, self.testy = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
 
 
-week_features('2014-15', 'OCT 28, 2014', 'APR, 15, 2015', 6)
+    #predicts values and updates training and testing set for the next days
+    def simulate(self):
+        next_date = date_add(self.curr_date, self.days)
+        self.model.fit(self.trainX, self.trainy)
+        errors = error(self.model, self.testX, self.testy)
+
+        print "Average and max errors on predictions from {} to {} is {}".format(self.curr_date, next_date, errors)
+
+        self.trainX, self.trainy = np.concatenate((self.trainX, self.testX)), np.concatenate((self.trainy, self.testy))
+
+        self.curr_date = date_add(next_date, 1)
+        self.week += 1
+
+        if date_before(self.curr_date, self.end_date):
+            self.update_testing()
+
+        else:
+            print "Season has ended, user should stop simulating"
+
+        return errors
+
+
+#model = linear_model.LinearRegression(normalize=True)
+model = linear_model.Ridge(normalize=True)
+test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=120, best_players=120)
+test.simulate()
+test.simulate()
+test.simulate()
+test.simulate()
+test.simulate()

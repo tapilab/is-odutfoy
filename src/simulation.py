@@ -50,6 +50,7 @@ class simulation:
             ys.append(y)
 
         self.trainX, self.trainy = np.concatenate(Xs), np.concatenate(ys)
+        print self.trainy.min(), self.trainy.max()
 
         print "Building initial test data"
         self.update_testing()
@@ -90,8 +91,8 @@ class simulation:
     #predicts values and updates training and testing set for the next days
     def simulate(self):
         next_date = date_add(self.curr_date, self.days)
-        model.fit(self.trainX, self.trainy)
-        errors = error(model, self.testX, self.testy)
+        self.model.fit(self.trainX, self.trainy)
+        errors = error(self.model, self.testX, self.testy)
 
         print "Average and max errors on predictions from {} to {} is {}".format(self.curr_date, next_date, errors)
 
@@ -131,7 +132,7 @@ class simulation:
 
         if playerID:
             playerX, playery = np.concatenate(Xs), np.concatenate(ys)
-            predicts = model.predict(playerX)
+            predicts = self.model.predict(playerX)
             games = [game for game in range(len(playery))]
             plt.plot(games, predicts, 'ro', games, playery, 'o')
             plt.show()

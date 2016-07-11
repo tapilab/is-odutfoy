@@ -91,7 +91,7 @@ def date_add(date, days):
 
     return date_to_string(year, month, day)
 
-#Returns the stats of a player between a start and end date in a given season
+#Returns the stats of a player between a start and end date
 #date must follow following format : "FEB 10, 2015"
 def get_games(player, start, end):
     tmp = []
@@ -135,7 +135,7 @@ def get_ID(season, name):
 #Computes fantasy score of a given game
 def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
     return PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
-           + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
+    + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
 #Computes fantasy points in a given timestamp and returns most proficient players
 def get_fantasies(season, start, end):

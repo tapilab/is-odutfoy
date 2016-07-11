@@ -124,11 +124,11 @@ def error(model, X, y):
         max_error = error if error > max_error else max_error
         errors.append(error)
         games.append(amount)
-        values[amount] += error
-        counter[amount] += 1
-
-    for i in range(82):
-        values[i] = values[i]/counter[i] if counter[i] != 0 else 0
+    #     values[amount] += error
+    #     counter[amount] += 1
+    #
+    # for i in range(82):
+    #     values[i] = values[i]/counter[i] if counter[i] != 0 else 0
 
     #plt.plot(values)
     #plt.plot(errors, games, 'o')
