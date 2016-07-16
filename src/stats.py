@@ -114,8 +114,8 @@ def compute_fantasy(player, game_number = -1,
 
     else:
         game = player['stats'][game_number]
-        score = PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5]
-        + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
+        score = PTS*game[22] + BLK*game[19] + STL*game[18] + AST*game[17] + REB*game[16] + FGM*game[5] \
+                + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
         return score
 
