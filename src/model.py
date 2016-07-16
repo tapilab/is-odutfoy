@@ -13,10 +13,14 @@ from experts import *
 def player_features(season, playerID, binary_pos = False, include_loc = False, num_last_games = 0, start = 1, end = -1):
     averages = []
     next_match_points = []
+    points = []
     player = pickle.load(open('data' + os.sep + season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
 
     if end == -1:
         end = len(player['stats']) - 1
+
+    for j in range(start):
+        points.append(compute_fantasy(player, j))
 
     for i in range(start, end):
         all, home, away = average(player, i)
@@ -50,7 +54,10 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, n
             last = average(player, i, i - num_last_games)[0]
             tmp += last
 
+        points.append(compute_fantasy(player, i))
+
         tmp.append(i)
+        tmp.append(np.mean(points))
         averages.append(tmp)
         next_match_points.append(compute_fantasy(player, i + 1))
 
@@ -217,13 +224,17 @@ start_dates = ['NOV 01, 2005', 'OCT 31, 2006', 'OCT 30, 2007', 'OCT 28, 2008', '
 end_dates = ['APR 19, 2006', 'APR 18, 2007', 'APR 16, 2008', 'APR 15, 2009', 'APR 14, 2010', 'APR 13, 2011', 'APR 17, 2013', 'APR 16, 2014', 'APR 15, 2015']
 
 #model = linear_model.SGDRegressor(learning_rate='constant', eta0=0.000001)
-#model = linear_model.LinearRegression(normalize=True)
+model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
 #model = svm.SVR(kernel='poly', degree=1, max_iter=5000)
 
+# X, y = season_features('2013-14')
+# model.fit(X,y)
+# print error(model, X, y)
+
 #compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 0)
 #ABOF_error(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0)
-#baselines(seasons, best_players = 120)
+#baselines(seasons, best_players = 0, avg=True)
 
 # filename = "slide"
 # X = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'averages' + os.sep + filename + '_X.pkl', 'rb'))
