@@ -55,11 +55,9 @@ def player_features(season, playerID, binary_pos = False, include_loc = False, n
             tmp += last
 
         points.append(compute_fantasy(player, i))
-        print points
 
         tmp.append(i)
         tmp.append(np.mean(points))
-        print np.mean(points)
         averages.append(tmp)
         next_match_points.append(compute_fantasy(player, i + 1))
 
@@ -234,9 +232,9 @@ model = linear_model.LinearRegression(normalize=True)
 # model.fit(X,y)
 # print error(model, X, y)
 
-#compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players= 0)
+#compute_and_results(seasons, model, degree=0, binary_pos=True, include_loc=True, num_last_games=7, best_players= 120)
 #ABOF_error(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0)
-#baselines(seasons, best_players = 0, avg=False)
+#baselines(seasons, best_players = 120, avg=False)
 
 # filename = "slide"
 # X = pickle.load(open('data' + os.sep + 'sample_' + os.sep + 'averages' + os.sep + filename + '_X.pkl', 'rb'))
@@ -264,4 +262,3 @@ model = linear_model.LinearRegression(normalize=True)
 #print X[155]
 
 #baselines(seasons, best_players=120, avg=True)
-player_features('2013-14', '203076')

@@ -85,6 +85,7 @@ class week_simul:
         self.num_last_games = num_last_games
         self.end_date = end_date
         self.week = 0
+        self.start_date = start_date
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -173,12 +174,53 @@ class week_simul:
 
         return errors
 
+    def full_simulation(self, playerID = None):
+        errors = []
+        weeks = []
 
-#model = linear_model.LinearRegression(normalize=True)
-model = linear_model.Ridge(normalize=True)
-test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=120, best_players=120)
-test.simulate()
-test.simulate()
-test.simulate()
-test.simulate()
-test.simulate()
+        if playerID:
+            Xs = []
+            ys = []
+            player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+            games = get_games(player, self.start_date, date_add(self.start_date, self.days))
+            score = 0
+            for game in games:
+                score += get_fantasy(game)
+
+        while date_before(self.curr_date, self.end_date):
+            if playerID:
+                X, y = week_feature(player, self.curr_date, date_add(self.curr_date, self.days), self.binary_pos, self.num_last_games)
+
+                if X != [] and y != -100:
+                    Xs.append(X)
+                    ys.append(y)
+
+            errors.append(self.simulate())
+            weeks.append(self.week)
+
+        if playerID:
+            playerX, playery = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
+            predicts = self.model.predict(playerX)
+            bs = (np.insert(playery, 0, score))[:-1]
+            bs_avg = np.zeros(len(playery))
+            for i in range(len(playery)):
+                bs_avg[i] = np.mean(bs[:i + 1])
+            print bs, bs_avg
+            games = [game for game in range(len(playery))]
+            plt.plot(games, predicts, 'ro', games, playery, 'o', games, bs, 'go', games, bs_avg, 'yo')
+            plt.show()
+            plt.clf()
+            plt.plot(games, abs(predicts - playery), 'r', games, abs(bs - playery), 'g', games, abs(bs_avg - playery), 'y')
+            plt.show()
+            plt.clf()
+
+        plt.plot(weeks, errors)
+        plt.show()
+
+
+model = linear_model.LinearRegression(normalize=True)
+#model = linear_model.Ridge(normalize=True)
+test = week_simul('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
+test.full_simulation('203076')
+
+

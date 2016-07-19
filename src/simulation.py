@@ -50,6 +50,7 @@ class simulation:
             ys.append(y)
 
         self.trainX, self.trainy = np.concatenate(Xs), np.concatenate(ys)
+        print self.trainX.shape, self.trainy.shape
         print self.trainy.min(), self.trainy.max()
 
         print "Building initial test data"
@@ -112,6 +113,7 @@ class simulation:
     def full_simulation(self, playerID = None):
         errors = []
         weeks = []
+
         if playerID:
             Xs = []
             ys = []
@@ -144,7 +146,7 @@ class simulation:
 
 #model = linear_model.LinearRegression(normalize=True)
 model = linear_model.Ridge(normalize=True)
-test = simulation('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, binary_pos= True, num_last_games=5, players_num=0, best_players=0)
+test = simulation('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
 test.full_simulation('203076')
 
 

@@ -183,7 +183,7 @@ def baselines(seasons, best_players = 0, avg = False):
         if not avg:
             error = baseline(season, best_players)
 
-        else :
+        else:
             error = avg_baseline(season, best_players)
 
         avg_error += error[0]
