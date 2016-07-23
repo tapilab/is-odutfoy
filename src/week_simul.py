@@ -2,7 +2,7 @@ from model import *
 
 #builds feature vector for week predition
 #start and end are the dates of the week to be predicted, stats of player before start date will be used for prediction
-def week_feature(player, start_date, end_date, binary_pos = False, num_last_games = 0):
+def week_feature(player, start_date, end_date, season_start, binary_pos = False, num_last_games = 0):
     start, end = get_games_num(player, start_date, end_date)
 
     next_games = get_games(player, start_date, end_date)
@@ -26,15 +26,26 @@ def week_feature(player, start_date, end_date, binary_pos = False, num_last_game
         if num_last_games > 0:
             last = average(player, start - 1, start - 1 - num_last_games)[0]
             avg += last
-            avg.append(start - 1)
 
         for game in next_games:
             score += get_fantasy(game)
 
+        avg.append(start - 1)
+
+        games = get_games(player, season_start, date_sub(start_date, 1))
+        avg_points = 0.
+        for game in games:
+            avg_points += get_fantasy(game)
+
+        if len(games) != 0:
+            avg_points = score/len(games)
+
+        avg.append(avg_points)
+
     return avg, score
 
 #produces the feature matrix for a entire season wih given step in between 2 dates
-def week_features(season, start_date, end_date, step, binary_pos = False, num_last_games = 0, best_players = 0):
+def week_features(season, start_date, end_date, season_start, step, binary_pos = False, num_last_games = 0, best_players = 0):
     Xs = []
     ys = []
 
@@ -54,7 +65,7 @@ def week_features(season, start_date, end_date, step, binary_pos = False, num_la
         curr_date = date_add(start_date, step)
         curr_end_date = date_add(curr_date, step)
         while date_before(date_add(curr_end_date, step + 1), end_date):
-            X, y = week_feature(player, curr_date, curr_end_date, binary_pos, num_last_games)
+            X, y = week_feature(player, curr_date, curr_end_date, season_start, binary_pos, num_last_games)
 
             #make sure some games are played the next week
             if X != [] and y != -100:
@@ -111,7 +122,7 @@ class week_simul:
         print "Building training data"
         for season in self.prev_seasons:
             print season
-            X, y = week_features(season[0], season[1], season[2], self.days, self.binary_pos, self.num_last_games, best_players)
+            X, y = week_features(season[0], season[1], season[2], self.start_date, self.days, self.binary_pos, self.num_last_games, best_players)
 
             Xs.append(X)
             ys.append(y)
@@ -144,7 +155,7 @@ class week_simul:
         for player in self.players:
             playerID = player[26:-4] if self.players_num == 0 else player
             player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
-            X, y = week_feature(player, self.curr_date, next_date, self.binary_pos, self.num_last_games)
+            X, y = week_feature(player, self.curr_date, next_date, self.start_date, self.binary_pos, self.num_last_games)
 
             if X != [] and y != -100:
                 Xs.append(X)
@@ -189,7 +200,7 @@ class week_simul:
 
         while date_before(self.curr_date, self.end_date):
             if playerID:
-                X, y = week_feature(player, self.curr_date, date_add(self.curr_date, self.days), self.binary_pos, self.num_last_games)
+                X, y = week_feature(player, self.curr_date, date_add(self.curr_date, self.days), self.start_date, self.binary_pos, self.num_last_games)
 
                 if X != [] and y != -100:
                     Xs.append(X)
@@ -205,7 +216,6 @@ class week_simul:
             bs_avg = np.zeros(len(playery))
             for i in range(len(playery)):
                 bs_avg[i] = np.mean(bs[:i + 1])
-            print bs, bs_avg
             games = [game for game in range(len(playery))]
             plt.plot(games, predicts, 'ro', games, playery, 'o', games, bs, 'go', games, bs_avg, 'yo')
             plt.show()
