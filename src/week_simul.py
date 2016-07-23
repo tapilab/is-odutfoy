@@ -97,6 +97,7 @@ class week_simul:
         self.end_date = end_date
         self.week = 0
         self.start_date = start_date
+        self.poly = preprocessing.PolynomialFeatures(2)
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -123,6 +124,7 @@ class week_simul:
         for season in self.prev_seasons:
             print season
             X, y = week_features(season[0], season[1], season[2], self.days, self.binary_pos, self.num_last_games, best_players)
+            X = self.poly.fit_transform(X)
 
             Xs.append(X)
             ys.append(y)
@@ -162,6 +164,7 @@ class week_simul:
                 ys.append(y)
 
         self.testX, self.testy = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
+        self.testX = self.poly.fit_transform(self.testX)
 
 
     #predicts values and updates training and testing set for the next days
@@ -211,6 +214,7 @@ class week_simul:
 
         if playerID:
             playerX, playery = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
+            playerX = self.poly.fit_transform(playerX)
             predicts = self.model.predict(playerX)
             bs = (np.insert(playery, 0, score))[:-1]
             bs_avg = np.zeros(len(playery))
@@ -233,4 +237,10 @@ model = linear_model.LinearRegression(normalize=True)
 test = week_simul('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
 test.full_simulation('203076')
 
+# X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
+# poly = preprocessing.PolynomialFeatures(2)
+# test = poly.fit_transform(X)
+# print test == X
+# print X.shape, test.shape
 
+#print get_fantasies('2013-14', 'OCT 29, 2013', 'APR 16, 2014')
