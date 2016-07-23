@@ -50,7 +50,6 @@ def Tis_leap_year():
     assert not experts.is_leap_year(2002)
 
 def Tdate_add():
-    #WARNING : FOR NOW DATE ARE REWRITTEN WITHOUT A 0 in front in case the day is < 10
     assert experts.date_add('FEB 11, 2015', 0) == 'FEB 11, 2015'
     assert experts.date_add('FEB 11, 2015', 1) == 'FEB 12, 2015'
     assert experts.date_add('FEB 27, 2015', 3) == 'MAR 02, 2015'
@@ -58,6 +57,15 @@ def Tdate_add():
     assert experts.date_add('MAR 28, 2015', 5) == 'APR 02, 2015'
     assert experts.date_add('APR 28, 2015', 5) == 'MAY 03, 2015'
     assert experts.date_add('DEC 31, 2015', 1) == 'JAN 01, 2016'
+
+def Tdate_sub():
+    assert experts.date_sub('FEB 11, 2015', 0) == 'FEB 11, 2015'
+    assert experts.date_sub('FEB 11, 2015', 1) == 'FEB 10, 2015'
+    assert experts.date_sub('MAR 02, 2015', 3) == 'FEB 27, 2015'
+    assert experts.date_sub('MAR 01, 2016', 3) == 'FEB 27, 2016'
+    assert experts.date_sub('APR 02, 2015', 5) == 'MAR 28, 2015'
+    assert experts.date_sub('MAY 03, 2015', 5) == 'APR 28, 2015'
+    assert experts.date_sub('JAN 01, 2016', 1) == 'DEC 31, 2015'
 
 
 for function in inspect.getmembers(sys.modules[__name__], inspect.isfunction):

@@ -91,6 +91,41 @@ def date_add(date, days):
 
     return date_to_string(year, month, day)
 
+#substract days to date
+def date_sub(date, days):
+    year, month, day = int(date[8:]), month_to_number(date[:3]), int(date[4:6])
+
+    def date_update(day, month, year, prev_month_lenght):
+        if day - days > 0:
+            day -= days
+
+        else:
+            if month == 1:
+                month = 12
+                year -= 1
+
+            else:
+                month -= 1
+
+            day = prev_month_lenght - days + day
+
+        return year, month, day
+
+    if month == 3:
+        if is_leap_year(year):
+            year, month, day = date_update(day, month, year, 29)
+
+        else:
+            year, month, day = date_update(day, month, year, 28)
+
+    elif month in [x + 1 for x in months_30]:
+        year, month, day = date_update(day, month, year, 30)
+
+    else:
+        year, month, day = date_update(day, month, year, 31)
+
+    return date_to_string(year, month, day)
+
 #Returns the stats of a player between a start and end date
 #date must follow following format : "FEB 10, 2015"
 def get_games(player, start, end):
