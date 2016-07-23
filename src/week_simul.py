@@ -45,7 +45,7 @@ def week_feature(player, start_date, end_date, season_start, binary_pos = False,
     return avg, score
 
 #produces the feature matrix for a entire season wih given step in between 2 dates
-def week_features(season, start_date, end_date, season_start, step, binary_pos = False, num_last_games = 0, best_players = 0):
+def week_features(season, start_date, end_date, step, binary_pos = False, num_last_games = 0, best_players = 0):
     Xs = []
     ys = []
 
@@ -65,7 +65,7 @@ def week_features(season, start_date, end_date, season_start, step, binary_pos =
         curr_date = date_add(start_date, step)
         curr_end_date = date_add(curr_date, step)
         while date_before(date_add(curr_end_date, step + 1), end_date):
-            X, y = week_feature(player, curr_date, curr_end_date, season_start, binary_pos, num_last_games)
+            X, y = week_feature(player, curr_date, curr_end_date, start_date, binary_pos, num_last_games)
 
             #make sure some games are played the next week
             if X != [] and y != -100:
@@ -122,7 +122,7 @@ class week_simul:
         print "Building training data"
         for season in self.prev_seasons:
             print season
-            X, y = week_features(season[0], season[1], season[2], self.start_date, self.days, self.binary_pos, self.num_last_games, best_players)
+            X, y = week_features(season[0], season[1], season[2], self.days, self.binary_pos, self.num_last_games, best_players)
 
             Xs.append(X)
             ys.append(y)
