@@ -38,7 +38,7 @@ def week_feature(player, start_date, end_date, season_start, binary_pos = False,
             avg_points += get_fantasy(game)
 
         if len(games) != 0:
-            avg_points = score/len(games)
+            avg_points = avg_points/len(games)
 
         avg.append(avg_points)
 
@@ -79,7 +79,6 @@ def week_features(season, start_date, end_date, step, binary_pos = False, num_la
     yf = np.reshape(ys, len(ys))
 
     return Xf, yf
-
 
 
 class week_simul:
@@ -240,7 +239,43 @@ test.full_simulation('203076')
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)
 # test = poly.fit_transform(X)
-# print test == X
-# print X.shape, test.shape
+# # print test == X
+# # print X.shape, test.shape
+# model.fit(test, y)
+# print X.shape
+# print y.shape
+#
+# player = pickle.load(open('data' + os.sep + '2015-16' + os.sep + 'player_stats' + os.sep + '201939' + '.pkl', 'rb'))
+# print player['name']
+# testX, y = week_feature(player, 'NOV 10, 2015', 'NOV 16, 2015', 'OCT 27, 2015')
+# testX = np.reshape(testX, (1, len(testX)))
+# testX = poly.fit_transform(testX)
+#
+# print model.predict(testX)
+
 
 #print get_fantasies('2013-14', 'OCT 29, 2013', 'APR 16, 2014')
+
+# Xs, ys = [], []
+# for season, s_start, s_end in zip(seasons, start_dates, end_dates):
+#     print season
+#     X, y = week_features(season, s_start, s_end, 6)
+#     Xs.append(X)
+#     ys.append(y)
+#
+# trainX, trainy = np.concatenate(Xs), np.concatenate(ys)
+# poly = preprocessing.PolynomialFeatures(2)
+# trainX = poly.fit_transform(trainX)
+# model.fit(trainX, trainy)
+#
+# players = glob.glob('data' + os.sep + '2015-16' + os.sep + 'player_stats' + os.sep + "*.pkl")
+# for file in players:
+#     playerID = file[26:-4]
+#     player = pickle.load(open('data' + os.sep + '2015-16' + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+#     testX, testy = week_feature(player, 'NOV 10, 2015', 'NOV 16, 2015', 'OCT 27, 2015')
+#     if testX != [] and testy != -100:
+#         print player['name']
+#         testX = np.reshape(testX, (1, len(testX)))
+#         testX = poly.fit_transform(testX)
+#         print model.predict(testX), testy
+

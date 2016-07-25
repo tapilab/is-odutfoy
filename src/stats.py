@@ -98,7 +98,6 @@ def average(player, end = -1, start = 0):
 
 #computes fantasy points of a given player on his given ith game (last by default)
 #Allows different way of computing points but has espn values by default
-#TODO : investigate what's up here
 def compute_fantasy(player, game_number = -1,
                     PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM = 1, FGA = -1, FTA = -1, TOV = -1):
     games_num = len(player['stats'])
