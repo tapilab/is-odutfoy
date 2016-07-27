@@ -173,7 +173,7 @@ def get_fantasy(game, PTS = 1, BLK = 1, STL = 1, AST = 1, REB = 1, FGM = 1, FTM 
     + FTM*game[11] + FGA*game[6] + FTA*game[12] + TOV*game[20]
 
 #Computes fantasy points in a given timestamp and returns most proficient players
-def get_fantasies(season, start, end):
+def get_fantasies(season, start, end, num_players = 0):
     players = glob.glob('data' + os.sep + season + os.sep + 'player_stats' + os.sep + "*.pkl")
     D = dict()
 
@@ -189,7 +189,13 @@ def get_fantasies(season, start, end):
 
             D[playerID] = score
 
-    return sorted(D.items(), key=operator.itemgetter(1), reverse = True)
+    if num_players <= 0 :
+        output = sorted(D.items(), key=operator.itemgetter(1), reverse = True)
+
+    else:
+        output = sorted(D.items(), key=operator.itemgetter(1), reverse = True)[:num_players]
+
+    return output
 
 #given two dates and a player, returns the game numbers of first and last game played
 def get_games_num(player, start, end):
@@ -213,9 +219,9 @@ def get_games_num(player, start, end):
     return first, last
 
 
-#test = get_fantasies('2015-16', 'OCT 27, 2015', 'APR 13, 2016')
-#print test
-# print len(test)
+test = get_fantasies('2015-16', 'OCT 27, 2015', 'OCT 30, 2015', 10)
+print test
+print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
 #player = pickle.load(open('data' + os.sep + '2014-15' + os.sep + 'player_stats' + os.sep + '203487' + '.pkl', 'rb'))
