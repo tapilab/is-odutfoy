@@ -41,6 +41,7 @@ def week_feature(player, start_date, end_date, season_start, binary_pos = False,
             avg_points = avg_points/len(games)
 
         avg.append(avg_points)
+        avg.append(len(next_games))
 
     return avg, score
 
@@ -199,6 +200,39 @@ class week_simul:
             playerID = player[26:-4] if self.players_num == 0 else player
             player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
             X, y = week_feature(player, self.curr_date, next_date, self.start_date, self.binary_pos, self.num_last_games)
+            if X != [] and y != -100:
+                X = np.reshape(X, (1, len(X)))
+                X = self.poly.fit_transform(X)
+                predicted[player['name']] = model.predict(X)
+                scores[player['name']] = y
+
+        best_predicted = sorted(predicted.items(), key=operator.itemgetter(1), reverse = True)[:self.predict_num]
+        best_real = sorted(scores.items(), key=operator.itemgetter(1), reverse = True)[:self.predict_num]
+        predicted_real = []
+        for candidate in best_predicted:
+            name = candidate[0]
+            predicted_real.append((name, scores[name]))
+
+        print "Predictions from {} to {} ares as follows : \n".format(self.curr_date, next_date)
+
+        print 'players predicted :\n'
+        print best_predicted
+        print '\nTheir real score :\n'
+        print predicted_real
+        print '\nActual best players :\n'
+        print best_real
+
+        predicted_score = sum(x[1] for x in best_predicted)
+        best_score = sum(x[1] for x in best_real)
+        actual_score = sum(x[1] for x in predicted_real)
+
+        print "\n predicted score : {}".format(predicted_score[0])
+        print "Actual score : {}".format(actual_score)
+        print "best possible score : {}".format(best_score)
+
+        return best_score - actual_score
+
+    def full_prediction(self):
 
     def full_simulation(self, playerID = None):
         errors = []
@@ -246,8 +280,9 @@ class week_simul:
 
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
-test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
-test.full_simulation('708')
+test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
+test.predict()
+#test.full_simulation('708')
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)

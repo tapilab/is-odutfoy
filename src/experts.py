@@ -189,7 +189,7 @@ def get_fantasies(season, start, end, num_players = 0):
 
             D[playerID] = score
 
-    if num_players <= 0 :
+    if num_players <= 0:
         output = sorted(D.items(), key=operator.itemgetter(1), reverse = True)
 
     else:
@@ -219,9 +219,12 @@ def get_games_num(player, start, end):
     return first, last
 
 
-test = get_fantasies('2015-16', 'OCT 27, 2015', 'OCT 30, 2015', 10)
-print test
-print len(test)
+# test = get_fantasies('2006-07', 'OCT 27, 2006', 'APR 30, 2007', 3)
+# print test
+#
+# print sum(x[1] for x in test)
+
+# print len(test)
 
 #print get_ID('2012-13', 'Jeremy Lin')
 #player = pickle.load(open('data' + os.sep + '2014-15' + os.sep + 'player_stats' + os.sep + '203487' + '.pkl', 'rb'))
