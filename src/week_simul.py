@@ -12,7 +12,7 @@ def week_feature(player, start_date, end_date, season_start, binary_pos = False,
 
     avg = []
 
-    if start != -1:
+    if start > 0:
         avg = average(player, start - 1)[0]
 
         if binary_pos:
@@ -83,7 +83,7 @@ def week_features(season, start_date, end_date, step, binary_pos = False, num_la
 
 class week_simul:
 
-    def __init__(self, season, start_date, end_date, model, days = 6, players_num = 0, binary_pos = False, num_last_games = 0, best_players = 0):
+    def __init__(self, season, start_date, end_date, model, days = 6, players_num = 0, binary_pos = False, num_last_games = 0, best_players = 0, predict_num = 0):
         print "Initializing attributes"
         self.season = season
         self.curr_date = start_date
@@ -97,6 +97,7 @@ class week_simul:
         self.week = 0
         self.start_date = start_date
         self.poly = preprocessing.PolynomialFeatures(2)
+        self.predict_num = predict_num
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -133,7 +134,6 @@ class week_simul:
         print self.trainy.min(), self.trainy.max()
 
         print "Building initial test data"
-        self.update_testing()
         next_date = date_add(self.curr_date, self.days)
         self.curr_date = date_add(next_date, 1)
         self.week += 1
@@ -187,6 +187,19 @@ class week_simul:
 
         return errors
 
+    #produces list of best players and compares to best doable.
+    def predict(self):
+        next_date = date_add(self.curr_date, self.days)
+        self.model.fit(self.trainX, self.trainy)
+
+        predicted = dict()
+        scores = dict()
+
+        for player in self.players:
+            playerID = player[26:-4] if self.players_num == 0 else player
+            player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
+            X, y = week_feature(player, self.curr_date, next_date, self.start_date, self.binary_pos, self.num_last_games)
+
     def full_simulation(self, playerID = None):
         errors = []
         weeks = []
@@ -233,8 +246,8 @@ class week_simul:
 
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
-test = week_simul('2013-14', 'OCT 29, 2013', 'APR 16, 2014', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
-test.full_simulation('203076')
+test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0)
+test.full_simulation()
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)
