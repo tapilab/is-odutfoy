@@ -196,15 +196,27 @@ class week_simul:
         predicted = dict()
         scores = dict()
 
+        Xs = []
+        ys = []
+
         for player in self.players:
             playerID = player[26:-4] if self.players_num == 0 else player
             player = pickle.load(open('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + playerID + '.pkl', 'rb'))
             X, y = week_feature(player, self.curr_date, next_date, self.start_date, self.binary_pos, self.num_last_games)
+
             if X != [] and y != -100:
                 X = np.reshape(X, (1, len(X)))
                 X = self.poly.fit_transform(X)
                 predicted[player['name']] = model.predict(X)
                 scores[player['name']] = y
+
+                #to update training
+                Xs.append(X)
+                ys.append(y)
+
+        #testX and y are not really used here but useful to update training
+        self.testX, self.testy = np.reshape(Xs, (len(Xs), Xs[0].shape[1])), np.reshape(ys, len(ys))
+        self.trainX, self.trainy = np.concatenate((self.trainX, self.testX)), np.concatenate((self.trainy, self.testy))
 
         best_predicted = sorted(predicted.items(), key=operator.itemgetter(1), reverse = True)[:self.predict_num]
         best_real = sorted(scores.items(), key=operator.itemgetter(1), reverse = True)[:self.predict_num]
@@ -226,13 +238,31 @@ class week_simul:
         best_score = sum(x[1] for x in best_real)
         actual_score = sum(x[1] for x in predicted_real)
 
-        print "\n predicted score : {}".format(predicted_score[0])
+        print "\nPredicted score : {}".format(predicted_score[0])
         print "Actual score : {}".format(actual_score)
         print "best possible score : {}".format(best_score)
+
+        self.curr_date = date_add(next_date, 1)
+        self.week += 1
+
+        if not date_before(self.curr_date, self.end_date):
+            print "Season has ended, user should stop simulating"
 
         return best_score - actual_score
 
     def full_prediction(self):
+        errors = []
+        weeks = []
+
+        while date_before(self.curr_date, self.end_date):
+            errors.append(self.predict())
+            weeks.append(self.week)
+
+        plt.plot(weeks, errors)
+        plt.show()
+
+        print "Total error for the {} season is {} which averages to {} a week".format(self.season, sum(errors), np.mean(errors))
+
 
     def full_simulation(self, playerID = None):
         errors = []
@@ -281,7 +311,7 @@ class week_simul:
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
 test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
-test.predict()
+test.full_prediction()
 #test.full_simulation('708')
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
