@@ -310,9 +310,9 @@ class week_simul:
 
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
-test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
+test = week_simul('2015-16', 'OCT 27, 2015', 'APR 13, 2016', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
 test.full_prediction()
-#test.full_simulation('708')
+#test.full_simulation('201939')
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)
