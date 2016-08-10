@@ -219,8 +219,8 @@ def get_games_num(player, start, end):
     return first, last
 
 
-# test = get_fantasies('2015-16', 'OCT 27, 2015', 'APR 13, 2016', 3)
-# print test
+#test = get_fantasies('2006-07', 'OCT 31, 2006', 'APR 18, 2007', 3)
+#print test
 #
 # print sum(x[1] for x in test)
 

@@ -230,6 +230,7 @@ def avg_baseline(season, best_players = 0):
 # positions = []
 # for file in os.listdir("data/2006-07/player_stats"):
 #     player = pickle.load(open("data/2006-07/player_stats/" + file, 'rb'))
+#     print player['experience']
 #     position = player['position']
 #
 #     if position not in positions:

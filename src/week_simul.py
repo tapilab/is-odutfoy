@@ -99,6 +99,7 @@ class week_simul:
         self.start_date = start_date
         self.poly = preprocessing.PolynomialFeatures(2)
         self.predict_num = predict_num
+        self.week_errors = []
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -163,8 +164,9 @@ class week_simul:
                 Xs.append(X)
                 ys.append(y)
 
-        self.testX, self.testy = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
-        self.testX = self.poly.fit_transform(self.testX)
+        if len(Xs) != 0:
+            self.testX, self.testy = np.reshape(Xs, (len(Xs), len(Xs[0]))), np.reshape(ys, len(ys))
+            self.testX = self.poly.fit_transform(self.testX)
 
 
     #predicts values and updates training and testing set for the next days
@@ -175,10 +177,14 @@ class week_simul:
 
         print "Average and max errors on predictions from {} to {} is {}".format(self.curr_date, next_date, errors)
 
+        self.week_errors.append(errors[0])
+
         self.trainX, self.trainy = np.concatenate((self.trainX, self.testX)), np.concatenate((self.trainy, self.testy))
 
         self.curr_date = date_add(next_date, 1)
         self.week += 1
+
+        print "Average error per week so far is {}".format(np.mean(self.week_errors))
 
         if date_before(self.curr_date, self.end_date):
             self.update_testing()
@@ -296,7 +302,7 @@ class week_simul:
             bs_avg = np.zeros(len(playery))
             for i in range(len(playery)):
                 bs_avg[i] = np.mean(bs[:i + 1])
-            games = [game for game in range(len(playery))]
+            games = range(len(playery))
             plt.plot(games, predicts, 'ro', games, playery, 'o', games, bs, 'go', games, bs_avg, 'yo')
             plt.show()
             plt.clf()
@@ -310,9 +316,10 @@ class week_simul:
 
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
-test = week_simul('2015-16', 'OCT 27, 2015', 'APR 13, 2016', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
-test.full_prediction()
-#test.full_simulation('201939')
+#model = svm.SVR(kernel='linear', degree=1, max_iter=20000)
+test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=0, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
+#test.full_prediction()
+test.full_simulation('708')
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)
