@@ -230,8 +230,8 @@ model = linear_model.LinearRegression(normalize=True)
 
 # X, y = season_features('2005-06')
 # plot(X, y)
-# model.fit(X,y)
-# print error(model, X, y)
+#model.fit(X,y)
+#print error(model, X, y)
 #
 # tmp = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2012-13', '2013-14'] #, '2014-15']
 # Xs, ys = [], []
@@ -247,26 +247,26 @@ model = linear_model.LinearRegression(normalize=True)
 # print error(model, testX, testy)
 
 
-trainX, trainy = season_features('2005-06')
-model.fit(trainX, trainy)
-testX, testy = player_features('2006-07', '708')
-predicts = model.predict(testX)
-games = range(len(predicts))
-# bs_avg = np.zeros(len(testy))
-# for i in range(len(testy)):
-#     bs_avg[i] = np.mean(testy[:i + 1])
+# trainX, trainy = season_features('2005-06')
+# model.fit(trainX, trainy)
+# testX, testy = player_features('2006-07', '708')
+# predicts = model.predict(testX)
+# games = range(len(predicts))
+# # bs_avg = np.zeros(len(testy))
+# # for i in range(len(testy)):
+# #     bs_avg[i] = np.mean(testy[:i + 1])
+# #
+# # print testy
+# # print bs_avg
 #
-# print testy
-# print bs_avg
-
+# #
+# plt.plot(games, predicts, 'ro', games, testy, 'o') #, games, bs_avg, 'yo')
+# plt.show()
+# plt.clf()
 #
-plt.plot(games, predicts, 'ro', games, testy, 'o') #, games, bs_avg, 'yo')
-plt.show()
-plt.clf()
-
-plt.plot(games, abs(predicts - testy), 'r') #, games, abs(bs_avg - testy), 'y')
-plt.show()
-plt.clf()
+# plt.plot(games, abs(predicts - testy), 'r') #, games, abs(bs_avg - testy), 'y')
+# plt.show()
+# plt.clf()
 
 
 #compute_and_results(seasons, model, degree=0, binary_pos=False, include_loc=False, num_last_games=0, best_players=0)

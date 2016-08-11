@@ -99,7 +99,8 @@ class week_simul:
         self.start_date = start_date
         self.poly = preprocessing.PolynomialFeatures(2)
         self.predict_num = predict_num
-        self.week_errors = []
+        self.week_avg_errors = []
+        self.week_max_errors = []
 
         if self.players_num == 0:
             self.players = glob.glob('data' + os.sep + self.season + os.sep + 'player_stats' + os.sep + "*.pkl")
@@ -177,20 +178,25 @@ class week_simul:
 
         print "Average and max errors on predictions from {} to {} is {}".format(self.curr_date, next_date, errors)
 
-        self.week_errors.append(errors[0])
+        self.week_avg_errors.append(errors[0])
+        self.week_max_errors.append(errors[1])
 
         self.trainX, self.trainy = np.concatenate((self.trainX, self.testX)), np.concatenate((self.trainy, self.testy))
 
         self.curr_date = date_add(next_date, 1)
         self.week += 1
 
-        print "Average error per week so far is {}".format(np.mean(self.week_errors))
+        print "Average error per week so far is {}, {}".format(np.mean(self.week_avg_errors), np.mean(self.week_max_errors))
 
         if date_before(self.curr_date, self.end_date):
             self.update_testing()
 
         else:
             print "Season has ended, user should stop simulating"
+            coefs = dict()
+            for i, coef in enumerate(model.coef_):
+                coefs[str(i)] = coef
+            print sorted(coefs.items(), key=operator.itemgetter(1), reverse = True)
 
         return errors
 
@@ -231,7 +237,7 @@ class week_simul:
             name = candidate[0]
             predicted_real.append((name, scores[name]))
 
-        print "Predictions from {} to {} ares as follows : \n".format(self.curr_date, next_date)
+        print "Predictions from {} to {} are as follows : \n".format(self.curr_date, next_date)
 
         print 'players predicted :\n'
         print best_predicted
@@ -317,9 +323,9 @@ class week_simul:
 model = linear_model.LinearRegression(normalize=True)
 #model = linear_model.Ridge(normalize=True)
 #model = svm.SVR(kernel='linear', degree=1, max_iter=20000)
-test = week_simul('2006-07', 'OCT 31, 2006', 'APR 18, 2007', model, days=0, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=13)
-#test.full_prediction()
-test.full_simulation('708')
+test = week_simul('2015-16', 'OCT 27, 2015', 'APR 13, 2016', model, days=6, binary_pos= False, num_last_games=0, players_num=0, best_players=0, predict_num=20)
+test.full_prediction()
+#test.full_simulation('201939')
 
 # X, y = week_features('2013-14', 'OCT 29, 2013', 'APR 16, 2014', 6)
 # poly = preprocessing.PolynomialFeatures(2)
